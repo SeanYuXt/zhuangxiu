@@ -1,0 +1,43 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#f4f1ea"><link rel="icon" href="data:,"><title>湖畔 · 暖调现代简约</title><link rel="stylesheet" href="column-view.css?v=washroom-clarity"><link rel="stylesheet" href="mobile-view.css?v=mobile-1"><link rel="stylesheet" href="continuous-walk.css?v=walk-1"><link rel="stylesheet" href="lighting-controls.css?v=layered-light"><link rel="stylesheet" href="viewer-focus-ui.css?v=quiet-preview-3"></head><body>
+<dialog id="spaceGuide" aria-labelledby="spaceGuideTitle">
+ <form method="dialog"><h2 id="spaceGuideTitle">房间与洗漱区在哪里</h2><button aria-label="关闭空间定位">关闭 ×</button></form>
+ <section class="guide-quick" aria-label="洗漱与收纳直接定位">
+ <a href="entry-wall-redesign.html">入户整墙新方案 · 梁与电箱保留 →</a>
+  <button data-dry-study="offset">公卫干区 · 当前镜柜移门方案 →</button>
+  <button data-locate-room="bath2" data-locate-object="bath2-vanity">① 主卫内 · 洗漱台 →</button>
+  <button data-locate-room="bath1" data-locate-object="bath1-vanity">④ 公卫外 · 干区洗手台 →</button>
+  <button data-locate-room="master" data-locate-object="master-entry-wardrobe">② 主卧入口 · 衣柜（非衣帽间）→</button>
+ </section>
+ <p>先在图中找位置，再点击数字进入三维实物。沿用现模型墙线，不是独立重画的户型或施工尺寸图。</p>
+ <svg id="locatorPlan" viewBox="0 80 1920 830" role="group" aria-label="现模型位置索引，数字可点击定位"></svg>
+ <p>① 主卫洗漱台　② 主卧入口衣柜　③ 主卧另一组衣柜　④ 公卫外置洗手台　⑤ 鞋柜</p>
+ <p><a href="source-window-check.svg" target="_blank">原图窗高核对：7 组窗区 / 卧室非落地玻璃 →</a></p>
+ <section><h3>卧室与卫生间分开命名</h3>
+  <button data-locate-room="bed1">老人房 · 公卫旁的卧室 →</button>
+  <button data-locate-room="bed3">儿童房 · 学习与睡眠空间 →</button>
+  <p><a href="children-layouts.html?option=study">儿童房尺寸试排：现模型冲突 / A 学习收纳 / B 保留大床 →</a></p>
+  <button data-locate-room="bath1">公卫（次卫） · 蹲便与淋浴 →</button>
+ </section>
+ <section><h3>两处洗漱台</h3>
+  <p>① 主卫洗漱台在主卫进门左侧，镜背朝原左墙、柜面朝室内，台面 670 × 490 mm。不是梳妆台；供排水、抽屉拉出及淋浴门仍待深化。</p>
+  <p>④ 外置台盆是老人房旁的公卫干区，不属于儿童房。当前650×400mm台盆柜带防溅侧挡、隐私屏和镜柜；换鞋凳原尺寸保留并右移40mm，隔挡侧留约50mm安装间隙，不是过道宽度。</p>
+  <h3>玄关旁的洗手台：当前移门方案</h3>
+  <p>当前方案采用横移柜门，避免抽屉伸进洗漱通道；柜内有避让存水弯的分区、可检修仓及日常毛巾收纳。保留A/B/C历史对照，不代表已选产品或施工通过；排水接点、挂墙承重、防水和五金仍待核。</p>
+  <p>若改回公卫内：现模型约 1710 × 1660 mm，已布置蹲便与淋浴，不能直接再塞台盆。需要把三件设施、开门和站位一起重排；目前没有足够验证支持这样改更合理。</p>
+ </section>
+ <section><h3>主卧 · 梳妆与组合衣柜</h3>
+  <button data-master-dressing>比较主卧：高柜 / 浅柜 / 薄床架＋翻盖梳妆 →</button>
+  <button data-locate-room="master" data-locate-object="master-wardrobe">③ 查看主卧另一组衣柜 →</button>
+  <p>当前默认薄床架＋翻盖梳妆方案，梳妆台和约4.5m组合高柜已进入全屋；保留旧方案作比较，不代表施工通过。这里不是独立衣帽间。原入口通道约 1122 mm，若对面再加 600 mm 深柜只余约 522 mm，不能硬塞双排柜。床尾高柜与原床尾仅约 600 mm，同样需要取舍。</p>
+ </section>
+ <small>公卫干区和主卧梳妆候选已可切换比较，不代表可施工或已选方案。主卫柜已修正朝向；墙体、门洞、设备和管线仍需现场核实。</small>
+</dialog>
+<header><div><h1>湖畔 · 暖调现代简约</h1><p>全屋设计深化中 · 可连续行走 · 主卧梳妆收纳已接入</p></div><nav><a href="accepted-effects.html" style="padding:10px;color:inherit">整屋效果图</a><button id="spaceGuideToggle">房间·洗漱定位</button><button id="entryShoes">鞋柜定位</button><button id="entryInside" aria-pressed="false" hidden>查看鞋柜内部</button><button id="inventoryToggle">软装·设备清单</button><button id="tvWall">电视墙</button><button data-mode="walk">自由行走</button><button data-mode="look" class="active">室内环顾</button><button data-mode="layout">本房布局</button><button data-mode="orbit">旋转全景</button><button data-mode="top">全屋俯视</button><button data-mode="plan">2D 对照</button><button id="lightingMode" aria-pressed="false">夜间灯光</button><button id="collapse">展开说明</button><button id="fullscreen">全屏 ⛶</button><button id="reset">复位</button></nav></header>
+<main class="wide"><section id="viewport"><canvas id="view3d" aria-label="拖动旋转三维场景，滚轮缩放"></canvas><iframe id="plan" title="柱位平面核对" src="column-check.html?plan=1" hidden style="border:0"></iframe><div id="busy">正在加载本地三维场景和湖景材质…</div><div id="position" class="overlay" aria-live="polite"></div><div id="hotspots" aria-label="画面内房间方向箭头"></div>
+<details id="facilities" open><summary id="facilityTitle">本房布局与设施</summary><p id="facilitySummary"></p><button data-mode="layout">查看本房布局 ↗</button><div id="facilityList"></div><small>点击设施名称定位。外机、管线、机型与安装条件待核实。</small></details><div id="facilityNote" class="overlay" role="status" hidden></div>
+<details id="masterDressing" hidden open><summary>主卧 · 衣帽与梳妆试排</summary><div><button data-dressing-option="original">现状</button><button data-dressing-option="storage">A 高柜收纳</button><button data-dressing-option="open">B 浅柜显宽</button><button data-dressing-option="balanced">C 薄床架＋翻盖</button></div><div><button data-dressing-use="stored">凳子收进</button><button data-dressing-use="seated">拉凳使用</button><button data-dressing-use="drawer">拉凳＋开抽屉</button><button id="dressingDoors">滑开柜门看收纳</button><button id="dressingPlanButton">尺寸与占位平面</button></div><p id="masterDressingMetrics"></p><small>可撤回的布局候选，不是独立衣帽间或已确认施工结果。轨道、五金、衣物、照度、电源及镜面反射均未实物验证。</small></details>
+<dialog id="dressingPlanDialog"><form method="dialog"><h2>主卧衣帽与梳妆 · 同源平面</h2><button>关闭 ×</button></form><svg id="dressingPlan" viewBox="11.9 0 6.5 5.9" role="img" aria-label="主卧候选柜体、梳妆位和凳子抽屉占位"></svg><p id="dressingPlanNote"></p></dialog>
+<details id="dryZoneStudy" hidden open><summary>公卫干区 · 布局试排</summary><div><button data-dry-option="integrated">当前 · 移门干区</button><button data-dry-option="original">现状</button><button data-dry-option="deep">A 常规深柜</button><button data-dry-option="slim">B 浅柜</button><button data-dry-option="offset">C 窄柜侧移</button><button id="dryPlanButton">尺寸与站位平面</button></div><p id="dryZoneMetrics"></p><small>试排未选定，未改原墙门及全屋基准模型。浅柜须匹配浅盆；镜柜、五金与管路未选型。定位页仅实时模型，不是照片级效果。</small></details>
+<dialog id="dryPlanDialog"><form method="dialog"><h2>公卫干区 · 同源尺寸平面</h2><button>关闭 ×</button></form><svg id="dryPlan" viewBox=".9 5.1 4.9 2.7" role="img" aria-label="当前公卫干区柜体、站位和原门扇示意"></svg><p id="dryPlanNote"></p><p>绿：柜体与隔挡；粉：600×600mm假设站位；橙：原门扇0–90°轨迹。当前柜门横移不外伸；只有历史抽屉候选显示320mm拉出虚线。</p><small>沿用现模型墙线；图上方不代表北向。局部试验不是全屋或无障碍验收，不是管线及施工定位图。</small></dialog>
+<div id="roomTour" aria-label="房间切换"><button id="previousRoom" aria-label="上一个房间">←</button><label>查看空间<select id="roomSelect" aria-label="选择房间"></select></label><button id="nextRoom" aria-label="下一个房间">→</button><span id="roomCount"></span></div><div id="gesture" class="overlay">拖动环顾 · 点击箭头切换房间</div><button id="exitFull">退出全屏 ×</button></section>
+<aside><b>查看位置</b><button data-view="living">客餐厅 → 湖景横厅</button><button data-view="bar">阳台双翼桌与四席</button><button data-view="lake">阳台 → 室内</button><button data-view="cabinet">餐边柜与内嵌管线机</button><button data-view="laundry">洗烘柜</button><p>画面箭头切换空间；底部选择房间，拖动环顾、滚轮缩放。顶部“电视墙”直接回到整墙效果。</p><b>横厅展示与收纳</b><p>85寸电视与双侧各两格展示区组成3.3m横向带，格宽550mm、柜深约198mm，上下口与电视开口对齐；灰调木内衬、暖灰整片饰面与隐藏灯带。电视及中央饰面前移100mm齐平；原低柜和沙发占地保留。小茶几、薄扶手低背沙发、岛台两席。双翼各1300×560mm、两席/翼；茶盘在右、办公在左，桌面薄翻盖电源。</p><b>使用状态与边界</b><p>四吧席保留；岛台两席已移到长边，拉椅占位不再相交。横厅尺寸面板可演示六席就座、逐席起身和全部拉出；全部拉出45cm时部分起身仍受限。岛台至沙发1050mm、至厨房墙1100mm为静态模型值，不能当作入座后的通道。洗烘门及实际设备安装未验收。</p><p>公卫取消淋浴玻璃隔断，外置洗手台、蹲便、铝扣板吊顶及浴霸保留；防滑、防水、溅水和门口挡水待深化。主卫不作同样变更。</p><p>柱距护栏约 1.5 m 暂按柱中心示意，450 mm 截面待复尺。窗外是湖景素材，不是 13 层实景。电视饰面厚度与悬挂柜固定、散热须按机型和墙体核实。</p><small>实时三维设计预览，不是照片级或施工图。实时漫游使用本页模型；默认高清图已同步本次主卫、梳妆与柜体整合。</small><p>“自由行走”：电脑WASD，手机从“更多”进入并用左侧摇杆走动。各模式使用本页同一模型。</p></aside></main><dialog id="inventory" aria-labelledby="inventoryTitle"><form method="dialog"><h2 id="inventoryTitle">全屋软装与设备</h2><button aria-label="关闭清单">关闭 ×</button></form><p id="inventoryStatus"></p><div id="inventoryItems"></div><h3>尚未完成 / 待优化</h3><ul id="inventoryPending"></ul></dialog><script type="module" src="column-view.js?v=entry-close-then-change-7"></script></body></html>

@@ -1,0 +1,13 @@
+#tilePlanDialog{width:min(1100px,calc(100vw - 24px));max-height:calc(100dvh - 32px);box-sizing:border-box;overflow:auto;padding:20px;background:#fbfaf6;color:#373731;border:1px solid #d7d4ca;border-radius:14px}
+#tilePlanDialog::backdrop{background:#25282177}
+#tilePlanDialog form{display:flex;justify-content:space-between;align-items:center;gap:12px}
+#tilePlanDialog h2{font-size:20px;margin:0}
+#tilePlanDialog p{font-size:15px;line-height:1.65}
+#tilePlanDrawing{margin-top:16px;overflow:auto;background:#f0ede6;border-radius:8px}
+#tilePlanDrawing svg{display:block;width:100%;min-width:0}
+#tilePlanDrawing.tile-zoomed svg{width:150%;min-width:660px}
+#tilePlanZoom{margin-top:12px}
+#tileRoomLinks{display:flex;flex-wrap:wrap;gap:8px}
+#tilePlanDialog button{font-size:14px;min-height:44px}
+#tilePlanDialog .tile-limits{font-size:14px;color:#65675e}
+@media(max-width:600px){#tilePlanDialog{padding:14px}#tileRoomLinks{display:grid;grid-template-columns:repeat(2,1fr)}}

@@ -1,0 +1,133 @@
+{
+  "checks": [
+    {
+      "station": "master",
+      "object": "master-air-conditioner",
+      "visible": true
+    },
+    {
+      "station": "bed1",
+      "object": "bed1-bed",
+      "visible": true
+    },
+    {
+      "station": "bed3",
+      "object": "bed3-desk",
+      "visible": true
+    },
+    {
+      "station": "bath1",
+      "object": "bath1-squat-pan",
+      "visible": true
+    },
+    {
+      "station": "bath2",
+      "object": "bath2-vanity",
+      "visible": true
+    }
+  ],
+  "spaces": [
+    "entry",
+    "living",
+    "tvSeat",
+    "dining",
+    "cabinet",
+    "fridge",
+    "kitchen",
+    "bar",
+    "balconyGap",
+    "columnFront",
+    "glassLeft",
+    "glassRight",
+    "laundry",
+    "care",
+    "drying"
+  ],
+  "seatStates": [
+    {
+      "mode": "working",
+      "checked": 6
+    },
+    {
+      "mode": "pulled",
+      "checked": 6
+    },
+    {
+      "mode": "stored",
+      "checked": 6
+    },
+    {
+      "mode": "stand",
+      "active": 0,
+      "checked": 6
+    },
+    {
+      "mode": "stand",
+      "active": 1,
+      "checked": 6
+    },
+    {
+      "mode": "stand",
+      "active": 2,
+      "checked": 6
+    },
+    {
+      "mode": "stand",
+      "active": 3,
+      "checked": 6
+    },
+    {
+      "mode": "stand",
+      "active": 4,
+      "checked": 6
+    },
+    {
+      "mode": "stand",
+      "active": 5,
+      "checked": 6
+    }
+  ],
+  "sizes": 3,
+  "errors": [],
+  "layout": {
+    "revision": "six-seat-long-side-20260906",
+    "wingLengths": [
+      1.2999999523162842,
+      1.2999999523162842
+    ],
+    "islandToSofa": 1.049999998807908,
+    "islandToKitchenWall": 1.1000000119209288,
+    "kitchenOpening": 1.64,
+    "rightWingToLaundry": 0.8000000095367437,
+    "sofaToCoffee": 0.44999998807907104,
+    "rugSize": [
+      2.2000001057857226,
+      3.2000000442283736
+    ],
+    "screenNormalDistance": 2.5649999999999995,
+    "eyeToScreenCenter": 2.668037668399754,
+    "horizontalAngle": 38.34159918259201,
+    "eye": [
+      9.275,
+      1.08,
+      4.3
+    ],
+    "careToLeftWing": 0.9550000242292889,
+    "careToFridge": 0.3100000002831218,
+    "barDepth": 0.5600000023841858,
+    "glassToTable": 1.2299999988079071,
+    "occupiedSeatToSofa": 0.24000000203241934,
+    "laundryOffsetZ": -0.55,
+    "laundryToFrontGlass": 0.13999999989569173,
+    "washerCenterZ": 0.576,
+    "washerCenterToTableBack": 0.7539999988079072
+  },
+  "geometryChanged": true,
+  "exported": true,
+  "renderSource": "offline-render/mobile-current.glb",
+  "limits": [
+    "Chrome viewport/touch simulation; not a physical phone",
+    "Equal 1.3m four-seat wings are a candidate; washer open-door use is not certified",
+    "Bedroom geometry is separately checked by verify-bedroom-revision.cjs; this navigation test does not certify furniture installation"
+  ]
+}

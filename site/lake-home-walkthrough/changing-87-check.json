@@ -1,0 +1,28 @@
+{
+  "changingCircleDiameterCm": 80,
+  "changingCentre": [
+    1.15,
+    1.5
+  ],
+  "distanceToObstaclesM": {
+    "basin": 0.6379999999999999,
+    "innerClosed": 0.43199999999999994,
+    "outerWall": 0.4527692569068708,
+    "outerClosed": 0.5550000000000002,
+    "clothesCabinet": 0.6740000000000002,
+    "towel": 0.813203541556479
+  },
+  "outerLeafToWardrobeNominalCm": 3.5,
+  "outerRailToWardrobeNominalCm": 1.5,
+  "dryCabinetCm": [
+    60,
+    20,
+    50
+  ],
+  "notes": [
+    "Single occupant. No guarantee of real-person comfort from a circle.",
+    "Outer door hardware/trim not selected; tight parking needs field check.",
+    "Drainage and waterproofing not verified.",
+    "Dry cabinet sliding doors stay inside its plan footprint."
+  ]
+}

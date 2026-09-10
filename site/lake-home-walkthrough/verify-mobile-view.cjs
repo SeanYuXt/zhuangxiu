@@ -1,0 +1,28 @@
+// Prevent mobile toolbar occlusion, overflowing landscape canvas, and stuck pinch state.
+const {chromium}=require('C:/Users/vv-dev-work/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+const fs=require('node:fs'),assert=require('node:assert/strict');
+(async()=>{const browser=await chromium.launch({channel:'chrome',headless:true,args:['--enable-webgl','--no-sandbox']});try{
+ const context=await browser.newContext({viewport:{width:390,height:844},isMobile:true,hasTouch:true,deviceScaleFactor:1}),page=await context.newPage(),errors=[],sizes=[];page.on('pageerror',e=>errors.push(e.message));
+ await page.goto('http://127.0.0.1:8768/lake-home-walkthrough/column-view.html?v=mobile-1&space=bed1');await page.waitForFunction(()=>window.columnViewDebug?.state.ready);
+ for(const [width,height] of [[390,844],[360,740],[844,390]]){
+  await page.setViewportSize({width,height});await page.evaluate(()=>new Promise(r=>requestAnimationFrame(()=>requestAnimationFrame(r))));
+  const size=await page.evaluate(()=>{const v=document.querySelector('#viewport').getBoundingClientRect(),b=document.querySelector('#roomTour').getBoundingClientRect();return {width:innerWidth,height:innerHeight,overflow:document.documentElement.scrollWidth>innerWidth,canvasHeight:v.height,canvasBottom:v.bottom,roomTourBottom:b.bottom,header:document.querySelector('header').getBoundingClientRect().height};});
+  console.log(JSON.stringify(size));assert.equal(size.overflow,false);assert.ok(size.canvasHeight>220);assert.ok(size.canvasBottom<=height+1);assert.ok(size.roomTourBottom<=height+1);sizes.push(size);
+  await page.screenshot({path:__dirname+`/mobile-view-${width}x${height}.png`});
+ }
+ await page.setViewportSize({width:390,height:844});await page.locator('#mobileMenuToggle').click();assert.equal(await page.locator('#mobileMenuToggle').getAttribute('aria-expanded'),'true');
+ await page.locator('#inventoryToggle').click();assert.ok(await page.locator('#inventory').evaluate(d=>d.open));assert.equal(await page.locator('#mobileMenuToggle').getAttribute('aria-expanded'),'false');await page.locator('#inventory [aria-label="关闭清单"]').click();
+ await page.locator('#roomSelect').selectOption('bed3');await page.waitForFunction(()=>columnViewDebug.state.station==='bed3');await page.locator('#nextRoom').click();assert.equal(await page.evaluate(()=>columnViewDebug.state.station),'services');
+ await page.locator('#spaceGuideToggle').click();await page.locator('[data-locate-object="bath2-vanity"]').click();await page.waitForFunction(()=>columnViewDebug.state.selectedVisible&&columnViewDebug.state.station==='bath2');
+ await page.locator('#facilities summary').click();assert.ok(await page.locator('#facilities').evaluate(d=>d.open));await page.screenshot({path:__dirname+'/mobile-view-facilities.png'});await page.locator('#facilities summary').click();
+ await page.locator('#roomSelect').selectOption('living');await page.locator('header [data-mode="look"]').click();
+ const client=await context.newCDPSession(page),v=await page.locator('#view3d').boundingBox(),y=v.y+v.height*.5;
+ const touch=(type,points)=>client.send('Input.dispatchTouchEvent',{type,touchPoints:points.map(([id,x,py])=>({id,x,y:py,radiusX:2,radiusY:2,force:1}))});
+ const before=await page.evaluate(()=>columnViewDebug.state.rotation[1]);await touch('touchStart',[[1,140,y]]);await touch('touchMove',[[1,190,y+15]]);await touch('touchEnd',[]);assert.ok(Math.abs(await page.evaluate(()=>columnViewDebug.state.rotation[1])-before)>.05);
+ const fovBefore=await page.evaluate(()=>columnViewDebug.state.fov);await touch('touchStart',[[1,145,y],[2,245,y]]);await touch('touchMove',[[1,120,y],[2,270,y]]);const fovAfter=await page.evaluate(()=>columnViewDebug.state.fov);assert.ok(fovAfter<fovBefore-5);await touch('touchCancel',[]);
+ const yawAfter=await page.evaluate(()=>columnViewDebug.state.rotation[1]);await touch('touchStart',[[1,140,y]]);await touch('touchMove',[[1,170,y]]);await touch('touchEnd',[]);assert.ok(Math.abs(await page.evaluate(()=>columnViewDebug.state.rotation[1])-yawAfter)>.05);
+ await page.evaluate(()=>document.querySelector('#viewport').requestFullscreen=()=>Promise.reject(new Error('simulated unsupported fullscreen')));
+ await page.locator('#mobileMenuToggle').click();await page.locator('#fullscreen').click();assert.ok(await page.evaluate(()=>document.body.classList.contains('mobile-immersive')));await page.locator('#exitFull').click();assert.equal(await page.evaluate(()=>document.body.classList.contains('mobile-immersive')),false);
+ const desktop=await browser.newPage({viewport:{width:1440,height:1000}});desktop.on('pageerror',e=>errors.push(e.message));await desktop.goto('http://127.0.0.1:8768/lake-home-walkthrough/column-view.html?v=mobile-1');await desktop.waitForFunction(()=>window.columnViewDebug?.state.ready);assert.equal(await desktop.locator('#mobileMenuToggle').isVisible(),false);assert.ok(await desktop.locator('#inventoryToggle').isVisible());assert.ok(await desktop.locator('#fullscreen').isVisible());
+ assert.deepEqual(errors,[]);const result={sizes,singleTouchRotation:true,pinch:{fovBefore,fovAfter},afterCancel:true,roomSwitch:true,facilityLocate:true,menu:true,fullscreenFallback:true,desktop:true,errors,limits:['Chrome touch/viewport emulation, not a physical Android or iPhone test','LAN access not tested from a phone','Existing rough model quality and geometry are unchanged']};fs.writeFileSync(__dirname+'/mobile-view-verification.json',JSON.stringify(result,null,2));console.log(JSON.stringify(result,null,2));
+}finally{await browser.close();}})().catch(e=>{console.error(e);process.exitCode=1});

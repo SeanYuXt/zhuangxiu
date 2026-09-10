@@ -1,0 +1,59 @@
+{
+  "results": [
+    {
+      "samples": 24,
+      "id": "child-study",
+      "image": "surface-pilot-24-child-study.png",
+      "state": {
+        "active": true,
+        "valid": true,
+        "requested": true,
+        "receivers": 60,
+        "atlases": 5,
+        "source": "ff101ba3a24a8eb8c99f2fbda3bdbddb84878f191834a5865615c2ffe288361d"
+      }
+    },
+    {
+      "samples": 24,
+      "id": "child-bed",
+      "image": "surface-pilot-24-child-bed.png",
+      "state": {
+        "active": true,
+        "valid": true,
+        "requested": true,
+        "receivers": 60,
+        "atlases": 5,
+        "source": "ff101ba3a24a8eb8c99f2fbda3bdbddb84878f191834a5865615c2ffe288361d"
+      }
+    },
+    {
+      "samples": 128,
+      "id": "child-study",
+      "image": "surface-pilot-128-child-study.png",
+      "state": {
+        "active": true,
+        "valid": true,
+        "requested": true,
+        "receivers": 60,
+        "atlases": 5,
+        "source": "ff101ba3a24a8eb8c99f2fbda3bdbddb84878f191834a5865615c2ffe288361d"
+      }
+    },
+    {
+      "samples": 128,
+      "id": "child-bed",
+      "image": "surface-pilot-128-child-bed.png",
+      "state": {
+        "active": true,
+        "valid": true,
+        "requested": true,
+        "receivers": 60,
+        "atlases": 5,
+        "source": "ff101ba3a24a8eb8c99f2fbda3bdbddb84878f191834a5865615c2ffe288361d"
+      }
+    }
+  ],
+  "pilotOnly": true,
+  "promoted": false,
+  "limits": "Atlas 3 only; remaining four atlases remain 24 samples. Screenshots require visual review, not automatic quality acceptance."
+}

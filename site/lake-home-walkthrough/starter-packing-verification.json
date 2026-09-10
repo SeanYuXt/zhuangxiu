@@ -1,0 +1,60 @@
+{
+  "originalBytes": 27820844,
+  "packedBytes": 14811056,
+  "originalImages": 18,
+  "packedImages": 15,
+  "verifiedBufferViews": 5393,
+  "geometryAndMaterialDefinitionsUnchanged": true,
+  "sha256": "43d121b264fedc126731f8ab3d10b11f35dbd9a4bbf57f1fd450ebf714767176",
+  "savedBytes": 13009788,
+  "savedPercent": 46.76,
+  "refinedScenesEqual": true,
+  "results": [
+    {
+      "variant": "original",
+      "meshes": 3886,
+      "access": [
+        {
+          "id": "entry",
+          "blocked": null
+        },
+        {
+          "id": "cabinet",
+          "blocked": null
+        },
+        {
+          "id": "care",
+          "blocked": null
+        },
+        {
+          "id": "bath1",
+          "blocked": null
+        }
+      ]
+    },
+    {
+      "variant": "packed",
+      "meshes": 3886,
+      "access": [
+        {
+          "id": "entry",
+          "blocked": null
+        },
+        {
+          "id": "cabinet",
+          "blocked": null
+        },
+        {
+          "id": "care",
+          "blocked": null
+        },
+        {
+          "id": "bath1",
+          "blocked": null
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "limits": "Exact embedded payload verification plus current desktop scene equivalence; not a real-phone speed/FPS or whole-home visual acceptance."
+}

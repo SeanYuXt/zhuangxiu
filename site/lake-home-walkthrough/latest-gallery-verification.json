@@ -1,0 +1,153 @@
+{
+  "source": "afefa847df680d043aab010101ca0dece9138fce06586febd93227bb70aaa715",
+  "renderedAtTestStart": 12,
+  "complete": true,
+  "checked": [
+    {
+      "id": "entry",
+      "width": 1440
+    },
+    {
+      "id": "living",
+      "width": 1440
+    },
+    {
+      "id": "dining",
+      "width": 1440
+    },
+    {
+      "id": "bar",
+      "width": 1440
+    },
+    {
+      "id": "kitchen",
+      "width": 1440
+    },
+    {
+      "id": "bed1",
+      "width": 1440
+    },
+    {
+      "id": "bed3",
+      "width": 1440
+    },
+    {
+      "id": "master",
+      "width": 1440
+    },
+    {
+      "id": "bath1",
+      "width": 1440
+    },
+    {
+      "id": "bath2",
+      "width": 1440
+    },
+    {
+      "id": "laundry",
+      "width": 1440
+    },
+    {
+      "id": "care",
+      "width": 1440
+    },
+    {
+      "id": "entry",
+      "width": 390
+    },
+    {
+      "id": "living",
+      "width": 390
+    },
+    {
+      "id": "dining",
+      "width": 390
+    },
+    {
+      "id": "bar",
+      "width": 390
+    },
+    {
+      "id": "kitchen",
+      "width": 390
+    },
+    {
+      "id": "bed1",
+      "width": 390
+    },
+    {
+      "id": "bed3",
+      "width": 390
+    },
+    {
+      "id": "master",
+      "width": 390
+    },
+    {
+      "id": "bath1",
+      "width": 390
+    },
+    {
+      "id": "bath2",
+      "width": 390
+    },
+    {
+      "id": "laundry",
+      "width": 390
+    },
+    {
+      "id": "care",
+      "width": 390
+    },
+    {
+      "id": "entry",
+      "width": 844
+    },
+    {
+      "id": "living",
+      "width": 844
+    },
+    {
+      "id": "dining",
+      "width": 844
+    },
+    {
+      "id": "bar",
+      "width": 844
+    },
+    {
+      "id": "kitchen",
+      "width": 844
+    },
+    {
+      "id": "bed1",
+      "width": 844
+    },
+    {
+      "id": "bed3",
+      "width": 844
+    },
+    {
+      "id": "master",
+      "width": 844
+    },
+    {
+      "id": "bath1",
+      "width": 844
+    },
+    {
+      "id": "bath2",
+      "width": 844
+    },
+    {
+      "id": "laundry",
+      "width": 844
+    },
+    {
+      "id": "care",
+      "width": 844
+    }
+  ],
+  "errors": [],
+  "limits": "Rendering/gallery/version checks only; viewport simulation, not physical phone or whole-home visual acceptance."
+}

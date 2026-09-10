@@ -1,0 +1,140 @@
+{
+  "before": {
+    "insideCore": true,
+    "pairs": [
+      {
+        "a": "bed",
+        "b": "wardrobe",
+        "underDesk": false
+      }
+    ],
+    "doorHits": [
+      {
+        "id": "wardrobe",
+        "firstDegree": 90
+      }
+    ],
+    "scope": "现模型门片 / 柜身投影；只复现已有缺陷"
+  },
+  "result": [
+    {
+      "option": "study",
+      "pulled": false,
+      "audit": {
+        "insideCore": true,
+        "pairs": [
+          {
+            "a": "desk",
+            "b": "chair",
+            "underDesk": true
+          }
+        ],
+        "doorHits": [],
+        "scope": "1° 抽样 900 mm 预留门扫掠与二维家具外框；非门五金实测或人体使用验收"
+      },
+      "routes": [
+        {
+          "label": "床侧",
+          "reached": true
+        },
+        {
+          "label": "衣柜前",
+          "reached": true
+        },
+        {
+          "label": "窗前核心地面",
+          "reached": true
+        }
+      ]
+    },
+    {
+      "option": "study",
+      "pulled": true,
+      "audit": {
+        "insideCore": true,
+        "pairs": [],
+        "doorHits": [],
+        "scope": "1° 抽样 900 mm 预留门扫掠与二维家具外框；非门五金实测或人体使用验收"
+      },
+      "routes": [
+        {
+          "label": "床侧",
+          "reached": true
+        },
+        {
+          "label": "衣柜前",
+          "reached": true
+        },
+        {
+          "label": "窗前核心地面",
+          "reached": true
+        }
+      ]
+    },
+    {
+      "option": "widebed",
+      "pulled": false,
+      "audit": {
+        "insideCore": true,
+        "pairs": [],
+        "doorHits": [],
+        "scope": "1° 抽样 900 mm 预留门扫掠与二维家具外框；非门五金实测或人体使用验收"
+      },
+      "routes": [
+        {
+          "label": "床侧",
+          "reached": true
+        },
+        {
+          "label": "衣柜前",
+          "reached": true
+        },
+        {
+          "label": "床尾",
+          "reached": true
+        },
+        {
+          "label": "窗前核心地面",
+          "reached": false
+        }
+      ]
+    },
+    {
+      "option": "widebed",
+      "pulled": true,
+      "audit": {
+        "insideCore": true,
+        "pairs": [],
+        "doorHits": [],
+        "scope": "1° 抽样 900 mm 预留门扫掠与二维家具外框；非门五金实测或人体使用验收"
+      },
+      "routes": [
+        {
+          "label": "床侧",
+          "reached": true
+        },
+        {
+          "label": "衣柜前",
+          "reached": true
+        },
+        {
+          "label": "床尾",
+          "reached": true
+        },
+        {
+          "label": "窗前核心地面",
+          "reached": false
+        }
+      ]
+    }
+  ],
+  "ui": {
+    "rotation": true,
+    "modeSwitch": true,
+    "chairPull": true,
+    "doorAngle": true,
+    "mobile": true,
+    "errors": []
+  },
+  "scope": "条件试排与网页验证，不是布局选择、人体舒适性或施工验收"
+}

@@ -1,0 +1,48 @@
+{
+  "build": {
+    "currentImages": 12,
+    "complete": true,
+    "files": 154,
+    "bytes": 168537063,
+    "largest": [
+      {
+        "name": "offline-render/home-facilities-packed.glb",
+        "bytes": 14811056,
+        "sha256": "43d121b264fedc126731f8ab3d10b11f35dbd9a4bbf57f1fd450ebf714767176"
+      },
+      {
+        "name": "assets/surface-lighting-v2/atlas-4.hdr",
+        "bytes": 8893919,
+        "sha256": "aebb6e6f3182a80b251dbefc9e315d2730da138727eab0c177362fce6f4b5bad"
+      },
+      {
+        "name": "assets/surface-lighting-v2/atlas-1.hdr",
+        "bytes": 8348235,
+        "sha256": "da991a816b028b6f5a652a1bd22885f2a96c59366df4e5da31c59620bf91d031"
+      }
+    ],
+    "published": false
+  },
+  "checks": [
+    {
+      "width": 1440,
+      "scenes": {
+        "ready": true,
+        "station": "entry",
+        "meshes": 3892
+      }
+    },
+    {
+      "width": 390,
+      "scenes": {
+        "ready": true,
+        "station": "entry",
+        "meshes": 3892
+      }
+    }
+  ],
+  "missing": [],
+  "errors": [],
+  "published": false,
+  "limits": "In-memory assembled assets on desktop and emulated mobile; not a deployed Site, physical phone, or full visual acceptance."
+}

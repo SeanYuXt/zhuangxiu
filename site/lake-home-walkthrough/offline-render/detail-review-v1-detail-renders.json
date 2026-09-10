@@ -1,0 +1,649 @@
+{
+  "sourceSha256": "30ae975d21bd520b37f2d6e18176b24555f3bca3ee2503ff5ff75c857c3fe817",
+  "pipelineSha256": "2fb24f5d31a36ae09b0b892d86c5df99fc768da01d2165b05d20edc6dece4ae2",
+  "cameraSha256": "ba85820dbeec2fab3792d2dc437f44c08f99c8e11d18f8bdd99fbdef29ebf18a",
+  "column": [
+    8.98,
+    0,
+    1.6
+  ],
+  "renders": [
+    {
+      "id": "master-bedding",
+      "file": "detail-review-v1-master-bedding-hd.png",
+      "width": 960,
+      "height": 540,
+      "samples": 12,
+      "seconds": 14.0,
+      "camera": {
+        "id": "master-bedding",
+        "room": "master",
+        "name": "床沿与被褥",
+        "position": [
+          14.64,
+          1.6,
+          2.7
+        ],
+        "look": [
+          15.28,
+          0.53,
+          2.35
+        ],
+        "subjects": [
+          "master-bed-draped-duvet"
+        ],
+        "lensMm": 24,
+        "sensorLongEdgeMm": 36,
+        "projection": "direct-look"
+      },
+      "projection": {
+        "lensMm": 24.0,
+        "sensorWidthMm": 36.0,
+        "levelVerticals": false,
+        "shiftY": 0.0,
+        "mode": "direct-look"
+      },
+      "exposureEV": 0.30000001192092896
+    },
+    {
+      "id": "kitchen-work",
+      "file": "detail-review-v1-kitchen-work-hd.png",
+      "width": 960,
+      "height": 540,
+      "samples": 12,
+      "seconds": 14.27,
+      "camera": {
+        "id": "kitchen-work",
+        "room": "kitchen",
+        "name": "洗切炒台面",
+        "position": [
+          5.24,
+          1.6,
+          4.91
+        ],
+        "look": [
+          4.36,
+          1.11,
+          2.85
+        ],
+        "subjects": [
+          "kitchen-hob",
+          "kitchen-sink"
+        ],
+        "lensMm": 24,
+        "sensorLongEdgeMm": 36,
+        "projection": "direct-look"
+      },
+      "projection": {
+        "lensMm": 24.0,
+        "sensorWidthMm": 36.0,
+        "levelVerticals": false,
+        "shiftY": 0.0,
+        "mode": "direct-look"
+      },
+      "exposureEV": 0.30000001192092896
+    },
+    {
+      "id": "ensuite-basin",
+      "file": "detail-review-v1-ensuite-basin-hd.png",
+      "width": 960,
+      "height": 540,
+      "samples": 12,
+      "seconds": 18.92,
+      "camera": {
+        "id": "ensuite-basin",
+        "room": "bath2",
+        "name": "洗漱台与镜柜",
+        "position": [
+          13.72,
+          1.6,
+          2.39
+        ],
+        "look": [
+          12.46,
+          1.19,
+          2.45
+        ],
+        "subjects": [
+          "bath2-vanity"
+        ],
+        "lensMm": 24,
+        "sensorLongEdgeMm": 36,
+        "projection": "direct-look"
+      },
+      "projection": {
+        "lensMm": 24.0,
+        "sensorWidthMm": 36.0,
+        "levelVerticals": false,
+        "shiftY": 0.0,
+        "mode": "direct-look"
+      },
+      "exposureEV": 0.30000001192092896
+    },
+    {
+      "id": "public-squat",
+      "file": "detail-review-v1-public-squat-hd.png",
+      "width": 960,
+      "height": 540,
+      "samples": 12,
+      "seconds": 16.78,
+      "camera": {
+        "id": "public-squat",
+        "room": "bath1",
+        "name": "蹲便与冲水",
+        "position": [
+          1.54,
+          1.6,
+          5.88
+        ],
+        "look": [
+          2.16,
+          0.64,
+          6.77
+        ],
+        "subjects": [
+          "bath1-squat-pan"
+        ],
+        "lensMm": 24,
+        "sensorLongEdgeMm": 36,
+        "projection": "direct-look"
+      },
+      "projection": {
+        "lensMm": 24.0,
+        "sensorWidthMm": 36.0,
+        "levelVerticals": false,
+        "shiftY": 0.0,
+        "mode": "direct-look"
+      },
+      "exposureEV": 0.30000001192092896
+    }
+  ],
+  "lightingPreset": "day",
+  "fixtureMetadataCount": 38,
+  "lighting": [
+    {
+      "name": "daylight-bath1-frosted-glass",
+      "position": [
+        0.628000020980835,
+        1.5,
+        6.125
+      ],
+      "powerRadiantW": 11.306513437729153,
+      "size": [
+        0.2279998779296875,
+        1.1019999504089355
+      ],
+      "basis": "render lighting assumption, not electrical watts or measured illuminance",
+      "aperture": "bath1-frosted-glass",
+      "room": "bath1",
+      "target": [
+        2.7160000801086426,
+        1.5,
+        6.125
+      ],
+      "densityRadiantWPerM2": 45.0
+    },
+    {
+      "name": "daylight-bath1-frosted-glass.001",
+      "position": [
+        0.5979999899864197,
+        1.5,
+        6.394999980926514
+      ],
+      "powerRadiantW": 11.306513437729153,
+      "size": [
+        0.2279998779296875,
+        1.1019999504089355
+      ],
+      "basis": "render lighting assumption, not electrical watts or measured illuminance",
+      "aperture": "bath1-frosted-glass.001",
+      "room": "bath1",
+      "target": [
+        2.685999870300293,
+        1.5,
+        6.394999980926514
+      ],
+      "densityRadiantWPerM2": 45.0
+    },
+    {
+      "name": "daylight-window-bath2-11-glass",
+      "position": [
+        12.8100004196167,
+        1.5,
+        0.6375000476837158
+      ],
+      "powerRadiantW": 28.462517970799166,
+      "size": [
+        0.5500003814697265,
+        1.1499999284744262
+      ],
+      "basis": "render lighting assumption, not electrical watts or measured illuminance",
+      "aperture": "window-bath2-11-glass",
+      "room": "bath2",
+      "target": [
+        12.8100004196167,
+        1.5,
+        2.740000009536743
+      ],
+      "densityRadiantWPerM2": 45.0
+    },
+    {
+      "name": "daylight-window-bed1-0-glass",
+      "position": [
+        1.5249998569488525,
+        1.399999976158142,
+        1.6674998998641968
+      ],
+      "powerRadiantW": 207.8999989271162,
+      "size": [
+        2.7999999046325685,
+        1.6500000476837158
+      ],
+      "basis": "render lighting assumption, not electrical watts or measured illuminance",
+      "aperture": "window-bed1-0-glass",
+      "room": "bed1",
+      "target": [
+        1.5249998569488525,
+        1.399999976158142,
+        3.7699999809265137
+      ],
+      "densityRadiantWPerM2": 45.0
+    },
+    {
+      "name": "daylight-window-bed1-1-glass",
+      "position": [
+        -0.002500101923942566,
+        1.399999976158142,
+        2.5250000953674316
+      ],
+      "powerRadiantW": 108.40502012729694,
+      "size": [
+        1.460000228881836,
+        1.6500000476837158
+      ],
+      "basis": "render lighting assumption, not electrical watts or measured illuminance",
+      "aperture": "window-bed1-1-glass",
+      "room": "bed1",
+      "target": [
+        2.0999999046325684,
+        1.399999976158142,
+        2.5250000953674316
+      ],
+      "densityRadiantWPerM2": 45.0
+    },
+    {
+      "name": "daylight-window-bed3-18-glass",
+      "position": [
+        18.33249855041504,
+        1.399999976158142,
+        5.610000133514404
+      ],
+      "powerRadiantW": 129.9375179171566,
+      "size": [
+        1.7500001907348632,
+        1.6500000476837158
+      ],
+      "basis": "render lighting assumption, not electrical watts or measured illuminance",
+      "aperture": "window-bed3-18-glass",
+      "room": "bed3",
+      "target": [
+        16.229999542236328,
+        1.399999976158142,
+        5.610000133514404
+      ],
+      "densityRadiantWPerM2": 45.0
+    },
+    {
+      "name": "daylight-window-kitchen-7-glass",
+      "position": [
+        4.710000038146973,
+        1.5,
+        1.6974998712539673
+      ],
+      "powerRadiantW": 59.512486428022996,
+      "size": [
+        1.1499998092651367,
+        1.1499999284744262
+      ],
+      "basis": "render lighting assumption, not electrical watts or measured illuminance",
+      "aperture": "window-kitchen-7-glass",
+      "room": "kitchen",
+      "target": [
+        4.710000038146973,
+        1.5,
+        3.799999952316284
+      ],
+      "densityRadiantWPerM2": 45.0
+    },
+    {
+      "name": "daylight-window-living-9-glass",
+      "position": [
+        8.979999542236328,
+        1.369999885559082,
+        -0.002499997615814209
+      ],
+      "powerRadiantW": 725.1254324169175,
+      "size": [
+        6.269999694824219,
+        2.569999885559082
+      ],
+      "basis": "render lighting assumption, not electrical watts or measured illuminance",
+      "aperture": "window-living-9-glass",
+      "room": "living",
+      "target": [
+        8.979999542236328,
+        1.369999885559082,
+        2.0999999046325684
+      ],
+      "densityRadiantWPerM2": 45.0
+    },
+    {
+      "name": "daylight-window-master-13-glass",
+      "position": [
+        17.6299991607666,
+        1.399999976158142,
+        0.03750000149011612
+      ],
+      "powerRadiantW": 85.38755911588832,
+      "size": [
+        1.150000762939453,
+        1.6500000476837158
+      ],
+      "basis": "render lighting assumption, not electrical watts or measured illuminance",
+      "aperture": "window-master-13-glass",
+      "room": "master",
+      "target": [
+        17.6299991607666,
+        1.399999976158142,
+        2.140000104904175
+      ],
+      "densityRadiantWPerM2": 45.0
+    },
+    {
+      "name": "daylight-window-master-14-glass",
+      "position": [
+        18.33249855041504,
+        1.399999976158142,
+        1.7150001525878906
+      ],
+      "powerRadiantW": 230.17504913807036,
+      "size": [
+        3.10000057220459,
+        1.6500000476837158
+      ],
+      "basis": "render lighting assumption, not electrical watts or measured illuminance",
+      "aperture": "window-master-14-glass",
+      "room": "master",
+      "target": [
+        16.229999542236328,
+        1.399999976158142,
+        1.7150001525878906
+      ],
+      "densityRadiantWPerM2": 45.0
+    }
+  ],
+  "materials": [
+    {
+      "object": "bath2-mirror-panel",
+      "adjustment": "neutral physical mirror"
+    },
+    {
+      "object": "dry-mirror-door-0",
+      "adjustment": "neutral physical mirror"
+    },
+    {
+      "object": "dry-mirror-door-1",
+      "adjustment": "neutral physical mirror"
+    },
+    {
+      "object": "makeup-mirror",
+      "adjustment": "neutral physical mirror"
+    },
+    {
+      "object": "mesh_1150",
+      "adjustment": "neutral physical mirror"
+    },
+    {
+      "object": "upper-mirror-door",
+      "adjustment": "neutral physical mirror"
+    }
+  ],
+  "metalPreservation": {
+    "checkedObjects": 401,
+    "changedObjects": []
+  },
+  "limits": "Same current geometry and lamp data; Cycles lighting study. Light powers are assumptions, not site measurements or installed products. Not a photograph or completed construction design.",
+  "daylightApertures": [
+    {
+      "object": "bath1-frosted-glass",
+      "room": "bath1",
+      "position": [
+        0.628000020980835,
+        1.5,
+        6.125
+      ],
+      "target": [
+        2.7160000801086426,
+        1.5,
+        6.125
+      ],
+      "size": [
+        0.2279998779296875,
+        1.1019999504089355
+      ],
+      "normal": [
+        1.0,
+        0.0,
+        -0.0
+      ]
+    },
+    {
+      "object": "bath1-frosted-glass.001",
+      "room": "bath1",
+      "position": [
+        0.5979999899864197,
+        1.5,
+        6.394999980926514
+      ],
+      "target": [
+        2.685999870300293,
+        1.5,
+        6.394999980926514
+      ],
+      "size": [
+        0.2279998779296875,
+        1.1019999504089355
+      ],
+      "normal": [
+        1.0,
+        0.0,
+        -0.0
+      ]
+    },
+    {
+      "object": "window-bath2-11-glass",
+      "room": "bath2",
+      "position": [
+        12.8100004196167,
+        1.5,
+        0.6375000476837158
+      ],
+      "target": [
+        12.8100004196167,
+        1.5,
+        2.740000009536743
+      ],
+      "size": [
+        0.5500003814697265,
+        1.1499999284744262
+      ],
+      "normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "object": "window-bed1-0-glass",
+      "room": "bed1",
+      "position": [
+        1.5249998569488525,
+        1.399999976158142,
+        1.6674998998641968
+      ],
+      "target": [
+        1.5249998569488525,
+        1.399999976158142,
+        3.7699999809265137
+      ],
+      "size": [
+        2.7999999046325685,
+        1.6500000476837158
+      ],
+      "normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "object": "window-bed1-1-glass",
+      "room": "bed1",
+      "position": [
+        -0.002500101923942566,
+        1.399999976158142,
+        2.5250000953674316
+      ],
+      "target": [
+        2.0999999046325684,
+        1.399999976158142,
+        2.5250000953674316
+      ],
+      "size": [
+        1.460000228881836,
+        1.6500000476837158
+      ],
+      "normal": [
+        1.0,
+        0.0,
+        -0.0
+      ]
+    },
+    {
+      "object": "window-bed3-18-glass",
+      "room": "bed3",
+      "position": [
+        18.33249855041504,
+        1.399999976158142,
+        5.610000133514404
+      ],
+      "target": [
+        16.229999542236328,
+        1.399999976158142,
+        5.610000133514404
+      ],
+      "size": [
+        1.7500001907348632,
+        1.6500000476837158
+      ],
+      "normal": [
+        -1.0,
+        0.0,
+        -0.0
+      ]
+    },
+    {
+      "object": "window-kitchen-7-glass",
+      "room": "kitchen",
+      "position": [
+        4.710000038146973,
+        1.5,
+        1.6974998712539673
+      ],
+      "target": [
+        4.710000038146973,
+        1.5,
+        3.799999952316284
+      ],
+      "size": [
+        1.1499998092651367,
+        1.1499999284744262
+      ],
+      "normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "object": "window-living-9-glass",
+      "room": "living",
+      "position": [
+        8.979999542236328,
+        1.369999885559082,
+        -0.002499997615814209
+      ],
+      "target": [
+        8.979999542236328,
+        1.369999885559082,
+        2.0999999046325684
+      ],
+      "size": [
+        6.269999694824219,
+        2.569999885559082
+      ],
+      "normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "object": "window-master-13-glass",
+      "room": "master",
+      "position": [
+        17.6299991607666,
+        1.399999976158142,
+        0.03750000149011612
+      ],
+      "target": [
+        17.6299991607666,
+        1.399999976158142,
+        2.140000104904175
+      ],
+      "size": [
+        1.150000762939453,
+        1.6500000476837158
+      ],
+      "normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "object": "window-master-14-glass",
+      "room": "master",
+      "position": [
+        18.33249855041504,
+        1.399999976158142,
+        1.7150001525878906
+      ],
+      "target": [
+        16.229999542236328,
+        1.399999976158142,
+        1.7150001525878906
+      ],
+      "size": [
+        3.10000057220459,
+        1.6500000476837158
+      ],
+      "normal": [
+        -1.0,
+        0.0,
+        -0.0
+      ]
+    }
+  ],
+  "daylightDensity": 45.0
+}

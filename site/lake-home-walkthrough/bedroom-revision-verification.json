@@ -1,0 +1,240 @@
+{
+  "rooms": [
+    {
+      "id": "bed1",
+      "outside": [],
+      "hits": [],
+      "objects": [
+        {
+          "name": "bed1-bed",
+          "min": [
+            0.8049999998956917,
+            0.0059999999869614845,
+            3.200000028610229
+          ],
+          "max": [
+            2.8975000000130384,
+            1.1600000011920928,
+            4.75999997138977
+          ]
+        },
+        {
+          "name": "bed1-wardrobe",
+          "min": [
+            0.82000000038743,
+            0.0059999999869614845,
+            4.784000006914139
+          ],
+          "max": [
+            1.4035000003427265,
+            2.39999999961257,
+            5.375999993085862
+          ]
+        },
+        {
+          "name": "bed1-window-storage",
+          "min": [
+            0.8139999993642171,
+            0.0059999999869614845,
+            1.99000000038743
+          ],
+          "max": [
+            2.586000000635783,
+            0.4699999996125698,
+            2.4435000003427265
+          ]
+        },
+        {
+          "name": "elder-bedhead-reading-lights",
+          "min": [
+            0.8340000003874302,
+            0.8799999985098839,
+            3.392499998509884
+          ],
+          "max": [
+            0.9529999993890524,
+            1.2499999997019766,
+            4.567500001490116
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bed3",
+      "outside": [],
+      "hits": [],
+      "objects": [
+        {
+          "name": "bed3-bed",
+          "min": [
+            15.372499999986962,
+            0.0059999999869614845,
+            4.510000014305115
+          ],
+          "max": [
+            17.455000000104306,
+            1.1600000011920928,
+            5.789999985694886
+          ]
+        },
+        {
+          "name": "bed3-wardrobe",
+          "min": [
+            15.36399999380112,
+            0.0059999999869614845,
+            6.506499999657274
+          ],
+          "max": [
+            17.476000006198884,
+            2.59999999961257,
+            7.1100000119209295
+          ]
+        },
+        {
+          "name": "bed3-desk",
+          "min": [
+            14.069999999895693,
+            0.0059999999050050976,
+            4.509999988079071
+          ],
+          "max": [
+            15.370000000104309,
+            1.164061621208102,
+            5.110000011920929
+          ]
+        },
+        {
+          "name": "bed3-chair",
+          "min": [
+            14.77,
+            0.0059999999050050976,
+            4.760000005364418
+          ],
+          "max": [
+            15.27,
+            0.8200000017881394,
+            5.247500000894069
+          ]
+        }
+      ]
+    }
+  ],
+  "states": [
+    {
+      "state": "stored",
+      "hits": []
+    },
+    {
+      "state": "doors",
+      "hits": []
+    },
+    {
+      "state": "study-use",
+      "hits": []
+    },
+    {
+      "state": "beds-open",
+      "hits": []
+    }
+  ],
+  "doorHits": [],
+  "scope": "applied furniture geometry, 1-degree door samples, 600mm route proxy; construction and real bodies unverified",
+  "liftHeadHits": [],
+  "bodyRoutes": [
+    {
+      "id": "bed1",
+      "use": "stored",
+      "startFree": true,
+      "targets": [
+        {
+          "label": "upperBedside",
+          "reachable": true
+        },
+        {
+          "label": "lowerBedside",
+          "reachable": true
+        },
+        {
+          "label": "bedFoot",
+          "reachable": true
+        }
+      ]
+    },
+    {
+      "id": "bed1",
+      "use": "using",
+      "startFree": true,
+      "targets": [
+        {
+          "label": "upperBedside",
+          "reachable": true
+        },
+        {
+          "label": "lowerBedside",
+          "reachable": false
+        },
+        {
+          "label": "bedFoot",
+          "reachable": true
+        }
+      ]
+    },
+    {
+      "id": "bed3",
+      "use": "stored",
+      "startFree": true,
+      "targets": [
+        {
+          "label": "bedside",
+          "reachable": true
+        },
+        {
+          "label": "wardrobe",
+          "reachable": true
+        },
+        {
+          "label": "studyApproach",
+          "reachable": true
+        }
+      ]
+    },
+    {
+      "id": "bed3",
+      "use": "using",
+      "startFree": true,
+      "targets": [
+        {
+          "label": "bedside",
+          "reachable": true
+        },
+        {
+          "label": "wardrobe",
+          "reachable": true
+        },
+        {
+          "label": "studyApproach",
+          "reachable": true
+        }
+      ]
+    }
+  ],
+  "elderHead": {
+    "isBox3": true,
+    "min": {
+      "x": 0.8050000003352757,
+      "y": 0.3499999988079071,
+      "z": 3.200000028610229
+    },
+    "max": {
+      "x": 0.8349999996647239,
+      "y": 1.1600000011920928,
+      "z": 4.75999997138977
+    }
+  },
+  "childMattress": [
+    2,
+    0.23000000417232513,
+    1.2000000476837158
+  ],
+  "errors": []
+}

@@ -1,0 +1,41 @@
+/* Quiet inspection surface; room geometry and camera positions stay unchanged. */
+#viewerDetailToggle{position:absolute;top:10px;right:10px;z-index:8;min-height:44px;background:#fbfaf6ed;font-size:14px}
+#viewerDetailToggle[hidden]{display:none}
+body:not(.viewer-details-open) :is(#bedroomActions,#dryStorageActions,#dryingActions,#masterBathActions,#kitchenActions,#laundryActions,#sideboardActions,#fridgeActions,#publicBathActions){display:none!important}
+body.is-walking #viewerDetailToggle{display:none!important}
+#viewerHelp{width:min(560px,calc(100vw - 24px));max-height:85dvh;overflow:auto;border:1px solid #ddd8cd;border-radius:14px;padding:22px;background:#fbfaf6;color:#373731;font-size:16px}
+#viewerHelp form{display:flex;align-items:center;justify-content:space-between;gap:12px}
+#viewerHelp h2{font-size:20px;margin:0}#viewerHelp::backdrop{background:#272c2866}
+#viewerHelp button{min-height:44px}
+.viewer-design-notes{margin-top:10px;border-top:1px solid #ddd8cd;padding-top:8px}
+.viewer-design-notes summary{font-size:14px!important;min-height:44px;cursor:pointer}
+@media(min-width:801px) and (min-height:551px),(min-width:1101px){
+ header{min-height:64px;padding:8px 20px;gap:12px;position:relative;z-index:12;flex-wrap:nowrap}
+ header h1{font-size:18px;white-space:nowrap}header p{display:none}
+ header nav{margin-left:auto;flex-wrap:nowrap}
+ header nav>button{display:none;min-height:44px;font-size:14px;white-space:nowrap}
+ header nav>:is(#spaceGuideToggle,[data-mode="walk"],[data-mode="look"],#detailRendersToggle){display:block}
+ #mobileMenuToggle{display:block;min-height:44px;font-size:14px;flex:none}
+ body.mobile-tools-open header nav{position:absolute;right:20px;top:calc(100% + 6px);width:min(540px,calc(100vw - 40px));display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;max-height:70dvh;overflow:auto;padding:12px;background:#fbfaf6;border:1px solid #ddd8cd;border-radius:12px;box-shadow:0 10px 30px #0002}
+ body.mobile-tools-open header nav>button:not([hidden]){display:block;white-space:normal}
+ main{padding:6px}#viewport{min-height:0}
+ #position,#gesture{display:none!important}
+ #mobileRoomName{display:block;position:absolute;left:14px;top:12px;background:#fbfaf6e8;border-radius:8px;padding:7px 10px;font-size:14px;pointer-events:none}
+ #roomTour{bottom:14px;padding:5px 7px;border-radius:10px;gap:8px}
+ #roomTour label{font-size:0}#roomSelect{font-size:14px;min-height:36px}
+ #roomCount{display:none}
+ body:not(.viewer-details-open) :is(#facilities,#masterDressing,#dryZoneStudy){display:none!important}
+ #facilities{top:64px;max-height:calc(100% - 155px)}
+ #facilityNote{display:none;bottom:118px;max-height:35%;overflow:auto;pointer-events:auto;font-size:14px}
+ body.mobile-detail-note #facilityNote:not([hidden]){display:block}
+ #detailNoteToggle:not([hidden]){display:block;position:absolute;left:14px;bottom:14px;z-index:4;min-height:44px;font-size:14px}
+ .is-walking #mobileRoomName{display:none}
+ .room-hotspot{background:#fbfaf6df;box-shadow:none}
+}
+@media(min-width:801px) and (max-width:1020px) and (min-height:551px){
+ header nav>[data-mode="look"]{display:none}
+ header h1{font-size:16px}
+}
+@media(max-width:800px),(max-width:1100px) and (max-height:550px){
+ body.viewer-details-open #masterDressing:not([hidden]){display:block!important;left:10px;right:10px;top:62px;bottom:auto;width:auto;max-height:calc(100% - 205px);z-index:7}
+}

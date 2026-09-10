@@ -1,0 +1,99 @@
+{
+  "collisions": [],
+  "contained": true,
+  "doorHits": 0,
+  "routes": {
+    "vacant": {
+      "reachableCells": 2766,
+      "bedSide": true,
+      "wardrobe": true,
+      "footApproach": true,
+      "vacantChair": true,
+      "targets": {
+        "bedSide": [
+          14.96,
+          5.8
+        ],
+        "wardrobe": [
+          14.96,
+          5.05
+        ],
+        "footApproach": [
+          15.65,
+          6.85
+        ],
+        "chairCenter": [
+          16.635,
+          6.85
+        ]
+      }
+    },
+    "occupied": {
+      "reachableCells": 2700,
+      "bedSide": true,
+      "wardrobe": true,
+      "footApproach": true,
+      "vacantChair": null,
+      "targets": {
+        "bedSide": [
+          14.96,
+          5.8
+        ],
+        "wardrobe": [
+          14.96,
+          5.05
+        ],
+        "footApproach": [
+          15.65,
+          6.85
+        ],
+        "chairCenter": [
+          16.635,
+          6.85
+        ]
+      }
+    },
+    "pulled": {
+      "reachableCells": 2670,
+      "bedSide": true,
+      "wardrobe": true,
+      "footApproach": true,
+      "vacantChair": null,
+      "targets": {
+        "bedSide": [
+          14.96,
+          5.8
+        ],
+        "wardrobe": [
+          14.96,
+          5.05
+        ],
+        "footApproach": [
+          15.65,
+          6.85
+        ],
+        "chairCenter": [
+          16.635,
+          6.85
+        ]
+      }
+    }
+  },
+  "clearanceMM": {
+    "wardrobeFront": 640,
+    "foot": 635,
+    "deskAlongBed": 140
+  },
+  "limits": [
+    "独立试排，不覆盖全屋",
+    "床尾和柜前约63–64cm，偏紧而非宽敞",
+    "学习位在窗侧台面床尾端，侧向采光，不是正对玻璃",
+    "沿床的台面段不具备站人或拉椅空间",
+    "衣柜仅110cm宽，不能仍按旧210cm收纳量理解",
+    "桌高750mm为试排值，需匹配孩子身高与可调座椅/脚踏",
+    "窗台保留；其高度来自原图，现场构造和窗扇开启范围待核",
+    "未核实定制尺寸和房间净尺寸，不作施工依据"
+  ],
+  "method": "20mm grid, 600mm circular proxy, actual usable rectangle excludes raised window bay; 91 sampled angles for both door-hinge alternatives with20mm furniture allowance. Chair return is not a certified ergonomic trial.",
+  "status": "PASS_WITH_TRADEOFFS"
+}

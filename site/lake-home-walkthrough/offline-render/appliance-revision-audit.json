@@ -1,0 +1,53 @@
+{
+  "dishwasher": false,
+  "shell": "unchanged current-design-v2.glb",
+  "sideboard": {
+    "width": 3.9,
+    "depth": 0.6,
+    "ovenModuleWidth": 0.65,
+    "retainedFourBandWidth": 3.25,
+    "ovenBodyDepth": 0.522,
+    "rearGap": 0.033,
+    "selectedModel": false
+  },
+  "island": {
+    "length": 1.8,
+    "width": 0.9,
+    "height": 0.9,
+    "seats": 4,
+    "seatPitch": 0.86,
+    "kneeDepthBothSides": 0.35,
+    "deepDrawersRemoved": true
+  },
+  "clearances": {
+    "kitchenWallToWestStoredChairBack": 0.79,
+    "westChairAfterAssumed400mmPull": 0.39,
+    "note": "chair pulled out temporarily restricts passage; not a continuous two-person aisle"
+  },
+  "changedSideboardMeshes": [
+    "mesh_642",
+    "mesh_711",
+    "sideboard-recessed-task-light",
+    "mesh_697",
+    "mesh_698",
+    "sideboard-upper-bottom",
+    "sideboard-upper-adjustable-shelf",
+    "sideboard-upper-cup-wall",
+    "sideboard-upper-cup-wall.001",
+    "sideboard-upper-cup-wall.002",
+    "sideboard-upper-cup-wall.003",
+    "sideboard-upper-cup-wall.004",
+    "sideboard-upper-cup-wall.005",
+    "sideboard-upper-door-0-arm",
+    "sideboard-upper-door-0-arm.001",
+    "sideboard-upper-extended-door-0",
+    "sideboard-upper-door-0-mount",
+    "sideboard-upper-door-0-mount.001"
+  ],
+  "limits": [
+    "No appliance models selected; opening/ventilation/power are provisional",
+    "No construction or structural changes authorized",
+    "Existing kitchen and bedroom geometry unchanged",
+    "Original web viewer not overwritten; this is a separate render study"
+  ]
+}

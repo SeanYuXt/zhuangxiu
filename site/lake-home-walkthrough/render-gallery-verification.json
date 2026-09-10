@@ -1,0 +1,131 @@
+{
+  "coverage": [
+    {
+      "id": "entry",
+      "loaded": true
+    },
+    {
+      "id": "living",
+      "loaded": true
+    },
+    {
+      "id": "dining",
+      "loaded": true
+    },
+    {
+      "id": "bar",
+      "loaded": true
+    },
+    {
+      "id": "kitchen",
+      "loaded": true
+    },
+    {
+      "id": "bed1",
+      "loaded": true
+    },
+    {
+      "id": "bed3",
+      "loaded": true
+    },
+    {
+      "id": "master",
+      "loaded": true
+    },
+    {
+      "id": "bath1",
+      "loaded": true
+    },
+    {
+      "id": "bath2",
+      "loaded": true
+    },
+    {
+      "id": "laundry",
+      "loaded": true
+    },
+    {
+      "id": "care",
+      "loaded": true
+    }
+  ],
+  "sizes": [
+    [
+      1440,
+      1000
+    ],
+    [
+      390,
+      844
+    ],
+    [
+      844,
+      390
+    ]
+  ],
+  "angleChecks": [
+    {
+      "view": "master-dressing",
+      "width": 1440
+    },
+    {
+      "view": "child-study",
+      "width": 1440
+    },
+    {
+      "view": "ensuite-basin",
+      "width": 1440
+    },
+    {
+      "view": "dining-sideboard",
+      "width": 1440
+    },
+    {
+      "view": "balcony-care",
+      "width": 1440
+    },
+    {
+      "view": "master-dressing",
+      "width": 390
+    },
+    {
+      "view": "child-study",
+      "width": 390
+    },
+    {
+      "view": "ensuite-basin",
+      "width": 390
+    },
+    {
+      "view": "dining-sideboard",
+      "width": 390
+    },
+    {
+      "view": "balcony-care",
+      "width": 390
+    },
+    {
+      "view": "master-dressing",
+      "width": 844
+    },
+    {
+      "view": "child-study",
+      "width": 844
+    },
+    {
+      "view": "ensuite-basin",
+      "width": 844
+    },
+    {
+      "view": "dining-sideboard",
+      "width": 844
+    },
+    {
+      "view": "balcony-care",
+      "width": 844
+    }
+  ],
+  "angleSource": "9f4dbcb4552f8281d6f4e3e59e2f3b3485eeb97c7914b7f40ebcab7f93963ae1",
+  "errors": [],
+  "limits": "Chrome viewport simulation; pending views are not finished or visually accepted."
+}

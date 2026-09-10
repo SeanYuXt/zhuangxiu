@@ -1,0 +1,19 @@
+{
+  "fresh": 3236,
+  "cached": 0,
+  "changedPixels": 0,
+  "cameraOnly": 0,
+  "initialRevision": 1,
+  "open": 3236,
+  "close": 3236,
+  "textureChanged": true,
+  "state": {
+    "casters": 3236,
+    "revision": 6,
+    "checks": 11,
+    "cached": true
+  },
+  "errors": [],
+  "equalCountSwap": true,
+  "limits": "Same-camera 320x240 GPU pixels and actual sun-shadow draw callbacks; not whole-home photoreal or physical-phone FPS acceptance."
+}

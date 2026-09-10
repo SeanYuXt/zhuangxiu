@@ -1,0 +1,29 @@
+{
+  "id": "child-150-l-books-bay",
+  "scheme": "balanced",
+  "status": "PASS_WITH_LIMITS",
+  "failures": [],
+  "doorHits": 0,
+  "routes": {
+    "normal": {
+      "chairBack": true,
+      "bedSide": true,
+      "foot": true,
+      "windowApproach": false,
+      "safeDoorWaiting": false,
+      "cells": 2867
+    },
+    "pulled": {
+      "chairBack": true,
+      "bedSide": true,
+      "foot": true,
+      "windowApproach": false,
+      "safeDoorWaiting": false,
+      "cells": 2189
+    }
+  },
+  "footClearanceMM": 635,
+  "deskWidthCM": 130,
+  "tradeoff": "保留130cm书桌和110cm衣柜；飘窗仅作床边置物，不能从地面直接走到窗前。",
+  "additionalLimit": "600mm proxy, not ergonomic approval. C requires entering, moving outside swing and closing door before walking around bed. B is deliberately excluded. Bay seating and child fall protection remain unverified."
+}

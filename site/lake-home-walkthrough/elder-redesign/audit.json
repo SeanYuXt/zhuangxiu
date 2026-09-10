@@ -1,0 +1,528 @@
+{
+  "method": {
+    "units": "metres",
+    "gridMm": 20,
+    "gridConnectivity": 4,
+    "pathEdgeCheck": "Endpoints and midpoint; target connector sampled every quarter of one short grid connector.",
+    "doorSwing": "0 through 90 degrees inclusive at 1-degree steps; exact center-segment distance to rectangle, 40 mm capsule thickness. Angular gaps are not swept continuously.",
+    "walkingDoor": "Door open at 90 degrees remains an obstacle.",
+    "start": [
+      2.3,
+      2.6
+    ],
+    "bedTargets": "Middle third of long edges (left/right for vertical beds, top/bottom otherwise), 10 mm extra offset beyond proxy radius.",
+    "limitations": "Geometric circular-proxy screening, not human movement or accessibility certification. Cannot prove furniture usability or continuous sweep clearance."
+  },
+  "layouts": [
+    {
+      "id": "solid-head-row",
+      "conditionalFloor": true,
+      "states": {
+        "tucked": {
+          "rectangularCollisions": [],
+          "doorSwingCollisions": [],
+          "pathsByDiameterMm": {
+            "500": {
+              "startClear": true,
+              "reachableGridPoints": 3867,
+              "bedLongSideTargets": {
+                "top": null,
+                "bottom": [
+                  1.865,
+                  1.88
+                ]
+              },
+              "bothBedLongSidesReachable": false,
+              "wardrobeFrontMiddleTarget": [
+                0.92,
+                1.9999999999999998
+              ],
+              "wardrobeFrontMiddleReachable": true
+            },
+            "600": {
+              "startClear": true,
+              "reachableGridPoints": 2779,
+              "bedLongSideTargets": {
+                "top": null,
+                "bottom": [
+                  1.865,
+                  1.93
+                ]
+              },
+              "bothBedLongSidesReachable": false,
+              "wardrobeFrontMiddleTarget": [
+                0.92,
+                1.9999999999999998
+              ],
+              "wardrobeFrontMiddleReachable": true
+            }
+          },
+          "underDeskChairAssumption": "Desk/tucked-chair overlap allowed assuming 450 mm seat and at least 680 mm underside clearance; chair back remains unverified.",
+          "conditionalPathsByDiameterMm": {
+            "500": {
+              "startClear": true,
+              "reachableGridPoints": 5187,
+              "bedLongSideTargets": {
+                "top": [
+                  1.56,
+                  -0.18
+                ],
+                "bottom": [
+                  1.865,
+                  1.88
+                ]
+              },
+              "bothBedLongSidesReachable": true,
+              "wardrobeFrontMiddleTarget": [
+                0.92,
+                1.9999999999999998
+              ],
+              "wardrobeFrontMiddleReachable": true
+            },
+            "600": {
+              "startClear": true,
+              "reachableGridPoints": 3652,
+              "bedLongSideTargets": {
+                "top": [
+                  1.56,
+                  -0.23
+                ],
+                "bottom": [
+                  1.865,
+                  1.93
+                ]
+              },
+              "bothBedLongSidesReachable": true,
+              "wardrobeFrontMiddleTarget": [
+                0.92,
+                1.9999999999999998
+              ],
+              "wardrobeFrontMiddleReachable": true
+            }
+          },
+          "wardrobeFrontUseZone": {
+            "rectangle": [
+              0.02,
+              1.6999999999999997,
+              1.82,
+              2.3
+            ],
+            "depthMm": 600,
+            "assumedDoorType": "sliding",
+            "withinMain": true,
+            "rectangularCollisions": [],
+            "doorSwingCollisionAnglesDegrees": [],
+            "limitation": "Shared standing/circulation envelope, not dedicated simultaneous-use clearance; sliding-panel configuration and drawer extension unverified."
+          }
+        },
+        "occupied": {
+          "rectangularCollisions": [],
+          "doorSwingCollisions": [],
+          "pathsByDiameterMm": {
+            "500": {
+              "startClear": true,
+              "reachableGridPoints": 3825,
+              "bedLongSideTargets": {
+                "top": null,
+                "bottom": [
+                  1.865,
+                  1.88
+                ]
+              },
+              "bothBedLongSidesReachable": false,
+              "wardrobeFrontMiddleTarget": [
+                0.92,
+                1.9999999999999998
+              ],
+              "wardrobeFrontMiddleReachable": true
+            },
+            "600": {
+              "startClear": true,
+              "reachableGridPoints": 2726,
+              "bedLongSideTargets": {
+                "top": null,
+                "bottom": [
+                  1.865,
+                  1.93
+                ]
+              },
+              "bothBedLongSidesReachable": false,
+              "wardrobeFrontMiddleTarget": [
+                0.92,
+                1.9999999999999998
+              ],
+              "wardrobeFrontMiddleReachable": true
+            }
+          },
+          "underDeskChairAssumption": null,
+          "conditionalPathsByDiameterMm": {
+            "500": {
+              "startClear": true,
+              "reachableGridPoints": 3915,
+              "bedLongSideTargets": {
+                "top": null,
+                "bottom": [
+                  1.865,
+                  1.88
+                ]
+              },
+              "bothBedLongSidesReachable": false,
+              "wardrobeFrontMiddleTarget": [
+                0.92,
+                1.9999999999999998
+              ],
+              "wardrobeFrontMiddleReachable": true
+            },
+            "600": {
+              "startClear": true,
+              "reachableGridPoints": 2781,
+              "bedLongSideTargets": {
+                "top": null,
+                "bottom": [
+                  1.865,
+                  1.93
+                ]
+              },
+              "bothBedLongSidesReachable": false,
+              "wardrobeFrontMiddleTarget": [
+                0.92,
+                1.9999999999999998
+              ],
+              "wardrobeFrontMiddleReachable": true
+            }
+          },
+          "wardrobeFrontUseZone": {
+            "rectangle": [
+              0.02,
+              1.6999999999999997,
+              1.82,
+              2.3
+            ],
+            "depthMm": 600,
+            "assumedDoorType": "sliding",
+            "withinMain": true,
+            "rectangularCollisions": [],
+            "doorSwingCollisionAnglesDegrees": [],
+            "limitation": "Shared standing/circulation envelope, not dedicated simultaneous-use clearance; sliding-panel configuration and drawer extension unverified."
+          }
+        }
+      },
+      "bounds": [
+        {
+          "item": "bed",
+          "withinMain": true,
+          "conditionalWindowFloorRequired": false,
+          "withinSourcePolygonEdgeSample": null,
+          "boundsPass": true
+        },
+        {
+          "item": "desk",
+          "withinMain": false,
+          "conditionalWindowFloorRequired": true,
+          "withinSourcePolygonEdgeSample": true,
+          "boundsPass": true
+        },
+        {
+          "item": "wardrobe",
+          "withinMain": true,
+          "conditionalWindowFloorRequired": false,
+          "withinSourcePolygonEdgeSample": null,
+          "boundsPass": true
+        },
+        {
+          "item": "chairTucked",
+          "withinMain": false,
+          "conditionalWindowFloorRequired": true,
+          "withinSourcePolygonEdgeSample": true,
+          "boundsPass": true
+        },
+        {
+          "item": "chairOccupied",
+          "withinMain": false,
+          "conditionalWindowFloorRequired": true,
+          "withinSourcePolygonEdgeSample": true,
+          "boundsPass": true
+        }
+      ],
+      "conditionalBoundsLimitation": "Conditional furniture edges checked against source polygon using 101 points per edge; drawing footprint does not establish actual floor or under-desk leg clearance.",
+      "occupiedChairApproach": {
+        "proxyRadiusMm": 300,
+        "chairExcludedAsObstacle": true,
+        "targetCenter": [
+          0.22500000000000003,
+          -0.25
+        ],
+        "startClear": true,
+        "reachable": false,
+        "reachableGridPoints": 2779
+      },
+      "conditionalOccupiedChairApproach": {
+        "proxyRadiusMm": 300,
+        "chairExcludedAsObstacle": true,
+        "targetCenter": [
+          0.22500000000000003,
+          -0.25
+        ],
+        "startClear": true,
+        "reachable": true,
+        "reachableGridPoints": 3779
+      },
+      "solidHeadWallCheck": {
+        "head": "east",
+        "headEdge": [
+          [
+            2.78,
+            0.08
+          ],
+          [
+            2.78,
+            1.62
+          ]
+        ],
+        "rightWallGapMm": 20,
+        "entireHeadEdgeAlongMainRightWall": true,
+        "limitation": "Uses supplied right main-wall segment; material, services, and headboard installation still require site confirmation."
+      },
+      "conditionalPathLimitation": "Conditional paths assume the whole source polygon is continuous walkable floor. Window ledge structure and height are unconfirmed; main-only failures remain reported separately."
+    },
+    {
+      "id": "solid",
+      "conditionalFloor": false,
+      "states": {
+        "tucked": {
+          "rectangularCollisions": [],
+          "doorSwingCollisions": [],
+          "pathsByDiameterMm": {
+            "500": {
+              "startClear": true,
+              "reachableGridPoints": 3084,
+              "bedLongSideTargets": {
+                "top": [
+                  1.035,
+                  0.27
+                ],
+                "bottom": [
+                  1.035,
+                  2.33
+                ]
+              },
+              "bothBedLongSidesReachable": true
+            },
+            "600": {
+              "startClear": true,
+              "reachableGridPoints": 1858,
+              "bedLongSideTargets": {
+                "top": null,
+                "bottom": [
+                  1.08,
+                  2.38
+                ]
+              },
+              "bothBedLongSidesReachable": false
+            }
+          },
+          "underDeskChairAssumption": "Desk/tucked-chair overlap allowed assuming 450 mm seat and at least 680 mm underside clearance; chair back remains unverified."
+        },
+        "occupied": {
+          "rectangularCollisions": [],
+          "doorSwingCollisions": [],
+          "pathsByDiameterMm": {
+            "500": {
+              "startClear": true,
+              "reachableGridPoints": 2795,
+              "bedLongSideTargets": {
+                "top": [
+                  1.035,
+                  0.27
+                ],
+                "bottom": null
+              },
+              "bothBedLongSidesReachable": false
+            },
+            "600": {
+              "startClear": true,
+              "reachableGridPoints": 1654,
+              "bedLongSideTargets": {
+                "top": null,
+                "bottom": null
+              },
+              "bothBedLongSidesReachable": false
+            }
+          },
+          "underDeskChairAssumption": null
+        }
+      },
+      "bounds": [
+        {
+          "item": "bed",
+          "withinMain": true,
+          "conditionalWindowFloorRequired": false,
+          "withinSourcePolygonEdgeSample": null,
+          "boundsPass": true
+        },
+        {
+          "item": "desk",
+          "withinMain": true,
+          "conditionalWindowFloorRequired": false,
+          "withinSourcePolygonEdgeSample": null,
+          "boundsPass": true
+        },
+        {
+          "item": "chairTucked",
+          "withinMain": true,
+          "conditionalWindowFloorRequired": false,
+          "withinSourcePolygonEdgeSample": null,
+          "boundsPass": true
+        },
+        {
+          "item": "chairOccupied",
+          "withinMain": true,
+          "conditionalWindowFloorRequired": false,
+          "withinSourcePolygonEdgeSample": null,
+          "boundsPass": true
+        }
+      ],
+      "conditionalBoundsLimitation": "Conditional furniture edges checked against source polygon using 101 points per edge; drawing footprint does not establish actual floor or under-desk leg clearance.",
+      "occupiedChairApproach": {
+        "proxyRadiusMm": 300,
+        "chairExcludedAsObstacle": true,
+        "targetCenter": [
+          0.795,
+          2.54
+        ],
+        "startClear": true,
+        "reachable": true,
+        "reachableGridPoints": 2038
+      }
+    },
+    {
+      "id": "window",
+      "conditionalFloor": true,
+      "states": {
+        "tucked": {
+          "rectangularCollisions": [],
+          "doorSwingCollisions": [],
+          "pathsByDiameterMm": {
+            "500": {
+              "startClear": true,
+              "reachableGridPoints": 3132,
+              "bedLongSideTargets": {
+                "top": [
+                  1.035,
+                  0.42
+                ],
+                "bottom": [
+                  1.035,
+                  2.48
+                ]
+              },
+              "bothBedLongSidesReachable": true
+            },
+            "600": {
+              "startClear": true,
+              "reachableGridPoints": 1823,
+              "bedLongSideTargets": {
+                "top": [
+                  1.035,
+                  0.37
+                ],
+                "bottom": [
+                  1.035,
+                  2.53
+                ]
+              },
+              "bothBedLongSidesReachable": true
+            }
+          },
+          "underDeskChairAssumption": "Desk/tucked-chair overlap allowed assuming 450 mm seat and at least 680 mm underside clearance; chair back remains unverified."
+        },
+        "occupied": {
+          "rectangularCollisions": [],
+          "doorSwingCollisions": [],
+          "pathsByDiameterMm": {
+            "500": {
+              "startClear": true,
+              "reachableGridPoints": 3018,
+              "bedLongSideTargets": {
+                "top": [
+                  1.08,
+                  0.42
+                ],
+                "bottom": [
+                  1.035,
+                  2.48
+                ]
+              },
+              "bothBedLongSidesReachable": true
+            },
+            "600": {
+              "startClear": true,
+              "reachableGridPoints": 1785,
+              "bedLongSideTargets": {
+                "top": [
+                  1.12,
+                  0.37
+                ],
+                "bottom": [
+                  1.035,
+                  2.53
+                ]
+              },
+              "bothBedLongSidesReachable": true
+            }
+          },
+          "underDeskChairAssumption": null
+        }
+      },
+      "bounds": [
+        {
+          "item": "bed",
+          "withinMain": true,
+          "conditionalWindowFloorRequired": false,
+          "withinSourcePolygonEdgeSample": null,
+          "boundsPass": true
+        },
+        {
+          "item": "desk",
+          "withinMain": false,
+          "conditionalWindowFloorRequired": true,
+          "withinSourcePolygonEdgeSample": true,
+          "boundsPass": true
+        },
+        {
+          "item": "wardrobe",
+          "withinMain": true,
+          "conditionalWindowFloorRequired": false,
+          "withinSourcePolygonEdgeSample": null,
+          "boundsPass": true
+        },
+        {
+          "item": "chairTucked",
+          "withinMain": false,
+          "conditionalWindowFloorRequired": true,
+          "withinSourcePolygonEdgeSample": true,
+          "boundsPass": true
+        },
+        {
+          "item": "chairOccupied",
+          "withinMain": true,
+          "conditionalWindowFloorRequired": false,
+          "withinSourcePolygonEdgeSample": null,
+          "boundsPass": true
+        }
+      ],
+      "conditionalBoundsLimitation": "Conditional furniture edges checked against source polygon using 101 points per edge; drawing footprint does not establish actual floor or under-desk leg clearance.",
+      "occupiedChairApproach": {
+        "proxyRadiusMm": 300,
+        "chairExcludedAsObstacle": true,
+        "targetCenter": [
+          0.52,
+          0.325
+        ],
+        "startClear": true,
+        "reachable": true,
+        "reachableGridPoints": 1990
+      }
+    }
+  ]
+}

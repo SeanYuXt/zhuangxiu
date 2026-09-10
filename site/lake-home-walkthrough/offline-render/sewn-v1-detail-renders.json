@@ -1,0 +1,333 @@
+{
+  "sourceSha256": "6d19221d0fd541ba140fe1f82da25f62bed8f269264e70dc9f8c8b330275513d",
+  "column": [
+    8.98,
+    0,
+    1.6
+  ],
+  "renders": [
+    {
+      "id": "living",
+      "file": "sewn-v1-living-hd.png",
+      "width": 1600,
+      "height": 900,
+      "samples": 32,
+      "seconds": 90.42,
+      "camera": {
+        "name": "客厅",
+        "position": [
+          8.1,
+          1.6,
+          6
+        ],
+        "look": [
+          9.85,
+          0.9,
+          3.8
+        ]
+      }
+    },
+    {
+      "id": "master",
+      "file": "sewn-v1-master-hd.png",
+      "width": 1600,
+      "height": 900,
+      "samples": 32,
+      "seconds": 90.74,
+      "camera": {
+        "name": "主卧套间",
+        "position": [
+          14.61,
+          1.6,
+          3.38
+        ],
+        "look": [
+          16.08,
+          1.3,
+          1.64
+        ]
+      }
+    }
+  ],
+  "lighting": [
+    {
+      "name": "lake daylight",
+      "position": [
+        9,
+        1.9,
+        -0.12
+      ],
+      "powerRadiantW": 220,
+      "size": [
+        5.8,
+        2.2
+      ],
+      "basis": "render lighting assumption, not electrical watts or measured illuminance"
+    },
+    {
+      "name": "sideboard strip",
+      "position": [
+        9.43,
+        1.715,
+        6.68
+      ],
+      "powerRadiantW": 13,
+      "size": [
+        2.45,
+        0.035
+      ],
+      "basis": "render lighting assumption, not electrical watts or measured illuminance"
+    },
+    {
+      "name": "bed1-main-light emission",
+      "position": [
+        2.0299999713897705,
+        2.696244707107544,
+        4.139999866485596
+      ],
+      "powerRadiantW": 9.2,
+      "size": [
+        0.5500000715255737,
+        0.5500001907348633
+      ],
+      "basis": "render lighting assumption, not electrical watts or measured illuminance"
+    },
+    {
+      "name": "master-main-light emission",
+      "position": [
+        16.059999465942383,
+        2.696244707107544,
+        2.950000047683716
+      ],
+      "powerRadiantW": 12.0,
+      "size": [
+        0.6500005722045898,
+        0.6500000953674316
+      ],
+      "basis": "render lighting assumption, not electrical watts or measured illuminance"
+    },
+    {
+      "name": "bed3-main-light emission",
+      "position": [
+        15.960000991821289,
+        2.696244707107544,
+        5.889999866485596
+      ],
+      "powerRadiantW": 9.2,
+      "size": [
+        0.5500001907348633,
+        0.5500001907348633
+      ],
+      "basis": "render lighting assumption, not electrical watts or measured illuminance"
+    },
+    {
+      "name": "kitchen-main-light emission",
+      "position": [
+        4.889999866485596,
+        2.7090001010894778,
+        3.059999942779541
+      ],
+      "powerRadiantW": 8.4,
+      "size": [
+        0.1700000762939453,
+        1.179999828338623
+      ],
+      "basis": "render lighting assumption, not electrical watts or measured illuminance"
+    },
+    {
+      "name": "bath1-heater-light emission",
+      "position": [
+        1.850000023841858,
+        2.5269999408721926,
+        5.9670000076293945
+      ],
+      "powerRadiantW": 5.6,
+      "size": [
+        0.25,
+        0.2180004119873047
+      ],
+      "basis": "render lighting assumption, not electrical watts or measured illuminance"
+    },
+    {
+      "name": "bath2-heater-light emission",
+      "position": [
+        13.609999656677246,
+        2.5269999408721926,
+        2.496999979019165
+      ],
+      "powerRadiantW": 5.6,
+      "size": [
+        0.25,
+        0.21799993515014648
+      ],
+      "basis": "render lighting assumption, not electrical watts or measured illuminance"
+    },
+    {
+      "name": "recessed-led-downlight emission",
+      "position": [
+        6.860000133514404,
+        2.749000062942505,
+        6.610000133514404
+      ],
+      "powerRadiantW": 2.4,
+      "size": [
+        0.07,
+        0.07
+      ],
+      "basis": "render lighting assumption, not electrical watts or measured illuminance"
+    },
+    {
+      "name": "recessed-led-downlight_1 emission",
+      "position": [
+        7.239999771118164,
+        2.749000062942505,
+        4.0
+      ],
+      "powerRadiantW": 2.4,
+      "size": [
+        0.07,
+        0.07
+      ],
+      "basis": "render lighting assumption, not electrical watts or measured illuminance"
+    },
+    {
+      "name": "recessed-led-downlight_2 emission",
+      "position": [
+        9.880000114440918,
+        2.749000062942505,
+        3.049999952316284
+      ],
+      "powerRadiantW": 2.4,
+      "size": [
+        0.07,
+        0.07
+      ],
+      "basis": "render lighting assumption, not electrical watts or measured illuminance"
+    },
+    {
+      "name": "recessed-led-downlight_3 emission",
+      "position": [
+        9.579999923706055,
+        2.749000062942505,
+        1.5499999523162842
+      ],
+      "powerRadiantW": 2.4,
+      "size": [
+        0.07,
+        0.07
+      ],
+      "basis": "render lighting assumption, not electrical watts or measured illuminance"
+    },
+    {
+      "name": "recessed-led-downlight_4 emission",
+      "position": [
+        10.779999732971191,
+        2.749000062942505,
+        4.550000190734863
+      ],
+      "powerRadiantW": 2.4,
+      "size": [
+        0.07,
+        0.07
+      ],
+      "basis": "render lighting assumption, not electrical watts or measured illuminance"
+    },
+    {
+      "name": "recessed-led-downlight_5 emission",
+      "position": [
+        10.779999732971191,
+        2.749000062942505,
+        3.5
+      ],
+      "powerRadiantW": 2.4,
+      "size": [
+        0.07,
+        0.07
+      ],
+      "basis": "render lighting assumption, not electrical watts or measured illuminance"
+    },
+    {
+      "name": "recessed-led-downlight_6 emission",
+      "position": [
+        4.449999809265137,
+        2.749000062942505,
+        2.309999942779541
+      ],
+      "powerRadiantW": 2.4,
+      "size": [
+        0.07,
+        0.07
+      ],
+      "basis": "render lighting assumption, not electrical watts or measured illuminance"
+    },
+    {
+      "name": "recessed-led-downlight_7 emission",
+      "position": [
+        5.28000020980835,
+        2.749000062942505,
+        2.309999942779541
+      ],
+      "powerRadiantW": 2.4,
+      "size": [
+        0.07,
+        0.07
+      ],
+      "basis": "render lighting assumption, not electrical watts or measured illuminance"
+    },
+    {
+      "name": "recessed-led-downlight_8 emission",
+      "position": [
+        12.829999923706055,
+        2.749000062942505,
+        6.239999771118164
+      ],
+      "powerRadiantW": 2.4,
+      "size": [
+        0.07,
+        0.07
+      ],
+      "basis": "render lighting assumption, not electrical watts or measured illuminance"
+    },
+    {
+      "name": "recessed-led-downlight_9 emission",
+      "position": [
+        5.150000095367432,
+        2.749000062942505,
+        6.349999904632568
+      ],
+      "powerRadiantW": 2.4,
+      "size": [
+        0.07,
+        0.07
+      ],
+      "basis": "render lighting assumption, not electrical watts or measured illuminance"
+    }
+  ],
+  "materials": [
+    {
+      "object": "bath2-mirror-panel",
+      "adjustment": "neutral physical mirror"
+    },
+    {
+      "object": "dry-mirror-door-0",
+      "adjustment": "neutral physical mirror"
+    },
+    {
+      "object": "dry-mirror-door-1",
+      "adjustment": "neutral physical mirror"
+    },
+    {
+      "object": "makeup-mirror",
+      "adjustment": "neutral physical mirror"
+    },
+    {
+      "object": "mesh_1150",
+      "adjustment": "neutral physical mirror"
+    },
+    {
+      "object": "upper-mirror-door",
+      "adjustment": "neutral physical mirror"
+    }
+  ],
+  "limits": "Same current geometry; Cycles lighting study. Light powers are assumptions, not site measurements or installed products. Not a photograph or completed construction design."
+}

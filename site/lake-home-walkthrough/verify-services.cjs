@@ -1,0 +1,32 @@
+const {chromium}=require('C:/Users/vv-dev-work/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+const path=require('node:path');
+(async()=>{
+ const browser=await chromium.launch({channel:'chrome',headless:true,args:['--enable-webgl','--no-sandbox']});
+ const page=await browser.newPage({viewport:{width:1600,height:1000}}),errors=[];page.on('pageerror',e=>errors.push(e.message));
+ await page.goto('http://127.0.0.1:8768/lake-home-walkthrough/index.html');await page.waitForFunction(()=>window.homeDebug,{timeout:30000});
+ const result=await page.evaluate(()=>{const h=homeDebug,devices=[];h.scene.traverse(o=>{if(['supply-grille','return-grille','service-hatch'].includes(o.name))devices.push(o.name);});
+  const routes=h.rooms.map(r=>{h.enter();h.goRoom(r.id);for(let i=0;i<3000&&h.state.routeLength;i++)h.tick(1/30);return {id:r.id,arrived:!h.state.routeLength,error:Math.hypot(h.state.position[0]-h.P(r.point)[0],h.state.position[2]-h.P(r.point)[1])};});
+  return {floor:h.tilePitch,textureScale:h.scene.getObjectByName('800x800-straight-tile-floor').material.map.repeat.toArray(),ceilings:h.ceilingDetails,switches:h.services.switches,bathUnits:h.services.bathUnits.map(u=>u.id),devices,hvac:h.hvac,clearances:h.clearanceAudit.map(c=>({name:c.name,mm:c.mm,pass:c.pass})),routes};});
+ console.log('DETAILS',JSON.stringify(result));
+ const states=[];for(const key of ['home','movie','away','night']){await page.click(`[data-scene="${key}"]`);states.push(await page.evaluate(()=>homeDebug.services.state));}console.log('SCENES',JSON.stringify(states));await page.click('[data-scene="home"]');
+ await page.click('#toggleCutaway');
+ await page.evaluate(()=>{for(let i=0;i<3000&&homeDebug.state.routeLength;i++)homeDebug.tick(1/30);});
+ const cutaway=await page.evaluate(()=>({active:homeDebug.services.state.cutaway,unit:homeDebug.scene.getObjectByName('concealed-indoor-unit').visible,air:homeDebug.scene.getObjectByName('indoor-air-study').visible,opacity:homeDebug.scene.getObjectByName('ducted-indoor-bulkhead').children[0].material.opacity}));
+ await page.evaluate(()=>new Promise(r=>requestAnimationFrame(()=>requestAnimationFrame(r))));await page.screenshot({path:path.join(__dirname,'hvac-cutaway.png')});
+ await page.click('#toggleCutaway');
+ const restored=await page.evaluate(()=>({active:homeDebug.services.state.cutaway,unit:homeDebug.scene.getObjectByName('concealed-indoor-unit').visible,air:homeDebug.scene.getObjectByName('indoor-air-study').visible,opacity:homeDebug.scene.getObjectByName('ducted-indoor-bulkhead').children[0].material.opacity}));
+ await page.click('#inspectBalcony');await page.evaluate(()=>{for(let i=0;i<3000&&homeDebug.state.routeLength;i++)homeDebug.tick(1/30);});
+ await page.evaluate(()=>new Promise(r=>requestAnimationFrame(()=>requestAnimationFrame(r))));await page.screenshot({path:path.join(__dirname,'balcony-detail.png')});
+ const balcony=await page.evaluate(()=>({column:homeDebug.scene.getObjectByName('retained-balcony-column').userData,wings:['lake-bar-left','lake-bar-right'].map(n=>{const g=homeDebug.scene.getObjectByName(n);return {name:n,rotation:g.rotation.y,footrail:!!g.getObjectByName('bar-footrail'),light:!!g.getObjectByName('bar-concealed-light')};})}));
+ console.log('NEW_DETAILS',JSON.stringify({cutaway,restored,balcony}));
+ if(!cutaway.active||!cutaway.unit||!cutaway.air||cutaway.opacity>=.2||restored.active||restored.unit||restored.air||restored.opacity!==1||balcony.column.removalAllowed!==false||balcony.column.width!==.45||balcony.wings.some(w=>!w.footrail||!w.light||w.rotation!==0)||result.hvac.pipeRoute!==null)process.exitCode=1;
+ for(const [button,file] of [['#inspectServices','hvac-ceiling.png'],['#inspectBedroom','bedroom-ceiling.png'],['#inspectBath','bath-ceiling.png']]){await page.click(button);await page.evaluate(()=>{for(let i=0;i<3000&&homeDebug.state.routeLength;i++)homeDebug.tick(1/30);homeDebug.tick(1/30);});await page.evaluate(()=>new Promise(r=>requestAnimationFrame(()=>requestAnimationFrame(r))));await page.screenshot({path:path.join(__dirname,file)});}
+ await page.uncheck('#servicePoints');await page.evaluate(()=>{homeDebug.enter();homeDebug.goRoom('dining');for(let i=0;i<3000&&homeDebug.state.routeLength;i++)homeDebug.tick(1/30);});await page.evaluate(()=>new Promise(r=>requestAnimationFrame(()=>requestAnimationFrame(r))));await page.screenshot({path:path.join(__dirname,'tile-day.png')});
+ await page.click('[data-scene="movie"]');await page.check('#night');await page.evaluate(()=>new Promise(r=>requestAnimationFrame(()=>requestAnimationFrame(r))));await page.screenshot({path:path.join(__dirname,'smart-movie.png')});
+ await page.click('[data-scene="home"]');await page.uncheck('#night');
+ await page.setViewportSize({width:900,height:900});const tablet=await page.locator('#toggleCutaway').isVisible();
+ await page.setViewportSize({width:390,height:844});await page.click('#overview');await page.evaluate(()=>new Promise(r=>requestAnimationFrame(()=>requestAnimationFrame(r))));await page.screenshot({path:path.join(__dirname,'mobile-overview.png')});const mobile=await page.evaluate(()=>({overflow:document.documentElement.scrollWidth>innerWidth,button:!!document.querySelector('#toggleCutaway')}));
+ console.log('RESPONSIVE',JSON.stringify({tablet,mobile}));if(!tablet||mobile.overflow||!mobile.button)process.exitCode=1;
+ console.log('ERRORS',JSON.stringify(errors));await browser.close();
+ if(errors.length||result.floor!==.8||result.ceilings.length!==5||result.bathUnits.length!==2||result.switches.length!==8||result.hvac.outdoor!==null||result.devices.filter(n=>n==='supply-grille').length!==2||result.clearances.some(c=>!c.pass)||result.routes.some(r=>!r.arrived||r.error>.3)||states.some((s,i)=>s.scene!==['home','movie','away','night'][i]||s.connectedToRealDevices))process.exitCode=1;
+})();

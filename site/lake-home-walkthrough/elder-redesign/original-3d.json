@@ -1,0 +1,48 @@
+{
+  "main": [
+    0,
+    0,
+    2.8,
+    2.9
+  ],
+  "bed": [
+    0.02,
+    0.45,
+    1.85,
+    1.99
+  ],
+  "wardrobe": [
+    0.02,
+    2.5,
+    1.82,
+    2.9
+  ],
+  "nightstands": [
+    [
+      0.02,
+      0.13,
+      0.34,
+      0.43
+    ],
+    [
+      0.02,
+      2.0,
+      0.32,
+      2.3
+    ]
+  ],
+  "bayHeight": 0.55,
+  "leftSolidWallStart": 0.70514,
+  "basis": "Original arrangement, requested mattress1500x1800, accepted shallow wardrobe1800x400, under-bed seasonal bedding storage. Dimensions unverified on site.",
+  "bedStorage": {
+    "type": "top-opening enclosed bed box",
+    "use": "seasonal quilts and bedding",
+    "hardwareStatus": "Lift support, mattress load and opening clearance not selected or verified"
+  },
+  "wardrobeDoor": {
+    "type": "two bypass sliding panels",
+    "totalDepthIncludesTracks": true,
+    "trackEnvelopeIllustrationMm": 60,
+    "hardwareStatus": "Track and soft-close system unselected; final usable internal depth must be checked"
+  }
+}

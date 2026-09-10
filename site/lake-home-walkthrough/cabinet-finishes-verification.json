@@ -1,0 +1,2142 @@
+{
+  "unit": {
+    "cold": true,
+    "geometryPreserved": true,
+    "sharedGeometryUntouched": true,
+    "idempotent": true,
+    "movingGrainFixed": true,
+    "refreshPreservesGeometry": true,
+    "refreshedHeight": 2.4109089374063375,
+    "maps": [
+      {
+        "k": "map",
+        "loaded": true,
+        "repeat": [
+          2,
+          2
+        ],
+        "colorSpace": "srgb"
+      },
+      {
+        "k": "normalMap",
+        "loaded": true,
+        "repeat": [
+          2,
+          2
+        ],
+        "colorSpace": ""
+      },
+      {
+        "k": "roughnessMap",
+        "loaded": true,
+        "repeat": [
+          2,
+          2
+        ],
+        "colorSpace": ""
+      }
+    ]
+  },
+  "scene": {
+    "panels": [
+      {
+        "name": "prep-carcass-side",
+        "parent": "kitchen-prep-module",
+        "size": [
+          0.017999999225139618,
+          0.7369999885559082,
+          0.5600000023841858
+        ],
+        "maxUVError": 1.7404559571332356e-8
+      },
+      {
+        "name": "prep-carcass-side",
+        "parent": "kitchen-prep-module",
+        "size": [
+          0.017999999225139618,
+          0.7369999885559082,
+          0.5600000023841858
+        ],
+        "maxUVError": 2.717971625543214e-8
+      },
+      {
+        "name": "prep-carcass-back",
+        "parent": "kitchen-prep-module",
+        "size": [
+          0.6899999976158142,
+          0.7369999885559082,
+          0.017999999225139618
+        ],
+        "maxUVError": 2.312660285497259e-8
+      },
+      {
+        "name": "prep-carcass-bottom",
+        "parent": "kitchen-prep-module",
+        "size": [
+          0.7260000109672546,
+          0.017999999225139618,
+          0.5600000023841858
+        ],
+        "maxUVError": 2.694129364044784e-8
+      },
+      {
+        "name": "prep-front-brace",
+        "parent": "kitchen-prep-module",
+        "size": [
+          0.7260000109672546,
+          0.017999999225139618,
+          0.05999999865889549
+        ],
+        "maxUVError": 3.3602134408283746e-9
+      },
+      {
+        "name": "prep-rear-brace",
+        "parent": "kitchen-prep-module",
+        "size": [
+          0.7260000109672546,
+          0.017999999225139618,
+          0.05999999865889549
+        ],
+        "maxUVError": 1.370906943520822e-9
+      },
+      {
+        "name": "kitchen-prep-drawer-0-bottom",
+        "parent": "kitchen-prep-drawer-0",
+        "size": [
+          0.6460000276565552,
+          0.014999999664723873,
+          0.49000000953674316
+        ],
+        "maxUVError": 2.589075620562653e-9
+      },
+      {
+        "name": "kitchen-prep-drawer-0-side",
+        "parent": "kitchen-prep-drawer-0",
+        "size": [
+          0.01600000075995922,
+          0.2150000035762787,
+          0.49000000953674316
+        ],
+        "maxUVError": 2.890824646328838e-8
+      },
+      {
+        "name": "kitchen-prep-drawer-0-side",
+        "parent": "kitchen-prep-drawer-0",
+        "size": [
+          0.01600000075995922,
+          0.2150000035762787,
+          0.49000000953674316
+        ],
+        "maxUVError": 1.400709237486808e-8
+      },
+      {
+        "name": "kitchen-prep-drawer-0-box-end",
+        "parent": "kitchen-prep-drawer-0",
+        "size": [
+          0.6140000224113464,
+          0.2150000035762787,
+          0.01600000075995922
+        ],
+        "maxUVError": 1.4483930499409325e-8
+      },
+      {
+        "name": "kitchen-prep-drawer-0-box-end",
+        "parent": "kitchen-prep-drawer-0",
+        "size": [
+          0.6140000224113464,
+          0.2150000035762787,
+          0.01600000075995922
+        ],
+        "maxUVError": 1.4483930499409325e-8
+      },
+      {
+        "name": "kitchen-prep-drawer-1-bottom",
+        "parent": "kitchen-prep-drawer-1",
+        "size": [
+          0.6460000276565552,
+          0.014999999664723873,
+          0.49000000953674316
+        ],
+        "maxUVError": 5.9604587931971764e-9
+      },
+      {
+        "name": "kitchen-prep-drawer-1-side",
+        "parent": "kitchen-prep-drawer-1",
+        "size": [
+          0.01600000075995922,
+          0.1850000023841858,
+          0.49000000953674316
+        ],
+        "maxUVError": 1.2815007721656002e-8
+      },
+      {
+        "name": "kitchen-prep-drawer-1-side",
+        "parent": "kitchen-prep-drawer-1",
+        "size": [
+          0.01600000075995922,
+          0.1850000023841858,
+          0.49000000953674316
+        ],
+        "maxUVError": 3.5762823813456635e-9
+      },
+      {
+        "name": "kitchen-prep-drawer-1-box-end",
+        "parent": "kitchen-prep-drawer-1",
+        "size": [
+          0.6140000224113464,
+          0.1850000023841858,
+          0.01600000075995922
+        ],
+        "maxUVError": 4.053120505886909e-9
+      },
+      {
+        "name": "kitchen-prep-drawer-1-box-end",
+        "parent": "kitchen-prep-drawer-1",
+        "size": [
+          0.6140000224113464,
+          0.1850000023841858,
+          0.01600000075995922
+        ],
+        "maxUVError": 7.21961157523765e-9
+      },
+      {
+        "name": "kitchen-prep-drawer-2-bottom",
+        "parent": "kitchen-prep-drawer-2",
+        "size": [
+          0.6460000276565552,
+          0.014999999664723873,
+          0.49000000953674316
+        ],
+        "maxUVError": 7.152550551836612e-9
+      },
+      {
+        "name": "kitchen-prep-drawer-2-side",
+        "parent": "kitchen-prep-drawer-2",
+        "size": [
+          0.01600000075995922,
+          0.11500000208616257,
+          0.49000000953674316
+        ],
+        "maxUVError": 1.4007085269440722e-8
+      },
+      {
+        "name": "kitchen-prep-drawer-2-side",
+        "parent": "kitchen-prep-drawer-2",
+        "size": [
+          0.01600000075995922,
+          0.11500000208616257,
+          0.49000000953674316
+        ],
+        "maxUVError": 2.8908253568715736e-8
+      },
+      {
+        "name": "kitchen-prep-drawer-2-box-end",
+        "parent": "kitchen-prep-drawer-2",
+        "size": [
+          0.6140000224113464,
+          0.11500000208616257,
+          0.01600000075995922
+        ],
+        "maxUVError": 7.033349902485497e-9
+      },
+      {
+        "name": "kitchen-prep-drawer-2-box-end",
+        "parent": "kitchen-prep-drawer-2",
+        "size": [
+          0.6140000224113464,
+          0.11500000208616257,
+          0.01600000075995922
+        ],
+        "maxUVError": 7.033349902485497e-9
+      },
+      {
+        "name": "cutlery-divider",
+        "parent": "kitchen-prep-drawer-2",
+        "size": [
+          0.008999999612569809,
+          0.03200000151991844,
+          0.36000001430511475
+        ],
+        "maxUVError": 7.05570357695251e-9
+      },
+      {
+        "name": "cutlery-divider",
+        "parent": "kitchen-prep-drawer-2",
+        "size": [
+          0.008999999612569809,
+          0.03200000151991844,
+          0.36000001430511475
+        ],
+        "maxUVError": 1.3280661903536384e-8
+      },
+      {
+        "name": "cutlery-divider",
+        "parent": "kitchen-prep-drawer-2",
+        "size": [
+          0.008999999612569809,
+          0.03200000151991844,
+          0.36000001430511475
+        ],
+        "maxUVError": 1.4021992456036969e-8
+      },
+      {
+        "name": "cutlery-divider",
+        "parent": "kitchen-prep-drawer-2",
+        "size": [
+          0.008999999612569809,
+          0.03200000151991844,
+          0.36000001430511475
+        ],
+        "maxUVError": 2.6889139803643047e-8
+      },
+      {
+        "name": "cutlery-divider",
+        "parent": "kitchen-prep-drawer-2",
+        "size": [
+          0.008999999612569809,
+          0.03200000151991844,
+          0.36000001430511475
+        ],
+        "maxUVError": 3.434713846672821e-9
+      },
+      {
+        "name": "hob-carcass-side",
+        "parent": "kitchen-hob-module",
+        "size": [
+          0.017999999225139618,
+          0.7369999885559082,
+          0.5600000023841858
+        ],
+        "maxUVError": 5.859874363522977e-9
+      },
+      {
+        "name": "hob-carcass-side",
+        "parent": "kitchen-hob-module",
+        "size": [
+          0.017999999225139618,
+          0.7369999885559082,
+          0.5600000023841858
+        ],
+        "maxUVError": 4.529951525000797e-9
+      },
+      {
+        "name": "hob-carcass-back",
+        "parent": "kitchen-hob-module",
+        "size": [
+          0.7400000095367432,
+          0.7369999885559082,
+          0.017999999225139618
+        ],
+        "maxUVError": 6.437296917738422e-9
+      },
+      {
+        "name": "hob-carcass-bottom",
+        "parent": "kitchen-hob-module",
+        "size": [
+          0.7760000228881836,
+          0.017999999225139618,
+          0.5600000023841858
+        ],
+        "maxUVError": 1.9550327579054283e-8
+      },
+      {
+        "name": "hob-front-brace",
+        "parent": "kitchen-hob-module",
+        "size": [
+          0.7760000228881836,
+          0.017999999225139618,
+          0.05999999865889549
+        ],
+        "maxUVError": 1.3679262167443085e-8
+      },
+      {
+        "name": "hob-rear-brace",
+        "parent": "kitchen-hob-module",
+        "size": [
+          0.7760000228881836,
+          0.017999999225139618,
+          0.05999999865889549
+        ],
+        "maxUVError": 7.085496633862931e-9
+      },
+      {
+        "name": "kitchen-hob-drawer-0-bottom",
+        "parent": "kitchen-hob-drawer-0",
+        "size": [
+          0.6959999799728394,
+          0.014999999664723873,
+          0.49000000953674316
+        ],
+        "maxUVError": 1.4305108209100581e-8
+      },
+      {
+        "name": "kitchen-hob-drawer-0-side",
+        "parent": "kitchen-hob-drawer-0",
+        "size": [
+          0.01600000075995922,
+          0.2150000035762787,
+          0.49000000953674316
+        ],
+        "maxUVError": 1.162290885758921e-8
+      },
+      {
+        "name": "kitchen-hob-drawer-0-side",
+        "parent": "kitchen-hob-drawer-0",
+        "size": [
+          0.01600000075995922,
+          0.2150000035762787,
+          0.49000000953674316
+        ],
+        "maxUVError": 1.4305115314527939e-8
+      },
+      {
+        "name": "kitchen-hob-drawer-0-box-end",
+        "parent": "kitchen-hob-drawer-0",
+        "size": [
+          0.6639999747276306,
+          0.2150000035762787,
+          0.01600000075995922
+        ],
+        "maxUVError": 2.8431408338747133e-8
+      },
+      {
+        "name": "kitchen-hob-drawer-0-box-end",
+        "parent": "kitchen-hob-drawer-0",
+        "size": [
+          0.6639999747276306,
+          0.2150000035762787,
+          0.01600000075995922
+        ],
+        "maxUVError": 2.2053754378248414e-9
+      },
+      {
+        "name": "kitchen-hob-drawer-1-bottom",
+        "parent": "kitchen-hob-drawer-1",
+        "size": [
+          0.6959999799728394,
+          0.014999999664723873,
+          0.49000000953674316
+        ],
+        "maxUVError": 1.0728840038609633e-8
+      },
+      {
+        "name": "kitchen-hob-drawer-1-side",
+        "parent": "kitchen-hob-drawer-1",
+        "size": [
+          0.01600000075995922,
+          0.20499999821186066,
+          0.49000000953674316
+        ],
+        "maxUVError": 7.4505734914964705e-9
+      },
+      {
+        "name": "kitchen-hob-drawer-1-side",
+        "parent": "kitchen-hob-drawer-1",
+        "size": [
+          0.01600000075995922,
+          0.20499999821186066,
+          0.49000000953674316
+        ],
+        "maxUVError": 1.221894763148157e-8
+      },
+      {
+        "name": "kitchen-hob-drawer-1-box-end",
+        "parent": "kitchen-hob-drawer-1",
+        "size": [
+          0.6639999747276306,
+          0.20499999821186066,
+          0.01600000075995922
+        ],
+        "maxUVError": 1.4428060524096509e-8
+      },
+      {
+        "name": "kitchen-hob-drawer-1-box-end",
+        "parent": "kitchen-hob-drawer-1",
+        "size": [
+          0.6639999747276306,
+          0.20499999821186066,
+          0.01600000075995922
+        ],
+        "maxUVError": 2.0384796073358302e-8
+      },
+      {
+        "name": "pots-carcass-side",
+        "parent": "kitchen-pots-module",
+        "size": [
+          0.017999999225139618,
+          0.7369999885559082,
+          0.5600000023841858
+        ],
+        "maxUVError": 6.43730402316578e-9
+      },
+      {
+        "name": "pots-carcass-side",
+        "parent": "kitchen-pots-module",
+        "size": [
+          0.017999999225139618,
+          0.7369999885559082,
+          0.5600000023841858
+        ],
+        "maxUVError": 2.3603440979513834e-8
+      },
+      {
+        "name": "pots-carcass-back",
+        "parent": "kitchen-pots-module",
+        "size": [
+          0.7799999713897705,
+          0.7369999885559082,
+          0.017999999225139618
+        ],
+        "maxUVError": 1.835822871498749e-8
+      },
+      {
+        "name": "pots-carcass-bottom",
+        "parent": "kitchen-pots-module",
+        "size": [
+          0.8159999847412109,
+          0.017999999225139618,
+          0.5600000023841858
+        ],
+        "maxUVError": 2.2172926605890098e-8
+      },
+      {
+        "name": "pots-front-brace",
+        "parent": "kitchen-pots-module",
+        "size": [
+          0.8159999847412109,
+          0.017999999225139618,
+          0.05999999865889549
+        ],
+        "maxUVError": 1.4081535937293665e-9
+      },
+      {
+        "name": "pots-rear-brace",
+        "parent": "kitchen-pots-module",
+        "size": [
+          0.8159999847412109,
+          0.017999999225139618,
+          0.05999999865889549
+        ],
+        "maxUVError": 1.4521184255045227e-8
+      },
+      {
+        "name": "kitchen-pots-drawer-0-bottom",
+        "parent": "kitchen-pots-drawer-0",
+        "size": [
+          0.7360000014305115,
+          0.014999999664723873,
+          0.49000000953674316
+        ],
+        "maxUVError": 3.5762823813456635e-9
+      },
+      {
+        "name": "kitchen-pots-drawer-0-side",
+        "parent": "kitchen-pots-drawer-0",
+        "size": [
+          0.01600000075995922,
+          0.2750000059604645,
+          0.49000000953674316
+        ],
+        "maxUVError": 4.1723211552380235e-9
+      },
+      {
+        "name": "kitchen-pots-drawer-0-side",
+        "parent": "kitchen-pots-drawer-0",
+        "size": [
+          0.01600000075995922,
+          0.2750000059604645,
+          0.49000000953674316
+        ],
+        "maxUVError": 2.3245803504323703e-8
+      },
+      {
+        "name": "kitchen-pots-drawer-0-box-end",
+        "parent": "kitchen-pots-drawer-0",
+        "size": [
+          0.7039999961853027,
+          0.2750000059604645,
+          0.01600000075995922
+        ],
+        "maxUVError": 8.22544876655229e-9
+      },
+      {
+        "name": "kitchen-pots-drawer-0-box-end",
+        "parent": "kitchen-pots-drawer-0",
+        "size": [
+          0.7039999961853027,
+          0.2750000059604645,
+          0.01600000075995922
+        ],
+        "maxUVError": 1.4223154209958011e-8
+      },
+      {
+        "name": "kitchen-pots-drawer-1-bottom",
+        "parent": "kitchen-pots-drawer-1",
+        "size": [
+          0.7360000014305115,
+          0.014999999664723873,
+          0.49000000953674316
+        ],
+        "maxUVError": 2.1457672971791908e-8
+      },
+      {
+        "name": "kitchen-pots-drawer-1-side",
+        "parent": "kitchen-pots-drawer-1",
+        "size": [
+          0.01600000075995922,
+          0.3149999976158142,
+          0.49000000953674316
+        ],
+        "maxUVError": 1.4118853641775786e-8
+      },
+      {
+        "name": "kitchen-pots-drawer-1-side",
+        "parent": "kitchen-pots-drawer-1",
+        "size": [
+          0.01600000075995922,
+          0.3149999976158142,
+          0.49000000953674316
+        ],
+        "maxUVError": 7.74859643115633e-9
+      },
+      {
+        "name": "kitchen-pots-drawer-1-box-end",
+        "parent": "kitchen-pots-drawer-1",
+        "size": [
+          0.7039999961853027,
+          0.3149999976158142,
+          0.01600000075995922
+        ],
+        "maxUVError": 2.3722655839719664e-8
+      },
+      {
+        "name": "kitchen-pots-drawer-1-box-end",
+        "parent": "kitchen-pots-drawer-1",
+        "size": [
+          0.7039999961853027,
+          0.3149999976158142,
+          0.01600000075995922
+        ],
+        "maxUVError": 5.245205159098987e-9
+      },
+      {
+        "name": "sink-carcass-bottom",
+        "parent": "kitchen-north-carcass",
+        "size": [
+          1.875,
+          0.017999999225139618,
+          0.5550000071525574
+        ],
+        "maxUVError": 7.234518761833897e-9
+      },
+      {
+        "name": "sink-carcass-partition",
+        "parent": "kitchen-north-carcass",
+        "size": [
+          0.017999999225139618,
+          0.7369999885559082,
+          0.5550000071525574
+        ],
+        "maxUVError": 7.867804185934801e-9
+      },
+      {
+        "name": "sink-carcass-partition",
+        "parent": "kitchen-north-carcass",
+        "size": [
+          0.017999999225139618,
+          0.7369999885559082,
+          0.5550000071525574
+        ],
+        "maxUVError": 2.098084195267802e-8
+      },
+      {
+        "name": "sink-carcass-partition",
+        "parent": "kitchen-north-carcass",
+        "size": [
+          0.017999999225139618,
+          0.7369999885559082,
+          0.5550000071525574
+        ],
+        "maxUVError": 1.9788743088611227e-8
+      },
+      {
+        "name": "sink-carcass-partition",
+        "parent": "kitchen-north-carcass",
+        "size": [
+          0.017999999225139618,
+          0.7369999885559082,
+          0.5550000071525574
+        ],
+        "maxUVError": 2.479553273815327e-8
+      },
+      {
+        "name": "sink-carcass-back-side",
+        "parent": "kitchen-north-carcass",
+        "size": [
+          0.7200000286102295,
+          0.7369999885559082,
+          0.017999999225139618
+        ],
+        "maxUVError": 1.0013579299084086e-8
+      },
+      {
+        "name": "sink-carcass-back-side",
+        "parent": "kitchen-north-carcass",
+        "size": [
+          0.5149999856948853,
+          0.7369999885559082,
+          0.017999999225139618
+        ],
+        "maxUVError": 2.0980834847250662e-8
+      },
+      {
+        "name": "sink-carcass-back-lower",
+        "parent": "kitchen-north-carcass",
+        "size": [
+          0.6399999856948853,
+          0.14499999582767487,
+          0.017999999225139618
+        ],
+        "maxUVError": 1.4476476906111202e-8
+      },
+      {
+        "name": "sink-carcass-back-upper",
+        "parent": "kitchen-north-carcass",
+        "size": [
+          0.6399999856948853,
+          0.041999999433755875,
+          0.017999999225139618
+        ],
+        "maxUVError": 1.1187047732619249e-8
+      },
+      {
+        "name": "sink-right-storage-shelf",
+        "parent": "kitchen-north-carcass",
+        "size": [
+          0.25,
+          0.017999999225139618,
+          0.49000000953674316
+        ],
+        "maxUVError": 1.460313114876044e-8
+      },
+      {
+        "name": "sink-right-storage-shelf",
+        "parent": "kitchen-north-carcass",
+        "size": [
+          0.25,
+          0.017999999225139618,
+          0.49000000953674316
+        ],
+        "maxUVError": 9.238718234882981e-9
+      },
+      {
+        "name": "sink-right-storage-shelf",
+        "parent": "kitchen-north-carcass",
+        "size": [
+          0.25,
+          0.017999999225139618,
+          0.49000000953674316
+        ],
+        "maxUVError": 1.4714899521095504e-8
+      },
+      {
+        "name": "island-end-panel",
+        "parent": "island-storage-carcass",
+        "size": [
+          0.49000000953674316,
+          0.7599999904632568,
+          0.017999999225139618
+        ],
+        "maxUVError": 9.775163789527141e-9
+      },
+      {
+        "name": "island-end-panel",
+        "parent": "island-storage-carcass",
+        "size": [
+          0.49000000953674316,
+          0.7599999904632568,
+          0.017999999225139618
+        ],
+        "maxUVError": 1.4543530824084883e-8
+      },
+      {
+        "name": "island-back-panel",
+        "parent": "island-storage-carcass",
+        "size": [
+          0.017999999225139618,
+          0.7599999904632568,
+          1.1640000343322754
+        ],
+        "maxUVError": 1.5258777352755715e-8
+      },
+      {
+        "name": "island-bottom",
+        "parent": "island-storage-carcass",
+        "size": [
+          0.49000000953674316,
+          0.017999999225139618,
+          1.1640000343322754
+        ],
+        "maxUVError": 2.6822092991096724e-8
+      },
+      {
+        "name": "island-center-divider",
+        "parent": "island-storage-carcass",
+        "size": [
+          0.49000000953674316,
+          0.7599999904632568,
+          0.017999999225139618
+        ],
+        "maxUVError": 1.2516977676568786e-8
+      },
+      {
+        "name": "island-top-rail",
+        "parent": "island-storage-carcass",
+        "size": [
+          0.49000000953674316,
+          0.017999999225139618,
+          1.1640000343322754
+        ],
+        "maxUVError": 1.668929883180681e-8
+      },
+      {
+        "name": "drawer-bottom",
+        "parent": "island-drawer-0",
+        "size": [
+          0.4300000071525574,
+          0.014000000432133675,
+          0.5299999713897705
+        ],
+        "maxUVError": 1.1086456197517691e-8
+      },
+      {
+        "name": "drawer-side",
+        "parent": "island-drawer-0",
+        "size": [
+          0.4300000071525574,
+          0.15000000596046448,
+          0.012000000104308128
+        ],
+        "maxUVError": 1.3470653925651277e-8
+      },
+      {
+        "name": "drawer-side",
+        "parent": "island-drawer-0",
+        "size": [
+          0.4300000071525574,
+          0.15000000596046448,
+          0.012000000104308128
+        ],
+        "maxUVError": 7.286658387783973e-9
+      },
+      {
+        "name": "drawer-back",
+        "parent": "island-drawer-0",
+        "size": [
+          0.012000000104308128,
+          0.15000000596046448,
+          0.5299999713897705
+        ],
+        "maxUVError": 1.8477521734894253e-9
+      },
+      {
+        "name": "cutlery-tray-divider",
+        "parent": "island-drawer-0",
+        "size": [
+          0.3700000047683716,
+          0.054999999701976776,
+          0.00800000037997961
+        ],
+        "maxUVError": 1.6391226154155447e-9
+      },
+      {
+        "name": "cutlery-tray-divider",
+        "parent": "island-drawer-0",
+        "size": [
+          0.3700000047683716,
+          0.054999999701976776,
+          0.00800000037997961
+        ],
+        "maxUVError": 1.4211977372724505e-8
+      },
+      {
+        "name": "drawer-bottom",
+        "parent": "island-drawer-1",
+        "size": [
+          0.4300000071525574,
+          0.014000000432133675,
+          0.5299999713897705
+        ],
+        "maxUVError": 1.3507900575859821e-8
+      },
+      {
+        "name": "drawer-side",
+        "parent": "island-drawer-1",
+        "size": [
+          0.4300000071525574,
+          0.25,
+          0.012000000104308128
+        ],
+        "maxUVError": 2.0921234522575105e-8
+      },
+      {
+        "name": "drawer-side",
+        "parent": "island-drawer-1",
+        "size": [
+          0.4300000071525574,
+          0.25,
+          0.012000000104308128
+        ],
+        "maxUVError": 1.4271577697400062e-8
+      },
+      {
+        "name": "drawer-back",
+        "parent": "island-drawer-1",
+        "size": [
+          0.012000000104308128,
+          0.25,
+          0.5299999713897705
+        ],
+        "maxUVError": 1.3053409020358231e-8
+      },
+      {
+        "name": "drawer-bottom",
+        "parent": "island-drawer-2",
+        "size": [
+          0.4300000071525574,
+          0.014000000432133675,
+          0.5299999713897705
+        ],
+        "maxUVError": 2.5868416742014233e-8
+      },
+      {
+        "name": "drawer-side",
+        "parent": "island-drawer-2",
+        "size": [
+          0.4300000071525574,
+          0.20999999344348907,
+          0.012000000104308128
+        ],
+        "maxUVError": 5.0067967549694e-9
+      },
+      {
+        "name": "drawer-side",
+        "parent": "island-drawer-2",
+        "size": [
+          0.4300000071525574,
+          0.20999999344348907,
+          0.012000000104308128
+        ],
+        "maxUVError": 2.8252600259293104e-8
+      },
+      {
+        "name": "drawer-back",
+        "parent": "island-drawer-2",
+        "size": [
+          0.012000000104308128,
+          0.20999999344348907,
+          0.5299999713897705
+        ],
+        "maxUVError": 1.4103946455179539e-8
+      },
+      {
+        "name": "drawer-bottom",
+        "parent": "island-drawer-3",
+        "size": [
+          0.4300000071525574,
+          0.014000000432133675,
+          0.5299999713897705
+        ],
+        "maxUVError": 9.775163789527141e-9
+      },
+      {
+        "name": "drawer-side",
+        "parent": "island-drawer-3",
+        "size": [
+          0.4300000071525574,
+          0.15000000596046448,
+          0.012000000104308128
+        ],
+        "maxUVError": 2.2292127255241212e-8
+      },
+      {
+        "name": "drawer-side",
+        "parent": "island-drawer-3",
+        "size": [
+          0.4300000071525574,
+          0.15000000596046448,
+          0.012000000104308128
+        ],
+        "maxUVError": 1.4644115253759082e-8
+      },
+      {
+        "name": "drawer-back",
+        "parent": "island-drawer-3",
+        "size": [
+          0.012000000104308128,
+          0.15000000596046448,
+          0.5299999713897705
+        ],
+        "maxUVError": 6.906674343554187e-9
+      },
+      {
+        "name": "cutlery-tray-divider",
+        "parent": "island-drawer-3",
+        "size": [
+          0.3700000047683716,
+          0.054999999701976776,
+          0.00800000037997961
+        ],
+        "maxUVError": 4.321336177781632e-9
+      },
+      {
+        "name": "cutlery-tray-divider",
+        "parent": "island-drawer-3",
+        "size": [
+          0.3700000047683716,
+          0.054999999701976776,
+          0.00800000037997961
+        ],
+        "maxUVError": 2.548098620991368e-8
+      },
+      {
+        "name": "drawer-bottom",
+        "parent": "island-drawer-4",
+        "size": [
+          0.4300000071525574,
+          0.014000000432133675,
+          0.5299999713897705
+        ],
+        "maxUVError": 1.4066699804970995e-8
+      },
+      {
+        "name": "drawer-side",
+        "parent": "island-drawer-4",
+        "size": [
+          0.4300000071525574,
+          0.25,
+          0.012000000104308128
+        ],
+        "maxUVError": 1.8030306137006846e-9
+      },
+      {
+        "name": "drawer-side",
+        "parent": "island-drawer-4",
+        "size": [
+          0.4300000071525574,
+          0.25,
+          0.012000000104308128
+        ],
+        "maxUVError": 2.6285647436452564e-8
+      },
+      {
+        "name": "drawer-back",
+        "parent": "island-drawer-4",
+        "size": [
+          0.012000000104308128,
+          0.25,
+          0.5299999713897705
+        ],
+        "maxUVError": 1.358242229798634e-8
+      },
+      {
+        "name": "drawer-bottom",
+        "parent": "island-drawer-5",
+        "size": [
+          0.4300000071525574,
+          0.014000000432133675,
+          0.5299999713897705
+        ],
+        "maxUVError": 1.287460804633156e-8
+      },
+      {
+        "name": "drawer-side",
+        "parent": "island-drawer-5",
+        "size": [
+          0.4300000071525574,
+          0.20999999344348907,
+          0.012000000104308128
+        ],
+        "maxUVError": 6.7763039623969235e-9
+      },
+      {
+        "name": "drawer-side",
+        "parent": "island-drawer-5",
+        "size": [
+          0.4300000071525574,
+          0.20999999344348907,
+          0.012000000104308128
+        ],
+        "maxUVError": 7.390980272248271e-9
+      },
+      {
+        "name": "drawer-back",
+        "parent": "island-drawer-5",
+        "size": [
+          0.012000000104308128,
+          0.20999999344348907,
+          0.5299999713897705
+        ],
+        "maxUVError": 2.956390687813837e-8
+      },
+      {
+        "name": "bed1-bed-storage-bottom",
+        "parent": "bed1-bed-storage",
+        "size": [
+          1.4850000143051147,
+          0.017999999225139618,
+          1.9900000095367432
+        ],
+        "maxUVError": 4.005432074905002e-8
+      },
+      {
+        "name": "bed1-bed-frame-side",
+        "parent": "bed1-bed-storage",
+        "size": [
+          0.024000000208616257,
+          0.25999999046325684,
+          2.059999942779541
+        ],
+        "maxUVError": 3.6582363804882334e-9
+      },
+      {
+        "name": "bed1-bed-frame-side",
+        "parent": "bed1-bed-storage",
+        "size": [
+          0.024000000208616257,
+          0.25999999046325684,
+          2.059999942779541
+        ],
+        "maxUVError": 1.4036892537205858e-8
+      },
+      {
+        "name": "bed1-bed-frame-end",
+        "parent": "bed1-bed-storage",
+        "size": [
+          1.4919999837875366,
+          0.25999999046325684,
+          0.024000000208616257
+        ],
+        "maxUVError": 1.4834103723160297e-8
+      },
+      {
+        "name": "bed1-bed-frame-end",
+        "parent": "bed1-bed-storage",
+        "size": [
+          1.4919999837875366,
+          0.25999999046325684,
+          0.024000000208616257
+        ],
+        "maxUVError": 3.6582363804882334e-9
+      },
+      {
+        "name": "bed1-bed-storage-divider",
+        "parent": "bed1-bed-storage",
+        "size": [
+          0.017999999225139618,
+          0.24699999392032623,
+          2
+        ],
+        "maxUVError": 2.789496988953033e-8
+      },
+      {
+        "name": "bed1-bed-deck",
+        "parent": "bed1-bed-lift",
+        "size": [
+          1.5,
+          0.017999999225139618,
+          1.9950000047683716
+        ],
+        "maxUVError": 1.8514754174248083e-9
+      },
+      {
+        "name": "bed1-wardrobe-back",
+        "parent": "bed1-wardrobe",
+        "size": [
+          0.5799999833106995,
+          2.319999933242798,
+          0.017999999225139618
+        ],
+        "maxUVError": 2.622606132263172e-9
+      },
+      {
+        "name": "bed1-wardrobe-side",
+        "parent": "bed1-wardrobe",
+        "size": [
+          0.017999999225139618,
+          2.319999933242798,
+          0.5799999833106995
+        ],
+        "maxUVError": 2.3603433874086477e-8
+      },
+      {
+        "name": "bed1-wardrobe-side",
+        "parent": "bed1-wardrobe",
+        "size": [
+          0.017999999225139618,
+          2.319999933242798,
+          0.5799999833106995
+        ],
+        "maxUVError": 2.8371815119498933e-8
+      },
+      {
+        "name": "bed1-wardrobe-shelf",
+        "parent": "bed1-wardrobe",
+        "size": [
+          0.5440000295639038,
+          0.017999999225139618,
+          0.5440000295639038
+        ],
+        "maxUVError": 5.2452087118126656e-9
+      },
+      {
+        "name": "bed1-wardrobe-shelf",
+        "parent": "bed1-wardrobe",
+        "size": [
+          0.5440000295639038,
+          0.017999999225139618,
+          0.5440000295639038
+        ],
+        "maxUVError": 2.9325491368581424e-8
+      },
+      {
+        "name": "bed1-wardrobe-shelf",
+        "parent": "bed1-wardrobe",
+        "size": [
+          0.5460000038146973,
+          0.017999999225139618,
+          0.5149999856948853
+        ],
+        "maxUVError": 1.597404519770862e-8
+      },
+      {
+        "name": "bed1-wardrobe-shelf",
+        "parent": "bed1-wardrobe",
+        "size": [
+          0.5460000038146973,
+          0.017999999225139618,
+          0.5149999856948853
+        ],
+        "maxUVError": 1.025199480864103e-8
+      },
+      {
+        "name": "bed1-window-storage-back",
+        "parent": "bed1-window-storage",
+        "size": [
+          1.7599999904632568,
+          0.38999998569488525,
+          0.017999999225139618
+        ],
+        "maxUVError": 8.583064925460349e-9
+      },
+      {
+        "name": "bed1-window-storage-side",
+        "parent": "bed1-window-storage",
+        "size": [
+          0.017999999225139618,
+          0.38999998569488525,
+          0.44999998807907104
+        ],
+        "maxUVError": 1.287460449361788e-8
+      },
+      {
+        "name": "bed1-window-storage-side",
+        "parent": "bed1-window-storage",
+        "size": [
+          0.017999999225139618,
+          0.38999998569488525,
+          0.44999998807907104
+        ],
+        "maxUVError": 2.408027910405508e-8
+      },
+      {
+        "name": "bed1-window-storage-shelf",
+        "parent": "bed1-window-storage",
+        "size": [
+          1.7239999771118164,
+          0.017999999225139618,
+          0.414000004529953
+        ],
+        "maxUVError": 1.2636185431347258e-8
+      },
+      {
+        "name": "bed1-window-storage-shelf",
+        "parent": "bed1-window-storage",
+        "size": [
+          1.7239999771118164,
+          0.017999999225139618,
+          0.414000004529953
+        ],
+        "maxUVError": 2.4914740492931742e-8
+      },
+      {
+        "name": "bed1-window-storage-shelf",
+        "parent": "bed1-window-storage",
+        "size": [
+          0.5526666641235352,
+          0.017999999225139618,
+          0.38499999046325684
+        ],
+        "maxUVError": 9.814897339310846e-9
+      },
+      {
+        "name": "bed1-window-storage-partition",
+        "parent": "bed1-window-storage",
+        "size": [
+          0.017999999225139618,
+          0.3400000035762787,
+          0.3799999952316284
+        ],
+        "maxUVError": 2.6424729071550246e-8
+      },
+      {
+        "name": "bed1-window-storage-shelf",
+        "parent": "bed1-window-storage",
+        "size": [
+          0.5526666641235352,
+          0.017999999225139618,
+          0.38499999046325684
+        ],
+        "maxUVError": 7.629395781805215e-9
+      },
+      {
+        "name": "bed1-window-storage-partition",
+        "parent": "bed1-window-storage",
+        "size": [
+          0.017999999225139618,
+          0.3400000035762787,
+          0.3799999952316284
+        ],
+        "maxUVError": 2.4239227514044615e-8
+      },
+      {
+        "name": "bed1-window-storage-shelf",
+        "parent": "bed1-window-storage",
+        "size": [
+          0.5526666641235352,
+          0.017999999225139618,
+          0.38499999046325684
+        ],
+        "maxUVError": 9.457266969548073e-9
+      },
+      {
+        "name": "bed3-bed-storage-bottom",
+        "parent": "bed3-bed-storage",
+        "size": [
+          1.2050000429153442,
+          0.017999999225139618,
+          1.9800000190734863
+        ],
+        "maxUVError": 5.29289252426679e-8
+      },
+      {
+        "name": "bed3-bed-frame-side",
+        "parent": "bed3-bed-storage",
+        "size": [
+          0.024000000208616257,
+          0.25999999046325684,
+          2.049999952316284
+        ],
+        "maxUVError": 2.872943127840699e-8
+      },
+      {
+        "name": "bed3-bed-frame-side",
+        "parent": "bed3-bed-storage",
+        "size": [
+          0.024000000208616257,
+          0.25999999046325684,
+          2.049999952316284
+        ],
+        "maxUVError": 1.2546763628051849e-8
+      },
+      {
+        "name": "bed3-bed-frame-end",
+        "parent": "bed3-bed-storage",
+        "size": [
+          1.2120000123977661,
+          0.25999999046325684,
+          0.024000000208616257
+        ],
+        "maxUVError": 1.1444114988989895e-8
+      },
+      {
+        "name": "bed3-bed-frame-end",
+        "parent": "bed3-bed-storage",
+        "size": [
+          1.2120000123977661,
+          0.25999999046325684,
+          0.024000000208616257
+        ],
+        "maxUVError": 2.551078637225146e-8
+      },
+      {
+        "name": "bed3-bed-storage-divider",
+        "parent": "bed3-bed-storage",
+        "size": [
+          0.017999999225139618,
+          0.24699999392032623,
+          1.9900000095367432
+        ],
+        "maxUVError": 5.781657819170505e-9
+      },
+      {
+        "name": "bed3-bed-deck",
+        "parent": "bed3-bed-lift",
+        "size": [
+          1.2200000286102295,
+          0.017999999225139618,
+          1.9850000143051147
+        ],
+        "maxUVError": 2.0980820636395947e-8
+      },
+      {
+        "name": "bed3-wardrobe-back",
+        "parent": "bed3-wardrobe",
+        "size": [
+          2.0999999046325684,
+          2.5199999809265137,
+          0.017999999225139618
+        ],
+        "maxUVError": 4.1961641272791894e-8
+      },
+      {
+        "name": "bed3-wardrobe-side",
+        "parent": "bed3-wardrobe",
+        "size": [
+          0.017999999225139618,
+          2.5199999809265137,
+          0.6000000238418579
+        ],
+        "maxUVError": 4.529994157564943e-9
+      },
+      {
+        "name": "bed3-wardrobe-side",
+        "parent": "bed3-wardrobe",
+        "size": [
+          0.017999999225139618,
+          2.5199999809265137,
+          0.6000000238418579
+        ],
+        "maxUVError": 2.8371772486934788e-8
+      },
+      {
+        "name": "bed3-wardrobe-shelf",
+        "parent": "bed3-wardrobe",
+        "size": [
+          2.063999891281128,
+          0.017999999225139618,
+          0.5640000104904175
+        ],
+        "maxUVError": 2.6941336273011984e-8
+      },
+      {
+        "name": "bed3-wardrobe-shelf",
+        "parent": "bed3-wardrobe",
+        "size": [
+          2.063999891281128,
+          0.017999999225139618,
+          0.5640000104904175
+        ],
+        "maxUVError": 8.821530173008796e-9
+      },
+      {
+        "name": "bed3-wardrobe-shelf",
+        "parent": "bed3-wardrobe",
+        "size": [
+          0.6660000085830688,
+          0.017999999225139618,
+          0.5350000262260437
+        ],
+        "maxUVError": 1.6689227777533233e-9
+      },
+      {
+        "name": "bed3-wardrobe-shelf",
+        "parent": "bed3-wardrobe",
+        "size": [
+          0.6660000085830688,
+          0.017999999225139618,
+          0.5350000262260437
+        ],
+        "maxUVError": 7.327656703637331e-9
+      },
+      {
+        "name": "bed3-wardrobe-partition",
+        "parent": "bed3-wardrobe",
+        "size": [
+          0.017999999225139618,
+          2.4700000286102295,
+          0.5299999713897705
+        ],
+        "maxUVError": 9.536762490824913e-9
+      },
+      {
+        "name": "bed3-wardrobe-shelf",
+        "parent": "bed3-wardrobe",
+        "size": [
+          0.6660000085830688,
+          0.017999999225139618,
+          0.5350000262260437
+        ],
+        "maxUVError": 1.3589840364147676e-8
+      },
+      {
+        "name": "bed3-wardrobe-shelf",
+        "parent": "bed3-wardrobe",
+        "size": [
+          0.6660000085830688,
+          0.017999999225139618,
+          0.5350000262260437
+        ],
+        "maxUVError": 1.7166115640065982e-8
+      },
+      {
+        "name": "bed3-wardrobe-partition",
+        "parent": "bed3-wardrobe",
+        "size": [
+          0.017999999225139618,
+          2.4700000286102295,
+          0.5299999713897705
+        ],
+        "maxUVError": 7.040796390356263e-9
+      },
+      {
+        "name": "bed3-wardrobe-shelf",
+        "parent": "bed3-wardrobe",
+        "size": [
+          0.6660000085830688,
+          0.017999999225139618,
+          0.5350000262260437
+        ],
+        "maxUVError": 4.2915644371532835e-9
+      },
+      {
+        "name": "bed3-wardrobe-shelf",
+        "parent": "bed3-wardrobe",
+        "size": [
+          0.6660000085830688,
+          0.017999999225139618,
+          0.5350000262260437
+        ],
+        "maxUVError": 2.9087033226460335e-8
+      },
+      {
+        "name": "child-desk-top",
+        "parent": "bed3-desk",
+        "size": [
+          1.2999999523162842,
+          0.03999999910593033,
+          0.6000000238418579
+        ],
+        "maxUVError": 1.9073496559940395e-8
+      },
+      {
+        "name": "child-desk-support",
+        "parent": "bed3-desk",
+        "size": [
+          0.024000000208616257,
+          0.6999999988079071,
+          0.5699999928474426
+        ],
+        "maxUVError": 1.4429723083075885e-8
+      },
+      {
+        "name": "child-desk-support",
+        "parent": "bed3-desk",
+        "size": [
+          0.024000000208616257,
+          0.6999999988079071,
+          0.5699999928474426
+        ],
+        "maxUVError": 1.4429723083075885e-8
+      },
+      {
+        "name": "child-drawer-bottom",
+        "parent": "child-stationery-drawer",
+        "size": [
+          0.3499999940395355,
+          0.014000000432133675,
+          0.5
+        ],
+        "maxUVError": 2.52723566518398e-8
+      },
+      {
+        "name": "child-drawer-side",
+        "parent": "child-stationery-drawer",
+        "size": [
+          0.014000000432133675,
+          0.0949999988079071,
+          0.5
+        ],
+        "maxUVError": 1.4424330174733768e-8
+      },
+      {
+        "name": "child-drawer-side",
+        "parent": "child-stationery-drawer",
+        "size": [
+          0.014000000432133675,
+          0.0949999988079071,
+          0.5
+        ],
+        "maxUVError": 1.3142795296516852e-8
+      },
+      {
+        "name": "mesh_478",
+        "parent": "master-bed",
+        "size": [
+          1.899999976158142,
+          0.25999999046325684,
+          2.05
+        ],
+        "maxUVError": 5.6654744895467957e-8
+      },
+      {
+        "name": "mesh_484",
+        "parent": "master-bed",
+        "size": [
+          0.4300000071525574,
+          0.41999998688697815,
+          0.4300000071525574
+        ],
+        "maxUVError": 2.3245803504323703e-8
+      },
+      {
+        "name": "mesh_488",
+        "parent": "master-bed",
+        "size": [
+          0.4300000071525574,
+          0.41999998688697815,
+          0.4300000071525574
+        ],
+        "maxUVError": 2.920626229752088e-8
+      },
+      {
+        "name": "master-entry-wardrobe-side",
+        "parent": "master-entry-wardrobe",
+        "size": [
+          0.017999999225139618,
+          2.5199999809265137,
+          0.6000000238418579
+        ],
+        "maxUVError": 2.7179709150004783e-8
+      },
+      {
+        "name": "master-entry-wardrobe-side",
+        "parent": "master-entry-wardrobe",
+        "size": [
+          0.017999999225139618,
+          2.5199999809265137,
+          0.6000000238418579
+        ],
+        "maxUVError": 6.802366669944604e-9
+      },
+      {
+        "name": "master-entry-wardrobe-back",
+        "parent": "master-entry-wardrobe",
+        "size": [
+          1.3639999628067017,
+          2.5199999809265137,
+          0.017999999225139618
+        ],
+        "maxUVError": 1.0967255548166577e-8
+      },
+      {
+        "name": "master-entry-wardrobe-shelf",
+        "parent": "master-entry-wardrobe",
+        "size": [
+          1.3639999628067017,
+          0.017999999225139618,
+          0.6000000238418579
+        ],
+        "maxUVError": 7.294133297364169e-9
+      },
+      {
+        "name": "master-entry-wardrobe-shelf",
+        "parent": "master-entry-wardrobe",
+        "size": [
+          1.3639999628067017,
+          0.017999999225139618,
+          0.6000000238418579
+        ],
+        "maxUVError": 1.8358235820414848e-8
+      },
+      {
+        "name": "master-entry-wardrobe-divider",
+        "parent": "master-entry-wardrobe",
+        "size": [
+          0.017999999225139618,
+          2.4800000190734863,
+          0.5600000023841858
+        ],
+        "maxUVError": 3.315506091894349e-9
+      },
+      {
+        "name": "master-entry-wardrobe-shelf",
+        "parent": "master-entry-wardrobe",
+        "size": [
+          0.6599999666213989,
+          0.017999999225139618,
+          0.5550000071525574
+        ],
+        "maxUVError": 2.2172912395035382e-8
+      },
+      {
+        "name": "master-entry-wardrobe-shelf",
+        "parent": "master-entry-wardrobe",
+        "size": [
+          0.6599999666213989,
+          0.017999999225139618,
+          0.5550000071525574
+        ],
+        "maxUVError": 2.551078637225146e-8
+      },
+      {
+        "name": "master-entry-wardrobe-shelf",
+        "parent": "master-entry-wardrobe",
+        "size": [
+          0.6599999666213989,
+          0.017999999225139618,
+          0.5550000071525574
+        ],
+        "maxUVError": 2.551078637225146e-8
+      },
+      {
+        "name": "master-entry-wardrobe-shelf",
+        "parent": "master-entry-wardrobe",
+        "size": [
+          0.6599999666213989,
+          0.017999999225139618,
+          0.5550000071525574
+        ],
+        "maxUVError": 1.6212453601838206e-8
+      },
+      {
+        "name": "master-wardrobe-side",
+        "parent": "master-wardrobe",
+        "size": [
+          0.017999999225139618,
+          2.5199999809265137,
+          0.578000009059906
+        ],
+        "maxUVError": 7.241993671414093e-9
+      },
+      {
+        "name": "master-wardrobe-side",
+        "parent": "master-wardrobe",
+        "size": [
+          0.017999999225139618,
+          2.5199999809265137,
+          0.578000009059906
+        ],
+        "maxUVError": 2.7798137125500944e-8
+      },
+      {
+        "name": "master-wardrobe-back",
+        "parent": "master-wardrobe",
+        "size": [
+          3.063999891281128,
+          2.5199999809265137,
+          0.017999999225139618
+        ],
+        "maxUVError": 3.8504623489643564e-8
+      },
+      {
+        "name": "master-wardrobe-shelf",
+        "parent": "master-wardrobe",
+        "size": [
+          3.063999891281128,
+          0.017999999225139618,
+          0.578000009059906
+        ],
+        "maxUVError": 7.413291314151138e-9
+      },
+      {
+        "name": "master-wardrobe-shelf",
+        "parent": "master-wardrobe",
+        "size": [
+          3.063999891281128,
+          0.017999999225139618,
+          0.578000009059906
+        ],
+        "maxUVError": 1.7307741018157685e-8
+      },
+      {
+        "name": "master-wardrobe-divider",
+        "parent": "master-wardrobe",
+        "size": [
+          0.017999999225139618,
+          2.4800000190734863,
+          0.5379999876022339
+        ],
+        "maxUVError": 6.8098700012342306e-9
+      },
+      {
+        "name": "master-wardrobe-divider",
+        "parent": "master-wardrobe",
+        "size": [
+          0.017999999225139618,
+          2.4800000190734863,
+          0.5379999876022339
+        ],
+        "maxUVError": 3.434678319536033e-9
+      },
+      {
+        "name": "master-wardrobe-divider",
+        "parent": "master-wardrobe",
+        "size": [
+          0.017999999225139618,
+          2.4800000190734863,
+          0.5379999876022339
+        ],
+        "maxUVError": 2.636764406815928e-8
+      },
+      {
+        "name": "master-wardrobe-shelf",
+        "parent": "master-wardrobe",
+        "size": [
+          0.73499995470047,
+          0.017999999225139618,
+          0.5329999923706055
+        ],
+        "maxUVError": 2.8945521535206353e-8
+      },
+      {
+        "name": "master-wardrobe-shelf",
+        "parent": "master-wardrobe",
+        "size": [
+          0.73499995470047,
+          0.017999999225139618,
+          0.5329999923706055
+        ],
+        "maxUVError": 9.201500006383867e-9
+      },
+      {
+        "name": "master-wardrobe-shelf",
+        "parent": "master-wardrobe",
+        "size": [
+          0.73499995470047,
+          0.017999999225139618,
+          0.5329999923706055
+        ],
+        "maxUVError": 2.7082876385975396e-8
+      },
+      {
+        "name": "master-wardrobe-shelf",
+        "parent": "master-wardrobe",
+        "size": [
+          0.73499995470047,
+          0.017999999225139618,
+          0.5329999923706055
+        ],
+        "maxUVError": 2.0600822381311445e-8
+      },
+      {
+        "name": "master-wardrobe-shelf",
+        "parent": "master-wardrobe",
+        "size": [
+          0.73499995470047,
+          0.017999999225139618,
+          0.5329999923706055
+        ],
+        "maxUVError": 2.7082876385975396e-8
+      },
+      {
+        "name": "master-wardrobe-shelf",
+        "parent": "master-wardrobe",
+        "size": [
+          0.73499995470047,
+          0.017999999225139618,
+          0.5329999923706055
+        ],
+        "maxUVError": 2.0600822381311445e-8
+      },
+      {
+        "name": "master-wardrobe-shelf",
+        "parent": "master-wardrobe",
+        "size": [
+          0.73499995470047,
+          0.017999999225139618,
+          0.5329999923706055
+        ],
+        "maxUVError": 7.376058874797309e-9
+      },
+      {
+        "name": "master-wardrobe-shelf",
+        "parent": "master-wardrobe",
+        "size": [
+          0.73499995470047,
+          0.017999999225139618,
+          0.5329999923706055
+        ],
+        "maxUVError": 2.0600822381311445e-8
+      },
+      {
+        "name": "makeup-bin-bottom",
+        "parent": "makeup-top-storage",
+        "size": [
+          0.47999998927116394,
+          0.014999999664723873,
+          0.2800000011920929
+        ],
+        "maxUVError": 3.3155345136037795e-9
+      },
+      {
+        "name": "makeup-bin-side",
+        "parent": "makeup-top-storage",
+        "size": [
+          0.012000000104308128,
+          0.0949999988079071,
+          0.2800000011920929
+        ],
+        "maxUVError": 1.4662759895145427e-8
+      },
+      {
+        "name": "makeup-bin-side",
+        "parent": "makeup-top-storage",
+        "size": [
+          0.012000000104308128,
+          0.0949999988079071,
+          0.2800000011920929
+        ],
+        "maxUVError": 6.943935204617446e-9
+      },
+      {
+        "name": "makeup-bin-side",
+        "parent": "makeup-top-storage",
+        "size": [
+          0.47999998927116394,
+          0.0949999988079071,
+          0.012000000104308128
+        ],
+        "maxUVError": 1.4774514056625776e-8
+      },
+      {
+        "name": "makeup-bin-side",
+        "parent": "makeup-top-storage",
+        "size": [
+          0.47999998927116394,
+          0.0949999988079071,
+          0.012000000104308128
+        ],
+        "maxUVError": 3.6656615520769265e-9
+      },
+      {
+        "name": "makeup-bin-divider",
+        "parent": "makeup-top-storage",
+        "size": [
+          0.00800000037997961,
+          0.09000000357627869,
+          0.25600001215934753
+        ],
+        "maxUVError": 1.4323745745059568e-8
+      },
+      {
+        "name": "makeup-bin-divider",
+        "parent": "makeup-top-storage",
+        "size": [
+          0.00800000037997961,
+          0.09000000357627869,
+          0.25600001215934753
+        ],
+        "maxUVError": 1.4007071058586007e-8
+      },
+      {
+        "name": "makeup-bin-divider",
+        "parent": "makeup-top-storage",
+        "size": [
+          0.00800000037997961,
+          0.09000000357627869,
+          0.25600001215934753
+        ],
+        "maxUVError": 1.4007099480295437e-8
+      },
+      {
+        "name": "makeup-side-support",
+        "parent": "master-makeup-desk",
+        "size": [
+          0.017999999225139618,
+          0.7249999916553497,
+          0.42500001192092896
+        ],
+        "maxUVError": 1.4629565558976765e-8
+      },
+      {
+        "name": "makeup-side-support",
+        "parent": "master-makeup-desk",
+        "size": [
+          0.017999999225139618,
+          0.7249999916553497,
+          0.42500001192092896
+        ],
+        "maxUVError": 1.4629565558976765e-8
+      },
+      {
+        "name": "makeup-tray",
+        "parent": "master-makeup-desk",
+        "size": [
+          0.17000000178813934,
+          0.017999999225139618,
+          0.1599999964237213
+        ],
+        "maxUVError": 2.8610230629055877e-8
+      },
+      {
+        "name": "makeup-stool-leg",
+        "parent": "master-makeup-stool",
+        "size": [
+          0.03200000151991844,
+          0.4199999982118606,
+          0.03200000151991844
+        ],
+        "maxUVError": 1.4603116937905725e-8
+      },
+      {
+        "name": "makeup-stool-leg",
+        "parent": "master-makeup-stool",
+        "size": [
+          0.03200000151991844,
+          0.4199999982118606,
+          0.03200000151991844
+        ],
+        "maxUVError": 7.432079285329962e-9
+      },
+      {
+        "name": "makeup-stool-leg",
+        "parent": "master-makeup-stool",
+        "size": [
+          0.03200000151991844,
+          0.4199999982118606,
+          0.03200000151991844
+        ],
+        "maxUVError": 1.3783548524770595e-8
+      },
+      {
+        "name": "makeup-stool-leg",
+        "parent": "master-makeup-stool",
+        "size": [
+          0.03200000151991844,
+          0.4199999982118606,
+          0.03200000151991844
+        ],
+        "maxUVError": 1.4826667893430567e-8
+      }
+    ],
+    "bad": [],
+    "mapCount": 3,
+    "preserved": [
+      {
+        "name": "sideboard-base-bevel-2",
+        "wood": false,
+        "asset": null,
+        "metal": 0
+      },
+      {
+        "name": "sideboard-drawer-bevel-2",
+        "wood": false,
+        "asset": null,
+        "metal": 0
+      },
+      {
+        "name": "sideboard-upper-extended-door-2",
+        "wood": false,
+        "asset": null,
+        "metal": 0
+      },
+      {
+        "name": "drawer-front",
+        "wood": false,
+        "asset": null,
+        "metal": 0
+      },
+      {
+        "name": "drawer-front",
+        "wood": false,
+        "asset": null,
+        "metal": 0
+      },
+      {
+        "name": "drawer-front",
+        "wood": false,
+        "asset": null,
+        "metal": 0
+      },
+      {
+        "name": "drawer-front",
+        "wood": false,
+        "asset": null,
+        "metal": 0
+      },
+      {
+        "name": "drawer-front",
+        "wood": false,
+        "asset": null,
+        "metal": 0
+      },
+      {
+        "name": "drawer-front",
+        "wood": false,
+        "asset": null,
+        "metal": 0
+      },
+      {
+        "name": "island-prep-worktop",
+        "wood": false,
+        "asset": null,
+        "metal": 0
+      },
+      {
+        "name": "makeup-mirror",
+        "wood": false,
+        "asset": null,
+        "metal": 0
+      },
+      {
+        "name": "makeup-stool-seat",
+        "wood": false,
+        "asset": null,
+        "metal": 0
+      }
+    ],
+    "mirrors": 6
+  },
+  "drawer": {
+    "panels": 5,
+    "distance": 0.4,
+    "unchanged": true
+  },
+  "rebuild": {
+    "panels": 198
+  },
+  "views": [
+    {
+      "room": "bed3",
+      "object": "bed3-desk",
+      "width": 1440
+    },
+    {
+      "room": "master",
+      "object": "master-makeup-desk",
+      "width": 1440
+    },
+    {
+      "room": "dining",
+      "object": "stone-island",
+      "width": 1440
+    },
+    {
+      "room": "bed3",
+      "object": "bed3-desk",
+      "width": 390
+    },
+    {
+      "room": "master",
+      "object": "master-makeup-desk",
+      "width": 390
+    },
+    {
+      "room": "dining",
+      "object": "stone-island",
+      "width": 390
+    }
+  ],
+  "errors": []
+}

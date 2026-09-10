@@ -1,0 +1,829 @@
+{
+  "source_sha256": "3336AE06C8D2441A98D167A879D16EF421CD1409DD101943F879B3A87A931F13",
+  "window_zone_count": 7,
+  "window_face_count": 11,
+  "windows": [
+    {
+      "id": "W01",
+      "room": "bed1",
+      "label": "老人房转角窗",
+      "walls": [
+        0,
+        1
+      ],
+      "sourceSill": 0.55,
+      "sourceHeight": 1.7,
+      "sill": 0.55,
+      "height": 1.7,
+      "sourceLines": [
+        [
+          10,
+          11,
+          12,
+          13
+        ],
+        [
+          16,
+          17,
+          18,
+          19
+        ]
+      ],
+      "basis": "原图标注 LD:550MM / CH:1700MM",
+      "sourceHeightReading": "原PDF页边轮廓字人工视觉读取，并非PDF可检索文字",
+      "segments": [
+        {
+          "source_strokes": [
+            {
+              "line_index": 10,
+              "a_pdf": [
+                362.16,
+                101.60000000000002
+              ],
+              "b_pdf": [
+                362.16,
+                197.12
+              ],
+              "vector_span_mm": 2641.99
+            },
+            {
+              "line_index": 11,
+              "a_pdf": [
+                364.56,
+                99.20000000000005
+              ],
+              "b_pdf": [
+                364.56,
+                197.12
+              ],
+              "vector_span_mm": 2708.37
+            },
+            {
+              "line_index": 12,
+              "a_pdf": [
+                366.96,
+                96.79999999999995
+              ],
+              "b_pdf": [
+                366.96,
+                197.12
+              ],
+              "vector_span_mm": 2774.75
+            },
+            {
+              "line_index": 13,
+              "a_pdf": [
+                369.36,
+                94.39999999999998
+              ],
+              "b_pdf": [
+                369.36,
+                197.12
+              ],
+              "vector_span_mm": 2841.13
+            }
+          ],
+          "stroke_span_range_mm": [
+            2641.99,
+            2841.13
+          ]
+        },
+        {
+          "source_strokes": [
+            {
+              "line_index": 16,
+              "a_pdf": [
+                315.12,
+                101.60000000000002
+              ],
+              "b_pdf": [
+                362.16,
+                101.60000000000002
+              ],
+              "vector_span_mm": 1301.01
+            },
+            {
+              "line_index": 17,
+              "a_pdf": [
+                315.12,
+                99.20000000000005
+              ],
+              "b_pdf": [
+                364.56,
+                99.20000000000005
+              ],
+              "vector_span_mm": 1367.39
+            },
+            {
+              "line_index": 18,
+              "a_pdf": [
+                315.12,
+                96.79999999999995
+              ],
+              "b_pdf": [
+                366.96,
+                96.79999999999995
+              ],
+              "vector_span_mm": 1433.77
+            },
+            {
+              "line_index": 19,
+              "a_pdf": [
+                315.12,
+                94.39999999999998
+              ],
+              "b_pdf": [
+                369.36,
+                94.39999999999998
+              ],
+              "vector_span_mm": 1500.14
+            }
+          ],
+          "stroke_span_range_mm": [
+            1301.01,
+            1500.14
+          ]
+        }
+      ],
+      "horizontalPrecision": "四条平行窗线的跨度范围，不是窗洞净宽或订货宽；端部/窗框未深化"
+    },
+    {
+      "id": "W02",
+      "room": "bath1",
+      "label": "公卫窗",
+      "walls": [
+        3
+      ],
+      "sourceSill": 0.9,
+      "sourceHeight": 1.2,
+      "sill": 0.9,
+      "height": 1.2,
+      "sourceLines": [
+        [
+          82,
+          83,
+          84,
+          85
+        ]
+      ],
+      "basis": "原图标注 LD:900MM / CH:1200MM",
+      "sourceHeightReading": "原PDF页边轮廓字人工视觉读取，并非PDF可检索文字",
+      "segments": [
+        {
+          "source_strokes": [
+            {
+              "line_index": 82,
+              "a_pdf": [
+                193.32,
+                123.32000000000005
+              ],
+              "b_pdf": [
+                214.92,
+                123.32000000000005
+              ],
+              "vector_span_mm": 597.4
+            },
+            {
+              "line_index": 83,
+              "a_pdf": [
+                193.32,
+                120.91999999999996
+              ],
+              "b_pdf": [
+                214.92,
+                120.91999999999996
+              ],
+              "vector_span_mm": 597.4
+            },
+            {
+              "line_index": 84,
+              "a_pdf": [
+                193.32,
+                118.51999999999998
+              ],
+              "b_pdf": [
+                214.92,
+                118.51999999999998
+              ],
+              "vector_span_mm": 597.4
+            },
+            {
+              "line_index": 85,
+              "a_pdf": [
+                193.32,
+                116.12
+              ],
+              "b_pdf": [
+                214.92,
+                116.12
+              ],
+              "vector_span_mm": 597.4
+            }
+          ],
+          "stroke_span_range_mm": [
+            597.4,
+            597.4
+          ]
+        }
+      ],
+      "horizontalPrecision": "四条平行窗线的跨度范围，不是窗洞净宽或订货宽；端部/窗框未深化"
+    },
+    {
+      "id": "W03",
+      "room": "kitchen",
+      "label": "厨房窗",
+      "walls": [
+        7
+      ],
+      "sourceSill": 0.9,
+      "sourceHeight": 1.2,
+      "sill": 0.9,
+      "height": 1.2,
+      "sourceLines": [
+        [
+          86,
+          87,
+          88,
+          89
+        ]
+      ],
+      "basis": "原图标注 LD:900MM / CH:1200MM",
+      "sourceHeightReading": "原PDF页边轮廓字人工视觉读取，并非PDF可检索文字",
+      "segments": [
+        {
+          "source_strokes": [
+            {
+              "line_index": 86,
+              "a_pdf": [
+                368.28,
+                241.88
+              ],
+              "b_pdf": [
+                368.28,
+                285.32000000000005
+              ],
+              "vector_span_mm": 1201.51
+            },
+            {
+              "line_index": 87,
+              "a_pdf": [
+                365.88,
+                241.88
+              ],
+              "b_pdf": [
+                365.88,
+                285.32000000000005
+              ],
+              "vector_span_mm": 1201.51
+            },
+            {
+              "line_index": 88,
+              "a_pdf": [
+                363.48,
+                241.88
+              ],
+              "b_pdf": [
+                363.48,
+                285.32000000000005
+              ],
+              "vector_span_mm": 1201.51
+            },
+            {
+              "line_index": 89,
+              "a_pdf": [
+                361.08,
+                241.88
+              ],
+              "b_pdf": [
+                361.08,
+                285.32000000000005
+              ],
+              "vector_span_mm": 1201.51
+            }
+          ],
+          "stroke_span_range_mm": [
+            1201.51,
+            1201.51
+          ]
+        }
+      ],
+      "horizontalPrecision": "四条平行窗线的跨度范围，不是窗洞净宽或订货宽；端部/窗框未深化"
+    },
+    {
+      "id": "W04",
+      "room": "living",
+      "label": "阳台三面玻璃边界",
+      "walls": [
+        8,
+        9,
+        10
+      ],
+      "sourceSill": 0.2,
+      "sourceHeight": 2.2,
+      "sill": 0.06,
+      "height": 2.62,
+      "sourceLines": [
+        [
+          26,
+          27,
+          28,
+          29
+        ],
+        [
+          30,
+          31,
+          32,
+          33
+        ],
+        [
+          34,
+          35,
+          36,
+          37
+        ]
+      ],
+      "basis": "原图 LD:200MM / CH:2200MM；现设计保留用户大玻璃要求",
+      "userOverride": true,
+      "status": "60 mm 底边、2620 mm 高沿用方案占位，非复尺。分格、开启扇、护栏、防坠及抗风设计未确认",
+      "sourceHeightReading": "原PDF页边轮廓字人工视觉读取，并非PDF可检索文字",
+      "segments": [
+        {
+          "source_strokes": [
+            {
+              "line_index": 26,
+              "a_pdf": [
+                368.28,
+                307.28
+              ],
+              "b_pdf": [
+                422.16,
+                307.28
+              ],
+              "vector_span_mm": 1490.19
+            },
+            {
+              "line_index": 27,
+              "a_pdf": [
+                368.28,
+                304.88
+              ],
+              "b_pdf": [
+                424.56,
+                304.88
+              ],
+              "vector_span_mm": 1556.57
+            },
+            {
+              "line_index": 28,
+              "a_pdf": [
+                368.28,
+                302.48
+              ],
+              "b_pdf": [
+                426.96,
+                302.48
+              ],
+              "vector_span_mm": 1622.94
+            },
+            {
+              "line_index": 29,
+              "a_pdf": [
+                368.28,
+                300.08000000000004
+              ],
+              "b_pdf": [
+                429.36,
+                300.08000000000004
+              ],
+              "vector_span_mm": 1689.32
+            }
+          ],
+          "stroke_span_range_mm": [
+            1490.19,
+            1689.32
+          ]
+        },
+        {
+          "source_strokes": [
+            {
+              "line_index": 30,
+              "a_pdf": [
+                422.16,
+                307.28
+              ],
+              "b_pdf": [
+                422.16,
+                527.48
+              ],
+              "vector_span_mm": 6090.51
+            },
+            {
+              "line_index": 31,
+              "a_pdf": [
+                424.56,
+                304.88
+              ],
+              "b_pdf": [
+                424.56,
+                529.88
+              ],
+              "vector_span_mm": 6223.27
+            },
+            {
+              "line_index": 32,
+              "a_pdf": [
+                426.96,
+                302.48
+              ],
+              "b_pdf": [
+                426.96,
+                532.28
+              ],
+              "vector_span_mm": 6356.03
+            },
+            {
+              "line_index": 33,
+              "a_pdf": [
+                429.36,
+                300.08000000000004
+              ],
+              "b_pdf": [
+                429.36,
+                534.8
+              ],
+              "vector_span_mm": 6492.12
+            }
+          ],
+          "stroke_span_range_mm": [
+            6090.51,
+            6492.12
+          ]
+        },
+        {
+          "source_strokes": [
+            {
+              "line_index": 34,
+              "a_pdf": [
+                406.56,
+                527.48
+              ],
+              "b_pdf": [
+                422.16,
+                527.48
+              ],
+              "vector_span_mm": 431.46
+            },
+            {
+              "line_index": 35,
+              "a_pdf": [
+                406.56,
+                529.88
+              ],
+              "b_pdf": [
+                424.56,
+                529.88
+              ],
+              "vector_span_mm": 497.84
+            },
+            {
+              "line_index": 36,
+              "a_pdf": [
+                406.56,
+                534.8
+              ],
+              "b_pdf": [
+                429.36,
+                534.8
+              ],
+              "vector_span_mm": 630.59
+            },
+            {
+              "line_index": 37,
+              "a_pdf": [
+                406.56,
+                532.28
+              ],
+              "b_pdf": [
+                426.96,
+                532.28
+              ],
+              "vector_span_mm": 564.21
+            }
+          ],
+          "stroke_span_range_mm": [
+            431.46,
+            630.59
+          ]
+        }
+      ],
+      "horizontalPrecision": "四条平行窗线的跨度范围，不是窗洞净宽或订货宽；端部/窗框未深化"
+    },
+    {
+      "id": "W05",
+      "room": "bath2",
+      "label": "主卫窗",
+      "walls": [
+        11
+      ],
+      "sourceSill": 0.9,
+      "sourceHeight": 1.2,
+      "sill": 0.9,
+      "height": 1.2,
+      "sourceLines": [
+        [
+          90,
+          91,
+          92,
+          93
+        ]
+      ],
+      "basis": "原图标注 LD:900MM / CH:1200MM",
+      "sourceHeightReading": "原PDF页边轮廓字人工视觉读取，并非PDF可检索文字",
+      "segments": [
+        {
+          "source_strokes": [
+            {
+              "line_index": 90,
+              "a_pdf": [
+                406.56,
+                544.52
+              ],
+              "b_pdf": [
+                406.56,
+                566.24
+              ],
+              "vector_span_mm": 600.75
+            },
+            {
+              "line_index": 91,
+              "a_pdf": [
+                404.16,
+                544.52
+              ],
+              "b_pdf": [
+                404.16,
+                566.24
+              ],
+              "vector_span_mm": 600.75
+            },
+            {
+              "line_index": 92,
+              "a_pdf": [
+                401.76,
+                544.52
+              ],
+              "b_pdf": [
+                401.76,
+                566.24
+              ],
+              "vector_span_mm": 600.75
+            },
+            {
+              "line_index": 93,
+              "a_pdf": [
+                399.36,
+                544.52
+              ],
+              "b_pdf": [
+                399.36,
+                566.24
+              ],
+              "vector_span_mm": 600.75
+            }
+          ],
+          "stroke_span_range_mm": [
+            600.75,
+            600.75
+          ]
+        }
+      ],
+      "horizontalPrecision": "四条平行窗线的跨度范围，不是窗洞净宽或订货宽；端部/窗框未深化"
+    },
+    {
+      "id": "W06",
+      "room": "master",
+      "label": "主卧转角窗",
+      "walls": [
+        13,
+        14
+      ],
+      "sourceSill": 0.55,
+      "sourceHeight": 1.7,
+      "sill": 0.55,
+      "height": 1.7,
+      "sourceLines": [
+        [
+          59,
+          60,
+          61,
+          62
+        ],
+        [
+          53,
+          54,
+          55,
+          56
+        ]
+      ],
+      "basis": "原图标注 LD:550MM / CH:1700MM",
+      "sourceHeightReading": "原PDF页边轮廓字人工视觉读取，并非PDF可检索文字",
+      "segments": [
+        {
+          "source_strokes": [
+            {
+              "line_index": 59,
+              "a_pdf": [
+                421.08,
+                710.84
+              ],
+              "b_pdf": [
+                421.08,
+                746.96
+              ],
+              "vector_span_mm": 999.04
+            },
+            {
+              "line_index": 60,
+              "a_pdf": [
+                423.48,
+                710.84
+              ],
+              "b_pdf": [
+                423.48,
+                749.36
+              ],
+              "vector_span_mm": 1065.42
+            },
+            {
+              "line_index": 61,
+              "a_pdf": [
+                425.88,
+                710.84
+              ],
+              "b_pdf": [
+                425.88,
+                751.76
+              ],
+              "vector_span_mm": 1131.81
+            },
+            {
+              "line_index": 62,
+              "a_pdf": [
+                428.28,
+                710.84
+              ],
+              "b_pdf": [
+                428.28,
+                754.16
+              ],
+              "vector_span_mm": 1198.19
+            }
+          ],
+          "stroke_span_range_mm": [
+            999.04,
+            1198.19
+          ]
+        },
+        {
+          "source_strokes": [
+            {
+              "line_index": 53,
+              "a_pdf": [
+                314.76,
+                746.96
+              ],
+              "b_pdf": [
+                421.08,
+                746.96
+              ],
+              "vector_span_mm": 2940.55
+            },
+            {
+              "line_index": 54,
+              "a_pdf": [
+                314.76,
+                749.36
+              ],
+              "b_pdf": [
+                423.48,
+                749.36
+              ],
+              "vector_span_mm": 3006.93
+            },
+            {
+              "line_index": 55,
+              "a_pdf": [
+                314.76,
+                751.76
+              ],
+              "b_pdf": [
+                425.88,
+                751.76
+              ],
+              "vector_span_mm": 3073.3
+            },
+            {
+              "line_index": 56,
+              "a_pdf": [
+                314.76,
+                754.16
+              ],
+              "b_pdf": [
+                428.28,
+                754.16
+              ],
+              "vector_span_mm": 3139.68
+            }
+          ],
+          "stroke_span_range_mm": [
+            2940.55,
+            3139.68
+          ]
+        }
+      ],
+      "horizontalPrecision": "四条平行窗线的跨度范围，不是窗洞净宽或订货宽；端部/窗框未深化"
+    },
+    {
+      "id": "W07",
+      "room": "bed3",
+      "label": "儿童房窗",
+      "walls": [
+        18
+      ],
+      "sourceSill": 0.55,
+      "sourceHeight": 1.7,
+      "sill": 0.55,
+      "height": 1.7,
+      "sourceLines": [
+        [
+          77,
+          78,
+          79,
+          80
+        ]
+      ],
+      "basis": "原图标注 LD:550MM / CH:1700MM",
+      "sourceHeightReading": "原PDF页边轮廓字人工视觉读取，并非PDF可检索文字",
+      "segments": [
+        {
+          "source_strokes": [
+            {
+              "line_index": 77,
+              "a_pdf": [
+                198.72,
+                746.96
+              ],
+              "b_pdf": [
+                256.56,
+                746.96
+              ],
+              "vector_span_mm": 1599.71
+            },
+            {
+              "line_index": 78,
+              "a_pdf": [
+                198.72,
+                749.36
+              ],
+              "b_pdf": [
+                256.56,
+                749.36
+              ],
+              "vector_span_mm": 1599.71
+            },
+            {
+              "line_index": 79,
+              "a_pdf": [
+                198.72,
+                751.76
+              ],
+              "b_pdf": [
+                256.56,
+                751.76
+              ],
+              "vector_span_mm": 1599.71
+            },
+            {
+              "line_index": 80,
+              "a_pdf": [
+                198.72,
+                754.16
+              ],
+              "b_pdf": [
+                263.76,
+                754.16
+              ],
+              "vector_span_mm": 1798.85
+            }
+          ],
+          "stroke_span_range_mm": [
+            1599.71,
+            1798.85
+          ]
+        }
+      ],
+      "horizontalPrecision": "四条平行窗线的跨度范围，不是窗洞净宽或订货宽；端部/窗框未深化"
+    }
+  ],
+  "installationVerified": false
+}

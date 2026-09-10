@@ -1,0 +1,59 @@
+{
+  "originalBytes": 50519748,
+  "packedBytes": 50519748,
+  "originalImages": 28,
+  "packedImages": 28,
+  "verifiedBufferViews": 12213,
+  "geometryAndMaterialDefinitionsUnchanged": true,
+  "sha256": "91d07456958ae1cadd169964e3bf504442a3cfd4e5eda69df5db2f2a95f4555a",
+  "loaded": {
+    "meshes": 3354,
+    "objects": {
+      "flush-sideboard": {
+        "size": [
+          3.9000000953674316,
+          2.7700000277161596,
+          0.6000000238418579
+        ]
+      },
+      "integrated-fridge": {
+        "size": [
+          0.6510000019967563,
+          2.7640000293850897,
+          0.980000000208616
+        ]
+      },
+      "fridge-cold-interior": {
+        "size": [
+          0.4290000128746039,
+          1.6629999999403953,
+          0.8280000007599595
+        ]
+      },
+      "sideboard-600mm-worktop": {
+        "size": [
+          3.9000000953674316,
+          0.03500000014901161,
+          0.6000000238418579
+        ]
+      },
+      "laundry-washer": {
+        "size": [
+          0.7079999996647235,
+          0.8399999997764824,
+          0.5999999997764828
+        ]
+      },
+      "laundry-dryer": {
+        "size": [
+          0.7079999996647235,
+          0.8399999997764825,
+          0.5999999997764828
+        ]
+      }
+    },
+    "decodedTextures": 420,
+    "sourceImages": 28
+  },
+  "errors": []
+}

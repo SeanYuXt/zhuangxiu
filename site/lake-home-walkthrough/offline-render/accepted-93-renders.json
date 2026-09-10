@@ -1,0 +1,250 @@
+{
+  "revision": 93,
+  "kind": "same-model realtime render",
+  "renders": [
+    {
+      "id": "whole",
+      "file": "accepted-93-whole.png",
+      "width": 1920,
+      "height": 1080,
+      "camera": {
+        "name": "全屋总览",
+        "position": [
+          9.1,
+          17,
+          3.600999999961298
+        ],
+        "fov": 46
+      },
+      "source": "current integrated WebGL model"
+    },
+    {
+      "id": "entry",
+      "file": "accepted-93-entry.png",
+      "width": 1920,
+      "height": 1080,
+      "camera": {
+        "name": "玄关",
+        "position": [
+          7,
+          1.6,
+          5.25
+        ],
+        "fov": 70
+      },
+      "source": "current integrated WebGL model"
+    },
+    {
+      "id": "living",
+      "file": "accepted-93-living.png",
+      "width": 1920,
+      "height": 1080,
+      "camera": {
+        "name": "客厅",
+        "position": [
+          8.65,
+          1.6,
+          3.66
+        ],
+        "fov": 45.74733038125343
+      },
+      "source": "current integrated WebGL model"
+    },
+    {
+      "id": "dining",
+      "file": "accepted-93-dining.png",
+      "width": 1920,
+      "height": 1080,
+      "camera": {
+        "name": "餐厅",
+        "position": [
+          6.35,
+          1.6,
+          4.95
+        ],
+        "fov": 70
+      },
+      "source": "current integrated WebGL model"
+    },
+    {
+      "id": "bar",
+      "file": "accepted-93-bar.png",
+      "width": 1920,
+      "height": 1080,
+      "camera": {
+        "name": "阳台",
+        "position": [
+          10.4,
+          1.6,
+          3.45
+        ],
+        "fov": 70
+      },
+      "source": "current integrated WebGL model"
+    },
+    {
+      "id": "kitchen",
+      "file": "accepted-93-kitchen.png",
+      "width": 1920,
+      "height": 1080,
+      "camera": {
+        "name": "厨房",
+        "position": [
+          5.33,
+          1.6,
+          5.02
+        ],
+        "fov": 70
+      },
+      "source": "current integrated WebGL model"
+    },
+    {
+      "id": "bed1",
+      "file": "accepted-93-bed1.png",
+      "width": 1920,
+      "height": 1080,
+      "camera": {
+        "name": "老人房",
+        "position": [
+          3.2,
+          1.6,
+          5.04
+        ],
+        "fov": 45.74733038125343
+      },
+      "source": "current integrated WebGL model"
+    },
+    {
+      "id": "master",
+      "file": "accepted-93-master.png",
+      "width": 1920,
+      "height": 1080,
+      "camera": {
+        "name": "主卧",
+        "position": [
+          14.02,
+          1.6,
+          3.32
+        ],
+        "fov": 45.74733038125343
+      },
+      "source": "current integrated WebGL model"
+    },
+    {
+      "id": "bath1",
+      "file": "accepted-93-bath1.png",
+      "width": 1920,
+      "height": 1080,
+      "camera": {
+        "name": "公卫",
+        "position": [
+          2.11,
+          1.6,
+          5.92
+        ],
+        "fov": 45.74733038125343
+      },
+      "source": "current integrated WebGL model"
+    },
+    {
+      "id": "bath2",
+      "file": "accepted-93-bath2.png",
+      "width": 1920,
+      "height": 1080,
+      "camera": {
+        "name": "主卫",
+        "position": [
+          13.55,
+          1.6,
+          2.55
+        ],
+        "fov": 70
+      },
+      "source": "current integrated WebGL model"
+    },
+    {
+      "id": "laundry",
+      "file": "accepted-93-laundry.png",
+      "width": 1920,
+      "height": 1080,
+      "camera": {
+        "name": "洗烘区",
+        "position": [
+          8.35,
+          1.6,
+          0.7
+        ],
+        "fov": 70
+      },
+      "source": "current integrated WebGL model"
+    },
+    {
+      "id": "care",
+      "file": "accepted-93-care.png",
+      "width": 1920,
+      "height": 1080,
+      "camera": {
+        "name": "清洁区",
+        "position": [
+          9.05,
+          1.6,
+          0.75
+        ],
+        "fov": 70
+      },
+      "source": "current integrated WebGL model"
+    },
+    {
+      "id": "dressing",
+      "file": "accepted-93-dressing.png",
+      "width": 1920,
+      "height": 1080,
+      "camera": {
+        "name": "弧形梳妆柜",
+        "position": [
+          13.78,
+          1.55,
+          3.42
+        ],
+        "fov": 65
+      },
+      "source": "current integrated WebGL model"
+    },
+    {
+      "id": "wardrobe",
+      "file": "accepted-93-wardrobe.png",
+      "width": 1920,
+      "height": 1080,
+      "camera": {
+        "name": "床尾柜",
+        "position": [
+          14.65,
+          1.6,
+          1.1
+        ],
+        "fov": 65
+      },
+      "source": "current integrated WebGL model"
+    },
+    {
+      "id": "shower",
+      "file": "accepted-93-shower.png",
+      "width": 1920,
+      "height": 1080,
+      "camera": {
+        "name": "主卫开放淋浴",
+        "position": [
+          13.35,
+          1.6,
+          2.2
+        ],
+        "fov": 65
+      },
+      "source": "current integrated WebGL model"
+    }
+  ],
+  "errors": [],
+  "pendingRooms": [
+    "bed3"
+  ]
+}

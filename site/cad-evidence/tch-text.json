@@ -1,0 +1,4256 @@
+[
+  {
+    "handle": 163873,
+    "block": "MODEL",
+    "text": "P01",
+    "bit_offset": 312
+  },
+  {
+    "handle": 163874,
+    "block": "MODEL",
+    "text": "P02",
+    "bit_offset": 312
+  },
+  {
+    "handle": 163875,
+    "block": "MODEL",
+    "text": "P03",
+    "bit_offset": 312
+  },
+  {
+    "handle": 163876,
+    "block": "MODEL",
+    "text": "P04",
+    "bit_offset": 312
+  },
+  {
+    "handle": 163877,
+    "block": "MODEL",
+    "text": "P05",
+    "bit_offset": 312
+  },
+  {
+    "handle": 163878,
+    "block": "MODEL",
+    "text": "P06",
+    "bit_offset": 312
+  },
+  {
+    "handle": 163879,
+    "block": "MODEL",
+    "text": "P07",
+    "bit_offset": 312
+  },
+  {
+    "handle": 163880,
+    "block": "MODEL",
+    "text": "P08",
+    "bit_offset": 312
+  },
+  {
+    "handle": 163881,
+    "block": "MODEL",
+    "text": "P09",
+    "bit_offset": 312
+  },
+  {
+    "handle": 163882,
+    "block": "MODEL",
+    "text": "P11",
+    "bit_offset": 312
+  },
+  {
+    "handle": 165149,
+    "block": "MODEL",
+    "text": "P10",
+    "bit_offset": 312
+  },
+  {
+    "handle": 165150,
+    "block": "MODEL",
+    "text": "P12",
+    "bit_offset": 312
+  },
+  {
+    "handle": 169810,
+    "block": "MODEL",
+    "text": "P13",
+    "bit_offset": 312
+  },
+  {
+    "handle": 169811,
+    "block": "MODEL",
+    "text": "P14",
+    "bit_offset": 312
+  },
+  {
+    "handle": 169812,
+    "block": "MODEL",
+    "text": "P15",
+    "bit_offset": 312
+  },
+  {
+    "handle": 169813,
+    "block": "MODEL",
+    "text": "P16",
+    "bit_offset": 312
+  },
+  {
+    "handle": 210243,
+    "block": "AX-6-P01-F(01)",
+    "text": "采光井",
+    "bit_offset": 312
+  },
+  {
+    "handle": 210328,
+    "block": "AX-6-P01-F(01)",
+    "text": "排风井",
+    "bit_offset": 312
+  },
+  {
+    "handle": 210707,
+    "block": "AX-6-P01-F(01)",
+    "text": "±0.000=27.100",
+    "bit_offset": 312
+  },
+  {
+    "handle": 210788,
+    "block": "AX-6-P01-F(01)",
+    "text": "降板图示:",
+    "bit_offset": 312
+  },
+  {
+    "handle": 210789,
+    "block": "AX-6-P01-F(01)",
+    "text": "结构板面标高为-0.650",
+    "bit_offset": 312
+  },
+  {
+    "handle": 211049,
+    "block": "AX-6-P01-F(01)",
+    "text": "本层建筑面积459.84m^U2^U(其中住宅面积390.80m^U2^U，消防控制室面积67.46m^U2^U，风井面积1.58m^U2^U)",
+    "bit_offset": 312
+  },
+  {
+    "handle": 211053,
+    "block": "AX-6-P01-F(01)",
+    "text": "-1.336（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 211055,
+    "block": "AX-6-P01-F(01)",
+    "text": "0.030(结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 211057,
+    "block": "AX-6-P01-F(01)",
+    "text": "1.255（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 211059,
+    "block": "AX-6-P01-F(01)",
+    "text": "0.030(结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 211404,
+    "block": "AX-6-P01-F(01)",
+    "text": "本栋建筑面积：15085.31m^U2^U",
+    "bit_offset": 312
+  },
+  {
+    "handle": 222221,
+    "block": "AX-6-COMP-HXT-F(01)",
+    "text": "下8步",
+    "bit_offset": 376
+  },
+  {
+    "handle": 222222,
+    "block": "AX-6-COMP-HXT-F(01)",
+    "text": "@260X170.8",
+    "bit_offset": 376
+  },
+  {
+    "handle": 222223,
+    "block": "AX-6-COMP-HXT-F(01)",
+    "text": "下7步",
+    "bit_offset": 376
+  },
+  {
+    "handle": 222224,
+    "block": "AX-6-COMP-HXT-F(01)",
+    "text": "@260X170.7",
+    "bit_offset": 376
+  },
+  {
+    "handle": 228611,
+    "block": "AX-6-COMP-NOTE-F(01)",
+    "text": "DT-2",
+    "bit_offset": 312
+  },
+  {
+    "handle": 228612,
+    "block": "AX-6-COMP-NOTE-F(01)",
+    "text": "兼消防电梯",
+    "bit_offset": 312
+  },
+  {
+    "handle": 228613,
+    "block": "AX-6-COMP-NOTE-F(01)",
+    "text": "DT-1",
+    "bit_offset": 312
+  },
+  {
+    "handle": 228614,
+    "block": "AX-6-COMP-NOTE-F(01)",
+    "text": "客梯兼担架梯",
+    "bit_offset": 312
+  },
+  {
+    "handle": 228617,
+    "block": "AX-6-COMP-NOTE-F(01)",
+    "text": "水井",
+    "bit_offset": 312
+  },
+  {
+    "handle": 228619,
+    "block": "AX-6-COMP-NOTE-F(01)",
+    "text": "LT01",
+    "bit_offset": 312
+  },
+  {
+    "handle": 228621,
+    "block": "AX-6-COMP-NOTE-F(01)",
+    "text": "厨房",
+    "bit_offset": 312
+  },
+  {
+    "handle": 228624,
+    "block": "AX-6-COMP-NOTE-F(01)",
+    "text": "餐厅",
+    "bit_offset": 312
+  },
+  {
+    "handle": 228637,
+    "block": "AX-6-COMP-NOTE-F(01)",
+    "text": "客厅",
+    "bit_offset": 312
+  },
+  {
+    "handle": 228639,
+    "block": "AX-6-COMP-NOTE-F(01)",
+    "text": "-0.130（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 228644,
+    "block": "AX-6-COMP-NOTE-F(01)",
+    "text": "頇",
+    "bit_offset": 83
+  },
+  {
+    "handle": 228646,
+    "block": "AX-6-COMP-NOTE-F(01)",
+    "text": "卫生间",
+    "bit_offset": 312
+  },
+  {
+    "handle": 228649,
+    "block": "AX-6-COMP-NOTE-F(01)",
+    "text": "卫生间",
+    "bit_offset": 312
+  },
+  {
+    "handle": 228657,
+    "block": "AX-6-COMP-NOTE-F(01)",
+    "text": "卧室",
+    "bit_offset": 312
+  },
+  {
+    "handle": 228663,
+    "block": "AX-6-COMP-NOTE-F(01)",
+    "text": "电井",
+    "bit_offset": 312
+  },
+  {
+    "handle": 228666,
+    "block": "AX-6-COMP-NOTE-F(01)",
+    "text": "LT02",
+    "bit_offset": 312
+  },
+  {
+    "handle": 228668,
+    "block": "AX-6-COMP-NOTE-F(01)",
+    "text": "走道",
+    "bit_offset": 312
+  },
+  {
+    "handle": 228670,
+    "block": "AX-6-COMP-NOTE-F(01)",
+    "text": "入户大堂(合用前室)",
+    "bit_offset": 312
+  },
+  {
+    "handle": 228671,
+    "block": "AX-6-COMP-NOTE-F(01)",
+    "text": "天井",
+    "bit_offset": 312
+  },
+  {
+    "handle": 228683,
+    "block": "AX-6-COMP-NOTE-F(01)",
+    "text": "卫生间",
+    "bit_offset": 312
+  },
+  {
+    "handle": 228687,
+    "block": "AX-6-COMP-NOTE-F(01)",
+    "text": "客厅",
+    "bit_offset": 312
+  },
+  {
+    "handle": 228689,
+    "block": "AX-6-COMP-NOTE-F(01)",
+    "text": "-0.130（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 228692,
+    "block": "AX-6-COMP-NOTE-F(01)",
+    "text": "餐厅",
+    "bit_offset": 312
+  },
+  {
+    "handle": 228695,
+    "block": "AX-6-COMP-NOTE-F(01)",
+    "text": "厨房",
+    "bit_offset": 312
+  },
+  {
+    "handle": 228700,
+    "block": "AX-6-COMP-NOTE-F(01)",
+    "text": "阳台",
+    "bit_offset": 312
+  },
+  {
+    "handle": 228702,
+    "block": "AX-6-COMP-NOTE-F(01)",
+    "text": "-0.140（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 228706,
+    "block": "AX-6-COMP-NOTE-F(01)",
+    "text": "阳台",
+    "bit_offset": 312
+  },
+  {
+    "handle": 228708,
+    "block": "AX-6-COMP-NOTE-F(01)",
+    "text": "-0.140（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 228709,
+    "block": "AX-6-COMP-NOTE-F(01)",
+    "text": "天井",
+    "bit_offset": 312
+  },
+  {
+    "handle": 228716,
+    "block": "AX-6-COMP-NOTE-F(01)",
+    "text": "卧室",
+    "bit_offset": 312
+  },
+  {
+    "handle": 228719,
+    "block": "AX-6-COMP-NOTE-F(01)",
+    "text": "厨房",
+    "bit_offset": 312
+  },
+  {
+    "handle": 228727,
+    "block": "AX-6-COMP-NOTE-F(01)",
+    "text": "餐厅",
+    "bit_offset": 312
+  },
+  {
+    "handle": 228729,
+    "block": "AX-6-COMP-NOTE-F(01)",
+    "text": "客厅",
+    "bit_offset": 312
+  },
+  {
+    "handle": 228731,
+    "block": "AX-6-COMP-NOTE-F(01)",
+    "text": "-0.130（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 228733,
+    "block": "AX-6-COMP-NOTE-F(01)",
+    "text": "卧室",
+    "bit_offset": 312
+  },
+  {
+    "handle": 228735,
+    "block": "AX-6-COMP-NOTE-F(01)",
+    "text": "卧室",
+    "bit_offset": 312
+  },
+  {
+    "handle": 228738,
+    "block": "AX-6-COMP-NOTE-F(01)",
+    "text": "耀莄",
+    "bit_offset": 66
+  },
+  {
+    "handle": 228741,
+    "block": "AX-6-COMP-NOTE-F(01)",
+    "text": "卫生间",
+    "bit_offset": 312
+  },
+  {
+    "handle": 228744,
+    "block": "AX-6-COMP-NOTE-F(01)",
+    "text": "阳台",
+    "bit_offset": 312
+  },
+  {
+    "handle": 228746,
+    "block": "AX-6-COMP-NOTE-F(01)",
+    "text": "-0.140（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 228748,
+    "block": "AX-6-COMP-NOTE-F(01)",
+    "text": "玄关",
+    "bit_offset": 312
+  },
+  {
+    "handle": 228749,
+    "block": "AX-6-COMP-NOTE-F(01)",
+    "text": "玄关",
+    "bit_offset": 312
+  },
+  {
+    "handle": 228750,
+    "block": "AX-6-COMP-NOTE-F(01)",
+    "text": "玄关",
+    "bit_offset": 312
+  },
+  {
+    "handle": 228752,
+    "block": "AX-6-COMP-NOTE-F(01)",
+    "text": "工具间",
+    "bit_offset": 312
+  },
+  {
+    "handle": 228754,
+    "block": "AX-6-COMP-NOTE-F(01)",
+    "text": "-0.130（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 228755,
+    "block": "AX-6-COMP-NOTE-F(01)",
+    "text": "-0.130（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 228756,
+    "block": "AX-6-COMP-NOTE-F(01)",
+    "text": "-0.130（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 228763,
+    "block": "AX-6-COMP-NOTE-F(01)",
+    "text": "-0.070（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 228765,
+    "block": "AX-6-COMP-NOTE-F(01)",
+    "text": "消防兼安防控制室",
+    "bit_offset": 312
+  },
+  {
+    "handle": 228767,
+    "block": "AX-6-COMP-NOTE-F(01)",
+    "text": "-0.220（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 228768,
+    "block": "AX-6-COMP-NOTE-F(01)",
+    "text": "-0.050（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 228769,
+    "block": "AX-6-COMP-NOTE-F(01)",
+    "text": "-0.050（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 228770,
+    "block": "AX-6-COMP-NOTE-F(01)",
+    "text": "-0.500（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 228771,
+    "block": "AX-6-COMP-NOTE-F(01)",
+    "text": "-0.050（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 228772,
+    "block": "AX-6-COMP-NOTE-F(01)",
+    "text": "休息室",
+    "bit_offset": 312
+  },
+  {
+    "handle": 228773,
+    "block": "AX-6-COMP-NOTE-F(01)",
+    "text": "无障碍电梯",
+    "bit_offset": 312
+  },
+  {
+    "handle": 228775,
+    "block": "AX-6-COMP-NOTE-F(01)",
+    "text": "-0.100（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 228777,
+    "block": "AX-6-COMP-NOTE-F(01)",
+    "text": "-0.100（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 228779,
+    "block": "AX-6-COMP-NOTE-F(01)",
+    "text": "-0.100（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 228781,
+    "block": "AX-6-COMP-NOTE-F(01)",
+    "text": "-0.100（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 228783,
+    "block": "AX-6-COMP-NOTE-F(01)",
+    "text": "-0.100（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 228785,
+    "block": "AX-6-COMP-NOTE-F(01)",
+    "text": "-0.100（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 228786,
+    "block": "AX-6-COMP-NOTE-F(01)",
+    "text": "-0.120（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 228787,
+    "block": "AX-6-COMP-NOTE-F(01)",
+    "text": "-0.120（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 228788,
+    "block": "AX-6-COMP-NOTE-F(01)",
+    "text": "-0.120（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 228789,
+    "block": "AX-6-COMP-NOTE-F(01)",
+    "text": "-0.120（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 228790,
+    "block": "AX-6-COMP-NOTE-F(01)",
+    "text": "-0.120（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 263046,
+    "block": "Ax-TL-F(01)-50",
+    "text": "蒸压加气混凝土砌块，用于分隔墙，楼梯间，电梯间,内隔墙，厨，卫隔墙，管井等",
+    "bit_offset": 312
+  },
+  {
+    "handle": 263047,
+    "block": "Ax-TL-F(01)-50",
+    "text": "柜式室内空调机(住户自理)",
+    "bit_offset": 312
+  },
+  {
+    "handle": 263048,
+    "block": "Ax-TL-F(01)-50",
+    "text": "挂式室内空调机(住户自理)",
+    "bit_offset": 312
+  },
+  {
+    "handle": 263049,
+    "block": "Ax-TL-F(01)-50",
+    "text": "燃气表,详见燃气设计",
+    "bit_offset": 312
+  },
+  {
+    "handle": 263050,
+    "block": "Ax-TL-F(01)-50",
+    "text": "燃气热水器(住户自理)",
+    "bit_offset": 312
+  },
+  {
+    "handle": 263051,
+    "block": "Ax-TL-F(01)-50",
+    "text": "双眼炉灶(住户自理)",
+    "bit_offset": 312
+  },
+  {
+    "handle": 263052,
+    "block": "Ax-TL-F(01)-50",
+    "text": "洗衣机(住户自理)",
+    "bit_offset": 312
+  },
+  {
+    "handle": 263053,
+    "block": "Ax-TL-F(01)-50",
+    "text": "冰箱(住户自理)",
+    "bit_offset": 312
+  },
+  {
+    "handle": 263078,
+    "block": "Ax-TL-F(01)-50",
+    "text": "表示楼板开洞",
+    "bit_offset": 312
+  },
+  {
+    "handle": 263080,
+    "block": "Ax-TL-F(01)-50",
+    "text": "图例",
+    "bit_offset": 312
+  },
+  {
+    "handle": 263084,
+    "block": "Ax-TL-F(01)-50",
+    "text": "650x800x200",
+    "bit_offset": 312
+  },
+  {
+    "handle": 263086,
+    "block": "Ax-TL-F(01)-50",
+    "text": "725mm",
+    "bit_offset": 312
+  },
+  {
+    "handle": 263089,
+    "block": "Ax-TL-F(01)-50",
+    "text": "名称",
+    "bit_offset": 312
+  },
+  {
+    "handle": 263090,
+    "block": "Ax-TL-F(01)-50",
+    "text": "箱体尺寸",
+    "bit_offset": 312
+  },
+  {
+    "handle": 263091,
+    "block": "Ax-TL-F(01)-50",
+    "text": "留洞尺寸",
+    "bit_offset": 312
+  },
+  {
+    "handle": 263092,
+    "block": "Ax-TL-F(01)-50",
+    "text": "薄型单栓",
+    "bit_offset": 312
+  },
+  {
+    "handle": 263093,
+    "block": "Ax-TL-F(01)-50",
+    "text": "安装高度洞底距地",
+    "bit_offset": 312
+  },
+  {
+    "handle": 263100,
+    "block": "Ax-TL-F(01)-50",
+    "text": "室内消火栓",
+    "bit_offset": 312
+  },
+  {
+    "handle": 263104,
+    "block": "Ax-TL-F(01)-50",
+    "text": "PD",
+    "bit_offset": 312
+  },
+  {
+    "handle": 263105,
+    "block": "Ax-TL-F(01)-50",
+    "text": "DD",
+    "bit_offset": 312
+  },
+  {
+    "handle": 263106,
+    "block": "Ax-TL-F(01)-50",
+    "text": "强电配电箱",
+    "bit_offset": 312
+  },
+  {
+    "handle": 263107,
+    "block": "Ax-TL-F(01)-50",
+    "text": "弱电配电箱",
+    "bit_offset": 312
+  },
+  {
+    "handle": 263108,
+    "block": "Ax-TL-F(01)-50",
+    "text": "预留洞400X410X110,洞底距地1600",
+    "bit_offset": 312
+  },
+  {
+    "handle": 263110,
+    "block": "Ax-TL-F(01)-50",
+    "text": "预留洞450X350X110,洞底距地300",
+    "bit_offset": 312
+  },
+  {
+    "handle": 263112,
+    "block": "Ax-TL-F(01)-50",
+    "text": "注:强、弱电箱安装墙体厚度小于150时,，背部需挂网批荡",
+    "bit_offset": 312
+  },
+  {
+    "handle": 263113,
+    "block": "Ax-TL-F(01)-50",
+    "text": "侧面进管: 950x1050x200/100",
+    "bit_offset": 312
+  },
+  {
+    "handle": 263114,
+    "block": "Ax-TL-F(01)-50",
+    "text": "K2a",
+    "bit_offset": 312
+  },
+  {
+    "handle": 263120,
+    "block": "Ax-TL-F(01)-50",
+    "text": "编号",
+    "bit_offset": 312
+  },
+  {
+    "handle": 263121,
+    "block": "Ax-TL-F(01)-50",
+    "text": "预埋套管说明：",
+    "bit_offset": 312
+  },
+  {
+    "handle": 263125,
+    "block": "Ax-TL-F(01)-50",
+    "text": "留洞类型",
+    "bit_offset": 312
+  },
+  {
+    "handle": 263126,
+    "block": "Ax-TL-F(01)-50",
+    "text": "图例",
+    "bit_offset": 312
+  },
+  {
+    "handle": 263127,
+    "block": "Ax-TL-F(01)-50",
+    "text": "K2",
+    "bit_offset": 312
+  },
+  {
+    "handle": 263128,
+    "block": "Ax-TL-F(01)-50",
+    "text": "挂机套管留洞",
+    "bit_offset": 312
+  },
+  {
+    "handle": 263129,
+    "block": "Ax-TL-F(01)-50",
+    "text": "挂机套管留洞",
+    "bit_offset": 312
+  },
+  {
+    "handle": 263130,
+    "block": "Ax-TL-F(01)-50",
+    "text": "T2",
+    "bit_offset": 312
+  },
+  {
+    "handle": 263131,
+    "block": "Ax-TL-F(01)-50",
+    "text": "煤气管留洞",
+    "bit_offset": 312
+  },
+  {
+    "handle": 263132,
+    "block": "Ax-TL-F(01)-50",
+    "text": "T3",
+    "bit_offset": 312
+  },
+  {
+    "handle": 263133,
+    "block": "Ax-TL-F(01)-50",
+    "text": "热水器排气管留洞",
+    "bit_offset": 312
+  },
+  {
+    "handle": 263137,
+    "block": "Ax-TL-F(01)-50",
+    "text": "K4",
+    "bit_offset": 312
+  },
+  {
+    "handle": 263138,
+    "block": "Ax-TL-F(01)-50",
+    "text": "空调隔板留洞",
+    "bit_offset": 312
+  },
+  {
+    "handle": 263140,
+    "block": "Ax-TL-F(01)-50",
+    "text": "备注",
+    "bit_offset": 312
+  },
+  {
+    "handle": 263141,
+    "block": "Ax-TL-F(01)-50",
+    "text": "厨房（热水器设于户内）外墙的梁内预留（埋）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 263142,
+    "block": "Ax-TL-F(01)-50",
+    "text": "燃气热水器%%c114排气孔预留洞,孔中心距地2860mm",
+    "bit_offset": 312
+  },
+  {
+    "handle": 263144,
+    "block": "Ax-TL-F(01)-50",
+    "text": "卧室预留预留%%c80空调套管;孔中距地2380mm",
+    "bit_offset": 312
+  },
+  {
+    "handle": 263145,
+    "block": "Ax-TL-F(01)-50",
+    "text": "%%c80空调套管;孔中标高距地2330mm",
+    "bit_offset": 312
+  },
+  {
+    "handle": 263146,
+    "block": "Ax-TL-F(01)-50",
+    "text": "厨房%%C50燃气孔预留洞，洞口中心离地600mm",
+    "bit_offset": 312
+  },
+  {
+    "handle": 263153,
+    "block": "Ax-TL-F(01)-50",
+    "text": "FL-0.090",
+    "bit_offset": 312
+  },
+  {
+    "handle": 263154,
+    "block": "Ax-TL-F(01)-50",
+    "text": "FL",
+    "bit_offset": 312
+  },
+  {
+    "handle": 263155,
+    "block": "Ax-TL-F(01)-50",
+    "text": "FL-0.140",
+    "bit_offset": 312
+  },
+  {
+    "handle": 263156,
+    "block": "Ax-TL-F(01)-50",
+    "text": "FL-0.020(最高处)",
+    "bit_offset": 312
+  },
+  {
+    "handle": 263157,
+    "block": "Ax-TL-F(01)-50",
+    "text": "阳台",
+    "bit_offset": 312
+  },
+  {
+    "handle": 263158,
+    "block": "Ax-TL-F(01)-50",
+    "text": "前室、走道",
+    "bit_offset": 312
+  },
+  {
+    "handle": 263159,
+    "block": "Ax-TL-F(01)-50",
+    "text": "FL-0.120",
+    "bit_offset": 312
+  },
+  {
+    "handle": 263160,
+    "block": "Ax-TL-F(01)-50",
+    "text": "FL-0.120",
+    "bit_offset": 312
+  },
+  {
+    "handle": 263161,
+    "block": "Ax-TL-F(01)-50",
+    "text": "FL-0.020(门槛位)",
+    "bit_offset": 312
+  },
+  {
+    "handle": 263162,
+    "block": "Ax-TL-F(01)-50",
+    "text": "FL",
+    "bit_offset": 312
+  },
+  {
+    "handle": 263163,
+    "block": "Ax-TL-F(01)-50",
+    "text": "结构面标高",
+    "bit_offset": 312
+  },
+  {
+    "handle": 263164,
+    "block": "Ax-TL-F(01)-50",
+    "text": "建筑完成面",
+    "bit_offset": 312
+  },
+  {
+    "handle": 263165,
+    "block": "Ax-TL-F(01)-50",
+    "text": "卫生间",
+    "bit_offset": 312
+  },
+  {
+    "handle": 263166,
+    "block": "Ax-TL-F(01)-50",
+    "text": "卧室",
+    "bit_offset": 312
+  },
+  {
+    "handle": 263167,
+    "block": "Ax-TL-F(01)-50",
+    "text": "客厅、餐厅、户内走道",
+    "bit_offset": 312
+  },
+  {
+    "handle": 263168,
+    "block": "Ax-TL-F(01)-50",
+    "text": "名 称",
+    "bit_offset": 312
+  },
+  {
+    "handle": 263171,
+    "block": "Ax-TL-F(01)-50",
+    "text": "标高统计表：",
+    "bit_offset": 312
+  },
+  {
+    "handle": 263186,
+    "block": "Ax-TL-F(01)-50",
+    "text": "FL-0.050",
+    "bit_offset": 312
+  },
+  {
+    "handle": 263187,
+    "block": "Ax-TL-F(01)-50",
+    "text": "注：穿墙套管当穿砌体墙时为PVC套管，穿剪力墙时为钢套管;外墙的穿孔及套管内高外低，坡度为10%",
+    "bit_offset": 312
+  },
+  {
+    "handle": 263188,
+    "block": "Ax-TL-F(01)-50",
+    "text": "背后进管: 680x1050x200/100",
+    "bit_offset": 312
+  },
+  {
+    "handle": 263189,
+    "block": "Ax-TL-F(01)-50",
+    "text": "开敞前室/连廊",
+    "bit_offset": 312
+  },
+  {
+    "handle": 263190,
+    "block": "Ax-TL-F(01)-50",
+    "text": "FL-0.015(门口处)",
+    "bit_offset": 312
+  },
+  {
+    "handle": 263191,
+    "block": "Ax-TL-F(01)-50",
+    "text": "FL-0.080",
+    "bit_offset": 312
+  },
+  {
+    "handle": 263798,
+    "block": "Ax-TL-F(01)-50",
+    "text": "卫生间排气管留洞",
+    "bit_offset": 312
+  },
+  {
+    "handle": 263799,
+    "block": "Ax-TL-F(01)-50",
+    "text": "T1",
+    "bit_offset": 312
+  },
+  {
+    "handle": 263800,
+    "block": "Ax-TL-F(01)-50",
+    "text": "钢套管DN125",
+    "bit_offset": 312
+  },
+  {
+    "handle": 263828,
+    "block": "Ax-TL-F(01)-50",
+    "text": "可视对讲机",
+    "bit_offset": 312
+  },
+  {
+    "handle": 263830,
+    "block": "Ax-TL-F(01)-50",
+    "text": "楼梯间",
+    "bit_offset": 312
+  },
+  {
+    "handle": 263831,
+    "block": "Ax-TL-F(01)-50",
+    "text": "FL",
+    "bit_offset": 312
+  },
+  {
+    "handle": 263832,
+    "block": "Ax-TL-F(01)-50",
+    "text": "FL-0.020",
+    "bit_offset": 312
+  },
+  {
+    "handle": 263834,
+    "block": "Ax-TL-F(01)-50",
+    "text": "厨房",
+    "bit_offset": 312
+  },
+  {
+    "handle": 263835,
+    "block": "Ax-TL-F(01)-50",
+    "text": "FL-0.120",
+    "bit_offset": 312
+  },
+  {
+    "handle": 263836,
+    "block": "Ax-TL-F(01)-50",
+    "text": "FL-0.020",
+    "bit_offset": 312
+  },
+  {
+    "handle": 263837,
+    "block": "Ax-TL-F(01)-50",
+    "text": "FL",
+    "bit_offset": 312
+  },
+  {
+    "handle": 263838,
+    "block": "Ax-TL-F(01)-50",
+    "text": "/FL-0.350(填充区域)",
+    "bit_offset": 312
+  },
+  {
+    "handle": 263840,
+    "block": "Ax-TL-F(01)-50",
+    "text": "%%c100排气预留洞钢套管，洞中心距地2850mm",
+    "bit_offset": 312
+  },
+  {
+    "handle": 263844,
+    "block": "Ax-TL-F(01)-50",
+    "text": "二台空调室外机(住户自理)",
+    "bit_offset": 312
+  },
+  {
+    "handle": 264081,
+    "block": "Ax-TL-F(01)-50",
+    "text": "钢筋混凝土墙、柱",
+    "bit_offset": 312
+  },
+  {
+    "handle": 264086,
+    "block": "Ax-TL-F(01)-50",
+    "text": "其他主要图例说明：",
+    "bit_offset": 312
+  },
+  {
+    "handle": 264088,
+    "block": "Ax-TL-F(01)-50",
+    "text": "铝模，用于外墙",
+    "bit_offset": 312
+  },
+  {
+    "handle": 264174,
+    "block": "Ax-TL-F(01)-50$0$A$C043A5C60",
+    "text": "一台空调室外机(可见，住户自理)",
+    "bit_offset": 312
+  },
+  {
+    "handle": 264175,
+    "block": "Ax-TL-F(01)-50$0$A$C043A5C60",
+    "text": "一台空调室外机(不可见，住户自理)",
+    "bit_offset": 312
+  },
+  {
+    "handle": 264179,
+    "block": "Ax-TL-F(01)-50",
+    "text": "K1a",
+    "bit_offset": 312
+  },
+  {
+    "handle": 264180,
+    "block": "Ax-TL-F(01)-50",
+    "text": "柜机套管留洞",
+    "bit_offset": 312
+  },
+  {
+    "handle": 264181,
+    "block": "Ax-TL-F(01)-50",
+    "text": "K1a'",
+    "bit_offset": 312
+  },
+  {
+    "handle": 264182,
+    "block": "Ax-TL-F(01)-50",
+    "text": "柜机套管留洞",
+    "bit_offset": 312
+  },
+  {
+    "handle": 264183,
+    "block": "Ax-TL-F(01)-50",
+    "text": "钢套管DN125;孔中标高距客厅结构顶板板底0.230",
+    "bit_offset": 312
+  },
+  {
+    "handle": 264184,
+    "block": "Ax-TL-F(01)-50",
+    "text": "PVC套管%%c140;孔中标高距距阳台结构顶板板底0.250",
+    "bit_offset": 312
+  },
+  {
+    "handle": 264185,
+    "block": "Ax-TL-F(01)-50",
+    "text": "K1b",
+    "bit_offset": 312
+  },
+  {
+    "handle": 264186,
+    "block": "Ax-TL-F(01)-50",
+    "text": "柜机套管留洞",
+    "bit_offset": 312
+  },
+  {
+    "handle": 264187,
+    "block": "Ax-TL-F(01)-50",
+    "text": "钢套管DN125;孔中标高距距阳台结构顶板板底0.250",
+    "bit_offset": 312
+  },
+  {
+    "handle": 264190,
+    "block": "Ax-TL-F(01)-50",
+    "text": "实心砖",
+    "bit_offset": 312
+  },
+  {
+    "handle": 264191,
+    "block": "Ax-TL-F(01)-50",
+    "text": "FL-0.130",
+    "bit_offset": 312
+  },
+  {
+    "handle": 264192,
+    "block": "Ax-TL-F(01)-50",
+    "text": "FL-0.020",
+    "bit_offset": 312
+  },
+  {
+    "handle": 264195,
+    "block": "Ax-TL-F(01)-50",
+    "text": "首层",
+    "bit_offset": 312
+  },
+  {
+    "handle": 264196,
+    "block": "Ax-TL-F(01)-50",
+    "text": "2F以上",
+    "bit_offset": 312
+  },
+  {
+    "handle": 264197,
+    "block": "Ax-TL-F(01)-50",
+    "text": "FL-0.130",
+    "bit_offset": 312
+  },
+  {
+    "handle": 264198,
+    "block": "Ax-TL-F(01)-50",
+    "text": "FL",
+    "bit_offset": 312
+  },
+  {
+    "handle": 264199,
+    "block": "Ax-TL-F(01)-50",
+    "text": "首层",
+    "bit_offset": 312
+  },
+  {
+    "handle": 264200,
+    "block": "Ax-TL-F(01)-50",
+    "text": "2F以上",
+    "bit_offset": 312
+  },
+  {
+    "handle": 264201,
+    "block": "Ax-TL-F(01)-50",
+    "text": "FL",
+    "bit_offset": 312
+  },
+  {
+    "handle": 264202,
+    "block": "Ax-TL-F(01)-50",
+    "text": "FL-0.100",
+    "bit_offset": 312
+  },
+  {
+    "handle": 264204,
+    "block": "Ax-TL-F(01)-50",
+    "text": "首层",
+    "bit_offset": 312
+  },
+  {
+    "handle": 264348,
+    "block": "Ax-TL-F(01)-50",
+    "text": "K3",
+    "bit_offset": 312
+  },
+  {
+    "handle": 264349,
+    "block": "Ax-TL-F(01)-50",
+    "text": "套管板面留洞",
+    "bit_offset": 312
+  },
+  {
+    "handle": 264350,
+    "block": "Ax-TL-F(01)-50",
+    "text": "钢套管DN80",
+    "bit_offset": 312
+  },
+  {
+    "handle": 264352,
+    "block": "Ax-TL-F(01)-50",
+    "text": "K2'",
+    "bit_offset": 312
+  },
+  {
+    "handle": 264353,
+    "block": "Ax-TL-F(01)-50",
+    "text": "挂机套管留洞",
+    "bit_offset": 312
+  },
+  {
+    "handle": 264354,
+    "block": "Ax-TL-F(01)-50",
+    "text": "卧室预留预留%%c80空调套管;孔中距地2380mm",
+    "bit_offset": 312
+  },
+  {
+    "handle": 294685,
+    "block": "AX-6-P02-F(02)$0$frefrgt5",
+    "text": "不保温不上人屋面",
+    "bit_offset": 312
+  },
+  {
+    "handle": 294695,
+    "block": "AX-6-P02-F(02)$0$frefrgt5",
+    "text": "不保温不上人屋面",
+    "bit_offset": 312
+  },
+  {
+    "handle": 294703,
+    "block": "AX-6-P02-F(02)$0$frefrgt5",
+    "text": "风井顶板",
+    "bit_offset": 312
+  },
+  {
+    "handle": 294716,
+    "block": "AX-6-P02-F(02)$0$frefrgt5",
+    "text": "混凝土雨篷",
+    "bit_offset": 312
+  },
+  {
+    "handle": 294720,
+    "block": "AX-6-P02-F(02)$0$frefrgt5",
+    "text": "混凝土雨篷",
+    "bit_offset": 312
+  },
+  {
+    "handle": 294721,
+    "block": "AX-6-P02-F(02)$0$frefrgt5",
+    "text": "混凝土雨篷",
+    "bit_offset": 312
+  },
+  {
+    "handle": 294722,
+    "block": "AX-6-P02-F(02)$0$frefrgt5",
+    "text": "混凝土雨篷",
+    "bit_offset": 312
+  },
+  {
+    "handle": 294723,
+    "block": "AX-6-P02-F(02)$0$frefrgt5",
+    "text": "混凝土雨篷",
+    "bit_offset": 312
+  },
+  {
+    "handle": 294724,
+    "block": "AX-6-P02-F(02)$0$frefrgt5",
+    "text": "混凝土雨篷",
+    "bit_offset": 312
+  },
+  {
+    "handle": 294763,
+    "block": "AX-6-P02-F(02)$0$frefrgt5",
+    "text": "混凝土雨篷",
+    "bit_offset": 312
+  },
+  {
+    "handle": 295055,
+    "block": "AX-6-P02-F(02)",
+    "text": "本层建筑面积441.93m^U2^U(其中住宅面积441.93m^U2^U)",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364318,
+    "block": "AX-6-COMP-NOTE-BZC",
+    "text": "连廊",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364320,
+    "block": "AX-6-COMP-NOTE-BZC",
+    "text": "DT-2",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364321,
+    "block": "AX-6-COMP-NOTE-BZC",
+    "text": "兼消防电梯",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364322,
+    "block": "AX-6-COMP-NOTE-BZC",
+    "text": "DT-1",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364323,
+    "block": "AX-6-COMP-NOTE-BZC",
+    "text": "客梯兼担架梯",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364325,
+    "block": "AX-6-COMP-NOTE-BZC",
+    "text": "前室",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364328,
+    "block": "AX-6-COMP-NOTE-BZC",
+    "text": "水井",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364330,
+    "block": "AX-6-COMP-NOTE-BZC",
+    "text": "LT01",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364332,
+    "block": "AX-6-COMP-NOTE-BZC",
+    "text": "厨房",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364334,
+    "block": "AX-6-COMP-NOTE-BZC",
+    "text": "餐厅",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364347,
+    "block": "AX-6-COMP-NOTE-BZC",
+    "text": "客厅",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364352,
+    "block": "AX-6-COMP-NOTE-BZC",
+    "text": "卧室",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364354,
+    "block": "AX-6-COMP-NOTE-BZC",
+    "text": "卫生间",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364356,
+    "block": "AX-6-COMP-NOTE-BZC",
+    "text": "卫生间",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364366,
+    "block": "AX-6-COMP-NOTE-BZC",
+    "text": "卧室",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364368,
+    "block": "AX-6-COMP-NOTE-BZC",
+    "text": "走道",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364371,
+    "block": "AX-6-COMP-NOTE-BZC",
+    "text": "电井",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364375,
+    "block": "AX-6-COMP-NOTE-BZC",
+    "text": "合用前室",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364376,
+    "block": "AX-6-COMP-NOTE-BZC",
+    "text": "LT02",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364378,
+    "block": "AX-6-COMP-NOTE-BZC",
+    "text": "走道",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364383,
+    "block": "AX-6-COMP-NOTE-BZC",
+    "text": "阳台",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364385,
+    "block": "AX-6-COMP-NOTE-BZC",
+    "text": "天井",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364387,
+    "block": "AX-6-COMP-NOTE-BZC",
+    "text": "耀袇",
+    "bit_offset": 66
+  },
+  {
+    "handle": 364390,
+    "block": "AX-6-COMP-NOTE-BZC",
+    "text": "卧室",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364392,
+    "block": "AX-6-COMP-NOTE-BZC",
+    "text": "厨房",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364394,
+    "block": "AX-6-COMP-NOTE-BZC",
+    "text": "餐厅",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364396,
+    "block": "AX-6-COMP-NOTE-BZC",
+    "text": "客厅",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364402,
+    "block": "AX-6-COMP-NOTE-BZC",
+    "text": "卧室",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364404,
+    "block": "AX-6-COMP-NOTE-BZC",
+    "text": "卫生间",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364407,
+    "block": "AX-6-COMP-NOTE-BZC",
+    "text": "卧室",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364410,
+    "block": "AX-6-COMP-NOTE-BZC",
+    "text": "阳台",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364417,
+    "block": "AX-6-COMP-NOTE-BZC",
+    "text": "卫生间",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364420,
+    "block": "AX-6-COMP-NOTE-BZC",
+    "text": "卧室",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364422,
+    "block": "AX-6-COMP-NOTE-BZC",
+    "text": "厨房",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364424,
+    "block": "AX-6-COMP-NOTE-BZC",
+    "text": "餐厅",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364426,
+    "block": "AX-6-COMP-NOTE-BZC",
+    "text": "客厅",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364432,
+    "block": "AX-6-COMP-NOTE-BZC",
+    "text": "卧室",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364434,
+    "block": "AX-6-COMP-NOTE-BZC",
+    "text": "卫生间",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364440,
+    "block": "AX-6-COMP-NOTE-BZC",
+    "text": "阳台",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364448,
+    "block": "AX-6-COMP-NOTE-BZC",
+    "text": "卧室",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364451,
+    "block": "AX-6-COMP-NOTE-BZC",
+    "text": "厨房",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364458,
+    "block": "AX-6-COMP-NOTE-BZC",
+    "text": "餐厅",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364460,
+    "block": "AX-6-COMP-NOTE-BZC",
+    "text": "客厅",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364462,
+    "block": "AX-6-COMP-NOTE-BZC",
+    "text": "卧室",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364464,
+    "block": "AX-6-COMP-NOTE-BZC",
+    "text": "卧室",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364467,
+    "block": "AX-6-COMP-NOTE-BZC",
+    "text": "耀袀",
+    "bit_offset": 66
+  },
+  {
+    "handle": 364469,
+    "block": "AX-6-COMP-NOTE-BZC",
+    "text": "卫生间",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364471,
+    "block": "AX-6-COMP-NOTE-BZC",
+    "text": "阳台",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364475,
+    "block": "AX-6-COMP-NOTE-BZC",
+    "text": "无障碍电梯",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364548,
+    "block": "Ax-TL-50",
+    "text": "钢筋混凝土墙、柱",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364562,
+    "block": "Ax-TL-50",
+    "text": "柜式室内空调机(住户自理)",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364563,
+    "block": "Ax-TL-50",
+    "text": "挂式室内空调机(住户自理)",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364564,
+    "block": "Ax-TL-50",
+    "text": "一台空调室外机(可见，住户自理)",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364565,
+    "block": "Ax-TL-50",
+    "text": "燃气表,详见燃气设计",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364566,
+    "block": "Ax-TL-50",
+    "text": "燃气热水器(住户自理)",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364567,
+    "block": "Ax-TL-50",
+    "text": "双眼炉灶(住户自理)",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364568,
+    "block": "Ax-TL-50",
+    "text": "洗衣机(住户自理)",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364569,
+    "block": "Ax-TL-50",
+    "text": "冰箱(住户自理)",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364594,
+    "block": "Ax-TL-50",
+    "text": "表示楼板开洞",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364596,
+    "block": "Ax-TL-50",
+    "text": "琝珿垓",
+    "bit_offset": 91
+  },
+  {
+    "handle": 364600,
+    "block": "Ax-TL-50",
+    "text": "650x800x200",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364602,
+    "block": "Ax-TL-50",
+    "text": "725mm",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364605,
+    "block": "Ax-TL-50",
+    "text": "名称",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364606,
+    "block": "Ax-TL-50",
+    "text": "箱体尺寸",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364607,
+    "block": "Ax-TL-50",
+    "text": "留洞尺寸",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364608,
+    "block": "Ax-TL-50",
+    "text": "薄型单栓",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364609,
+    "block": "Ax-TL-50",
+    "text": "安装高度洞底距地",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364616,
+    "block": "Ax-TL-50",
+    "text": "室内消火栓",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364620,
+    "block": "Ax-TL-50",
+    "text": "PD",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364621,
+    "block": "Ax-TL-50",
+    "text": "DD",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364622,
+    "block": "Ax-TL-50",
+    "text": "强电配电箱",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364623,
+    "block": "Ax-TL-50",
+    "text": "弱电配电箱",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364624,
+    "block": "Ax-TL-50",
+    "text": "预留洞400X410X110,洞底距地1600",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364626,
+    "block": "Ax-TL-50",
+    "text": "预留洞450X350X110,洞底距地300",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364628,
+    "block": "Ax-TL-50",
+    "text": "注:强、弱电箱安装墙体厚度小于150时,，背部需挂网批荡",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364629,
+    "block": "Ax-TL-50",
+    "text": "侧面进管: 950x1050x200/100",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364630,
+    "block": "Ax-TL-50",
+    "text": "其他主要图例说明：",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364631,
+    "block": "Ax-TL-50",
+    "text": "K2a",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364637,
+    "block": "Ax-TL-50",
+    "text": "编号",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364638,
+    "block": "Ax-TL-50",
+    "text": "预埋套管说明：",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364642,
+    "block": "Ax-TL-50",
+    "text": "留洞类型",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364643,
+    "block": "Ax-TL-50",
+    "text": "图例",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364644,
+    "block": "Ax-TL-50",
+    "text": "K1a",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364645,
+    "block": "Ax-TL-50",
+    "text": "柜机套管留洞",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364646,
+    "block": "Ax-TL-50",
+    "text": "K1a'",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364647,
+    "block": "Ax-TL-50",
+    "text": "柜机套管留洞",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364648,
+    "block": "Ax-TL-50",
+    "text": "K2",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364649,
+    "block": "Ax-TL-50",
+    "text": "挂机套管留洞",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364650,
+    "block": "Ax-TL-50",
+    "text": "挂机套管留洞",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364651,
+    "block": "Ax-TL-50",
+    "text": "T2",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364652,
+    "block": "Ax-TL-50",
+    "text": "煤气管留洞",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364653,
+    "block": "Ax-TL-50",
+    "text": "T3",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364654,
+    "block": "Ax-TL-50",
+    "text": "热水器排气管留洞",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364658,
+    "block": "Ax-TL-50",
+    "text": "K3",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364659,
+    "block": "Ax-TL-50",
+    "text": "套管板面留洞",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364661,
+    "block": "Ax-TL-50",
+    "text": "备注",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364662,
+    "block": "Ax-TL-50",
+    "text": "厨房（热水器设于户内）外墙的梁内预留（埋）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364663,
+    "block": "Ax-TL-50",
+    "text": "燃气热水器%%c114排气孔预留洞,孔中心距地2560mm",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364665,
+    "block": "Ax-TL-50",
+    "text": "钢套管DN125;孔中标高距客厅结构顶板板底0.230",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364666,
+    "block": "Ax-TL-50",
+    "text": "PVC套管%%c140;孔中标高距距阳台结构顶板板底0.250",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364667,
+    "block": "Ax-TL-50",
+    "text": "卧室预留预留%%c80空调套管;孔中距地2380mm",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364668,
+    "block": "Ax-TL-50",
+    "text": "%%c80空调套管;孔中标高距地2330mm",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364669,
+    "block": "Ax-TL-50",
+    "text": "厨房%%C50燃气孔预留洞，洞口中心离地600mm",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364676,
+    "block": "Ax-TL-50",
+    "text": "FL-0.090",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364677,
+    "block": "Ax-TL-50",
+    "text": "FL",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364678,
+    "block": "Ax-TL-50",
+    "text": "FL-0.140",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364679,
+    "block": "Ax-TL-50",
+    "text": "FL-0.020(最高处)",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364680,
+    "block": "Ax-TL-50",
+    "text": "阳台",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364681,
+    "block": "Ax-TL-50",
+    "text": "前室、走道",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364682,
+    "block": "Ax-TL-50",
+    "text": "FL-0.120",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364683,
+    "block": "Ax-TL-50",
+    "text": "FL-0.120",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364684,
+    "block": "Ax-TL-50",
+    "text": "FL-0.020(门槛位)",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364685,
+    "block": "Ax-TL-50",
+    "text": "FL",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364686,
+    "block": "Ax-TL-50",
+    "text": "结构面标高",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364687,
+    "block": "Ax-TL-50",
+    "text": "建筑完成面",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364688,
+    "block": "Ax-TL-50",
+    "text": "卫生间",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364689,
+    "block": "Ax-TL-50",
+    "text": "卧室",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364690,
+    "block": "Ax-TL-50",
+    "text": "客厅、餐厅、户内走道",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364691,
+    "block": "Ax-TL-50",
+    "text": "名 称",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364694,
+    "block": "Ax-TL-50",
+    "text": "标高统计表：",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364709,
+    "block": "Ax-TL-50",
+    "text": "FL-0.050",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364710,
+    "block": "Ax-TL-50",
+    "text": "注：穿墙套管当穿砌体墙时为PVC套管，穿剪力墙时为钢套管;外墙的穿孔及套管内高外低，坡度为10%",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364711,
+    "block": "Ax-TL-50",
+    "text": "背后进管: 680x1050x200/100",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364712,
+    "block": "Ax-TL-50",
+    "text": "开敞前室/连廊",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364713,
+    "block": "Ax-TL-50",
+    "text": "FL-0.015(门口处)",
+    "bit_offset": 312
+  },
+  {
+    "handle": 364714,
+    "block": "Ax-TL-50",
+    "text": "FL-0.080",
+    "bit_offset": 312
+  },
+  {
+    "handle": 365321,
+    "block": "Ax-TL-50",
+    "text": "卫生间排气管留洞",
+    "bit_offset": 312
+  },
+  {
+    "handle": 365322,
+    "block": "Ax-TL-50",
+    "text": "T1",
+    "bit_offset": 312
+  },
+  {
+    "handle": 365323,
+    "block": "Ax-TL-50",
+    "text": "钢套管DN80",
+    "bit_offset": 312
+  },
+  {
+    "handle": 365351,
+    "block": "Ax-TL-50",
+    "text": "可视对讲机",
+    "bit_offset": 312
+  },
+  {
+    "handle": 365353,
+    "block": "Ax-TL-50",
+    "text": "楼梯间",
+    "bit_offset": 312
+  },
+  {
+    "handle": 365354,
+    "block": "Ax-TL-50",
+    "text": "FL",
+    "bit_offset": 312
+  },
+  {
+    "handle": 365355,
+    "block": "Ax-TL-50",
+    "text": "FL-0.020",
+    "bit_offset": 312
+  },
+  {
+    "handle": 365357,
+    "block": "Ax-TL-50",
+    "text": "厨房",
+    "bit_offset": 312
+  },
+  {
+    "handle": 365358,
+    "block": "Ax-TL-50",
+    "text": "FL-0.130",
+    "bit_offset": 312
+  },
+  {
+    "handle": 365359,
+    "block": "Ax-TL-50",
+    "text": "FL-0.020",
+    "bit_offset": 312
+  },
+  {
+    "handle": 365360,
+    "block": "Ax-TL-50",
+    "text": "FL",
+    "bit_offset": 312
+  },
+  {
+    "handle": 365361,
+    "block": "Ax-TL-50",
+    "text": "/FL-0.350(填充区域)",
+    "bit_offset": 312
+  },
+  {
+    "handle": 365363,
+    "block": "Ax-TL-50",
+    "text": "%%c100排气预留洞钢套管，洞中心距地2550mm",
+    "bit_offset": 312
+  },
+  {
+    "handle": 365367,
+    "block": "Ax-TL-50",
+    "text": "二台空调室外机(住户自理)",
+    "bit_offset": 312
+  },
+  {
+    "handle": 365371,
+    "block": "Ax-TL-50",
+    "text": "蒸压加气混凝土砌块，用于分隔墙，楼梯间，电梯间,内隔墙，厨，卫隔墙，管井等",
+    "bit_offset": 312
+  },
+  {
+    "handle": 365372,
+    "block": "Ax-TL-50",
+    "text": "铝模，用于外墙",
+    "bit_offset": 312
+  },
+  {
+    "handle": 365695,
+    "block": "Ax-TL-50",
+    "text": "一台空调室外机(不可见，住户自理)",
+    "bit_offset": 312
+  },
+  {
+    "handle": 365697,
+    "block": "Ax-TL-50",
+    "text": "K1b",
+    "bit_offset": 312
+  },
+  {
+    "handle": 365698,
+    "block": "Ax-TL-50",
+    "text": "柜机套管留洞",
+    "bit_offset": 312
+  },
+  {
+    "handle": 365699,
+    "block": "Ax-TL-50",
+    "text": "钢套管DN125;孔中标高距距阳台结构顶板板底0.250",
+    "bit_offset": 312
+  },
+  {
+    "handle": 365703,
+    "block": "Ax-TL-50",
+    "text": "实心砖",
+    "bit_offset": 312
+  },
+  {
+    "handle": 365706,
+    "block": "Ax-TL-50",
+    "text": "首层",
+    "bit_offset": 312
+  },
+  {
+    "handle": 365707,
+    "block": "Ax-TL-50",
+    "text": "2F以上",
+    "bit_offset": 312
+  },
+  {
+    "handle": 365708,
+    "block": "Ax-TL-50",
+    "text": "FL-0.130",
+    "bit_offset": 312
+  },
+  {
+    "handle": 365709,
+    "block": "Ax-TL-50",
+    "text": "FL",
+    "bit_offset": 312
+  },
+  {
+    "handle": 365711,
+    "block": "Ax-TL-50",
+    "text": "首层",
+    "bit_offset": 312
+  },
+  {
+    "handle": 365712,
+    "block": "Ax-TL-50",
+    "text": "2F以上",
+    "bit_offset": 312
+  },
+  {
+    "handle": 365713,
+    "block": "Ax-TL-50",
+    "text": "FL",
+    "bit_offset": 312
+  },
+  {
+    "handle": 365714,
+    "block": "Ax-TL-50",
+    "text": "FL-0.100",
+    "bit_offset": 312
+  },
+  {
+    "handle": 365717,
+    "block": "Ax-TL-50",
+    "text": "首层",
+    "bit_offset": 312
+  },
+  {
+    "handle": 365718,
+    "block": "Ax-TL-50",
+    "text": "2F以上",
+    "bit_offset": 312
+  },
+  {
+    "handle": 365719,
+    "block": "Ax-TL-50",
+    "text": "FL-0.120",
+    "bit_offset": 312
+  },
+  {
+    "handle": 365720,
+    "block": "Ax-TL-50",
+    "text": "FL-0.020",
+    "bit_offset": 312
+  },
+  {
+    "handle": 365862,
+    "block": "Ax-TL-50",
+    "text": "K4",
+    "bit_offset": 312
+  },
+  {
+    "handle": 365863,
+    "block": "Ax-TL-50",
+    "text": "空调隔板留洞",
+    "bit_offset": 312
+  },
+  {
+    "handle": 365864,
+    "block": "Ax-TL-50",
+    "text": "钢套管DN125",
+    "bit_offset": 312
+  },
+  {
+    "handle": 365866,
+    "block": "Ax-TL-50",
+    "text": "K2'",
+    "bit_offset": 312
+  },
+  {
+    "handle": 365867,
+    "block": "Ax-TL-50",
+    "text": "挂机套管留洞",
+    "bit_offset": 312
+  },
+  {
+    "handle": 365868,
+    "block": "Ax-TL-50",
+    "text": "卧室预留预留%%c80空调套管;孔中距地2380mm",
+    "bit_offset": 312
+  },
+  {
+    "handle": 373167,
+    "block": "AX-6-COMP-BG-F(02)",
+    "text": "3.150（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 373169,
+    "block": "AX-6-COMP-BG-F(02)",
+    "text": "3.150（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 373171,
+    "block": "AX-6-COMP-BG-F(02)",
+    "text": "3.120（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 373173,
+    "block": "AX-6-COMP-BG-F(02)",
+    "text": "3.150（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 373176,
+    "block": "AX-6-COMP-BG-F(02)",
+    "text": "3.080（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 373180,
+    "block": "AX-6-COMP-BG-F(02)",
+    "text": "3.150（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 373185,
+    "block": "AX-6-COMP-BG-F(02)",
+    "text": "3.080（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 373191,
+    "block": "AX-6-COMP-BG-F(02)",
+    "text": "3.080（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 373196,
+    "block": "AX-6-COMP-BG-F(02)",
+    "text": "3.080（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 373200,
+    "block": "AX-6-COMP-BG-F(02)",
+    "text": "3.080（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 373201,
+    "block": "AX-6-COMP-BG-F(02)",
+    "text": "3.080（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 373202,
+    "block": "AX-6-COMP-BG-F(02)",
+    "text": "3.080（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 373203,
+    "block": "AX-6-COMP-BG-F(02)",
+    "text": "3.080（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 373205,
+    "block": "AX-6-COMP-BG-F(02)",
+    "text": "1.255（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 373207,
+    "block": "AX-6-COMP-BG-F(02)",
+    "text": "3.180（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 373209,
+    "block": "AX-6-COMP-BG-F(02)",
+    "text": "1.605（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 373211,
+    "block": "AX-6-COMP-BG-F(02)",
+    "text": "3.180（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 373212,
+    "block": "AX-6-COMP-BG-F(02)",
+    "text": "3.080（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 373213,
+    "block": "AX-6-COMP-BG-F(02)",
+    "text": "3.080（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 373214,
+    "block": "AX-6-COMP-BG-F(02)",
+    "text": "3.080（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 373215,
+    "block": "AX-6-COMP-BG-F(02)",
+    "text": "3.080（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 373216,
+    "block": "AX-6-COMP-BG-F(02)",
+    "text": "3.080（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 373217,
+    "block": "AX-6-COMP-BG-F(02)",
+    "text": "3.080（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 373218,
+    "block": "AX-6-COMP-BG-F(02)",
+    "text": "3.080（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 373219,
+    "block": "AX-6-COMP-BG-F(02)",
+    "text": "3.080（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 383914,
+    "block": "AX-6-COMP-JB-F02",
+    "text": "降板图示:",
+    "bit_offset": 312
+  },
+  {
+    "handle": 383916,
+    "block": "AX-6-COMP-JB-F02",
+    "text": "结构板面标高为FL-0.350",
+    "bit_offset": 312
+  },
+  {
+    "handle": 384064,
+    "block": "AX-6-BZC",
+    "text": "楼层",
+    "bit_offset": 312
+  },
+  {
+    "handle": 384065,
+    "block": "AX-6-BZC",
+    "text": "标高",
+    "bit_offset": 312
+  },
+  {
+    "handle": 384066,
+    "block": "AX-6-BZC",
+    "text": "表示标高如下：",
+    "bit_offset": 312
+  },
+  {
+    "handle": 384067,
+    "block": "AX-6-BZC",
+    "text": "7F",
+    "bit_offset": 312
+  },
+  {
+    "handle": 384073,
+    "block": "AX-6-BZC",
+    "text": "10F",
+    "bit_offset": 312
+  },
+  {
+    "handle": 384074,
+    "block": "AX-6-BZC",
+    "text": "13F",
+    "bit_offset": 312
+  },
+  {
+    "handle": 384075,
+    "block": "AX-6-BZC",
+    "text": "16F",
+    "bit_offset": 312
+  },
+  {
+    "handle": 384079,
+    "block": "AX-6-BZC",
+    "text": "19F",
+    "bit_offset": 312
+  },
+  {
+    "handle": 384080,
+    "block": "AX-6-BZC",
+    "text": "22F",
+    "bit_offset": 312
+  },
+  {
+    "handle": 384083,
+    "block": "AX-6-BZC",
+    "text": "17.700",
+    "bit_offset": 312
+  },
+  {
+    "handle": 384084,
+    "block": "AX-6-BZC",
+    "text": "26.400",
+    "bit_offset": 312
+  },
+  {
+    "handle": 384085,
+    "block": "AX-6-BZC",
+    "text": "35.100",
+    "bit_offset": 312
+  },
+  {
+    "handle": 384086,
+    "block": "AX-6-BZC",
+    "text": "43.800",
+    "bit_offset": 312
+  },
+  {
+    "handle": 384087,
+    "block": "AX-6-BZC",
+    "text": "52.500",
+    "bit_offset": 312
+  },
+  {
+    "handle": 384088,
+    "block": "AX-6-BZC",
+    "text": "61.200",
+    "bit_offset": 312
+  },
+  {
+    "handle": 384091,
+    "block": "AX-6-BZC",
+    "text": "（7、10、13、16、19、22F）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 384092,
+    "block": "AX-6-BZC",
+    "text": "本层建筑面积441.93m^U2^U(其中住宅面积441.93m^U2^U)",
+    "bit_offset": 312
+  },
+  {
+    "handle": 390391,
+    "block": "AX-6-COMP-JB",
+    "text": "降板图示:",
+    "bit_offset": 312
+  },
+  {
+    "handle": 390393,
+    "block": "AX-6-COMP-JB",
+    "text": "结构板面标高为FL-0.350",
+    "bit_offset": 312
+  },
+  {
+    "handle": 390412,
+    "block": "AX-6-COMP-BG-BZC",
+    "text": "FL-0.050（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 390414,
+    "block": "AX-6-COMP-BG-BZC",
+    "text": "FL-0.050（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 390416,
+    "block": "AX-6-COMP-BG-BZC",
+    "text": "FL-0.080（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 390418,
+    "block": "AX-6-COMP-BG-BZC",
+    "text": "FL-0.050（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 390421,
+    "block": "AX-6-COMP-BG-BZC",
+    "text": "FL-0.120（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 390425,
+    "block": "AX-6-COMP-BG-BZC",
+    "text": "FL-0.050（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 390430,
+    "block": "AX-6-COMP-BG-BZC",
+    "text": "FL-0.120（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 390436,
+    "block": "AX-6-COMP-BG-BZC",
+    "text": "FL-0.120（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 390441,
+    "block": "AX-6-COMP-BG-BZC",
+    "text": "FL-0.120（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 390445,
+    "block": "AX-6-COMP-BG-BZC",
+    "text": "FL-0.120（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 390446,
+    "block": "AX-6-COMP-BG-BZC",
+    "text": "FL-0.120（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 390447,
+    "block": "AX-6-COMP-BG-BZC",
+    "text": "FL-0.120（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 390448,
+    "block": "AX-6-COMP-BG-BZC",
+    "text": "FL-0.120（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 390450,
+    "block": "AX-6-COMP-BG-BZC",
+    "text": "FL-1.470（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 390452,
+    "block": "AX-6-COMP-BG-BZC",
+    "text": "FL-0.020（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 390454,
+    "block": "AX-6-COMP-BG-BZC",
+    "text": "FL-1.470（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 390456,
+    "block": "AX-6-COMP-BG-BZC",
+    "text": "FL-0.020（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 390458,
+    "block": "AX-6-COMP-BG-BZC",
+    "text": "FL-0.120（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 390459,
+    "block": "AX-6-COMP-BG-BZC",
+    "text": "FL-0.120（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 390460,
+    "block": "AX-6-COMP-BG-BZC",
+    "text": "FL-0.120（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 390461,
+    "block": "AX-6-COMP-BG-BZC",
+    "text": "FL-0.120（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 390462,
+    "block": "AX-6-COMP-BG-BZC",
+    "text": "FL-0.120（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 390463,
+    "block": "AX-6-COMP-BG-BZC",
+    "text": "FL-0.120（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 390464,
+    "block": "AX-6-COMP-BG-BZC",
+    "text": "FL-0.120（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 390465,
+    "block": "AX-6-COMP-BG-BZC",
+    "text": "FL-0.120（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 391355,
+    "block": "AX-6-P12-RF",
+    "text": "保温上人屋面",
+    "bit_offset": 312
+  },
+  {
+    "handle": 391356,
+    "block": "AX-6-P12-RF",
+    "text": "天井",
+    "bit_offset": 312
+  },
+  {
+    "handle": 391358,
+    "block": "AX-6-P12-RF",
+    "text": "LT01",
+    "bit_offset": 312
+  },
+  {
+    "handle": 391359,
+    "block": "AX-6-P12-RF",
+    "text": "电梯机房",
+    "bit_offset": 312
+  },
+  {
+    "handle": 391360,
+    "block": "AX-6-P12-RF",
+    "text": "消防电梯机房",
+    "bit_offset": 312
+  },
+  {
+    "handle": 391361,
+    "block": "AX-6-P12-RF",
+    "text": "LT02",
+    "bit_offset": 312
+  },
+  {
+    "handle": 391367,
+    "block": "AX-6-P12-RF",
+    "text": "101.15（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 391398,
+    "block": "AX-6-P12-RF",
+    "text": "101.15（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 391654,
+    "block": "AX-6-P12-RF",
+    "text": "下9步",
+    "bit_offset": 376
+  },
+  {
+    "handle": 391655,
+    "block": "AX-6-P12-RF",
+    "text": "@260X175",
+    "bit_offset": 376
+  },
+  {
+    "handle": 391656,
+    "block": "AX-6-P12-RF",
+    "text": "下9步",
+    "bit_offset": 376
+  },
+  {
+    "handle": 391657,
+    "block": "AX-6-P12-RF",
+    "text": "@260X175",
+    "bit_offset": 376
+  },
+  {
+    "handle": 391666,
+    "block": "AX-6-P12-RF",
+    "text": "99.130（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 391668,
+    "block": "AX-6-P12-RF",
+    "text": "99.130（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 391670,
+    "block": "AX-6-P12-RF",
+    "text": "97.550（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 391672,
+    "block": "AX-6-P12-RF",
+    "text": "97.550（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 391673,
+    "block": "AX-6-P12-RF",
+    "text": "本层建筑面积41.78m^U2^U(其中住宅面积41.78m^U2^U)",
+    "bit_offset": 312
+  },
+  {
+    "handle": 414087,
+    "block": "AX-6-P03-F(03)",
+    "text": "本层建筑面积441.93m^U2^U(其中住宅面积441.93m^U2^U)",
+    "bit_offset": 312
+  },
+  {
+    "handle": 414180,
+    "block": "AX-6-COMP-BG-F(03)",
+    "text": "6.050（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 414182,
+    "block": "AX-6-COMP-BG-F(03)",
+    "text": "6.050（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 414184,
+    "block": "AX-6-COMP-BG-F(03)",
+    "text": "6.020（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 414186,
+    "block": "AX-6-COMP-BG-F(03)",
+    "text": "6.050（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 414189,
+    "block": "AX-6-COMP-BG-F(03)",
+    "text": "5.980（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 414193,
+    "block": "AX-6-COMP-BG-F(03)",
+    "text": "6.050（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 414198,
+    "block": "AX-6-COMP-BG-F(03)",
+    "text": "5.980（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 414204,
+    "block": "AX-6-COMP-BG-F(03)",
+    "text": "5.980（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 414209,
+    "block": "AX-6-COMP-BG-F(03)",
+    "text": "5.980（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 414213,
+    "block": "AX-6-COMP-BG-F(03)",
+    "text": "5.980（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 414214,
+    "block": "AX-6-COMP-BG-F(03)",
+    "text": "5.980（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 414215,
+    "block": "AX-6-COMP-BG-F(03)",
+    "text": "5.980（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 414216,
+    "block": "AX-6-COMP-BG-F(03)",
+    "text": "5.980（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 414218,
+    "block": "AX-6-COMP-BG-F(03)",
+    "text": "4.630（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 414220,
+    "block": "AX-6-COMP-BG-F(03)",
+    "text": "6.080（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 414222,
+    "block": "AX-6-COMP-BG-F(03)",
+    "text": "4.630（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 414224,
+    "block": "AX-6-COMP-BG-F(03)",
+    "text": "6.080（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 414226,
+    "block": "AX-6-COMP-BG-F(03)",
+    "text": "5.980（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 414227,
+    "block": "AX-6-COMP-BG-F(03)",
+    "text": "5.980（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 414228,
+    "block": "AX-6-COMP-BG-F(03)",
+    "text": "5.980（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 414229,
+    "block": "AX-6-COMP-BG-F(03)",
+    "text": "5.980（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 414230,
+    "block": "AX-6-COMP-BG-F(03)",
+    "text": "5.980（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 414231,
+    "block": "AX-6-COMP-BG-F(03)",
+    "text": "5.980（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 414232,
+    "block": "AX-6-COMP-BG-F(03)",
+    "text": "5.980（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 414233,
+    "block": "AX-6-COMP-BG-F(03)",
+    "text": "5.980（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 414291,
+    "block": "AX-6-P13-GJ",
+    "text": "混凝土雨篷",
+    "bit_offset": 312
+  },
+  {
+    "handle": 414295,
+    "block": "AX-6-P13-GJ",
+    "text": "混凝土雨篷",
+    "bit_offset": 312
+  },
+  {
+    "handle": 414306,
+    "block": "AX-6-P13-GJ",
+    "text": "保温不上人屋面",
+    "bit_offset": 312
+  },
+  {
+    "handle": 414307,
+    "block": "AX-6-P13-GJ",
+    "text": "保温不上人屋面",
+    "bit_offset": 312
+  },
+  {
+    "handle": 414314,
+    "block": "AX-6-P13-GJ",
+    "text": "混凝土雨篷",
+    "bit_offset": 312
+  },
+  {
+    "handle": 414318,
+    "block": "AX-6-P13-GJ",
+    "text": "混凝土雨篷",
+    "bit_offset": 312
+  },
+  {
+    "handle": 414524,
+    "block": "AX-6-P13-GJ",
+    "text": "不保温不上人屋面",
+    "bit_offset": 312
+  },
+  {
+    "handle": 414525,
+    "block": "AX-6-P13-GJ",
+    "text": "不保温不上人屋面",
+    "bit_offset": 312
+  },
+  {
+    "handle": 438540,
+    "block": "AX-6-P04-F(04)",
+    "text": "本层建筑面积441.93m^U2^U(其中住宅面积441.93m^U2^U)",
+    "bit_offset": 312
+  },
+  {
+    "handle": 439339,
+    "block": "AX-6-COMP-BG-F(04)",
+    "text": "8.950（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 439341,
+    "block": "AX-6-COMP-BG-F(04)",
+    "text": "8.950（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 439343,
+    "block": "AX-6-COMP-BG-F(04)",
+    "text": "8.920（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 439345,
+    "block": "AX-6-COMP-BG-F(04)",
+    "text": "8.950（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 439348,
+    "block": "AX-6-COMP-BG-F(04)",
+    "text": "8.880（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 439352,
+    "block": "AX-6-COMP-BG-F(04)",
+    "text": "8.950（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 439357,
+    "block": "AX-6-COMP-BG-F(04)",
+    "text": "8.880（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 439363,
+    "block": "AX-6-COMP-BG-F(04)",
+    "text": "8.880（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 439368,
+    "block": "AX-6-COMP-BG-F(04)",
+    "text": "8.880（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 439372,
+    "block": "AX-6-COMP-BG-F(04)",
+    "text": "8.880（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 439373,
+    "block": "AX-6-COMP-BG-F(04)",
+    "text": "8.880（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 439374,
+    "block": "AX-6-COMP-BG-F(04)",
+    "text": "8.880（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 439375,
+    "block": "AX-6-COMP-BG-F(04)",
+    "text": "8.880（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 439377,
+    "block": "AX-6-COMP-BG-F(04)",
+    "text": "8.980（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 439379,
+    "block": "AX-6-COMP-BG-F(04)",
+    "text": "8.980（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 439387,
+    "block": "AX-6-COMP-BG-F(04)",
+    "text": "7.530（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 439389,
+    "block": "AX-6-COMP-BG-F(04)",
+    "text": "7.530（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 439390,
+    "block": "AX-6-COMP-BG-F(04)",
+    "text": "8.880（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 439391,
+    "block": "AX-6-COMP-BG-F(04)",
+    "text": "8.880（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 439392,
+    "block": "AX-6-COMP-BG-F(04)",
+    "text": "8.880（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 439393,
+    "block": "AX-6-COMP-BG-F(04)",
+    "text": "8.880（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 439394,
+    "block": "AX-6-COMP-BG-F(04)",
+    "text": "8.880（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 439395,
+    "block": "AX-6-COMP-BG-F(04)",
+    "text": "8.880（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 439396,
+    "block": "AX-6-COMP-BG-F(04)",
+    "text": "8.880（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 439397,
+    "block": "AX-6-COMP-BG-F(04)",
+    "text": "8.880（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 439661,
+    "block": "AX-6-P11-F(33-34)",
+    "text": "本层建筑面积441.93m^U2^U(其中住宅面积441.93m^U2^U)",
+    "bit_offset": 312
+  },
+  {
+    "handle": 440588,
+    "block": "AX-6-COMP-BG-F(33)",
+    "text": "93.050（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 440590,
+    "block": "AX-6-COMP-BG-F(33)",
+    "text": "93.050（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 440592,
+    "block": "AX-6-COMP-BG-F(33)",
+    "text": "93.020（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 440594,
+    "block": "AX-6-COMP-BG-F(33)",
+    "text": "93.050（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 440597,
+    "block": "AX-6-COMP-BG-F(33)",
+    "text": "92.980（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 440601,
+    "block": "AX-6-COMP-BG-F(33)",
+    "text": "93.050（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 440606,
+    "block": "AX-6-COMP-BG-F(33)",
+    "text": "92.980（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 440612,
+    "block": "AX-6-COMP-BG-F(33)",
+    "text": "92.980（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 440617,
+    "block": "AX-6-COMP-BG-F(33)",
+    "text": "92.980（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 440621,
+    "block": "AX-6-COMP-BG-F(33)",
+    "text": "92.980（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 440622,
+    "block": "AX-6-COMP-BG-F(33)",
+    "text": "92.980（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 440623,
+    "block": "AX-6-COMP-BG-F(33)",
+    "text": "92.980（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 440624,
+    "block": "AX-6-COMP-BG-F(33)",
+    "text": "92.980（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 440626,
+    "block": "AX-6-COMP-BG-F(33)",
+    "text": "91.630（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 440628,
+    "block": "AX-6-COMP-BG-F(33)",
+    "text": "93.080（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 440630,
+    "block": "AX-6-COMP-BG-F(33)",
+    "text": "91.630（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 440632,
+    "block": "AX-6-COMP-BG-F(33)",
+    "text": "93.080（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 440635,
+    "block": "AX-6-COMP-BG-F(33)",
+    "text": "92.980（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 440636,
+    "block": "AX-6-COMP-BG-F(33)",
+    "text": "92.980（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 440637,
+    "block": "AX-6-COMP-BG-F(33)",
+    "text": "92.980（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 440638,
+    "block": "AX-6-COMP-BG-F(33)",
+    "text": "92.980（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 440639,
+    "block": "AX-6-COMP-BG-F(33)",
+    "text": "92.980（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 440640,
+    "block": "AX-6-COMP-BG-F(33)",
+    "text": "92.980（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 440641,
+    "block": "AX-6-COMP-BG-F(33)",
+    "text": "92.980（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 440642,
+    "block": "AX-6-COMP-BG-F(33)",
+    "text": "92.980（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 441060,
+    "block": "AX-6-P05-F(05)",
+    "text": "本层建筑面积441.93m^U2^U(其中住宅面积441.93m^U2^U)",
+    "bit_offset": 312
+  },
+  {
+    "handle": 441336,
+    "block": "AX-6-COMP-BG-F(05)",
+    "text": "11.850（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 441338,
+    "block": "AX-6-COMP-BG-F(05)",
+    "text": "11.850（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 441340,
+    "block": "AX-6-COMP-BG-F(05)",
+    "text": "11.820（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 441342,
+    "block": "AX-6-COMP-BG-F(05)",
+    "text": "11.850（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 441345,
+    "block": "AX-6-COMP-BG-F(05)",
+    "text": "11.780（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 441349,
+    "block": "AX-6-COMP-BG-F(05)",
+    "text": "11.850（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 441354,
+    "block": "AX-6-COMP-BG-F(05)",
+    "text": "11.780（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 441360,
+    "block": "AX-6-COMP-BG-F(05)",
+    "text": "11.780（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 441365,
+    "block": "AX-6-COMP-BG-F(05)",
+    "text": "11.780（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 441369,
+    "block": "AX-6-COMP-BG-F(05)",
+    "text": "11.780（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 441370,
+    "block": "AX-6-COMP-BG-F(05)",
+    "text": "11.780（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 441371,
+    "block": "AX-6-COMP-BG-F(05)",
+    "text": "11.780（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 441372,
+    "block": "AX-6-COMP-BG-F(05)",
+    "text": "11.780（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 441374,
+    "block": "AX-6-COMP-BG-F(05)",
+    "text": "10.430（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 441376,
+    "block": "AX-6-COMP-BG-F(05)",
+    "text": "11.880（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 441378,
+    "block": "AX-6-COMP-BG-F(05)",
+    "text": "10.430（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 441380,
+    "block": "AX-6-COMP-BG-F(05)",
+    "text": "11.880（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 441387,
+    "block": "AX-6-COMP-BG-F(05)",
+    "text": "11.780（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 441388,
+    "block": "AX-6-COMP-BG-F(05)",
+    "text": "11.780（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 441389,
+    "block": "AX-6-COMP-BG-F(05)",
+    "text": "11.780（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 441390,
+    "block": "AX-6-COMP-BG-F(05)",
+    "text": "11.780（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 441391,
+    "block": "AX-6-COMP-BG-F(05)",
+    "text": "11.780（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 441392,
+    "block": "AX-6-COMP-BG-F(05)",
+    "text": "11.780（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 441393,
+    "block": "AX-6-COMP-BG-F(05)",
+    "text": "11.780（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 441394,
+    "block": "AX-6-COMP-BG-F(05)",
+    "text": "11.780（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 441437,
+    "block": "AX-6-BZC3",
+    "text": "楼层",
+    "bit_offset": 312
+  },
+  {
+    "handle": 441438,
+    "block": "AX-6-BZC3",
+    "text": "标高",
+    "bit_offset": 312
+  },
+  {
+    "handle": 441439,
+    "block": "AX-6-BZC3",
+    "text": "表示标高如下：",
+    "bit_offset": 312
+  },
+  {
+    "handle": 441440,
+    "block": "AX-6-BZC3",
+    "text": "8F",
+    "bit_offset": 312
+  },
+  {
+    "handle": 441445,
+    "block": "AX-6-BZC3",
+    "text": "11F",
+    "bit_offset": 312
+  },
+  {
+    "handle": 441446,
+    "block": "AX-6-BZC3",
+    "text": "14F",
+    "bit_offset": 312
+  },
+  {
+    "handle": 441447,
+    "block": "AX-6-BZC3",
+    "text": "17F",
+    "bit_offset": 312
+  },
+  {
+    "handle": 441452,
+    "block": "AX-6-BZC3",
+    "text": "20F",
+    "bit_offset": 312
+  },
+  {
+    "handle": 441453,
+    "block": "AX-6-BZC3",
+    "text": "23F",
+    "bit_offset": 312
+  },
+  {
+    "handle": 441456,
+    "block": "AX-6-BZC3",
+    "text": "20.600",
+    "bit_offset": 312
+  },
+  {
+    "handle": 441457,
+    "block": "AX-6-BZC3",
+    "text": "29.300",
+    "bit_offset": 312
+  },
+  {
+    "handle": 441458,
+    "block": "AX-6-BZC3",
+    "text": "38.000",
+    "bit_offset": 312
+  },
+  {
+    "handle": 441459,
+    "block": "AX-6-BZC3",
+    "text": "46.700",
+    "bit_offset": 312
+  },
+  {
+    "handle": 441460,
+    "block": "AX-6-BZC3",
+    "text": "55.400",
+    "bit_offset": 312
+  },
+  {
+    "handle": 441461,
+    "block": "AX-6-BZC3",
+    "text": "64.100",
+    "bit_offset": 312
+  },
+  {
+    "handle": 441464,
+    "block": "AX-6-BZC3",
+    "text": "（8、11、14、17、20、23F）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 441465,
+    "block": "AX-6-BZC3",
+    "text": "本层建筑面积441.93m^U2^U(其中住宅面积441.93m^U2^U)",
+    "bit_offset": 312
+  },
+  {
+    "handle": 448408,
+    "block": "AX-6-TQ",
+    "text": "姜渝",
+    "bit_offset": 248
+  },
+  {
+    "handle": 448410,
+    "block": "AX-6-TQ",
+    "text": "姜渝",
+    "bit_offset": 248
+  },
+  {
+    "handle": 452721,
+    "block": "AX-TK-TQ-jianzhu",
+    "text": "盛  宇",
+    "bit_offset": 248
+  },
+  {
+    "handle": 471281,
+    "block": "AX-6-BZC1",
+    "text": "楼层",
+    "bit_offset": 312
+  },
+  {
+    "handle": 471282,
+    "block": "AX-6-BZC1",
+    "text": "标高",
+    "bit_offset": 312
+  },
+  {
+    "handle": 471283,
+    "block": "AX-6-BZC1",
+    "text": "表示标高如下：",
+    "bit_offset": 312
+  },
+  {
+    "handle": 471284,
+    "block": "AX-6-BZC1",
+    "text": "6F",
+    "bit_offset": 312
+  },
+  {
+    "handle": 471290,
+    "block": "AX-6-BZC1",
+    "text": "9F",
+    "bit_offset": 312
+  },
+  {
+    "handle": 471291,
+    "block": "AX-6-BZC1",
+    "text": "12F",
+    "bit_offset": 312
+  },
+  {
+    "handle": 471292,
+    "block": "AX-6-BZC1",
+    "text": "15F",
+    "bit_offset": 312
+  },
+  {
+    "handle": 471293,
+    "block": "AX-6-BZC1",
+    "text": "18F",
+    "bit_offset": 312
+  },
+  {
+    "handle": 471296,
+    "block": "AX-6-BZC1",
+    "text": "21F",
+    "bit_offset": 312
+  },
+  {
+    "handle": 471300,
+    "block": "AX-6-BZC1",
+    "text": "14.800",
+    "bit_offset": 312
+  },
+  {
+    "handle": 471301,
+    "block": "AX-6-BZC1",
+    "text": "23.500",
+    "bit_offset": 312
+  },
+  {
+    "handle": 471302,
+    "block": "AX-6-BZC1",
+    "text": "32.200",
+    "bit_offset": 312
+  },
+  {
+    "handle": 471303,
+    "block": "AX-6-BZC1",
+    "text": "40.900",
+    "bit_offset": 312
+  },
+  {
+    "handle": 471304,
+    "block": "AX-6-BZC1",
+    "text": "49.600",
+    "bit_offset": 312
+  },
+  {
+    "handle": 471305,
+    "block": "AX-6-BZC1",
+    "text": "58.300",
+    "bit_offset": 312
+  },
+  {
+    "handle": 471308,
+    "block": "AX-6-BZC1",
+    "text": "（6、9、12、15、18、21F）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 471309,
+    "block": "AX-6-BZC1",
+    "text": "本层建筑面积441.93m^U2^U(其中住宅面积441.93m^U2^U)",
+    "bit_offset": 312
+  },
+  {
+    "handle": 472383,
+    "block": "AX-6-P10-F(34)",
+    "text": "本层建筑面积441.93m^U2^U(其中住宅面积441.93m^U2^U)",
+    "bit_offset": 312
+  },
+  {
+    "handle": 472817,
+    "block": "AX-6-COMP-BG-F(34)",
+    "text": "95.950（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 472819,
+    "block": "AX-6-COMP-BG-F(34)",
+    "text": "95.950（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 472821,
+    "block": "AX-6-COMP-BG-F(34)",
+    "text": "95.920（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 472823,
+    "block": "AX-6-COMP-BG-F(34)",
+    "text": "95.950（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 472826,
+    "block": "AX-6-COMP-BG-F(34)",
+    "text": "95.880（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 472830,
+    "block": "AX-6-COMP-BG-F(34)",
+    "text": "95.950（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 472835,
+    "block": "AX-6-COMP-BG-F(34)",
+    "text": "95.880（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 472841,
+    "block": "AX-6-COMP-BG-F(34)",
+    "text": "95.880（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 472846,
+    "block": "AX-6-COMP-BG-F(34)",
+    "text": "95.880（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 472850,
+    "block": "AX-6-COMP-BG-F(34)",
+    "text": "95.880（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 472851,
+    "block": "AX-6-COMP-BG-F(34)",
+    "text": "95.880（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 472852,
+    "block": "AX-6-COMP-BG-F(34)",
+    "text": "95.880（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 472853,
+    "block": "AX-6-COMP-BG-F(34)",
+    "text": "95.880（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 472855,
+    "block": "AX-6-COMP-BG-F(34)",
+    "text": "94.530（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 472857,
+    "block": "AX-6-COMP-BG-F(34)",
+    "text": "95.980（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 472859,
+    "block": "AX-6-COMP-BG-F(34)",
+    "text": "94.530（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 472861,
+    "block": "AX-6-COMP-BG-F(34)",
+    "text": "95.980（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 472863,
+    "block": "AX-6-COMP-BG-F(34)",
+    "text": "95.880（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 472864,
+    "block": "AX-6-COMP-BG-F(34)",
+    "text": "95.880（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 472865,
+    "block": "AX-6-COMP-BG-F(34)",
+    "text": "95.880（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 472866,
+    "block": "AX-6-COMP-BG-F(34)",
+    "text": "95.880（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 472867,
+    "block": "AX-6-COMP-BG-F(34)",
+    "text": "95.880（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 472868,
+    "block": "AX-6-COMP-BG-F(34)",
+    "text": "95.880（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 472869,
+    "block": "AX-6-COMP-BG-F(34)",
+    "text": "95.880（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 472870,
+    "block": "AX-6-COMP-BG-F(34)",
+    "text": "95.880（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 472977,
+    "block": "AX-6-BZC-1",
+    "text": "楼层",
+    "bit_offset": 312
+  },
+  {
+    "handle": 472978,
+    "block": "AX-6-BZC-1",
+    "text": "标高",
+    "bit_offset": 312
+  },
+  {
+    "handle": 472979,
+    "block": "AX-6-BZC-1",
+    "text": "表示标高如下：",
+    "bit_offset": 312
+  },
+  {
+    "handle": 472987,
+    "block": "AX-6-BZC-1",
+    "text": "25F",
+    "bit_offset": 312
+  },
+  {
+    "handle": 472988,
+    "block": "AX-6-BZC-1",
+    "text": "28F",
+    "bit_offset": 312
+  },
+  {
+    "handle": 472989,
+    "block": "AX-6-BZC-1",
+    "text": "31F",
+    "bit_offset": 312
+  },
+  {
+    "handle": 472990,
+    "block": "AX-6-BZC-1",
+    "text": "69.900",
+    "bit_offset": 312
+  },
+  {
+    "handle": 472991,
+    "block": "AX-6-BZC-1",
+    "text": "78.600",
+    "bit_offset": 312
+  },
+  {
+    "handle": 472992,
+    "block": "AX-6-BZC-1",
+    "text": "87.300",
+    "bit_offset": 312
+  },
+  {
+    "handle": 472995,
+    "block": "AX-6-BZC-1",
+    "text": "（25、28、31F）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 472996,
+    "block": "AX-6-BZC-1",
+    "text": "本层建筑面积441.93m^U2^U(其中住宅面积441.93m^U2^U)",
+    "bit_offset": 312
+  },
+  {
+    "handle": 473109,
+    "block": "AX-6-BZC1-1",
+    "text": "楼层",
+    "bit_offset": 312
+  },
+  {
+    "handle": 473110,
+    "block": "AX-6-BZC1-1",
+    "text": "标高",
+    "bit_offset": 312
+  },
+  {
+    "handle": 473111,
+    "block": "AX-6-BZC1-1",
+    "text": "表示标高如下：",
+    "bit_offset": 312
+  },
+  {
+    "handle": 473119,
+    "block": "AX-6-BZC1-1",
+    "text": "24F",
+    "bit_offset": 312
+  },
+  {
+    "handle": 473120,
+    "block": "AX-6-BZC1-1",
+    "text": "27F",
+    "bit_offset": 312
+  },
+  {
+    "handle": 473121,
+    "block": "AX-6-BZC1-1",
+    "text": "30F",
+    "bit_offset": 312
+  },
+  {
+    "handle": 473122,
+    "block": "AX-6-BZC1-1",
+    "text": "67.000",
+    "bit_offset": 312
+  },
+  {
+    "handle": 473123,
+    "block": "AX-6-BZC1-1",
+    "text": "75.700",
+    "bit_offset": 312
+  },
+  {
+    "handle": 473124,
+    "block": "AX-6-BZC1-1",
+    "text": "84.400",
+    "bit_offset": 312
+  },
+  {
+    "handle": 473127,
+    "block": "AX-6-BZC1-1",
+    "text": "（24、27、30F）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 473128,
+    "block": "AX-6-BZC1-1",
+    "text": "本层建筑面积441.93m^U2^U(其中住宅面积441.93m^U2^U)",
+    "bit_offset": 312
+  },
+  {
+    "handle": 473235,
+    "block": "AX-6-BZC3-1",
+    "text": "楼层",
+    "bit_offset": 312
+  },
+  {
+    "handle": 473236,
+    "block": "AX-6-BZC3-1",
+    "text": "标高",
+    "bit_offset": 312
+  },
+  {
+    "handle": 473237,
+    "block": "AX-6-BZC3-1",
+    "text": "表示标高如下：",
+    "bit_offset": 312
+  },
+  {
+    "handle": 473244,
+    "block": "AX-6-BZC3-1",
+    "text": "26F",
+    "bit_offset": 312
+  },
+  {
+    "handle": 473245,
+    "block": "AX-6-BZC3-1",
+    "text": "29F",
+    "bit_offset": 312
+  },
+  {
+    "handle": 473246,
+    "block": "AX-6-BZC3-1",
+    "text": "72.800",
+    "bit_offset": 312
+  },
+  {
+    "handle": 473247,
+    "block": "AX-6-BZC3-1",
+    "text": "81.500",
+    "bit_offset": 312
+  },
+  {
+    "handle": 473250,
+    "block": "AX-6-BZC3-1",
+    "text": "（26、29F）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 473251,
+    "block": "AX-6-BZC3-1",
+    "text": "本层建筑面积441.93m^U2^U(其中住宅面积441.93m^U2^U)",
+    "bit_offset": 312
+  },
+  {
+    "handle": 473621,
+    "block": "AX-6-P13-F(32)",
+    "text": "本层建筑面积441.93m^U2^U(其中住宅面积441.93m^U2^U)",
+    "bit_offset": 312
+  },
+  {
+    "handle": 473777,
+    "block": "AX-6-COMP-BG-F(32)",
+    "text": "90.150（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 473779,
+    "block": "AX-6-COMP-BG-F(32)",
+    "text": "90.150（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 473781,
+    "block": "AX-6-COMP-BG-F(32)",
+    "text": "90.120（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 473783,
+    "block": "AX-6-COMP-BG-F(32)",
+    "text": "90.150（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 473786,
+    "block": "AX-6-COMP-BG-F(32)",
+    "text": "90.080（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 473790,
+    "block": "AX-6-COMP-BG-F(32)",
+    "text": "90.150（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 473795,
+    "block": "AX-6-COMP-BG-F(32)",
+    "text": "90.080（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 473801,
+    "block": "AX-6-COMP-BG-F(32)",
+    "text": "90.080（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 473806,
+    "block": "AX-6-COMP-BG-F(32)",
+    "text": "90.080（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 473810,
+    "block": "AX-6-COMP-BG-F(32)",
+    "text": "90.080（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 473811,
+    "block": "AX-6-COMP-BG-F(32)",
+    "text": "90.080（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 473812,
+    "block": "AX-6-COMP-BG-F(32)",
+    "text": "90.080（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 473813,
+    "block": "AX-6-COMP-BG-F(32)",
+    "text": "90.080（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 473815,
+    "block": "AX-6-COMP-BG-F(32)",
+    "text": "90.180（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 473817,
+    "block": "AX-6-COMP-BG-F(32)",
+    "text": "90.180（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 473820,
+    "block": "AX-6-COMP-BG-F(32)",
+    "text": "88.730（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 473822,
+    "block": "AX-6-COMP-BG-F(32)",
+    "text": "88.730（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 473823,
+    "block": "AX-6-COMP-BG-F(32)",
+    "text": "90.080（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 473824,
+    "block": "AX-6-COMP-BG-F(32)",
+    "text": "90.080（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 473825,
+    "block": "AX-6-COMP-BG-F(32)",
+    "text": "90.080（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 473826,
+    "block": "AX-6-COMP-BG-F(32)",
+    "text": "90.080（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 473827,
+    "block": "AX-6-COMP-BG-F(32)",
+    "text": "90.080（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 473828,
+    "block": "AX-6-COMP-BG-F(32)",
+    "text": "90.080（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 473829,
+    "block": "AX-6-COMP-BG-F(32)",
+    "text": "90.080（结）",
+    "bit_offset": 312
+  },
+  {
+    "handle": 473830,
+    "block": "AX-6-COMP-BG-F(32)",
+    "text": "90.080（结）",
+    "bit_offset": 312
+  }
+]

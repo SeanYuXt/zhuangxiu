@@ -1,0 +1,1148 @@
+{
+  "scope": "230mm radius game proxy, 50mm grid, only scheduled room doors open; cabinet doors retain default state. Not 600mm ergonomic certification",
+  "openedRoomDoors": [
+    "door-front-main",
+    "door-front-secondary",
+    "door-bed1-single",
+    "door-bath1-single",
+    "door-master-single",
+    "door-bath2-single",
+    "door-bed3-single"
+  ],
+  "nodes": 13920,
+  "results": [
+    {
+      "id": "living",
+      "reached": true,
+      "node": [
+        10.5,
+        5.05
+      ],
+      "pathLength": 87,
+      "controllerMaxError": 1.9860273225978185e-15
+    },
+    {
+      "id": "bar",
+      "reached": true,
+      "node": [
+        8.2,
+        2.5
+      ],
+      "pathLength": 104,
+      "controllerMaxError": 1.9860273225978185e-15
+    },
+    {
+      "id": "kitchen",
+      "reached": true,
+      "node": [
+        4.85,
+        3.7
+      ],
+      "pathLength": 91,
+      "controllerMaxError": 1.2560739669470201e-15
+    },
+    {
+      "id": "bed1",
+      "reached": true,
+      "node": [
+        3.0999999999999996,
+        4.8
+      ],
+      "pathLength": 104,
+      "controllerMaxError": 1.2560739669470201e-15
+    },
+    {
+      "id": "bath1",
+      "reached": true,
+      "node": [
+        2.049999999999999,
+        5.9
+      ],
+      "pathLength": 103,
+      "controllerMaxError": 1.2560739669470201e-15
+    },
+    {
+      "id": "master",
+      "reached": true,
+      "node": [
+        14.6,
+        3.4
+      ],
+      "pathLength": 202,
+      "controllerMaxError": 1.9860273225978185e-15
+    },
+    {
+      "id": "bath2",
+      "reached": true,
+      "node": [
+        13.8,
+        2.45
+      ],
+      "pathLength": 205,
+      "controllerMaxError": 1.9860273225978185e-15
+    },
+    {
+      "id": "bed3",
+      "reached": true,
+      "node": [
+        14.6,
+        6
+      ],
+      "pathLength": 152,
+      "controllerMaxError": 1.9860273225978185e-15
+    }
+  ],
+  "skirting": {
+    "height": 0.06,
+    "projection": 0.008,
+    "bottom": 0.008,
+    "floorY": 0.006,
+    "baseSealHeight": 0.002,
+    "finish": "暖灰哑光铝合金踢脚，表贴不凿墙",
+    "constructionVerified": false,
+    "joints": [
+      {
+        "a": "skirting-11-1-2.175",
+        "b": "skirting-29--1-0.000",
+        "point": [
+          14.314,
+          0.844
+        ],
+        "type": "45-degree miter"
+      },
+      {
+        "a": "skirting-21--1-1.925",
+        "b": "skirting-27--1-0.907",
+        "point": [
+          2.614,
+          7.1659999999999995
+        ],
+        "type": "45-degree miter"
+      },
+      {
+        "a": "skirting-5-1-0.000",
+        "b": "skirting-23-1-0.000",
+        "point": [
+          3.6060000000000003,
+          2.474
+        ],
+        "type": "45-degree miter"
+      },
+      {
+        "a": "skirting-29--1-0.000",
+        "b": "skirting-30-1-2.017",
+        "point": [
+          14.314,
+          2.904
+        ],
+        "type": "45-degree miter"
+      },
+      {
+        "a": "skirting-28-1-0.410",
+        "b": "skirting-31-1-0.000",
+        "point": [
+          12.036000000000001,
+          5.614
+        ],
+        "type": "45-degree miter"
+      },
+      {
+        "a": "skirting-11-1-2.175",
+        "b": "skirting-12--1-0.100",
+        "point": [
+          17.134,
+          0.844
+        ],
+        "type": "45-degree miter"
+      },
+      {
+        "a": "skirting-2--1-0.100",
+        "b": "skirting-3--1-0.000",
+        "point": [
+          0.8039999999999999,
+          3.1759999999999997
+        ],
+        "type": "45-degree miter"
+      },
+      {
+        "a": "skirting-4-1-0.100",
+        "b": "skirting-5-1-0.000",
+        "point": [
+          2.846,
+          2.474
+        ],
+        "type": "45-degree miter"
+      },
+      {
+        "a": "skirting-16-1-1.175",
+        "b": "skirting-17-1-0.000",
+        "point": [
+          17.526,
+          4.814
+        ],
+        "type": "45-degree miter"
+      },
+      {
+        "a": "skirting-19--1-0.000",
+        "b": "skirting-20-1-0.000",
+        "point": [
+          17.526,
+          6.406
+        ],
+        "type": "45-degree miter"
+      }
+    ],
+    "endcaps": [
+      {
+        "name": "skirting-2--1-0.100-endcap--1",
+        "point": [
+          0.20079999999999995,
+          3.1759999999999997
+        ],
+        "cutEnd": false
+      },
+      {
+        "name": "skirting-3--1-0.000-endcap-1",
+        "point": [
+          0.8039999999999999,
+          4.77320000691414
+        ],
+        "cutEnd": true
+      },
+      {
+        "name": "skirting-4-1-0.100-endcap--1",
+        "point": [
+          2.846,
+          1.8708
+        ],
+        "cutEnd": false
+      },
+      {
+        "name": "skirting-8--1-1.450-endcap--1",
+        "point": [
+          5.884,
+          1.5507999996125699
+        ],
+        "cutEnd": true
+      },
+      {
+        "name": "skirting-8--1-1.450-endcap-1",
+        "point": [
+          5.884,
+          1.7992000000000001
+        ],
+        "cutEnd": false
+      },
+      {
+        "name": "skirting-12--1-0.100-endcap--1",
+        "point": [
+          17.134,
+          0.2408
+        ],
+        "cutEnd": false
+      },
+      {
+        "name": "skirting-15--1-0.000-endcap--1",
+        "point": [
+          17.6308,
+          3.186
+        ],
+        "cutEnd": false
+      },
+      {
+        "name": "skirting-15--1-0.000-endcap-1",
+        "point": [
+          18.129199999999997,
+          3.186
+        ],
+        "cutEnd": false
+      },
+      {
+        "name": "skirting-16-1-0.000-endcap--1",
+        "point": [
+          17.526,
+          3.2908
+        ],
+        "cutEnd": false
+      },
+      {
+        "name": "skirting-16-1-0.000-endcap-1",
+        "point": [
+          17.526,
+          4.2392
+        ],
+        "cutEnd": false
+      },
+      {
+        "name": "skirting-16-1-1.175-endcap--1",
+        "point": [
+          17.526,
+          4.465800000000001
+        ],
+        "cutEnd": false
+      },
+      {
+        "name": "skirting-17-1-0.000-endcap-1",
+        "point": [
+          18.129199999999997,
+          4.814
+        ],
+        "cutEnd": false
+      },
+      {
+        "name": "skirting-19--1-0.000-endcap-1",
+        "point": [
+          18.129199999999997,
+          6.406
+        ],
+        "cutEnd": false
+      },
+      {
+        "name": "skirting-20-1-0.000-endcap-1",
+        "point": [
+          17.526,
+          7.184200000000001
+        ],
+        "cutEnd": false
+      },
+      {
+        "name": "skirting-21--1-1.925-endcap-1",
+        "point": [
+          3.554200000335276,
+          7.1659999999999995
+        ],
+        "cutEnd": true
+      },
+      {
+        "name": "skirting-21--1-2.905-endcap--1",
+        "point": [
+          3.605799999664723,
+          7.1659999999999995
+        ],
+        "cutEnd": true
+      },
+      {
+        "name": "skirting-21--1-2.905-endcap-1",
+        "point": [
+          4.645200001765787,
+          7.1659999999999995
+        ],
+        "cutEnd": true
+      },
+      {
+        "name": "skirting-21--1-10.690-endcap--1",
+        "point": [
+          11.390800047683715,
+          7.1659999999999995
+        ],
+        "cutEnd": true
+      },
+      {
+        "name": "skirting-21--1-10.690-endcap-1",
+        "point": [
+          13.901200000000092,
+          7.1659999999999995
+        ],
+        "cutEnd": false
+      },
+      {
+        "name": "skirting-21--1-13.327-endcap--1",
+        "point": [
+          14.027800000000092,
+          7.1659999999999995
+        ],
+        "cutEnd": false
+      },
+      {
+        "name": "skirting-21--1-13.327-endcap-1",
+        "point": [
+          17.52620000000008,
+          7.1659999999999995
+        ],
+        "cutEnd": false
+      },
+      {
+        "name": "skirting-22-1-0.000-endcap--1",
+        "point": [
+          2.9508000000000005,
+          2.524
+        ],
+        "cutEnd": false
+      },
+      {
+        "name": "skirting-22-1-0.000-endcap-1",
+        "point": [
+          3.6242000000000005,
+          2.524
+        ],
+        "cutEnd": false
+      },
+      {
+        "name": "skirting-23-1-0.000-endcap-1",
+        "point": [
+          3.6060000000000003,
+          5.394199999999994
+        ],
+        "cutEnd": false
+      },
+      {
+        "name": "skirting-24--1-0.714-endcap--1",
+        "point": [
+          1.4143000003427268,
+          5.386
+        ],
+        "cutEnd": true
+      },
+      {
+        "name": "skirting-24--1-0.714-endcap-1",
+        "point": [
+          2.6122000000000005,
+          5.386
+        ],
+        "cutEnd": true
+      },
+      {
+        "name": "skirting-26--1-2.700-endcap--1",
+        "point": [
+          5.924,
+          4.5008
+        ],
+        "cutEnd": true
+      },
+      {
+        "name": "skirting-26--1-2.700-endcap-1",
+        "point": [
+          5.924,
+          5.3992
+        ],
+        "cutEnd": false
+      },
+      {
+        "name": "skirting-27--1-0.907-endcap--1",
+        "point": [
+          2.614,
+          6.4178
+        ],
+        "cutEnd": true
+      },
+      {
+        "name": "skirting-28--1-2.175-endcap--1",
+        "point": [
+          12.244,
+          2.9157999999999964
+        ],
+        "cutEnd": false
+      },
+      {
+        "name": "skirting-28--1-2.175-endcap-1",
+        "point": [
+          12.244,
+          3.869200024229289
+        ],
+        "cutEnd": true
+      },
+      {
+        "name": "skirting-28--1-4.550-endcap--1",
+        "point": [
+          12.244,
+          5.290799975770712
+        ],
+        "cutEnd": true
+      },
+      {
+        "name": "skirting-28--1-4.550-endcap-1",
+        "point": [
+          12.244,
+          5.4892
+        ],
+        "cutEnd": false
+      },
+      {
+        "name": "skirting-28-1-0.410-endcap--1",
+        "point": [
+          12.036000000000001,
+          1.1508000001043075
+        ],
+        "cutEnd": true
+      },
+      {
+        "name": "skirting-30-1-0.125-endcap--1",
+        "point": [
+          12.2658,
+          2.904
+        ],
+        "cutEnd": false
+      },
+      {
+        "name": "skirting-30-1-0.125-endcap-1",
+        "point": [
+          13.262200000000002,
+          2.904
+        ],
+        "cutEnd": true
+      },
+      {
+        "name": "skirting-30-1-2.017-endcap--1",
+        "point": [
+          14.157800000000002,
+          2.904
+        ],
+        "cutEnd": true
+      },
+      {
+        "name": "skirting-31--1-0.125-endcap--1",
+        "point": [
+          12.265800000000002,
+          5.486
+        ],
+        "cutEnd": false
+      },
+      {
+        "name": "skirting-31--1-0.125-endcap-1",
+        "point": [
+          12.9022,
+          5.486
+        ],
+        "cutEnd": true
+      },
+      {
+        "name": "skirting-31-1-0.000-endcap-1",
+        "point": [
+          12.9022,
+          5.614
+        ],
+        "cutEnd": true
+      },
+      {
+        "name": "skirting-32--1-0.000-endcap--1",
+        "point": [
+          13.9608,
+          4.2459999999999996
+        ],
+        "cutEnd": false
+      },
+      {
+        "name": "skirting-32--1-0.000-endcap-1",
+        "point": [
+          14.319200048071147,
+          4.2459999999999996
+        ],
+        "cutEnd": true
+      },
+      {
+        "name": "skirting-32--1-3.480-endcap--1",
+        "point": [
+          17.440799951928856,
+          4.2459999999999996
+        ],
+        "cutEnd": true
+      },
+      {
+        "name": "skirting-32--1-3.480-endcap-1",
+        "point": [
+          17.534199999999995,
+          4.2459999999999996
+        ],
+        "cutEnd": false
+      },
+      {
+        "name": "skirting-32-1-0.075-endcap--1",
+        "point": [
+          14.035800000000002,
+          4.454
+        ],
+        "cutEnd": false
+      },
+      {
+        "name": "skirting-32-1-0.075-endcap-1",
+        "point": [
+          17.53419999999999,
+          4.454
+        ],
+        "cutEnd": false
+      },
+      {
+        "name": "skirting-33--1-0.125-endcap--1",
+        "point": [
+          14.019,
+          4.4758
+        ],
+        "cutEnd": false
+      },
+      {
+        "name": "skirting-33--1-0.125-endcap-1",
+        "point": [
+          14.019,
+          5.622199999999999
+        ],
+        "cutEnd": true
+      },
+      {
+        "name": "skirting-33--1-2.267-endcap--1",
+        "point": [
+          14.019,
+          6.6178
+        ],
+        "cutEnd": true
+      },
+      {
+        "name": "skirting-33--1-2.267-endcap-1",
+        "point": [
+          14.019,
+          7.191199999999998
+        ],
+        "cutEnd": false
+      },
+      {
+        "name": "skirting-33-1-0.000-endcap--1",
+        "point": [
+          13.901000000000002,
+          4.3508
+        ],
+        "cutEnd": false
+      },
+      {
+        "name": "skirting-33-1-0.000-endcap-1",
+        "point": [
+          13.901000000000002,
+          5.4992
+        ],
+        "cutEnd": false
+      },
+      {
+        "name": "skirting-33-1-2.267-endcap--1",
+        "point": [
+          13.901000000000002,
+          6.6178
+        ],
+        "cutEnd": true
+      },
+      {
+        "name": "skirting-33-1-2.267-endcap-1",
+        "point": [
+          13.901000000000002,
+          7.191199999999998
+        ],
+        "cutEnd": false
+      }
+    ],
+    "cornerStatus": "匹配的直角墙段做45°斜接；独立端头加同色封口，门套旁留2mm安装缝。现场墙面平直度/伸缩缝待复尺。",
+    "segments": [
+      {
+        "wallIndex": 2,
+        "side": -1,
+        "start": 0.1,
+        "end": 0.6,
+        "kind": "finish",
+        "cutEnds": []
+      },
+      {
+        "wallIndex": 3,
+        "side": -1,
+        "start": 0,
+        "end": 1.4940000069141395,
+        "kind": "finish",
+        "cutEnds": [
+          1.4940000069141395,
+          2.1059999930858617
+        ]
+      },
+      {
+        "wallIndex": 4,
+        "side": 1,
+        "start": 0.1,
+        "end": 0.6000000000000001,
+        "kind": "finish",
+        "cutEnds": []
+      },
+      {
+        "wallIndex": 5,
+        "side": 1,
+        "start": 0,
+        "end": 0.6750000000000003,
+        "kind": "finish",
+        "cutEnds": []
+      },
+      {
+        "wallIndex": 8,
+        "side": -1,
+        "start": 1.4499999996125699,
+        "end": 1.7,
+        "kind": "finish",
+        "cutEnds": [
+          0.13000000038743012,
+          1.4499999996125699
+        ]
+      },
+      {
+        "wallIndex": 11,
+        "side": 1,
+        "start": 2.1749999999999963,
+        "end": 4.890000000000001,
+        "kind": "finish",
+        "cutEnds": []
+      },
+      {
+        "wallIndex": 12,
+        "side": -1,
+        "start": 0.1,
+        "end": 0.6,
+        "kind": "finish",
+        "cutEnds": []
+      },
+      {
+        "wallIndex": 15,
+        "side": -1,
+        "start": 0,
+        "end": 0.5000000000000001,
+        "kind": "finish",
+        "cutEnds": []
+      },
+      {
+        "wallIndex": 16,
+        "side": 1,
+        "start": 0,
+        "end": 0.9500000000000005,
+        "kind": "finish",
+        "cutEnds": []
+      },
+      {
+        "wallIndex": 16,
+        "side": 1,
+        "start": 1.1749999999999998,
+        "end": 1.42,
+        "kind": "finish",
+        "cutEnds": []
+      },
+      {
+        "wallIndex": 17,
+        "side": 1,
+        "start": 0,
+        "end": 0.5000000000000001,
+        "kind": "finish",
+        "cutEnds": []
+      },
+      {
+        "wallIndex": 19,
+        "side": -1,
+        "start": 0,
+        "end": 0.5000000000000001,
+        "kind": "finish",
+        "cutEnds": []
+      },
+      {
+        "wallIndex": 20,
+        "side": 1,
+        "start": 0,
+        "end": 0.6750000000000003,
+        "kind": "finish",
+        "cutEnds": []
+      },
+      {
+        "wallIndex": 21,
+        "side": -1,
+        "start": 1.9249999999999972,
+        "end": 2.8550000003352762,
+        "kind": "finish",
+        "cutEnds": [
+          5.583,
+          6.777,
+          3.9460000017657872,
+          5.573999998234212,
+          2.8550000003352762,
+          2.9049999996647236
+        ]
+      },
+      {
+        "wallIndex": 21,
+        "side": -1,
+        "start": 2.9049999996647236,
+        "end": 3.9460000017657872,
+        "kind": "finish",
+        "cutEnds": [
+          5.583,
+          6.777,
+          3.9460000017657872,
+          5.573999998234212,
+          2.8550000003352762,
+          2.9049999996647236
+        ]
+      },
+      {
+        "wallIndex": 21,
+        "side": -1,
+        "start": 10.690000047683716,
+        "end": 13.20200000000009,
+        "kind": "finish",
+        "cutEnds": [
+          5.583,
+          6.777,
+          3.9460000017657872,
+          5.573999998234212,
+          2.8550000003352762,
+          2.9049999996647236,
+          6.777,
+          10.690000047683716
+        ]
+      },
+      {
+        "wallIndex": 21,
+        "side": -1,
+        "start": 13.327000000000092,
+        "end": 16.827000000000083,
+        "kind": "finish",
+        "cutEnds": [
+          5.583,
+          6.777,
+          3.9460000017657872,
+          5.573999998234212,
+          2.8550000003352762,
+          2.9049999996647236,
+          6.777,
+          10.690000047683716
+        ]
+      },
+      {
+        "wallIndex": 22,
+        "side": 1,
+        "start": 0,
+        "end": 0.6750000000000003,
+        "kind": "finish",
+        "cutEnds": []
+      },
+      {
+        "wallIndex": 23,
+        "side": 1,
+        "start": 0,
+        "end": 2.9249999999999936,
+        "kind": "finish",
+        "cutEnds": []
+      },
+      {
+        "wallIndex": 24,
+        "side": -1,
+        "start": 0.7135000003427265,
+        "end": 1.913,
+        "kind": "finish",
+        "cutEnds": [
+          1.913,
+          2.907,
+          0.125,
+          0.7135000003427265
+        ]
+      },
+      {
+        "wallIndex": 26,
+        "side": -1,
+        "start": 2.7,
+        "end": 3.6000000000000005,
+        "kind": "finish",
+        "cutEnds": [
+          1.06,
+          2.7,
+          0.0399999998956917,
+          1.0400000001043077
+        ]
+      },
+      {
+        "wallIndex": 27,
+        "side": -1,
+        "start": 0.907,
+        "end": 1.6600000000000001,
+        "kind": "finish",
+        "cutEnds": [
+          0.053000000000000005,
+          0.907
+        ]
+      },
+      {
+        "wallIndex": 28,
+        "side": -1,
+        "start": 2.1749999999999963,
+        "end": 3.1300000242292887,
+        "kind": "finish",
+        "cutEnds": [
+          3.1300000242292887,
+          4.549999975770712
+        ]
+      },
+      {
+        "wallIndex": 28,
+        "side": -1,
+        "start": 4.549999975770712,
+        "end": 4.75,
+        "kind": "finish",
+        "cutEnds": [
+          3.1300000242292887,
+          4.549999975770712
+        ]
+      },
+      {
+        "wallIndex": 28,
+        "side": 1,
+        "start": 0.41000000010430804,
+        "end": 4.81,
+        "kind": "finish",
+        "cutEnds": [
+          0,
+          0.41000000010430804
+        ]
+      },
+      {
+        "wallIndex": 29,
+        "side": -1,
+        "start": 0,
+        "end": 2.0100000000000002,
+        "kind": "finish",
+        "cutEnds": []
+      },
+      {
+        "wallIndex": 30,
+        "side": 1,
+        "start": 0.125,
+        "end": 1.123,
+        "kind": "finish",
+        "cutEnds": [
+          1.123,
+          2.017
+        ]
+      },
+      {
+        "wallIndex": 30,
+        "side": 1,
+        "start": 2.017,
+        "end": 2.119999999999999,
+        "kind": "finish",
+        "cutEnds": [
+          1.123,
+          2.017
+        ]
+      },
+      {
+        "wallIndex": 31,
+        "side": -1,
+        "start": 0.125,
+        "end": 0.763,
+        "kind": "finish",
+        "cutEnds": [
+          0.763,
+          1.767
+        ]
+      },
+      {
+        "wallIndex": 31,
+        "side": 1,
+        "start": 0,
+        "end": 0.763,
+        "kind": "finish",
+        "cutEnds": [
+          0.763,
+          1.767
+        ]
+      },
+      {
+        "wallIndex": 32,
+        "side": -1,
+        "start": 0,
+        "end": 0.3600000480711463,
+        "kind": "finish",
+        "cutEnds": [
+          0.3600000480711463,
+          3.479999951928855
+        ]
+      },
+      {
+        "wallIndex": 32,
+        "side": -1,
+        "start": 3.479999951928855,
+        "end": 3.5749999999999913,
+        "kind": "finish",
+        "cutEnds": [
+          0.3600000480711463,
+          3.479999951928855
+        ]
+      },
+      {
+        "wallIndex": 32,
+        "side": 1,
+        "start": 0.07500000000000001,
+        "end": 3.5749999999999913,
+        "kind": "finish",
+        "cutEnds": []
+      },
+      {
+        "wallIndex": 33,
+        "side": -1,
+        "start": 0.125,
+        "end": 1.2730000000000001,
+        "kind": "finish",
+        "cutEnds": [
+          1.2730000000000001,
+          2.2670000000000003
+        ]
+      },
+      {
+        "wallIndex": 33,
+        "side": -1,
+        "start": 2.2670000000000003,
+        "end": 2.8419999999999983,
+        "kind": "finish",
+        "cutEnds": [
+          1.2730000000000001,
+          2.2670000000000003
+        ]
+      },
+      {
+        "wallIndex": 33,
+        "side": 1,
+        "start": 0,
+        "end": 1.15,
+        "kind": "finish",
+        "cutEnds": [
+          1.2730000000000001,
+          2.2670000000000003
+        ]
+      },
+      {
+        "wallIndex": 33,
+        "side": 1,
+        "start": 2.2670000000000003,
+        "end": 2.8419999999999983,
+        "kind": "finish",
+        "cutEnds": [
+          1.2730000000000001,
+          2.2670000000000003
+        ]
+      }
+    ],
+    "cabinetCutbacks": [
+      {
+        "wallIndex": 3,
+        "side": -1,
+        "cabinet": "bed1-wardrobe",
+        "start": 1.4940000069141395,
+        "end": 2.1059999930858617
+      },
+      {
+        "wallIndex": 8,
+        "side": -1,
+        "cabinet": "balcony-care-cabinet",
+        "start": 0.13000000038743012,
+        "end": 1.4499999996125699
+      },
+      {
+        "wallIndex": 21,
+        "side": -1,
+        "cabinet": "flush-entry-cabinet",
+        "start": 3.9460000017657872,
+        "end": 5.573999998234212
+      },
+      {
+        "wallIndex": 21,
+        "side": -1,
+        "cabinet": "dry-waterproof-side",
+        "start": 2.8550000003352762,
+        "end": 2.9049999996647236
+      },
+      {
+        "wallIndex": 21,
+        "side": -1,
+        "cabinet": "flush-sideboard",
+        "start": 6.777,
+        "end": 10.690000047683716
+      },
+      {
+        "wallIndex": 24,
+        "side": -1,
+        "cabinet": "bed1-wardrobe",
+        "start": 0.125,
+        "end": 0.7135000003427265
+      },
+      {
+        "wallIndex": 26,
+        "side": -1,
+        "cabinet": "integrated-fridge",
+        "start": 0.0399999998956917,
+        "end": 1.0400000001043077
+      },
+      {
+        "wallIndex": 28,
+        "side": -1,
+        "cabinet": "master-entry-wardrobe",
+        "start": 3.1300000242292887,
+        "end": 4.549999975770712
+      },
+      {
+        "wallIndex": 28,
+        "side": 1,
+        "cabinet": "balcony-laundry-cabinet",
+        "start": 0,
+        "end": 0.41000000010430804
+      },
+      {
+        "wallIndex": 32,
+        "side": -1,
+        "cabinet": "master-wardrobe",
+        "start": 0.3600000480711463,
+        "end": 3.479999951928855
+      }
+    ]
+  },
+  "colliders": 2182,
+  "sample": [
+    {
+      "name": "bed1-bed",
+      "userData": {
+        "mattress": [
+          1.5,
+          2
+        ],
+        "frame": [
+          1.54,
+          2.06
+        ],
+        "headboard": "30mm padded panel",
+        "storage": "forward-translating lift; no projecting drawers",
+        "maxLiftTranslation": 0.1512966014340099,
+        "productVerified": false,
+        "mechanismVerified": false
+      }
+    },
+    {
+      "name": "bed3-bed",
+      "userData": {
+        "mattress": [
+          1.2,
+          2
+        ],
+        "frame": [
+          1.26,
+          2.05
+        ],
+        "headboard": "30mm padded panel",
+        "storage": "forward-translating lift; no projecting drawers",
+        "maxLiftTranslation": 0.1512966014340099,
+        "productVerified": false,
+        "mechanismVerified": false
+      }
+    },
+    {
+      "name": "master-bed",
+      "userData": {
+        "name": "master-bed",
+        "designCandidate": true,
+        "mattress": [
+          1.8,
+          2
+        ],
+        "bedFrame": [
+          1.9,
+          2.05
+        ],
+        "headboardDepth": 0.08,
+        "totalDepth": 2.13,
+        "productVerified": false
+      }
+    }
+  ]
+}

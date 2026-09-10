@@ -1,0 +1,543 @@
+{
+  "before": [
+    132,
+    6
+  ],
+  "after": [
+    132,
+    6
+  ],
+  "counts": {
+    "whole-home-skirting": 1,
+    "whole-home-door-casings": 1
+  },
+  "casings": [
+    {
+      "wallIndex": 21,
+      "opening": "front",
+      "width": 0.045,
+      "projection": 0.012,
+      "openingHeight": 2.2,
+      "floorY": 0.006,
+      "baseJoint": 0.002,
+      "clearOpeningUnchanged": true,
+      "material": "painted moisture-resistant casing",
+      "installationVerified": false,
+      "sides": [
+        -1
+      ]
+    },
+    {
+      "wallIndex": 24,
+      "opening": "bed1",
+      "width": 0.045,
+      "projection": 0.012,
+      "openingHeight": 2.2,
+      "floorY": 0.006,
+      "baseJoint": 0.002,
+      "clearOpeningUnchanged": true,
+      "material": "painted moisture-resistant casing",
+      "installationVerified": false,
+      "sides": [
+        -1,
+        1
+      ]
+    },
+    {
+      "wallIndex": 27,
+      "opening": "bath1",
+      "width": 0.045,
+      "projection": 0.012,
+      "openingHeight": 2.2,
+      "floorY": 0.006,
+      "baseJoint": 0.002,
+      "clearOpeningUnchanged": true,
+      "material": "warm grey aluminum",
+      "installationVerified": false,
+      "sides": [
+        -1,
+        1
+      ]
+    },
+    {
+      "wallIndex": 30,
+      "opening": "bath2",
+      "width": 0.045,
+      "projection": 0.012,
+      "openingHeight": 2.2,
+      "floorY": 0.006,
+      "baseJoint": 0.002,
+      "clearOpeningUnchanged": true,
+      "material": "warm grey aluminum",
+      "installationVerified": false,
+      "sides": [
+        -1,
+        1
+      ]
+    },
+    {
+      "wallIndex": 31,
+      "opening": "master",
+      "width": 0.045,
+      "projection": 0.012,
+      "openingHeight": 2.2,
+      "floorY": 0.006,
+      "baseJoint": 0.002,
+      "clearOpeningUnchanged": true,
+      "material": "painted moisture-resistant casing",
+      "installationVerified": false,
+      "sides": [
+        -1,
+        1
+      ]
+    },
+    {
+      "wallIndex": 33,
+      "opening": "bed3",
+      "width": 0.045,
+      "projection": 0.012,
+      "openingHeight": 2.2,
+      "floorY": 0.006,
+      "baseJoint": 0.002,
+      "clearOpeningUnchanged": true,
+      "material": "painted moisture-resistant casing",
+      "installationVerified": false,
+      "sides": [
+        -1,
+        1
+      ]
+    }
+  ],
+  "segments": 38,
+  "joints": [
+    {
+      "a": "skirting-11-1-2.175",
+      "b": "skirting-29--1-0.000",
+      "point": [
+        14.314,
+        0.844
+      ],
+      "type": "45-degree miter"
+    },
+    {
+      "a": "skirting-21--1-1.925",
+      "b": "skirting-27--1-0.907",
+      "point": [
+        2.614,
+        7.1659999999999995
+      ],
+      "type": "45-degree miter"
+    },
+    {
+      "a": "skirting-5-1-0.000",
+      "b": "skirting-23-1-0.000",
+      "point": [
+        3.6060000000000003,
+        2.474
+      ],
+      "type": "45-degree miter"
+    },
+    {
+      "a": "skirting-29--1-0.000",
+      "b": "skirting-30-1-2.017",
+      "point": [
+        14.314,
+        2.904
+      ],
+      "type": "45-degree miter"
+    },
+    {
+      "a": "skirting-28-1-0.410",
+      "b": "skirting-31-1-0.000",
+      "point": [
+        12.036000000000001,
+        5.614
+      ],
+      "type": "45-degree miter"
+    },
+    {
+      "a": "skirting-11-1-2.175",
+      "b": "skirting-12--1-0.100",
+      "point": [
+        17.134,
+        0.844
+      ],
+      "type": "45-degree miter"
+    },
+    {
+      "a": "skirting-2--1-0.100",
+      "b": "skirting-3--1-0.000",
+      "point": [
+        0.8039999999999999,
+        3.1759999999999997
+      ],
+      "type": "45-degree miter"
+    },
+    {
+      "a": "skirting-4-1-0.100",
+      "b": "skirting-5-1-0.000",
+      "point": [
+        2.846,
+        2.474
+      ],
+      "type": "45-degree miter"
+    },
+    {
+      "a": "skirting-16-1-1.175",
+      "b": "skirting-17-1-0.000",
+      "point": [
+        17.526,
+        4.814
+      ],
+      "type": "45-degree miter"
+    },
+    {
+      "a": "skirting-19--1-0.000",
+      "b": "skirting-20-1-0.000",
+      "point": [
+        17.526,
+        6.406
+      ],
+      "type": "45-degree miter"
+    }
+  ],
+  "endcaps": 56,
+  "cabinetHits": [],
+  "doorHits": [],
+  "doorCount": 7,
+  "invalid": [],
+  "contact": [
+    {
+      "name": "skirting-2--1-0.100-floor-seal",
+      "bottom": 0.006000000052154064,
+      "top": 0.00800000037997961
+    },
+    {
+      "name": "skirting-3--1-0.000-floor-seal",
+      "bottom": 0.006000000052154064,
+      "top": 0.00800000037997961
+    },
+    {
+      "name": "skirting-4-1-0.100-floor-seal",
+      "bottom": 0.006000000052154064,
+      "top": 0.00800000037997961
+    },
+    {
+      "name": "skirting-5-1-0.000-floor-seal",
+      "bottom": 0.006000000052154064,
+      "top": 0.00800000037997961
+    },
+    {
+      "name": "skirting-8--1-1.450-floor-seal",
+      "bottom": 0.006000000052154064,
+      "top": 0.00800000037997961
+    },
+    {
+      "name": "skirting-11-1-2.175-floor-seal",
+      "bottom": 0.006000000052154064,
+      "top": 0.00800000037997961
+    },
+    {
+      "name": "skirting-12--1-0.100-floor-seal",
+      "bottom": 0.006000000052154064,
+      "top": 0.00800000037997961
+    },
+    {
+      "name": "skirting-15--1-0.000-floor-seal",
+      "bottom": 0.006000000052154064,
+      "top": 0.00800000037997961
+    },
+    {
+      "name": "skirting-16-1-0.000-floor-seal",
+      "bottom": 0.006000000052154064,
+      "top": 0.00800000037997961
+    },
+    {
+      "name": "skirting-16-1-1.175-floor-seal",
+      "bottom": 0.006000000052154064,
+      "top": 0.00800000037997961
+    },
+    {
+      "name": "skirting-17-1-0.000-floor-seal",
+      "bottom": 0.006000000052154064,
+      "top": 0.00800000037997961
+    },
+    {
+      "name": "skirting-19--1-0.000-floor-seal",
+      "bottom": 0.006000000052154064,
+      "top": 0.00800000037997961
+    },
+    {
+      "name": "skirting-20-1-0.000-floor-seal",
+      "bottom": 0.006000000052154064,
+      "top": 0.00800000037997961
+    },
+    {
+      "name": "skirting-21--1-1.925-floor-seal",
+      "bottom": 0.006000000052154064,
+      "top": 0.00800000037997961
+    },
+    {
+      "name": "skirting-21--1-2.905-floor-seal",
+      "bottom": 0.006000000052154064,
+      "top": 0.00800000037997961
+    },
+    {
+      "name": "skirting-21--1-10.690-floor-seal",
+      "bottom": 0.006000000052154064,
+      "top": 0.00800000037997961
+    },
+    {
+      "name": "skirting-21--1-13.327-floor-seal",
+      "bottom": 0.006000000052154064,
+      "top": 0.00800000037997961
+    },
+    {
+      "name": "skirting-22-1-0.000-floor-seal",
+      "bottom": 0.006000000052154064,
+      "top": 0.00800000037997961
+    },
+    {
+      "name": "skirting-23-1-0.000-floor-seal",
+      "bottom": 0.006000000052154064,
+      "top": 0.00800000037997961
+    },
+    {
+      "name": "skirting-24--1-0.714-floor-seal",
+      "bottom": 0.006000000052154064,
+      "top": 0.00800000037997961
+    },
+    {
+      "name": "skirting-26--1-0.000-floor-seal",
+      "bottom": 0.006000000052154064,
+      "top": 0.00800000037997961
+    },
+    {
+      "name": "skirting-26--1-2.700-floor-seal",
+      "bottom": 0.006000000052154064,
+      "top": 0.00800000037997961
+    },
+    {
+      "name": "skirting-27--1-0.907-floor-seal",
+      "bottom": 0.006000000052154064,
+      "top": 0.00800000037997961
+    },
+    {
+      "name": "skirting-28--1-2.175-floor-seal",
+      "bottom": 0.006000000052154064,
+      "top": 0.00800000037997961
+    },
+    {
+      "name": "skirting-28--1-4.550-floor-seal",
+      "bottom": 0.006000000052154064,
+      "top": 0.00800000037997961
+    },
+    {
+      "name": "skirting-28-1-0.410-floor-seal",
+      "bottom": 0.006000000052154064,
+      "top": 0.00800000037997961
+    },
+    {
+      "name": "skirting-29--1-0.000-floor-seal",
+      "bottom": 0.006000000052154064,
+      "top": 0.00800000037997961
+    },
+    {
+      "name": "skirting-30-1-0.125-floor-seal",
+      "bottom": 0.006000000052154064,
+      "top": 0.00800000037997961
+    },
+    {
+      "name": "skirting-30-1-2.017-floor-seal",
+      "bottom": 0.006000000052154064,
+      "top": 0.00800000037997961
+    },
+    {
+      "name": "skirting-31--1-0.125-floor-seal",
+      "bottom": 0.006000000052154064,
+      "top": 0.00800000037997961
+    },
+    {
+      "name": "skirting-31-1-0.000-floor-seal",
+      "bottom": 0.006000000052154064,
+      "top": 0.00800000037997961
+    },
+    {
+      "name": "skirting-32--1-0.000-floor-seal",
+      "bottom": 0.006000000052154064,
+      "top": 0.00800000037997961
+    },
+    {
+      "name": "skirting-32--1-3.480-floor-seal",
+      "bottom": 0.006000000052154064,
+      "top": 0.00800000037997961
+    },
+    {
+      "name": "skirting-32-1-0.075-floor-seal",
+      "bottom": 0.006000000052154064,
+      "top": 0.00800000037997961
+    },
+    {
+      "name": "skirting-33--1-0.125-floor-seal",
+      "bottom": 0.006000000052154064,
+      "top": 0.00800000037997961
+    },
+    {
+      "name": "skirting-33--1-2.267-floor-seal",
+      "bottom": 0.006000000052154064,
+      "top": 0.00800000037997961
+    },
+    {
+      "name": "skirting-33-1-0.000-floor-seal",
+      "bottom": 0.006000000052154064,
+      "top": 0.00800000037997961
+    },
+    {
+      "name": "skirting-33-1-2.267-floor-seal",
+      "bottom": 0.006000000052154064,
+      "top": 0.00800000037997961
+    },
+    {
+      "name": "casing-front--1-foot-seal--1",
+      "bottom": 0.005999999952502549,
+      "top": 0.00800000004749745
+    },
+    {
+      "name": "casing-front--1-foot-seal-1",
+      "bottom": 0.005999999952502549,
+      "top": 0.00800000004749745
+    },
+    {
+      "name": "casing-bed1--1-foot-seal--1",
+      "bottom": 0.005999999952502549,
+      "top": 0.00800000004749745
+    },
+    {
+      "name": "casing-bed1--1-foot-seal-1",
+      "bottom": 0.005999999952502549,
+      "top": 0.00800000004749745
+    },
+    {
+      "name": "casing-bed1-1-foot-seal--1",
+      "bottom": 0.005999999952502549,
+      "top": 0.00800000004749745
+    },
+    {
+      "name": "casing-bed1-1-foot-seal-1",
+      "bottom": 0.005999999952502549,
+      "top": 0.00800000004749745
+    },
+    {
+      "name": "casing-bath1--1-foot-seal--1",
+      "bottom": 0.005999999952502549,
+      "top": 0.00800000004749745
+    },
+    {
+      "name": "casing-bath1--1-foot-seal-1",
+      "bottom": 0.005999999952502549,
+      "top": 0.00800000004749745
+    },
+    {
+      "name": "casing-bath1-1-foot-seal--1",
+      "bottom": 0.005999999952502549,
+      "top": 0.00800000004749745
+    },
+    {
+      "name": "casing-bath1-1-foot-seal-1",
+      "bottom": 0.005999999952502549,
+      "top": 0.00800000004749745
+    },
+    {
+      "name": "casing-bath2--1-foot-seal--1",
+      "bottom": 0.005999999952502549,
+      "top": 0.00800000004749745
+    },
+    {
+      "name": "casing-bath2--1-foot-seal-1",
+      "bottom": 0.005999999952502549,
+      "top": 0.00800000004749745
+    },
+    {
+      "name": "casing-bath2-1-foot-seal--1",
+      "bottom": 0.005999999952502549,
+      "top": 0.00800000004749745
+    },
+    {
+      "name": "casing-bath2-1-foot-seal-1",
+      "bottom": 0.005999999952502549,
+      "top": 0.00800000004749745
+    },
+    {
+      "name": "casing-master--1-foot-seal--1",
+      "bottom": 0.005999999952502549,
+      "top": 0.00800000004749745
+    },
+    {
+      "name": "casing-master--1-foot-seal-1",
+      "bottom": 0.005999999952502549,
+      "top": 0.00800000004749745
+    },
+    {
+      "name": "casing-master-1-foot-seal--1",
+      "bottom": 0.005999999952502549,
+      "top": 0.00800000004749745
+    },
+    {
+      "name": "casing-master-1-foot-seal-1",
+      "bottom": 0.005999999952502549,
+      "top": 0.00800000004749745
+    },
+    {
+      "name": "casing-bed3--1-foot-seal--1",
+      "bottom": 0.005999999952502549,
+      "top": 0.00800000004749745
+    },
+    {
+      "name": "casing-bed3--1-foot-seal-1",
+      "bottom": 0.005999999952502549,
+      "top": 0.00800000004749745
+    },
+    {
+      "name": "casing-bed3-1-foot-seal--1",
+      "bottom": 0.005999999952502549,
+      "top": 0.00800000004749745
+    },
+    {
+      "name": "casing-bed3-1-foot-seal-1",
+      "bottom": 0.005999999952502549,
+      "top": 0.00800000004749745
+    }
+  ],
+  "contactErrors": [],
+  "detailChecks": [
+    {
+      "object": "door-casing-front",
+      "visible": true
+    },
+    {
+      "object": "door-casing-bed1",
+      "visible": true
+    },
+    {
+      "object": "door-casing-bath1",
+      "visible": true
+    },
+    {
+      "object": "door-casing-master",
+      "visible": true
+    },
+    {
+      "object": "door-casing-bath2",
+      "visible": true
+    },
+    {
+      "object": "door-casing-bed3",
+      "visible": true
+    },
+    {
+      "object": "skirting-21--1-1.925",
+      "visible": true
+    }
+  ],
+  "errors": []
+}

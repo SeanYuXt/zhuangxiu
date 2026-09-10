@@ -1,0 +1,1082 @@
+{
+  "revision": "six-seat-long-side-20260906",
+  "objects": [
+    {
+      "name": "retained-balcony-column",
+      "min": [
+        8.780000005298191,
+        1.4305114648394124e-8,
+        1.3750000059604646
+      ],
+      "max": [
+        9.17999999470181,
+        2.799999976158142,
+        1.8380000000260772
+      ],
+      "size": [
+        0.3999999894036179,
+        2.799999961853027,
+        0.46299999406561265
+      ]
+    },
+    {
+      "name": "linen-sofa",
+      "min": [
+        8.969999986886979,
+        0.08000000000000002,
+        3.00000000203242
+      ],
+      "max": [
+        9.880000013113023,
+        0.882525646771831,
+        5.599999997967579
+      ],
+      "size": [
+        0.9100000262260437,
+        0.8025256467718309,
+        2.599999995935159
+      ]
+    },
+    {
+      "name": "stone-island",
+      "min": [
+        7.020000011920929,
+        0.009999999254941938,
+        3.1500000238418577
+      ],
+      "max": [
+        7.919999988079071,
+        0.9955000011920928,
+        4.949999976158142
+      ],
+      "size": [
+        0.8999999761581421,
+        0.9855000019371509,
+        1.7999999523162842
+      ]
+    },
+    {
+      "name": "slim-coffee-table",
+      "min": [
+        10.330000001192094,
+        0.06999999999999995,
+        3.9100000143051146
+      ],
+      "max": [
+        10.769999998807908,
+        0.41700000004749743,
+        4.689999985694885
+      ],
+      "size": [
+        0.4399999976158142,
+        0.3470000000474975,
+        0.7799999713897705
+      ]
+    },
+    {
+      "name": "balcony-laundry-cabinet",
+      "min": [
+        11.268499998509885,
+        0.020000000447034837,
+        0.23999999989569173
+      ],
+      "max": [
+        12.020000014305115,
+        2.7700000095367434,
+        1.140000000104308
+      ],
+      "size": [
+        0.7515000157952301,
+        2.7500000090897085,
+        0.9000000002086163
+      ]
+    },
+    {
+      "name": "balcony-care-cabinet",
+      "min": [
+        5.899999988079071,
+        6.437301636186277e-9,
+        0.24000000038743013
+      ],
+      "max": [
+        6.50499999961257,
+        2.1900000083446503,
+        1.53999999961257
+      ],
+      "size": [
+        0.605000011533499,
+        2.1900000019073484,
+        1.2999999992251399
+      ]
+    },
+    {
+      "name": "bar-service-cover",
+      "min": [
+        8.759999999973923,
+        2.3841857821338408e-8,
+        1.359999999973923
+      ],
+      "max": [
+        9.200000000026078,
+        2.799999976158142,
+        1.8600000000260772
+      ],
+      "size": [
+        0.4400000000521551,
+        2.799999952316284,
+        0.5000000000521543
+      ]
+    },
+    {
+      "name": "laundry-washer",
+      "min": [
+        11.31599999962002,
+        0.06499999999999993,
+        0.27599998807907095
+      ],
+      "max": [
+        11.999999997615815,
+        0.9049999737739565,
+        0.876000011920929
+      ],
+      "size": [
+        0.6839999979957945,
+        0.8399999737739565,
+        0.6000000238418581
+      ]
+    },
+    {
+      "name": "tv-low-console",
+      "min": [
+        11.480000000387431,
+        0.17599999997392296,
+        2.010000023841858
+      ],
+      "max": [
+        11.869999997615816,
+        0.47799999961256984,
+        5.309999976158142
+      ],
+      "size": [
+        0.38999999722838474,
+        0.3019999996386469,
+        3.299999952316284
+      ]
+    },
+    {
+      "name": "flush-sideboard",
+      "min": [
+        7.479999952316284,
+        8.940696724635266e-10,
+        6.5949999880790715
+      ],
+      "max": [
+        11.380000047683716,
+        2.7700000286102293,
+        7.195000011920929
+      ],
+      "size": [
+        3.9000000953674316,
+        2.7700000277161596,
+        0.6000000238418579
+      ]
+    },
+    {
+      "name": "integrated-fridge",
+      "min": [
+        5.849999997615814,
+        0.07999997138977055,
+        1.8499999998956917
+      ],
+      "max": [
+        6.493,
+        2.7700000286102293,
+        2.8300000001043077
+      ],
+      "size": [
+        0.643000002384186,
+        2.690000057220459,
+        0.980000000208616
+      ]
+    },
+    {
+      "name": "master-air-conditioner",
+      "min": [
+        14.309999998509884,
+        2.1799999940395356,
+        1.759999999895692
+      ],
+      "max": [
+        15.490084069535607,
+        2.4800000059604645,
+        2.7000000001043083
+      ],
+      "size": [
+        1.180084071025723,
+        0.30000001192092896,
+        0.9400000002086164
+      ]
+    },
+    {
+      "name": "master-bed",
+      "min": [
+        14.494999996423722,
+        0.0059999999869614845,
+        0.8700000013411044
+      ],
+      "max": [
+        17.345000003576278,
+        1.1500000262260437,
+        3.0325000013541428
+      ],
+      "size": [
+        2.8500000071525555,
+        1.1440000262390821,
+        2.162500000013038
+      ]
+    },
+    {
+      "name": "lake-bar-left",
+      "min": [
+        7.460000023841859,
+        0.8950000002980231,
+        1.3299999988079072
+      ],
+      "max": [
+        8.759999976158143,
+        0.9500000000000001,
+        1.890000001192093
+      ],
+      "size": [
+        1.2999999523162842,
+        0.054999999701977,
+        0.5600000023841858
+      ]
+    },
+    {
+      "name": "lake-bar-right",
+      "min": [
+        9.200000023841858,
+        0.8950000002980231,
+        1.3299999988079072
+      ],
+      "max": [
+        10.499999976158142,
+        0.9500000000000001,
+        1.890000001192093
+      ],
+      "size": [
+        1.2999999523162842,
+        0.054999999701977,
+        0.5600000023841858
+      ]
+    }
+  ],
+  "seats": [
+    {
+      "wing": "lake-bar-left",
+      "visible": true,
+      "min": [
+        7.5725,
+        0.018403986327702127,
+        1.7750000000000001
+      ],
+      "max": [
+        7.9975000000000005,
+        0.8600000035762787,
+        2.1950000000000003
+      ],
+      "name": "bar-0",
+      "kind": "bar"
+    },
+    {
+      "wing": "lake-bar-left",
+      "visible": true,
+      "min": [
+        8.2225,
+        0.018403986327702127,
+        1.7750000000000001
+      ],
+      "max": [
+        8.6475,
+        0.8600000035762787,
+        2.1950000000000003
+      ],
+      "name": "bar-1",
+      "kind": "bar"
+    },
+    {
+      "wing": "lake-bar-right",
+      "visible": true,
+      "min": [
+        9.3125,
+        0.018403986327702127,
+        1.7750000000000001
+      ],
+      "max": [
+        9.7375,
+        0.8600000035762787,
+        2.1950000000000003
+      ],
+      "name": "bar-2",
+      "kind": "bar"
+    },
+    {
+      "wing": "lake-bar-right",
+      "visible": true,
+      "min": [
+        9.962499999999999,
+        0.018403986327702127,
+        1.7750000000000001
+      ],
+      "max": [
+        10.3875,
+        0.8600000035762787,
+        2.1950000000000003
+      ],
+      "name": "bar-3",
+      "kind": "bar"
+    },
+    {
+      "name": "dining-daily-seat-0",
+      "min": [
+        7.81,
+        0.01840398632770207,
+        3.4075
+      ],
+      "max": [
+        8.23,
+        0.8600000035762787,
+        3.8325
+      ],
+      "size": [
+        0.4200000000000008,
+        0.8415960172485766,
+        0.4249999999999998
+      ],
+      "kind": "dining",
+      "index": 0
+    },
+    {
+      "name": "dining-daily-seat-1",
+      "min": [
+        7.81,
+        0.018403986327702127,
+        4.2675
+      ],
+      "max": [
+        8.23,
+        0.8600000035762787,
+        4.692500000000001
+      ],
+      "size": [
+        0.4200000000000008,
+        0.8415960172485766,
+        0.4250000000000007
+      ],
+      "kind": "dining",
+      "index": 1
+    }
+  ],
+  "carcass": {
+    "name": "island-storage-carcass",
+    "min": [
+      7.049999995231628,
+      0.10000000476837156,
+      3.45000000038743
+    ],
+    "max": [
+      7.5400000047683715,
+      0.8599999952316284,
+      4.64999999961257
+    ],
+    "size": [
+      0.49000000953674316,
+      0.7599999904632568,
+      1.19999999922514
+    ]
+  },
+  "settings": {
+    "name": "dining-table-settings",
+    "min": [
+      7.440000002384186,
+      0.8999999999869615,
+      3.309999997615814
+    ],
+    "max": [
+      7.819999997615814,
+      0.9955000011920928,
+      4.790000002384185
+    ],
+    "size": [
+      0.3799999952316284,
+      0.09550000120513136,
+      1.4800000047683715
+    ]
+  },
+  "acDirection": [
+    1,
+    0,
+    2.220446049250313e-16
+  ],
+  "allPulledSeatAccess": [
+    {
+      "seat": "bar-0",
+      "reached": true,
+      "startFree": true,
+      "visited": 19824,
+      "candidateCount": 1,
+      "reachableCount": 1,
+      "example": [
+        7.785,
+        2.4350000000000005
+      ]
+    },
+    {
+      "seat": "bar-1",
+      "reached": false,
+      "startFree": true,
+      "visited": 19103,
+      "candidateCount": 1,
+      "reachableCount": 0,
+      "example": null
+    },
+    {
+      "seat": "bar-2",
+      "reached": false,
+      "startFree": true,
+      "visited": 19103,
+      "candidateCount": 1,
+      "reachableCount": 0,
+      "example": null
+    },
+    {
+      "seat": "bar-3",
+      "reached": true,
+      "startFree": true,
+      "visited": 19987,
+      "candidateCount": 1,
+      "reachableCount": 1,
+      "example": [
+        10.174999999999999,
+        2.4350000000000005
+      ]
+    },
+    {
+      "seat": "dining-daily-seat-0",
+      "reached": false,
+      "startFree": true,
+      "visited": 19103,
+      "candidateCount": 1,
+      "reachableCount": 0,
+      "example": null
+    },
+    {
+      "seat": "dining-daily-seat-1",
+      "reached": true,
+      "startFree": true,
+      "visited": 19735,
+      "candidateCount": 1,
+      "reachableCount": 1,
+      "example": [
+        8.469999999999999,
+        4.48
+      ]
+    }
+  ],
+  "seatAccess": [
+    {
+      "seat": "bar-0",
+      "reached": true,
+      "startFree": true,
+      "visited": 20881,
+      "candidateCount": 1,
+      "reachableCount": 1,
+      "example": [
+        7.785,
+        2.4350000000000005
+      ]
+    },
+    {
+      "seat": "bar-1",
+      "reached": true,
+      "startFree": true,
+      "visited": 20809,
+      "candidateCount": 1,
+      "reachableCount": 1,
+      "example": [
+        8.435,
+        2.4350000000000005
+      ]
+    },
+    {
+      "seat": "bar-2",
+      "reached": true,
+      "startFree": true,
+      "visited": 20809,
+      "candidateCount": 1,
+      "reachableCount": 1,
+      "example": [
+        9.525,
+        2.4350000000000005
+      ]
+    },
+    {
+      "seat": "bar-3",
+      "reached": true,
+      "startFree": true,
+      "visited": 20881,
+      "candidateCount": 1,
+      "reachableCount": 1,
+      "example": [
+        10.174999999999999,
+        2.4350000000000005
+      ]
+    },
+    {
+      "seat": "dining-daily-seat-0",
+      "reached": true,
+      "startFree": true,
+      "visited": 20994,
+      "candidateCount": 1,
+      "reachableCount": 1,
+      "example": [
+        8.469999999999999,
+        3.62
+      ]
+    },
+    {
+      "seat": "dining-daily-seat-1",
+      "reached": true,
+      "startFree": true,
+      "visited": 20994,
+      "candidateCount": 1,
+      "reachableCount": 1,
+      "example": [
+        8.469999999999999,
+        4.48
+      ]
+    }
+  ],
+  "clearancesMm": {
+    "rightWingToLaundry": 769,
+    "leftWingToFridge": 967,
+    "islandToSofa": 1050,
+    "barToSofa": 1110,
+    "sofaToSideboard": 995
+  },
+  "care": {
+    "standingProxy": {
+      "name": "basin-standing-proxy",
+      "x1": 6.65,
+      "x2": 7.25,
+      "z1": 0.24,
+      "z2": 0.89
+    },
+    "collisions": [],
+    "approach": {
+      "reached": true,
+      "startFree": true,
+      "visited": 22132,
+      "candidateCount": 1,
+      "reachableCount": 1,
+      "example": [
+        6.95,
+        0.565
+      ]
+    },
+    "robotReleaseToAisle": {
+      "reached": true,
+      "startFree": true,
+      "visited": 33105,
+      "candidateCount": 1,
+      "reachableCount": 1,
+      "example": [
+        7.105,
+        1.215
+      ]
+    }
+  },
+  "routes": [
+    {
+      "use": "stored",
+      "hinge": null,
+      "diameter": 0.6,
+      "collisions": [],
+      "seatPairs": [],
+      "reached": true,
+      "startFree": true,
+      "visited": 22132,
+      "candidateCount": 247,
+      "reachableCount": 209,
+      "example": [
+        10.4,
+        0.4499999998956917
+      ],
+      "adjacentStandingRoute": {
+        "reached": true,
+        "startFree": true,
+        "visited": 22132,
+        "candidateCount": 1007,
+        "reachableCount": 503,
+        "example": [
+          10.4,
+          0.4510000000000001
+        ]
+      },
+      "kitchen": {
+        "reached": true,
+        "startFree": true,
+        "visited": 22132,
+        "candidateCount": 1,
+        "reachableCount": 1,
+        "example": [
+          6.5,
+          3.8
+        ]
+      },
+      "balcony": {
+        "reached": true,
+        "startFree": true,
+        "visited": 22132,
+        "candidateCount": 1,
+        "reachableCount": 1,
+        "example": [
+          8.9,
+          0.65
+        ]
+      }
+    },
+    {
+      "use": "stored",
+      "hinge": null,
+      "diameter": 0.7,
+      "collisions": [],
+      "seatPairs": [],
+      "reached": true,
+      "startFree": true,
+      "visited": 17870,
+      "candidateCount": 247,
+      "reachableCount": 171,
+      "example": [
+        10.4,
+        0.49999999989569177
+      ],
+      "adjacentStandingRoute": {
+        "reached": true,
+        "startFree": true,
+        "visited": 17870,
+        "candidateCount": 1007,
+        "reachableCount": 424,
+        "example": [
+          10.4,
+          0.5010000000000001
+        ]
+      },
+      "kitchen": {
+        "reached": true,
+        "startFree": true,
+        "visited": 17870,
+        "candidateCount": 1,
+        "reachableCount": 1,
+        "example": [
+          6.5,
+          3.8
+        ]
+      },
+      "balcony": {
+        "reached": true,
+        "startFree": true,
+        "visited": 17870,
+        "candidateCount": 1,
+        "reachableCount": 1,
+        "example": [
+          8.9,
+          0.65
+        ]
+      }
+    },
+    {
+      "use": "pulled",
+      "hinge": null,
+      "diameter": 0.6,
+      "collisions": [],
+      "seatPairs": [],
+      "reached": true,
+      "startFree": true,
+      "visited": 19507,
+      "candidateCount": 247,
+      "reachableCount": 209,
+      "example": [
+        10.4,
+        0.4499999998956917
+      ],
+      "adjacentStandingRoute": {
+        "reached": true,
+        "startFree": true,
+        "visited": 19507,
+        "candidateCount": 1007,
+        "reachableCount": 503,
+        "example": [
+          10.4,
+          0.4510000000000001
+        ]
+      },
+      "kitchen": {
+        "reached": true,
+        "startFree": true,
+        "visited": 19507,
+        "candidateCount": 1,
+        "reachableCount": 1,
+        "example": [
+          6.5,
+          3.8
+        ]
+      },
+      "balcony": {
+        "reached": true,
+        "startFree": true,
+        "visited": 19507,
+        "candidateCount": 1,
+        "reachableCount": 1,
+        "example": [
+          8.9,
+          0.65
+        ]
+      }
+    },
+    {
+      "use": "pulled",
+      "hinge": null,
+      "diameter": 0.7,
+      "collisions": [],
+      "seatPairs": [],
+      "reached": true,
+      "startFree": true,
+      "visited": 15983,
+      "candidateCount": 247,
+      "reachableCount": 171,
+      "example": [
+        10.4,
+        0.49999999989569177
+      ],
+      "adjacentStandingRoute": {
+        "reached": true,
+        "startFree": true,
+        "visited": 15983,
+        "candidateCount": 1007,
+        "reachableCount": 424,
+        "example": [
+          10.4,
+          0.5010000000000001
+        ]
+      },
+      "kitchen": {
+        "reached": true,
+        "startFree": true,
+        "visited": 15983,
+        "candidateCount": 1,
+        "reachableCount": 1,
+        "example": [
+          6.5,
+          3.8
+        ]
+      },
+      "balcony": {
+        "reached": true,
+        "startFree": true,
+        "visited": 15983,
+        "candidateCount": 1,
+        "reachableCount": 1,
+        "example": [
+          8.9,
+          0.65
+        ]
+      }
+    },
+    {
+      "use": "occupied",
+      "hinge": null,
+      "diameter": 0.6,
+      "collisions": [],
+      "seatPairs": [],
+      "reached": true,
+      "startFree": true,
+      "visited": 19103,
+      "candidateCount": 247,
+      "reachableCount": 209,
+      "example": [
+        10.4,
+        0.4499999998956917
+      ],
+      "adjacentStandingRoute": {
+        "reached": true,
+        "startFree": true,
+        "visited": 19103,
+        "candidateCount": 1007,
+        "reachableCount": 503,
+        "example": [
+          10.4,
+          0.4510000000000001
+        ]
+      },
+      "kitchen": {
+        "reached": true,
+        "startFree": true,
+        "visited": 19103,
+        "candidateCount": 1,
+        "reachableCount": 1,
+        "example": [
+          6.5,
+          3.8
+        ]
+      },
+      "balcony": {
+        "reached": true,
+        "startFree": true,
+        "visited": 19103,
+        "candidateCount": 1,
+        "reachableCount": 1,
+        "example": [
+          8.9,
+          0.65
+        ]
+      }
+    },
+    {
+      "use": "occupied",
+      "hinge": null,
+      "diameter": 0.7,
+      "collisions": [],
+      "seatPairs": [],
+      "reached": true,
+      "startFree": true,
+      "visited": 15603,
+      "candidateCount": 247,
+      "reachableCount": 171,
+      "example": [
+        10.4,
+        0.49999999989569177
+      ],
+      "adjacentStandingRoute": {
+        "reached": true,
+        "startFree": true,
+        "visited": 15603,
+        "candidateCount": 1007,
+        "reachableCount": 424,
+        "example": [
+          10.4,
+          0.5010000000000001
+        ]
+      },
+      "kitchen": {
+        "reached": true,
+        "startFree": true,
+        "visited": 15603,
+        "candidateCount": 1,
+        "reachableCount": 1,
+        "example": [
+          6.5,
+          3.8
+        ]
+      },
+      "balcony": {
+        "reached": true,
+        "startFree": true,
+        "visited": 15603,
+        "candidateCount": 1,
+        "reachableCount": 1,
+        "example": [
+          8.9,
+          0.65
+        ]
+      }
+    },
+    {
+      "use": "occupied-door",
+      "hinge": 0,
+      "diameter": 0.6,
+      "collisions": [],
+      "seatPairs": [],
+      "reached": true,
+      "startFree": true,
+      "visited": 18950,
+      "candidateCount": 247,
+      "reachableCount": 96,
+      "example": [
+        10.4,
+        0.4499999998956917
+      ],
+      "adjacentStandingRoute": {
+        "reached": true,
+        "startFree": true,
+        "visited": 18950,
+        "candidateCount": 1007,
+        "reachableCount": 390,
+        "example": [
+          10.4,
+          0.4510000000000001
+        ]
+      },
+      "kitchen": {
+        "reached": true,
+        "startFree": true,
+        "visited": 18950,
+        "candidateCount": 1,
+        "reachableCount": 1,
+        "example": [
+          6.5,
+          3.8
+        ]
+      },
+      "balcony": {
+        "reached": true,
+        "startFree": true,
+        "visited": 18950,
+        "candidateCount": 1,
+        "reachableCount": 1,
+        "example": [
+          8.9,
+          0.65
+        ]
+      }
+    },
+    {
+      "use": "occupied-door",
+      "hinge": 0,
+      "diameter": 0.7,
+      "collisions": [],
+      "seatPairs": [],
+      "reached": true,
+      "startFree": true,
+      "visited": 15460,
+      "candidateCount": 247,
+      "reachableCount": 54,
+      "example": [
+        10.4,
+        0.49999999989569177
+      ],
+      "adjacentStandingRoute": {
+        "reached": true,
+        "startFree": true,
+        "visited": 15460,
+        "candidateCount": 1007,
+        "reachableCount": 301,
+        "example": [
+          10.4,
+          0.5010000000000001
+        ]
+      },
+      "kitchen": {
+        "reached": true,
+        "startFree": true,
+        "visited": 15460,
+        "candidateCount": 1,
+        "reachableCount": 1,
+        "example": [
+          6.5,
+          3.8
+        ]
+      },
+      "balcony": {
+        "reached": true,
+        "startFree": true,
+        "visited": 15460,
+        "candidateCount": 1,
+        "reachableCount": 1,
+        "example": [
+          8.9,
+          0.65
+        ]
+      }
+    },
+    {
+      "use": "occupied-door",
+      "hinge": 1,
+      "diameter": 0.6,
+      "collisions": [],
+      "seatPairs": [],
+      "reached": false,
+      "startFree": true,
+      "visited": 13885,
+      "candidateCount": 247,
+      "reachableCount": 0,
+      "example": null,
+      "adjacentStandingRoute": {
+        "reached": true,
+        "startFree": true,
+        "visited": 13885,
+        "candidateCount": 1007,
+        "reachableCount": 24,
+        "example": [
+          10.700000000000005,
+          1.1010000000000002
+        ]
+      },
+      "kitchen": {
+        "reached": true,
+        "startFree": true,
+        "visited": 13885,
+        "candidateCount": 1,
+        "reachableCount": 1,
+        "example": [
+          6.5,
+          3.8
+        ]
+      },
+      "balcony": {
+        "reached": false,
+        "startFree": true,
+        "visited": 13885,
+        "candidateCount": 1,
+        "reachableCount": 0,
+        "example": null
+      }
+    },
+    {
+      "use": "occupied-door",
+      "hinge": 1,
+      "diameter": 0.7,
+      "collisions": [],
+      "seatPairs": [],
+      "reached": false,
+      "startFree": true,
+      "visited": 11406,
+      "candidateCount": 247,
+      "reachableCount": 0,
+      "example": null,
+      "adjacentStandingRoute": {
+        "reached": true,
+        "startFree": true,
+        "visited": 11406,
+        "candidateCount": 1007,
+        "reachableCount": 5,
+        "example": [
+          10.825000000000006,
+          1.176
+        ]
+      },
+      "kitchen": {
+        "reached": true,
+        "startFree": true,
+        "visited": 11406,
+        "candidateCount": 1,
+        "reachableCount": 1,
+        "example": [
+          6.5,
+          3.8
+        ]
+      },
+      "balcony": {
+        "reached": false,
+        "startFree": true,
+        "visited": 11406,
+        "candidateCount": 1,
+        "reachableCount": 0,
+        "example": null
+      }
+    }
+  ],
+  "errors": [],
+  "limits": "25mm grid, circular 600/700mm proxies, furniture AABBs; not real-body or field certification. Door hinge/model unconfirmed."
+}

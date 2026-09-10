@@ -1,0 +1,6 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="data:,"><title>湖畔 · 手机界面预览</title><style>html,body{margin:0;width:100%;height:100%;background:#e6e4df}body{display:grid;place-items:center}iframe{display:block;width:min(100%,430px);height:100dvh;border:0;background:#f4f1ea;box-shadow:0 0 35px #353c3020}@media(max-width:600px){iframe{width:100%;box-shadow:none}}</style></head><body><iframe title="手机全屋三维预览" allow="fullscreen" allowfullscreen></iframe><script>
+const query=new URLSearchParams(location.search),target=new URL('column-view.html',location.href);
+target.searchParams.set('space','entry');target.searchParams.set('v','room-angles');
+for(const key of ['space','angle','mode','v','daylight','photo'])if(query.has(key))target.searchParams.set(key,query.get(key));
+document.querySelector('iframe').src=target.href;
+</script></body></html>

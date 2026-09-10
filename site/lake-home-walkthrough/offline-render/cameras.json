@@ -1,0 +1,203 @@
+{
+  "units": "metres",
+  "source": "same live Three.js scene, no wall remodelling",
+  "rooms": [
+    {
+      "id": "entry",
+      "name": "玄关 · 入户门与鞋柜",
+      "position": [
+        6.93,
+        1.6,
+        5.93
+      ],
+      "look": [
+        6.26,
+        1.25,
+        7.18
+      ]
+    },
+    {
+      "id": "living",
+      "name": "客厅 · 湖景",
+      "position": [
+        10.52,
+        1.6,
+        5.06
+      ],
+      "look": [
+        11.72,
+        1.25,
+        3.58
+      ]
+    },
+    {
+      "id": "dining",
+      "name": "餐厅 · 岛台",
+      "position": [
+        8.2,
+        1.6,
+        5.72
+      ],
+      "look": [
+        7.48,
+        1.25,
+        3.44
+      ]
+    },
+    {
+      "id": "cabinet",
+      "name": "餐边柜 · 一体收纳",
+      "position": [
+        8.23,
+        1.6,
+        4.63
+      ],
+      "look": [
+        9.43,
+        1.25,
+        6.9
+      ]
+    },
+    {
+      "id": "fridge",
+      "name": "冰箱 · 厨房旁嵌入",
+      "position": [
+        8.19,
+        1.6,
+        2.76
+      ],
+      "look": [
+        6.19,
+        1.25,
+        2.34
+      ]
+    },
+    {
+      "id": "services",
+      "name": "吊顶 · 送回风与智能",
+      "position": [
+        8.19,
+        1.6,
+        5.05
+      ],
+      "look": [
+        8.98,
+        1.25,
+        5.9
+      ]
+    },
+    {
+      "id": "bar",
+      "name": "湖景吧台 · 承重柱",
+      "position": [
+        8.19,
+        1.6,
+        2.76
+      ],
+      "look": [
+        8.98,
+        1.25,
+        0.39
+      ]
+    },
+    {
+      "id": "laundry",
+      "name": "阳台 · 洗烘与清洁柜",
+      "position": [
+        8.73,
+        1.6,
+        1.92
+      ],
+      "look": [
+        11.66,
+        1.25,
+        1.24
+      ]
+    },
+    {
+      "id": "kitchen",
+      "name": "厨房",
+      "position": [
+        4.84,
+        1.6,
+        3.71
+      ],
+      "look": [
+        4.75,
+        1.25,
+        2.09
+      ]
+    },
+    {
+      "id": "bed1",
+      "name": "左侧卧室",
+      "position": [
+        3.06,
+        1.6,
+        4.78
+      ],
+      "look": [
+        1.51,
+        1.25,
+        3.57
+      ]
+    },
+    {
+      "id": "bath1",
+      "name": "公卫",
+      "position": [
+        2.04,
+        1.6,
+        5.89
+      ],
+      "look": [
+        1.35,
+        1.25,
+        6.84
+      ]
+    },
+    {
+      "id": "master",
+      "name": "主卧套间",
+      "position": [
+        14.61,
+        1.6,
+        3.38
+      ],
+      "look": [
+        16.08,
+        1.25,
+        1.64
+      ]
+    },
+    {
+      "id": "bath2",
+      "name": "主卫",
+      "position": [
+        13.82,
+        1.6,
+        2.47
+      ],
+      "look": [
+        12.85,
+        1.25,
+        1.24
+      ]
+    },
+    {
+      "id": "bed3",
+      "name": "次卧 · 书房",
+      "position": [
+        14.61,
+        1.6,
+        5.98
+      ],
+      "look": [
+        16.74,
+        1.25,
+        5.17
+      ]
+    }
+  ],
+  "limitations": "Column section/location and 2.8m ceiling remain provisional; panorama environment is not the actual apartment view."
+}

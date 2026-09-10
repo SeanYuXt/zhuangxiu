@@ -1,0 +1,11 @@
+{
+  "bedFootGapMm": 350,
+  "lowerBedSideGapMm": 640,
+  "furnitureOverlap": false,
+  "doorMarginsMm": {
+    "bed": 194,
+    "wardrobe": 140,
+    "desk": 2237
+  },
+  "limitation": "Narrow compromise only, no human passage or ergonomic approval; bay table structure remains unverified."
+}

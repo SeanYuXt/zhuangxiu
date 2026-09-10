@@ -1,0 +1,37 @@
+{
+  "records": [
+    {
+      "scheme": "calm",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "area": 16.057499999999997,
+        "clearances": {
+          "threshold": 1.1500000000000001,
+          "routeWidth": 0.7000000000000002,
+          "washFront": 1.58,
+          "washOccupied": 0.958,
+          "left": 0.6000000000000001,
+          "right": 0.7199999999999998,
+          "foot": 0.8000000000000003,
+          "linenChair": 0.18000000000000016,
+          "linenDepth": 0.34199999999999975,
+          "entry": 1.08,
+          "closetRear": 1.48,
+          "bedToChair": 0.6699999999999999,
+          "kneeWidth": 0.6400000000000001,
+          "kneeDepth": 0.4400000000000004,
+          "kneeHeight": 0.665
+        },
+        "limits": [
+          "矩形物件/门扇90°扫掠无重叠不等于人体通行验收",
+          "门把手、衣柜内部轨道、窗扇及窗帘未模拟",
+          "新增被褥柜前至床尾80cm；取物与该段通行错时，真人站位尚待验收"
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "mobileOverflow": false,
+  "checked": "solid headwall / obsolete lake URL maps to calm / 8 views / chair / doors / cabinet / lighting / labels / opacity"
+}

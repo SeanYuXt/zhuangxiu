@@ -1,0 +1,1238 @@
+{
+  "name": "湖畔全屋漫游 — 原图墙线与开口",
+  "units": "m",
+  "spaces": [
+    {
+      "id": "living",
+      "label": "客厅 · 湖景",
+      "polygons": [
+        [
+          [
+            5.92,
+            -0.2
+          ],
+          [
+            12.03,
+            -0.2
+          ],
+          [
+            12.03,
+            -5.61
+          ],
+          [
+            13.9,
+            -5.61
+          ],
+          [
+            13.9,
+            -7.17
+          ],
+          [
+            2.61,
+            -7.17
+          ],
+          [
+            2.61,
+            -5.51
+          ],
+          [
+            5.92,
+            -5.51
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "kitchen",
+      "label": "厨房",
+      "polygons": [
+        [
+          [
+            3.8,
+            -1.9
+          ],
+          [
+            5.72,
+            -1.9
+          ],
+          [
+            5.72,
+            -5.3
+          ],
+          [
+            3.7,
+            -5.3
+          ],
+          [
+            3.7,
+            -2.5
+          ],
+          [
+            3.8,
+            -2.5
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "bed1",
+      "label": "老人房",
+      "polygons": [
+        [
+          [
+            0.2,
+            -1.87
+          ],
+          [
+            2.85,
+            -1.87
+          ],
+          [
+            2.85,
+            -2.47
+          ],
+          [
+            3.61,
+            -2.47
+          ],
+          [
+            3.61,
+            -5.39
+          ],
+          [
+            0.8,
+            -5.39
+          ],
+          [
+            0.8,
+            -3.18
+          ],
+          [
+            0.2,
+            -3.18
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "bath1",
+      "label": "公卫（次卫） · 蹲便",
+      "polygons": [
+        [
+          [
+            0.8,
+            -5.51
+          ],
+          [
+            2.51,
+            -5.51
+          ],
+          [
+            2.51,
+            -7.17
+          ],
+          [
+            0.8,
+            -7.17
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "master",
+      "label": "主卧套间",
+      "polygons": [
+        [
+          [
+            12.26,
+            -2.91
+          ],
+          [
+            14.31,
+            -2.91
+          ],
+          [
+            14.31,
+            -0.84
+          ],
+          [
+            17.12,
+            -0.84
+          ],
+          [
+            17.12,
+            -0.24
+          ],
+          [
+            18.13,
+            -0.24
+          ],
+          [
+            18.13,
+            -3.18
+          ],
+          [
+            17.52,
+            -3.18
+          ],
+          [
+            17.52,
+            -4.24
+          ],
+          [
+            13.9,
+            -4.24
+          ],
+          [
+            13.9,
+            -5.49
+          ],
+          [
+            12.26,
+            -5.49
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "bath2",
+      "label": "主卫",
+      "polygons": [
+        [
+          [
+            12.26,
+            -0.84
+          ],
+          [
+            14.21,
+            -0.84
+          ],
+          [
+            14.21,
+            -2.8
+          ],
+          [
+            12.26,
+            -2.8
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "bed3",
+      "label": "儿童房",
+      "polygons": [
+        [
+          [
+            14.02,
+            -4.46
+          ],
+          [
+            17.52,
+            -4.46
+          ],
+          [
+            17.52,
+            -4.8
+          ],
+          [
+            18.13,
+            -4.8
+          ],
+          [
+            18.13,
+            -6.41
+          ],
+          [
+            17.52,
+            -6.41
+          ],
+          [
+            17.52,
+            -7.17
+          ],
+          [
+            14.02,
+            -7.17
+          ]
+        ]
+      ]
+    }
+  ],
+  "walls": [
+    {
+      "id": "wall-0",
+      "a": [
+        0.1,
+        -1.77
+      ],
+      "b": [
+        2.95,
+        -1.77
+      ],
+      "thickness": 0.2
+    },
+    {
+      "id": "wall-1",
+      "a": [
+        0.1,
+        -1.77
+      ],
+      "b": [
+        0.1,
+        -3.28
+      ],
+      "thickness": 0.2
+    },
+    {
+      "id": "wall-2",
+      "a": [
+        0.1,
+        -3.28
+      ],
+      "b": [
+        0.7,
+        -3.28
+      ],
+      "thickness": 0.2
+    },
+    {
+      "id": "wall-3",
+      "a": [
+        0.7,
+        -3.28
+      ],
+      "b": [
+        0.7,
+        -7.27
+      ],
+      "thickness": 0.2
+    },
+    {
+      "id": "wall-4",
+      "a": [
+        2.95,
+        -1.77
+      ],
+      "b": [
+        2.95,
+        -2.37
+      ],
+      "thickness": 0.2
+    },
+    {
+      "id": "wall-5",
+      "a": [
+        2.95,
+        -2.37
+      ],
+      "b": [
+        3.71,
+        -2.37
+      ],
+      "thickness": 0.2
+    },
+    {
+      "id": "wall-6",
+      "a": [
+        3.71,
+        -2.37
+      ],
+      "b": [
+        3.71,
+        -1.8
+      ],
+      "thickness": 0.2
+    },
+    {
+      "id": "wall-7",
+      "a": [
+        3.71,
+        -1.8
+      ],
+      "b": [
+        5.82,
+        -1.8
+      ],
+      "thickness": 0.2
+    },
+    {
+      "id": "wall-8",
+      "a": [
+        5.82,
+        -0.1
+      ],
+      "b": [
+        5.82,
+        -1.8
+      ],
+      "thickness": 0.2
+    },
+    {
+      "id": "wall-9",
+      "a": [
+        5.82,
+        -0.1
+      ],
+      "b": [
+        12.14,
+        -0.1
+      ],
+      "thickness": 0.2
+    },
+    {
+      "id": "wall-10",
+      "a": [
+        12.14,
+        -0.1
+      ],
+      "b": [
+        12.14,
+        -0.74
+      ],
+      "thickness": 0.2
+    },
+    {
+      "id": "wall-11",
+      "a": [
+        12.14,
+        -0.74
+      ],
+      "b": [
+        17.03,
+        -0.74
+      ],
+      "thickness": 0.2
+    },
+    {
+      "id": "wall-12",
+      "a": [
+        17.03,
+        -0.14
+      ],
+      "b": [
+        17.03,
+        -0.74
+      ],
+      "thickness": 0.2
+    },
+    {
+      "id": "wall-13",
+      "a": [
+        17.03,
+        -0.14
+      ],
+      "b": [
+        18.23,
+        -0.14
+      ],
+      "thickness": 0.2
+    },
+    {
+      "id": "wall-14",
+      "a": [
+        18.23,
+        -0.14
+      ],
+      "b": [
+        18.23,
+        -3.29
+      ],
+      "thickness": 0.2
+    },
+    {
+      "id": "wall-15",
+      "a": [
+        17.63,
+        -3.29
+      ],
+      "b": [
+        18.23,
+        -3.29
+      ],
+      "thickness": 0.2
+    },
+    {
+      "id": "wall-16",
+      "a": [
+        17.63,
+        -3.29
+      ],
+      "b": [
+        17.63,
+        -4.71
+      ],
+      "thickness": 0.2
+    },
+    {
+      "id": "wall-17",
+      "a": [
+        17.63,
+        -4.71
+      ],
+      "b": [
+        18.23,
+        -4.71
+      ],
+      "thickness": 0.2
+    },
+    {
+      "id": "wall-18",
+      "a": [
+        18.23,
+        -4.71
+      ],
+      "b": [
+        18.23,
+        -6.51
+      ],
+      "thickness": 0.2
+    },
+    {
+      "id": "wall-19",
+      "a": [
+        17.63,
+        -6.51
+      ],
+      "b": [
+        18.23,
+        -6.51
+      ],
+      "thickness": 0.2
+    },
+    {
+      "id": "wall-20",
+      "a": [
+        17.63,
+        -6.51
+      ],
+      "b": [
+        17.63,
+        -7.27
+      ],
+      "thickness": 0.2
+    },
+    {
+      "id": "wall-21",
+      "a": [
+        0.7,
+        -7.27
+      ],
+      "b": [
+        17.63,
+        -7.27
+      ],
+      "thickness": 0.2
+    },
+    {
+      "id": "wall-22",
+      "a": [
+        2.95,
+        -2.47
+      ],
+      "b": [
+        3.66,
+        -2.47
+      ],
+      "thickness": 0.1
+    },
+    {
+      "id": "wall-23",
+      "a": [
+        3.66,
+        -2.47
+      ],
+      "b": [
+        3.66,
+        -5.45
+      ],
+      "thickness": 0.1
+    },
+    {
+      "id": "wall-24",
+      "a": [
+        0.7,
+        -5.45
+      ],
+      "b": [
+        3.66,
+        -5.45
+      ],
+      "thickness": 0.12
+    },
+    {
+      "id": "wall-25",
+      "a": [
+        3.66,
+        -5.4
+      ],
+      "b": [
+        5.82,
+        -5.4
+      ],
+      "thickness": 0.2
+    },
+    {
+      "id": "wall-26",
+      "a": [
+        5.82,
+        -1.8
+      ],
+      "b": [
+        5.82,
+        -5.4
+      ],
+      "thickness": 0.2
+    },
+    {
+      "id": "wall-27",
+      "a": [
+        2.56,
+        -5.51
+      ],
+      "b": [
+        2.56,
+        -7.17
+      ],
+      "thickness": 0.1
+    },
+    {
+      "id": "wall-28",
+      "a": [
+        12.14,
+        -0.74
+      ],
+      "b": [
+        12.14,
+        -5.55
+      ],
+      "thickness": 0.2
+    },
+    {
+      "id": "wall-29",
+      "a": [
+        14.26,
+        -0.84
+      ],
+      "b": [
+        14.26,
+        -2.85
+      ],
+      "thickness": 0.1
+    },
+    {
+      "id": "wall-30",
+      "a": [
+        12.14,
+        -2.85
+      ],
+      "b": [
+        14.26,
+        -2.85
+      ],
+      "thickness": 0.1
+    },
+    {
+      "id": "wall-31",
+      "a": [
+        12.14,
+        -5.55
+      ],
+      "b": [
+        13.96,
+        -5.55
+      ],
+      "thickness": 0.12
+    },
+    {
+      "id": "wall-32",
+      "a": [
+        13.96,
+        -4.35
+      ],
+      "b": [
+        17.63,
+        -4.35
+      ],
+      "thickness": 0.2
+    },
+    {
+      "id": "wall-33",
+      "a": [
+        13.96,
+        -4.35
+      ],
+      "b": [
+        13.96,
+        -7.27
+      ],
+      "thickness": 0.11
+    }
+  ],
+  "openings": [
+    {
+      "id": "glass-0",
+      "wall_id": "wall-0",
+      "offset": 0,
+      "width": 2.85,
+      "kind": "window",
+      "connects": [
+        "bed1",
+        "exterior"
+      ],
+      "sill": 0.55,
+      "height": 1.7,
+      "source_sill": 0.55,
+      "source_height": 1.7,
+      "source_window_id": "W01",
+      "user_override": false
+    },
+    {
+      "id": "glass-1",
+      "wall_id": "wall-1",
+      "offset": 0,
+      "width": 1.51,
+      "kind": "window",
+      "connects": [
+        "bed1",
+        "exterior"
+      ],
+      "sill": 0.55,
+      "height": 1.7,
+      "source_sill": 0.55,
+      "source_height": 1.7,
+      "source_window_id": "W01",
+      "user_override": false
+    },
+    {
+      "id": "window-3-0",
+      "wall_id": "wall-3",
+      "offset": 2.68,
+      "width": 0.6,
+      "kind": "window",
+      "connects": [
+        "bath1",
+        "exterior"
+      ],
+      "sill": 0.9,
+      "height": 1.2,
+      "source_sill": 0.9,
+      "source_height": 1.2,
+      "source_window_id": "W02",
+      "user_override": false
+    },
+    {
+      "id": "window-7-0",
+      "wall_id": "wall-7",
+      "offset": 0.4,
+      "width": 1.2,
+      "kind": "window",
+      "connects": [
+        "kitchen",
+        "exterior"
+      ],
+      "sill": 0.9,
+      "height": 1.2,
+      "source_sill": 0.9,
+      "source_height": 1.2,
+      "source_window_id": "W03",
+      "user_override": false
+    },
+    {
+      "id": "glass-8",
+      "wall_id": "wall-8",
+      "offset": 0,
+      "width": 1.7,
+      "kind": "window",
+      "connects": [
+        "living",
+        "exterior"
+      ],
+      "sill": 0.06,
+      "height": 2.62,
+      "source_sill": 0.2,
+      "source_height": 2.2,
+      "source_window_id": "W04",
+      "user_override": true
+    },
+    {
+      "id": "glass-9",
+      "wall_id": "wall-9",
+      "offset": 0,
+      "width": 6.32,
+      "kind": "window",
+      "connects": [
+        "living",
+        "exterior"
+      ],
+      "sill": 0.06,
+      "height": 2.62,
+      "source_sill": 0.2,
+      "source_height": 2.2,
+      "source_window_id": "W04",
+      "user_override": true
+    },
+    {
+      "id": "glass-10",
+      "wall_id": "wall-10",
+      "offset": 0,
+      "width": 0.64,
+      "kind": "window",
+      "connects": [
+        "living",
+        "exterior"
+      ],
+      "sill": 0.06,
+      "height": 2.62,
+      "source_sill": 0.2,
+      "source_height": 2.2,
+      "source_window_id": "W04",
+      "user_override": true
+    },
+    {
+      "id": "window-11-0",
+      "wall_id": "wall-11",
+      "offset": 0.37,
+      "width": 0.6,
+      "kind": "window",
+      "connects": [
+        "bath2",
+        "exterior"
+      ],
+      "sill": 0.9,
+      "height": 1.2,
+      "source_sill": 0.9,
+      "source_height": 1.2,
+      "source_window_id": "W05",
+      "user_override": false
+    },
+    {
+      "id": "glass-13",
+      "wall_id": "wall-13",
+      "offset": 0,
+      "width": 1.2,
+      "kind": "window",
+      "connects": [
+        "master",
+        "exterior"
+      ],
+      "sill": 0.55,
+      "height": 1.7,
+      "source_sill": 0.55,
+      "source_height": 1.7,
+      "source_window_id": "W06",
+      "user_override": false
+    },
+    {
+      "id": "glass-14",
+      "wall_id": "wall-14",
+      "offset": 0,
+      "width": 3.15,
+      "kind": "window",
+      "connects": [
+        "master",
+        "exterior"
+      ],
+      "sill": 0.55,
+      "height": 1.7,
+      "source_sill": 0.55,
+      "source_height": 1.7,
+      "source_window_id": "W06",
+      "user_override": false
+    },
+    {
+      "id": "glass-18",
+      "wall_id": "wall-18",
+      "offset": 0,
+      "width": 1.8,
+      "kind": "window",
+      "connects": [
+        "bed3",
+        "exterior"
+      ],
+      "sill": 0.55,
+      "height": 1.7,
+      "source_sill": 0.55,
+      "source_height": 1.7,
+      "source_window_id": "W07",
+      "user_override": false
+    },
+    {
+      "id": "front",
+      "wall_id": "wall-21",
+      "offset": 5.63,
+      "width": 1.1,
+      "kind": "door",
+      "connects": [
+        "living",
+        "exterior"
+      ],
+      "swing_into": "exterior",
+      "leaf": true
+    },
+    {
+      "id": "bed1",
+      "wall_id": "wall-24",
+      "offset": 1.96,
+      "width": 0.9,
+      "kind": "door",
+      "connects": [
+        "living",
+        "bed1"
+      ],
+      "swing_into": "bed1",
+      "leaf": true
+    },
+    {
+      "id": "kitchen",
+      "wall_id": "wall-26",
+      "offset": 1.06,
+      "width": 1.64,
+      "kind": "door",
+      "connects": [
+        "living",
+        "kitchen"
+      ],
+      "swing_into": "kitchen",
+      "leaf": false
+    },
+    {
+      "id": "bath1",
+      "wall_id": "wall-27",
+      "offset": 0.1,
+      "width": 0.76,
+      "kind": "door",
+      "connects": [
+        "living",
+        "bath1"
+      ],
+      "swing_into": "bath1",
+      "leaf": true
+    },
+    {
+      "id": "bath2",
+      "wall_id": "wall-30",
+      "offset": 1.17,
+      "width": 0.8,
+      "kind": "door",
+      "connects": [
+        "master",
+        "bath2"
+      ],
+      "swing_into": "bath2",
+      "leaf": true
+    },
+    {
+      "id": "master",
+      "wall_id": "wall-31",
+      "offset": 0.81,
+      "width": 0.91,
+      "kind": "door",
+      "connects": [
+        "living",
+        "master"
+      ],
+      "swing_into": "master",
+      "leaf": true
+    },
+    {
+      "id": "bed3",
+      "wall_id": "wall-33",
+      "offset": 1.32,
+      "width": 0.9,
+      "kind": "door",
+      "connects": [
+        "living",
+        "bed3"
+      ],
+      "swing_into": "bed3",
+      "leaf": true
+    }
+  ],
+  "door_leaf_schedule": {
+    "front": [
+      {
+        "key": "main",
+        "hinge": "b",
+        "turn": 1,
+        "share": 0.688963210702341,
+        "sourceRect": 50
+      },
+      {
+        "key": "secondary",
+        "hinge": "a",
+        "turn": -1,
+        "share": 0.3110367892976588,
+        "sourceRect": 49
+      }
+    ],
+    "bed1": [
+      {
+        "key": "single",
+        "hinge": "b",
+        "turn": -1,
+        "share": 1,
+        "sourceRect": 33
+      }
+    ],
+    "bath1": [
+      {
+        "key": "single",
+        "hinge": "a",
+        "turn": -1,
+        "share": 1,
+        "sourceRect": 31
+      }
+    ],
+    "master": [
+      {
+        "key": "single",
+        "hinge": "b",
+        "turn": -1,
+        "share": 1,
+        "sourceRect": 63
+      }
+    ],
+    "bath2": [
+      {
+        "key": "single",
+        "hinge": "b",
+        "turn": -1,
+        "share": 1,
+        "sourceRect": 56
+      }
+    ],
+    "bed3": [
+      {
+        "key": "single",
+        "hinge": "b",
+        "turn": -1,
+        "share": 1,
+        "sourceRect": 53
+      }
+    ]
+  },
+  "assumptions": {
+    "height": 2.8,
+    "tv": {
+      "inch": 85,
+      "width": 1.882,
+      "height": 1.059
+    },
+    "sideboard": {
+      "width": 3.9,
+      "depth": 0.65
+    },
+    "column": {
+      "point": [
+        940,
+        159
+      ],
+      "width": 0.45,
+      "depth": 0.45,
+      "barLength": 1.8,
+      "height": 0.95,
+      "status": "按用户确认保留不可拆柱；450×450仅占位，位置与离玻璃距离待复尺。CAD恢复短墙不能视为该柱。"
+    },
+    "finishes": {
+      "tile": 0.8,
+      "grout": 0.002,
+      "wall": "暖白乳胶漆；淋浴直接受水墙面须做防水饰面专项确认",
+      "livingCeiling": "双眼皮",
+      "bedroomCeiling": "单眼皮",
+      "bathCeiling": "300×600铝扣板＋风暖浴霸（模块尺寸暂定）"
+    },
+    "hvac": {
+      "indoor": [
+        975,
+        716
+      ],
+      "supply": "朝客厅/湖景方向侧送风",
+      "return": "设备吊顶底部回风",
+      "outdoor": null,
+      "pipeRoute": null,
+      "status": "已核对13层标准层图二；隐藏外机符号不作为定位依据，预留孔与冷凝水点未可靠对应本户，外机和穿墙管线未定"
+    },
+    "precision": "墙体与开口沿用原 PDF 重建；已核对13层标准层图二，未按诊断恢复值擅自挪墙。层高2.8m及吊顶标高为方案值。不可拆柱保留，450mm截面仅占位，位置待复尺。大玻璃、外机与管线、排风和电气均未施工验证；全屋智能只作网页模拟，湖景为氛围示意。"
+  },
+  "validation_scope": "几何基础、开口长度及空间引用；缺印刷面积目标与完整邻接约束，不证明尺寸或施工精度。门叶铰接/转向另由 verify-door-swings.cjs 核对；完整通行未验收。",
+  "window_profiles": [
+    {
+      "id": "W01",
+      "room": "bed1",
+      "label": "老人房转角窗",
+      "walls": [
+        0,
+        1
+      ],
+      "sourceSill": 0.55,
+      "sourceHeight": 1.7,
+      "sill": 0.55,
+      "height": 1.7,
+      "sourceLines": [
+        [
+          10,
+          11,
+          12,
+          13
+        ],
+        [
+          16,
+          17,
+          18,
+          19
+        ]
+      ],
+      "basis": "原图标注 LD:550MM / CH:1700MM"
+    },
+    {
+      "id": "W02",
+      "room": "bath1",
+      "label": "公卫窗",
+      "walls": [
+        3
+      ],
+      "sourceSill": 0.9,
+      "sourceHeight": 1.2,
+      "sill": 0.9,
+      "height": 1.2,
+      "sourceLines": [
+        [
+          82,
+          83,
+          84,
+          85
+        ]
+      ],
+      "basis": "原图标注 LD:900MM / CH:1200MM"
+    },
+    {
+      "id": "W03",
+      "room": "kitchen",
+      "label": "厨房窗",
+      "walls": [
+        7
+      ],
+      "sourceSill": 0.9,
+      "sourceHeight": 1.2,
+      "sill": 0.9,
+      "height": 1.2,
+      "sourceLines": [
+        [
+          86,
+          87,
+          88,
+          89
+        ]
+      ],
+      "basis": "原图标注 LD:900MM / CH:1200MM"
+    },
+    {
+      "id": "W04",
+      "room": "living",
+      "label": "阳台三面玻璃边界",
+      "walls": [
+        8,
+        9,
+        10
+      ],
+      "sourceSill": 0.2,
+      "sourceHeight": 2.2,
+      "sill": 0.06,
+      "height": 2.62,
+      "sourceLines": [
+        [
+          26,
+          27,
+          28,
+          29
+        ],
+        [
+          30,
+          31,
+          32,
+          33
+        ],
+        [
+          34,
+          35,
+          36,
+          37
+        ]
+      ],
+      "basis": "原图 LD:200MM / CH:2200MM；现设计保留用户大玻璃要求",
+      "userOverride": true,
+      "status": "60 mm 底边、2620 mm 高沿用方案占位，非复尺。分格、开启扇、护栏、防坠及抗风设计未确认"
+    },
+    {
+      "id": "W05",
+      "room": "bath2",
+      "label": "主卫窗",
+      "walls": [
+        11
+      ],
+      "sourceSill": 0.9,
+      "sourceHeight": 1.2,
+      "sill": 0.9,
+      "height": 1.2,
+      "sourceLines": [
+        [
+          90,
+          91,
+          92,
+          93
+        ]
+      ],
+      "basis": "原图标注 LD:900MM / CH:1200MM"
+    },
+    {
+      "id": "W06",
+      "room": "master",
+      "label": "主卧转角窗",
+      "walls": [
+        13,
+        14
+      ],
+      "sourceSill": 0.55,
+      "sourceHeight": 1.7,
+      "sill": 0.55,
+      "height": 1.7,
+      "sourceLines": [
+        [
+          59,
+          60,
+          61,
+          62
+        ],
+        [
+          53,
+          54,
+          55,
+          56
+        ]
+      ],
+      "basis": "原图标注 LD:550MM / CH:1700MM"
+    },
+    {
+      "id": "W07",
+      "room": "bed3",
+      "label": "儿童房窗",
+      "walls": [
+        18
+      ],
+      "sourceSill": 0.55,
+      "sourceHeight": 1.7,
+      "sill": 0.55,
+      "height": 1.7,
+      "sourceLines": [
+        [
+          77,
+          78,
+          79,
+          80
+        ]
+      ],
+      "basis": "原图标注 LD:550MM / CH:1700MM"
+    }
+  ]
+}

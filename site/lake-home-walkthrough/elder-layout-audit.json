@@ -1,0 +1,367 @@
+{
+  "rows": [
+    {
+      "key": "original",
+      "x": 1.87,
+      "z": 3.7,
+      "angle": -1.5707963267948966,
+      "bedBase": {
+        "min": [
+          0.8100000572204589,
+          0.10000000476837159,
+          2.8999999880790712
+        ],
+        "max": [
+          2.929999942779541,
+          0.3599999952316284,
+          4.500000011920929
+        ]
+      },
+      "headboard": {
+        "min": [
+          2.8700000013411047,
+          0.07999997377395629,
+          2.8700000166893003
+        ],
+        "max": [
+          2.9899999986588957,
+          1.1500000262260437,
+          4.529999983310699
+        ]
+      },
+      "wardrobe": {
+        "min": [
+          0.859999976158142,
+          8.940696724635266e-10,
+          4.77200000038743
+        ],
+        "max": [
+          2.560000023841858,
+          2.7700000286102293,
+          5.36999999165535
+        ]
+      },
+      "outside": [],
+      "collisions": [
+        {
+          "bedMesh": 10,
+          "bedName": "mesh_434",
+          "other": "mesh_438",
+          "otherParent": "bed1-wardrobe"
+        },
+        {
+          "bedMesh": 11,
+          "bedName": "mesh_435",
+          "other": "mesh_438",
+          "otherParent": "bed1-wardrobe"
+        },
+        {
+          "bedMesh": 13,
+          "bedName": "mesh_437",
+          "other": "mesh_438",
+          "otherParent": "bed1-wardrobe"
+        },
+        {
+          "bedMesh": 10,
+          "bedName": "mesh_434",
+          "other": "mesh_439",
+          "otherParent": "bed1-wardrobe"
+        },
+        {
+          "bedMesh": 10,
+          "bedName": "mesh_434",
+          "other": "mesh_440",
+          "otherParent": "bed1-wardrobe"
+        },
+        {
+          "bedMesh": 11,
+          "bedName": "mesh_435",
+          "other": "mesh_440",
+          "otherParent": "bed1-wardrobe"
+        },
+        {
+          "bedMesh": 13,
+          "bedName": "mesh_437",
+          "other": "mesh_440",
+          "otherParent": "bed1-wardrobe"
+        }
+      ],
+      "doorSamples": [],
+      "leftHeadBackOnlyOnSolidWall": false,
+      "bedToWardrobeZmm": 272
+    },
+    {
+      "key": "reverse_only",
+      "x": 1.87,
+      "z": 3.7,
+      "angle": 1.5707963267948966,
+      "bedBase": {
+        "min": [
+          0.8100000572204589,
+          0.10000000476837159,
+          2.8999999880790712
+        ],
+        "max": [
+          2.929999942779541,
+          0.3599999952316284,
+          4.500000011920929
+        ]
+      },
+      "headboard": {
+        "min": [
+          0.7500000013411043,
+          0.07999997377395629,
+          2.8700000166893003
+        ],
+        "max": [
+          0.8699999986588958,
+          1.1500000262260437,
+          4.529999983310699
+        ]
+      },
+      "wardrobe": {
+        "min": [
+          0.859999976158142,
+          8.940696724635266e-10,
+          4.77200000038743
+        ],
+        "max": [
+          2.560000023841858,
+          2.7700000286102293,
+          5.36999999165535
+        ]
+      },
+      "outside": [
+        {
+          "child": 2,
+          "name": "mesh_426"
+        }
+      ],
+      "collisions": [
+        {
+          "bedMesh": 6,
+          "bedName": "mesh_430",
+          "other": "mesh_438",
+          "otherParent": "bed1-wardrobe"
+        },
+        {
+          "bedMesh": 7,
+          "bedName": "mesh_431",
+          "other": "mesh_438",
+          "otherParent": "bed1-wardrobe"
+        },
+        {
+          "bedMesh": 9,
+          "bedName": "mesh_433",
+          "other": "mesh_438",
+          "otherParent": "bed1-wardrobe"
+        },
+        {
+          "bedMesh": 6,
+          "bedName": "mesh_430",
+          "other": "mesh_439",
+          "otherParent": "bed1-wardrobe"
+        },
+        {
+          "bedMesh": 6,
+          "bedName": "mesh_430",
+          "other": "mesh_442",
+          "otherParent": "bed1-wardrobe"
+        },
+        {
+          "bedMesh": 7,
+          "bedName": "mesh_431",
+          "other": "mesh_442",
+          "otherParent": "bed1-wardrobe"
+        },
+        {
+          "bedMesh": 8,
+          "bedName": "mesh_432",
+          "other": "mesh_442",
+          "otherParent": "bed1-wardrobe"
+        },
+        {
+          "bedMesh": 9,
+          "bedName": "mesh_433",
+          "other": "mesh_442",
+          "otherParent": "bed1-wardrobe"
+        }
+      ],
+      "doorSamples": [],
+      "leftHeadBackOnlyOnSolidWall": false,
+      "bedToWardrobeZmm": 272
+    },
+    {
+      "key": "left_solid_wall",
+      "x": 1.94,
+      "z": 4.02,
+      "angle": 1.5707963267948966,
+      "bedBase": {
+        "min": [
+          0.8800000572204587,
+          0.10000000476837159,
+          3.2199999880790706
+        ],
+        "max": [
+          2.9999999427795414,
+          0.3599999952316284,
+          4.8200000119209285
+        ]
+      },
+      "headboard": {
+        "min": [
+          0.8200000013411042,
+          0.07999997377395629,
+          3.1900000166893
+        ],
+        "max": [
+          0.9399999986588956,
+          1.1500000262260437,
+          4.849999983310699
+        ]
+      },
+      "wardrobe": {
+        "min": [
+          0.859999976158142,
+          8.940696724635266e-10,
+          4.77200000038743
+        ],
+        "max": [
+          2.560000023841858,
+          2.7700000286102293,
+          5.36999999165535
+        ]
+      },
+      "outside": [],
+      "collisions": [
+        {
+          "bedMesh": 0,
+          "bedName": "mesh_424",
+          "other": "mesh_438",
+          "otherParent": "bed1-wardrobe"
+        },
+        {
+          "bedMesh": 2,
+          "bedName": "mesh_426",
+          "other": "mesh_438",
+          "otherParent": "bed1-wardrobe"
+        },
+        {
+          "bedMesh": 6,
+          "bedName": "mesh_430",
+          "other": "mesh_438",
+          "otherParent": "bed1-wardrobe"
+        },
+        {
+          "bedMesh": 7,
+          "bedName": "mesh_431",
+          "other": "mesh_438",
+          "otherParent": "bed1-wardrobe"
+        },
+        {
+          "bedMesh": 8,
+          "bedName": "mesh_432",
+          "other": "mesh_438",
+          "otherParent": "bed1-wardrobe"
+        },
+        {
+          "bedMesh": 9,
+          "bedName": "mesh_433",
+          "other": "mesh_438",
+          "otherParent": "bed1-wardrobe"
+        },
+        {
+          "bedMesh": 6,
+          "bedName": "mesh_430",
+          "other": "mesh_439",
+          "otherParent": "bed1-wardrobe"
+        },
+        {
+          "bedMesh": 0,
+          "bedName": "mesh_424",
+          "other": "mesh_440",
+          "otherParent": "bed1-wardrobe"
+        },
+        {
+          "bedMesh": 3,
+          "bedName": "mesh_427",
+          "other": "mesh_440",
+          "otherParent": "bed1-wardrobe"
+        },
+        {
+          "bedMesh": 0,
+          "bedName": "mesh_424",
+          "other": "mesh_441",
+          "otherParent": "bed1-wardrobe"
+        },
+        {
+          "bedMesh": 3,
+          "bedName": "mesh_427",
+          "other": "mesh_441",
+          "otherParent": "bed1-wardrobe"
+        },
+        {
+          "bedMesh": 0,
+          "bedName": "mesh_424",
+          "other": "mesh_442",
+          "otherParent": "bed1-wardrobe"
+        },
+        {
+          "bedMesh": 2,
+          "bedName": "mesh_426",
+          "other": "mesh_442",
+          "otherParent": "bed1-wardrobe"
+        }
+      ],
+      "doorSamples": [
+        {
+          "deg": 47,
+          "bedMesh": 0,
+          "bedName": "mesh_424",
+          "doorPart": "door-bed1-single-panel"
+        },
+        {
+          "deg": 48,
+          "bedMesh": 0,
+          "bedName": "mesh_424",
+          "doorPart": "door-bed1-single-panel"
+        },
+        {
+          "deg": 49,
+          "bedMesh": 0,
+          "bedName": "mesh_424",
+          "doorPart": "door-bed1-single-panel"
+        },
+        {
+          "deg": 50,
+          "bedMesh": 0,
+          "bedName": "mesh_424",
+          "doorPart": "door-bed1-single-panel"
+        },
+        {
+          "deg": 51,
+          "bedMesh": 0,
+          "bedName": "mesh_424",
+          "doorPart": "door-bed1-single-panel"
+        },
+        {
+          "deg": 52,
+          "bedMesh": 0,
+          "bedName": "mesh_424",
+          "doorPart": "door-bed1-single-panel"
+        }
+      ],
+      "leftHeadBackOnlyOnSolidWall": true,
+      "bedToWardrobeZmm": -48
+    }
+  ],
+  "restored": true,
+  "source": "current home-facilities.glb; plan.js boundary; original meshes unchanged",
+  "limits": [
+    "Only upright mesh bounding prisms, not exact curved surfaces",
+    "600 mm access is not assessed by this test",
+    "No site survey, product selection or window-opening approval",
+    "Only existing bed dimensions; 1.2 m option not selected"
+  ],
+  "errors": []
+}

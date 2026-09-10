@@ -1,0 +1,86 @@
+{
+  "geometry": {
+    "care": {
+      "min": [
+        5.899999988079071,
+        6.437301636186277e-9,
+        0.24000000038743013
+      ],
+      "max": [
+        6.50499999961257,
+        2.1900000083446503,
+        1.53999999961257
+      ]
+    },
+    "sink": {
+      "min": [
+        5.945837599039078,
+        0.7380000001117587,
+        0.33499999284744264
+      ],
+      "max": [
+        6.389999997615814,
+        1.172613501548767,
+        0.7950000011920929
+      ]
+    },
+    "fridge": {
+      "min": [
+        5.849999997615814,
+        0.07999997138977055,
+        1.8499999998956917
+      ],
+      "max": [
+        6.493,
+        2.7700000286102293,
+        2.8300000001043077
+      ]
+    },
+    "basinHit": {
+      "name": "sink-drain",
+      "y": 0.7510000000474975
+    },
+    "internalOverlap": [],
+    "robotSweepCollisions": [],
+    "metrics": {
+      "revision": "six-seat-long-side-20260906",
+      "wingLengths": [
+        1.2999999523162842,
+        1.2999999523162842
+      ],
+      "islandToSofa": 1.049999998807908,
+      "islandToKitchenWall": 1.1000000119209288,
+      "kitchenOpening": 1.64,
+      "rightWingToLaundry": 0.8000000095367437,
+      "sofaToCoffee": 0.44999998807907104,
+      "rugSize": [
+        2.2000001057857226,
+        3.2000000442283736
+      ],
+      "screenNormalDistance": 2.5649999999999995,
+      "eyeToScreenCenter": 2.668037668399754,
+      "horizontalAngle": 38.34159918259201,
+      "eye": [
+        9.275,
+        1.08,
+        4.3
+      ],
+      "careToLeftWing": 0.9550000242292889,
+      "careToFridge": 0.3100000002831218,
+      "barDepth": 0.5600000023841858,
+      "glassToTable": 1.2299999988079071,
+      "occupiedSeatToSofa": 0.24000000203241934,
+      "laundryOffsetZ": -0.55,
+      "laundryToFrontGlass": 0.13999999989569173,
+      "washerCenterZ": 0.576,
+      "washerCenterToTableBack": 0.7539999988079072
+    },
+    "services": {
+      "supply": null,
+      "waste": null,
+      "note": "角阀/存水弯仅为独立湿仓内布置；未确认另一侧阳台接入点或跨区管路"
+    }
+  },
+  "errors": [],
+  "limits": "Model-only proposed cabinet; circular straight-path sweep is not real SLAM, docking, climbing or site plumbing verification."
+}

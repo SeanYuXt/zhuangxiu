@@ -1,0 +1,905 @@
+{
+  "results": [
+    {
+      "key": "storage",
+      "use": "stored",
+      "spec": {
+        "key": "storage",
+        "label": "A · 保留高柜收纳",
+        "entry": {
+          "x0": 12.26,
+          "z0": 3.8800000238418577,
+          "x1": 12.86,
+          "z1": 5.279999976158142
+        },
+        "foot": {
+          "x0": 14.330000047683717,
+          "z0": 3.6520000003874302,
+          "x1": 17.429999952316287,
+          "z1": 4.230000001192093
+        },
+        "desk": {
+          "x0": 12.26,
+          "z0": 2.980000023841858,
+          "x1": 12.709999999999999,
+          "z1": 3.8800000238418577
+        },
+        "deskFront": "x",
+        "entryHeight": 2.6,
+        "footHeight": 2.6,
+        "highStorageLength": 4.499999856948854,
+        "lowStorageLength": 0,
+        "description": "入口 900×450 mm 梳妆位＋约 1400 mm 高柜；床尾高柜保留。床尾原约 600 mm 狭窄关系未消失。"
+      },
+      "meshCount": 97,
+      "outside": [],
+      "bedInside": true,
+      "bedHits": [],
+      "doorHits": [],
+      "footSection": 0.602000057607889,
+      "stoolBounds": [
+        [
+          12.270000001192091,
+          0.0059999999050050976,
+          3.210000025033951
+        ],
+        [
+          12.709999998807906,
+          0.4949999988079071,
+          3.650000022649765
+        ]
+      ],
+      "occupant": null,
+      "occupantBedOverlap": false,
+      "routes": {
+        "start": [
+          13.4,
+          5.1
+        ],
+        "startFree": true,
+        "step": 0.025,
+        "radius": 0.3,
+        "targets": [
+          {
+            "name": "bedLeft",
+            "point": [
+              14.700000000000001,
+              2.3
+            ],
+            "reachable": true,
+            "targetFree": true
+          },
+          {
+            "name": "bedRight",
+            "point": [
+              17.55,
+              2.3
+            ],
+            "reachable": false,
+            "targetFree": true
+          },
+          {
+            "name": "bathApproach",
+            "point": [
+              13.7,
+              3.25
+            ],
+            "reachable": true,
+            "targetFree": true
+          }
+        ],
+        "scope": "600 mm circle, eight perimeter probes, fixed furniture and 90-degree doors; occupied area 600x650mm, retreat 320mm for drawer. Stool meshes alone are not a human/site approval"
+      }
+    },
+    {
+      "key": "storage",
+      "use": "seated",
+      "spec": {
+        "key": "storage",
+        "label": "A · 保留高柜收纳",
+        "entry": {
+          "x0": 12.26,
+          "z0": 3.8800000238418577,
+          "x1": 12.86,
+          "z1": 5.279999976158142
+        },
+        "foot": {
+          "x0": 14.330000047683717,
+          "z0": 3.6520000003874302,
+          "x1": 17.429999952316287,
+          "z1": 4.230000001192093
+        },
+        "desk": {
+          "x0": 12.26,
+          "z0": 2.980000023841858,
+          "x1": 12.709999999999999,
+          "z1": 3.8800000238418577
+        },
+        "deskFront": "x",
+        "entryHeight": 2.6,
+        "footHeight": 2.6,
+        "highStorageLength": 4.499999856948854,
+        "lowStorageLength": 0,
+        "description": "入口 900×450 mm 梳妆位＋约 1400 mm 高柜；床尾高柜保留。床尾原约 600 mm 狭窄关系未消失。"
+      },
+      "meshCount": 97,
+      "outside": [],
+      "bedInside": true,
+      "bedHits": [],
+      "doorHits": [],
+      "footSection": 0.602000057607889,
+      "stoolBounds": [
+        [
+          12.720000001192092,
+          0.0059999999050050976,
+          3.210000025033951
+        ],
+        [
+          13.159999998807907,
+          0.4949999988079071,
+          3.650000022649765
+        ]
+      ],
+      "occupant": {
+        "x0": 12.709999999999999,
+        "z0": 3.130000023841858,
+        "x1": 13.36,
+        "z1": 3.730000023841858
+      },
+      "occupantBedOverlap": false,
+      "routes": {
+        "start": [
+          13.4,
+          5.1
+        ],
+        "startFree": true,
+        "step": 0.025,
+        "radius": 0.3,
+        "targets": [
+          {
+            "name": "bedLeft",
+            "point": [
+              14.700000000000001,
+              2.3
+            ],
+            "reachable": true,
+            "targetFree": true
+          },
+          {
+            "name": "bedRight",
+            "point": [
+              17.55,
+              2.3
+            ],
+            "reachable": false,
+            "targetFree": true
+          },
+          {
+            "name": "bathApproach",
+            "point": [
+              13.7,
+              3.25
+            ],
+            "reachable": true,
+            "targetFree": true
+          }
+        ],
+        "scope": "600 mm circle, eight perimeter probes, fixed furniture and 90-degree doors; occupied area 600x650mm, retreat 320mm for drawer. Stool meshes alone are not a human/site approval"
+      }
+    },
+    {
+      "key": "storage",
+      "use": "drawer",
+      "spec": {
+        "key": "storage",
+        "label": "A · 保留高柜收纳",
+        "entry": {
+          "x0": 12.26,
+          "z0": 3.8800000238418577,
+          "x1": 12.86,
+          "z1": 5.279999976158142
+        },
+        "foot": {
+          "x0": 14.330000047683717,
+          "z0": 3.6520000003874302,
+          "x1": 17.429999952316287,
+          "z1": 4.230000001192093
+        },
+        "desk": {
+          "x0": 12.26,
+          "z0": 2.980000023841858,
+          "x1": 12.709999999999999,
+          "z1": 3.8800000238418577
+        },
+        "deskFront": "x",
+        "entryHeight": 2.6,
+        "footHeight": 2.6,
+        "highStorageLength": 4.499999856948854,
+        "lowStorageLength": 0,
+        "description": "入口 900×450 mm 梳妆位＋约 1400 mm 高柜；床尾高柜保留。床尾原约 600 mm 狭窄关系未消失。"
+      },
+      "meshCount": 97,
+      "outside": [],
+      "bedInside": true,
+      "bedHits": [],
+      "doorHits": [],
+      "footSection": 0.602000057607889,
+      "stoolBounds": [
+        [
+          12.720000001192092,
+          0.0059999999050050976,
+          3.210000025033951
+        ],
+        [
+          13.159999998807907,
+          0.4949999988079071,
+          3.650000022649765
+        ]
+      ],
+      "occupant": {
+        "x0": 13.03,
+        "z0": 3.130000023841858,
+        "x1": 13.68,
+        "z1": 3.730000023841858
+      },
+      "occupantBedOverlap": false,
+      "routes": {
+        "start": [
+          13.4,
+          5.1
+        ],
+        "startFree": true,
+        "step": 0.025,
+        "radius": 0.3,
+        "targets": [
+          {
+            "name": "bedLeft",
+            "point": [
+              14.700000000000001,
+              2.3
+            ],
+            "reachable": false,
+            "targetFree": true
+          },
+          {
+            "name": "bedRight",
+            "point": [
+              17.55,
+              2.3
+            ],
+            "reachable": false,
+            "targetFree": true
+          },
+          {
+            "name": "bathApproach",
+            "point": [
+              13.7,
+              3.25
+            ],
+            "reachable": false,
+            "targetFree": false
+          }
+        ],
+        "scope": "600 mm circle, eight perimeter probes, fixed furniture and 90-degree doors; occupied area 600x650mm, retreat 320mm for drawer. Stool meshes alone are not a human/site approval"
+      }
+    },
+    {
+      "key": "open",
+      "use": "stored",
+      "spec": {
+        "key": "open",
+        "label": "B · 床尾浅矮柜",
+        "entry": {
+          "x0": 12.26,
+          "z0": 2.980000023841858,
+          "x1": 12.86,
+          "z1": 5.279999976158142
+        },
+        "foot": {
+          "x0": 14.330000047683717,
+          "z0": 3.950000001192093,
+          "x1": 16.629999952316286,
+          "z1": 4.230000001192093
+        },
+        "desk": {
+          "x0": 16.629999952316286,
+          "z0": 3.780000001192093,
+          "x1": 17.429999952316287,
+          "z1": 4.230000001192093
+        },
+        "deskFront": "-z",
+        "entryHeight": 2.6,
+        "footHeight": 0.85,
+        "bedShiftX": -0.1,
+        "highStorageLength": 2.299999952316284,
+        "lowStorageLength": 2.2999999046325703,
+        "description": "完整约 2300 mm 入口高柜；床尾约 2300×280 mm 浅矮柜＋右端 800×450 mm 梳妆位。床和床头柜整体向左试移 100 mm。浅柜不计挂衣，衣物容量明显减少。"
+      },
+      "meshCount": 99,
+      "outside": [],
+      "bedInside": true,
+      "bedHits": [],
+      "doorHits": [],
+      "footSection": 0.9000000584125516,
+      "stoolBounds": [
+        [
+          16.80999995350838,
+          0.0059999999050050976,
+          3.7800000023841855
+        ],
+        [
+          17.249999951124195,
+          0.4949999988079071,
+          4.22
+        ]
+      ],
+      "occupant": null,
+      "occupantBedOverlap": false,
+      "routes": {
+        "start": [
+          13.4,
+          5.1
+        ],
+        "startFree": true,
+        "step": 0.025,
+        "radius": 0.3,
+        "targets": [
+          {
+            "name": "bedLeft",
+            "point": [
+              14.65,
+              2.3
+            ],
+            "reachable": true,
+            "targetFree": true
+          },
+          {
+            "name": "bedRight",
+            "point": [
+              17.5,
+              2.3
+            ],
+            "reachable": true,
+            "targetFree": true
+          },
+          {
+            "name": "bathApproach",
+            "point": [
+              13.7,
+              3.25
+            ],
+            "reachable": true,
+            "targetFree": true
+          }
+        ],
+        "scope": "600 mm circle, eight perimeter probes, fixed furniture and 90-degree doors; occupied area 600x650mm, retreat 320mm for drawer. Stool meshes alone are not a human/site approval"
+      }
+    },
+    {
+      "key": "open",
+      "use": "seated",
+      "spec": {
+        "key": "open",
+        "label": "B · 床尾浅矮柜",
+        "entry": {
+          "x0": 12.26,
+          "z0": 2.980000023841858,
+          "x1": 12.86,
+          "z1": 5.279999976158142
+        },
+        "foot": {
+          "x0": 14.330000047683717,
+          "z0": 3.950000001192093,
+          "x1": 16.629999952316286,
+          "z1": 4.230000001192093
+        },
+        "desk": {
+          "x0": 16.629999952316286,
+          "z0": 3.780000001192093,
+          "x1": 17.429999952316287,
+          "z1": 4.230000001192093
+        },
+        "deskFront": "-z",
+        "entryHeight": 2.6,
+        "footHeight": 0.85,
+        "bedShiftX": -0.1,
+        "highStorageLength": 2.299999952316284,
+        "lowStorageLength": 2.2999999046325703,
+        "description": "完整约 2300 mm 入口高柜；床尾约 2300×280 mm 浅矮柜＋右端 800×450 mm 梳妆位。床和床头柜整体向左试移 100 mm。浅柜不计挂衣，衣物容量明显减少。"
+      },
+      "meshCount": 99,
+      "outside": [],
+      "bedInside": true,
+      "bedHits": [],
+      "doorHits": [],
+      "footSection": 0.9000000584125516,
+      "stoolBounds": [
+        [
+          16.80999995350838,
+          0.0059999999050050976,
+          3.330000002384186
+        ],
+        [
+          17.249999951124195,
+          0.4949999988079071,
+          3.77
+        ]
+      ],
+      "occupant": {
+        "x0": 16.729999952316287,
+        "z0": 3.130000001192093,
+        "x1": 17.32999995231629,
+        "z1": 3.780000001192093
+      },
+      "occupantBedOverlap": false,
+      "routes": {
+        "start": [
+          13.4,
+          5.1
+        ],
+        "startFree": true,
+        "step": 0.025,
+        "radius": 0.3,
+        "targets": [
+          {
+            "name": "bedLeft",
+            "point": [
+              14.65,
+              2.3
+            ],
+            "reachable": true,
+            "targetFree": true
+          },
+          {
+            "name": "bedRight",
+            "point": [
+              17.5,
+              2.3
+            ],
+            "reachable": false,
+            "targetFree": true
+          },
+          {
+            "name": "bathApproach",
+            "point": [
+              13.7,
+              3.25
+            ],
+            "reachable": true,
+            "targetFree": true
+          }
+        ],
+        "scope": "600 mm circle, eight perimeter probes, fixed furniture and 90-degree doors; occupied area 600x650mm, retreat 320mm for drawer. Stool meshes alone are not a human/site approval"
+      }
+    },
+    {
+      "key": "open",
+      "use": "drawer",
+      "spec": {
+        "key": "open",
+        "label": "B · 床尾浅矮柜",
+        "entry": {
+          "x0": 12.26,
+          "z0": 2.980000023841858,
+          "x1": 12.86,
+          "z1": 5.279999976158142
+        },
+        "foot": {
+          "x0": 14.330000047683717,
+          "z0": 3.950000001192093,
+          "x1": 16.629999952316286,
+          "z1": 4.230000001192093
+        },
+        "desk": {
+          "x0": 16.629999952316286,
+          "z0": 3.780000001192093,
+          "x1": 17.429999952316287,
+          "z1": 4.230000001192093
+        },
+        "deskFront": "-z",
+        "entryHeight": 2.6,
+        "footHeight": 0.85,
+        "bedShiftX": -0.1,
+        "highStorageLength": 2.299999952316284,
+        "lowStorageLength": 2.2999999046325703,
+        "description": "完整约 2300 mm 入口高柜；床尾约 2300×280 mm 浅矮柜＋右端 800×450 mm 梳妆位。床和床头柜整体向左试移 100 mm。浅柜不计挂衣，衣物容量明显减少。"
+      },
+      "meshCount": 99,
+      "outside": [],
+      "bedInside": true,
+      "bedHits": [],
+      "doorHits": [],
+      "footSection": 0.9000000584125516,
+      "stoolBounds": [
+        [
+          16.80999995350838,
+          0.0059999999050050976,
+          3.330000002384186
+        ],
+        [
+          17.249999951124195,
+          0.4949999988079071,
+          3.77
+        ]
+      ],
+      "occupant": {
+        "x0": 16.729999952316287,
+        "z0": 2.810000001192093,
+        "x1": 17.32999995231629,
+        "z1": 3.460000001192093
+      },
+      "occupantBedOverlap": true,
+      "routes": {
+        "start": [
+          13.4,
+          5.1
+        ],
+        "startFree": true,
+        "step": 0.025,
+        "radius": 0.3,
+        "targets": [
+          {
+            "name": "bedLeft",
+            "point": [
+              14.65,
+              2.3
+            ],
+            "reachable": true,
+            "targetFree": true
+          },
+          {
+            "name": "bedRight",
+            "point": [
+              17.5,
+              2.3
+            ],
+            "reachable": false,
+            "targetFree": true
+          },
+          {
+            "name": "bathApproach",
+            "point": [
+              13.7,
+              3.25
+            ],
+            "reachable": true,
+            "targetFree": true
+          }
+        ],
+        "scope": "600 mm circle, eight perimeter probes, fixed furniture and 90-degree doors; occupied area 600x650mm, retreat 320mm for drawer. Stool meshes alone are not a human/site approval"
+      }
+    },
+    {
+      "key": "balanced",
+      "use": "stored",
+      "spec": {
+        "key": "balanced",
+        "label": "薄床架＋翻盖梳妆",
+        "entry": {
+          "x0": 12.26,
+          "z0": 3.8800000238418577,
+          "x1": 12.86,
+          "z1": 5.279999976158142
+        },
+        "foot": {
+          "x0": 14.330000047683717,
+          "z0": 3.6520000003874302,
+          "x1": 17.429999952316287,
+          "z1": 4.230000001192093
+        },
+        "desk": {
+          "x0": 12.26,
+          "z0": 2.980000023841858,
+          "x1": 12.709999999999999,
+          "z1": 3.8800000238418577
+        },
+        "deskFront": "x",
+        "entryHeight": 2.6,
+        "footHeight": 2.6,
+        "highStorageLength": 4.499999856948854,
+        "lowStorageLength": 0,
+        "description": "保留约 4.5 m 高柜，入口 900×450 mm 梳妆位改为上翻浅收纳。床垫候选 1800×2000 mm，床架 1900×2050 mm，含薄床头总长 2130 mm；床组向左试移 100 mm。须匹配实际产品，不是原床实测改造。",
+        "storageAccess": "top",
+        "refinedBed": true,
+        "bedShiftX": -0.1
+      },
+      "meshCount": 170,
+      "outside": [],
+      "bedInside": true,
+      "bedHits": [],
+      "doorHits": [],
+      "footSection": 0.6519999990463261,
+      "stoolBounds": [
+        [
+          12.270000001192091,
+          0.0059999999050050976,
+          3.210000025033951
+        ],
+        [
+          12.709999998807906,
+          0.4949999988079071,
+          3.650000022649765
+        ]
+      ],
+      "occupant": null,
+      "occupantBedOverlap": false,
+      "routes": {
+        "start": [
+          13.4,
+          5.1
+        ],
+        "startFree": true,
+        "step": 0.025,
+        "radius": 0.3,
+        "targets": [
+          {
+            "name": "bedLeft",
+            "point": [
+              14.65,
+              2.3
+            ],
+            "reachable": true,
+            "targetFree": true
+          },
+          {
+            "name": "bedRight",
+            "point": [
+              17.5,
+              2.3
+            ],
+            "reachable": true,
+            "targetFree": true
+          },
+          {
+            "name": "bathApproach",
+            "point": [
+              13.7,
+              3.25
+            ],
+            "reachable": true,
+            "targetFree": true
+          }
+        ],
+        "scope": "600 mm circle, eight perimeter probes, fixed furniture and 90-degree doors; occupied area 600x650mm, retreat 320mm for drawer. Stool meshes alone are not a human/site approval"
+      }
+    },
+    {
+      "key": "balanced",
+      "use": "seated",
+      "spec": {
+        "key": "balanced",
+        "label": "薄床架＋翻盖梳妆",
+        "entry": {
+          "x0": 12.26,
+          "z0": 3.8800000238418577,
+          "x1": 12.86,
+          "z1": 5.279999976158142
+        },
+        "foot": {
+          "x0": 14.330000047683717,
+          "z0": 3.6520000003874302,
+          "x1": 17.429999952316287,
+          "z1": 4.230000001192093
+        },
+        "desk": {
+          "x0": 12.26,
+          "z0": 2.980000023841858,
+          "x1": 12.709999999999999,
+          "z1": 3.8800000238418577
+        },
+        "deskFront": "x",
+        "entryHeight": 2.6,
+        "footHeight": 2.6,
+        "highStorageLength": 4.499999856948854,
+        "lowStorageLength": 0,
+        "description": "保留约 4.5 m 高柜，入口 900×450 mm 梳妆位改为上翻浅收纳。床垫候选 1800×2000 mm，床架 1900×2050 mm，含薄床头总长 2130 mm；床组向左试移 100 mm。须匹配实际产品，不是原床实测改造。",
+        "storageAccess": "top",
+        "refinedBed": true,
+        "bedShiftX": -0.1
+      },
+      "meshCount": 170,
+      "outside": [],
+      "bedInside": true,
+      "bedHits": [],
+      "doorHits": [],
+      "footSection": 0.6519999990463261,
+      "stoolBounds": [
+        [
+          12.720000001192092,
+          0.0059999999050050976,
+          3.210000025033951
+        ],
+        [
+          13.159999998807907,
+          0.4949999988079071,
+          3.650000022649765
+        ]
+      ],
+      "occupant": {
+        "x0": 12.709999999999999,
+        "z0": 3.130000023841858,
+        "x1": 13.36,
+        "z1": 3.730000023841858
+      },
+      "occupantBedOverlap": false,
+      "routes": {
+        "start": [
+          13.4,
+          5.1
+        ],
+        "startFree": true,
+        "step": 0.025,
+        "radius": 0.3,
+        "targets": [
+          {
+            "name": "bedLeft",
+            "point": [
+              14.65,
+              2.3
+            ],
+            "reachable": true,
+            "targetFree": true
+          },
+          {
+            "name": "bedRight",
+            "point": [
+              17.5,
+              2.3
+            ],
+            "reachable": true,
+            "targetFree": true
+          },
+          {
+            "name": "bathApproach",
+            "point": [
+              13.7,
+              3.25
+            ],
+            "reachable": true,
+            "targetFree": true
+          }
+        ],
+        "scope": "600 mm circle, eight perimeter probes, fixed furniture and 90-degree doors; occupied area 600x650mm, retreat 320mm for drawer. Stool meshes alone are not a human/site approval"
+      }
+    },
+    {
+      "key": "balanced",
+      "use": "drawer",
+      "spec": {
+        "key": "balanced",
+        "label": "薄床架＋翻盖梳妆",
+        "entry": {
+          "x0": 12.26,
+          "z0": 3.8800000238418577,
+          "x1": 12.86,
+          "z1": 5.279999976158142
+        },
+        "foot": {
+          "x0": 14.330000047683717,
+          "z0": 3.6520000003874302,
+          "x1": 17.429999952316287,
+          "z1": 4.230000001192093
+        },
+        "desk": {
+          "x0": 12.26,
+          "z0": 2.980000023841858,
+          "x1": 12.709999999999999,
+          "z1": 3.8800000238418577
+        },
+        "deskFront": "x",
+        "entryHeight": 2.6,
+        "footHeight": 2.6,
+        "highStorageLength": 4.499999856948854,
+        "lowStorageLength": 0,
+        "description": "保留约 4.5 m 高柜，入口 900×450 mm 梳妆位改为上翻浅收纳。床垫候选 1800×2000 mm，床架 1900×2050 mm，含薄床头总长 2130 mm；床组向左试移 100 mm。须匹配实际产品，不是原床实测改造。",
+        "storageAccess": "top",
+        "refinedBed": true,
+        "bedShiftX": -0.1
+      },
+      "meshCount": 170,
+      "outside": [],
+      "bedInside": true,
+      "bedHits": [],
+      "doorHits": [],
+      "footSection": 0.6519999990463261,
+      "stoolBounds": [
+        [
+          12.720000001192092,
+          0.0059999999050050976,
+          3.210000025033951
+        ],
+        [
+          13.159999998807907,
+          0.4949999988079071,
+          3.650000022649765
+        ]
+      ],
+      "occupant": {
+        "x0": 12.709999999999999,
+        "z0": 3.130000023841858,
+        "x1": 13.36,
+        "z1": 3.730000023841858
+      },
+      "occupantBedOverlap": false,
+      "routes": {
+        "start": [
+          13.4,
+          5.1
+        ],
+        "startFree": true,
+        "step": 0.025,
+        "radius": 0.3,
+        "targets": [
+          {
+            "name": "bedLeft",
+            "point": [
+              14.65,
+              2.3
+            ],
+            "reachable": true,
+            "targetFree": true
+          },
+          {
+            "name": "bedRight",
+            "point": [
+              17.5,
+              2.3
+            ],
+            "reachable": true,
+            "targetFree": true
+          },
+          {
+            "name": "bathApproach",
+            "point": [
+              13.7,
+              3.25
+            ],
+            "reachable": true,
+            "targetFree": true
+          }
+        ],
+        "scope": "600 mm circle, eight perimeter probes, fixed furniture and 90-degree doors; occupied area 600x650mm, retreat 320mm for drawer. Stool meshes alone are not a human/site approval"
+      }
+    }
+  ],
+  "refined": {
+    "sizes": [
+      [
+        1.8999999761581439,
+        0.25999999046325684,
+        2.05
+      ],
+      [
+        1.799999952316286,
+        0.23000000417232513,
+        2
+      ],
+      [
+        1.9600000381469744,
+        1.0700000524520874,
+        0.08000000000000007
+      ]
+    ],
+    "lidCollisionSamples": [],
+    "angles": 91,
+    "independentGeometry": true,
+    "independentMaterial": true
+  },
+  "frontsWithinEnvelope": true,
+  "restored": {
+    "makeup": false,
+    "originals": true,
+    "leftovers": false,
+    "bedPositionRestored": true,
+    "bedBoundsRestored": true
+  },
+  "mobile": true,
+  "errors": [],
+  "limits": [
+    "unselected cabinet hardware",
+    "chair and occupant geometry assumptions",
+    "electrical and anchorage",
+    "no independent dressing room",
+    "not photographic quality"
+  ]
+}

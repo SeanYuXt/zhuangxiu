@@ -1,0 +1,44 @@
+{
+  "report": [
+    {
+      "name": "bed1-bed",
+      "sampled": 9721,
+      "vertices": 3321,
+      "triangleCentres": 6400,
+      "aboveMattress": 7703,
+      "minGap": 0.0015000030398368835,
+      "maxGap": 0.008220204256436436,
+      "penetrating3mm": 0,
+      "within3mm": 7301,
+      "airGapOver10mm": 0,
+      "samples": []
+    },
+    {
+      "name": "bed3-bed",
+      "sampled": 9721,
+      "vertices": 3321,
+      "triangleCentres": 6400,
+      "aboveMattress": 7703,
+      "minGap": 0.0015000030398368835,
+      "maxGap": 0.0082202378326518,
+      "penetrating3mm": 0,
+      "within3mm": 7301,
+      "airGapOver10mm": 0,
+      "samples": []
+    },
+    {
+      "name": "master-bed",
+      "sampled": 9721,
+      "vertices": 3321,
+      "triangleCentres": 6400,
+      "aboveMattress": 7703,
+      "minGap": 0.0014999821782112344,
+      "maxGap": 0.01423890403080752,
+      "penetrating3mm": 0,
+      "within3mm": 6897,
+      "airGapOver10mm": 242,
+      "samples": []
+    }
+  ],
+  "scope": "Static mesh support rays only; no deformation or cloth simulation performed."
+}

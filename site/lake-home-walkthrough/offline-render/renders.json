@@ -1,0 +1,38 @@
+{
+  "renders": [
+    {
+      "id": "dining",
+      "name": "餐厅 · 岛台",
+      "kind": "panorama",
+      "file": "dining-360.png",
+      "width": 3072,
+      "height": 1536,
+      "samples": 24,
+      "sourceSha256": "f4b150a2666a20f919d8a188ef4c5cede822b05a3479810a1f71addc6e947c9e",
+      "environmentRotationDegrees": 180
+    },
+    {
+      "id": "master",
+      "name": "主卧套间",
+      "kind": "panorama",
+      "file": "master-360.png",
+      "width": 3072,
+      "height": 1536,
+      "samples": 24,
+      "sourceSha256": "f4b150a2666a20f919d8a188ef4c5cede822b05a3479810a1f71addc6e947c9e",
+      "environmentRotationDegrees": 180
+    },
+    {
+      "id": "bed1",
+      "name": "左侧卧室",
+      "kind": "panorama",
+      "file": "bed1-360.png",
+      "width": 3072,
+      "height": 1536,
+      "samples": 24,
+      "sourceSha256": "f4b150a2666a20f919d8a188ef4c5cede822b05a3479810a1f71addc6e947c9e",
+      "environmentRotationDegrees": 180
+    }
+  ],
+  "precision": "Same room and furniture geometry as the web scene. Design study, not a real photograph or construction verification."
+}

@@ -1,0 +1,9 @@
+{
+  "main":[0,0,2.8,2.9],
+  "bedX":0.02,"bedLength":1.83,"bedWidth":1.54,
+  "bedTopDefault":0.15,"bedTopWallSafe":0.72,
+  "leftSolidWallStart":0.70514,
+  "wardrobe":[0.02,2.30,1.82,2.90],
+  "mattress":[1.50,1.80],
+  "status":"Dimensional study only. No selected position satisfies both full solid-wall headboard and normal wardrobe-front use. No walls or windows altered."
+}

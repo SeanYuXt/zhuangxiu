@@ -1,0 +1,768 @@
+{
+  "sourceSha256": "fbb62c8d6a5e92904ce431b91ce7dfd4f2df59d4622060fa587fe990684f6e00",
+  "pipelineSha256": "72245866a31b1c2d078b55d2dc8ad1f163c50c0b7ee0540614cbdfa6c915af32",
+  "cameraSha256": "b18ca4203f55388e08b96b34a8c3129e190295fe01f2bb2fc1659c1e0cd00dc3",
+  "column": [
+    8.98,
+    0,
+    1.6
+  ],
+  "renders": [
+    {
+      "id": "bath1",
+      "file": "layered-light-v1-bath1-hd.png",
+      "width": 1600,
+      "height": 900,
+      "samples": 32,
+      "seconds": 128.11,
+      "camera": {
+        "name": "公卫",
+        "position": [
+          3.12,
+          1.6,
+          5.62
+        ],
+        "look": [
+          1.72,
+          0.9,
+          6.82
+        ]
+      }
+    }
+  ],
+  "lightingPreset": "evening",
+  "fixtureMetadataCount": 38,
+  "lighting": [
+    {
+      "name": "balcony-care-task-light-1",
+      "position": [
+        6.05,
+        1.49099999981001,
+        0.8900000000000001
+      ],
+      "powerRadiantW": 1.4300000000000002,
+      "size": [
+        0.02199999988079071,
+        1.1200000047683716
+      ],
+      "basis": "render lighting assumption, not electrical watts or measured illuminance",
+      "target": [
+        6.05,
+        0.4909999998100101,
+        0.8900000000000001
+      ],
+      "lumensTarget": 550,
+      "level": 0.65,
+      "source": "current GLB lamp metadata"
+    },
+    {
+      "name": "bar-concealed-light-1",
+      "position": [
+        8.110000000000001,
+        0.8800000001937149,
+        1.8070000000000002
+      ],
+      "powerRadiantW": 0.192,
+      "size": [
+        1.213333295451271,
+        0.014000000432133675
+      ],
+      "basis": "render lighting assumption, not electrical watts or measured illuminance",
+      "target": [
+        8.110000000000001,
+        -0.11999999980628506,
+        1.8070000000000002
+      ],
+      "lumensTarget": 160,
+      "level": 0.3,
+      "source": "current GLB lamp metadata"
+    },
+    {
+      "name": "bar-concealed-light_1-1",
+      "position": [
+        9.85,
+        0.8800000001937149,
+        1.8070000000000002
+      ],
+      "powerRadiantW": 0.192,
+      "size": [
+        1.213333295451271,
+        0.014000000432133675
+      ],
+      "basis": "render lighting assumption, not electrical watts or measured illuminance",
+      "target": [
+        9.85,
+        -0.11999999980628506,
+        1.8070000000000002
+      ],
+      "lumensTarget": 160,
+      "level": 0.3,
+      "source": "current GLB lamp metadata"
+    },
+    {
+      "name": "bath1-heater-light-1",
+      "position": [
+        1.85,
+        2.5310000000298025,
+        5.967
+      ],
+      "powerRadiantW": 4.4799999999999995,
+      "size": [
+        0.25,
+        0.21799999475479126
+      ],
+      "basis": "render lighting assumption, not electrical watts or measured illuminance",
+      "target": [
+        1.85,
+        1.5310000000298025,
+        5.967
+      ],
+      "lumensTarget": 1400,
+      "level": 0.8,
+      "source": "current GLB lamp metadata"
+    },
+    {
+      "name": "bath2-heater-light-1",
+      "position": [
+        13.61,
+        2.5310000000298025,
+        2.497
+      ],
+      "powerRadiantW": 4.4799999999999995,
+      "size": [
+        0.25,
+        0.21799999475479126
+      ],
+      "basis": "render lighting assumption, not electrical watts or measured illuminance",
+      "target": [
+        13.61,
+        1.5310000000298025,
+        2.497
+      ],
+      "lumensTarget": 1400,
+      "level": 0.8,
+      "source": "current GLB lamp metadata"
+    },
+    {
+      "name": "bath2-mirror-task-light-1",
+      "position": [
+        12.310499999832361,
+        1.58,
+        2.7399999999999998
+      ],
+      "powerRadiantW": 0.676,
+      "size": [
+        0.012000000104308128,
+        0.8799999952316284
+      ],
+      "basis": "render lighting assumption, not electrical watts or measured illuminance",
+      "target": [
+        13.310499999832361,
+        1.58,
+        2.7399999999999998
+      ],
+      "lumensTarget": 260,
+      "level": 0.65,
+      "source": "current GLB lamp metadata"
+    },
+    {
+      "name": "bath2-mirror-task-light-2",
+      "position": [
+        12.310499999832361,
+        1.58,
+        2.1799999999999997
+      ],
+      "powerRadiantW": 0.676,
+      "size": [
+        0.012000000104308128,
+        0.8799999952316284
+      ],
+      "basis": "render lighting assumption, not electrical watts or measured illuminance",
+      "target": [
+        13.310499999832361,
+        1.58,
+        2.1799999999999997
+      ],
+      "lumensTarget": 260,
+      "level": 0.65,
+      "source": "current GLB lamp metadata"
+    },
+    {
+      "name": "dry-mirror-task-strip-1",
+      "position": [
+        3.2399999999999998,
+        1.1616842349047933,
+        7.083005270471438
+      ],
+      "powerRadiantW": 0.9880000000000001,
+      "size": [
+        0.5199999809265137,
+        0.03500000014901161
+      ],
+      "basis": "render lighting assumption, not electrical watts or measured illuminance",
+      "target": [
+        3.2399999999999998,
+        0.20385794968364201,
+        6.795657384905093
+      ],
+      "lumensTarget": 380,
+      "level": 0.65,
+      "source": "current GLB lamp metadata"
+    },
+    {
+      "name": "elder-reading-diffuser-1",
+      "position": [
+        0.9627426400463694,
+        1.1112573599536308,
+        3.43
+      ],
+      "target": [
+        1.6698494212329171,
+        0.40415057876708327,
+        3.43
+      ],
+      "lumensTarget": 160,
+      "level": 0.2,
+      "type": "SPOT",
+      "powerRadiantW": 0.12800000607967377,
+      "basis": "current GLB lamp metadata; not measured photometry"
+    },
+    {
+      "name": "elder-reading-diffuser-2",
+      "position": [
+        0.9627426400463694,
+        1.1112573599536308,
+        4.53
+      ],
+      "target": [
+        1.6698494212329171,
+        0.40415057876708327,
+        4.53
+      ],
+      "lumensTarget": 160,
+      "level": 0.2,
+      "type": "SPOT",
+      "powerRadiantW": 0.12800000607967377,
+      "basis": "current GLB lamp metadata; not measured photometry"
+    },
+    {
+      "name": "laundry-task-strip-1",
+      "position": [
+        11.277443374164841,
+        1.7898789734765534,
+        0.5800000000000001
+      ],
+      "powerRadiantW": 0.8320000000000001,
+      "size": [
+        0.014000000432133675,
+        0.6100000143051147
+      ],
+      "basis": "render lighting assumption, not electrical watts or measured illuminance",
+      "target": [
+        11.062581591489721,
+        0.8132345067714636,
+        0.5800000000000001
+      ],
+      "lumensTarget": 320,
+      "level": 0.65,
+      "source": "current GLB lamp metadata"
+    },
+    {
+      "name": "makeup-task-light-1",
+      "position": [
+        12.315999999776482,
+        1.43,
+        3.770000023841858
+      ],
+      "powerRadiantW": 0.676,
+      "size": [
+        0.017000000923871994,
+        0.8100000023841858
+      ],
+      "basis": "render lighting assumption, not electrical watts or measured illuminance",
+      "target": [
+        13.315999999776482,
+        1.43,
+        3.770000023841858
+      ],
+      "lumensTarget": 260,
+      "level": 0.65,
+      "source": "current GLB lamp metadata"
+    },
+    {
+      "name": "makeup-task-light-2",
+      "position": [
+        12.315999999776484,
+        1.43,
+        3.090000023841858
+      ],
+      "powerRadiantW": 0.676,
+      "size": [
+        0.017000000923871994,
+        0.8100000023841858
+      ],
+      "basis": "render lighting assumption, not electrical watts or measured illuminance",
+      "target": [
+        13.315999999776484,
+        1.43,
+        3.090000023841858
+      ],
+      "lumensTarget": 260,
+      "level": 0.65,
+      "source": "current GLB lamp metadata"
+    },
+    {
+      "name": "flush-entry-cabinet-1",
+      "position": [
+        5.06,
+        1.442000000193715,
+        6.725
+      ],
+      "powerRadiantW": 0.78,
+      "size": [
+        0.7599999904632568,
+        0.019999999552965164
+      ],
+      "basis": "render lighting assumption, not electrical watts or measured illuminance",
+      "target": [
+        5.06,
+        0.442000000193715,
+        6.725
+      ],
+      "lumensTarget": 300,
+      "level": 0.65,
+      "source": "current GLB lamp metadata"
+    },
+    {
+      "name": "recessed-led-downlight-1",
+      "position": [
+        6.86,
+        2.752999999973923,
+        6.61
+      ],
+      "target": [
+        6.86,
+        1.7529999999739232,
+        6.61
+      ],
+      "lumensTarget": 650,
+      "level": 0.8,
+      "type": "SPOT",
+      "powerRadiantW": 2.0799999237060547,
+      "basis": "current GLB lamp metadata; not measured photometry"
+    },
+    {
+      "name": "recessed-led-downlight_1-1",
+      "position": [
+        7.24,
+        2.752999999973923,
+        4.0
+      ],
+      "target": [
+        7.24,
+        1.7529999999739232,
+        4.0
+      ],
+      "lumensTarget": 650,
+      "level": 0.8,
+      "type": "SPOT",
+      "powerRadiantW": 2.0799999237060547,
+      "basis": "current GLB lamp metadata; not measured photometry"
+    },
+    {
+      "name": "recessed-led-downlight_2-1",
+      "position": [
+        9.88,
+        2.752999999973923,
+        3.05
+      ],
+      "target": [
+        9.88,
+        1.7529999999739232,
+        3.05
+      ],
+      "lumensTarget": 650,
+      "level": 0.8,
+      "type": "SPOT",
+      "powerRadiantW": 2.0799999237060547,
+      "basis": "current GLB lamp metadata; not measured photometry"
+    },
+    {
+      "name": "recessed-led-downlight_3-1",
+      "position": [
+        9.58,
+        2.752999999973923,
+        1.55
+      ],
+      "target": [
+        9.58,
+        1.7529999999739232,
+        1.55
+      ],
+      "lumensTarget": 650,
+      "level": 0.8,
+      "type": "SPOT",
+      "powerRadiantW": 2.0799999237060547,
+      "basis": "current GLB lamp metadata; not measured photometry"
+    },
+    {
+      "name": "island-task-pendant-1",
+      "position": [
+        7.47,
+        2.1809999998100102,
+        4.05
+      ],
+      "powerRadiantW": 3.9000000000000004,
+      "size": [
+        0.01600000075995922,
+        1.4800000190734863
+      ],
+      "basis": "render lighting assumption, not electrical watts or measured illuminance",
+      "target": [
+        7.47,
+        1.1809999998100102,
+        4.05
+      ],
+      "lumensTarget": 1500,
+      "level": 0.65,
+      "source": "current GLB lamp metadata"
+    },
+    {
+      "name": "recessed-led-downlight_4-1",
+      "position": [
+        10.78,
+        2.752999999973923,
+        4.55
+      ],
+      "target": [
+        10.78,
+        1.7529999999739232,
+        4.55
+      ],
+      "lumensTarget": 650,
+      "level": 0.8,
+      "type": "SPOT",
+      "powerRadiantW": 2.0799999237060547,
+      "basis": "current GLB lamp metadata; not measured photometry"
+    },
+    {
+      "name": "recessed-led-downlight_5-1",
+      "position": [
+        10.78,
+        2.752999999973923,
+        3.5
+      ],
+      "target": [
+        10.78,
+        1.7529999999739232,
+        3.5
+      ],
+      "lumensTarget": 650,
+      "level": 0.8,
+      "type": "SPOT",
+      "powerRadiantW": 2.0799999237060547,
+      "basis": "current GLB lamp metadata; not measured photometry"
+    },
+    {
+      "name": "recessed-led-downlight_6-1",
+      "position": [
+        4.45,
+        2.752999999973923,
+        2.31
+      ],
+      "target": [
+        4.45,
+        1.7529999999739232,
+        2.31
+      ],
+      "lumensTarget": 650,
+      "level": 0.8,
+      "type": "SPOT",
+      "powerRadiantW": 2.0799999237060547,
+      "basis": "current GLB lamp metadata; not measured photometry"
+    },
+    {
+      "name": "recessed-led-downlight_7-1",
+      "position": [
+        5.28,
+        2.752999999973923,
+        2.31
+      ],
+      "target": [
+        5.28,
+        1.7529999999739232,
+        2.31
+      ],
+      "lumensTarget": 650,
+      "level": 0.8,
+      "type": "SPOT",
+      "powerRadiantW": 2.0799999237060547,
+      "basis": "current GLB lamp metadata; not measured photometry"
+    },
+    {
+      "name": "recessed-led-downlight_8-1",
+      "position": [
+        12.83,
+        2.752999999973923,
+        6.24
+      ],
+      "target": [
+        12.83,
+        1.7529999999739232,
+        6.24
+      ],
+      "lumensTarget": 650,
+      "level": 0.8,
+      "type": "SPOT",
+      "powerRadiantW": 2.0799999237060547,
+      "basis": "current GLB lamp metadata; not measured photometry"
+    },
+    {
+      "name": "recessed-led-downlight_9-1",
+      "position": [
+        5.15,
+        2.752999999973923,
+        6.35
+      ],
+      "target": [
+        5.15,
+        1.7529999999739232,
+        6.35
+      ],
+      "lumensTarget": 650,
+      "level": 0.8,
+      "type": "SPOT",
+      "powerRadiantW": 2.0799999237060547,
+      "basis": "current GLB lamp metadata; not measured photometry"
+    },
+    {
+      "name": "bed1-main-light-1",
+      "position": [
+        2.03,
+        2.7039999998100104,
+        4.14
+      ],
+      "powerRadiantW": 7.359999999999999,
+      "size": [
+        0.5260000228881836,
+        0.5260000228881836
+      ],
+      "basis": "render lighting assumption, not electrical watts or measured illuminance",
+      "target": [
+        2.03,
+        1.7039999998100104,
+        4.14
+      ],
+      "lumensTarget": 2300,
+      "level": 0.8,
+      "source": "current GLB lamp metadata"
+    },
+    {
+      "name": "master-main-light-1",
+      "position": [
+        16.06,
+        2.7039999998100104,
+        2.95
+      ],
+      "powerRadiantW": 9.600000000000001,
+      "size": [
+        0.6259999871253967,
+        0.6259999871253967
+      ],
+      "basis": "render lighting assumption, not electrical watts or measured illuminance",
+      "target": [
+        16.06,
+        1.7039999998100104,
+        2.95
+      ],
+      "lumensTarget": 3000,
+      "level": 0.8,
+      "source": "current GLB lamp metadata"
+    },
+    {
+      "name": "bed3-main-light-1",
+      "position": [
+        15.96,
+        2.7039999998100104,
+        5.89
+      ],
+      "powerRadiantW": 7.359999999999999,
+      "size": [
+        0.5260000228881836,
+        0.5260000228881836
+      ],
+      "basis": "render lighting assumption, not electrical watts or measured illuminance",
+      "target": [
+        15.96,
+        1.7039999998100104,
+        5.89
+      ],
+      "lumensTarget": 2300,
+      "level": 0.8,
+      "source": "current GLB lamp metadata"
+    },
+    {
+      "name": "kitchen-main-light-1",
+      "position": [
+        4.89,
+        2.7129999998100107,
+        3.06
+      ],
+      "powerRadiantW": 6.720000000000001,
+      "size": [
+        0.14499999582767487,
+        1.1549999713897705
+      ],
+      "basis": "render lighting assumption, not electrical watts or measured illuminance",
+      "target": [
+        4.89,
+        1.7129999998100107,
+        3.06
+      ],
+      "lumensTarget": 2100,
+      "level": 0.8,
+      "source": "current GLB lamp metadata"
+    },
+    {
+      "name": "kitchen-hood-1",
+      "position": [
+        4.19,
+        1.6309999999739229,
+        3.4
+      ],
+      "powerRadiantW": 0.46799999999999997,
+      "size": [
+        0.052000001072883606,
+        0.052000001072883606
+      ],
+      "basis": "render lighting assumption, not electrical watts or measured illuminance",
+      "target": [
+        4.19,
+        0.6309999999739229,
+        3.4
+      ],
+      "lumensTarget": 180,
+      "level": 0.65,
+      "source": "current GLB lamp metadata"
+    },
+    {
+      "name": "kitchen-hood-2",
+      "position": [
+        4.19,
+        1.6309999999739229,
+        3.88
+      ],
+      "powerRadiantW": 0.46799999999999997,
+      "size": [
+        0.052000001072883606,
+        0.052000001072883606
+      ],
+      "basis": "render lighting assumption, not electrical watts or measured illuminance",
+      "target": [
+        4.19,
+        0.6309999999739229,
+        3.88
+      ],
+      "lumensTarget": 180,
+      "level": 0.65,
+      "source": "current GLB lamp metadata"
+    },
+    {
+      "name": "sideboard-recessed-task-light-1",
+      "position": [
+        9.754999999999999,
+        1.76499999981001,
+        6.920000000000001
+      ],
+      "powerRadiantW": 2.8600000000000003,
+      "size": [
+        3.1600000858306885,
+        0.012000000104308128
+      ],
+      "basis": "render lighting assumption, not electrical watts or measured illuminance",
+      "target": [
+        9.754999999999999,
+        0.7649999998100101,
+        6.920000000000001
+      ],
+      "lumensTarget": 1100,
+      "level": 0.65,
+      "source": "current GLB lamp metadata"
+    },
+    {
+      "name": "study-lamp-diffuser-1",
+      "position": [
+        14.950000000000001,
+        1.1220000003874302,
+        4.71
+      ],
+      "powerRadiantW": 0.4,
+      "size": [
+        0.25,
+        0.052000001072883606
+      ],
+      "basis": "render lighting assumption, not electrical watts or measured illuminance",
+      "target": [
+        14.950000000000001,
+        0.1220000003874302,
+        4.71
+      ],
+      "lumensTarget": 500,
+      "level": 0.2,
+      "source": "current GLB lamp metadata"
+    },
+    {
+      "name": "tv-console-soft-light-1",
+      "position": [
+        11.59,
+        0.16999999997392296,
+        3.66
+      ],
+      "powerRadiantW": 0.36,
+      "size": [
+        0.02500000037252903,
+        3.119999885559082
+      ],
+      "basis": "render lighting assumption, not electrical watts or measured illuminance",
+      "target": [
+        11.59,
+        -0.830000000026077,
+        3.66
+      ],
+      "lumensTarget": 300,
+      "level": 0.3,
+      "source": "current GLB lamp metadata"
+    }
+  ],
+  "materials": [
+    {
+      "object": "bath2-mirror-panel",
+      "adjustment": "neutral physical mirror"
+    },
+    {
+      "object": "dry-mirror-door-0",
+      "adjustment": "neutral physical mirror"
+    },
+    {
+      "object": "dry-mirror-door-1",
+      "adjustment": "neutral physical mirror"
+    },
+    {
+      "object": "makeup-mirror",
+      "adjustment": "neutral physical mirror"
+    },
+    {
+      "object": "mesh_1150",
+      "adjustment": "neutral physical mirror"
+    },
+    {
+      "object": "upper-mirror-door",
+      "adjustment": "neutral physical mirror"
+    }
+  ],
+  "metalPreservation": {
+    "checkedObjects": 176,
+    "changedObjects": []
+  },
+  "limits": "Same current geometry and lamp data; Cycles lighting study. Light powers are assumptions, not site measurements or installed products. Not a photograph or completed construction design."
+}

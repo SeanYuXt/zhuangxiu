@@ -1,0 +1,5417 @@
+[
+  {
+    "root": "flush-entry-cabinet",
+    "name": "mesh_1046",
+    "parent": "flush-entry-cabinet",
+    "material": "",
+    "color": "ffffff",
+    "metal": 0,
+    "map": null,
+    "size": [
+      1.600000023841858,
+      2.440000057220459,
+      0.02500000037252903
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "mesh_1047",
+    "parent": "flush-entry-cabinet",
+    "material": "",
+    "color": "ffffff",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.017999999225139618,
+      2.430000066757202,
+      0.4399999976158142
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "mesh_1048",
+    "parent": "flush-entry-cabinet",
+    "material": "",
+    "color": "ffffff",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.017999999225139618,
+      2.430000066757202,
+      0.4399999976158142
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "mesh_1049",
+    "parent": "flush-entry-cabinet",
+    "material": "",
+    "color": "ffffff",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.017999999225139618,
+      2.430000066757202,
+      0.4399999976158142
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "mesh_1050",
+    "parent": "flush-entry-cabinet",
+    "material": "",
+    "color": "ffffff",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.7820000052452087,
+      0.017999999225139618,
+      0.4180000126361847
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "mesh_1051",
+    "parent": "flush-entry-cabinet",
+    "material": "",
+    "color": "ffffff",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.7820000052452087,
+      0.017999999225139618,
+      0.4180000126361847
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "mesh_1052",
+    "parent": "flush-entry-cabinet",
+    "material": "",
+    "color": "ffffff",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.7820000052452087,
+      0.017999999225139618,
+      0.4180000126361847
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "mesh_1053",
+    "parent": "flush-entry-cabinet",
+    "material": "",
+    "color": "ffffff",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.7820000052452087,
+      0.017999999225139618,
+      0.4180000126361847
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "mesh_1054",
+    "parent": "flush-entry-cabinet",
+    "material": "",
+    "color": "ffffff",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.7820000052452087,
+      0.017999999225139618,
+      0.4180000126361847
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "mesh_1055",
+    "parent": "flush-entry-cabinet",
+    "material": "",
+    "color": "ffffff",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.7820000052452087,
+      0.017999999225139618,
+      0.4180000126361847
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "mesh_1056",
+    "parent": "flush-entry-cabinet",
+    "material": "",
+    "color": "ffffff",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.7820000052452087,
+      0.017999999225139618,
+      0.4180000126361847
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "mesh_1057",
+    "parent": "flush-entry-cabinet",
+    "material": "",
+    "color": "ffffff",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.7820000052452087,
+      0.017999999225139618,
+      0.4180000126361847
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "mesh_1058",
+    "parent": "flush-entry-cabinet",
+    "material": "",
+    "color": "ffffff",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.7820000052452087,
+      0.017999999225139618,
+      0.4180000126361847
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "mesh_1059",
+    "parent": "flush-entry-cabinet",
+    "material": "",
+    "color": "ffffff",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.7820000052452087,
+      0.017999999225139618,
+      0.4180000126361847
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "mesh_1060",
+    "parent": "flush-entry-cabinet",
+    "material": "",
+    "color": "ffffff",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.7820000052452087,
+      0.017999999225139618,
+      0.4180000126361847
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "mesh_1061",
+    "parent": "flush-entry-cabinet",
+    "material": "",
+    "color": "ffffff",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.7820000052452087,
+      0.017999999225139618,
+      0.4180000126361847
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "mesh_1062",
+    "parent": "flush-entry-cabinet",
+    "material": "",
+    "color": "ffffff",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.7820000052452087,
+      0.017999999225139618,
+      0.4180000126361847
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "mesh_1063",
+    "parent": "flush-entry-cabinet",
+    "material": "",
+    "color": "ffffff",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.7820000052452087,
+      0.017999999225139618,
+      0.4180000126361847
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "mesh_1064",
+    "parent": "flush-entry-cabinet",
+    "material": "",
+    "color": "ffffff",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.7820000052452087,
+      0.017999999225139618,
+      0.4180000126361847
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "mesh_1065",
+    "parent": "flush-entry-cabinet",
+    "material": "",
+    "color": "ffffff",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.7820000052452087,
+      0.017999999225139618,
+      0.4180000126361847
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "mesh_1066",
+    "parent": "flush-entry-cabinet",
+    "material": "",
+    "color": "ffffff",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.7820000052452087,
+      0.017999999225139618,
+      0.4180000126361847
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "mesh_1070",
+    "parent": "flush-entry-cabinet",
+    "material": "",
+    "color": "ffffff",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.7940000295639038,
+      0.02800000086426735,
+      0.4699999988079071
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "mesh_1071",
+    "parent": "flush-entry-cabinet",
+    "material": "",
+    "color": "fff1d7",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.7599999904632568,
+      0.008999999612569809,
+      0.019999999552965164
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "mesh_1072",
+    "parent": "flush-entry-cabinet",
+    "material": "",
+    "color": "fff1d7",
+    "metal": 0,
+    "map": null,
+    "size": [
+      1.5,
+      0.008999999612569809,
+      0.02500000037252903
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "mesh_1073",
+    "parent": "entry-shoes-on-shelves",
+    "material": "warm-linen",
+    "color": "e8e3d8",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.1120000034570694,
+      0.02199999988079071,
+      0.26499998569488525
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "mesh_1074",
+    "parent": "entry-shoes-on-shelves",
+    "material": "",
+    "color": "7a8172",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.10999999999999943,
+      0.07499999999999996,
+      0.21499999999999986
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "mesh_1075",
+    "parent": "entry-shoes-on-shelves",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.06400000000000006,
+      0.01200000000000001,
+      0.06600000000000072
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "mesh_1076",
+    "parent": "entry-shoes-on-shelves",
+    "material": "warm-linen",
+    "color": "e8e3d8",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.1120000034570694,
+      0.02199999988079071,
+      0.26499998569488525
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "mesh_1077",
+    "parent": "entry-shoes-on-shelves",
+    "material": "",
+    "color": "7a8172",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.10999999999999943,
+      0.07499999999999996,
+      0.21499999999999986
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "mesh_1078",
+    "parent": "entry-shoes-on-shelves",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.06400000000000006,
+      0.01200000000000001,
+      0.06600000000000072
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "mesh_1079",
+    "parent": "entry-shoes-on-shelves",
+    "material": "warm-linen",
+    "color": "e8e3d8",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.1120000034570694,
+      0.02199999988079071,
+      0.26499998569488525
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "mesh_1080",
+    "parent": "entry-shoes-on-shelves",
+    "material": "",
+    "color": "e8e3d8",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.10999999999999943,
+      0.07499999999999996,
+      0.21499999999999986
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "mesh_1081",
+    "parent": "entry-shoes-on-shelves",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.06400000000000006,
+      0.01200000000000001,
+      0.06600000000000072
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "mesh_1082",
+    "parent": "entry-shoes-on-shelves",
+    "material": "warm-linen",
+    "color": "e8e3d8",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.1120000034570694,
+      0.02199999988079071,
+      0.26499998569488525
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "mesh_1083",
+    "parent": "entry-shoes-on-shelves",
+    "material": "",
+    "color": "e8e3d8",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.10999999999999943,
+      0.07499999999999996,
+      0.21499999999999986
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "mesh_1084",
+    "parent": "entry-shoes-on-shelves",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.06400000000000006,
+      0.01200000000000001,
+      0.06600000000000072
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "mesh_1085",
+    "parent": "entry-shoes-on-shelves",
+    "material": "warm-linen",
+    "color": "e8e3d8",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.1120000034570694,
+      0.02199999988079071,
+      0.26499998569488525
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "mesh_1086",
+    "parent": "entry-shoes-on-shelves",
+    "material": "",
+    "color": "7a8172",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.10999999999999943,
+      0.07499999999999996,
+      0.21499999999999986
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "mesh_1087",
+    "parent": "entry-shoes-on-shelves",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.06400000000000006,
+      0.01200000000000001,
+      0.06600000000000072
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "mesh_1088",
+    "parent": "entry-shoes-on-shelves",
+    "material": "warm-linen",
+    "color": "e8e3d8",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.1120000034570694,
+      0.02199999988079071,
+      0.26499998569488525
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "mesh_1089",
+    "parent": "entry-shoes-on-shelves",
+    "material": "",
+    "color": "7a8172",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.10999999999999943,
+      0.07499999999999996,
+      0.21499999999999986
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "mesh_1090",
+    "parent": "entry-shoes-on-shelves",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.06400000000000006,
+      0.01200000000000001,
+      0.06600000000000072
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "mesh_1091",
+    "parent": "entry-shoes-on-shelves",
+    "material": "warm-linen",
+    "color": "e8e3d8",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.1120000034570694,
+      0.02199999988079071,
+      0.26499998569488525
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "mesh_1092",
+    "parent": "entry-shoes-on-shelves",
+    "material": "",
+    "color": "e8e3d8",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.10999999999999943,
+      0.07500000000000018,
+      0.21499999999999986
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "mesh_1093",
+    "parent": "entry-shoes-on-shelves",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.06400000000000006,
+      0.01200000000000001,
+      0.06600000000000072
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "mesh_1094",
+    "parent": "entry-shoes-on-shelves",
+    "material": "warm-linen",
+    "color": "e8e3d8",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.1120000034570694,
+      0.02199999988079071,
+      0.26499998569488525
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "mesh_1095",
+    "parent": "entry-shoes-on-shelves",
+    "material": "",
+    "color": "e8e3d8",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.10999999999999943,
+      0.07500000000000018,
+      0.21499999999999986
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "mesh_1096",
+    "parent": "entry-shoes-on-shelves",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.06400000000000006,
+      0.01200000000000001,
+      0.06600000000000072
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "mesh_1097",
+    "parent": "entry-shoes-on-shelves",
+    "material": "warm-linen",
+    "color": "e8e3d8",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.1120000034570694,
+      0.02199999988079071,
+      0.26499998569488525
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "mesh_1098",
+    "parent": "entry-shoes-on-shelves",
+    "material": "",
+    "color": "7a8172",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.10999999999999943,
+      0.07500000000000018,
+      0.21499999999999986
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "mesh_1099",
+    "parent": "entry-shoes-on-shelves",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.06400000000000006,
+      0.01200000000000001,
+      0.06600000000000072
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "mesh_1100",
+    "parent": "entry-shoes-on-shelves",
+    "material": "warm-linen",
+    "color": "e8e3d8",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.1120000034570694,
+      0.02199999988079071,
+      0.26499998569488525
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "mesh_1101",
+    "parent": "entry-shoes-on-shelves",
+    "material": "",
+    "color": "7a8172",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.10999999999999943,
+      0.07500000000000018,
+      0.21499999999999986
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "mesh_1102",
+    "parent": "entry-shoes-on-shelves",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.06400000000000006,
+      0.01200000000000001,
+      0.06600000000000072
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "mesh_1103",
+    "parent": "entry-daily-slippers",
+    "material": "warm-linen",
+    "color": "e8e3d8",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.1120000034570694,
+      0.02199999988079071,
+      0.26499998569488525
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "mesh_1104",
+    "parent": "entry-daily-slippers",
+    "material": "",
+    "color": "7a8172",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.10999999999999943,
+      0.07500000000000001,
+      0.21499999999999986
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "mesh_1105",
+    "parent": "entry-daily-slippers",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.06400000000000006,
+      0.01200000000000001,
+      0.06600000000000072
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "mesh_1106",
+    "parent": "entry-daily-slippers",
+    "material": "warm-linen",
+    "color": "e8e3d8",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.1120000034570694,
+      0.02199999988079071,
+      0.26499998569488525
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "mesh_1107",
+    "parent": "entry-daily-slippers",
+    "material": "",
+    "color": "7a8172",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.10999999999999943,
+      0.07500000000000001,
+      0.21499999999999986
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "mesh_1108",
+    "parent": "entry-daily-slippers",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.06400000000000006,
+      0.01200000000000001,
+      0.06600000000000072
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "mesh_1109",
+    "parent": "entry-daily-slippers",
+    "material": "warm-linen",
+    "color": "e8e3d8",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.1120000034570694,
+      0.02199999988079071,
+      0.26499998569488525
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "mesh_1110",
+    "parent": "entry-daily-slippers",
+    "material": "",
+    "color": "e8e3d8",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.10999999999999943,
+      0.07500000000000001,
+      0.21499999999999986
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "mesh_1111",
+    "parent": "entry-daily-slippers",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.06400000000000006,
+      0.01200000000000001,
+      0.06600000000000072
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "mesh_1112",
+    "parent": "entry-daily-slippers",
+    "material": "warm-linen",
+    "color": "e8e3d8",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.1120000034570694,
+      0.02199999988079071,
+      0.26499998569488525
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "mesh_1113",
+    "parent": "entry-daily-slippers",
+    "material": "",
+    "color": "e8e3d8",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.10999999999999943,
+      0.07500000000000001,
+      0.21499999999999986
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "mesh_1114",
+    "parent": "entry-daily-slippers",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.06400000000000006,
+      0.01200000000000001,
+      0.06600000000000072
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "mesh_1115",
+    "parent": "entry-key-tray",
+    "material": "",
+    "color": "ffffff",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.3199999928474426,
+      0.014000000432133675,
+      0.1899999976158142
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "mesh_1116",
+    "parent": "entry-key-tray",
+    "material": "",
+    "color": "79796e",
+    "metal": 0.5,
+    "map": null,
+    "size": [
+      0.041999999433755875,
+      0.006000000052154064,
+      0.041999999433755875
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "mesh_1117",
+    "parent": "entry-key-tray",
+    "material": "",
+    "color": "79796e",
+    "metal": 0.5,
+    "map": null,
+    "size": [
+      0.0430000014603138,
+      0.003000000026077032,
+      0.013000000268220901
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "mesh_1118",
+    "parent": "entry-key-tray",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.07500000298023224,
+      0.008999999612569809,
+      0.10999999940395355
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "mesh_1119",
+    "parent": "entry-key-tray",
+    "material": "",
+    "color": "536268",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.06199999898672104,
+      0.0010000000474974513,
+      0.0820000022649765
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "mesh_1120",
+    "parent": "entry-vase-arrangement",
+    "material": "",
+    "color": "e8e3d8",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.11999999731779099,
+      0.1599999964237213,
+      0.11999999731779099
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "mesh_1122",
+    "parent": "entry-vase-arrangement",
+    "material": "",
+    "color": "7a8172",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.07000000000000028,
+      0.03500000000000014,
+      0.015000000000000568
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "mesh_1124",
+    "parent": "entry-vase-arrangement",
+    "material": "",
+    "color": "7a8172",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.07821067318347374,
+      0.06427517736845711,
+      0.015000000000000568
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "mesh_1126",
+    "parent": "entry-vase-arrangement",
+    "material": "",
+    "color": "7a8172",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.06727264587904536,
+      0.07781354964193765,
+      0.015000000000000568
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "entry-door-tall-leaf--1",
+    "parent": "entry-door-tall-hinge--1",
+    "material": "warm-greige-cabinet",
+    "color": "d6d1c7",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.3930000066757202,
+      2.430000066757202,
+      0.017999999225139618
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "entry-recessed-finger-edge",
+    "parent": "entry-door-tall-hinge--1",
+    "material": "",
+    "color": "77796d",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.00800000037997961,
+      0.18000000715255737,
+      0.004000000189989805
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "entry-cabinet-hinge-envelope",
+    "parent": "entry-door-tall-hinge--1",
+    "material": "",
+    "color": "92928a",
+    "metal": 0.7,
+    "map": null,
+    "size": [
+      0.01600000075995922,
+      0.05000000074505806,
+      0.01600000075995922
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "entry-cabinet-hinge-envelope",
+    "parent": "entry-door-tall-hinge--1",
+    "material": "",
+    "color": "92928a",
+    "metal": 0.7,
+    "map": null,
+    "size": [
+      0.01600000075995922,
+      0.05000000074505806,
+      0.01600000075995922
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "entry-door-tall-leaf-1",
+    "parent": "entry-door-tall-hinge-1",
+    "material": "warm-greige-cabinet",
+    "color": "d6d1c7",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.3930000066757202,
+      2.430000066757202,
+      0.017999999225139618
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "entry-recessed-finger-edge",
+    "parent": "entry-door-tall-hinge-1",
+    "material": "",
+    "color": "77796d",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.00800000037997961,
+      0.18000000715255737,
+      0.004000000189989805
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "entry-cabinet-hinge-envelope",
+    "parent": "entry-door-tall-hinge-1",
+    "material": "",
+    "color": "92928a",
+    "metal": 0.7,
+    "map": null,
+    "size": [
+      0.01600000075995922,
+      0.05000000074505806,
+      0.01600000075995922
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "entry-cabinet-hinge-envelope",
+    "parent": "entry-door-tall-hinge-1",
+    "material": "",
+    "color": "92928a",
+    "metal": 0.7,
+    "map": null,
+    "size": [
+      0.01600000075995922,
+      0.05000000074505806,
+      0.01600000075995922
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "entry-door-lower-leaf--1",
+    "parent": "entry-door-lower-hinge--1",
+    "material": "warm-greige-cabinet",
+    "color": "d6d1c7",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.3930000066757202,
+      0.7179999947547913,
+      0.017999999225139618
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "entry-recessed-finger-edge",
+    "parent": "entry-door-lower-hinge--1",
+    "material": "",
+    "color": "77796d",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.00800000037997961,
+      0.18000000715255737,
+      0.004000000189989805
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "entry-cabinet-hinge-envelope",
+    "parent": "entry-door-lower-hinge--1",
+    "material": "",
+    "color": "92928a",
+    "metal": 0.7,
+    "map": null,
+    "size": [
+      0.01600000075995922,
+      0.05000000074505806,
+      0.01600000075995922
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "entry-cabinet-hinge-envelope",
+    "parent": "entry-door-lower-hinge--1",
+    "material": "",
+    "color": "92928a",
+    "metal": 0.7,
+    "map": null,
+    "size": [
+      0.01600000075995922,
+      0.05000000074505806,
+      0.01600000075995922
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "entry-door-lower-leaf-1",
+    "parent": "entry-door-lower-hinge-1",
+    "material": "warm-greige-cabinet",
+    "color": "d6d1c7",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.3930000066757202,
+      0.7179999947547913,
+      0.017999999225139618
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "entry-recessed-finger-edge",
+    "parent": "entry-door-lower-hinge-1",
+    "material": "",
+    "color": "77796d",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.00800000037997961,
+      0.18000000715255737,
+      0.004000000189989805
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "entry-cabinet-hinge-envelope",
+    "parent": "entry-door-lower-hinge-1",
+    "material": "",
+    "color": "92928a",
+    "metal": 0.7,
+    "map": null,
+    "size": [
+      0.01600000075995922,
+      0.05000000074505806,
+      0.01600000075995922
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "entry-cabinet-hinge-envelope",
+    "parent": "entry-door-lower-hinge-1",
+    "material": "",
+    "color": "92928a",
+    "metal": 0.7,
+    "map": null,
+    "size": [
+      0.01600000075995922,
+      0.05000000074505806,
+      0.01600000075995922
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "entry-door-upper-leaf--1",
+    "parent": "entry-door-upper-hinge--1",
+    "material": "warm-greige-cabinet",
+    "color": "d6d1c7",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.3930000066757202,
+      1.1399999856948853,
+      0.017999999225139618
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "entry-recessed-finger-edge",
+    "parent": "entry-door-upper-hinge--1",
+    "material": "",
+    "color": "77796d",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.00800000037997961,
+      0.18000000715255737,
+      0.004000000189989805
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "entry-cabinet-hinge-envelope",
+    "parent": "entry-door-upper-hinge--1",
+    "material": "",
+    "color": "92928a",
+    "metal": 0.7,
+    "map": null,
+    "size": [
+      0.01600000075995922,
+      0.05000000074505806,
+      0.01600000075995922
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "entry-cabinet-hinge-envelope",
+    "parent": "entry-door-upper-hinge--1",
+    "material": "",
+    "color": "92928a",
+    "metal": 0.7,
+    "map": null,
+    "size": [
+      0.01600000075995922,
+      0.05000000074505806,
+      0.01600000075995922
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "entry-door-upper-leaf-1",
+    "parent": "entry-door-upper-hinge-1",
+    "material": "warm-greige-cabinet",
+    "color": "d6d1c7",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.3930000066757202,
+      1.1399999856948853,
+      0.017999999225139618
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "entry-recessed-finger-edge",
+    "parent": "entry-door-upper-hinge-1",
+    "material": "",
+    "color": "77796d",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.00800000037997961,
+      0.18000000715255737,
+      0.004000000189989805
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "entry-cabinet-hinge-envelope",
+    "parent": "entry-door-upper-hinge-1",
+    "material": "",
+    "color": "92928a",
+    "metal": 0.7,
+    "map": null,
+    "size": [
+      0.01600000075995922,
+      0.05000000074505806,
+      0.01600000075995922
+    ]
+  },
+  {
+    "root": "flush-entry-cabinet",
+    "name": "entry-cabinet-hinge-envelope",
+    "parent": "entry-door-upper-hinge-1",
+    "material": "",
+    "color": "92928a",
+    "metal": 0.7,
+    "map": null,
+    "size": [
+      0.01600000075995922,
+      0.05000000074505806,
+      0.01600000075995922
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_642",
+    "parent": "flush-sideboard",
+    "material": "",
+    "color": "ffffff",
+    "metal": 0,
+    "map": null,
+    "size": [
+      3.9000000953674316,
+      2.690000057220459,
+      0.026000000536441803
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_643",
+    "parent": "flush-sideboard",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      3.799999952316284,
+      0.07999999821186066,
+      0.5
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_644",
+    "parent": "sideboard-base-storage",
+    "material": "",
+    "color": "ffffff",
+    "metal": 0,
+    "map": null,
+    "size": [
+      3.9000000953674316,
+      0.017999999225139618,
+      0.550000011920929
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_645",
+    "parent": "sideboard-base-storage",
+    "material": "",
+    "color": "ffffff",
+    "metal": 0,
+    "map": null,
+    "size": [
+      3.9000000953674316,
+      0.017999999225139618,
+      0.5299999713897705
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_646",
+    "parent": "sideboard-base-storage",
+    "material": "",
+    "color": "ffffff",
+    "metal": 0,
+    "map": null,
+    "size": [
+      3.9000000953674316,
+      0.017999999225139618,
+      0.5299999713897705
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_647",
+    "parent": "sideboard-base-storage",
+    "material": "",
+    "color": "ffffff",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.017999999225139618,
+      0.7200000286102295,
+      0.5299999713897705
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_648",
+    "parent": "sideboard-base-storage",
+    "material": "",
+    "color": "ffffff",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.017999999225139618,
+      0.7200000286102295,
+      0.5299999713897705
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_649",
+    "parent": "sideboard-base-storage",
+    "material": "",
+    "color": "ffffff",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.017999999225139618,
+      0.7200000286102295,
+      0.5299999713897705
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_650",
+    "parent": "sideboard-base-storage",
+    "material": "",
+    "color": "ffffff",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.017999999225139618,
+      0.7200000286102295,
+      0.5299999713897705
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_651",
+    "parent": "sideboard-base-storage",
+    "material": "",
+    "color": "ffffff",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.017999999225139618,
+      0.7200000286102295,
+      0.5299999713897705
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_652",
+    "parent": "sideboard-base-storage",
+    "material": "",
+    "color": "ffffff",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.017999999225139618,
+      0.7200000286102295,
+      0.5299999713897705
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_653",
+    "parent": "sideboard-base-storage",
+    "material": "",
+    "color": "ffffff",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.017999999225139618,
+      0.7200000286102295,
+      0.5299999713897705
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "sideboard-base-bevel-0",
+    "parent": "sideboard-base-storage",
+    "material": "warm-greige-cabinet",
+    "color": "d6d1c7",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.6460000276565552,
+      0.5119999945163727,
+      0.022000014781951904
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "sideboard-base-bevel-1",
+    "parent": "sideboard-base-storage",
+    "material": "warm-greige-cabinet",
+    "color": "d6d1c7",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.6460000276565552,
+      0.5119999945163727,
+      0.022000014781951904
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "sideboard-base-bevel-2",
+    "parent": "sideboard-base-storage",
+    "material": "warm-greige-cabinet",
+    "color": "d6d1c7",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.6460000276565552,
+      0.5119999945163727,
+      0.022000014781951904
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "sideboard-base-bevel-3",
+    "parent": "sideboard-base-storage",
+    "material": "warm-greige-cabinet",
+    "color": "d6d1c7",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.6460000276565552,
+      0.5119999945163727,
+      0.022000014781951904
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "sideboard-base-bevel-4",
+    "parent": "sideboard-base-storage",
+    "material": "warm-greige-cabinet",
+    "color": "d6d1c7",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.6460000276565552,
+      0.5119999945163727,
+      0.022000014781951904
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "sideboard-base-bevel-5",
+    "parent": "sideboard-base-storage",
+    "material": "warm-greige-cabinet",
+    "color": "d6d1c7",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.6460000276565552,
+      0.5119999945163727,
+      0.022000014781951904
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "sideboard-drawer-bevel-0",
+    "parent": "sideboard-drawer-bank",
+    "material": "warm-greige-cabinet",
+    "color": "d6d1c7",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.6460000276565552,
+      0.20200002193450928,
+      0.022000014781951904
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_661",
+    "parent": "sideboard-drawer-tray-0",
+    "material": "",
+    "color": "ffffff",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.5879999995231628,
+      0.012000000104308128,
+      0.47999998927116394
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_662",
+    "parent": "sideboard-drawer-tray-0",
+    "material": "",
+    "color": "ffffff",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.012000000104308128,
+      0.12999999523162842,
+      0.47999998927116394
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_663",
+    "parent": "sideboard-drawer-tray-0",
+    "material": "",
+    "color": "ffffff",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.012000000104308128,
+      0.12999999523162842,
+      0.47999998927116394
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_664",
+    "parent": "sideboard-drawer-tray-0",
+    "material": "",
+    "color": "ffffff",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.5759999752044678,
+      0.12999999523162842,
+      0.012000000104308128
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_665",
+    "parent": "sideboard-drawer-tray-0",
+    "material": "",
+    "color": "ffffff",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.5759999752044678,
+      0.12999999523162842,
+      0.012000000104308128
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "sideboard-drawer-bevel-1",
+    "parent": "sideboard-drawer-bank",
+    "material": "warm-greige-cabinet",
+    "color": "d6d1c7",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.6460000276565552,
+      0.20200002193450928,
+      0.022000014781951904
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_667",
+    "parent": "sideboard-drawer-tray-1",
+    "material": "",
+    "color": "ffffff",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.5879999995231628,
+      0.012000000104308128,
+      0.47999998927116394
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_668",
+    "parent": "sideboard-drawer-tray-1",
+    "material": "",
+    "color": "ffffff",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.012000000104308128,
+      0.12999999523162842,
+      0.47999998927116394
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_669",
+    "parent": "sideboard-drawer-tray-1",
+    "material": "",
+    "color": "ffffff",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.012000000104308128,
+      0.12999999523162842,
+      0.47999998927116394
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_670",
+    "parent": "sideboard-drawer-tray-1",
+    "material": "",
+    "color": "ffffff",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.5759999752044678,
+      0.12999999523162842,
+      0.012000000104308128
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_671",
+    "parent": "sideboard-drawer-tray-1",
+    "material": "",
+    "color": "ffffff",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.5759999752044678,
+      0.12999999523162842,
+      0.012000000104308128
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "sideboard-drawer-bevel-2",
+    "parent": "sideboard-drawer-bank",
+    "material": "warm-greige-cabinet",
+    "color": "d6d1c7",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.6460000276565552,
+      0.20200002193450928,
+      0.022000014781951904
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_673",
+    "parent": "sideboard-drawer-tray-2",
+    "material": "",
+    "color": "ffffff",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.5879999995231628,
+      0.012000000104308128,
+      0.47999998927116394
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_674",
+    "parent": "sideboard-drawer-tray-2",
+    "material": "",
+    "color": "ffffff",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.012000000104308128,
+      0.12999999523162842,
+      0.47999998927116394
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_675",
+    "parent": "sideboard-drawer-tray-2",
+    "material": "",
+    "color": "ffffff",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.012000000104308128,
+      0.12999999523162842,
+      0.47999998927116394
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_676",
+    "parent": "sideboard-drawer-tray-2",
+    "material": "",
+    "color": "ffffff",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.5759999752044678,
+      0.12999999523162842,
+      0.012000000104308128
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_677",
+    "parent": "sideboard-drawer-tray-2",
+    "material": "",
+    "color": "ffffff",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.5759999752044678,
+      0.12999999523162842,
+      0.012000000104308128
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "sideboard-drawer-bevel-3",
+    "parent": "sideboard-drawer-bank",
+    "material": "warm-greige-cabinet",
+    "color": "d6d1c7",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.6460000276565552,
+      0.20200002193450928,
+      0.022000014781951904
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_679",
+    "parent": "sideboard-drawer-tray-3",
+    "material": "",
+    "color": "ffffff",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.5879999995231628,
+      0.012000000104308128,
+      0.47999998927116394
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_680",
+    "parent": "sideboard-drawer-tray-3",
+    "material": "",
+    "color": "ffffff",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.012000000104308128,
+      0.12999999523162842,
+      0.47999998927116394
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_681",
+    "parent": "sideboard-drawer-tray-3",
+    "material": "",
+    "color": "ffffff",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.012000000104308128,
+      0.12999999523162842,
+      0.47999998927116394
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_682",
+    "parent": "sideboard-drawer-tray-3",
+    "material": "",
+    "color": "ffffff",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.5759999752044678,
+      0.12999999523162842,
+      0.012000000104308128
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_683",
+    "parent": "sideboard-drawer-tray-3",
+    "material": "",
+    "color": "ffffff",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.5759999752044678,
+      0.12999999523162842,
+      0.012000000104308128
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "sideboard-drawer-bevel-4",
+    "parent": "sideboard-drawer-bank",
+    "material": "warm-greige-cabinet",
+    "color": "d6d1c7",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.6460000276565552,
+      0.20200002193450928,
+      0.022000014781951904
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_685",
+    "parent": "sideboard-drawer-tray-4",
+    "material": "",
+    "color": "ffffff",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.5879999995231628,
+      0.012000000104308128,
+      0.47999998927116394
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_686",
+    "parent": "sideboard-drawer-tray-4",
+    "material": "",
+    "color": "ffffff",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.012000000104308128,
+      0.12999999523162842,
+      0.47999998927116394
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_687",
+    "parent": "sideboard-drawer-tray-4",
+    "material": "",
+    "color": "ffffff",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.012000000104308128,
+      0.12999999523162842,
+      0.47999998927116394
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_688",
+    "parent": "sideboard-drawer-tray-4",
+    "material": "",
+    "color": "ffffff",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.5759999752044678,
+      0.12999999523162842,
+      0.012000000104308128
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_689",
+    "parent": "sideboard-drawer-tray-4",
+    "material": "",
+    "color": "ffffff",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.5759999752044678,
+      0.12999999523162842,
+      0.012000000104308128
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "sideboard-drawer-bevel-5",
+    "parent": "sideboard-drawer-bank",
+    "material": "warm-greige-cabinet",
+    "color": "d6d1c7",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.6460000276565552,
+      0.20200002193450928,
+      0.022000014781951904
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_691",
+    "parent": "sideboard-drawer-tray-5",
+    "material": "",
+    "color": "ffffff",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.5879999995231628,
+      0.012000000104308128,
+      0.47999998927116394
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_692",
+    "parent": "sideboard-drawer-tray-5",
+    "material": "",
+    "color": "ffffff",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.012000000104308128,
+      0.12999999523162842,
+      0.47999998927116394
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_693",
+    "parent": "sideboard-drawer-tray-5",
+    "material": "",
+    "color": "ffffff",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.012000000104308128,
+      0.12999999523162842,
+      0.47999998927116394
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_694",
+    "parent": "sideboard-drawer-tray-5",
+    "material": "",
+    "color": "ffffff",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.5759999752044678,
+      0.12999999523162842,
+      0.012000000104308128
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_695",
+    "parent": "sideboard-drawer-tray-5",
+    "material": "",
+    "color": "ffffff",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.5759999752044678,
+      0.12999999523162842,
+      0.012000000104308128
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "sideboard-upper-bottom",
+    "parent": "sideboard-upper-storage",
+    "material": "",
+    "color": "ffffff",
+    "metal": 0,
+    "map": null,
+    "size": [
+      3.9000000953674316,
+      0.017999999225139618,
+      0.29899999499320984
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_697",
+    "parent": "sideboard-upper-storage",
+    "material": "",
+    "color": "ffffff",
+    "metal": 0,
+    "map": null,
+    "size": [
+      3.9000000953674316,
+      0.017999999225139618,
+      0.3199999928474426
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_698",
+    "parent": "sideboard-upper-storage",
+    "material": "",
+    "color": "ffffff",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.017999999225139618,
+      0.9589999914169312,
+      0.3199999928474426
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_699",
+    "parent": "sideboard-upper-storage",
+    "material": "",
+    "color": "ffffff",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.017999999225139618,
+      0.9589999914169312,
+      0.3199999928474426
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_700",
+    "parent": "sideboard-upper-storage",
+    "material": "",
+    "color": "ffffff",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.017999999225139618,
+      0.9589999914169312,
+      0.3199999928474426
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_701",
+    "parent": "sideboard-upper-storage",
+    "material": "",
+    "color": "ffffff",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.017999999225139618,
+      0.9589999914169312,
+      0.3199999928474426
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_702",
+    "parent": "sideboard-upper-storage",
+    "material": "",
+    "color": "ffffff",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.017999999225139618,
+      0.9589999914169312,
+      0.3199999928474426
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_703",
+    "parent": "sideboard-upper-storage",
+    "material": "",
+    "color": "ffffff",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.017999999225139618,
+      0.9589999914169312,
+      0.3199999928474426
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_704",
+    "parent": "sideboard-upper-storage",
+    "material": "",
+    "color": "ffffff",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.017999999225139618,
+      0.9589999914169312,
+      0.3199999928474426
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "sideboard-upper-extended-door-0",
+    "parent": "sideboard-upper-storage",
+    "material": "warm-greige-cabinet",
+    "color": "d6d1c7",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.6460000276565552,
+      1.0160000324249268,
+      0.019999999552965164
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "sideboard-upper-extended-door-1",
+    "parent": "sideboard-upper-storage",
+    "material": "warm-greige-cabinet",
+    "color": "d6d1c7",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.6460000276565552,
+      1.0160000324249268,
+      0.019999999552965164
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "sideboard-upper-extended-door-2",
+    "parent": "sideboard-upper-storage",
+    "material": "warm-greige-cabinet",
+    "color": "d6d1c7",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.6460000276565552,
+      1.0160000324249268,
+      0.019999999552965164
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "sideboard-upper-extended-door-3",
+    "parent": "sideboard-upper-storage",
+    "material": "warm-greige-cabinet",
+    "color": "d6d1c7",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.6460000276565552,
+      1.0160000324249268,
+      0.019999999552965164
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "sideboard-upper-extended-door-4",
+    "parent": "sideboard-upper-storage",
+    "material": "warm-greige-cabinet",
+    "color": "d6d1c7",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.6460000276565552,
+      1.0160000324249268,
+      0.019999999552965164
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "sideboard-upper-extended-door-5",
+    "parent": "sideboard-upper-storage",
+    "material": "warm-greige-cabinet",
+    "color": "d6d1c7",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.6460000276565552,
+      1.0160000324249268,
+      0.019999999552965164
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_711",
+    "parent": "sideboard-open-workzone",
+    "material": "",
+    "color": "ffffff",
+    "metal": 0,
+    "map": null,
+    "size": [
+      3.24399995803833,
+      0.8399999737739563,
+      0.014999999664723873
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "sideboard-recessed-task-light",
+    "parent": "sideboard-open-workzone",
+    "material": "",
+    "color": "fff1d7",
+    "metal": 0,
+    "map": null,
+    "size": [
+      3.1600000858306885,
+      0.00800000037997961,
+      0.012000000104308128
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "sideboard-600mm-worktop",
+    "parent": "flush-sideboard",
+    "material": "",
+    "color": "ffffff",
+    "metal": 0,
+    "map": null,
+    "size": [
+      3.9000000953674316,
+      0.03500000014901161,
+      0.6000000238418579
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_714",
+    "parent": "flush-sideboard",
+    "material": "",
+    "color": "ffffff",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.11999999731779099,
+      0.8450000286102295,
+      0.5600000023841858
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_715",
+    "parent": "flush-sideboard",
+    "material": "warm-greige-cabinet",
+    "color": "d6d1c7",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.11599999666213989,
+      0.8450000286102295,
+      0.02199999988079071
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_716",
+    "parent": "flush-sideboard",
+    "material": "",
+    "color": "ffffff",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.11999999731779099,
+      0.8450000286102295,
+      0.5600000023841858
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_717",
+    "parent": "flush-sideboard",
+    "material": "warm-greige-cabinet",
+    "color": "d6d1c7",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.11599999666213989,
+      0.8450000286102295,
+      0.02199999988079071
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_718",
+    "parent": "flush-sideboard",
+    "material": "",
+    "color": "ffffff",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.6499999761581421,
+      0.014999999664723873,
+      0.5600000023841858
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "dispenser-concealed-body",
+    "parent": "flush-sideboard",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.3799999952316284,
+      0.4399999976158142,
+      0.2800000011920929
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "dispenser-flush-face",
+    "parent": "flush-sideboard",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.39800000190734863,
+      0.45500001311302185,
+      0.012000000104308128
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_721",
+    "parent": "flush-sideboard",
+    "material": "",
+    "color": "ffffff",
+    "map": null,
+    "size": [
+      0.23999999463558197,
+      0.11999999731779099,
+      0
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_722",
+    "parent": "flush-sideboard",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.4000000059604645,
+      0.3400000035762787,
+      0.017999999225139618
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_723",
+    "parent": "flush-sideboard",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.014000000432133675,
+      0.3400000035762787,
+      0.28999999165534973
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_724",
+    "parent": "flush-sideboard",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.014000000432133675,
+      0.3400000035762787,
+      0.28999999165534973
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_725",
+    "parent": "flush-sideboard",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.4000000059604645,
+      0.019999999552965164,
+      0.3019999861717224
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_726",
+    "parent": "flush-sideboard",
+    "material": "",
+    "color": "79796e",
+    "metal": 0.5,
+    "map": null,
+    "size": [
+      0.01600000075995922,
+      0.003000000026077032,
+      0.14000000059604645
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_727",
+    "parent": "flush-sideboard",
+    "material": "",
+    "color": "79796e",
+    "metal": 0.5,
+    "map": null,
+    "size": [
+      0.01600000075995922,
+      0.003000000026077032,
+      0.14000000059604645
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_728",
+    "parent": "flush-sideboard",
+    "material": "",
+    "color": "79796e",
+    "metal": 0.5,
+    "map": null,
+    "size": [
+      0.01600000075995922,
+      0.003000000026077032,
+      0.14000000059604645
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_729",
+    "parent": "flush-sideboard",
+    "material": "",
+    "color": "79796e",
+    "metal": 0.5,
+    "map": null,
+    "size": [
+      0.01600000075995922,
+      0.003000000026077032,
+      0.14000000059604645
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_730",
+    "parent": "flush-sideboard",
+    "material": "",
+    "color": "79796e",
+    "metal": 0.5,
+    "map": null,
+    "size": [
+      0.01600000075995922,
+      0.003000000026077032,
+      0.14000000059604645
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_731",
+    "parent": "flush-sideboard",
+    "material": "",
+    "color": "79796e",
+    "metal": 0.5,
+    "map": null,
+    "size": [
+      0.01600000075995922,
+      0.003000000026077032,
+      0.14000000059604645
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_732",
+    "parent": "flush-sideboard",
+    "material": "",
+    "color": "79796e",
+    "metal": 0.5,
+    "map": null,
+    "size": [
+      0.01600000075995922,
+      0.003000000026077032,
+      0.14000000059604645
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_733",
+    "parent": "flush-sideboard",
+    "material": "",
+    "color": "79796e",
+    "metal": 0.5,
+    "map": null,
+    "size": [
+      0.01600000075995922,
+      0.003000000026077032,
+      0.14000000059604645
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_734",
+    "parent": "flush-sideboard",
+    "material": "",
+    "color": "79796e",
+    "metal": 0.5,
+    "map": null,
+    "size": [
+      0.01600000075995922,
+      0.003000000026077032,
+      0.14000000059604645
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_735",
+    "parent": "flush-sideboard",
+    "material": "",
+    "color": "79796e",
+    "metal": 0.5,
+    "map": null,
+    "size": [
+      0.026000000536441803,
+      0.07000000029802322,
+      0.026000000536441803
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_736",
+    "parent": "flush-sideboard",
+    "material": "warm-linen",
+    "color": "e8e3d8",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.07599999755620956,
+      0.09000000357627869,
+      0.07599999755620956
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_737",
+    "parent": "espresso-machine",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.28999999165534973,
+      0.3400000035762787,
+      0.30000001192092896
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_738",
+    "parent": "espresso-machine",
+    "material": "",
+    "color": "bfc2bc",
+    "metal": 0.8,
+    "map": null,
+    "size": [
+      0.2549999952316284,
+      0.12999999523162842,
+      0.00800000037997961
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_739",
+    "parent": "espresso-machine",
+    "material": "",
+    "color": "bfc2bc",
+    "metal": 0.8,
+    "map": null,
+    "size": [
+      0.26499998569488525,
+      0.02199999988079071,
+      0.12999999523162842
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_740",
+    "parent": "espresso-machine",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.006000000052154064,
+      0.003000000026077032,
+      0.11999999731779099
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_741",
+    "parent": "espresso-machine",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.006000000052154064,
+      0.003000000026077032,
+      0.11999999731779099
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_742",
+    "parent": "espresso-machine",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.006000000052154064,
+      0.003000000026077032,
+      0.11999999731779099
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_743",
+    "parent": "espresso-machine",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.006000000052154064,
+      0.003000000026077032,
+      0.11999999731779099
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_744",
+    "parent": "espresso-machine",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.006000000052154064,
+      0.003000000026077032,
+      0.11999999731779099
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_745",
+    "parent": "espresso-machine",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.006000000052154064,
+      0.003000000026077032,
+      0.11999999731779099
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_746",
+    "parent": "espresso-machine",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.006000000052154064,
+      0.003000000026077032,
+      0.11999999731779099
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_747",
+    "parent": "espresso-machine",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.006000000052154064,
+      0.003000000026077032,
+      0.11999999731779099
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_748",
+    "parent": "espresso-machine",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.006000000052154064,
+      0.003000000026077032,
+      0.11999999731779099
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_749",
+    "parent": "espresso-machine",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.006000000052154064,
+      0.003000000026077032,
+      0.11999999731779099
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_750",
+    "parent": "espresso-machine",
+    "material": "",
+    "color": "79796e",
+    "metal": 0.5,
+    "map": null,
+    "size": [
+      0.035999998450279236,
+      0.035999998450279236,
+      0.00800000037997961
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_751",
+    "parent": "espresso-machine",
+    "material": "",
+    "color": "79796e",
+    "metal": 0.5,
+    "map": null,
+    "size": [
+      0.035999998450279236,
+      0.035999998450279236,
+      0.00800000037997961
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_752",
+    "parent": "espresso-machine",
+    "material": "",
+    "color": "79796e",
+    "metal": 0.5,
+    "map": null,
+    "size": [
+      0.035999998450279236,
+      0.035999998450279236,
+      0.00800000037997961
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_753",
+    "parent": "espresso-machine",
+    "material": "",
+    "color": "bfc2bc",
+    "metal": 0.8,
+    "map": null,
+    "size": [
+      0.06199999898672104,
+      0.03700000047683716,
+      0.06199999898672104
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_754",
+    "parent": "espresso-machine",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.10999999940395355,
+      0.01600000075995922,
+      0.01899999938905239
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_755",
+    "parent": "espresso-machine",
+    "material": "",
+    "color": "bfc2bc",
+    "metal": 0.8,
+    "map": null,
+    "size": [
+      0.053759172558784485,
+      0.13478589802980423,
+      0.05127224326133728
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_756",
+    "parent": "espresso-machine",
+    "material": "warm-linen",
+    "color": "e8e3d8",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.07400000095367432,
+      0.0649999976158141,
+      0.07400000095367432
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_757",
+    "parent": "espresso-machine",
+    "material": "warm-linen",
+    "color": "e8e3d8",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.057999998331069946,
+      0.05799999833107006,
+      0.009510565549135208
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_758",
+    "parent": "flush-sideboard",
+    "material": "",
+    "color": "ffffff",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.5199999809265137,
+      0.02500000037252903,
+      0.30000001192092896
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_759",
+    "parent": "flush-sideboard",
+    "material": "warm-linen",
+    "color": "e8e3d8",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.1459999978542328,
+      0.14000000059604645,
+      0.1459999978542328
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_760",
+    "parent": "flush-sideboard",
+    "material": "",
+    "color": "ffffff",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.15199999511241913,
+      0.014000000432133675,
+      0.15199999511241913
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_761",
+    "parent": "flush-sideboard",
+    "material": "warm-linen",
+    "color": "e8e3d8",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.1459999978542328,
+      0.14000000059604645,
+      0.1459999978542328
+    ]
+  },
+  {
+    "root": "flush-sideboard",
+    "name": "mesh_762",
+    "parent": "flush-sideboard",
+    "material": "",
+    "color": "ffffff",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.15199999511241913,
+      0.014000000432133675,
+      0.15199999511241913
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_940",
+    "parent": "balcony-laundry-cabinet",
+    "material": "warm-greige-cabinet",
+    "color": "d6d1c7",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.7200000286102295,
+      2.7300000190734863,
+      0.024000000208616395
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_941",
+    "parent": "balcony-laundry-cabinet",
+    "material": "warm-greige-cabinet",
+    "color": "d6d1c7",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.7200000286102295,
+      2.7300000190734863,
+      0.02400000020861648
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_942",
+    "parent": "balcony-laundry-cabinet",
+    "material": "warm-greige-cabinet",
+    "color": "d6d1c7",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.7200000286102295,
+      2.7300000190734863,
+      0.024000000208616257
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_943",
+    "parent": "balcony-laundry-cabinet",
+    "material": "",
+    "color": "414540",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.699999988079071,
+      0.03999999910593033,
+      0.8759999871253967
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_944",
+    "parent": "balcony-laundry-cabinet",
+    "material": "warm-greige-cabinet",
+    "color": "d6d1c7",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.7200000286102295,
+      0.024000000208616257,
+      0.8999999761581421
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_945",
+    "parent": "balcony-laundry-cabinet",
+    "material": "",
+    "color": "ffffff",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.6899999976158142,
+      0.029999999329447746,
+      0.8759999871253967
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_946",
+    "parent": "balcony-laundry-cabinet",
+    "material": "warm-greige-cabinet",
+    "color": "d6d1c7",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.024000000208616257,
+      0.8889999985694885,
+      0.43399998545646673
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_947",
+    "parent": "balcony-laundry-cabinet",
+    "material": "warm-greige-cabinet",
+    "color": "d6d1c7",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.024000000208616257,
+      0.8889999985694885,
+      0.4339999854564667
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "laundry-cleaning-cabinet-door",
+    "parent": "balcony-laundry-cabinet",
+    "material": "warm-greige-cabinet",
+    "color": "d6d1c7",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.024000000208616257,
+      1.7239999771118164,
+      0.20399999618530273
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "laundry-task-strip",
+    "parent": "balcony-laundry-cabinet",
+    "material": "",
+    "color": "fff1d7",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.014000000432133675,
+      0.008999999612569809,
+      0.6100000143051147
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_950",
+    "parent": "laundry-washer",
+    "material": "",
+    "color": "e0e0db",
+    "metal": 0.14,
+    "map": null,
+    "size": [
+      0.6299999952316284,
+      0.8399999737739565,
+      0.6000000238418581
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_951",
+    "parent": "laundry-washer",
+    "material": "warm-white-paint",
+    "color": "eeeae2",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.008999999612569809,
+      0.12600000202655792,
+      0.5699999928474426
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_952",
+    "parent": "laundry-washer",
+    "material": "",
+    "color": "ffffff",
+    "map": null,
+    "size": [
+      0,
+      0.061000000685453415,
+      0.22499999403953552
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_953",
+    "parent": "laundry-washer",
+    "material": "",
+    "color": "969d9a",
+    "metal": 0.82,
+    "map": null,
+    "size": [
+      0.014000000432133675,
+      0.057999998331069946,
+      0.057999998331069946
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_954",
+    "parent": "laundry-washer",
+    "material": "warm-white-paint",
+    "color": "eeeae2",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.012000000104308128,
+      0.05999999865889549,
+      0.12999999523162842
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_955",
+    "parent": "laundry-washer",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.012000000104308128,
+      0.4300000071525573,
+      0.4300000071525574
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_956",
+    "parent": "laundry-washer",
+    "material": "",
+    "color": "969d9a",
+    "metal": 0.82,
+    "map": null,
+    "size": [
+      0.009999999776482582,
+      0.34999999403953547,
+      0.3499999940395355
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_957",
+    "parent": "laundry-washer",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.0020000000949949026,
+      0.009999999776482582,
+      0.009999999776482582
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_958",
+    "parent": "laundry-washer",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.0020000000949949026,
+      0.009999999776482582,
+      0.009999999776482582
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_959",
+    "parent": "laundry-washer",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.0020000000949949026,
+      0.009999999776482582,
+      0.009999999776482582
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_960",
+    "parent": "laundry-washer",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.0020000000949949026,
+      0.009999999776482582,
+      0.009999999776482582
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_961",
+    "parent": "laundry-washer",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.0020000000949949026,
+      0.009999999776482582,
+      0.009999999776482582
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_962",
+    "parent": "laundry-washer",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.0020000000949949026,
+      0.009999999776482582,
+      0.009999999776482582
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_963",
+    "parent": "laundry-washer",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.0020000000949949026,
+      0.009999999776482582,
+      0.009999999776482582
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_964",
+    "parent": "laundry-washer",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.0020000000949949026,
+      0.009999999776482582,
+      0.009999999776482582
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_965",
+    "parent": "laundry-washer",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.0020000000949949026,
+      0.009999999776482582,
+      0.009999999776482582
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_966",
+    "parent": "laundry-washer",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.0020000000949949026,
+      0.009999999776482582,
+      0.009999999776482582
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_967",
+    "parent": "laundry-washer",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.0020000000949949026,
+      0.009999999776482582,
+      0.009999999776482582
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_968",
+    "parent": "laundry-washer",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.0020000000949949026,
+      0.009999999776482582,
+      0.009999999776482527
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_969",
+    "parent": "laundry-washer",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.0020000000949949026,
+      0.009999999776482582,
+      0.009999999776482582
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_970",
+    "parent": "laundry-washer",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.0020000000949949026,
+      0.009999999776482582,
+      0.009999999776482582
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_971",
+    "parent": "laundry-washer",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.0020000000949949026,
+      0.009999999776482582,
+      0.009999999776482582
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_972",
+    "parent": "laundry-washer",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.0020000000949949026,
+      0.009999999776482582,
+      0.009999999776482582
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_973",
+    "parent": "laundry-washer",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.0020000000949949026,
+      0.009999999776482582,
+      0.009999999776482582
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_974",
+    "parent": "laundry-washer",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.0020000000949949026,
+      0.009999999776482582,
+      0.009999999776482582
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_975",
+    "parent": "laundry-washer",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.0020000000949949026,
+      0.009999999776482582,
+      0.009999999776482582
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_976",
+    "parent": "laundry-washer",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.0020000000949949026,
+      0.009999999776482582,
+      0.009999999776482582
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_977",
+    "parent": "laundry-washer",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.0020000000949949026,
+      0.009999999776482582,
+      0.009999999776482582
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_978",
+    "parent": "laundry-washer",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.0020000000949949026,
+      0.009999999776482582,
+      0.009999999776482582
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_979",
+    "parent": "laundry-washer",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.0020000000949949026,
+      0.009999999776482582,
+      0.009999999776482582
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_980",
+    "parent": "laundry-washer",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.0020000000949949026,
+      0.009999999776482582,
+      0.009999999776482582
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_981",
+    "parent": "laundry-washer",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.0020000000949949026,
+      0.009999999776482582,
+      0.009999999776482582
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_982",
+    "parent": "laundry-washer",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.0020000000949949026,
+      0.009999999776482582,
+      0.009999999776482582
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_983",
+    "parent": "laundry-washer",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.0020000000949949026,
+      0.009999999776482582,
+      0.009999999776482582
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_984",
+    "parent": "laundry-washer",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.0020000000949949026,
+      0.009999999776482582,
+      0.009999999776482582
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_985",
+    "parent": "laundry-washer",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.0020000000949949026,
+      0.009999999776482582,
+      0.009999999776482582
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_986",
+    "parent": "laundry-washer",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.0020000000949949026,
+      0.009999999776482582,
+      0.009999999776482582
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_987",
+    "parent": "laundry-washer",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.0020000000949949026,
+      0.009999999776482582,
+      0.009999999776482582
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_988",
+    "parent": "laundry-washer",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.0020000000949949026,
+      0.009999999776482582,
+      0.009999999776482582
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "washer-door-ring",
+    "parent": "laundry-washer",
+    "material": "",
+    "color": "969d9a",
+    "metal": 0.82,
+    "map": null,
+    "size": [
+      0.03799999877810478,
+      0.46200001239776606,
+      0.4620000123977661
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "washer-porthole",
+    "parent": "laundry-washer",
+    "material": "",
+    "color": "263a3d",
+    "metal": 0.28,
+    "map": null,
+    "size": [
+      0.008999999612569809,
+      0.356000006198883,
+      0.35600000619888306
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_991",
+    "parent": "laundry-washer",
+    "material": "",
+    "color": "414540",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.01600000075995922,
+      0.09000000357627869,
+      0.02500000037252903
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_992",
+    "parent": "laundry-washer",
+    "material": "",
+    "color": "e0e0db",
+    "metal": 0.14,
+    "map": null,
+    "size": [
+      0.00800000037997961,
+      0.025000000372529016,
+      0.5199999809265137
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_993",
+    "parent": "laundry-dryer",
+    "material": "",
+    "color": "e0e0db",
+    "metal": 0.14,
+    "map": null,
+    "size": [
+      0.6299999952316284,
+      0.8399999737739564,
+      0.6000000238418581
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_994",
+    "parent": "laundry-dryer",
+    "material": "warm-white-paint",
+    "color": "eeeae2",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.008999999612569809,
+      0.12600000202655792,
+      0.5699999928474426
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_995",
+    "parent": "laundry-dryer",
+    "material": "",
+    "color": "ffffff",
+    "map": null,
+    "size": [
+      0,
+      0.061000000685453415,
+      0.22499999403953552
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_996",
+    "parent": "laundry-dryer",
+    "material": "",
+    "color": "969d9a",
+    "metal": 0.82,
+    "map": null,
+    "size": [
+      0.014000000432133675,
+      0.057999998331069946,
+      0.057999998331069946
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_997",
+    "parent": "laundry-dryer",
+    "material": "warm-white-paint",
+    "color": "eeeae2",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.012000000104308128,
+      0.05999999865889549,
+      0.12999999523162842
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_998",
+    "parent": "laundry-dryer",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.012000000104308128,
+      0.4300000071525574,
+      0.4300000071525574
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_999",
+    "parent": "laundry-dryer",
+    "material": "",
+    "color": "969d9a",
+    "metal": 0.82,
+    "map": null,
+    "size": [
+      0.009999999776482582,
+      0.3499999940395355,
+      0.3499999940395355
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_1000",
+    "parent": "laundry-dryer",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.0020000000949949026,
+      0.009999999776482582,
+      0.009999999776482582
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_1001",
+    "parent": "laundry-dryer",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.0020000000949949026,
+      0.009999999776482582,
+      0.009999999776482582
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_1002",
+    "parent": "laundry-dryer",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.0020000000949949026,
+      0.009999999776482582,
+      0.009999999776482582
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_1003",
+    "parent": "laundry-dryer",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.0020000000949949026,
+      0.009999999776482582,
+      0.009999999776482582
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_1004",
+    "parent": "laundry-dryer",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.0020000000949949026,
+      0.009999999776482582,
+      0.009999999776482582
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_1005",
+    "parent": "laundry-dryer",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.0020000000949949026,
+      0.009999999776482582,
+      0.009999999776482582
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_1006",
+    "parent": "laundry-dryer",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.0020000000949949026,
+      0.009999999776482582,
+      0.009999999776482582
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_1007",
+    "parent": "laundry-dryer",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.0020000000949949026,
+      0.009999999776482582,
+      0.009999999776482582
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_1008",
+    "parent": "laundry-dryer",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.0020000000949949026,
+      0.009999999776482582,
+      0.009999999776482582
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_1009",
+    "parent": "laundry-dryer",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.0020000000949949026,
+      0.009999999776482582,
+      0.009999999776482582
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_1010",
+    "parent": "laundry-dryer",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.0020000000949949026,
+      0.009999999776482582,
+      0.009999999776482582
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_1011",
+    "parent": "laundry-dryer",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.0020000000949949026,
+      0.009999999776482582,
+      0.009999999776482527
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_1012",
+    "parent": "laundry-dryer",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.0020000000949949026,
+      0.009999999776482582,
+      0.009999999776482582
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_1013",
+    "parent": "laundry-dryer",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.0020000000949949026,
+      0.009999999776482582,
+      0.009999999776482582
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_1014",
+    "parent": "laundry-dryer",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.0020000000949949026,
+      0.009999999776482582,
+      0.009999999776482582
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_1015",
+    "parent": "laundry-dryer",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.0020000000949949026,
+      0.009999999776482582,
+      0.009999999776482582
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_1016",
+    "parent": "laundry-dryer",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.0020000000949949026,
+      0.009999999776482582,
+      0.009999999776482582
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_1017",
+    "parent": "laundry-dryer",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.0020000000949949026,
+      0.009999999776482582,
+      0.009999999776482582
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_1018",
+    "parent": "laundry-dryer",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.0020000000949949026,
+      0.009999999776482582,
+      0.009999999776482582
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_1019",
+    "parent": "laundry-dryer",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.0020000000949949026,
+      0.009999999776482582,
+      0.009999999776482582
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_1020",
+    "parent": "laundry-dryer",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.0020000000949949026,
+      0.009999999776482582,
+      0.009999999776482582
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_1021",
+    "parent": "laundry-dryer",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.0020000000949949026,
+      0.009999999776482582,
+      0.009999999776482582
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_1022",
+    "parent": "laundry-dryer",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.0020000000949949026,
+      0.009999999776482582,
+      0.009999999776482582
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_1023",
+    "parent": "laundry-dryer",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.0020000000949949026,
+      0.009999999776482582,
+      0.009999999776482582
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_1024",
+    "parent": "laundry-dryer",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.0020000000949949026,
+      0.009999999776482582,
+      0.009999999776482582
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_1025",
+    "parent": "laundry-dryer",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.0020000000949949026,
+      0.009999999776482582,
+      0.009999999776482582
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_1026",
+    "parent": "laundry-dryer",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.0020000000949949026,
+      0.009999999776482582,
+      0.009999999776482582
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_1027",
+    "parent": "laundry-dryer",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.0020000000949949026,
+      0.009999999776482582,
+      0.009999999776482582
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_1028",
+    "parent": "laundry-dryer",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.0020000000949949026,
+      0.009999999776482582,
+      0.009999999776482582
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_1029",
+    "parent": "laundry-dryer",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.0020000000949949026,
+      0.009999999776482582,
+      0.009999999776482582
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_1030",
+    "parent": "laundry-dryer",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.0020000000949949026,
+      0.009999999776482582,
+      0.009999999776482582
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_1031",
+    "parent": "laundry-dryer",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.0020000000949949026,
+      0.009999999776482582,
+      0.009999999776482582
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "dryer-door-ring",
+    "parent": "laundry-dryer",
+    "material": "",
+    "color": "414540",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.03799999877810478,
+      0.4620000123977661,
+      0.4620000123977661
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "dryer-porthole",
+    "parent": "laundry-dryer",
+    "material": "",
+    "color": "263a3d",
+    "metal": 0.28,
+    "map": null,
+    "size": [
+      0.008999999612569809,
+      0.35600000619888306,
+      0.35600000619888306
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_1034",
+    "parent": "laundry-dryer",
+    "material": "",
+    "color": "414540",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.01600000075995922,
+      0.09000000357627869,
+      0.02500000037252903
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_1035",
+    "parent": "laundry-dryer",
+    "material": "",
+    "color": "414540",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.004999999888241291,
+      0.03999999910593033,
+      0.013000000268220901
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_1036",
+    "parent": "laundry-dryer",
+    "material": "",
+    "color": "414540",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.004999999888241291,
+      0.03999999910593033,
+      0.013000000268220901
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_1037",
+    "parent": "laundry-dryer",
+    "material": "",
+    "color": "414540",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.004999999888241291,
+      0.03999999910593033,
+      0.013000000268220901
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_1038",
+    "parent": "laundry-dryer",
+    "material": "",
+    "color": "414540",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.004999999888241291,
+      0.03999999910593033,
+      0.013000000268220901
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_1039",
+    "parent": "laundry-dryer",
+    "material": "",
+    "color": "414540",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.004999999888241291,
+      0.03999999910593033,
+      0.013000000268220901
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_1040",
+    "parent": "laundry-dryer",
+    "material": "",
+    "color": "414540",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.004999999888241291,
+      0.03999999910593033,
+      0.013000000268220901
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_1041",
+    "parent": "laundry-dryer",
+    "material": "",
+    "color": "414540",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.004999999888241291,
+      0.03999999910593033,
+      0.013000000268220901
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_1042",
+    "parent": "laundry-dryer",
+    "material": "",
+    "color": "414540",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.004999999888241291,
+      0.03999999910593033,
+      0.013000000268220901
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_1043",
+    "parent": "laundry-dryer",
+    "material": "",
+    "color": "414540",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.004999999888241291,
+      0.03999999910593033,
+      0.013000000268220901
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "mesh_1044",
+    "parent": "laundry-dryer",
+    "material": "",
+    "color": "414540",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.004999999888241291,
+      0.03999999910593033,
+      0.013000000268220901
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "laundry-stacking-kit",
+    "parent": "balcony-laundry-cabinet",
+    "material": "",
+    "color": "414540",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.6600000262260437,
+      0.02500000037252903,
+      0.610000014305115
+    ]
+  },
+  {
+    "root": "balcony-laundry-cabinet",
+    "name": "laundry-task-aluminum-channel",
+    "parent": "balcony-laundry-cabinet",
+    "material": "",
+    "color": "aaa59a",
+    "metal": 0.25,
+    "map": null,
+    "size": [
+      0.07500000298023224,
+      0.012000000104308128,
+      0.6299999952316284
+    ]
+  },
+  {
+    "root": "master-bed",
+    "name": "mesh_478",
+    "parent": "master-bed",
+    "material": "",
+    "color": "ffffff",
+    "metal": 0,
+    "map": null,
+    "size": [
+      1.8999999761581439,
+      0.25999999046325684,
+      2.05
+    ]
+  },
+  {
+    "root": "master-bed",
+    "name": "mesh_479",
+    "parent": "master-bed",
+    "material": "warm-linen",
+    "color": "e8e3d8",
+    "metal": 0,
+    "map": null,
+    "size": [
+      1.799999952316286,
+      0.23000000417232513,
+      2
+    ]
+  },
+  {
+    "root": "master-bed",
+    "name": "mesh_480",
+    "parent": "master-bed",
+    "material": "oatmeal-upholstery",
+    "color": "c7c0b4",
+    "metal": 0,
+    "map": null,
+    "size": [
+      1.9600000381469744,
+      1.0700000524520874,
+      0.08000000000000007
+    ]
+  },
+  {
+    "root": "master-bed",
+    "name": "mesh_484",
+    "parent": "master-bed",
+    "material": "",
+    "color": "ffffff",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.4300000071525574,
+      0.41999998688697815,
+      0.4300000071525574
+    ]
+  },
+  {
+    "root": "master-bed",
+    "name": "mesh_485",
+    "parent": "master-bed",
+    "material": "",
+    "color": "79796e",
+    "metal": 0.5,
+    "map": null,
+    "size": [
+      0.20000000298023224,
+      0.017999999225139618,
+      0.20000000298023224
+    ]
+  },
+  {
+    "root": "master-bed",
+    "name": "mesh_486",
+    "parent": "master-bed",
+    "material": "",
+    "color": "79796e",
+    "metal": 0.5,
+    "map": null,
+    "size": [
+      0.03200000151991844,
+      0.18000000715255737,
+      0.03200000151991844
+    ]
+  },
+  {
+    "root": "master-bed",
+    "name": "mesh_487",
+    "parent": "master-bed",
+    "material": "warm-linen",
+    "color": "e8e3d8",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.25999999046325684,
+      0.18000000715255737,
+      0.25999999046325684
+    ]
+  },
+  {
+    "root": "master-bed",
+    "name": "mesh_488",
+    "parent": "master-bed",
+    "material": "",
+    "color": "ffffff",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.4300000071525574,
+      0.41999998688697815,
+      0.4300000071525574
+    ]
+  },
+  {
+    "root": "master-bed",
+    "name": "mesh_489",
+    "parent": "master-bed",
+    "material": "",
+    "color": "79796e",
+    "metal": 0.5,
+    "map": null,
+    "size": [
+      0.20000000298023224,
+      0.017999999225139618,
+      0.20000000298023224
+    ]
+  },
+  {
+    "root": "master-bed",
+    "name": "mesh_490",
+    "parent": "master-bed",
+    "material": "",
+    "color": "79796e",
+    "metal": 0.5,
+    "map": null,
+    "size": [
+      0.03200000151991844,
+      0.18000000715255737,
+      0.03200000151991844
+    ]
+  },
+  {
+    "root": "master-bed",
+    "name": "mesh_491",
+    "parent": "master-bed",
+    "material": "warm-linen",
+    "color": "e8e3d8",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.25999999046325684,
+      0.18000000715255737,
+      0.25999999046325684
+    ]
+  },
+  {
+    "root": "master-bed",
+    "name": "mesh_492",
+    "parent": "master-bedside-everyday",
+    "material": "",
+    "color": "ddd8c9",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.1599999964237213,
+      0.017000000923871994,
+      0.10000000149011612
+    ]
+  },
+  {
+    "root": "master-bed",
+    "name": "mesh_493",
+    "parent": "master-bedside-everyday",
+    "material": "warm-linen",
+    "color": "e8e3d8",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.14800000190734863,
+      0.008999999612569809,
+      0.0020000000949949026
+    ]
+  },
+  {
+    "root": "master-bed",
+    "name": "mesh_494",
+    "parent": "master-bedside-everyday",
+    "material": "",
+    "color": "7a8172",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.1599999964237213,
+      0.01700000092387205,
+      0.10000000149011612
+    ]
+  },
+  {
+    "root": "master-bed",
+    "name": "mesh_495",
+    "parent": "master-bedside-everyday",
+    "material": "warm-linen",
+    "color": "e8e3d8",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.14800000190734863,
+      0.008999999612569864,
+      0.0020000000949949026
+    ]
+  },
+  {
+    "root": "master-bed",
+    "name": "mesh_496",
+    "parent": "master-bedside-everyday",
+    "material": "",
+    "color": "242825",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.15000000596046448,
+      0.07199999690055847,
+      0.05999999865889549
+    ]
+  },
+  {
+    "root": "master-bed",
+    "name": "mesh_497",
+    "parent": "master-bedside-everyday",
+    "material": "",
+    "color": "7a8172",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.11999999731779099,
+      0.025000000372529085,
+      0.003000000026077032
+    ]
+  },
+  {
+    "root": "master-bed",
+    "name": "master-bed-floor-support-rail-0",
+    "parent": "master-bed-floor-support",
+    "material": "warm-grey-furniture-plinth",
+    "color": "77746b",
+    "metal": 0,
+    "map": null,
+    "size": [
+      1.8639999628067034,
+      0.09100000560283661,
+      0.017999999225139618
+    ]
+  },
+  {
+    "root": "master-bed",
+    "name": "master-bed-floor-support-gasket-0",
+    "parent": "master-bed-floor-support",
+    "material": "furniture-floor-elastomer",
+    "color": "514f49",
+    "metal": 0,
+    "map": null,
+    "size": [
+      1.8639999628067034,
+      0.0030000000260770312,
+      0.017999999225139618
+    ]
+  },
+  {
+    "root": "master-bed",
+    "name": "master-bed-floor-support-rail-1",
+    "parent": "master-bed-floor-support",
+    "material": "warm-grey-furniture-plinth",
+    "color": "77746b",
+    "metal": 0,
+    "map": null,
+    "size": [
+      1.8639999628067034,
+      0.09100000560283661,
+      0.017999999225139618
+    ]
+  },
+  {
+    "root": "master-bed",
+    "name": "master-bed-floor-support-gasket-1",
+    "parent": "master-bed-floor-support",
+    "material": "furniture-floor-elastomer",
+    "color": "514f49",
+    "metal": 0,
+    "map": null,
+    "size": [
+      1.8639999628067034,
+      0.0030000000260770312,
+      0.017999999225139618
+    ]
+  },
+  {
+    "root": "master-bed",
+    "name": "master-bed-floor-support-rail-2",
+    "parent": "master-bed-floor-support",
+    "material": "warm-grey-furniture-plinth",
+    "color": "77746b",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.017999999225139618,
+      0.09100000560283661,
+      1.9780000448226929
+    ]
+  },
+  {
+    "root": "master-bed",
+    "name": "master-bed-floor-support-gasket-2",
+    "parent": "master-bed-floor-support",
+    "material": "furniture-floor-elastomer",
+    "color": "514f49",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.017999999225139618,
+      0.0030000000260770312,
+      1.9780000448226929
+    ]
+  },
+  {
+    "root": "master-bed",
+    "name": "master-bed-floor-support-rail-3",
+    "parent": "master-bed-floor-support",
+    "material": "warm-grey-furniture-plinth",
+    "color": "77746b",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.017999999225139618,
+      0.09100000560283661,
+      1.9780000448226929
+    ]
+  },
+  {
+    "root": "master-bed",
+    "name": "master-bed-floor-support-gasket-3",
+    "parent": "master-bed-floor-support",
+    "material": "furniture-floor-elastomer",
+    "color": "514f49",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.017999999225139618,
+      0.0030000000260770312,
+      1.9780000448226929
+    ]
+  },
+  {
+    "root": "master-bed",
+    "name": "master-bed-floor-support-rail-4",
+    "parent": "master-bed-floor-support",
+    "material": "warm-grey-furniture-plinth",
+    "color": "77746b",
+    "metal": 0,
+    "map": null,
+    "size": [
+      1.827999949455263,
+      0.09100000560283661,
+      0.017999999225139618
+    ]
+  },
+  {
+    "root": "master-bed",
+    "name": "master-bed-floor-support-gasket-4",
+    "parent": "master-bed-floor-support",
+    "material": "furniture-floor-elastomer",
+    "color": "514f49",
+    "metal": 0,
+    "map": null,
+    "size": [
+      1.827999949455263,
+      0.0030000000260770312,
+      0.017999999225139618
+    ]
+  },
+  {
+    "root": "master-bed",
+    "name": "master-bed-floor-support-rail-5",
+    "parent": "master-bed-floor-support",
+    "material": "warm-grey-furniture-plinth",
+    "color": "77746b",
+    "metal": 0,
+    "map": null,
+    "size": [
+      1.827999949455263,
+      0.09100000560283661,
+      0.017999999225139618
+    ]
+  },
+  {
+    "root": "master-bed",
+    "name": "master-bed-floor-support-gasket-5",
+    "parent": "master-bed-floor-support",
+    "material": "furniture-floor-elastomer",
+    "color": "514f49",
+    "metal": 0,
+    "map": null,
+    "size": [
+      1.827999949455263,
+      0.0030000000260770312,
+      0.017999999225139618
+    ]
+  },
+  {
+    "root": "master-bed",
+    "name": "master-bed-floor-support-rail-6",
+    "parent": "master-bed-floor-support",
+    "material": "warm-grey-furniture-plinth",
+    "color": "77746b",
+    "metal": 0,
+    "map": null,
+    "size": [
+      1.827999949455263,
+      0.09100000560283661,
+      0.017999999225139618
+    ]
+  },
+  {
+    "root": "master-bed",
+    "name": "master-bed-floor-support-gasket-6",
+    "parent": "master-bed-floor-support",
+    "material": "furniture-floor-elastomer",
+    "color": "514f49",
+    "metal": 0,
+    "map": null,
+    "size": [
+      1.827999949455263,
+      0.0030000000260770312,
+      0.017999999225139618
+    ]
+  },
+  {
+    "root": "master-bed",
+    "name": "master-bedside-floor-support-0-rail-0",
+    "parent": "master-bedside-floor-support-0",
+    "material": "warm-grey-furniture-plinth",
+    "color": "77746b",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.406000018119812,
+      0.04100000485777855,
+      0.017999999225139618
+    ]
+  },
+  {
+    "root": "master-bed",
+    "name": "master-bedside-floor-support-0-gasket-0",
+    "parent": "master-bedside-floor-support-0",
+    "material": "furniture-floor-elastomer",
+    "color": "514f49",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.406000018119812,
+      0.0030000000260770312,
+      0.017999999225139618
+    ]
+  },
+  {
+    "root": "master-bed",
+    "name": "master-bedside-floor-support-0-rail-1",
+    "parent": "master-bedside-floor-support-0",
+    "material": "warm-grey-furniture-plinth",
+    "color": "77746b",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.406000018119812,
+      0.04100000485777855,
+      0.017999999225139618
+    ]
+  },
+  {
+    "root": "master-bed",
+    "name": "master-bedside-floor-support-0-gasket-1",
+    "parent": "master-bedside-floor-support-0",
+    "material": "furniture-floor-elastomer",
+    "color": "514f49",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.406000018119812,
+      0.0030000000260770312,
+      0.017999999225139618
+    ]
+  },
+  {
+    "root": "master-bed",
+    "name": "master-bedside-floor-support-0-rail-2",
+    "parent": "master-bedside-floor-support-0",
+    "material": "warm-grey-furniture-plinth",
+    "color": "77746b",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.017999999225139618,
+      0.04100000485777855,
+      0.3700000047683716
+    ]
+  },
+  {
+    "root": "master-bed",
+    "name": "master-bedside-floor-support-0-gasket-2",
+    "parent": "master-bedside-floor-support-0",
+    "material": "furniture-floor-elastomer",
+    "color": "514f49",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.017999999225139618,
+      0.0030000000260770312,
+      0.3700000047683716
+    ]
+  },
+  {
+    "root": "master-bed",
+    "name": "master-bedside-floor-support-0-rail-3",
+    "parent": "master-bedside-floor-support-0",
+    "material": "warm-grey-furniture-plinth",
+    "color": "77746b",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.017999999225139618,
+      0.04100000485777855,
+      0.3700000047683716
+    ]
+  },
+  {
+    "root": "master-bed",
+    "name": "master-bedside-floor-support-0-gasket-3",
+    "parent": "master-bedside-floor-support-0",
+    "material": "furniture-floor-elastomer",
+    "color": "514f49",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.017999999225139618,
+      0.0030000000260770312,
+      0.3700000047683716
+    ]
+  },
+  {
+    "root": "master-bed",
+    "name": "master-bedside-floor-support-0-rail-4",
+    "parent": "master-bedside-floor-support-0",
+    "material": "warm-grey-furniture-plinth",
+    "color": "77746b",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.3700000047683716,
+      0.04100000485777855,
+      0.017999999225139618
+    ]
+  },
+  {
+    "root": "master-bed",
+    "name": "master-bedside-floor-support-0-gasket-4",
+    "parent": "master-bedside-floor-support-0",
+    "material": "furniture-floor-elastomer",
+    "color": "514f49",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.3700000047683716,
+      0.0030000000260770312,
+      0.017999999225139618
+    ]
+  },
+  {
+    "root": "master-bed",
+    "name": "master-bedside-floor-support-1-rail-0",
+    "parent": "master-bedside-floor-support-1",
+    "material": "warm-grey-furniture-plinth",
+    "color": "77746b",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.406000018119812,
+      0.04100000485777855,
+      0.017999999225139618
+    ]
+  },
+  {
+    "root": "master-bed",
+    "name": "master-bedside-floor-support-1-gasket-0",
+    "parent": "master-bedside-floor-support-1",
+    "material": "furniture-floor-elastomer",
+    "color": "514f49",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.406000018119812,
+      0.0030000000260770312,
+      0.017999999225139618
+    ]
+  },
+  {
+    "root": "master-bed",
+    "name": "master-bedside-floor-support-1-rail-1",
+    "parent": "master-bedside-floor-support-1",
+    "material": "warm-grey-furniture-plinth",
+    "color": "77746b",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.406000018119812,
+      0.04100000485777855,
+      0.017999999225139618
+    ]
+  },
+  {
+    "root": "master-bed",
+    "name": "master-bedside-floor-support-1-gasket-1",
+    "parent": "master-bedside-floor-support-1",
+    "material": "furniture-floor-elastomer",
+    "color": "514f49",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.406000018119812,
+      0.0030000000260770312,
+      0.017999999225139618
+    ]
+  },
+  {
+    "root": "master-bed",
+    "name": "master-bedside-floor-support-1-rail-2",
+    "parent": "master-bedside-floor-support-1",
+    "material": "warm-grey-furniture-plinth",
+    "color": "77746b",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.017999999225139618,
+      0.04100000485777855,
+      0.3700000047683716
+    ]
+  },
+  {
+    "root": "master-bed",
+    "name": "master-bedside-floor-support-1-gasket-2",
+    "parent": "master-bedside-floor-support-1",
+    "material": "furniture-floor-elastomer",
+    "color": "514f49",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.017999999225139618,
+      0.0030000000260770312,
+      0.3700000047683716
+    ]
+  },
+  {
+    "root": "master-bed",
+    "name": "master-bedside-floor-support-1-rail-3",
+    "parent": "master-bedside-floor-support-1",
+    "material": "warm-grey-furniture-plinth",
+    "color": "77746b",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.017999999225139618,
+      0.04100000485777855,
+      0.3700000047683716
+    ]
+  },
+  {
+    "root": "master-bed",
+    "name": "master-bedside-floor-support-1-gasket-3",
+    "parent": "master-bedside-floor-support-1",
+    "material": "furniture-floor-elastomer",
+    "color": "514f49",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.017999999225139618,
+      0.0030000000260770312,
+      0.3700000047683716
+    ]
+  },
+  {
+    "root": "master-bed",
+    "name": "master-bedside-floor-support-1-rail-4",
+    "parent": "master-bedside-floor-support-1",
+    "material": "warm-grey-furniture-plinth",
+    "color": "77746b",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.3700000047683716,
+      0.04100000485777855,
+      0.017999999225139618
+    ]
+  },
+  {
+    "root": "master-bed",
+    "name": "master-bedside-floor-support-1-gasket-4",
+    "parent": "master-bedside-floor-support-1",
+    "material": "furniture-floor-elastomer",
+    "color": "514f49",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.3700000047683716,
+      0.0030000000260770312,
+      0.017999999225139618
+    ]
+  },
+  {
+    "root": "master-bed",
+    "name": "master-bed-draped-duvet",
+    "parent": "master-bed-textile-detail",
+    "material": "textile-woven-sheet-b5ac9c",
+    "color": "b5ac9c",
+    "metal": 0,
+    "map": "terlenka-color",
+    "size": [
+      1.8120000362396258,
+      0.16144710779190063,
+      1.4399999976158144
+    ]
+  },
+  {
+    "root": "master-bed",
+    "name": "master-bed-draped-duvet-lining",
+    "parent": "master-bed-textile-detail",
+    "material": "textile-woven-sheet-b5ac9c",
+    "color": "b2a999",
+    "metal": 0,
+    "map": "terlenka-color",
+    "size": [
+      1.8120000362396258,
+      0.11744391918182373,
+      1.4399999976158144
+    ]
+  },
+  {
+    "root": "master-bed",
+    "name": "master-bed-draped-duvet-bound-edge",
+    "parent": "master-bed-textile-detail",
+    "material": "textile-woven-sheet-b5ac9c",
+    "color": "b5ac9c",
+    "metal": 0,
+    "map": "terlenka-color",
+    "size": [
+      1.8200614452362078,
+      0.10233980417251587,
+      1.445293426513672
+    ]
+  },
+  {
+    "root": "master-bed",
+    "name": "master-bed-draped-duvet-hem",
+    "parent": "master-bed-textile-detail",
+    "material": "textile-woven-sheet-b5ac9c",
+    "color": "b5ac9c",
+    "metal": 0,
+    "map": "terlenka-color",
+    "size": [
+      1.8120000362396258,
+      0.11137515306472778,
+      1.4399999976158144
+    ]
+  },
+  {
+    "root": "master-bed",
+    "name": "master-bed-draped-duvet-turned-cuff",
+    "parent": "master-bed-textile-detail",
+    "material": "textile-woven-sheet-ddd6c8",
+    "color": "ddd6c8",
+    "metal": 0,
+    "map": "terlenka-color",
+    "size": [
+      1.8120000362396258,
+      0.1327250599861145,
+      0.2303999960422516
+    ]
+  },
+  {
+    "root": "master-bed",
+    "name": "master-bed-sewn-pillow-0-folded-cover",
+    "parent": "master-bed-sewn-pillow-0",
+    "material": "textile-woven-sheet-e5dfd3",
+    "color": "e5dfd3",
+    "metal": 0,
+    "map": "terlenka-color",
+    "size": [
+      0.6907863723606766,
+      0.20000000298023224,
+      0.4568607341786679
+    ]
+  },
+  {
+    "root": "master-bed",
+    "name": "master-bed-sewn-pillow-1-folded-cover",
+    "parent": "master-bed-sewn-pillow-1",
+    "material": "textile-woven-sheet-e5dfd3",
+    "color": "e5dfd3",
+    "metal": 0,
+    "map": "terlenka-color",
+    "size": [
+      0.6991049413911696,
+      0.20000000298023224,
+      0.47014424665864407
+    ]
+  },
+  {
+    "root": "master-bed",
+    "name": "footlight-shield",
+    "parent": "master-foot-light",
+    "material": "",
+    "color": "aaa69c",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.30000001192092896,
+      0.02500000037252903,
+      0.017999999225139618
+    ]
+  },
+  {
+    "root": "master-bed",
+    "name": "master-footlight-diffuser",
+    "parent": "master-foot-light",
+    "material": "",
+    "color": "fff4e6",
+    "metal": 0,
+    "map": null,
+    "size": [
+      0.27000001072883606,
+      0.012000000104308128,
+      0.003000000026077032
+    ]
+  }
+]

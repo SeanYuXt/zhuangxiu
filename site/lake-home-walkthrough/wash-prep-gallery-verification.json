@@ -1,0 +1,75 @@
+{
+  "source": "3d2ee070a01e6f3adb1262543592a1fc58ee4f22c4efc7509803eec047c8df7a",
+  "pipeline": "bc5d1b24c44b55ee50a87cbbbad2bc8ed4e98ecef77b057696b222cf6465f482",
+  "camera": "6966f2f6a2e81379f7f4423e3f80211c5bcc9955cee181427ccb6dde75a24909",
+  "checks": [
+    {
+      "width": 1440,
+      "height": 1000,
+      "id": "ensuite-basin",
+      "ratio": 1,
+      "walkAtSamePosition": true
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "id": "kitchen-work",
+      "ratio": 1.7774607703281027,
+      "walkAtSamePosition": true
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "id": "master-bedding",
+      "ratio": 1.7774607703281027,
+      "walkAtSamePosition": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "id": "ensuite-basin",
+      "ratio": 1,
+      "walkAtSamePosition": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "id": "kitchen-work",
+      "ratio": 1.7809523809523808,
+      "walkAtSamePosition": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "id": "master-bedding",
+      "ratio": 1.7809523809523808,
+      "walkAtSamePosition": true
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "id": "ensuite-basin",
+      "ratio": 1,
+      "walkAtSamePosition": true
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "id": "kitchen-work",
+      "ratio": 1.7764350453172206,
+      "walkAtSamePosition": true
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "id": "master-bedding",
+      "ratio": 1.7764350453172206,
+      "walkAtSamePosition": true
+    }
+  ],
+  "legacyStudyPreserved": true,
+  "failedBatchClears": true,
+  "mobileDeepLink": true,
+  "errors": [],
+  "limits": "Three current local studies; browser viewport simulation, not whole-home photographic acceptance or physical phone testing."
+}

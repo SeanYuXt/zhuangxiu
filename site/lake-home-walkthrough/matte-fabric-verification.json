@@ -1,0 +1,27 @@
+{
+  "date": "2026-09-06",
+  "method": "CUA current WebGL scene + browser-side assertions + one-mesh glTF export + Node comparison against preserved GLB position accessors",
+  "status": "local-material-checks-passed",
+  "visibleMeshCount": 96,
+  "uniqueMaterialCount": 38,
+  "sheetSourceMeanLinear": [0.5599919667101735,0.4279488581299936,0.3184268931436621],
+  "sheetCalibratedRoughnessRange": [0.9254901960784314,0.9921568627450981],
+  "neutralMapChannelClippingFraction": 0.06023721775503574,
+  "specularFactor": 0.4,
+  "runtimeEffectiveSheenEqualsGltf": true,
+  "exportedPillowSheenRgb": [0.11753066872823488,0.11068656131508475,0.09771084561191894],
+  "exportedImageCount": 3,
+  "preservedGeometryHashes": {
+    "master-bed-draped-duvet": "99dc6fcf853ba03b7243d55fddfbcfdc345914239ef5f9132713a941cd0f6e42",
+    "master-bed-sewn-pillow-0-folded-cover": "e2854889a851405354c421a8a83e147912e8d6c354a50c044f3dd749366348c7",
+    "bed1-bed-draped-duvet": "016fe5ddd45c01dd158bbefea3a614c16b0adee1458e77cefd85899c30f4f23b",
+    "bed3-bed-draped-duvet": "54de9631c1c59a5cd46a7ebd914bd0285f514a7b586ce245b601a4f945b84a1b",
+    "sofa-sewn-seat-0-top": "19f06371ff082582627ab8af18154ef52f923dcb414090c0831421690092d72d",
+    "bed3-curtain-left-cloth": "e08545540b11f84d6758da4fa2d492cf73c4ef1905f69d262f7b0be79479e9b8"
+  },
+  "nightSwitch": {"night":true,"roughness":1,"specular":0.4,"sheenStrength":0.15,"envMapIntensity":0.07},
+  "visualReview": "Master bedding and living upholstery lost the unintended brown double tint; neutral matte appearance is clearer. Broad shape shading and whole-room lighting still look model-like; not photographic acceptance.",
+  "exportCaveat": "Existing frozen render-mobile-detail.py overrides sheen weight to 0.28. A future current-scene render pipeline must preserve the corrected exported material rather than reuse that override.",
+  "frozenInputsOverwritten": false,
+  "published": false
+}

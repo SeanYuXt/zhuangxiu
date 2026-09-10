@@ -1,0 +1,215 @@
+{
+  "name": "Elder room study outline",
+  "units": "m",
+  "spaces": [
+    {
+      "id": "bed1",
+      "label": "Source outline including unverified window zone",
+      "polygons": [
+        [
+          [
+            -0.59786,
+            0.59589
+          ],
+          [
+            2.0427,
+            0.59589
+          ],
+          [
+            2.0427,
+            0
+          ],
+          [
+            2.8,
+            0
+          ],
+          [
+            2.8,
+            -2.9
+          ],
+          [
+            0,
+            -2.9
+          ],
+          [
+            0,
+            -0.70514
+          ],
+          [
+            -0.59786,
+            -0.70514
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "hall",
+      "label": "Door approach",
+      "polygons": [
+        [
+          [
+            1.86,
+            -2.9
+          ],
+          [
+            2.8,
+            -2.9
+          ],
+          [
+            2.8,
+            -3.3
+          ],
+          [
+            1.86,
+            -3.3
+          ]
+        ]
+      ]
+    }
+  ],
+  "walls": [
+    {
+      "id": "w0",
+      "a": [
+        -0.59786,
+        0.59589
+      ],
+      "b": [
+        2.0427,
+        0.59589
+      ],
+      "thickness": 0.1,
+      "separates": [
+        "bed1",
+        "exterior"
+      ]
+    },
+    {
+      "id": "w1",
+      "a": [
+        2.0427,
+        0.59589
+      ],
+      "b": [
+        2.0427,
+        0
+      ],
+      "thickness": 0.1,
+      "separates": [
+        "bed1",
+        "exterior"
+      ]
+    },
+    {
+      "id": "w2",
+      "a": [
+        2.0427,
+        0
+      ],
+      "b": [
+        2.8,
+        0
+      ],
+      "thickness": 0.1,
+      "separates": [
+        "bed1",
+        "exterior"
+      ]
+    },
+    {
+      "id": "w3",
+      "a": [
+        2.8,
+        0
+      ],
+      "b": [
+        2.8,
+        -2.9
+      ],
+      "thickness": 0.1,
+      "separates": [
+        "bed1",
+        "exterior"
+      ]
+    },
+    {
+      "id": "w4",
+      "a": [
+        2.8,
+        -2.9
+      ],
+      "b": [
+        0,
+        -2.9
+      ],
+      "thickness": 0.1,
+      "separates": [
+        "bed1",
+        "hall"
+      ]
+    },
+    {
+      "id": "w5",
+      "a": [
+        0,
+        -2.9
+      ],
+      "b": [
+        0,
+        -0.70514
+      ],
+      "thickness": 0.1,
+      "separates": [
+        "bed1",
+        "exterior"
+      ]
+    },
+    {
+      "id": "w6",
+      "a": [
+        0,
+        -0.70514
+      ],
+      "b": [
+        -0.59786,
+        -0.70514
+      ],
+      "thickness": 0.1,
+      "separates": [
+        "bed1",
+        "exterior"
+      ]
+    },
+    {
+      "id": "w7",
+      "a": [
+        -0.59786,
+        -0.70514
+      ],
+      "b": [
+        -0.59786,
+        0.59589
+      ],
+      "thickness": 0.1,
+      "separates": [
+        "bed1",
+        "exterior"
+      ]
+    }
+  ],
+  "openings": [
+    {
+      "id": "door-bed1",
+      "kind": "door",
+      "wall_id": "w4",
+      "offset": 0.05,
+      "width": 0.89,
+      "connects": [
+        "bed1",
+        "hall"
+      ],
+      "swing_into": "bed1"
+    }
+  ],
+  "expected_adjacencies": []
+}

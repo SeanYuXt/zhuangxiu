@@ -1,0 +1,89 @@
+{
+  "states": [
+    {
+      "name": "sofa transform",
+      "refreshed": true,
+      "count": 1832,
+      "stamp": 16
+    },
+    {
+      "name": "sofa restored",
+      "refreshed": true,
+      "count": 1832,
+      "stamp": 18
+    },
+    {
+      "name": "folding shower door",
+      "refreshed": true,
+      "count": 1832,
+      "stamp": 20
+    },
+    {
+      "name": "shower reset",
+      "refreshed": true,
+      "count": 1832,
+      "stamp": 22
+    },
+    {
+      "name": "six shoe doors",
+      "refreshed": true,
+      "count": 1832,
+      "stamp": 24
+    },
+    {
+      "name": "shoe doors reset",
+      "refreshed": true,
+      "count": 1832,
+      "stamp": 26
+    },
+    {
+      "name": "mesh added",
+      "refreshed": true,
+      "count": 1833,
+      "stamp": 28
+    },
+    {
+      "name": "mesh hidden",
+      "refreshed": true,
+      "count": 1832,
+      "stamp": 30
+    },
+    {
+      "name": "mesh shown",
+      "refreshed": true,
+      "count": 1833,
+      "stamp": 32
+    },
+    {
+      "name": "walkThrough true",
+      "refreshed": true,
+      "count": 1832,
+      "stamp": 34
+    },
+    {
+      "name": "walkThrough false",
+      "refreshed": true,
+      "count": 1833,
+      "stamp": 36
+    },
+    {
+      "name": "geometry replaced",
+      "refreshed": true,
+      "count": 1833,
+      "stamp": 38
+    },
+    {
+      "name": "mesh removed",
+      "refreshed": true,
+      "count": 1832,
+      "stamp": 40
+    }
+  ],
+  "stableMedianMs": 2.5999999046325684,
+  "fullMedianMs": 9.600000143051147,
+  "stableSamples": 24,
+  "fullSamples": 12,
+  "unchangedRebuilds": 0,
+  "modalPaused": true,
+  "errors": []
+}

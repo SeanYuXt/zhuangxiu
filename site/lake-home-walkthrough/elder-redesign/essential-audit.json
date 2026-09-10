@@ -1,0 +1,19 @@
+{
+  "overlaps": [],
+  "doorMarginsMm": {
+    "bed": 280,
+    "wardrobe": 140,
+    "nightstand": 43
+  },
+  "paths": {
+    "500.0mmProxy": {
+      "windowZone": true,
+      "bedSide": true
+    },
+    "600.0mmProxy": {
+      "windowZone": true,
+      "bedSide": true
+    }
+  },
+  "limitation": "Circular proxy screening only; single-side bed access, headboard at entrance-side wall. Bay slab height and site dimensions not verified."
+}

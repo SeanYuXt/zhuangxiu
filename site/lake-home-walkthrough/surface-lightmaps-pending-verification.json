@@ -1,0 +1,9 @@
+{
+  "state": {
+    "active": false,
+    "valid": false,
+    "reason": "Current surface lightmap batch is incomplete"
+  },
+  "errors": [],
+  "published": false
+}

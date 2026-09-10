@@ -1,0 +1,32 @@
+{
+  "id": "child-150-l-books-bay",
+  "status": "PASS_WITH_LIMITS",
+  "failures": [],
+  "doorHits": 0,
+  "routes": {
+    "normal": {
+      "chairBack": true,
+      "bedSide": true,
+      "foot": true,
+      "cells": 2867
+    },
+    "pulled": {
+      "chairBack": true,
+      "bedSide": true,
+      "foot": true,
+      "cells": 2189
+    }
+  },
+  "footClearanceMM": 635,
+  "limits": [
+    "床长边靠窗侧，床头靠完整实墙",
+    "衣柜在与窗户平行的对面墙，110cm宽、60cm深；受原门洞限制",
+    "书桌沿垂直墙连接衣柜与床，130×55cm；不是书柜",
+    "桌高75cm暂定，按孩子身高调整椅高与脚踏",
+    "窗台不计入可走地面",
+    "床靠窗后必须从可踏面复核有效防护高度及限位，原护栏不得擅拆",
+    "床尾63.5cm偏紧，不代表舒适或无障碍通行",
+    "原图窗台55cm、房间尺寸与成品家具仍待现场复核"
+  ],
+  "additionalLimit": "Desk touches wardrobe side/front corner: low corner storage access restricted; no simultaneous wardrobe-use ergonomic certification."
+}

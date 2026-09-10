@@ -1,0 +1,131 @@
+{
+  "drawerHits": [],
+  "doorHits": [],
+  "serviceHits": [],
+  "cornerHits": [],
+  "out": [],
+  "invalid": [],
+  "counterHits": [],
+  "basinHit": {
+    "name": "mesh_631",
+    "y": 0.7340000000130384
+  },
+  "sinkPosition": [
+    4.86,
+    0,
+    2.17
+  ],
+  "hobPosition": [
+    4.03,
+    0,
+    3.54
+  ],
+  "hoodClearance": 0.698999999783933,
+  "routes": [
+    {
+      "state": "closed",
+      "target": [
+        4.95,
+        2.87
+      ],
+      "nodes": 4396,
+      "reachable": true
+    },
+    {
+      "state": "prep",
+      "target": [
+        5.12,
+        2.97
+      ],
+      "nodes": 3699,
+      "reachable": true
+    },
+    {
+      "state": "pots",
+      "target": [
+        5.12,
+        4.44
+      ],
+      "nodes": 3182,
+      "reachable": true
+    },
+    {
+      "state": "sink",
+      "target": [
+        4.95,
+        3.36
+      ],
+      "nodes": 3951,
+      "reachable": true
+    }
+  ],
+  "services": {
+    "supplyConnection": null,
+    "wasteConnection": null,
+    "smartSensorConnected": false,
+    "status": "cabinet-side reserved services, not verified site hookups"
+  },
+  "drawers": [
+    "kitchen-prep-drawer-0",
+    "kitchen-prep-drawer-1",
+    "kitchen-prep-drawer-2",
+    "kitchen-hob-drawer-0",
+    "kitchen-hob-drawer-1",
+    "kitchen-pots-drawer-0",
+    "kitchen-pots-drawer-1"
+  ],
+  "closedFronts": [
+    {
+      "name": "sealed-blind-corner-front",
+      "x0": 3.8199999885559084,
+      "x1": 4.346000011444092,
+      "y1": 0.8380000030994414,
+      "z1": 2.4949999996125696
+    },
+    {
+      "name": "sink-door-panel",
+      "x0": 4.348999991416932,
+      "x1": 4.868500008583069,
+      "y1": 0.8380000030994414,
+      "z1": 2.49499999961257
+    },
+    {
+      "name": "sink-door-panel",
+      "x0": 4.871499991416931,
+      "x1": 5.3910000085830685,
+      "y1": 0.8380000030994414,
+      "z1": 2.49499999961257
+    },
+    {
+      "name": "sink-divider-cover-stile",
+      "x0": 5.394000000417233,
+      "x1": 5.422999999582768,
+      "y1": 0.8380000030994414,
+      "z1": 2.4949999996125696
+    },
+    {
+      "name": "sink-door-panel",
+      "x0": 5.425999995946885,
+      "x1": 5.680000004053117,
+      "y1": 0.8380000030994414,
+      "z1": 2.49499999961257
+    },
+    {
+      "name": "sink-right-end-stile",
+      "x0": 5.682999999947846,
+      "x1": 5.695000000052154,
+      "y1": 0.8380000030994414,
+      "z1": 2.4949999996125696
+    }
+  ],
+  "closedGaps": [
+    0.002999979972839739,
+    0.002999982833861381,
+    0.0029999918341641063,
+    0.0029999963641174077,
+    0.0029999958947293237
+  ],
+  "pullClearance": 0.019999996853061086,
+  "errors": [],
+  "limit": "OBB sampled storage mechanisms; 600mm circular approach proxy on 20mm grid, not two-person ergonomics or installation certification. Plumbing endpoints remain unconnected."
+}

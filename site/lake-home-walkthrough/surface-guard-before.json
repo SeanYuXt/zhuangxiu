@@ -1,0 +1,44 @@
+{
+  "state": {
+    "active": true,
+    "valid": true,
+    "requested": true,
+    "receivers": 60,
+    "atlases": 5,
+    "source": "ff101ba3a24a8eb8c99f2fbda3bdbddb84878f191834a5865615c2ffe288361d"
+  },
+  "iterations": 80,
+  "medianMs": 3.5999999046325684,
+  "p95Ms": 5,
+  "meanMs": 3.8037500023841857,
+  "textures": [
+    {
+      "width": 2048,
+      "height": 2048,
+      "bytes": 33554432
+    },
+    {
+      "width": 2048,
+      "height": 2048,
+      "bytes": 33554432
+    },
+    {
+      "width": 2048,
+      "height": 2048,
+      "bytes": 33554432
+    },
+    {
+      "width": 2048,
+      "height": 2048,
+      "bytes": 33554432
+    },
+    {
+      "width": 2048,
+      "height": 2048,
+      "bytes": 33554432
+    }
+  ],
+  "guard": null,
+  "errors": [],
+  "limits": "Guard CPU timing in desktop headless Chrome, not frame rate or physical phone evidence."
+}

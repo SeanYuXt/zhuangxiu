@@ -1,0 +1,446 @@
+{
+  "geometry": {
+    "hits": [],
+    "drawerPairs": [
+      {
+        "i": 0,
+        "front": [
+          0,
+          0,
+          -0.41999999999999993
+        ],
+        "tray": [
+          0,
+          0,
+          -0.41999999999999993
+        ],
+        "bevel": 45
+      },
+      {
+        "i": 1,
+        "front": [
+          0,
+          0,
+          -0.41999999999999993
+        ],
+        "tray": [
+          0,
+          0,
+          -0.41999999999999993
+        ],
+        "bevel": 45
+      },
+      {
+        "i": 2,
+        "front": [
+          0,
+          0,
+          -0.41999999999999993
+        ],
+        "tray": [
+          0,
+          0,
+          -0.41999999999999993
+        ],
+        "bevel": 45
+      },
+      {
+        "i": 3,
+        "front": [
+          0,
+          0,
+          -0.41999999999999993
+        ],
+        "tray": [
+          0,
+          0,
+          -0.41999999999999993
+        ],
+        "bevel": 45
+      },
+      {
+        "i": 4,
+        "front": [
+          0,
+          0,
+          -0.41999999999999993
+        ],
+        "tray": [
+          0,
+          0,
+          -0.41999999999999993
+        ],
+        "bevel": 45
+      },
+      {
+        "i": 5,
+        "front": [
+          0,
+          0,
+          -0.41999999999999993
+        ],
+        "tray": [
+          0,
+          0,
+          -0.41999999999999993
+        ],
+        "bevel": 45
+      }
+    ],
+    "upperTravel": [
+      {
+        "i": 0,
+        "position": [
+          -1.948,
+          0,
+          0.057
+        ],
+        "rotation": -1.5707963267948966
+      },
+      {
+        "i": 1,
+        "position": [
+          -0.6519999999999999,
+          0,
+          0.057
+        ],
+        "rotation": 1.5707963267948966
+      },
+      {
+        "i": 2,
+        "position": [
+          -0.648,
+          0,
+          0.057
+        ],
+        "rotation": -1.5707963267948966
+      },
+      {
+        "i": 3,
+        "position": [
+          0.648,
+          0,
+          0.057
+        ],
+        "rotation": 1.5707963267948966
+      },
+      {
+        "i": 4,
+        "position": [
+          0.6519999999999999,
+          0,
+          0.057
+        ],
+        "rotation": -1.5707963267948966
+      },
+      {
+        "i": 5,
+        "position": [
+          1.948,
+          0,
+          0.057
+        ],
+        "rotation": 1.5707963267948966
+      }
+    ],
+    "rays": [
+      {
+        "point": [
+          0,
+          1.3,
+          0.8
+        ],
+        "hit": "fridge-insulated-back",
+        "local": [
+          0,
+          1.3,
+          -0.2480000001490117
+        ]
+      },
+      {
+        "point": [
+          -0.218,
+          0.465,
+          0.8
+        ],
+        "hit": "fridge-insulated-back",
+        "local": [
+          -0.21799999999999997,
+          0.4650000000000001,
+          -0.2480000001490117
+        ]
+      }
+    ],
+    "serviceRays": [
+      {
+        "point": [
+          1.36,
+          1.096,
+          0.8
+        ],
+        "hit": "dispenser-water-valve-lever"
+      },
+      {
+        "point": [
+          1.36,
+          1.6,
+          0.8
+        ],
+        "hit": "dispenser-power-splash-cover"
+      }
+    ],
+    "routes": [
+      {
+        "mode": "side-upper",
+        "target": [
+          10.405,
+          6.12
+        ],
+        "reached": true,
+        "nodes": 6224
+      },
+      {
+        "mode": "side-drawer",
+        "target": [
+          10.405,
+          5.82
+        ],
+        "reached": true,
+        "nodes": 19746
+      },
+      {
+        "mode": "side-base",
+        "target": [
+          10.405,
+          6.12
+        ],
+        "reached": true,
+        "nodes": 20230
+      },
+      {
+        "mode": "side-service",
+        "target": [
+          8.07,
+          6.1
+        ],
+        "reached": true,
+        "nodes": 797
+      },
+      {
+        "mode": "fridge-open",
+        "target": [
+          7.2,
+          2.34
+        ],
+        "reached": true,
+        "nodes": 13101
+      },
+      {
+        "mode": "fridge-bin",
+        "target": [
+          7.2,
+          2.34
+        ],
+        "reached": true,
+        "nodes": 13101
+      }
+    ],
+    "coordination": {
+      "cabinetTop": 2.4099999996125696,
+      "doorPanels": [
+        {
+          "size": [
+            0.6460000276565552,
+            0.656000018119812,
+            0.019999999552965164
+          ],
+          "bottom": 1.7499999909400943,
+          "top": 2.4060000090599063
+        },
+        {
+          "size": [
+            0.6460000276565552,
+            0.656000018119812,
+            0.019999999552965164
+          ],
+          "bottom": 1.7499999909400943,
+          "top": 2.4060000090599063
+        },
+        {
+          "size": [
+            0.6460000276565552,
+            0.656000018119812,
+            0.019999999552965164
+          ],
+          "bottom": 1.7499999909400943,
+          "top": 2.4060000090599063
+        },
+        {
+          "size": [
+            0.6460000276565552,
+            0.656000018119812,
+            0.019999999552965164
+          ],
+          "bottom": 1.7499999909400943,
+          "top": 2.4060000090599063
+        },
+        {
+          "size": [
+            0.6460000276565552,
+            0.656000018119812,
+            0.019999999552965164
+          ],
+          "bottom": 1.7499999909400943,
+          "top": 2.4060000090599063
+        },
+        {
+          "size": [
+            0.6460000276565561,
+            0.656000018119812,
+            0.019999999552965164
+          ],
+          "bottom": 1.7499999909400943,
+          "top": 2.4060000090599063
+        }
+      ],
+      "headerFront": 6.019999996423721,
+      "headerBottom": 2.4299999997019768,
+      "gap": 0.020000000089407166,
+      "topTierRemoved": true,
+      "upperCapacityRatio": 0.6294691224268689
+    },
+    "cache": {
+      "before": 1,
+      "changed": true,
+      "same": true
+    },
+    "positions": {
+      "side": [
+        9.43,
+        0,
+        6.9
+      ],
+      "fridge": [
+        6.19,
+        0,
+        2.34
+      ]
+    },
+    "counterSize": [
+      3.9000000953674316,
+      0.03500000014901161,
+      0.6000000238418579
+    ],
+    "dispenserFaceFront": 6.603999999947846,
+    "compartments": [
+      {
+        "id": 0,
+        "clearWidth": 0.632,
+        "lowerClearDepth": 0.49,
+        "upperClearDepth": 0.286,
+        "upperTierClearHeights": [
+          0.298,
+          0.283
+        ],
+        "drawerUseful": [
+          0.564,
+          0.118,
+          0.456
+        ],
+        "contents": "餐具"
+      },
+      {
+        "id": 1,
+        "clearWidth": 0.632,
+        "lowerClearDepth": 0.49,
+        "upperClearDepth": 0.286,
+        "upperTierClearHeights": [
+          0.298,
+          0.283
+        ],
+        "drawerUseful": [
+          0.564,
+          0.118,
+          0.456
+        ],
+        "contents": "茶工具"
+      },
+      {
+        "id": 2,
+        "clearWidth": 0.632,
+        "lowerClearDepth": 0.49,
+        "upperClearDepth": 0.286,
+        "upperTierClearHeights": [
+          0.298,
+          0.283
+        ],
+        "drawerUseful": [
+          0.564,
+          0.118,
+          0.456
+        ],
+        "contents": "茶杯"
+      },
+      {
+        "id": 3,
+        "clearWidth": 0.632,
+        "lowerClearDepth": 0.49,
+        "upperClearDepth": 0.286,
+        "upperTierClearHeights": [
+          0.298,
+          0.283
+        ],
+        "drawerUseful": [
+          0.564,
+          0.118,
+          0.456
+        ],
+        "contents": "桌布餐巾"
+      },
+      {
+        "id": 4,
+        "clearWidth": 0.632,
+        "lowerClearDepth": 0.49,
+        "upperClearDepth": 0.286,
+        "upperTierClearHeights": [
+          0.298,
+          0.283
+        ],
+        "drawerUseful": [
+          0.564,
+          0.118,
+          0.456
+        ],
+        "contents": "茶叶盒"
+      },
+      {
+        "id": 5,
+        "clearWidth": 0.632,
+        "lowerClearDepth": 0.49,
+        "upperClearDepth": 0.286,
+        "upperTierClearHeights": [
+          0.298,
+          0.283
+        ],
+        "drawerUseful": [
+          0.564,
+          0.118,
+          0.456
+        ],
+        "contents": "保鲜用品"
+      }
+    ],
+    "vent": {
+      "airflowVerified": false,
+      "freeAreaEstimateM2": 0.027790000000000006,
+      "selection": "Front-venting/zero-clearance appliance required; no side/rear cooling assumed"
+    },
+    "limits": "Sampled OBB motion, composite ceiling triangle narrow phase and 600mm circular approach; not simultaneous users, real hardware, suspension/load or installation certification"
+  },
+  "errors": [],
+  "viewports": [
+    1440,
+    390
+  ],
+  "mobileWrapper": true
+}

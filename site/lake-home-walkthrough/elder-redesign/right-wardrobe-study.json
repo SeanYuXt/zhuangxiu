@@ -1,0 +1,25 @@
+{
+  "main": [
+    0,
+    0,
+    2.8,
+    2.9
+  ],
+  "bedX": 0.02,
+  "bedLength": 1.83,
+  "bedWidth": 1.54,
+  "bedTopDefault": 0.15,
+  "bedTopWallSafe": 0.72,
+  "leftSolidWallStart": 0.70514,
+  "wardrobe": [
+    2.2,
+    0.05,
+    2.8,
+    1.85
+  ],
+  "mattress": [
+    1.5,
+    1.8
+  ],
+  "status": "Compromise study: 350mm bed-foot bottleneck. Not approved for elderly use."
+}

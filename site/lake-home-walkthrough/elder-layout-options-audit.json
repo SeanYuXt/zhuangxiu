@@ -1,0 +1,564 @@
+{
+  "method": "20mm grid, four-neighbour paths, circular 600/500mm proxies; furniture footprint checks; 91 door angles. This is comparative model testing, not installation or ergonomic certification.",
+  "unknown": "Window recess usable-floor status is NOT established. Route tests optimistically use the complete existing polygon; passing cannot resolve this unknown.",
+  "layouts": [
+    {
+      "id": "window-study",
+      "intersections": [],
+      "outsideSamples": 0,
+      "doorHits": 0,
+      "routes600": {
+        "vacant": {
+          "side1": false,
+          "side2": true,
+          "deskApproach": true,
+          "targets": {
+            "side1": [
+              0.51,
+              4.33375
+            ],
+            "side2": [
+              2.6899999999999995,
+              4.33375
+            ],
+            "deskCenter": [
+              1.35,
+              2.8150000000000004
+            ]
+          },
+          "reachableCells": 4010
+        },
+        "occupied": {
+          "side1": false,
+          "side2": true,
+          "deskApproach": false,
+          "targets": {
+            "side1": [
+              0.51,
+              4.33375
+            ],
+            "side2": [
+              2.6899999999999995,
+              4.33375
+            ],
+            "deskCenter": [
+              1.35,
+              2.8150000000000004
+            ]
+          },
+          "reachableCells": 3259
+        }
+      },
+      "routes500": {
+        "vacant": {
+          "side1": false,
+          "side2": true,
+          "deskApproach": true,
+          "targets": {
+            "side1": [
+              0.5599999999999999,
+              4.33375
+            ],
+            "side2": [
+              2.6399999999999997,
+              4.33375
+            ],
+            "deskCenter": [
+              1.35,
+              2.8150000000000004
+            ]
+          },
+          "reachableCells": 5607
+        },
+        "occupied": {
+          "side1": false,
+          "side2": true,
+          "deskApproach": false,
+          "targets": {
+            "side1": [
+              0.5599999999999999,
+              4.33375
+            ],
+            "side2": [
+              2.6399999999999997,
+              4.33375
+            ],
+            "deskCenter": [
+              1.35,
+              2.8150000000000004
+            ]
+          },
+          "reachableCells": 4378
+        }
+      }
+    },
+    {
+      "id": "old-shift",
+      "intersections": [
+        {
+          "pair": [
+            "bed",
+            "chair"
+          ],
+          "widthMM": 600,
+          "depthMM": 540
+        }
+      ],
+      "outsideSamples": 0,
+      "doorHits": 0,
+      "routes600": {
+        "vacant": {
+          "side1": false,
+          "side2": true,
+          "deskApproach": false,
+          "targets": {
+            "side1": [
+              1.85125,
+              2.2900000000000005
+            ],
+            "side2": [
+              1.85125,
+              4.47
+            ],
+            "deskCenter": [
+              1.32,
+              2.8150000000000004
+            ]
+          },
+          "reachableCells": 2219
+        },
+        "occupied": {
+          "side1": false,
+          "side2": true,
+          "deskApproach": false,
+          "targets": {
+            "side1": [
+              1.85125,
+              2.2900000000000005
+            ],
+            "side2": [
+              1.85125,
+              4.47
+            ],
+            "deskCenter": [
+              1.32,
+              2.8150000000000004
+            ]
+          },
+          "reachableCells": 2219
+        }
+      },
+      "routes500": {
+        "vacant": {
+          "side1": false,
+          "side2": true,
+          "deskApproach": false,
+          "targets": {
+            "side1": [
+              1.85125,
+              2.3400000000000003
+            ],
+            "side2": [
+              1.85125,
+              4.42
+            ],
+            "deskCenter": [
+              1.32,
+              2.8150000000000004
+            ]
+          },
+          "reachableCells": 3400
+        },
+        "occupied": {
+          "side1": false,
+          "side2": true,
+          "deskApproach": false,
+          "targets": {
+            "side1": [
+              1.85125,
+              2.3400000000000003
+            ],
+            "side2": [
+              1.85125,
+              4.42
+            ],
+            "deskCenter": [
+              1.32,
+              2.8150000000000004
+            ]
+          },
+          "reachableCells": 3400
+        }
+      }
+    },
+    {
+      "id": "side-west",
+      "intersections": [],
+      "outsideSamples": 0,
+      "doorHits": 0,
+      "routes600": {
+        "vacant": {
+          "side1": false,
+          "side2": true,
+          "deskApproach": false,
+          "targets": {
+            "side1": [
+              1.85125,
+              2.3000000000000003
+            ],
+            "side2": [
+              1.85125,
+              4.4799999999999995
+            ],
+            "deskCenter": [
+              0.9950000000000001,
+              2.3
+            ]
+          },
+          "reachableCells": 2118
+        },
+        "occupied": {
+          "side1": false,
+          "side2": true,
+          "deskApproach": false,
+          "targets": {
+            "side1": [
+              1.85125,
+              2.3000000000000003
+            ],
+            "side2": [
+              1.85125,
+              4.4799999999999995
+            ],
+            "deskCenter": [
+              0.9950000000000001,
+              2.3
+            ]
+          },
+          "reachableCells": 2118
+        }
+      },
+      "routes500": {
+        "vacant": {
+          "side1": false,
+          "side2": true,
+          "deskApproach": false,
+          "targets": {
+            "side1": [
+              1.85125,
+              2.35
+            ],
+            "side2": [
+              1.85125,
+              4.43
+            ],
+            "deskCenter": [
+              0.9950000000000001,
+              2.3
+            ]
+          },
+          "reachableCells": 3396
+        },
+        "occupied": {
+          "side1": false,
+          "side2": true,
+          "deskApproach": false,
+          "targets": {
+            "side1": [
+              1.85125,
+              2.35
+            ],
+            "side2": [
+              1.85125,
+              4.43
+            ],
+            "deskCenter": [
+              0.9950000000000001,
+              2.3
+            ]
+          },
+          "reachableCells": 3396
+        }
+      }
+    },
+    {
+      "id": "window-head",
+      "intersections": [],
+      "outsideSamples": 0,
+      "doorHits": 0,
+      "routes600": {
+        "vacant": {
+          "side1": false,
+          "side2": true,
+          "deskApproach": false,
+          "targets": {
+            "side1": [
+              0.97,
+              3.08625
+            ],
+            "side2": [
+              3.1499999999999995,
+              3.08625
+            ],
+            "deskCenter": [
+              0.9450000000000001,
+              2.48
+            ]
+          },
+          "reachableCells": 2584
+        },
+        "occupied": {
+          "side1": false,
+          "side2": true,
+          "deskApproach": false,
+          "targets": {
+            "side1": [
+              0.97,
+              3.08625
+            ],
+            "side2": [
+              3.1499999999999995,
+              3.08625
+            ],
+            "deskCenter": [
+              0.9450000000000001,
+              2.48
+            ]
+          },
+          "reachableCells": 2584
+        }
+      },
+      "routes500": {
+        "vacant": {
+          "side1": false,
+          "side2": true,
+          "deskApproach": false,
+          "targets": {
+            "side1": [
+              1.02,
+              3.08625
+            ],
+            "side2": [
+              3.0999999999999996,
+              3.08625
+            ],
+            "deskCenter": [
+              0.9450000000000001,
+              2.48
+            ]
+          },
+          "reachableCells": 3788
+        },
+        "occupied": {
+          "side1": false,
+          "side2": true,
+          "deskApproach": false,
+          "targets": {
+            "side1": [
+              1.02,
+              3.08625
+            ],
+            "side2": [
+              3.0999999999999996,
+              3.08625
+            ],
+            "deskCenter": [
+              0.9450000000000001,
+              2.48
+            ]
+          },
+          "reachableCells": 3788
+        }
+      }
+    },
+    {
+      "id": "door-head",
+      "intersections": [],
+      "outsideSamples": 0,
+      "doorHits": 0,
+      "routes600": {
+        "vacant": {
+          "side1": false,
+          "side2": true,
+          "deskApproach": true,
+          "targets": {
+            "side1": [
+              0.51,
+              4.33375
+            ],
+            "side2": [
+              2.6899999999999995,
+              4.33375
+            ],
+            "deskCenter": [
+              1.35,
+              2.8150000000000004
+            ]
+          },
+          "reachableCells": 4010
+        },
+        "occupied": {
+          "side1": false,
+          "side2": true,
+          "deskApproach": false,
+          "targets": {
+            "side1": [
+              0.51,
+              4.33375
+            ],
+            "side2": [
+              2.6899999999999995,
+              4.33375
+            ],
+            "deskCenter": [
+              1.35,
+              2.8150000000000004
+            ]
+          },
+          "reachableCells": 3259
+        }
+      },
+      "routes500": {
+        "vacant": {
+          "side1": false,
+          "side2": true,
+          "deskApproach": true,
+          "targets": {
+            "side1": [
+              0.5599999999999999,
+              4.33375
+            ],
+            "side2": [
+              2.6399999999999997,
+              4.33375
+            ],
+            "deskCenter": [
+              1.35,
+              2.8150000000000004
+            ]
+          },
+          "reachableCells": 5607
+        },
+        "occupied": {
+          "side1": false,
+          "side2": true,
+          "deskApproach": false,
+          "targets": {
+            "side1": [
+              0.5599999999999999,
+              4.33375
+            ],
+            "side2": [
+              2.6399999999999997,
+              4.33375
+            ],
+            "deskCenter": [
+              1.35,
+              2.8150000000000004
+            ]
+          },
+          "reachableCells": 4378
+        }
+      }
+    },
+    {
+      "id": "bay-desk",
+      "intersections": [
+        {
+          "pair": [
+            "bed",
+            "chair"
+          ],
+          "widthMM": 600,
+          "depthMM": 40
+        }
+      ],
+      "outsideSamples": 0,
+      "doorHits": 0,
+      "routes600": {
+        "vacant": {
+          "side1": false,
+          "side2": false,
+          "deskApproach": false,
+          "targets": {
+            "side1": [
+              1.85125,
+              2.6600000000000006
+            ],
+            "side2": [
+              1.85125,
+              4.84
+            ],
+            "deskCenter": [
+              1.32,
+              2.6849999999999996
+            ]
+          },
+          "reachableCells": 1663
+        },
+        "occupied": {
+          "side1": false,
+          "side2": false,
+          "deskApproach": false,
+          "targets": {
+            "side1": [
+              1.85125,
+              2.6600000000000006
+            ],
+            "side2": [
+              1.85125,
+              4.84
+            ],
+            "deskCenter": [
+              1.32,
+              2.6849999999999996
+            ]
+          },
+          "reachableCells": 1663
+        }
+      },
+      "routes500": {
+        "vacant": {
+          "side1": true,
+          "side2": false,
+          "deskApproach": true,
+          "targets": {
+            "side1": [
+              1.85125,
+              2.7100000000000004
+            ],
+            "side2": [
+              1.85125,
+              4.79
+            ],
+            "deskCenter": [
+              1.32,
+              2.6849999999999996
+            ]
+          },
+          "reachableCells": 4209
+        },
+        "occupied": {
+          "side1": true,
+          "side2": false,
+          "deskApproach": false,
+          "targets": {
+            "side1": [
+              1.85125,
+              2.7100000000000004
+            ],
+            "side2": [
+              1.85125,
+              4.79
+            ],
+            "deskCenter": [
+              1.32,
+              2.6849999999999996
+            ]
+          },
+          "reachableCells": 3516
+        }
+      }
+    }
+  ]
+}

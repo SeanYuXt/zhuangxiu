@@ -1,0 +1,6 @@
+interface:
+  display_name: "精准户型图 3D 建模"
+  short_description: "精准还原户型几何，并生成浅色三栏可旋转 3D 界面"
+  default_prompt: "使用 $accurate-floorplan-3d 把这张户型图生成面积校准、门窗准确，并采用默认浅色三栏界面的本地可旋转 3D 模型。"
+  icon_small: "assets/icon.svg"
+  icon_large: "assets/icon.svg"

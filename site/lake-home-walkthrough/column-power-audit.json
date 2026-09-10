@@ -1,0 +1,103 @@
+{
+  "core": {
+    "size": [
+      0.3999999894036179,
+      2.799999952316284,
+      0.44999998807907104
+    ],
+    "min": [
+      8.780000005298191,
+      2.3841857821338408e-8,
+      1.3750000059604646
+    ],
+    "max": [
+      9.17999999470181,
+      2.799999976158142,
+      1.8249999940395356
+    ]
+  },
+  "finish": [
+    0.4400000000521551,
+    2.799999952316284,
+    0.5000000000521543
+  ],
+  "tops": [
+    {
+      "side": "left",
+      "size": [
+        1.2999999523162842,
+        0.054999999701977,
+        0.5600000023841858
+      ],
+      "overhang": [
+        0.030000001166015755,
+        0.030000001166015755
+      ],
+      "innerGap": 2.3815779570668383e-8
+    },
+    {
+      "side": "right",
+      "size": [
+        1.2999999523162842,
+        0.054999999701977,
+        0.5600000023841858
+      ],
+      "overhang": [
+        0.030000001166015755,
+        0.030000001166015755
+      ],
+      "innerGap": 2.3815779570668383e-8
+    }
+  ],
+  "wiresIntersectingCore": [],
+  "oldPlaque": false,
+  "oldBelt": false,
+  "closedY": 0.9550000000237486,
+  "metrics": {
+    "revision": "column-flush-power-20260906",
+    "wingLengths": [
+      1.2999999523162842,
+      1.2999999523162842
+    ],
+    "islandToSofa": 1.049999998807908,
+    "islandToKitchenWall": 1.1000000119209288,
+    "kitchenOpening": 1.64,
+    "rightWingToLaundry": 0.8000000095367437,
+    "sofaToCoffee": 0.44999998807907104,
+    "rugSize": [
+      2.2000001057857226,
+      3.2000000442283736
+    ],
+    "screenNormalDistance": 2.5649999999999995,
+    "eyeToScreenCenter": 2.668037668399754,
+    "horizontalAngle": 38.34159918259201,
+    "eye": [
+      9.275,
+      1.08,
+      4.3
+    ],
+    "careToLeftWing": 0.9550000242292889,
+    "careToFridge": 0.3100000002831218,
+    "barDepth": 0.5600000023841858,
+    "glassToTable": 1.2299999988079071,
+    "occupiedSeatToSofa": 0.24000000203241934,
+    "laundryOffsetZ": -0.55,
+    "laundryToFrontGlass": 0.13999999989569173,
+    "washerCenterZ": 0.576,
+    "washerCenterToTableBack": 0.7539999988079072
+  },
+  "rays": [
+    {
+      "side": "left",
+      "hit": "socket-recess-deck",
+      "y": 0.9320000001899899
+    },
+    {
+      "side": "right",
+      "hit": "socket-recess-deck",
+      "y": 0.9320000001899899
+    }
+  ],
+  "errors": [],
+  "limits": "Design furniture only; 240mm behind the fully-pulled occupied seat is NOT a passage. Electrical/product/real-body use unverified."
+}

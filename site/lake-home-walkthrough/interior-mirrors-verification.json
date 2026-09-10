@@ -1,0 +1,583 @@
+{
+  "states": [
+    {
+      "room": "entry",
+      "state": {
+        "count": 6,
+        "updates": 3,
+        "exportMode": false,
+        "limit": 2,
+        "entries": [
+          {
+            "name": "mesh_1150",
+            "label": "玄关穿衣镜",
+            "visible": true,
+            "enabled": true,
+            "renders": 1,
+            "resolution": 512,
+            "world": [
+              4.13,
+              1.52,
+              7.114200000335276
+            ]
+          },
+          {
+            "name": "mesh_1259",
+            "label": "主卫镜面",
+            "visible": true,
+            "enabled": false,
+            "renders": 0,
+            "resolution": 512,
+            "world": [
+              12.292300000022351,
+              1.5799999999999998,
+              2.36
+            ]
+          },
+          {
+            "name": "upper-mirror-door",
+            "label": "阳台镜柜",
+            "visible": true,
+            "enabled": false,
+            "renders": 0,
+            "resolution": 512,
+            "world": [
+              6.14779999961257,
+              1.855,
+              0.565
+            ]
+          },
+          {
+            "name": "makeup-mirror",
+            "label": "主卧梳妆镜",
+            "visible": true,
+            "enabled": false,
+            "renders": 0,
+            "resolution": 512,
+            "world": [
+              12.29579999961257,
+              1.43,
+              3.430000023841858
+            ]
+          },
+          {
+            "name": "dry-mirror-door-0",
+            "label": "公卫镜柜",
+            "visible": true,
+            "enabled": true,
+            "renders": 1,
+            "resolution": 512,
+            "world": [
+              3.0974999999999997,
+              1.565,
+              7.028200000111759
+            ]
+          },
+          {
+            "name": "dry-mirror-door-1",
+            "label": "公卫镜柜",
+            "visible": true,
+            "enabled": true,
+            "renders": 1,
+            "resolution": 512,
+            "world": [
+              3.3825,
+              1.565,
+              7.014200000111758
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "room": "care",
+      "state": {
+        "count": 6,
+        "updates": 5,
+        "exportMode": false,
+        "limit": 2,
+        "entries": [
+          {
+            "name": "mesh_1150",
+            "label": "玄关穿衣镜",
+            "visible": true,
+            "enabled": false,
+            "renders": 1,
+            "resolution": 512,
+            "world": [
+              4.13,
+              1.52,
+              7.114200000335276
+            ]
+          },
+          {
+            "name": "mesh_1259",
+            "label": "主卫镜面",
+            "visible": true,
+            "enabled": false,
+            "renders": 0,
+            "resolution": 512,
+            "world": [
+              12.292300000022351,
+              1.5799999999999998,
+              2.36
+            ]
+          },
+          {
+            "name": "upper-mirror-door",
+            "label": "阳台镜柜",
+            "visible": true,
+            "enabled": true,
+            "renders": 2,
+            "resolution": 512,
+            "world": [
+              6.14779999961257,
+              1.855,
+              0.565
+            ]
+          },
+          {
+            "name": "makeup-mirror",
+            "label": "主卧梳妆镜",
+            "visible": true,
+            "enabled": false,
+            "renders": 0,
+            "resolution": 512,
+            "world": [
+              12.29579999961257,
+              1.43,
+              3.430000023841858
+            ]
+          },
+          {
+            "name": "dry-mirror-door-0",
+            "label": "公卫镜柜",
+            "visible": true,
+            "enabled": false,
+            "renders": 1,
+            "resolution": 512,
+            "world": [
+              3.0974999999999997,
+              1.565,
+              7.028200000111759
+            ]
+          },
+          {
+            "name": "dry-mirror-door-1",
+            "label": "公卫镜柜",
+            "visible": true,
+            "enabled": false,
+            "renders": 1,
+            "resolution": 512,
+            "world": [
+              3.3825,
+              1.565,
+              7.014200000111758
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "room": "master",
+      "state": {
+        "count": 6,
+        "updates": 6,
+        "exportMode": false,
+        "limit": 2,
+        "entries": [
+          {
+            "name": "mesh_1150",
+            "label": "玄关穿衣镜",
+            "visible": true,
+            "enabled": false,
+            "renders": 1,
+            "resolution": 512,
+            "world": [
+              4.13,
+              1.52,
+              7.114200000335276
+            ]
+          },
+          {
+            "name": "mesh_1259",
+            "label": "主卫镜面",
+            "visible": true,
+            "enabled": false,
+            "renders": 0,
+            "resolution": 512,
+            "world": [
+              12.292300000022351,
+              1.5799999999999998,
+              2.36
+            ]
+          },
+          {
+            "name": "upper-mirror-door",
+            "label": "阳台镜柜",
+            "visible": true,
+            "enabled": false,
+            "renders": 2,
+            "resolution": 512,
+            "world": [
+              6.14779999961257,
+              1.855,
+              0.565
+            ]
+          },
+          {
+            "name": "makeup-mirror",
+            "label": "主卧梳妆镜",
+            "visible": true,
+            "enabled": true,
+            "renders": 1,
+            "resolution": 512,
+            "world": [
+              12.29579999961257,
+              1.43,
+              3.430000023841858
+            ]
+          },
+          {
+            "name": "dry-mirror-door-0",
+            "label": "公卫镜柜",
+            "visible": true,
+            "enabled": false,
+            "renders": 1,
+            "resolution": 512,
+            "world": [
+              3.0974999999999997,
+              1.565,
+              7.028200000111759
+            ]
+          },
+          {
+            "name": "dry-mirror-door-1",
+            "label": "公卫镜柜",
+            "visible": true,
+            "enabled": false,
+            "renders": 1,
+            "resolution": 512,
+            "world": [
+              3.3825,
+              1.565,
+              7.014200000111758
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "room": "bath2",
+      "state": {
+        "count": 6,
+        "updates": 7,
+        "exportMode": false,
+        "limit": 2,
+        "entries": [
+          {
+            "name": "mesh_1150",
+            "label": "玄关穿衣镜",
+            "visible": true,
+            "enabled": false,
+            "renders": 1,
+            "resolution": 512,
+            "world": [
+              4.13,
+              1.52,
+              7.114200000335276
+            ]
+          },
+          {
+            "name": "mesh_1259",
+            "label": "主卫镜面",
+            "visible": true,
+            "enabled": true,
+            "renders": 1,
+            "resolution": 512,
+            "world": [
+              12.292300000022351,
+              1.5799999999999998,
+              2.36
+            ]
+          },
+          {
+            "name": "upper-mirror-door",
+            "label": "阳台镜柜",
+            "visible": true,
+            "enabled": false,
+            "renders": 2,
+            "resolution": 512,
+            "world": [
+              6.14779999961257,
+              1.855,
+              0.565
+            ]
+          },
+          {
+            "name": "makeup-mirror",
+            "label": "主卧梳妆镜",
+            "visible": true,
+            "enabled": false,
+            "renders": 1,
+            "resolution": 512,
+            "world": [
+              12.29579999961257,
+              1.43,
+              3.430000023841858
+            ]
+          },
+          {
+            "name": "dry-mirror-door-0",
+            "label": "公卫镜柜",
+            "visible": true,
+            "enabled": false,
+            "renders": 1,
+            "resolution": 512,
+            "world": [
+              3.0974999999999997,
+              1.565,
+              7.028200000111759
+            ]
+          },
+          {
+            "name": "dry-mirror-door-1",
+            "label": "公卫镜柜",
+            "visible": true,
+            "enabled": false,
+            "renders": 1,
+            "resolution": 512,
+            "world": [
+              3.3825,
+              1.565,
+              7.014200000111758
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "room": "bath1",
+      "state": {
+        "count": 6,
+        "updates": 10,
+        "exportMode": false,
+        "limit": 2,
+        "entries": [
+          {
+            "name": "mesh_1150",
+            "label": "玄关穿衣镜",
+            "visible": true,
+            "enabled": true,
+            "renders": 2,
+            "resolution": 512,
+            "world": [
+              4.13,
+              1.52,
+              7.114200000335276
+            ]
+          },
+          {
+            "name": "mesh_1259",
+            "label": "主卫镜面",
+            "visible": true,
+            "enabled": false,
+            "renders": 1,
+            "resolution": 512,
+            "world": [
+              12.292300000022351,
+              1.5799999999999998,
+              2.36
+            ]
+          },
+          {
+            "name": "upper-mirror-door",
+            "label": "阳台镜柜",
+            "visible": true,
+            "enabled": false,
+            "renders": 2,
+            "resolution": 512,
+            "world": [
+              6.14779999961257,
+              1.855,
+              0.565
+            ]
+          },
+          {
+            "name": "makeup-mirror",
+            "label": "主卧梳妆镜",
+            "visible": true,
+            "enabled": false,
+            "renders": 1,
+            "resolution": 512,
+            "world": [
+              12.29579999961257,
+              1.43,
+              3.430000023841858
+            ]
+          },
+          {
+            "name": "dry-mirror-door-0",
+            "label": "公卫镜柜",
+            "visible": true,
+            "enabled": true,
+            "renders": 2,
+            "resolution": 512,
+            "world": [
+              3.0974999999999997,
+              1.565,
+              7.028200000111759
+            ]
+          },
+          {
+            "name": "dry-mirror-door-1",
+            "label": "公卫镜柜",
+            "visible": true,
+            "enabled": true,
+            "renders": 2,
+            "resolution": 512,
+            "world": [
+              3.3825,
+              1.565,
+              7.014200000111758
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "optical": {
+    "counts": [
+      {
+        "count": 3460,
+        "x": 177.39826589595376
+      },
+      {
+        "count": 3460,
+        "x": 333.6017341040462
+      }
+    ],
+    "exportSafe": true,
+    "exportNodes": [
+      "makeup-mirror",
+      "unnamed",
+      "unnamed"
+    ],
+    "exportMaterials": [
+      {
+        "metallicFactor": 0.85,
+        "roughnessFactor": 1
+      },
+      {
+        "baseColorFactor": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.9
+      }
+    ]
+  },
+  "slide": [
+    0.2629999999999999,
+    0,
+    0
+  ],
+  "lifecycle": {
+    "count": 6,
+    "updates": 10,
+    "exportMode": false,
+    "limit": 2,
+    "entries": [
+      {
+        "name": "mesh_1150",
+        "label": "玄关穿衣镜",
+        "visible": true,
+        "enabled": true,
+        "renders": 2,
+        "resolution": 512,
+        "world": [
+          4.13,
+          1.52,
+          7.114200000335276
+        ]
+      },
+      {
+        "name": "mesh_1259",
+        "label": "主卫镜面",
+        "visible": true,
+        "enabled": false,
+        "renders": 1,
+        "resolution": 512,
+        "world": [
+          12.292300000022351,
+          1.5799999999999998,
+          2.36
+        ]
+      },
+      {
+        "name": "upper-mirror-door",
+        "label": "阳台镜柜",
+        "visible": true,
+        "enabled": false,
+        "renders": 2,
+        "resolution": 512,
+        "world": [
+          6.14779999961257,
+          1.855,
+          0.565
+        ]
+      },
+      {
+        "name": "dry-mirror-door-0",
+        "label": "公卫镜柜",
+        "visible": true,
+        "enabled": true,
+        "renders": 2,
+        "resolution": 512,
+        "world": [
+          3.0974999999999997,
+          1.565,
+          7.028200000111759
+        ]
+      },
+      {
+        "name": "dry-mirror-door-1",
+        "label": "公卫镜柜",
+        "visible": true,
+        "enabled": true,
+        "renders": 2,
+        "resolution": 512,
+        "world": [
+          3.3825,
+          1.565,
+          7.014200000111758
+        ]
+      },
+      {
+        "name": "makeup-mirror",
+        "label": "主卧梳妆镜",
+        "visible": true,
+        "enabled": false,
+        "renders": 0,
+        "resolution": 512,
+        "world": [
+          12.29579999961257,
+          1.43,
+          3.430000023841858
+        ]
+      }
+    ]
+  },
+  "timing": {
+    "frames": 36,
+    "reflectionUpdates": 35,
+    "medianMs": 38.700000047683716,
+    "p95Ms": 91.29999995231628,
+    "note": "headless Chrome desktop frame scheduling; not physical phone FPS"
+  },
+  "errors": [],
+  "limits": "单次平面反射，不包含多镜无限互映；视口测试不是实机GPU性能认证。"
+}

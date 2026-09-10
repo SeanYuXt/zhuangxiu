@@ -1,0 +1,16 @@
+[
+  {
+    "bedTop": 0.15,
+    "cabinetGapMm": 610,
+    "unsupportedHeadMm": 555,
+    "furnitureOverlap": false,
+    "doorHits": []
+  },
+  {
+    "bedTop": 0.72,
+    "cabinetGapMm": 40,
+    "unsupportedHeadMm": 0,
+    "furnitureOverlap": false,
+    "doorHits": []
+  }
+]

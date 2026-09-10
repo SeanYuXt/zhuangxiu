@@ -1,0 +1,116 @@
+{
+  "rows": [
+    {
+      "name": "door-front-main",
+      "id": "front",
+      "hinge": "b",
+      "sourceHinge": "b",
+      "dot": 1,
+      "hingeDistance": 0.04499999999999993,
+      "closeError": 0,
+      "reopenError": 0
+    },
+    {
+      "name": "door-front-secondary",
+      "id": "front",
+      "hinge": "a",
+      "sourceHinge": "a",
+      "dot": 1,
+      "hingeDistance": 0.04499999999999993,
+      "closeError": 0,
+      "reopenError": 0
+    },
+    {
+      "name": "door-bed1-single",
+      "id": "bed1",
+      "hinge": "b",
+      "sourceHinge": "b",
+      "dot": 1,
+      "hingeDistance": 0.027499999999999858,
+      "closeError": 0,
+      "reopenError": 0
+    },
+    {
+      "name": "door-bath1-single",
+      "id": "bath1",
+      "hinge": "a",
+      "sourceHinge": "a",
+      "dot": 1,
+      "hingeDistance": 0.027499999999999858,
+      "closeError": 0,
+      "reopenError": 0
+    },
+    {
+      "name": "door-bath2-single",
+      "id": "bath2",
+      "hinge": "b",
+      "sourceHinge": "b",
+      "dot": 1,
+      "hingeDistance": 0.027499999999999858,
+      "closeError": 0,
+      "reopenError": 0
+    },
+    {
+      "name": "door-master-single",
+      "id": "master",
+      "hinge": "b",
+      "sourceHinge": "b",
+      "dot": 1,
+      "hingeDistance": 0.027499999999999858,
+      "closeError": 0,
+      "reopenError": 0
+    },
+    {
+      "name": "door-bed3-single",
+      "id": "bed3",
+      "hinge": "b",
+      "sourceHinge": "b",
+      "dot": 1,
+      "hingeDistance": 0.027499999999999858,
+      "closeError": 0,
+      "reopenError": 0
+    }
+  ],
+  "sampledPlanOverlapCandidates": [
+    {
+      "door": "door-bed3-single",
+      "collider": 60,
+      "name": "衣柜",
+      "firstSampleDegrees": 90
+    },
+    {
+      "door": "door-bed3-single",
+      "collider": 61,
+      "name": "furniture",
+      "firstSampleDegrees": 90
+    }
+  ],
+  "clearances": [
+    {
+      "mm": 910,
+      "pass": true
+    },
+    {
+      "mm": 950,
+      "pass": true
+    },
+    {
+      "mm": 1120,
+      "pass": true
+    },
+    {
+      "mm": 990,
+      "pass": true
+    },
+    {
+      "mm": 1122,
+      "pass": true
+    },
+    {
+      "mm": 1385,
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "scope": "方向/开合回归；5度抽样二维重叠只提示候选冲突，非完整通行验收"
+}

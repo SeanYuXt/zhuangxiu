@@ -1,0 +1,86 @@
+{
+  "counter": {
+    "min": [
+      2.617999999254943,
+      0.8199999998137354,
+      6.48999999895692
+    ],
+    "max": [
+      3.068000000372531,
+      0.8450000001862644,
+      7.140000001043083
+    ]
+  },
+  "screen": {
+    "name": "study-opaque-screen",
+    "min": [
+      2.618000000596046,
+      5.7220459037665705e-8,
+      6.419999999627471
+    ],
+    "max": [
+      3.0879999994039533,
+      2.119999942779541,
+      6.470000000372529
+    ]
+  },
+  "screenParts": [
+    {
+      "name": "study-opaque-screen",
+      "min": [
+        2.618000000596046,
+        5.7220459037665705e-8,
+        6.419999999627471
+      ],
+      "max": [
+        3.0879999994039533,
+        2.119999942779541,
+        6.470000000372529
+      ]
+    },
+    {
+      "name": "screen-wet-facing-lining",
+      "min": [
+        2.637999996423721,
+        0.07999997138977055,
+        6.465000000055879
+      ],
+      "max": [
+        3.0680000035762784,
+        2.0200000286102293,
+        6.46999999994412
+      ]
+    },
+    {
+      "name": "screen-base",
+      "min": [
+        2.618000000596046,
+        8.940696724635266e-10,
+        6.419999999627471
+      ],
+      "max": [
+        3.0879999994039533,
+        0.07999999910593034,
+        6.470000000372529
+      ]
+    }
+  ],
+  "standingOverlapsReservedCorridor": false,
+  "standingOverlapsScreen": false,
+  "basinFrontToShoeSide": 1.5879999999999996,
+  "oldBenchVisible": false,
+  "newSeatNames": [],
+  "shoeDoors": [
+    "study-shoe-tall-door-0",
+    "study-shoe-tall-door-1",
+    "study-shoe-tall-door-2",
+    "study-shoe-tall-door-3"
+  ],
+  "floorRecess": 0.18,
+  "modelMainPassage": 0.9100000000000001,
+  "sourceEstimate": 0.9,
+  "sideEntry": "open side, no entry door; 700mm is not advertised as additional clearance",
+  "errors": [],
+  "controls": "5 views, old/new, screen toggle, orbit drag, 390px overflow check",
+  "limits": "No actual product, plumbing, structure, physical mobile or construction validation"
+}

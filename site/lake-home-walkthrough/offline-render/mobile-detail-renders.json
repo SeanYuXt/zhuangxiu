@@ -1,0 +1,46 @@
+{
+  "sourceSha256": "b5a7621ae446241605bfdb08520fc56f387364689dcae7478a736231f3ca26ff",
+  "column": [
+    8.98,
+    0,
+    1.6
+  ],
+  "renders": [
+    {
+      "id": "bar",
+      "file": "mobile-bar-hd.png",
+      "width": 1920,
+      "height": 1080,
+      "samples": 24
+    },
+    {
+      "id": "care",
+      "file": "mobile-care-hd.png",
+      "width": 1920,
+      "height": 1080,
+      "samples": 24
+    },
+    {
+      "id": "balconyGap",
+      "file": "mobile-balconyGap-hd.png",
+      "width": 1920,
+      "height": 1080,
+      "samples": 24
+    },
+    {
+      "id": "living",
+      "file": "mobile-living-hd.png",
+      "width": 1920,
+      "height": 1080,
+      "samples": 24
+    },
+    {
+      "id": "dining",
+      "file": "mobile-dining-hd.png",
+      "width": 1920,
+      "height": 1080,
+      "samples": 24
+    }
+  ],
+  "limits": "Same corrected live geometry; Cycles lighting study, not a site photograph or completed construction design."
+}

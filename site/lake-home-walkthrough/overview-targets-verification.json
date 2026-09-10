@@ -1,0 +1,278 @@
+{
+  "targets": [
+    {
+      "id": "entry",
+      "position": [
+        7.1,
+        1.5,
+        5.95
+      ],
+      "blockedBy": null
+    },
+    {
+      "id": "living",
+      "position": [
+        8.1,
+        1.6,
+        6
+      ],
+      "blockedBy": null
+    },
+    {
+      "id": "dining",
+      "position": [
+        6.35,
+        1.6,
+        4.95
+      ],
+      "blockedBy": null
+    },
+    {
+      "id": "cabinet",
+      "position": [
+        8.35,
+        1.6,
+        3
+      ],
+      "blockedBy": null
+    },
+    {
+      "id": "fridge",
+      "position": [
+        8.19,
+        1.6,
+        2.76
+      ],
+      "blockedBy": null
+    },
+    {
+      "id": "services",
+      "position": [
+        8.19,
+        1.6,
+        5.05
+      ],
+      "blockedBy": null
+    },
+    {
+      "id": "bar",
+      "position": [
+        10.4,
+        1.6,
+        3.45
+      ],
+      "blockedBy": null
+    },
+    {
+      "id": "laundry",
+      "position": [
+        8.35,
+        1.6,
+        0.7
+      ],
+      "blockedBy": null
+    },
+    {
+      "id": "kitchen",
+      "position": [
+        5.33,
+        1.6,
+        5.02
+      ],
+      "blockedBy": null
+    },
+    {
+      "id": "bed1",
+      "position": [
+        3.18,
+        1.6,
+        5.03
+      ],
+      "blockedBy": null
+    },
+    {
+      "id": "bath1",
+      "position": [
+        1.54,
+        1.6,
+        5.88
+      ],
+      "blockedBy": null
+    },
+    {
+      "id": "master",
+      "position": [
+        14.61,
+        1.6,
+        3.38
+      ],
+      "blockedBy": null
+    },
+    {
+      "id": "bath2",
+      "position": [
+        13.72,
+        1.6,
+        2.39
+      ],
+      "blockedBy": null
+    },
+    {
+      "id": "bed3",
+      "position": [
+        14.35,
+        1.6,
+        6.17
+      ],
+      "blockedBy": null
+    },
+    {
+      "id": "lake",
+      "position": [
+        8.35,
+        1.6,
+        0.7
+      ],
+      "blockedBy": null
+    },
+    {
+      "id": "tvSeat",
+      "position": [
+        9.275,
+        1.08,
+        4.3
+      ],
+      "blockedBy": "mesh_836"
+    },
+    {
+      "id": "care",
+      "position": [
+        9.05,
+        1.6,
+        0.75
+      ],
+      "blockedBy": null
+    },
+    {
+      "id": "drying",
+      "position": [
+        7.1,
+        1.6,
+        2.75
+      ],
+      "blockedBy": null
+    },
+    {
+      "id": "balconyGap",
+      "position": [
+        6.800000000000001,
+        1.55,
+        0.7000000000000001
+      ],
+      "blockedBy": null
+    },
+    {
+      "id": "columnFront",
+      "position": [
+        8.530000000000001,
+        1.55,
+        0.7000000000000001
+      ],
+      "blockedBy": null
+    },
+    {
+      "id": "glassLeft",
+      "position": [
+        7.78,
+        1.55,
+        0.7000000000000001
+      ],
+      "blockedBy": null
+    },
+    {
+      "id": "glassRight",
+      "position": [
+        10.450000000000001,
+        1.55,
+        0.7500000000000001
+      ],
+      "blockedBy": null
+    }
+  ],
+  "interactions": [
+    {
+      "width": 1440,
+      "id": "cabinet",
+      "position": [
+        8.35,
+        1.6,
+        3
+      ]
+    },
+    {
+      "width": 1440,
+      "id": "care",
+      "position": [
+        9.05,
+        1.6,
+        0.75
+      ]
+    },
+    {
+      "width": 1440,
+      "id": "bath1",
+      "position": [
+        1.54,
+        1.6,
+        5.88
+      ]
+    },
+    {
+      "width": 1440,
+      "id": "bath2",
+      "position": [
+        13.72,
+        1.6,
+        2.39
+      ]
+    },
+    {
+      "width": 390,
+      "id": "cabinet",
+      "position": [
+        8.35,
+        1.6,
+        3
+      ]
+    },
+    {
+      "width": 390,
+      "id": "care",
+      "position": [
+        9.05,
+        1.6,
+        0.75
+      ]
+    },
+    {
+      "width": 390,
+      "id": "bath1",
+      "position": [
+        1.54,
+        1.6,
+        5.88
+      ]
+    },
+    {
+      "width": 390,
+      "id": "bath2",
+      "position": [
+        13.72,
+        1.6,
+        2.39
+      ]
+    }
+  ],
+  "errors": [],
+  "limits": "230mm radius game proxy; seated TV view intentionally excluded. Does not certify human accessibility, framing, or construction."
+}

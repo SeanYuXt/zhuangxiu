@@ -1,0 +1,199 @@
+{
+  "vertices": 3630,
+  "sourceArea": 110.88395520400354,
+  "tileArea": 110.14366362317944,
+  "tiles": 211,
+  "drawCalls": 3,
+  "invalid": [],
+  "samples": [
+    {
+      "dx": -0.0012,
+      "name": "800x800-cut-porcelain",
+      "y": 0.006000000052154064
+    },
+    {
+      "dx": 0,
+      "name": "800x800-straight-tile-floor",
+      "y": 0.005199999999998921
+    },
+    {
+      "dx": 0.0012,
+      "name": "800x800-cut-porcelain",
+      "y": 0.006000000052154064
+    }
+  ],
+  "holes": [
+    {
+      "x": 2.17,
+      "z": 6.79,
+      "hit": null
+    },
+    {
+      "x": 1.28,
+      "z": 7.035,
+      "hit": null
+    },
+    {
+      "x": 1.25,
+      "z": 6.7,
+      "hit": null
+    }
+  ],
+  "wetErrors": [],
+  "thresholds": [
+    {
+      "id": "bath1",
+      "top": 0.006000000189989805,
+      "minClearance": 0.008999952126294232,
+      "size": [
+        0.11599999666213989,
+        0.00800000037997961,
+        0.7540000081062317
+      ]
+    },
+    {
+      "id": "bath2",
+      "top": 0.006000000189989805,
+      "minClearance": 0.008999952126294232,
+      "size": [
+        0.7940000295639038,
+        0.00800000037997961,
+        0.11599999666213989
+      ]
+    }
+  ],
+  "living": [
+    {
+      "room": "living",
+      "edge": 0,
+      "axis": 0,
+      "from": [
+        5.92,
+        0.2
+      ],
+      "to": [
+        12.03,
+        0.2
+      ],
+      "startCut": 0.6550000000000002,
+      "endCut": 0.6549999999999976
+    },
+    {
+      "room": "living",
+      "edge": 2,
+      "axis": 0,
+      "from": [
+        12.03,
+        5.6
+      ],
+      "to": [
+        5.92,
+        5.6
+      ],
+      "startCut": 0.6550000000000002,
+      "endCut": 0.6549999999999976
+    }
+  ],
+  "origin": [
+    0.175,
+    0.4
+  ],
+  "pitch": 0.8,
+  "grout": 0.002,
+  "maps": [
+    {
+      "kind": "map",
+      "exists": true,
+      "colorSpace": "srgb"
+    },
+    {
+      "kind": "normalMap",
+      "exists": true,
+      "colorSpace": ""
+    },
+    {
+      "kind": "roughnessMap",
+      "exists": true,
+      "colorSpace": ""
+    }
+  ],
+  "limits": [
+    "room polygons, not site dimensions",
+    "wet slip resistance and waterproofing not certified",
+    "microfinish is procedural, not photographic",
+    "hidden under-wall tile area is not purchase quantity"
+  ],
+  "ui": [
+    {
+      "w": 1440,
+      "room": "living",
+      "visible": true
+    },
+    {
+      "w": 1440,
+      "room": "kitchen",
+      "visible": true
+    },
+    {
+      "w": 1440,
+      "room": "bed1",
+      "visible": true
+    },
+    {
+      "w": 1440,
+      "room": "master",
+      "visible": true
+    },
+    {
+      "w": 1440,
+      "room": "bed3",
+      "visible": true
+    },
+    {
+      "w": 1440,
+      "room": "bath1",
+      "visible": true
+    },
+    {
+      "w": 1440,
+      "room": "bath2",
+      "visible": true
+    },
+    {
+      "w": 390,
+      "room": "living",
+      "visible": true
+    },
+    {
+      "w": 390,
+      "room": "kitchen",
+      "visible": true
+    },
+    {
+      "w": 390,
+      "room": "bed1",
+      "visible": true
+    },
+    {
+      "w": 390,
+      "room": "master",
+      "visible": true
+    },
+    {
+      "w": 390,
+      "room": "bed3",
+      "visible": true
+    },
+    {
+      "w": 390,
+      "room": "bath1",
+      "visible": true
+    },
+    {
+      "w": 390,
+      "room": "bath2",
+      "visible": true
+    }
+  ],
+  "errors": []
+}

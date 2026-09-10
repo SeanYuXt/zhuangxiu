@@ -1,0 +1,156 @@
+{
+  "sweeps": [
+    "bed1-cover",
+    "bed1-filters",
+    "bed1-flap",
+    "master-cover",
+    "master-filters",
+    "master-flap",
+    "bed3-cover",
+    "bed3-filters",
+    "bed3-flap",
+    "duct-return",
+    "duct-filter",
+    "duct-hatch"
+  ],
+  "posesPerSweep": 91,
+  "hits": [],
+  "shellHits": [],
+  "staticShellContacts": [],
+  "passages": [
+    {
+      "id": "direct-supply-centre",
+      "hit": null
+    },
+    {
+      "id": "direct-supply-left",
+      "hit": null
+    },
+    {
+      "id": "direct-supply-right",
+      "hit": null
+    },
+    {
+      "id": "return",
+      "hit": null
+    },
+    {
+      "id": "hatch",
+      "hit": null
+    }
+  ],
+  "invalid": [],
+  "splitBounds": {
+    "bed1": {
+      "min": [
+        3.38299999981001,
+        2.1799999940395356,
+        2.649999999895692
+      ],
+      "max": [
+        3.600000001490116,
+        2.4800000059604645,
+        3.5900000001043084
+      ]
+    },
+    "master": {
+      "min": [
+        14.309999998509884,
+        2.1799999940395356,
+        1.759999999895692
+      ],
+      "max": [
+        14.52700000018999,
+        2.4800000059604645,
+        2.7000000001043083
+      ]
+    },
+    "bed3": {
+      "min": [
+        14.909999999895692,
+        2.1799999940395356,
+        4.4599999985098835
+      ],
+      "max": [
+        15.850000000104309,
+        2.4800000059604645,
+        4.67700000018999
+      ]
+    }
+  },
+  "caseSize": [
+    1.2000000476837158,
+    0.22000000007823095,
+    0.6000000238418579
+  ],
+  "lowPlanArea": 3.6660000000000017,
+  "previousLowArea": 3.9199999999999995,
+  "limits": [
+    "OBB sample tests are geometry, not manufacturer installation/airflow certification",
+    "2.8m height and equipment selection provisional",
+    "No verified outdoor, refrigerant or condensate route"
+  ],
+  "controls": [
+    {
+      "w": 1440,
+      "h": 1000,
+      "room": "living"
+    },
+    {
+      "w": 1440,
+      "h": 1000,
+      "room": "bed1"
+    },
+    {
+      "w": 1440,
+      "h": 1000,
+      "room": "master"
+    },
+    {
+      "w": 1440,
+      "h": 1000,
+      "room": "bed3"
+    },
+    {
+      "w": 390,
+      "h": 844,
+      "room": "living"
+    },
+    {
+      "w": 390,
+      "h": 844,
+      "room": "bed1"
+    },
+    {
+      "w": 390,
+      "h": 844,
+      "room": "master"
+    },
+    {
+      "w": 390,
+      "h": 844,
+      "room": "bed3"
+    },
+    {
+      "w": 844,
+      "h": 390,
+      "room": "living"
+    },
+    {
+      "w": 844,
+      "h": 390,
+      "room": "bed1"
+    },
+    {
+      "w": 844,
+      "h": 390,
+      "room": "master"
+    },
+    {
+      "w": 844,
+      "h": 390,
+      "room": "bed3"
+    }
+  ],
+  "errors": []
+}

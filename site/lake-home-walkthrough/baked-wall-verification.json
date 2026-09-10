@@ -1,0 +1,45 @@
+{
+  "before": {
+    "valid": true,
+    "requested": true,
+    "active": true
+  },
+  "textures": [
+    {
+      "name": "mesh_55",
+      "width": 1024,
+      "height": 1024,
+      "channel": 1,
+      "active": true,
+      "vertices": 24
+    },
+    {
+      "name": "mesh_56",
+      "width": 1024,
+      "height": 1024,
+      "channel": 1,
+      "active": true,
+      "vertices": 24
+    }
+  ],
+  "changed": {
+    "valid": false,
+    "requested": true,
+    "active": false
+  },
+  "fallback": true,
+  "restored": {
+    "valid": true,
+    "requested": true,
+    "active": true
+  },
+  "source": "4e42fe3b95a8d0ae8762b15f5582ebd790cbfab4efdc10228df9fb2f82c547c8",
+  "postprocess": {
+    "algorithm": "Blender compositor OpenImageDenoise",
+    "hdr": true,
+    "guides": "none; diffuse irradiance only",
+    "rawFolder": "lightmaps-child-v1",
+    "note": "Render use_denoising does not denoise object.bake output. No geometry or albedo changes."
+  },
+  "errors": []
+}

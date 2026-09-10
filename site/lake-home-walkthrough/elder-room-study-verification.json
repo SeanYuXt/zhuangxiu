@@ -1,0 +1,67 @@
+{
+  "result": "PASS",
+  "geometry": {
+    "bed": {
+      "min": [
+        0.8049999998956917,
+        0.0059999999869614845,
+        2.600000028610229
+      ],
+      "max": [
+        2.8975000000130384,
+        1.1600000011920928,
+        4.1599999713897695
+      ]
+    },
+    "clearance": {
+      "window": 0.6005000286102289,
+      "wardrobe": 0.6200000286102307,
+      "foot": 0.7124999999869615
+    },
+    "outsideCount": 0,
+    "doorHits": 0,
+    "door": {
+      "id": "bed1",
+      "wall_id": "wall-24",
+      "offset": 1.96,
+      "width": 0.9,
+      "kind": "door",
+      "connects": [
+        "living",
+        "bed1"
+      ],
+      "swing_into": "bed1",
+      "leaf": true
+    },
+    "chairOverlap": {
+      "width": 0.6000000000000001,
+      "depth": 0.54
+    },
+    "wardrobe": {
+      "x0": 0.82,
+      "z0": 4.78,
+      "x1": 2.52,
+      "z1": 5.38
+    },
+    "windowCabinetHidden": true
+  },
+  "checks": [
+    "same-shell furniture footprints",
+    "91 door angles / 5mm leaf samples with 20mm allowance",
+    "actual bed bounds",
+    "five views",
+    "candidate/original",
+    "desk conflict",
+    "sliding door",
+    "orbit",
+    "390px overflow"
+  ],
+  "errors": [],
+  "limits": [
+    "No real-site verification",
+    "600mm total cabinet depth is a procurement assumption",
+    "Window recess usable-floor status unresolved",
+    "Writing/dressing desk NOT solved",
+    "No accessibility or two-person comfort certification"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "revision": 94,
+  "confirmedByUser": true,
+  "source": "child-original-door-layout.js",
+  "translation": [
+    14.02,
+    0,
+    4.46
+  ],
+  "scale": [
+    1,
+    1,
+    1
+  ],
+  "mattress": [
+    1.5,
+    2.0
+  ],
+  "wardrobe": [
+    1.2,
+    0.5
+  ],
+  "desk": [
+    0.8,
+    0.6
+  ],
+  "preserved": [
+    "PDF walls",
+    "original door",
+    "bay window"
+  ],
+  "limits": [
+    "Original door operation and seated comfort still require on-site check"
+  ],
+  "sourceSha256": "1312e4a20fb195d781580be0d4b884e879afed19945505cad670d52c9d49d5ff"
+}

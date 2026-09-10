@@ -1,0 +1,473 @@
+{
+  "results": [
+    {
+      "key": "deep",
+      "spec": {
+        "label": "A · 常规深柜",
+        "width": 0.75,
+        "depth": 0.49,
+        "key": "deep",
+        "x": 3.13,
+        "backFace": 7.17,
+        "northFace": 5.51,
+        "minX": 2.61,
+        "maxX": 3.6100000000000003,
+        "front": 6.68,
+        "cabinet": {
+          "x0": 2.755,
+          "z0": 6.68,
+          "x1": 3.505,
+          "z1": 7.17
+        },
+        "screen": {
+          "x0": 3.505,
+          "z0": 6.68,
+          "x1": 3.5349999999999997,
+          "z1": 7.17
+        },
+        "standing": {
+          "x0": 2.83,
+          "z0": 6.08,
+          "x1": 3.4299999999999997,
+          "z1": 6.68
+        },
+        "drawer": {
+          "x0": 2.78,
+          "z0": 6.359999999999999,
+          "x1": 3.48,
+          "z1": 6.68
+        },
+        "useAssumption": "600 × 600 mm 静态站位，非人体/无障碍标准；抽屉假设拉出 320 mm",
+        "clearClosed": 1.17,
+        "clearOccupied": 0.5700000000000003,
+        "widthBasis": "公卫外墙面至上方卧室/厨房分墙侧面的投影对齐范围；右侧干区没有据此新增墙。原图对应印刷段为 1000 mm，未作现场复尺",
+        "approved": false,
+        "plumbingVerified": false
+      },
+      "bounds": [
+        [
+          2.7549999967217444,
+          1.19209286886246e-9,
+          6.679999995231628
+        ],
+        [
+          3.534999999664724,
+          1.9600000003799796,
+          7.170000004768371
+        ]
+      ],
+      "insideDryAllocation": true,
+      "benchSideGap": 0.06999998603016122,
+      "collisions": [],
+      "doorHits": [],
+      "routeEmpty": {
+        "reachable": true,
+        "visited": 2396,
+        "start": [
+          4.5,
+          5.9
+        ],
+        "target": [
+          2.15,
+          6.050000000000001
+        ],
+        "radius": 0.3,
+        "grid": 0.025,
+        "doorState": "current 90-degree open",
+        "scope": "local entry-to-public-bath route only; circle proxy is not a person"
+      },
+      "routeOccupied": {
+        "reachable": false,
+        "visited": 1211,
+        "start": [
+          4.5,
+          5.9
+        ],
+        "target": [
+          2.15,
+          6.050000000000001
+        ],
+        "radius": 0.3,
+        "grid": 0.025,
+        "doorState": "current 90-degree open",
+        "scope": "local entry-to-public-bath route only; circle proxy is not a person"
+      },
+      "routeDrawerUse": {
+        "reachable": false,
+        "visited": 1180,
+        "start": [
+          4.5,
+          5.9
+        ],
+        "target": [
+          2.15,
+          6.050000000000001
+        ],
+        "radius": 0.3,
+        "grid": 0.025,
+        "doorState": "current 90-degree open",
+        "scope": "local entry-to-public-bath route only; circle proxy is not a person"
+      },
+      "visible": true
+    },
+    {
+      "key": "slim",
+      "spec": {
+        "label": "B · 浅柜减占地",
+        "width": 0.75,
+        "depth": 0.4,
+        "key": "slim",
+        "x": 3.13,
+        "backFace": 7.17,
+        "northFace": 5.51,
+        "minX": 2.61,
+        "maxX": 3.6100000000000003,
+        "front": 6.77,
+        "cabinet": {
+          "x0": 2.755,
+          "z0": 6.77,
+          "x1": 3.505,
+          "z1": 7.17
+        },
+        "screen": {
+          "x0": 3.505,
+          "z0": 6.77,
+          "x1": 3.5349999999999997,
+          "z1": 7.17
+        },
+        "standing": {
+          "x0": 2.83,
+          "z0": 6.17,
+          "x1": 3.4299999999999997,
+          "z1": 6.77
+        },
+        "drawer": {
+          "x0": 2.78,
+          "z0": 6.449999999999999,
+          "x1": 3.48,
+          "z1": 6.77
+        },
+        "useAssumption": "600 × 600 mm 静态站位，非人体/无障碍标准；抽屉假设拉出 320 mm",
+        "clearClosed": 1.2599999999999998,
+        "clearOccupied": 0.6600000000000001,
+        "widthBasis": "公卫外墙面至上方卧室/厨房分墙侧面的投影对齐范围；右侧干区没有据此新增墙。原图对应印刷段为 1000 mm，未作现场复尺",
+        "approved": false,
+        "plumbingVerified": false
+      },
+      "bounds": [
+        [
+          2.7549999967217444,
+          1.19209286886246e-9,
+          6.7699999970197675
+        ],
+        [
+          3.534999999664724,
+          1.9600000003799796,
+          7.170000002980232
+        ]
+      ],
+      "insideDryAllocation": true,
+      "benchSideGap": 0.06999998603016122,
+      "collisions": [],
+      "doorHits": [],
+      "routeEmpty": {
+        "reachable": true,
+        "visited": 2457,
+        "start": [
+          4.5,
+          5.9
+        ],
+        "target": [
+          2.15,
+          6.050000000000001
+        ],
+        "radius": 0.3,
+        "grid": 0.025,
+        "doorState": "current 90-degree open",
+        "scope": "local entry-to-public-bath route only; circle proxy is not a person"
+      },
+      "routeOccupied": {
+        "reachable": false,
+        "visited": 1521,
+        "start": [
+          4.5,
+          5.9
+        ],
+        "target": [
+          2.15,
+          6.050000000000001
+        ],
+        "radius": 0.3,
+        "grid": 0.025,
+        "doorState": "current 90-degree open",
+        "scope": "local entry-to-public-bath route only; circle proxy is not a person"
+      },
+      "routeDrawerUse": {
+        "reachable": false,
+        "visited": 1185,
+        "start": [
+          4.5,
+          5.9
+        ],
+        "target": [
+          2.15,
+          6.050000000000001
+        ],
+        "radius": 0.3,
+        "grid": 0.025,
+        "doorState": "current 90-degree open",
+        "scope": "local entry-to-public-bath route only; circle proxy is not a person"
+      },
+      "visible": true
+    },
+    {
+      "key": "offset",
+      "spec": {
+        "label": "C · 窄柜向鞋区侧移",
+        "width": 0.65,
+        "depth": 0.4,
+        "shift": 0.11,
+        "key": "offset",
+        "x": 3.2399999999999998,
+        "backFace": 7.17,
+        "northFace": 5.51,
+        "minX": 2.61,
+        "maxX": 3.6100000000000003,
+        "front": 6.77,
+        "cabinet": {
+          "x0": 2.9149999999999996,
+          "z0": 6.77,
+          "x1": 3.565,
+          "z1": 7.17
+        },
+        "screen": {
+          "x0": 3.565,
+          "z0": 6.77,
+          "x1": 3.5949999999999998,
+          "z1": 7.17
+        },
+        "standing": {
+          "x0": 2.94,
+          "z0": 6.17,
+          "x1": 3.5399999999999996,
+          "z1": 6.77
+        },
+        "drawer": {
+          "x0": 2.9399999999999995,
+          "z0": 6.449999999999999,
+          "x1": 3.54,
+          "z1": 6.77
+        },
+        "useAssumption": "600 × 600 mm 静态站位，非人体/无障碍标准；抽屉假设拉出 320 mm",
+        "clearClosed": 1.2599999999999998,
+        "clearOccupied": 0.6600000000000001,
+        "widthBasis": "公卫外墙面至上方卧室/厨房分墙侧面的投影对齐范围；右侧干区没有据此新增墙。原图对应印刷段为 1000 mm，未作现场复尺",
+        "approved": false,
+        "plumbingVerified": false
+      },
+      "bounds": [
+        [
+          2.9149999989569184,
+          1.19209286886246e-9,
+          6.7699999970197675
+        ],
+        [
+          3.594999999664724,
+          1.9600000003799796,
+          7.170000002980232
+        ]
+      ],
+      "insideDryAllocation": true,
+      "benchSideGap": 0.009999986030161168,
+      "collisions": [],
+      "doorHits": [],
+      "routeEmpty": {
+        "reachable": true,
+        "visited": 2457,
+        "start": [
+          4.5,
+          5.9
+        ],
+        "target": [
+          2.15,
+          6.050000000000001
+        ],
+        "radius": 0.3,
+        "grid": 0.025,
+        "doorState": "current 90-degree open",
+        "scope": "local entry-to-public-bath route only; circle proxy is not a person"
+      },
+      "routeOccupied": {
+        "reachable": true,
+        "visited": 1577,
+        "start": [
+          4.5,
+          5.9
+        ],
+        "target": [
+          2.15,
+          6.050000000000001
+        ],
+        "radius": 0.3,
+        "grid": 0.025,
+        "doorState": "current 90-degree open",
+        "scope": "local entry-to-public-bath route only; circle proxy is not a person"
+      },
+      "routeDrawerUse": {
+        "reachable": false,
+        "visited": 1095,
+        "start": [
+          4.5,
+          5.9
+        ],
+        "target": [
+          2.15,
+          6.050000000000001
+        ],
+        "radius": 0.3,
+        "grid": 0.025,
+        "doorState": "current 90-degree open",
+        "scope": "local entry-to-public-bath route only; circle proxy is not a person"
+      },
+      "visible": true
+    },
+    {
+      "key": "integrated",
+      "spec": {
+        "label": "当前 · 镜柜移门干区",
+        "width": 0.65,
+        "depth": 0.4,
+        "shift": 0.11,
+        "benchShift": 0.04,
+        "storage": "sliding",
+        "key": "integrated",
+        "x": 3.2399999999999998,
+        "backFace": 7.17,
+        "northFace": 5.51,
+        "minX": 2.61,
+        "maxX": 3.6100000000000003,
+        "front": 6.77,
+        "cabinet": {
+          "x0": 2.9149999999999996,
+          "z0": 6.77,
+          "x1": 3.565,
+          "z1": 7.17
+        },
+        "screen": {
+          "x0": 3.565,
+          "z0": 6.77,
+          "x1": 3.5949999999999998,
+          "z1": 7.17
+        },
+        "standing": {
+          "x0": 2.94,
+          "z0": 6.17,
+          "x1": 3.5399999999999996,
+          "z1": 6.77
+        },
+        "drawer": {
+          "x0": 2.9399999999999995,
+          "z0": 6.449999999999999,
+          "x1": 3.54,
+          "z1": 6.77
+        },
+        "useAssumption": "600 × 600 mm 洗漱站位；柜门横移不占过道；非人体/无障碍认证",
+        "clearClosed": 1.2599999999999998,
+        "clearOccupied": 0.6600000000000001,
+        "widthBasis": "公卫外墙面至上方卧室/厨房分墙侧面的投影对齐范围；右侧干区没有据此新增墙。原图对应印刷段为 1000 mm，未作现场复尺",
+        "approved": false,
+        "plumbingVerified": false
+      },
+      "bounds": [
+        [
+          2.9089999938011166,
+          1.19209286886246e-9,
+          6.7699999970197675
+        ],
+        [
+          3.594999999664724,
+          1.9600000003799796,
+          7.170000002980232
+        ]
+      ],
+      "insideDryAllocation": true,
+      "benchSideGap": 0.0499999860301612,
+      "collisions": [],
+      "doorHits": [],
+      "routeEmpty": {
+        "reachable": true,
+        "visited": 2462,
+        "start": [
+          4.5,
+          5.9
+        ],
+        "target": [
+          2.15,
+          6.050000000000001
+        ],
+        "radius": 0.3,
+        "grid": 0.025,
+        "doorState": "current 90-degree open",
+        "scope": "local entry-to-public-bath route only; circle proxy is not a person"
+      },
+      "routeOccupied": {
+        "reachable": true,
+        "visited": 1575,
+        "start": [
+          4.5,
+          5.9
+        ],
+        "target": [
+          2.15,
+          6.050000000000001
+        ],
+        "radius": 0.3,
+        "grid": 0.025,
+        "doorState": "current 90-degree open",
+        "scope": "local entry-to-public-bath route only; circle proxy is not a person"
+      },
+      "routeDrawerUse": {
+        "reachable": true,
+        "visited": 1575,
+        "start": [
+          4.5,
+          5.9
+        ],
+        "target": [
+          2.15,
+          6.050000000000001
+        ],
+        "radius": 0.3,
+        "grid": 0.025,
+        "doorState": "current 90-degree open",
+        "scope": "local entry-to-public-bath route only; circle proxy is not a person"
+      },
+      "visible": true
+    }
+  ],
+  "restored": {
+    "bounds": [
+      [
+        2.805000011920929,
+        0.2400000035762786,
+        6.57099999981001
+      ],
+      [
+        3.454999988079071,
+        2.029999988079071,
+        7.081500000022352
+      ]
+    ],
+    "count": 1,
+    "key": "original"
+  },
+  "mobile": true,
+  "errors": [],
+  "unverified": [
+    "actual standing posture and mobility",
+    "drainage and supplies",
+    "purchased basin and hardware",
+    "waterproof installation",
+    "whole-home circulation"
+  ]
+}

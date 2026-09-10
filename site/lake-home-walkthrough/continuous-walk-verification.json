@@ -1,0 +1,101 @@
+{
+  "scope": "evening fixture lighting with keyboard, real browser touch input, eye height, exterior/mesh collision, near door E and reset; not ergonomic or physical-phone performance certification",
+  "travelled": 1.3801199998498002,
+  "before": {
+    "active": true,
+    "radius": 0.23,
+    "eye": 1.6,
+    "travel": 0,
+    "collisions": 0,
+    "blockedStart": false,
+    "colliders": 2182,
+    "stamp": 1,
+    "refreshChecks": 0,
+    "nearDoor": "door-front-main",
+    "position": [
+      7.1,
+      1.6,
+      5.95
+    ],
+    "keys": [],
+    "joystick": [
+      0,
+      0
+    ]
+  },
+  "after": {
+    "active": true,
+    "radius": 0.23,
+    "eye": 1.6,
+    "travel": 1.3801199998498002,
+    "collisions": 0,
+    "blockedStart": false,
+    "colliders": 2182,
+    "stamp": 1,
+    "refreshChecks": 5,
+    "nearDoor": "door-front-main",
+    "position": [
+      7.5212275394920765,
+      1.6,
+      5.814807515354007
+    ],
+    "keys": [],
+    "joystick": [
+      0,
+      0
+    ]
+  },
+  "stop": {
+    "state": {
+      "active": true,
+      "radius": 0.23,
+      "eye": 1.6,
+      "travel": 1.930119999849808,
+      "collisions": 778,
+      "blockedStart": false,
+      "colliders": 2182,
+      "stamp": 1,
+      "refreshChecks": 5,
+      "nearDoor": "door-front-main",
+      "position": [
+        7.5212275394920765,
+        1.6,
+        6.3648075153540145
+      ],
+      "keys": [],
+      "joystick": [
+        0,
+        0
+      ]
+    },
+    "free": true
+  },
+  "doorBefore": {
+    "name": "door-front-main",
+    "open": false
+  },
+  "doorAfter": true,
+  "mobile": {
+    "active": true,
+    "radius": 0.23,
+    "eye": 1.6,
+    "travel": 0.14665411777075715,
+    "collisions": 0,
+    "blockedStart": false,
+    "colliders": 2182,
+    "stamp": 2,
+    "refreshChecks": 2,
+    "nearDoor": "door-front-main",
+    "position": [
+      7.035469952032171,
+      1.6,
+      5.818306024555453
+    ],
+    "keys": [],
+    "joystick": [
+      0.8235294117647058,
+      0
+    ]
+  },
+  "errors": []
+}

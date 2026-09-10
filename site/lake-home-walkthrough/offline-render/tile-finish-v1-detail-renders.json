@@ -1,0 +1,117 @@
+{
+  "sourceSha256": "983a984611396eee9902a455d2992341e81435a1999ecbbfe1bd0d4f20826d67",
+  "pipelineSha256": "39f3fcbbd075967b94cc1bc37afca9fa0dc4663f357286a87a62ec0fff448ecf",
+  "cameraSha256": "b18ca4203f55388e08b96b34a8c3129e190295fe01f2bb2fc1659c1e0cd00dc3",
+  "column": [
+    8.98,
+    0,
+    1.6
+  ],
+  "renders": [
+    {
+      "id": "dining",
+      "file": "tile-finish-v1-dining-hd.png",
+      "width": 1600,
+      "height": 900,
+      "samples": 48,
+      "seconds": 129.52,
+      "camera": {
+        "name": "餐厅 · 备餐岛台",
+        "position": [
+          6.35,
+          1.6,
+          4.95
+        ],
+        "look": [
+          7.47,
+          0.65,
+          3.95
+        ]
+      },
+      "projection": {
+        "lensMm": 24.0,
+        "sensorWidthMm": 36.0,
+        "levelVerticals": true,
+        "shiftY": -0.2800000011920929
+      },
+      "exposureEV": 0.30000001192092896
+    },
+    {
+      "id": "bed3",
+      "file": "tile-finish-v1-bed3-hd.png",
+      "width": 1600,
+      "height": 900,
+      "samples": 48,
+      "seconds": 124.52,
+      "camera": {
+        "name": "儿童房",
+        "position": [
+          14.35,
+          1.6,
+          6.17
+        ],
+        "look": [
+          15.9,
+          1,
+          5.76
+        ]
+      },
+      "projection": {
+        "lensMm": 24.0,
+        "sensorWidthMm": 36.0,
+        "levelVerticals": true,
+        "shiftY": -0.24948401749134064
+      },
+      "exposureEV": 0.30000001192092896
+    }
+  ],
+  "lightingPreset": "day",
+  "fixtureMetadataCount": 38,
+  "lighting": [
+    {
+      "name": "lake daylight",
+      "position": [
+        9,
+        1.9,
+        -0.12
+      ],
+      "powerRadiantW": 220,
+      "size": [
+        5.8,
+        2.2
+      ],
+      "basis": "render lighting assumption, not electrical watts or measured illuminance"
+    }
+  ],
+  "materials": [
+    {
+      "object": "bath2-mirror-panel",
+      "adjustment": "neutral physical mirror"
+    },
+    {
+      "object": "dry-mirror-door-0",
+      "adjustment": "neutral physical mirror"
+    },
+    {
+      "object": "dry-mirror-door-1",
+      "adjustment": "neutral physical mirror"
+    },
+    {
+      "object": "makeup-mirror",
+      "adjustment": "neutral physical mirror"
+    },
+    {
+      "object": "mesh_1150",
+      "adjustment": "neutral physical mirror"
+    },
+    {
+      "object": "upper-mirror-door",
+      "adjustment": "neutral physical mirror"
+    }
+  ],
+  "metalPreservation": {
+    "checkedObjects": 176,
+    "changedObjects": []
+  },
+  "limits": "Same current geometry and lamp data; Cycles lighting study. Light powers are assumptions, not site measurements or installed products. Not a photograph or completed construction design."
+}

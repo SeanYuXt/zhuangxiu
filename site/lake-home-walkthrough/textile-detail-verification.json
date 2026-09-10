@@ -1,0 +1,1273 @@
+{
+  "parts": [
+    "sofa-sewn-seat-0-top",
+    "sofa-sewn-seat-0-underside",
+    "sofa-sewn-seat-0-piped-seam",
+    "sofa-sewn-seat-1-top",
+    "sofa-sewn-seat-1-underside",
+    "sofa-sewn-seat-1-piped-seam",
+    "sofa-sewn-scatter-0-folded-cover",
+    "sofa-sewn-scatter-1-folded-cover",
+    "bed1-bed-draped-duvet",
+    "bed1-bed-draped-duvet-lining",
+    "bed1-bed-draped-duvet-bound-edge",
+    "bed1-bed-draped-duvet-hem",
+    "bed1-bed-draped-duvet-turned-cuff",
+    "bed1-bed-sewn-pillow-0-folded-cover",
+    "bed1-bed-sewn-pillow-1-folded-cover",
+    "bed3-bed-draped-duvet",
+    "bed3-bed-draped-duvet-lining",
+    "bed3-bed-draped-duvet-bound-edge",
+    "bed3-bed-draped-duvet-hem",
+    "bed3-bed-draped-duvet-turned-cuff",
+    "bed3-bed-sewn-pillow-0-folded-cover",
+    "master-bed-draped-duvet",
+    "master-bed-draped-duvet-lining",
+    "master-bed-draped-duvet-bound-edge",
+    "master-bed-draped-duvet-hem",
+    "master-bed-draped-duvet-turned-cuff",
+    "master-bed-sewn-pillow-0-folded-cover",
+    "master-bed-sewn-pillow-1-folded-cover"
+  ],
+  "triangles": 81396,
+  "invalid": [],
+  "beds": [
+    {
+      "name": "bed1-bed",
+      "parent": "bed1-bed-lift",
+      "bounds": {
+        "minX": -0.7639403343200684,
+        "maxX": 0.7639403343200688,
+        "minZ": -0.8384910032844796,
+        "maxZ": 0.9862999868392945
+      },
+      "frame": [
+        1.54,
+        2.06
+      ],
+      "pillows": 2
+    },
+    {
+      "name": "bed3-bed",
+      "parent": "bed3-bed-lift",
+      "bounds": {
+        "minX": -0.6139402985572815,
+        "maxX": 0.6139402985572815,
+        "minZ": -0.838960117847531,
+        "maxZ": 0.9862999916076678
+      },
+      "frame": [
+        1.26,
+        2.05
+      ],
+      "pillows": 1
+    },
+    {
+      "name": "master-bed",
+      "parent": "master-bed",
+      "bounds": {
+        "minX": -0.9139403104782104,
+        "maxX": 0.9139403104782122,
+        "minZ": -0.8863611028003291,
+        "maxZ": 0.942737400531769
+      },
+      "frame": [
+        1.9,
+        2.05
+      ],
+      "pillows": 2
+    }
+  ],
+  "beddingProfiles": [
+    {
+      "name": "bed1-bed",
+      "minThickness": 0.00599998215600017,
+      "maxThickness": 0.08023534715175629,
+      "horizontalDrift": 0.006830751895904541,
+      "pillows": [
+        [
+          0.645,
+          0.2,
+          0.44
+        ],
+        [
+          0.645,
+          0.2,
+          0.44
+        ]
+      ]
+    },
+    {
+      "name": "bed3-bed",
+      "minThickness": 0.0059999823570251465,
+      "maxThickness": 0.08276085555553436,
+      "horizontalDrift": 0.008517563343048096,
+      "pillows": [
+        [
+          0.73,
+          0.2,
+          0.44
+        ]
+      ]
+    },
+    {
+      "name": "master-bed",
+      "minThickness": 0.0059999751121281,
+      "maxThickness": 0.07570099830627441,
+      "horizontalDrift": 0.006723642349243164,
+      "pillows": [
+        [
+          0.68,
+          0.2,
+          0.44
+        ],
+        [
+          0.68,
+          0.2,
+          0.44
+        ]
+      ]
+    }
+  ],
+  "mirrors": [
+    "mesh_1150",
+    "upper-mirror-door",
+    "bath2-mirror-panel",
+    "makeup-mirror",
+    "dry-mirror-door-0",
+    "dry-mirror-door-1"
+  ],
+  "scatters": [
+    {
+      "name": "sofa-sewn-scatter-0",
+      "detailRole": "reference-cushion",
+      "asset": "throw_pillows_01",
+      "sourceIndex": 0,
+      "uniformScale": 0.85,
+      "dimensions": [
+        0.4409774839878082,
+        0.24353182315826416,
+        0.3762046992778778
+      ],
+      "material": "neutral cotton jersey",
+      "license": "CC0",
+      "seatClearance": 0.001,
+      "clearance": 0.0009999999999999454,
+      "insideOutline": true,
+      "axisScales": [
+        0.9999999999999999,
+        0.9999999999999999,
+        0.9999999999999999
+      ]
+    },
+    {
+      "name": "sofa-sewn-scatter-1",
+      "detailRole": "reference-cushion",
+      "asset": "throw_pillows_01",
+      "sourceIndex": 1,
+      "uniformScale": 0.85,
+      "dimensions": [
+        0.4803493022918701,
+        0.2919216454029083,
+        0.38263535499572754
+      ],
+      "material": "neutral cotton jersey",
+      "license": "CC0",
+      "seatClearance": 0.001,
+      "clearance": 0.0010000000000000564,
+      "insideOutline": true,
+      "axisScales": [
+        0.9999999999999999,
+        0.9999999999999999,
+        0.9999999999999999
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "name": "textile-woven-knit-d6cfc0",
+      "surface": "photographed fabric scan",
+      "asset": "cotton_jersey",
+      "scanSizeMetres": [
+        0.263603,
+        0.2638
+      ],
+      "patchMetres": [
+        1.1678688524590166,
+        0.65
+      ],
+      "license": "CC0",
+      "productSelected": false,
+      "maps": [
+        {
+          "kind": "map",
+          "ready": true,
+          "colorSpace": "srgb",
+          "repeat": [
+            4.430408047173275,
+            2.4639878695981805
+          ],
+          "size": [
+            1024,
+            1025
+          ]
+        },
+        {
+          "kind": "roughnessMap",
+          "ready": true,
+          "colorSpace": "",
+          "repeat": [
+            4.430408047173275,
+            2.4639878695981805
+          ],
+          "size": [
+            1024,
+            1025
+          ]
+        },
+        {
+          "kind": "normalMap",
+          "ready": true,
+          "colorSpace": "",
+          "repeat": [
+            4.430408047173275,
+            2.4639878695981805
+          ],
+          "size": [
+            1024,
+            1025
+          ]
+        }
+      ]
+    },
+    {
+      "name": "textile-woven-knit-959a8d",
+      "surface": "photographed fabric scan",
+      "asset": "cotton_jersey",
+      "scanSizeMetres": [
+        0.263603,
+        0.2638
+      ],
+      "patchMetres": [
+        0.4409774839878082,
+        0.3762046992778778
+      ],
+      "license": "CC0",
+      "productSelected": false,
+      "maps": [
+        {
+          "kind": "map",
+          "ready": true,
+          "colorSpace": "srgb",
+          "repeat": [
+            1.6728849215972819,
+            1.426098177702342
+          ],
+          "size": [
+            1024,
+            1025
+          ]
+        },
+        {
+          "kind": "roughnessMap",
+          "ready": true,
+          "colorSpace": "",
+          "repeat": [
+            1.6728849215972819,
+            1.426098177702342
+          ],
+          "size": [
+            1024,
+            1025
+          ]
+        },
+        {
+          "kind": "normalMap",
+          "ready": true,
+          "colorSpace": "",
+          "repeat": [
+            1.6728849215972819,
+            1.426098177702342
+          ],
+          "size": [
+            1024,
+            1025
+          ]
+        }
+      ]
+    },
+    {
+      "name": "textile-woven-knit-a8967f",
+      "surface": "photographed fabric scan",
+      "asset": "cotton_jersey",
+      "scanSizeMetres": [
+        0.263603,
+        0.2638
+      ],
+      "patchMetres": [
+        0.4803493022918701,
+        0.38263535499572754
+      ],
+      "license": "CC0",
+      "productSelected": false,
+      "maps": [
+        {
+          "kind": "map",
+          "ready": true,
+          "colorSpace": "srgb",
+          "repeat": [
+            1.8222452031724607,
+            1.4504751895213328
+          ],
+          "size": [
+            1024,
+            1025
+          ]
+        },
+        {
+          "kind": "roughnessMap",
+          "ready": true,
+          "colorSpace": "",
+          "repeat": [
+            1.8222452031724607,
+            1.4504751895213328
+          ],
+          "size": [
+            1024,
+            1025
+          ]
+        },
+        {
+          "kind": "normalMap",
+          "ready": true,
+          "colorSpace": "",
+          "repeat": [
+            1.8222452031724607,
+            1.4504751895213328
+          ],
+          "size": [
+            1024,
+            1025
+          ]
+        }
+      ]
+    },
+    {
+      "name": "textile-woven-sheet-b9b09f",
+      "surface": "photographed fabric scan",
+      "asset": "terlenka",
+      "scanSizeMetres": [
+        0.265708,
+        0.2663
+      ],
+      "patchMetres": [
+        1.8022300767579509,
+        1.44
+      ],
+      "license": "CC0",
+      "productSelected": false,
+      "maps": [
+        {
+          "kind": "map",
+          "ready": true,
+          "colorSpace": "srgb",
+          "repeat": [
+            6.7827467624533355,
+            5.40743522343222
+          ],
+          "size": [
+            1024,
+            1026
+          ]
+        },
+        {
+          "kind": "roughnessMap",
+          "ready": true,
+          "colorSpace": "",
+          "repeat": [
+            6.7827467624533355,
+            5.40743522343222
+          ],
+          "size": [
+            1024,
+            1026
+          ]
+        },
+        {
+          "kind": "normalMap",
+          "ready": true,
+          "colorSpace": "",
+          "repeat": [
+            6.7827467624533355,
+            5.40743522343222
+          ],
+          "size": [
+            1024,
+            1026
+          ]
+        }
+      ]
+    },
+    {
+      "name": "textile-woven-sheet-b9b09f",
+      "surface": "photographed fabric scan",
+      "asset": "terlenka",
+      "scanSizeMetres": [
+        0.265708,
+        0.2663
+      ],
+      "patchMetres": [
+        1.8022300767579509,
+        1.44
+      ],
+      "license": "CC0",
+      "productSelected": false,
+      "maps": [
+        {
+          "kind": "map",
+          "ready": true,
+          "colorSpace": "srgb",
+          "repeat": [
+            6.7827467624533355,
+            5.40743522343222
+          ],
+          "size": [
+            1024,
+            1026
+          ]
+        },
+        {
+          "kind": "roughnessMap",
+          "ready": true,
+          "colorSpace": "",
+          "repeat": [
+            6.7827467624533355,
+            5.40743522343222
+          ],
+          "size": [
+            1024,
+            1026
+          ]
+        },
+        {
+          "kind": "normalMap",
+          "ready": true,
+          "colorSpace": "",
+          "repeat": [
+            6.7827467624533355,
+            5.40743522343222
+          ],
+          "size": [
+            1024,
+            1026
+          ]
+        }
+      ]
+    },
+    {
+      "name": "textile-woven-sheet-b9b09f",
+      "surface": "photographed fabric scan",
+      "asset": "terlenka",
+      "scanSizeMetres": [
+        0.265708,
+        0.2663
+      ],
+      "patchMetres": [
+        1.8022300767579509,
+        1.44
+      ],
+      "license": "CC0",
+      "productSelected": false,
+      "maps": [
+        {
+          "kind": "map",
+          "ready": true,
+          "colorSpace": "srgb",
+          "repeat": [
+            6.7827467624533355,
+            5.40743522343222
+          ],
+          "size": [
+            1024,
+            1026
+          ]
+        },
+        {
+          "kind": "roughnessMap",
+          "ready": true,
+          "colorSpace": "",
+          "repeat": [
+            6.7827467624533355,
+            5.40743522343222
+          ],
+          "size": [
+            1024,
+            1026
+          ]
+        },
+        {
+          "kind": "normalMap",
+          "ready": true,
+          "colorSpace": "",
+          "repeat": [
+            6.7827467624533355,
+            5.40743522343222
+          ],
+          "size": [
+            1024,
+            1026
+          ]
+        }
+      ]
+    },
+    {
+      "name": "textile-woven-sheet-ddd6c8",
+      "surface": "photographed fabric scan",
+      "asset": "terlenka",
+      "scanSizeMetres": [
+        0.265708,
+        0.2663
+      ],
+      "patchMetres": [
+        1.8022300767579509,
+        0.2304
+      ],
+      "license": "CC0",
+      "productSelected": false,
+      "maps": [
+        {
+          "kind": "map",
+          "ready": true,
+          "colorSpace": "srgb",
+          "repeat": [
+            6.7827467624533355,
+            0.8651896357491551
+          ],
+          "size": [
+            1024,
+            1026
+          ]
+        },
+        {
+          "kind": "roughnessMap",
+          "ready": true,
+          "colorSpace": "",
+          "repeat": [
+            6.7827467624533355,
+            0.8651896357491551
+          ],
+          "size": [
+            1024,
+            1026
+          ]
+        },
+        {
+          "kind": "normalMap",
+          "ready": true,
+          "colorSpace": "",
+          "repeat": [
+            6.7827467624533355,
+            0.8651896357491551
+          ],
+          "size": [
+            1024,
+            1026
+          ]
+        }
+      ]
+    },
+    {
+      "name": "textile-woven-sheet-e5dfd3",
+      "surface": "photographed fabric scan",
+      "asset": "terlenka",
+      "scanSizeMetres": [
+        0.265708,
+        0.2663
+      ],
+      "patchMetres": [
+        0.645,
+        0.44
+      ],
+      "license": "CC0",
+      "productSelected": false,
+      "maps": [
+        {
+          "kind": "map",
+          "ready": true,
+          "colorSpace": "srgb",
+          "repeat": [
+            2.427476779020579,
+            1.6522718738265116
+          ],
+          "size": [
+            1024,
+            1026
+          ]
+        },
+        {
+          "kind": "roughnessMap",
+          "ready": true,
+          "colorSpace": "",
+          "repeat": [
+            2.427476779020579,
+            1.6522718738265116
+          ],
+          "size": [
+            1024,
+            1026
+          ]
+        },
+        {
+          "kind": "normalMap",
+          "ready": true,
+          "colorSpace": "",
+          "repeat": [
+            2.427476779020579,
+            1.6522718738265116
+          ],
+          "size": [
+            1024,
+            1026
+          ]
+        }
+      ]
+    },
+    {
+      "name": "textile-woven-sheet-9da99d",
+      "surface": "photographed fabric scan",
+      "asset": "terlenka",
+      "scanSizeMetres": [
+        0.265708,
+        0.2663
+      ],
+      "patchMetres": [
+        1.5022300767579508,
+        1.44
+      ],
+      "license": "CC0",
+      "productSelected": false,
+      "maps": [
+        {
+          "kind": "map",
+          "ready": true,
+          "colorSpace": "srgb",
+          "repeat": [
+            5.65368779546702,
+            5.40743522343222
+          ],
+          "size": [
+            1024,
+            1026
+          ]
+        },
+        {
+          "kind": "roughnessMap",
+          "ready": true,
+          "colorSpace": "",
+          "repeat": [
+            5.65368779546702,
+            5.40743522343222
+          ],
+          "size": [
+            1024,
+            1026
+          ]
+        },
+        {
+          "kind": "normalMap",
+          "ready": true,
+          "colorSpace": "",
+          "repeat": [
+            5.65368779546702,
+            5.40743522343222
+          ],
+          "size": [
+            1024,
+            1026
+          ]
+        }
+      ]
+    },
+    {
+      "name": "textile-woven-sheet-9da99d",
+      "surface": "photographed fabric scan",
+      "asset": "terlenka",
+      "scanSizeMetres": [
+        0.265708,
+        0.2663
+      ],
+      "patchMetres": [
+        1.5022300767579508,
+        1.44
+      ],
+      "license": "CC0",
+      "productSelected": false,
+      "maps": [
+        {
+          "kind": "map",
+          "ready": true,
+          "colorSpace": "srgb",
+          "repeat": [
+            5.65368779546702,
+            5.40743522343222
+          ],
+          "size": [
+            1024,
+            1026
+          ]
+        },
+        {
+          "kind": "roughnessMap",
+          "ready": true,
+          "colorSpace": "",
+          "repeat": [
+            5.65368779546702,
+            5.40743522343222
+          ],
+          "size": [
+            1024,
+            1026
+          ]
+        },
+        {
+          "kind": "normalMap",
+          "ready": true,
+          "colorSpace": "",
+          "repeat": [
+            5.65368779546702,
+            5.40743522343222
+          ],
+          "size": [
+            1024,
+            1026
+          ]
+        }
+      ]
+    },
+    {
+      "name": "textile-woven-sheet-9da99d",
+      "surface": "photographed fabric scan",
+      "asset": "terlenka",
+      "scanSizeMetres": [
+        0.265708,
+        0.2663
+      ],
+      "patchMetres": [
+        1.5022300767579508,
+        1.44
+      ],
+      "license": "CC0",
+      "productSelected": false,
+      "maps": [
+        {
+          "kind": "map",
+          "ready": true,
+          "colorSpace": "srgb",
+          "repeat": [
+            5.65368779546702,
+            5.40743522343222
+          ],
+          "size": [
+            1024,
+            1026
+          ]
+        },
+        {
+          "kind": "roughnessMap",
+          "ready": true,
+          "colorSpace": "",
+          "repeat": [
+            5.65368779546702,
+            5.40743522343222
+          ],
+          "size": [
+            1024,
+            1026
+          ]
+        },
+        {
+          "kind": "normalMap",
+          "ready": true,
+          "colorSpace": "",
+          "repeat": [
+            5.65368779546702,
+            5.40743522343222
+          ],
+          "size": [
+            1024,
+            1026
+          ]
+        }
+      ]
+    },
+    {
+      "name": "textile-woven-sheet-ddd6c8",
+      "surface": "photographed fabric scan",
+      "asset": "terlenka",
+      "scanSizeMetres": [
+        0.265708,
+        0.2663
+      ],
+      "patchMetres": [
+        1.5022300767579508,
+        0.2304
+      ],
+      "license": "CC0",
+      "productSelected": false,
+      "maps": [
+        {
+          "kind": "map",
+          "ready": true,
+          "colorSpace": "srgb",
+          "repeat": [
+            5.65368779546702,
+            0.8651896357491551
+          ],
+          "size": [
+            1024,
+            1026
+          ]
+        },
+        {
+          "kind": "roughnessMap",
+          "ready": true,
+          "colorSpace": "",
+          "repeat": [
+            5.65368779546702,
+            0.8651896357491551
+          ],
+          "size": [
+            1024,
+            1026
+          ]
+        },
+        {
+          "kind": "normalMap",
+          "ready": true,
+          "colorSpace": "",
+          "repeat": [
+            5.65368779546702,
+            0.8651896357491551
+          ],
+          "size": [
+            1024,
+            1026
+          ]
+        }
+      ]
+    },
+    {
+      "name": "textile-woven-sheet-e5dfd3",
+      "surface": "photographed fabric scan",
+      "asset": "terlenka",
+      "scanSizeMetres": [
+        0.265708,
+        0.2663
+      ],
+      "patchMetres": [
+        0.73,
+        0.44
+      ],
+      "license": "CC0",
+      "productSelected": false,
+      "maps": [
+        {
+          "kind": "map",
+          "ready": true,
+          "colorSpace": "srgb",
+          "repeat": [
+            2.7473768196667017,
+            1.6522718738265116
+          ],
+          "size": [
+            1024,
+            1026
+          ]
+        },
+        {
+          "kind": "roughnessMap",
+          "ready": true,
+          "colorSpace": "",
+          "repeat": [
+            2.7473768196667017,
+            1.6522718738265116
+          ],
+          "size": [
+            1024,
+            1026
+          ]
+        },
+        {
+          "kind": "normalMap",
+          "ready": true,
+          "colorSpace": "",
+          "repeat": [
+            2.7473768196667017,
+            1.6522718738265116
+          ],
+          "size": [
+            1024,
+            1026
+          ]
+        }
+      ]
+    },
+    {
+      "name": "textile-woven-sheet-b5ac9c",
+      "surface": "photographed fabric scan",
+      "asset": "terlenka",
+      "scanSizeMetres": [
+        0.265708,
+        0.2663
+      ],
+      "patchMetres": [
+        2.1022300767579507,
+        1.44
+      ],
+      "license": "CC0",
+      "productSelected": false,
+      "maps": [
+        {
+          "kind": "map",
+          "ready": true,
+          "colorSpace": "srgb",
+          "repeat": [
+            7.911805729439651,
+            5.40743522343222
+          ],
+          "size": [
+            1024,
+            1026
+          ]
+        },
+        {
+          "kind": "roughnessMap",
+          "ready": true,
+          "colorSpace": "",
+          "repeat": [
+            7.911805729439651,
+            5.40743522343222
+          ],
+          "size": [
+            1024,
+            1026
+          ]
+        },
+        {
+          "kind": "normalMap",
+          "ready": true,
+          "colorSpace": "",
+          "repeat": [
+            7.911805729439651,
+            5.40743522343222
+          ],
+          "size": [
+            1024,
+            1026
+          ]
+        }
+      ]
+    },
+    {
+      "name": "textile-woven-sheet-b5ac9c",
+      "surface": "photographed fabric scan",
+      "asset": "terlenka",
+      "scanSizeMetres": [
+        0.265708,
+        0.2663
+      ],
+      "patchMetres": [
+        2.1022300767579507,
+        1.44
+      ],
+      "license": "CC0",
+      "productSelected": false,
+      "maps": [
+        {
+          "kind": "map",
+          "ready": true,
+          "colorSpace": "srgb",
+          "repeat": [
+            7.911805729439651,
+            5.40743522343222
+          ],
+          "size": [
+            1024,
+            1026
+          ]
+        },
+        {
+          "kind": "roughnessMap",
+          "ready": true,
+          "colorSpace": "",
+          "repeat": [
+            7.911805729439651,
+            5.40743522343222
+          ],
+          "size": [
+            1024,
+            1026
+          ]
+        },
+        {
+          "kind": "normalMap",
+          "ready": true,
+          "colorSpace": "",
+          "repeat": [
+            7.911805729439651,
+            5.40743522343222
+          ],
+          "size": [
+            1024,
+            1026
+          ]
+        }
+      ]
+    },
+    {
+      "name": "textile-woven-sheet-b5ac9c",
+      "surface": "photographed fabric scan",
+      "asset": "terlenka",
+      "scanSizeMetres": [
+        0.265708,
+        0.2663
+      ],
+      "patchMetres": [
+        2.1022300767579507,
+        1.44
+      ],
+      "license": "CC0",
+      "productSelected": false,
+      "maps": [
+        {
+          "kind": "map",
+          "ready": true,
+          "colorSpace": "srgb",
+          "repeat": [
+            7.911805729439651,
+            5.40743522343222
+          ],
+          "size": [
+            1024,
+            1026
+          ]
+        },
+        {
+          "kind": "roughnessMap",
+          "ready": true,
+          "colorSpace": "",
+          "repeat": [
+            7.911805729439651,
+            5.40743522343222
+          ],
+          "size": [
+            1024,
+            1026
+          ]
+        },
+        {
+          "kind": "normalMap",
+          "ready": true,
+          "colorSpace": "",
+          "repeat": [
+            7.911805729439651,
+            5.40743522343222
+          ],
+          "size": [
+            1024,
+            1026
+          ]
+        }
+      ]
+    },
+    {
+      "name": "textile-woven-sheet-ddd6c8",
+      "surface": "photographed fabric scan",
+      "asset": "terlenka",
+      "scanSizeMetres": [
+        0.265708,
+        0.2663
+      ],
+      "patchMetres": [
+        2.1022300767579507,
+        0.2304
+      ],
+      "license": "CC0",
+      "productSelected": false,
+      "maps": [
+        {
+          "kind": "map",
+          "ready": true,
+          "colorSpace": "srgb",
+          "repeat": [
+            7.911805729439651,
+            0.8651896357491551
+          ],
+          "size": [
+            1024,
+            1026
+          ]
+        },
+        {
+          "kind": "roughnessMap",
+          "ready": true,
+          "colorSpace": "",
+          "repeat": [
+            7.911805729439651,
+            0.8651896357491551
+          ],
+          "size": [
+            1024,
+            1026
+          ]
+        },
+        {
+          "kind": "normalMap",
+          "ready": true,
+          "colorSpace": "",
+          "repeat": [
+            7.911805729439651,
+            0.8651896357491551
+          ],
+          "size": [
+            1024,
+            1026
+          ]
+        }
+      ]
+    },
+    {
+      "name": "textile-woven-sheet-e5dfd3",
+      "surface": "photographed fabric scan",
+      "asset": "terlenka",
+      "scanSizeMetres": [
+        0.265708,
+        0.2663
+      ],
+      "patchMetres": [
+        0.68,
+        0.44
+      ],
+      "license": "CC0",
+      "productSelected": false,
+      "maps": [
+        {
+          "kind": "map",
+          "ready": true,
+          "colorSpace": "srgb",
+          "repeat": [
+            2.5592003251689825,
+            1.6522718738265116
+          ],
+          "size": [
+            1024,
+            1026
+          ]
+        },
+        {
+          "kind": "roughnessMap",
+          "ready": true,
+          "colorSpace": "",
+          "repeat": [
+            2.5592003251689825,
+            1.6522718738265116
+          ],
+          "size": [
+            1024,
+            1026
+          ]
+        },
+        {
+          "kind": "normalMap",
+          "ready": true,
+          "colorSpace": "",
+          "repeat": [
+            2.5592003251689825,
+            1.6522718738265116
+          ],
+          "size": [
+            1024,
+            1026
+          ]
+        }
+      ]
+    }
+  ],
+  "layout": {
+    "revision": "six-seat-long-side-20260906",
+    "wingLengths": [
+      1.2999999523162842,
+      1.2999999523162842
+    ],
+    "islandToSofa": 1.049999998807908,
+    "islandToKitchenWall": 1.1000000119209288,
+    "kitchenOpening": 1.64,
+    "rightWingToLaundry": 0.7920000240653771,
+    "sofaToCoffee": 0.44999998807907104,
+    "rugSize": [
+      2.2000001057857226,
+      3.2000000442283736
+    ],
+    "screenNormalDistance": 2.5649999999999995,
+    "eyeToScreenCenter": 2.668037668399754,
+    "horizontalAngle": 38.34159918259201,
+    "eye": [
+      9.275,
+      1.08,
+      4.3
+    ],
+    "careToLeftWing": 0.9550000242292889,
+    "careToFridge": 0.3100000002831218,
+    "barDepth": 0.5600000023841858,
+    "glassToTable": 1.2299999988079071,
+    "occupiedSeatToSofa": 0.24000000203241934,
+    "laundryOffsetZ": -0.55,
+    "laundryToFrontGlass": 0.13999999989569173,
+    "washerCenterZ": 0.5760000000000001,
+    "washerCenterToTableBack": 0.7539999988079071
+  },
+  "detailViews": [
+    {
+      "room": "master",
+      "width": 1440,
+      "visible": true
+    },
+    {
+      "room": "bed1",
+      "width": 1440,
+      "visible": true
+    },
+    {
+      "room": "bed3",
+      "width": 1440,
+      "visible": true
+    },
+    {
+      "room": "living",
+      "width": 1440,
+      "visible": true
+    },
+    {
+      "room": "master",
+      "width": 390,
+      "visible": true
+    },
+    {
+      "room": "bed1",
+      "width": 390,
+      "visible": true
+    },
+    {
+      "room": "bed3",
+      "width": 390,
+      "visible": true
+    },
+    {
+      "room": "living",
+      "width": 390,
+      "visible": true
+    }
+  ],
+  "errors": [],
+  "exported": false
+}

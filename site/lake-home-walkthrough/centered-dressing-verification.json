@@ -1,0 +1,236 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "Desk centered between equal flanking wardrobes",
+      "passed": true,
+      "evidence": {
+        "left": {
+          "r": [
+            0,
+            2.12,
+            0.65,
+            2.87
+          ]
+        },
+        "desk": {
+          "r": [
+            0,
+            2.87,
+            0.45,
+            3.87
+          ]
+        },
+        "right": {
+          "r": [
+            0,
+            3.87,
+            0.65,
+            4.62
+          ]
+        },
+        "height": 2.6,
+        "deskHeight": 0.75,
+        "note": "两侧75cm收纳，中间100cm坐式化妆台；背板完成面贴原墙，现场踢脚与墙面垂直度需复尺。"
+      }
+    },
+    {
+      "name": "Authoritative footprints are flush with wall",
+      "passed": true,
+      "evidence": [
+        [
+          0,
+          2.12,
+          0.65,
+          2.87
+        ],
+        [
+          0,
+          2.87,
+          0.45,
+          3.87
+        ],
+        [
+          0,
+          3.87,
+          0.65,
+          4.62
+        ]
+      ]
+    },
+    {
+      "name": "Audit furniture agrees with central desk",
+      "passed": true,
+      "evidence": [
+        0,
+        2.87,
+        0.45,
+        3.87
+      ]
+    },
+    {
+      "name": "Assembled unit fits fixed envelope",
+      "passed": true,
+      "evidence": {
+        "min": [
+          3.8743019036002746e-10,
+          6.705522526129215e-10,
+          2.12
+        ],
+        "max": [
+          0.6500000145435334,
+          2.6000000059604647,
+          4.62
+        ]
+      }
+    },
+    {
+      "name": "Rendered backs touch wall",
+      "passed": true,
+      "evidence": [
+        {
+          "name": "centered-left-wardrobe-back",
+          "minX": 3.8743019036002746e-10
+        },
+        {
+          "name": "centered-right-wardrobe-back",
+          "minX": 3.8743019036002746e-10
+        },
+        {
+          "name": "centered-desk-back",
+          "minX": 3.8743019036002746e-10
+        },
+        {
+          "name": "centered-bridge-back",
+          "minX": 3.8743019036002746e-10
+        }
+      ]
+    },
+    {
+      "name": "No fixed knee-space obstructions",
+      "passed": true,
+      "evidence": {
+        "volume": {
+          "min": [
+            0.03,
+            0.001,
+            2.888
+          ],
+          "max": [
+            0.43,
+            0.639,
+            3.8520000000000003
+          ]
+        },
+        "obstructions": []
+      }
+    },
+    {
+      "name": "Stool tucks below desktop",
+      "passed": true,
+      "evidence": {
+        "min": [
+          0.08499999344348907,
+          0.014999994039535502,
+          3.204999993443489
+        ],
+        "max": [
+          0.4150000065565109,
+          0.41999999836087226,
+          3.535000006556511
+        ]
+      }
+    },
+    {
+      "name": "Mirror remains within central wall opening",
+      "passed": true,
+      "evidence": {
+        "min": [
+          0.03,
+          0.94,
+          2.9500000262260437
+        ],
+        "max": [
+          0.03600000005215425,
+          1.9200000190734863,
+          3.79
+        ]
+      }
+    },
+    {
+      "name": "Storage and movable parts respond to controls",
+      "passed": true,
+      "evidence": {
+        "drawerTravel": [
+          0.17999999999999997,
+          0.17999999999999997
+        ],
+        "stoolTravel": 0.44999999999999996,
+        "chairTravel": 0.45
+      }
+    },
+    {
+      "name": "Controls restore tucked closed state",
+      "passed": true,
+      "evidence": {
+        "dayIntensity": 0.35,
+        "nightIntensity": 0.85
+      }
+    },
+    {
+      "name": "Mirror receives environment map",
+      "passed": true
+    },
+    {
+      "name": "Whole-room furniture, door and route audit",
+      "passed": true,
+      "evidence": []
+    }
+  ],
+  "errors": [],
+  "optionAudit": {
+    "ok": true,
+    "errors": [],
+    "area": 16.057499999999997,
+    "route": [
+      [
+        1.36,
+        4.38
+      ],
+      [
+        1.36,
+        3.2
+      ],
+      [
+        1.36,
+        2.42
+      ]
+    ],
+    "routeWidth": 0.6,
+    "bathDoorWidth": 0.85,
+    "footGap": 0.7190000000000003,
+    "openGap": 0.2980000000000005,
+    "vanityWidth": 1,
+    "wardrobeWidth": 0.75,
+    "installation": {
+      "ready": false,
+      "topGap": 0.030000000000000082,
+      "provisionalRequiredTop": 0.2,
+      "shortfall": 0.16999999999999993,
+      "warnings": [
+        "模型层高2.60m仍是暂定值；窗顶2.25m按既有窗标注推算，窗上仅35cm。30cm高机器底部离窗2cm后，顶部仅3cm，不满足暂按20cm预留的进风/检修空间。",
+        "空调机位暂未通过安装条件：缺窗上净高、安装基层及具体机型。没有抬高房顶或缩小机身来画成可安装。",
+        "窗右侧穿管只标候选路径，不在模型里掏结构孔；先确认梁柱/钢筋/预埋管线，核实原孔能否利用和物业要求。",
+        "冷凝水画出向右缓降的候选方向；终点和室外机位未知，不承诺全程自然排水，也未默认加泵。"
+      ]
+    },
+    "limits": [
+      "只校验模型包络及指定通路，非真人舒适度验收",
+      "未验证孔位、锚固、机型风量、外机与完整冷凝水排水路线"
+    ]
+  },
+  "limits": [
+    "Model geometry checks, not field measurements or construction certification.",
+    "Movable drawers/stool are tested for state and travel; simultaneous human comfort is not simulated."
+  ]
+}

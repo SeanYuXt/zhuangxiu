@@ -1,0 +1,92 @@
+{
+  "status": "CAD evidence only; not demolition approval",
+  "source_dwg_sha256": "35EF04BE9159FAD7063FDC33384F8DDB38B707CA2437630C9DD5FBEC5BBC89F8",
+  "floor_block": "AX-6-BZC (7,10,13,16,19,22F)",
+  "architecture_chain": [
+    {
+      "parent": "AX-6-BZC",
+      "handle": "5DC5D",
+      "child": "AX-06-COMP-BZC",
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "parent": "AX-06-COMP-BZC",
+      "handle": "5B2C7",
+      "child": "AX-06-COMP-WALL-BZC",
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "parent": "AX-06-COMP-WALL-BZC",
+      "handle": "5DB5C",
+      "child": "AX-120-COMP-WALL",
+      "translation": [
+        100.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "structure_chain": {
+    "parent": "AX-6-BZC",
+    "handle": "5DC3A",
+    "child": "SX-06-WALL-BZC",
+    "translation": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "wall_handle": "3C172",
+  "wall_layer_description": "建筑－墙体（砌体墙）",
+  "wall_thickness_mm_diagnostic": 100,
+  "door_handle": "3C171",
+  "door_width_mm_diagnostic": 900,
+  "door_original_global_x": [
+    29050.0,
+    29950.0
+  ],
+  "structural_boundary_handle": "5DDA1",
+  "structural_hatch_handle": "5DDA0",
+  "structural_hatch_pattern": "钢筋混凝土",
+  "concrete_face_global_x": 28600.00017074135,
+  "scenarios": [
+    {
+      "shift_mm": 0,
+      "door_x": [
+        29050.0,
+        29950.0
+      ],
+      "jamb_to_concrete_mm": 450.0
+    },
+    {
+      "shift_mm": 450,
+      "door_x": [
+        28600.0,
+        29500.0
+      ],
+      "jamb_to_concrete_mm": -0.0
+    },
+    {
+      "shift_mm": 300,
+      "door_x": [
+        28750.0,
+        29650.0
+      ],
+      "jamb_to_concrete_mm": 150.0
+    }
+  ],
+  "caveats": [
+    "天正门墙数值来自诊断解析，并非官方T3导出",
+    "结构轮廓为建筑DWG内可见引用，并非完整结构施工图与现场验收",
+    "新门洞过梁、门垛、锚固、管线和物业/结构审核未确认",
+    "网页门洞底边距墙与CAD约有150mm差异，不可继续作为施工尺寸"
+  ]
+}

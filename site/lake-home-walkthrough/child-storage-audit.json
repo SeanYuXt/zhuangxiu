@@ -1,0 +1,29 @@
+{
+  "id": "child-reversed-bed",
+  "scheme": "storage",
+  "status": "REJECTED_FOOT_ACCESS",
+  "failures": [],
+  "doorHits": 0,
+  "routes": {
+    "normal": {
+      "chairBack": true,
+      "bedSide": true,
+      "foot": false,
+      "windowApproach": false,
+      "safeDoorWaiting": false,
+      "cells": 2672
+    },
+    "pulled": {
+      "chairBack": true,
+      "bedSide": true,
+      "foot": false,
+      "windowApproach": false,
+      "safeDoorWaiting": false,
+      "cells": 1994
+    }
+  },
+  "footClearanceMM": 635,
+  "deskWidthCM": 130,
+  "tradeoff": "床头换到对面实墙。保留柜桌会封住床尾窄角的地面入口，不能改善飘窗使用；作为排除方案展示，不推荐照此施工。",
+  "additionalLimit": "600mm proxy, not ergonomic approval. C requires entering, moving outside swing and closing door before walking around bed. B is deliberately excluded. Bay seating and child fall protection remain unverified."
+}

@@ -1,0 +1,28 @@
+{
+  "routes": {
+    "0.6": {
+      "wash": true,
+      "toilet": true,
+      "shower": true
+    },
+    "0.65": {
+      "wash": true,
+      "toilet": true,
+      "shower": true
+    },
+    "0.7": {
+      "wash": true,
+      "toilet": true,
+      "shower": true
+    }
+  },
+  "windowX": [
+    0.35,
+    0.95
+  ],
+  "mirrorX": [
+    1.17,
+    2.03
+  ],
+  "notes": "1cm grid, entry door open, no shower door; includes basin drawer projection. No fixture selection or real-person acceptance."
+}

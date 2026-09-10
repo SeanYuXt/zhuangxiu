@@ -1,0 +1,4595 @@
+{
+  "before": {
+    "view": {
+      "ready": true,
+      "mode": "layout",
+      "station": "master",
+      "tour": [
+        "entry",
+        "living",
+        "tvSeat",
+        "bar",
+        "balconyGap",
+        "columnFront",
+        "glassLeft",
+        "glassRight",
+        "lake",
+        "laundry",
+        "dining",
+        "cabinet",
+        "fridge",
+        "kitchen",
+        "bed1",
+        "bath1",
+        "master",
+        "bath2",
+        "bed3",
+        "services",
+        "care",
+        "drying"
+      ],
+      "targets": {
+        "entry": {
+          "name": "玄关 · 鞋柜与换鞋",
+          "position": [
+            7.1,
+            1.5,
+            5.95
+          ],
+          "look": [
+            5.1,
+            1.25,
+            6.93
+          ]
+        },
+        "living": {
+          "name": "客厅",
+          "position": [
+            8.1,
+            1.6,
+            6
+          ],
+          "look": [
+            9.85,
+            0.9,
+            3.8
+          ]
+        },
+        "dining": {
+          "name": "餐厅 · 备餐岛台",
+          "position": [
+            6.35,
+            1.6,
+            4.95
+          ],
+          "look": [
+            7.47,
+            0.65,
+            3.95
+          ]
+        },
+        "cabinet": {
+          "name": "餐边柜",
+          "position": [
+            8.23,
+            1.6,
+            4.63
+          ],
+          "look": [
+            9.43,
+            1.25,
+            6.9
+          ]
+        },
+        "fridge": {
+          "name": "冰箱",
+          "position": [
+            8.19,
+            1.6,
+            2.76
+          ],
+          "look": [
+            6.19,
+            1.3,
+            2.34
+          ]
+        },
+        "services": {
+          "name": "吊顶",
+          "position": [
+            8.19,
+            1.6,
+            5.05
+          ],
+          "look": [
+            8.98,
+            1.3,
+            5.9
+          ]
+        },
+        "bar": {
+          "name": "阳台长桌与吧椅",
+          "position": [
+            10.4,
+            1.6,
+            3.45
+          ],
+          "look": [
+            8.85,
+            1,
+            1.2
+          ]
+        },
+        "laundry": {
+          "name": "洗烘柜",
+          "position": [
+            8.35,
+            1.6,
+            0.7
+          ],
+          "look": [
+            11.66,
+            1.35,
+            0.69
+          ]
+        },
+        "kitchen": {
+          "name": "厨房",
+          "position": [
+            5.33,
+            1.6,
+            5.02
+          ],
+          "look": [
+            4.32,
+            1.1,
+            3.16
+          ]
+        },
+        "bed1": {
+          "name": "老人房",
+          "position": [
+            3.18,
+            1.6,
+            5.03
+          ],
+          "look": [
+            1.7,
+            1,
+            3.6
+          ]
+        },
+        "bath1": {
+          "name": "公卫",
+          "position": [
+            3.12,
+            1.6,
+            5.62
+          ],
+          "look": [
+            1.72,
+            0.9,
+            6.82
+          ]
+        },
+        "master": {
+          "name": "主卧套间",
+          "position": [
+            14.61,
+            1.6,
+            3.38
+          ],
+          "look": [
+            16.08,
+            1.3,
+            1.64
+          ]
+        },
+        "bath2": {
+          "name": "主卫",
+          "position": [
+            13.82,
+            1.6,
+            2.47
+          ],
+          "look": [
+            12.85,
+            1.3,
+            1.24
+          ]
+        },
+        "bed3": {
+          "name": "儿童房",
+          "position": [
+            14.35,
+            1.6,
+            6.17
+          ],
+          "look": [
+            15.9,
+            1,
+            5.76
+          ]
+        },
+        "lake": {
+          "name": "阳台回望",
+          "position": [
+            8.35,
+            1.6,
+            0.7
+          ],
+          "look": [
+            9.4,
+            1.25,
+            4.9
+          ]
+        },
+        "tvSeat": {
+          "name": "沙发坐姿观影",
+          "position": [
+            9.275,
+            1.08,
+            4.3
+          ],
+          "look": [
+            11.84,
+            1.44,
+            3.66
+          ]
+        },
+        "care": {
+          "name": "阳台洗手台与清洁柜",
+          "position": [
+            8.85,
+            1.4,
+            2.05
+          ],
+          "look": [
+            6.2,
+            1.12,
+            0.89
+          ]
+        },
+        "drying": {
+          "name": "阳台晾衣 · 升降与遮景",
+          "position": [
+            7.1,
+            1.6,
+            2.75
+          ],
+          "look": [
+            8.2,
+            1.85,
+            0.52
+          ]
+        },
+        "balconyGap": {
+          "name": "玻璃与承重柱之间",
+          "position": [
+            6.800000000000001,
+            1.55,
+            0.7000000000000001
+          ],
+          "look": [
+            11.7,
+            0.85,
+            0.7500000000000001
+          ]
+        },
+        "columnFront": {
+          "name": "柱前回望",
+          "position": [
+            8.530000000000001,
+            1.55,
+            0.7000000000000001
+          ],
+          "look": [
+            9.13,
+            1.2,
+            4.6
+          ]
+        },
+        "glassLeft": {
+          "name": "阳台左端",
+          "position": [
+            7.78,
+            1.55,
+            0.7000000000000001
+          ],
+          "look": [
+            6.4,
+            1.1,
+            1.6
+          ]
+        },
+        "glassRight": {
+          "name": "阳台洗烘侧",
+          "position": [
+            10.450000000000001,
+            1.55,
+            0.7500000000000001
+          ],
+          "look": [
+            11.7,
+            1.2,
+            0.5999999999999999
+          ]
+        }
+      },
+      "seatAudit": [
+        {
+          "wing": "lake-bar-left",
+          "visible": true,
+          "min": [
+            7.5725,
+            0.0060000003874301905,
+            1.7746753996610642
+          ],
+          "max": [
+            7.9975000000000005,
+            0.8600000035762787,
+            2.195324600338936
+          ]
+        },
+        {
+          "wing": "lake-bar-left",
+          "visible": true,
+          "min": [
+            8.2225,
+            0.0060000003874301905,
+            1.7746753996610642
+          ],
+          "max": [
+            8.6475,
+            0.8600000035762787,
+            2.195324600338936
+          ]
+        },
+        {
+          "wing": "lake-bar-right",
+          "visible": true,
+          "min": [
+            9.3125,
+            0.0060000003874301905,
+            1.7746753996610642
+          ],
+          "max": [
+            9.7375,
+            0.8600000035762787,
+            2.195324600338936
+          ]
+        },
+        {
+          "wing": "lake-bar-right",
+          "visible": true,
+          "min": [
+            9.962499999999999,
+            0.0060000003874301905,
+            1.7746753996610642
+          ],
+          "max": [
+            10.3875,
+            0.8600000035762787,
+            2.195324600338936
+          ]
+        }
+      ],
+      "facilityObjects": [
+        {
+          "name": "kitchen-main-light",
+          "exists": true
+        },
+        {
+          "name": "kitchen-sink",
+          "exists": true
+        },
+        {
+          "name": "kitchen-hob",
+          "exists": true
+        },
+        {
+          "name": "kitchen-hood",
+          "exists": true
+        },
+        {
+          "name": "kitchen-cooking-cabinets",
+          "exists": true
+        },
+        {
+          "name": "kitchen-sink-cabinets",
+          "exists": true
+        },
+        {
+          "name": "integrated-fridge",
+          "exists": true
+        },
+        {
+          "name": "fridge-cold-interior",
+          "exists": true
+        },
+        {
+          "name": "fridge-upper-storage",
+          "exists": true
+        },
+        {
+          "name": "fridge-freezer-bin-0",
+          "exists": true
+        },
+        {
+          "name": "fridge-freezer-bin-1",
+          "exists": true
+        },
+        {
+          "name": "fridge-freezer-bin-2",
+          "exists": true
+        },
+        {
+          "name": "fridge-freezer-bin-3",
+          "exists": true
+        },
+        {
+          "name": "fridge-crisper",
+          "exists": true
+        },
+        {
+          "name": "window-kitchen-7",
+          "exists": true
+        },
+        {
+          "name": "kitchen-prep-drawer-2",
+          "exists": true
+        },
+        {
+          "name": "kitchen-prep-drawer-1",
+          "exists": true
+        },
+        {
+          "name": "kitchen-prep-drawer-0",
+          "exists": true
+        },
+        {
+          "name": "kitchen-hob-drawer-0",
+          "exists": true
+        },
+        {
+          "name": "kitchen-hob-drawer-1",
+          "exists": true
+        },
+        {
+          "name": "kitchen-pots-drawer-0",
+          "exists": true
+        },
+        {
+          "name": "kitchen-pots-drawer-1",
+          "exists": true
+        },
+        {
+          "name": "kitchen-sink-service-bay",
+          "exists": true
+        },
+        {
+          "name": "bed1-main-light",
+          "exists": true
+        },
+        {
+          "name": "bed1-air-conditioner",
+          "exists": true
+        },
+        {
+          "name": "bed1-bed",
+          "exists": true
+        },
+        {
+          "name": "bed1-wardrobe",
+          "exists": true
+        },
+        {
+          "name": "bed1-curtain",
+          "exists": true
+        },
+        {
+          "name": "bed1单眼皮",
+          "exists": true
+        },
+        {
+          "name": "door-bed1-single",
+          "exists": true
+        },
+        {
+          "name": "bed1-window-storage",
+          "exists": true
+        },
+        {
+          "name": "bed1-bed-storage",
+          "exists": true
+        },
+        {
+          "name": "elder-bedhead-reading-lights",
+          "exists": true
+        },
+        {
+          "name": "window-bed1-0",
+          "exists": true
+        },
+        {
+          "name": "bed1-bed-sewn-pillow-0",
+          "exists": true
+        },
+        {
+          "name": "bed1-bed-floor-support",
+          "exists": true
+        },
+        {
+          "name": "door-casing-bed1",
+          "exists": true
+        },
+        {
+          "name": "master-makeup-desk",
+          "exists": true
+        },
+        {
+          "name": "master-main-light",
+          "exists": true
+        },
+        {
+          "name": "master-air-conditioner",
+          "exists": true
+        },
+        {
+          "name": "master-bed",
+          "exists": true
+        },
+        {
+          "name": "master-wardrobe",
+          "exists": true
+        },
+        {
+          "name": "master-entry-wardrobe",
+          "exists": true
+        },
+        {
+          "name": "master-bedside-everyday",
+          "exists": true
+        },
+        {
+          "name": "bath2-vanity",
+          "exists": true
+        },
+        {
+          "name": "master-curtain",
+          "exists": true
+        },
+        {
+          "name": "master单眼皮",
+          "exists": true
+        },
+        {
+          "name": "door-master-single",
+          "exists": true
+        },
+        {
+          "name": "window-master-13",
+          "exists": true
+        },
+        {
+          "name": "master-bed-sewn-pillow-0",
+          "exists": true
+        },
+        {
+          "name": "master-bed-floor-support",
+          "exists": true
+        },
+        {
+          "name": "makeup-stool-floor-glide-1",
+          "exists": true
+        },
+        {
+          "name": "door-casing-master",
+          "exists": true
+        },
+        {
+          "name": "bed3-main-light",
+          "exists": true
+        },
+        {
+          "name": "bed3-air-conditioner",
+          "exists": true
+        },
+        {
+          "name": "bed3-bed",
+          "exists": true
+        },
+        {
+          "name": "bed3-wardrobe",
+          "exists": true
+        },
+        {
+          "name": "bed3-desk",
+          "exists": true
+        },
+        {
+          "name": "bed3-desk-everyday",
+          "exists": true
+        },
+        {
+          "name": "bed3-curtain",
+          "exists": true
+        },
+        {
+          "name": "bed3单眼皮",
+          "exists": true
+        },
+        {
+          "name": "door-bed3-single",
+          "exists": true
+        },
+        {
+          "name": "bed3-chair",
+          "exists": true
+        },
+        {
+          "name": "child-stationery-drawer",
+          "exists": true
+        },
+        {
+          "name": "bed3-bed-storage",
+          "exists": true
+        },
+        {
+          "name": "window-bed3-18",
+          "exists": true
+        },
+        {
+          "name": "bed3-bed-sewn-pillow-0",
+          "exists": true
+        },
+        {
+          "name": "bed3-bed-floor-support",
+          "exists": true
+        },
+        {
+          "name": "child-chair-floor-glide-0",
+          "exists": true
+        },
+        {
+          "name": "door-casing-bed3",
+          "exists": true
+        },
+        {
+          "name": "bath1-squat-pan",
+          "exists": true
+        },
+        {
+          "name": "bath1-shower",
+          "exists": true
+        },
+        {
+          "name": "bath1-vanity",
+          "exists": true
+        },
+        {
+          "name": "bath1-heater",
+          "exists": true
+        },
+        {
+          "name": "bath1-aluminum-ceiling",
+          "exists": true
+        },
+        {
+          "name": "door-bath1-single",
+          "exists": true
+        },
+        {
+          "name": "window-bath1-3",
+          "exists": true
+        },
+        {
+          "name": "dry-service-access",
+          "exists": true
+        },
+        {
+          "name": "dry-mirror-storage",
+          "exists": true
+        },
+        {
+          "name": "door-casing-bath1",
+          "exists": true
+        },
+        {
+          "name": "bath1-shower-door",
+          "exists": true
+        },
+        {
+          "name": "bath1-shower-fittings",
+          "exists": true
+        },
+        {
+          "name": "bath1-shower-toiletries",
+          "exists": true
+        },
+        {
+          "name": "bath1-shallow-storage",
+          "exists": true
+        },
+        {
+          "name": "bath1-towels-hooks",
+          "exists": true
+        },
+        {
+          "name": "bath1-cleaning-corner",
+          "exists": true
+        },
+        {
+          "name": "bath1-covered-paper-holder",
+          "exists": true
+        },
+        {
+          "name": "bath1-sloped-tile-floor",
+          "exists": true
+        },
+        {
+          "name": "bath1-removable-ceiling-panel",
+          "exists": true
+        },
+        {
+          "name": "bath2-toilet",
+          "exists": true
+        },
+        {
+          "name": "bath2-shower",
+          "exists": true
+        },
+        {
+          "name": "bath2-vanity",
+          "exists": true
+        },
+        {
+          "name": "bath2-heater",
+          "exists": true
+        },
+        {
+          "name": "bath2-aluminum-ceiling",
+          "exists": true
+        },
+        {
+          "name": "door-bath2-single",
+          "exists": true
+        },
+        {
+          "name": "window-bath2-11",
+          "exists": true
+        },
+        {
+          "name": "bath2-basin",
+          "exists": true
+        },
+        {
+          "name": "bath2-sloped-tile-floor",
+          "exists": true
+        },
+        {
+          "name": "door-casing-bath2",
+          "exists": true
+        },
+        {
+          "name": "living-coffee-everyday",
+          "exists": true
+        },
+        {
+          "name": "living-area-rug",
+          "exists": true
+        },
+        {
+          "name": "living-sofa-throw",
+          "exists": true
+        },
+        {
+          "name": "living-curtain",
+          "exists": true
+        },
+        {
+          "name": "recessed-tv-black-side-reveals",
+          "exists": true
+        },
+        {
+          "name": "tv-decor-lake-side",
+          "exists": true
+        },
+        {
+          "name": "tv-decor-dining-side",
+          "exists": true
+        },
+        {
+          "name": "tv-low-console",
+          "exists": true
+        },
+        {
+          "name": "linen-sofa",
+          "exists": true
+        },
+        {
+          "name": "supply-grille",
+          "exists": true
+        },
+        {
+          "name": "return-grille",
+          "exists": true
+        },
+        {
+          "name": "service-hatch",
+          "exists": true
+        },
+        {
+          "name": "客厅双眼皮外层",
+          "exists": true
+        },
+        {
+          "name": "ducted-indoor-bulkhead",
+          "exists": true
+        },
+        {
+          "name": "window-living-9",
+          "exists": true
+        },
+        {
+          "name": "sofa-sewn-scatter-0",
+          "exists": true
+        },
+        {
+          "name": "dining-table-settings",
+          "exists": true
+        },
+        {
+          "name": "island-storage-carcass",
+          "exists": true
+        },
+        {
+          "name": "island-flush-power-module",
+          "exists": true
+        },
+        {
+          "name": "stone-island",
+          "exists": true
+        },
+        {
+          "name": "flush-sideboard",
+          "exists": true
+        },
+        {
+          "name": "sideboard-upper-storage",
+          "exists": true
+        },
+        {
+          "name": "sideboard-drawer-bank",
+          "exists": true
+        },
+        {
+          "name": "sideboard-base-bevel-2",
+          "exists": true
+        },
+        {
+          "name": "sideboard-drawer-0",
+          "exists": true
+        },
+        {
+          "name": "sideboard-upper-door-0",
+          "exists": true
+        },
+        {
+          "name": "sideboard-base-door-0",
+          "exists": true
+        },
+        {
+          "name": "sideboard-drawer-1",
+          "exists": true
+        },
+        {
+          "name": "sideboard-upper-door-1",
+          "exists": true
+        },
+        {
+          "name": "sideboard-base-door-1",
+          "exists": true
+        },
+        {
+          "name": "sideboard-drawer-2",
+          "exists": true
+        },
+        {
+          "name": "sideboard-upper-door-2",
+          "exists": true
+        },
+        {
+          "name": "sideboard-base-door-2",
+          "exists": true
+        },
+        {
+          "name": "sideboard-drawer-3",
+          "exists": true
+        },
+        {
+          "name": "sideboard-upper-door-3",
+          "exists": true
+        },
+        {
+          "name": "sideboard-base-door-3",
+          "exists": true
+        },
+        {
+          "name": "sideboard-drawer-4",
+          "exists": true
+        },
+        {
+          "name": "sideboard-upper-door-4",
+          "exists": true
+        },
+        {
+          "name": "sideboard-base-door-4",
+          "exists": true
+        },
+        {
+          "name": "sideboard-drawer-5",
+          "exists": true
+        },
+        {
+          "name": "sideboard-upper-door-5",
+          "exists": true
+        },
+        {
+          "name": "sideboard-base-door-5",
+          "exists": true
+        },
+        {
+          "name": "dispenser-service-pier",
+          "exists": true
+        },
+        {
+          "name": "entry-storage-ensemble",
+          "exists": true
+        },
+        {
+          "name": "flush-entry-cabinet",
+          "exists": true
+        },
+        {
+          "name": "entry-key-tray",
+          "exists": true
+        },
+        {
+          "name": "entry-vase-arrangement",
+          "exists": true
+        },
+        {
+          "name": "entry-shoe-bench",
+          "exists": true
+        },
+        {
+          "name": "entry-dressing-mirror",
+          "exists": true
+        },
+        {
+          "name": "entry-daily-slippers",
+          "exists": true
+        },
+        {
+          "name": "recessed-switch-玄关总控",
+          "exists": true
+        },
+        {
+          "name": "door-front-main",
+          "exists": true
+        },
+        {
+          "name": "door-front-secondary",
+          "exists": true
+        },
+        {
+          "name": "door-casing-front",
+          "exists": true
+        },
+        {
+          "name": "skirting-21--1-1.925",
+          "exists": true
+        },
+        {
+          "name": "retained-balcony-column",
+          "exists": true
+        },
+        {
+          "name": "lake-bar-left",
+          "exists": true
+        },
+        {
+          "name": "lake-bar-right",
+          "exists": true
+        },
+        {
+          "name": "upholstered-counter-stool-left-1",
+          "exists": true
+        },
+        {
+          "name": "balcony-care-cabinet",
+          "exists": true
+        },
+        {
+          "name": "balcony-drying-rack",
+          "exists": true
+        },
+        {
+          "name": "bar-laptop-workplace",
+          "exists": true
+        },
+        {
+          "name": "bar-tea-zone",
+          "exists": true
+        },
+        {
+          "name": "bar-service-cover",
+          "exists": true
+        },
+        {
+          "name": "bar-power-left",
+          "exists": true
+        },
+        {
+          "name": "bar-power-right",
+          "exists": true
+        },
+        {
+          "name": "bar-cable-tray-left",
+          "exists": true
+        },
+        {
+          "name": "balcony-solid-left",
+          "exists": true
+        },
+        {
+          "name": "balcony-solid-right",
+          "exists": true
+        },
+        {
+          "name": "washer-drum-interior",
+          "exists": true
+        },
+        {
+          "name": "dryer-drum-interior",
+          "exists": true
+        },
+        {
+          "name": "laundry-stacking-kit",
+          "exists": true
+        },
+        {
+          "name": "laundry-washer",
+          "exists": true
+        },
+        {
+          "name": "laundry-dryer",
+          "exists": true
+        },
+        {
+          "name": "balcony-laundry-cabinet",
+          "exists": true
+        },
+        {
+          "name": "laundry-washer",
+          "exists": true
+        },
+        {
+          "name": "balcony-solid-right",
+          "exists": true
+        },
+        {
+          "name": "balcony-care-cabinet",
+          "exists": true
+        },
+        {
+          "name": "balcony-care-sink",
+          "exists": true
+        },
+        {
+          "name": "balcony-robot-dock",
+          "exists": true
+        },
+        {
+          "name": "dock-removable-service-cassette",
+          "exists": true
+        },
+        {
+          "name": "balcony-cleaning-robot",
+          "exists": true
+        },
+        {
+          "name": "balcony-care-services",
+          "exists": true
+        },
+        {
+          "name": "balcony-folding-basin",
+          "exists": true
+        },
+        {
+          "name": "balcony-care-upper",
+          "exists": true
+        }
+      ],
+      "selectedFacility": null,
+      "selectedVisible": null,
+      "night": false,
+      "finishScheme": {
+        "name": "湖畔 · 暖调现代简约",
+        "floor": "800 × 800 浅暖灰哑光砖，同色细缝",
+        "walls": "暖白乳胶漆（干区）；淋浴湿区防水饰面另核",
+        "joinery": "暖灰柜门＋自然木色，避免全屋深色大柜",
+        "textiles": "燕麦、米灰、少量灰绿；深灰仅用于五金与电视黑边",
+        "lighting": "公共区 3000–3500 K，厨卫任务照明 4000 K；显色指数 Ra≥90 为选型目标，未实测"
+      },
+      "palette": {
+        "wall": "#eeeae2",
+        "ceiling": "#f4f1eb",
+        "floor": "#d0cdc5",
+        "grout": "#c2bfb7",
+        "cabinet": "#d6d1c7",
+        "wood": "#b5a088",
+        "sofa": "#c7c0b4",
+        "linen": "#e8e3d8",
+        "accent": "#7a8172",
+        "metal": "#414540",
+        "stone": "#e2ded4"
+      },
+      "lights": [
+        {
+          "id": "bed1-main-light",
+          "exists": true,
+          "kelvin": 3000
+        },
+        {
+          "id": "master-main-light",
+          "exists": true,
+          "kelvin": 3000
+        },
+        {
+          "id": "bed3-main-light",
+          "exists": true,
+          "kelvin": 3000
+        },
+        {
+          "id": "kitchen-main-light",
+          "exists": true,
+          "kelvin": 4000
+        }
+      ],
+      "floorRoughness": 0.94,
+      "tilePitch": 0.8,
+      "clipPlanes": 5,
+      "draws": 2,
+      "position": [
+        15.194999999999999,
+        19.74904359136793,
+        2.8660000000282184
+      ],
+      "rotation": [
+        -1.570745691430063,
+        0,
+        0
+      ],
+      "fov": 48,
+      "column": [
+        8.98,
+        0,
+        1.6
+      ],
+      "hiddenSeats": 0,
+      "roofVisible": false,
+      "wide": true
+    },
+    "busy": {
+      "hidden": true,
+      "text": "正在加载本地三维场景和湖景材质…"
+    },
+    "canvas": {
+      "x": 5,
+      "y": 56,
+      "width": 420,
+      "height": 939,
+      "top": 56,
+      "right": 425,
+      "bottom": 995,
+      "left": 5
+    },
+    "overlays": [
+      {
+        "id": "spaceGuide",
+        "hidden": false,
+        "open": false,
+        "display": "none",
+        "background": "rgb(251, 250, 246)"
+      },
+      {
+        "id": "busy",
+        "hidden": true,
+        "display": "none",
+        "background": "rgba(244, 241, 234, 0.94)"
+      },
+      {
+        "id": "position",
+        "hidden": false,
+        "display": "none",
+        "background": "rgba(251, 250, 246, 0.93)"
+      },
+      {
+        "id": "hotspots",
+        "hidden": true,
+        "display": "none",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "id": "facilityNote",
+        "hidden": true,
+        "display": "none",
+        "background": "rgba(251, 250, 246, 0.96)"
+      },
+      {
+        "id": "dressingPlanDialog",
+        "hidden": false,
+        "open": false,
+        "display": "none",
+        "background": "rgb(251, 250, 246)"
+      },
+      {
+        "id": "dryPlanDialog",
+        "hidden": false,
+        "open": false,
+        "display": "none",
+        "background": "rgb(251, 250, 246)"
+      },
+      {
+        "id": "roomTour",
+        "hidden": false,
+        "display": "none",
+        "background": "rgba(251, 250, 246, 0.937)"
+      },
+      {
+        "id": "gesture",
+        "hidden": false,
+        "display": "none",
+        "background": "rgba(251, 250, 246, 0.93)"
+      },
+      {
+        "id": "sideboardActions",
+        "hidden": true,
+        "display": "none",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "id": "fridgeActions",
+        "hidden": true,
+        "display": "none",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "id": "laundryActions",
+        "hidden": true,
+        "display": "none",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "id": "kitchenActions",
+        "hidden": true,
+        "display": "none",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "id": "publicBathActions",
+        "hidden": true,
+        "display": "none",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "id": "bedroomActions",
+        "hidden": true,
+        "display": "none",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "id": "dryStorageActions",
+        "hidden": true,
+        "display": "none",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "id": "barPowerActions",
+        "hidden": true,
+        "display": "none",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "id": "balconyCareActions",
+        "hidden": true,
+        "display": "none",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "id": "dryingActions",
+        "hidden": true,
+        "display": "none",
+        "background": "rgba(251, 250, 246, 0.867)"
+      },
+      {
+        "id": "masterBathActions",
+        "hidden": true,
+        "display": "none",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "id": "walkHud",
+        "hidden": true,
+        "display": "none",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "id": "mobileRoomName",
+        "hidden": false,
+        "display": "block",
+        "background": "rgba(251, 250, 246, 0.92)"
+      },
+      {
+        "id": "inventory",
+        "hidden": false,
+        "open": false,
+        "display": "none",
+        "background": "rgb(251, 250, 246)"
+      },
+      {
+        "id": "livingLayout",
+        "hidden": false,
+        "open": false,
+        "display": "none",
+        "background": "rgb(250, 248, 242)"
+      },
+      {
+        "id": "tilePlanDialog",
+        "hidden": false,
+        "open": false,
+        "display": "none",
+        "background": "rgb(251, 250, 246)"
+      },
+      {
+        "id": "lightingDesignDialog",
+        "hidden": false,
+        "open": false,
+        "display": "none",
+        "background": "rgb(251, 250, 246)"
+      },
+      {
+        "id": "placeSheet",
+        "hidden": false,
+        "open": false,
+        "display": "none",
+        "background": "rgb(251, 250, 246)"
+      },
+      {
+        "id": "detailRender",
+        "hidden": false,
+        "open": false,
+        "display": "none",
+        "background": "rgb(251, 250, 246)"
+      }
+    ],
+    "lights": [
+      {
+        "id": "recessed-led-downlight-1",
+        "level": 0
+      },
+      {
+        "id": "recessed-led-downlight_1-1",
+        "level": 0
+      },
+      {
+        "id": "recessed-led-downlight_2-1",
+        "level": 0
+      },
+      {
+        "id": "recessed-led-downlight_3-1",
+        "level": 0
+      },
+      {
+        "id": "recessed-led-downlight_4-1",
+        "level": 0
+      },
+      {
+        "id": "recessed-led-downlight_5-1",
+        "level": 0
+      },
+      {
+        "id": "recessed-led-downlight_6-1",
+        "level": 0
+      },
+      {
+        "id": "recessed-led-downlight_7-1",
+        "level": 0
+      },
+      {
+        "id": "recessed-led-downlight_8-1",
+        "level": 0
+      },
+      {
+        "id": "recessed-led-downlight_9-1",
+        "level": 0
+      },
+      {
+        "id": "bed1-main-light-1",
+        "level": 0
+      },
+      {
+        "id": "master-main-light-1",
+        "level": 0
+      },
+      {
+        "id": "bed3-main-light-1",
+        "level": 0
+      },
+      {
+        "id": "kitchen-main-light-1",
+        "level": 0
+      },
+      {
+        "id": "bath1-heater-light-1",
+        "level": 0
+      },
+      {
+        "id": "bath2-heater-light-1",
+        "level": 0
+      },
+      {
+        "id": "kitchen-hood-1",
+        "level": 0
+      },
+      {
+        "id": "kitchen-hood-2",
+        "level": 0
+      },
+      {
+        "id": "sideboard-recessed-task-light-1",
+        "level": 0
+      },
+      {
+        "id": "tv-console-soft-light-1",
+        "level": 0
+      },
+      {
+        "id": "bar-concealed-light-1",
+        "level": 0
+      },
+      {
+        "id": "bar-concealed-light_1-1",
+        "level": 0
+      },
+      {
+        "id": "laundry-task-strip-1",
+        "level": 0
+      },
+      {
+        "id": "flush-entry-cabinet-1",
+        "level": 0
+      },
+      {
+        "id": "flush-entry-cabinet-2",
+        "level": 0
+      },
+      {
+        "id": "balcony-care-task-light-1",
+        "level": 0
+      },
+      {
+        "id": "bath2-mirror-task-light-1",
+        "level": 0
+      },
+      {
+        "id": "bath2-mirror-task-light-2",
+        "level": 0
+      },
+      {
+        "id": "bed1-foot-light-1",
+        "level": 0
+      },
+      {
+        "id": "elder-reading-diffuser-1",
+        "level": 0
+      },
+      {
+        "id": "elder-reading-diffuser-2",
+        "level": 0
+      },
+      {
+        "id": "bed3-foot-light-1",
+        "level": 0
+      },
+      {
+        "id": "study-lamp-diffuser-1",
+        "level": 0
+      },
+      {
+        "id": "master-foot-light-1",
+        "level": 0
+      },
+      {
+        "id": "makeup-task-light-1",
+        "level": 0
+      },
+      {
+        "id": "makeup-task-light-2",
+        "level": 0
+      },
+      {
+        "id": "dry-mirror-task-strip-1",
+        "level": 0
+      },
+      {
+        "id": "island-task-pendant-1",
+        "level": 0
+      }
+    ]
+  },
+  "reselected": {
+    "view": {
+      "ready": true,
+      "mode": "layout",
+      "station": "master",
+      "tour": [
+        "entry",
+        "living",
+        "tvSeat",
+        "bar",
+        "balconyGap",
+        "columnFront",
+        "glassLeft",
+        "glassRight",
+        "lake",
+        "laundry",
+        "dining",
+        "cabinet",
+        "fridge",
+        "kitchen",
+        "bed1",
+        "bath1",
+        "master",
+        "bath2",
+        "bed3",
+        "services",
+        "care",
+        "drying"
+      ],
+      "targets": {
+        "entry": {
+          "name": "玄关 · 鞋柜与换鞋",
+          "position": [
+            7.1,
+            1.5,
+            5.95
+          ],
+          "look": [
+            5.1,
+            1.25,
+            6.93
+          ]
+        },
+        "living": {
+          "name": "客厅",
+          "position": [
+            8.1,
+            1.6,
+            6
+          ],
+          "look": [
+            9.85,
+            0.9,
+            3.8
+          ]
+        },
+        "dining": {
+          "name": "餐厅 · 备餐岛台",
+          "position": [
+            6.35,
+            1.6,
+            4.95
+          ],
+          "look": [
+            7.47,
+            0.65,
+            3.95
+          ]
+        },
+        "cabinet": {
+          "name": "餐边柜",
+          "position": [
+            8.23,
+            1.6,
+            4.63
+          ],
+          "look": [
+            9.43,
+            1.25,
+            6.9
+          ]
+        },
+        "fridge": {
+          "name": "冰箱",
+          "position": [
+            8.19,
+            1.6,
+            2.76
+          ],
+          "look": [
+            6.19,
+            1.3,
+            2.34
+          ]
+        },
+        "services": {
+          "name": "吊顶",
+          "position": [
+            8.19,
+            1.6,
+            5.05
+          ],
+          "look": [
+            8.98,
+            1.3,
+            5.9
+          ]
+        },
+        "bar": {
+          "name": "阳台长桌与吧椅",
+          "position": [
+            10.4,
+            1.6,
+            3.45
+          ],
+          "look": [
+            8.85,
+            1,
+            1.2
+          ]
+        },
+        "laundry": {
+          "name": "洗烘柜",
+          "position": [
+            8.35,
+            1.6,
+            0.7
+          ],
+          "look": [
+            11.66,
+            1.35,
+            0.69
+          ]
+        },
+        "kitchen": {
+          "name": "厨房",
+          "position": [
+            5.33,
+            1.6,
+            5.02
+          ],
+          "look": [
+            4.32,
+            1.1,
+            3.16
+          ]
+        },
+        "bed1": {
+          "name": "老人房",
+          "position": [
+            3.18,
+            1.6,
+            5.03
+          ],
+          "look": [
+            1.7,
+            1,
+            3.6
+          ]
+        },
+        "bath1": {
+          "name": "公卫",
+          "position": [
+            3.12,
+            1.6,
+            5.62
+          ],
+          "look": [
+            1.72,
+            0.9,
+            6.82
+          ]
+        },
+        "master": {
+          "name": "主卧套间",
+          "position": [
+            14.61,
+            1.6,
+            3.38
+          ],
+          "look": [
+            16.08,
+            1.3,
+            1.64
+          ]
+        },
+        "bath2": {
+          "name": "主卫",
+          "position": [
+            13.82,
+            1.6,
+            2.47
+          ],
+          "look": [
+            12.85,
+            1.3,
+            1.24
+          ]
+        },
+        "bed3": {
+          "name": "儿童房",
+          "position": [
+            14.35,
+            1.6,
+            6.17
+          ],
+          "look": [
+            15.9,
+            1,
+            5.76
+          ]
+        },
+        "lake": {
+          "name": "阳台回望",
+          "position": [
+            8.35,
+            1.6,
+            0.7
+          ],
+          "look": [
+            9.4,
+            1.25,
+            4.9
+          ]
+        },
+        "tvSeat": {
+          "name": "沙发坐姿观影",
+          "position": [
+            9.275,
+            1.08,
+            4.3
+          ],
+          "look": [
+            11.84,
+            1.44,
+            3.66
+          ]
+        },
+        "care": {
+          "name": "阳台洗手台与清洁柜",
+          "position": [
+            8.85,
+            1.4,
+            2.05
+          ],
+          "look": [
+            6.2,
+            1.12,
+            0.89
+          ]
+        },
+        "drying": {
+          "name": "阳台晾衣 · 升降与遮景",
+          "position": [
+            7.1,
+            1.6,
+            2.75
+          ],
+          "look": [
+            8.2,
+            1.85,
+            0.52
+          ]
+        },
+        "balconyGap": {
+          "name": "玻璃与承重柱之间",
+          "position": [
+            6.800000000000001,
+            1.55,
+            0.7000000000000001
+          ],
+          "look": [
+            11.7,
+            0.85,
+            0.7500000000000001
+          ]
+        },
+        "columnFront": {
+          "name": "柱前回望",
+          "position": [
+            8.530000000000001,
+            1.55,
+            0.7000000000000001
+          ],
+          "look": [
+            9.13,
+            1.2,
+            4.6
+          ]
+        },
+        "glassLeft": {
+          "name": "阳台左端",
+          "position": [
+            7.78,
+            1.55,
+            0.7000000000000001
+          ],
+          "look": [
+            6.4,
+            1.1,
+            1.6
+          ]
+        },
+        "glassRight": {
+          "name": "阳台洗烘侧",
+          "position": [
+            10.450000000000001,
+            1.55,
+            0.7500000000000001
+          ],
+          "look": [
+            11.7,
+            1.2,
+            0.5999999999999999
+          ]
+        }
+      },
+      "seatAudit": [
+        {
+          "wing": "lake-bar-left",
+          "visible": true,
+          "min": [
+            7.5725,
+            0.0060000003874301905,
+            1.7746753996610642
+          ],
+          "max": [
+            7.9975000000000005,
+            0.8600000035762787,
+            2.195324600338936
+          ]
+        },
+        {
+          "wing": "lake-bar-left",
+          "visible": true,
+          "min": [
+            8.2225,
+            0.0060000003874301905,
+            1.7746753996610642
+          ],
+          "max": [
+            8.6475,
+            0.8600000035762787,
+            2.195324600338936
+          ]
+        },
+        {
+          "wing": "lake-bar-right",
+          "visible": true,
+          "min": [
+            9.3125,
+            0.0060000003874301905,
+            1.7746753996610642
+          ],
+          "max": [
+            9.7375,
+            0.8600000035762787,
+            2.195324600338936
+          ]
+        },
+        {
+          "wing": "lake-bar-right",
+          "visible": true,
+          "min": [
+            9.962499999999999,
+            0.0060000003874301905,
+            1.7746753996610642
+          ],
+          "max": [
+            10.3875,
+            0.8600000035762787,
+            2.195324600338936
+          ]
+        }
+      ],
+      "facilityObjects": [
+        {
+          "name": "kitchen-main-light",
+          "exists": true
+        },
+        {
+          "name": "kitchen-sink",
+          "exists": true
+        },
+        {
+          "name": "kitchen-hob",
+          "exists": true
+        },
+        {
+          "name": "kitchen-hood",
+          "exists": true
+        },
+        {
+          "name": "kitchen-cooking-cabinets",
+          "exists": true
+        },
+        {
+          "name": "kitchen-sink-cabinets",
+          "exists": true
+        },
+        {
+          "name": "integrated-fridge",
+          "exists": true
+        },
+        {
+          "name": "fridge-cold-interior",
+          "exists": true
+        },
+        {
+          "name": "fridge-upper-storage",
+          "exists": true
+        },
+        {
+          "name": "fridge-freezer-bin-0",
+          "exists": true
+        },
+        {
+          "name": "fridge-freezer-bin-1",
+          "exists": true
+        },
+        {
+          "name": "fridge-freezer-bin-2",
+          "exists": true
+        },
+        {
+          "name": "fridge-freezer-bin-3",
+          "exists": true
+        },
+        {
+          "name": "fridge-crisper",
+          "exists": true
+        },
+        {
+          "name": "window-kitchen-7",
+          "exists": true
+        },
+        {
+          "name": "kitchen-prep-drawer-2",
+          "exists": true
+        },
+        {
+          "name": "kitchen-prep-drawer-1",
+          "exists": true
+        },
+        {
+          "name": "kitchen-prep-drawer-0",
+          "exists": true
+        },
+        {
+          "name": "kitchen-hob-drawer-0",
+          "exists": true
+        },
+        {
+          "name": "kitchen-hob-drawer-1",
+          "exists": true
+        },
+        {
+          "name": "kitchen-pots-drawer-0",
+          "exists": true
+        },
+        {
+          "name": "kitchen-pots-drawer-1",
+          "exists": true
+        },
+        {
+          "name": "kitchen-sink-service-bay",
+          "exists": true
+        },
+        {
+          "name": "bed1-main-light",
+          "exists": true
+        },
+        {
+          "name": "bed1-air-conditioner",
+          "exists": true
+        },
+        {
+          "name": "bed1-bed",
+          "exists": true
+        },
+        {
+          "name": "bed1-wardrobe",
+          "exists": true
+        },
+        {
+          "name": "bed1-curtain",
+          "exists": true
+        },
+        {
+          "name": "bed1单眼皮",
+          "exists": true
+        },
+        {
+          "name": "door-bed1-single",
+          "exists": true
+        },
+        {
+          "name": "bed1-window-storage",
+          "exists": true
+        },
+        {
+          "name": "bed1-bed-storage",
+          "exists": true
+        },
+        {
+          "name": "elder-bedhead-reading-lights",
+          "exists": true
+        },
+        {
+          "name": "window-bed1-0",
+          "exists": true
+        },
+        {
+          "name": "bed1-bed-sewn-pillow-0",
+          "exists": true
+        },
+        {
+          "name": "bed1-bed-floor-support",
+          "exists": true
+        },
+        {
+          "name": "door-casing-bed1",
+          "exists": true
+        },
+        {
+          "name": "master-makeup-desk",
+          "exists": true
+        },
+        {
+          "name": "master-main-light",
+          "exists": true
+        },
+        {
+          "name": "master-air-conditioner",
+          "exists": true
+        },
+        {
+          "name": "master-bed",
+          "exists": true
+        },
+        {
+          "name": "master-wardrobe",
+          "exists": true
+        },
+        {
+          "name": "master-entry-wardrobe",
+          "exists": true
+        },
+        {
+          "name": "master-bedside-everyday",
+          "exists": true
+        },
+        {
+          "name": "bath2-vanity",
+          "exists": true
+        },
+        {
+          "name": "master-curtain",
+          "exists": true
+        },
+        {
+          "name": "master单眼皮",
+          "exists": true
+        },
+        {
+          "name": "door-master-single",
+          "exists": true
+        },
+        {
+          "name": "window-master-13",
+          "exists": true
+        },
+        {
+          "name": "master-bed-sewn-pillow-0",
+          "exists": true
+        },
+        {
+          "name": "master-bed-floor-support",
+          "exists": true
+        },
+        {
+          "name": "makeup-stool-floor-glide-1",
+          "exists": true
+        },
+        {
+          "name": "door-casing-master",
+          "exists": true
+        },
+        {
+          "name": "bed3-main-light",
+          "exists": true
+        },
+        {
+          "name": "bed3-air-conditioner",
+          "exists": true
+        },
+        {
+          "name": "bed3-bed",
+          "exists": true
+        },
+        {
+          "name": "bed3-wardrobe",
+          "exists": true
+        },
+        {
+          "name": "bed3-desk",
+          "exists": true
+        },
+        {
+          "name": "bed3-desk-everyday",
+          "exists": true
+        },
+        {
+          "name": "bed3-curtain",
+          "exists": true
+        },
+        {
+          "name": "bed3单眼皮",
+          "exists": true
+        },
+        {
+          "name": "door-bed3-single",
+          "exists": true
+        },
+        {
+          "name": "bed3-chair",
+          "exists": true
+        },
+        {
+          "name": "child-stationery-drawer",
+          "exists": true
+        },
+        {
+          "name": "bed3-bed-storage",
+          "exists": true
+        },
+        {
+          "name": "window-bed3-18",
+          "exists": true
+        },
+        {
+          "name": "bed3-bed-sewn-pillow-0",
+          "exists": true
+        },
+        {
+          "name": "bed3-bed-floor-support",
+          "exists": true
+        },
+        {
+          "name": "child-chair-floor-glide-0",
+          "exists": true
+        },
+        {
+          "name": "door-casing-bed3",
+          "exists": true
+        },
+        {
+          "name": "bath1-squat-pan",
+          "exists": true
+        },
+        {
+          "name": "bath1-shower",
+          "exists": true
+        },
+        {
+          "name": "bath1-vanity",
+          "exists": true
+        },
+        {
+          "name": "bath1-heater",
+          "exists": true
+        },
+        {
+          "name": "bath1-aluminum-ceiling",
+          "exists": true
+        },
+        {
+          "name": "door-bath1-single",
+          "exists": true
+        },
+        {
+          "name": "window-bath1-3",
+          "exists": true
+        },
+        {
+          "name": "dry-service-access",
+          "exists": true
+        },
+        {
+          "name": "dry-mirror-storage",
+          "exists": true
+        },
+        {
+          "name": "door-casing-bath1",
+          "exists": true
+        },
+        {
+          "name": "bath1-shower-door",
+          "exists": true
+        },
+        {
+          "name": "bath1-shower-fittings",
+          "exists": true
+        },
+        {
+          "name": "bath1-shower-toiletries",
+          "exists": true
+        },
+        {
+          "name": "bath1-shallow-storage",
+          "exists": true
+        },
+        {
+          "name": "bath1-towels-hooks",
+          "exists": true
+        },
+        {
+          "name": "bath1-cleaning-corner",
+          "exists": true
+        },
+        {
+          "name": "bath1-covered-paper-holder",
+          "exists": true
+        },
+        {
+          "name": "bath1-sloped-tile-floor",
+          "exists": true
+        },
+        {
+          "name": "bath1-removable-ceiling-panel",
+          "exists": true
+        },
+        {
+          "name": "bath2-toilet",
+          "exists": true
+        },
+        {
+          "name": "bath2-shower",
+          "exists": true
+        },
+        {
+          "name": "bath2-vanity",
+          "exists": true
+        },
+        {
+          "name": "bath2-heater",
+          "exists": true
+        },
+        {
+          "name": "bath2-aluminum-ceiling",
+          "exists": true
+        },
+        {
+          "name": "door-bath2-single",
+          "exists": true
+        },
+        {
+          "name": "window-bath2-11",
+          "exists": true
+        },
+        {
+          "name": "bath2-basin",
+          "exists": true
+        },
+        {
+          "name": "bath2-sloped-tile-floor",
+          "exists": true
+        },
+        {
+          "name": "door-casing-bath2",
+          "exists": true
+        },
+        {
+          "name": "living-coffee-everyday",
+          "exists": true
+        },
+        {
+          "name": "living-area-rug",
+          "exists": true
+        },
+        {
+          "name": "living-sofa-throw",
+          "exists": true
+        },
+        {
+          "name": "living-curtain",
+          "exists": true
+        },
+        {
+          "name": "recessed-tv-black-side-reveals",
+          "exists": true
+        },
+        {
+          "name": "tv-decor-lake-side",
+          "exists": true
+        },
+        {
+          "name": "tv-decor-dining-side",
+          "exists": true
+        },
+        {
+          "name": "tv-low-console",
+          "exists": true
+        },
+        {
+          "name": "linen-sofa",
+          "exists": true
+        },
+        {
+          "name": "supply-grille",
+          "exists": true
+        },
+        {
+          "name": "return-grille",
+          "exists": true
+        },
+        {
+          "name": "service-hatch",
+          "exists": true
+        },
+        {
+          "name": "客厅双眼皮外层",
+          "exists": true
+        },
+        {
+          "name": "ducted-indoor-bulkhead",
+          "exists": true
+        },
+        {
+          "name": "window-living-9",
+          "exists": true
+        },
+        {
+          "name": "sofa-sewn-scatter-0",
+          "exists": true
+        },
+        {
+          "name": "dining-table-settings",
+          "exists": true
+        },
+        {
+          "name": "island-storage-carcass",
+          "exists": true
+        },
+        {
+          "name": "island-flush-power-module",
+          "exists": true
+        },
+        {
+          "name": "stone-island",
+          "exists": true
+        },
+        {
+          "name": "flush-sideboard",
+          "exists": true
+        },
+        {
+          "name": "sideboard-upper-storage",
+          "exists": true
+        },
+        {
+          "name": "sideboard-drawer-bank",
+          "exists": true
+        },
+        {
+          "name": "sideboard-base-bevel-2",
+          "exists": true
+        },
+        {
+          "name": "sideboard-drawer-0",
+          "exists": true
+        },
+        {
+          "name": "sideboard-upper-door-0",
+          "exists": true
+        },
+        {
+          "name": "sideboard-base-door-0",
+          "exists": true
+        },
+        {
+          "name": "sideboard-drawer-1",
+          "exists": true
+        },
+        {
+          "name": "sideboard-upper-door-1",
+          "exists": true
+        },
+        {
+          "name": "sideboard-base-door-1",
+          "exists": true
+        },
+        {
+          "name": "sideboard-drawer-2",
+          "exists": true
+        },
+        {
+          "name": "sideboard-upper-door-2",
+          "exists": true
+        },
+        {
+          "name": "sideboard-base-door-2",
+          "exists": true
+        },
+        {
+          "name": "sideboard-drawer-3",
+          "exists": true
+        },
+        {
+          "name": "sideboard-upper-door-3",
+          "exists": true
+        },
+        {
+          "name": "sideboard-base-door-3",
+          "exists": true
+        },
+        {
+          "name": "sideboard-drawer-4",
+          "exists": true
+        },
+        {
+          "name": "sideboard-upper-door-4",
+          "exists": true
+        },
+        {
+          "name": "sideboard-base-door-4",
+          "exists": true
+        },
+        {
+          "name": "sideboard-drawer-5",
+          "exists": true
+        },
+        {
+          "name": "sideboard-upper-door-5",
+          "exists": true
+        },
+        {
+          "name": "sideboard-base-door-5",
+          "exists": true
+        },
+        {
+          "name": "dispenser-service-pier",
+          "exists": true
+        },
+        {
+          "name": "entry-storage-ensemble",
+          "exists": true
+        },
+        {
+          "name": "flush-entry-cabinet",
+          "exists": true
+        },
+        {
+          "name": "entry-key-tray",
+          "exists": true
+        },
+        {
+          "name": "entry-vase-arrangement",
+          "exists": true
+        },
+        {
+          "name": "entry-shoe-bench",
+          "exists": true
+        },
+        {
+          "name": "entry-dressing-mirror",
+          "exists": true
+        },
+        {
+          "name": "entry-daily-slippers",
+          "exists": true
+        },
+        {
+          "name": "recessed-switch-玄关总控",
+          "exists": true
+        },
+        {
+          "name": "door-front-main",
+          "exists": true
+        },
+        {
+          "name": "door-front-secondary",
+          "exists": true
+        },
+        {
+          "name": "door-casing-front",
+          "exists": true
+        },
+        {
+          "name": "skirting-21--1-1.925",
+          "exists": true
+        },
+        {
+          "name": "retained-balcony-column",
+          "exists": true
+        },
+        {
+          "name": "lake-bar-left",
+          "exists": true
+        },
+        {
+          "name": "lake-bar-right",
+          "exists": true
+        },
+        {
+          "name": "upholstered-counter-stool-left-1",
+          "exists": true
+        },
+        {
+          "name": "balcony-care-cabinet",
+          "exists": true
+        },
+        {
+          "name": "balcony-drying-rack",
+          "exists": true
+        },
+        {
+          "name": "bar-laptop-workplace",
+          "exists": true
+        },
+        {
+          "name": "bar-tea-zone",
+          "exists": true
+        },
+        {
+          "name": "bar-service-cover",
+          "exists": true
+        },
+        {
+          "name": "bar-power-left",
+          "exists": true
+        },
+        {
+          "name": "bar-power-right",
+          "exists": true
+        },
+        {
+          "name": "bar-cable-tray-left",
+          "exists": true
+        },
+        {
+          "name": "balcony-solid-left",
+          "exists": true
+        },
+        {
+          "name": "balcony-solid-right",
+          "exists": true
+        },
+        {
+          "name": "washer-drum-interior",
+          "exists": true
+        },
+        {
+          "name": "dryer-drum-interior",
+          "exists": true
+        },
+        {
+          "name": "laundry-stacking-kit",
+          "exists": true
+        },
+        {
+          "name": "laundry-washer",
+          "exists": true
+        },
+        {
+          "name": "laundry-dryer",
+          "exists": true
+        },
+        {
+          "name": "balcony-laundry-cabinet",
+          "exists": true
+        },
+        {
+          "name": "laundry-washer",
+          "exists": true
+        },
+        {
+          "name": "balcony-solid-right",
+          "exists": true
+        },
+        {
+          "name": "balcony-care-cabinet",
+          "exists": true
+        },
+        {
+          "name": "balcony-care-sink",
+          "exists": true
+        },
+        {
+          "name": "balcony-robot-dock",
+          "exists": true
+        },
+        {
+          "name": "dock-removable-service-cassette",
+          "exists": true
+        },
+        {
+          "name": "balcony-cleaning-robot",
+          "exists": true
+        },
+        {
+          "name": "balcony-care-services",
+          "exists": true
+        },
+        {
+          "name": "balcony-folding-basin",
+          "exists": true
+        },
+        {
+          "name": "balcony-care-upper",
+          "exists": true
+        }
+      ],
+      "selectedFacility": null,
+      "selectedVisible": null,
+      "night": false,
+      "finishScheme": {
+        "name": "湖畔 · 暖调现代简约",
+        "floor": "800 × 800 浅暖灰哑光砖，同色细缝",
+        "walls": "暖白乳胶漆（干区）；淋浴湿区防水饰面另核",
+        "joinery": "暖灰柜门＋自然木色，避免全屋深色大柜",
+        "textiles": "燕麦、米灰、少量灰绿；深灰仅用于五金与电视黑边",
+        "lighting": "公共区 3000–3500 K，厨卫任务照明 4000 K；显色指数 Ra≥90 为选型目标，未实测"
+      },
+      "palette": {
+        "wall": "#eeeae2",
+        "ceiling": "#f4f1eb",
+        "floor": "#d0cdc5",
+        "grout": "#c2bfb7",
+        "cabinet": "#d6d1c7",
+        "wood": "#b5a088",
+        "sofa": "#c7c0b4",
+        "linen": "#e8e3d8",
+        "accent": "#7a8172",
+        "metal": "#414540",
+        "stone": "#e2ded4"
+      },
+      "lights": [
+        {
+          "id": "bed1-main-light",
+          "exists": true,
+          "kelvin": 3000
+        },
+        {
+          "id": "master-main-light",
+          "exists": true,
+          "kelvin": 3000
+        },
+        {
+          "id": "bed3-main-light",
+          "exists": true,
+          "kelvin": 3000
+        },
+        {
+          "id": "kitchen-main-light",
+          "exists": true,
+          "kelvin": 4000
+        }
+      ],
+      "floorRoughness": 0.94,
+      "tilePitch": 0.8,
+      "clipPlanes": 5,
+      "draws": 3,
+      "position": [
+        15.194999999999999,
+        19.74904359136793,
+        2.8660000000282184
+      ],
+      "rotation": [
+        -1.570745691430063,
+        0,
+        0
+      ],
+      "fov": 48,
+      "column": [
+        8.98,
+        0,
+        1.6
+      ],
+      "hiddenSeats": 0,
+      "roofVisible": false,
+      "wide": true
+    },
+    "busy": {
+      "hidden": true,
+      "text": "正在加载本地三维场景和湖景材质…"
+    },
+    "canvas": {
+      "x": 5,
+      "y": 56,
+      "width": 420,
+      "height": 939,
+      "top": 56,
+      "right": 425,
+      "bottom": 995,
+      "left": 5
+    },
+    "overlays": [
+      {
+        "id": "spaceGuide",
+        "hidden": false,
+        "open": false,
+        "display": "none",
+        "background": "rgb(251, 250, 246)"
+      },
+      {
+        "id": "busy",
+        "hidden": true,
+        "display": "none",
+        "background": "rgba(244, 241, 234, 0.94)"
+      },
+      {
+        "id": "position",
+        "hidden": false,
+        "display": "none",
+        "background": "rgba(251, 250, 246, 0.93)"
+      },
+      {
+        "id": "hotspots",
+        "hidden": true,
+        "display": "none",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "id": "facilityNote",
+        "hidden": true,
+        "display": "none",
+        "background": "rgba(251, 250, 246, 0.96)"
+      },
+      {
+        "id": "dressingPlanDialog",
+        "hidden": false,
+        "open": false,
+        "display": "none",
+        "background": "rgb(251, 250, 246)"
+      },
+      {
+        "id": "dryPlanDialog",
+        "hidden": false,
+        "open": false,
+        "display": "none",
+        "background": "rgb(251, 250, 246)"
+      },
+      {
+        "id": "roomTour",
+        "hidden": false,
+        "display": "none",
+        "background": "rgba(251, 250, 246, 0.937)"
+      },
+      {
+        "id": "gesture",
+        "hidden": false,
+        "display": "none",
+        "background": "rgba(251, 250, 246, 0.93)"
+      },
+      {
+        "id": "sideboardActions",
+        "hidden": true,
+        "display": "none",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "id": "fridgeActions",
+        "hidden": true,
+        "display": "none",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "id": "laundryActions",
+        "hidden": true,
+        "display": "none",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "id": "kitchenActions",
+        "hidden": true,
+        "display": "none",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "id": "publicBathActions",
+        "hidden": true,
+        "display": "none",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "id": "bedroomActions",
+        "hidden": true,
+        "display": "none",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "id": "dryStorageActions",
+        "hidden": true,
+        "display": "none",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "id": "barPowerActions",
+        "hidden": true,
+        "display": "none",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "id": "balconyCareActions",
+        "hidden": true,
+        "display": "none",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "id": "dryingActions",
+        "hidden": true,
+        "display": "none",
+        "background": "rgba(251, 250, 246, 0.867)"
+      },
+      {
+        "id": "masterBathActions",
+        "hidden": true,
+        "display": "none",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "id": "walkHud",
+        "hidden": true,
+        "display": "none",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "id": "mobileRoomName",
+        "hidden": false,
+        "display": "block",
+        "background": "rgba(251, 250, 246, 0.92)"
+      },
+      {
+        "id": "inventory",
+        "hidden": false,
+        "open": false,
+        "display": "none",
+        "background": "rgb(251, 250, 246)"
+      },
+      {
+        "id": "livingLayout",
+        "hidden": false,
+        "open": false,
+        "display": "none",
+        "background": "rgb(250, 248, 242)"
+      },
+      {
+        "id": "tilePlanDialog",
+        "hidden": false,
+        "open": false,
+        "display": "none",
+        "background": "rgb(251, 250, 246)"
+      },
+      {
+        "id": "lightingDesignDialog",
+        "hidden": false,
+        "open": false,
+        "display": "none",
+        "background": "rgb(251, 250, 246)"
+      },
+      {
+        "id": "placeSheet",
+        "hidden": false,
+        "open": false,
+        "display": "none",
+        "background": "rgb(251, 250, 246)"
+      },
+      {
+        "id": "detailRender",
+        "hidden": false,
+        "open": false,
+        "display": "none",
+        "background": "rgb(251, 250, 246)"
+      }
+    ],
+    "lights": [
+      {
+        "id": "recessed-led-downlight-1",
+        "level": 0
+      },
+      {
+        "id": "recessed-led-downlight_1-1",
+        "level": 0
+      },
+      {
+        "id": "recessed-led-downlight_2-1",
+        "level": 0
+      },
+      {
+        "id": "recessed-led-downlight_3-1",
+        "level": 0
+      },
+      {
+        "id": "recessed-led-downlight_4-1",
+        "level": 0
+      },
+      {
+        "id": "recessed-led-downlight_5-1",
+        "level": 0
+      },
+      {
+        "id": "recessed-led-downlight_6-1",
+        "level": 0
+      },
+      {
+        "id": "recessed-led-downlight_7-1",
+        "level": 0
+      },
+      {
+        "id": "recessed-led-downlight_8-1",
+        "level": 0
+      },
+      {
+        "id": "recessed-led-downlight_9-1",
+        "level": 0
+      },
+      {
+        "id": "bed1-main-light-1",
+        "level": 0
+      },
+      {
+        "id": "master-main-light-1",
+        "level": 0
+      },
+      {
+        "id": "bed3-main-light-1",
+        "level": 0
+      },
+      {
+        "id": "kitchen-main-light-1",
+        "level": 0
+      },
+      {
+        "id": "bath1-heater-light-1",
+        "level": 0
+      },
+      {
+        "id": "bath2-heater-light-1",
+        "level": 0
+      },
+      {
+        "id": "kitchen-hood-1",
+        "level": 0
+      },
+      {
+        "id": "kitchen-hood-2",
+        "level": 0
+      },
+      {
+        "id": "sideboard-recessed-task-light-1",
+        "level": 0
+      },
+      {
+        "id": "tv-console-soft-light-1",
+        "level": 0
+      },
+      {
+        "id": "bar-concealed-light-1",
+        "level": 0
+      },
+      {
+        "id": "bar-concealed-light_1-1",
+        "level": 0
+      },
+      {
+        "id": "laundry-task-strip-1",
+        "level": 0
+      },
+      {
+        "id": "flush-entry-cabinet-1",
+        "level": 0
+      },
+      {
+        "id": "flush-entry-cabinet-2",
+        "level": 0
+      },
+      {
+        "id": "balcony-care-task-light-1",
+        "level": 0
+      },
+      {
+        "id": "bath2-mirror-task-light-1",
+        "level": 0
+      },
+      {
+        "id": "bath2-mirror-task-light-2",
+        "level": 0
+      },
+      {
+        "id": "bed1-foot-light-1",
+        "level": 0
+      },
+      {
+        "id": "elder-reading-diffuser-1",
+        "level": 0
+      },
+      {
+        "id": "elder-reading-diffuser-2",
+        "level": 0
+      },
+      {
+        "id": "bed3-foot-light-1",
+        "level": 0
+      },
+      {
+        "id": "study-lamp-diffuser-1",
+        "level": 0
+      },
+      {
+        "id": "master-foot-light-1",
+        "level": 0
+      },
+      {
+        "id": "makeup-task-light-1",
+        "level": 0
+      },
+      {
+        "id": "makeup-task-light-2",
+        "level": 0
+      },
+      {
+        "id": "dry-mirror-task-strip-1",
+        "level": 0
+      },
+      {
+        "id": "island-task-pendant-1",
+        "level": 0
+      }
+    ]
+  },
+  "resized": {
+    "view": {
+      "ready": true,
+      "mode": "layout",
+      "station": "master",
+      "tour": [
+        "entry",
+        "living",
+        "tvSeat",
+        "bar",
+        "balconyGap",
+        "columnFront",
+        "glassLeft",
+        "glassRight",
+        "lake",
+        "laundry",
+        "dining",
+        "cabinet",
+        "fridge",
+        "kitchen",
+        "bed1",
+        "bath1",
+        "master",
+        "bath2",
+        "bed3",
+        "services",
+        "care",
+        "drying"
+      ],
+      "targets": {
+        "entry": {
+          "name": "玄关 · 鞋柜与换鞋",
+          "position": [
+            7.1,
+            1.5,
+            5.95
+          ],
+          "look": [
+            5.1,
+            1.25,
+            6.93
+          ]
+        },
+        "living": {
+          "name": "客厅",
+          "position": [
+            8.1,
+            1.6,
+            6
+          ],
+          "look": [
+            9.85,
+            0.9,
+            3.8
+          ]
+        },
+        "dining": {
+          "name": "餐厅 · 备餐岛台",
+          "position": [
+            6.35,
+            1.6,
+            4.95
+          ],
+          "look": [
+            7.47,
+            0.65,
+            3.95
+          ]
+        },
+        "cabinet": {
+          "name": "餐边柜",
+          "position": [
+            8.23,
+            1.6,
+            4.63
+          ],
+          "look": [
+            9.43,
+            1.25,
+            6.9
+          ]
+        },
+        "fridge": {
+          "name": "冰箱",
+          "position": [
+            8.19,
+            1.6,
+            2.76
+          ],
+          "look": [
+            6.19,
+            1.3,
+            2.34
+          ]
+        },
+        "services": {
+          "name": "吊顶",
+          "position": [
+            8.19,
+            1.6,
+            5.05
+          ],
+          "look": [
+            8.98,
+            1.3,
+            5.9
+          ]
+        },
+        "bar": {
+          "name": "阳台长桌与吧椅",
+          "position": [
+            10.4,
+            1.6,
+            3.45
+          ],
+          "look": [
+            8.85,
+            1,
+            1.2
+          ]
+        },
+        "laundry": {
+          "name": "洗烘柜",
+          "position": [
+            8.35,
+            1.6,
+            0.7
+          ],
+          "look": [
+            11.66,
+            1.35,
+            0.69
+          ]
+        },
+        "kitchen": {
+          "name": "厨房",
+          "position": [
+            5.33,
+            1.6,
+            5.02
+          ],
+          "look": [
+            4.32,
+            1.1,
+            3.16
+          ]
+        },
+        "bed1": {
+          "name": "老人房",
+          "position": [
+            3.18,
+            1.6,
+            5.03
+          ],
+          "look": [
+            1.7,
+            1,
+            3.6
+          ]
+        },
+        "bath1": {
+          "name": "公卫",
+          "position": [
+            3.12,
+            1.6,
+            5.62
+          ],
+          "look": [
+            1.72,
+            0.9,
+            6.82
+          ]
+        },
+        "master": {
+          "name": "主卧套间",
+          "position": [
+            14.61,
+            1.6,
+            3.38
+          ],
+          "look": [
+            16.08,
+            1.3,
+            1.64
+          ]
+        },
+        "bath2": {
+          "name": "主卫",
+          "position": [
+            13.82,
+            1.6,
+            2.47
+          ],
+          "look": [
+            12.85,
+            1.3,
+            1.24
+          ]
+        },
+        "bed3": {
+          "name": "儿童房",
+          "position": [
+            14.35,
+            1.6,
+            6.17
+          ],
+          "look": [
+            15.9,
+            1,
+            5.76
+          ]
+        },
+        "lake": {
+          "name": "阳台回望",
+          "position": [
+            8.35,
+            1.6,
+            0.7
+          ],
+          "look": [
+            9.4,
+            1.25,
+            4.9
+          ]
+        },
+        "tvSeat": {
+          "name": "沙发坐姿观影",
+          "position": [
+            9.275,
+            1.08,
+            4.3
+          ],
+          "look": [
+            11.84,
+            1.44,
+            3.66
+          ]
+        },
+        "care": {
+          "name": "阳台洗手台与清洁柜",
+          "position": [
+            8.85,
+            1.4,
+            2.05
+          ],
+          "look": [
+            6.2,
+            1.12,
+            0.89
+          ]
+        },
+        "drying": {
+          "name": "阳台晾衣 · 升降与遮景",
+          "position": [
+            7.1,
+            1.6,
+            2.75
+          ],
+          "look": [
+            8.2,
+            1.85,
+            0.52
+          ]
+        },
+        "balconyGap": {
+          "name": "玻璃与承重柱之间",
+          "position": [
+            6.800000000000001,
+            1.55,
+            0.7000000000000001
+          ],
+          "look": [
+            11.7,
+            0.85,
+            0.7500000000000001
+          ]
+        },
+        "columnFront": {
+          "name": "柱前回望",
+          "position": [
+            8.530000000000001,
+            1.55,
+            0.7000000000000001
+          ],
+          "look": [
+            9.13,
+            1.2,
+            4.6
+          ]
+        },
+        "glassLeft": {
+          "name": "阳台左端",
+          "position": [
+            7.78,
+            1.55,
+            0.7000000000000001
+          ],
+          "look": [
+            6.4,
+            1.1,
+            1.6
+          ]
+        },
+        "glassRight": {
+          "name": "阳台洗烘侧",
+          "position": [
+            10.450000000000001,
+            1.55,
+            0.7500000000000001
+          ],
+          "look": [
+            11.7,
+            1.2,
+            0.5999999999999999
+          ]
+        }
+      },
+      "seatAudit": [
+        {
+          "wing": "lake-bar-left",
+          "visible": true,
+          "min": [
+            7.5725,
+            0.0060000003874301905,
+            1.7746753996610642
+          ],
+          "max": [
+            7.9975000000000005,
+            0.8600000035762787,
+            2.195324600338936
+          ]
+        },
+        {
+          "wing": "lake-bar-left",
+          "visible": true,
+          "min": [
+            8.2225,
+            0.0060000003874301905,
+            1.7746753996610642
+          ],
+          "max": [
+            8.6475,
+            0.8600000035762787,
+            2.195324600338936
+          ]
+        },
+        {
+          "wing": "lake-bar-right",
+          "visible": true,
+          "min": [
+            9.3125,
+            0.0060000003874301905,
+            1.7746753996610642
+          ],
+          "max": [
+            9.7375,
+            0.8600000035762787,
+            2.195324600338936
+          ]
+        },
+        {
+          "wing": "lake-bar-right",
+          "visible": true,
+          "min": [
+            9.962499999999999,
+            0.0060000003874301905,
+            1.7746753996610642
+          ],
+          "max": [
+            10.3875,
+            0.8600000035762787,
+            2.195324600338936
+          ]
+        }
+      ],
+      "facilityObjects": [
+        {
+          "name": "kitchen-main-light",
+          "exists": true
+        },
+        {
+          "name": "kitchen-sink",
+          "exists": true
+        },
+        {
+          "name": "kitchen-hob",
+          "exists": true
+        },
+        {
+          "name": "kitchen-hood",
+          "exists": true
+        },
+        {
+          "name": "kitchen-cooking-cabinets",
+          "exists": true
+        },
+        {
+          "name": "kitchen-sink-cabinets",
+          "exists": true
+        },
+        {
+          "name": "integrated-fridge",
+          "exists": true
+        },
+        {
+          "name": "fridge-cold-interior",
+          "exists": true
+        },
+        {
+          "name": "fridge-upper-storage",
+          "exists": true
+        },
+        {
+          "name": "fridge-freezer-bin-0",
+          "exists": true
+        },
+        {
+          "name": "fridge-freezer-bin-1",
+          "exists": true
+        },
+        {
+          "name": "fridge-freezer-bin-2",
+          "exists": true
+        },
+        {
+          "name": "fridge-freezer-bin-3",
+          "exists": true
+        },
+        {
+          "name": "fridge-crisper",
+          "exists": true
+        },
+        {
+          "name": "window-kitchen-7",
+          "exists": true
+        },
+        {
+          "name": "kitchen-prep-drawer-2",
+          "exists": true
+        },
+        {
+          "name": "kitchen-prep-drawer-1",
+          "exists": true
+        },
+        {
+          "name": "kitchen-prep-drawer-0",
+          "exists": true
+        },
+        {
+          "name": "kitchen-hob-drawer-0",
+          "exists": true
+        },
+        {
+          "name": "kitchen-hob-drawer-1",
+          "exists": true
+        },
+        {
+          "name": "kitchen-pots-drawer-0",
+          "exists": true
+        },
+        {
+          "name": "kitchen-pots-drawer-1",
+          "exists": true
+        },
+        {
+          "name": "kitchen-sink-service-bay",
+          "exists": true
+        },
+        {
+          "name": "bed1-main-light",
+          "exists": true
+        },
+        {
+          "name": "bed1-air-conditioner",
+          "exists": true
+        },
+        {
+          "name": "bed1-bed",
+          "exists": true
+        },
+        {
+          "name": "bed1-wardrobe",
+          "exists": true
+        },
+        {
+          "name": "bed1-curtain",
+          "exists": true
+        },
+        {
+          "name": "bed1单眼皮",
+          "exists": true
+        },
+        {
+          "name": "door-bed1-single",
+          "exists": true
+        },
+        {
+          "name": "bed1-window-storage",
+          "exists": true
+        },
+        {
+          "name": "bed1-bed-storage",
+          "exists": true
+        },
+        {
+          "name": "elder-bedhead-reading-lights",
+          "exists": true
+        },
+        {
+          "name": "window-bed1-0",
+          "exists": true
+        },
+        {
+          "name": "bed1-bed-sewn-pillow-0",
+          "exists": true
+        },
+        {
+          "name": "bed1-bed-floor-support",
+          "exists": true
+        },
+        {
+          "name": "door-casing-bed1",
+          "exists": true
+        },
+        {
+          "name": "master-makeup-desk",
+          "exists": true
+        },
+        {
+          "name": "master-main-light",
+          "exists": true
+        },
+        {
+          "name": "master-air-conditioner",
+          "exists": true
+        },
+        {
+          "name": "master-bed",
+          "exists": true
+        },
+        {
+          "name": "master-wardrobe",
+          "exists": true
+        },
+        {
+          "name": "master-entry-wardrobe",
+          "exists": true
+        },
+        {
+          "name": "master-bedside-everyday",
+          "exists": true
+        },
+        {
+          "name": "bath2-vanity",
+          "exists": true
+        },
+        {
+          "name": "master-curtain",
+          "exists": true
+        },
+        {
+          "name": "master单眼皮",
+          "exists": true
+        },
+        {
+          "name": "door-master-single",
+          "exists": true
+        },
+        {
+          "name": "window-master-13",
+          "exists": true
+        },
+        {
+          "name": "master-bed-sewn-pillow-0",
+          "exists": true
+        },
+        {
+          "name": "master-bed-floor-support",
+          "exists": true
+        },
+        {
+          "name": "makeup-stool-floor-glide-1",
+          "exists": true
+        },
+        {
+          "name": "door-casing-master",
+          "exists": true
+        },
+        {
+          "name": "bed3-main-light",
+          "exists": true
+        },
+        {
+          "name": "bed3-air-conditioner",
+          "exists": true
+        },
+        {
+          "name": "bed3-bed",
+          "exists": true
+        },
+        {
+          "name": "bed3-wardrobe",
+          "exists": true
+        },
+        {
+          "name": "bed3-desk",
+          "exists": true
+        },
+        {
+          "name": "bed3-desk-everyday",
+          "exists": true
+        },
+        {
+          "name": "bed3-curtain",
+          "exists": true
+        },
+        {
+          "name": "bed3单眼皮",
+          "exists": true
+        },
+        {
+          "name": "door-bed3-single",
+          "exists": true
+        },
+        {
+          "name": "bed3-chair",
+          "exists": true
+        },
+        {
+          "name": "child-stationery-drawer",
+          "exists": true
+        },
+        {
+          "name": "bed3-bed-storage",
+          "exists": true
+        },
+        {
+          "name": "window-bed3-18",
+          "exists": true
+        },
+        {
+          "name": "bed3-bed-sewn-pillow-0",
+          "exists": true
+        },
+        {
+          "name": "bed3-bed-floor-support",
+          "exists": true
+        },
+        {
+          "name": "child-chair-floor-glide-0",
+          "exists": true
+        },
+        {
+          "name": "door-casing-bed3",
+          "exists": true
+        },
+        {
+          "name": "bath1-squat-pan",
+          "exists": true
+        },
+        {
+          "name": "bath1-shower",
+          "exists": true
+        },
+        {
+          "name": "bath1-vanity",
+          "exists": true
+        },
+        {
+          "name": "bath1-heater",
+          "exists": true
+        },
+        {
+          "name": "bath1-aluminum-ceiling",
+          "exists": true
+        },
+        {
+          "name": "door-bath1-single",
+          "exists": true
+        },
+        {
+          "name": "window-bath1-3",
+          "exists": true
+        },
+        {
+          "name": "dry-service-access",
+          "exists": true
+        },
+        {
+          "name": "dry-mirror-storage",
+          "exists": true
+        },
+        {
+          "name": "door-casing-bath1",
+          "exists": true
+        },
+        {
+          "name": "bath1-shower-door",
+          "exists": true
+        },
+        {
+          "name": "bath1-shower-fittings",
+          "exists": true
+        },
+        {
+          "name": "bath1-shower-toiletries",
+          "exists": true
+        },
+        {
+          "name": "bath1-shallow-storage",
+          "exists": true
+        },
+        {
+          "name": "bath1-towels-hooks",
+          "exists": true
+        },
+        {
+          "name": "bath1-cleaning-corner",
+          "exists": true
+        },
+        {
+          "name": "bath1-covered-paper-holder",
+          "exists": true
+        },
+        {
+          "name": "bath1-sloped-tile-floor",
+          "exists": true
+        },
+        {
+          "name": "bath1-removable-ceiling-panel",
+          "exists": true
+        },
+        {
+          "name": "bath2-toilet",
+          "exists": true
+        },
+        {
+          "name": "bath2-shower",
+          "exists": true
+        },
+        {
+          "name": "bath2-vanity",
+          "exists": true
+        },
+        {
+          "name": "bath2-heater",
+          "exists": true
+        },
+        {
+          "name": "bath2-aluminum-ceiling",
+          "exists": true
+        },
+        {
+          "name": "door-bath2-single",
+          "exists": true
+        },
+        {
+          "name": "window-bath2-11",
+          "exists": true
+        },
+        {
+          "name": "bath2-basin",
+          "exists": true
+        },
+        {
+          "name": "bath2-sloped-tile-floor",
+          "exists": true
+        },
+        {
+          "name": "door-casing-bath2",
+          "exists": true
+        },
+        {
+          "name": "living-coffee-everyday",
+          "exists": true
+        },
+        {
+          "name": "living-area-rug",
+          "exists": true
+        },
+        {
+          "name": "living-sofa-throw",
+          "exists": true
+        },
+        {
+          "name": "living-curtain",
+          "exists": true
+        },
+        {
+          "name": "recessed-tv-black-side-reveals",
+          "exists": true
+        },
+        {
+          "name": "tv-decor-lake-side",
+          "exists": true
+        },
+        {
+          "name": "tv-decor-dining-side",
+          "exists": true
+        },
+        {
+          "name": "tv-low-console",
+          "exists": true
+        },
+        {
+          "name": "linen-sofa",
+          "exists": true
+        },
+        {
+          "name": "supply-grille",
+          "exists": true
+        },
+        {
+          "name": "return-grille",
+          "exists": true
+        },
+        {
+          "name": "service-hatch",
+          "exists": true
+        },
+        {
+          "name": "客厅双眼皮外层",
+          "exists": true
+        },
+        {
+          "name": "ducted-indoor-bulkhead",
+          "exists": true
+        },
+        {
+          "name": "window-living-9",
+          "exists": true
+        },
+        {
+          "name": "sofa-sewn-scatter-0",
+          "exists": true
+        },
+        {
+          "name": "dining-table-settings",
+          "exists": true
+        },
+        {
+          "name": "island-storage-carcass",
+          "exists": true
+        },
+        {
+          "name": "island-flush-power-module",
+          "exists": true
+        },
+        {
+          "name": "stone-island",
+          "exists": true
+        },
+        {
+          "name": "flush-sideboard",
+          "exists": true
+        },
+        {
+          "name": "sideboard-upper-storage",
+          "exists": true
+        },
+        {
+          "name": "sideboard-drawer-bank",
+          "exists": true
+        },
+        {
+          "name": "sideboard-base-bevel-2",
+          "exists": true
+        },
+        {
+          "name": "sideboard-drawer-0",
+          "exists": true
+        },
+        {
+          "name": "sideboard-upper-door-0",
+          "exists": true
+        },
+        {
+          "name": "sideboard-base-door-0",
+          "exists": true
+        },
+        {
+          "name": "sideboard-drawer-1",
+          "exists": true
+        },
+        {
+          "name": "sideboard-upper-door-1",
+          "exists": true
+        },
+        {
+          "name": "sideboard-base-door-1",
+          "exists": true
+        },
+        {
+          "name": "sideboard-drawer-2",
+          "exists": true
+        },
+        {
+          "name": "sideboard-upper-door-2",
+          "exists": true
+        },
+        {
+          "name": "sideboard-base-door-2",
+          "exists": true
+        },
+        {
+          "name": "sideboard-drawer-3",
+          "exists": true
+        },
+        {
+          "name": "sideboard-upper-door-3",
+          "exists": true
+        },
+        {
+          "name": "sideboard-base-door-3",
+          "exists": true
+        },
+        {
+          "name": "sideboard-drawer-4",
+          "exists": true
+        },
+        {
+          "name": "sideboard-upper-door-4",
+          "exists": true
+        },
+        {
+          "name": "sideboard-base-door-4",
+          "exists": true
+        },
+        {
+          "name": "sideboard-drawer-5",
+          "exists": true
+        },
+        {
+          "name": "sideboard-upper-door-5",
+          "exists": true
+        },
+        {
+          "name": "sideboard-base-door-5",
+          "exists": true
+        },
+        {
+          "name": "dispenser-service-pier",
+          "exists": true
+        },
+        {
+          "name": "entry-storage-ensemble",
+          "exists": true
+        },
+        {
+          "name": "flush-entry-cabinet",
+          "exists": true
+        },
+        {
+          "name": "entry-key-tray",
+          "exists": true
+        },
+        {
+          "name": "entry-vase-arrangement",
+          "exists": true
+        },
+        {
+          "name": "entry-shoe-bench",
+          "exists": true
+        },
+        {
+          "name": "entry-dressing-mirror",
+          "exists": true
+        },
+        {
+          "name": "entry-daily-slippers",
+          "exists": true
+        },
+        {
+          "name": "recessed-switch-玄关总控",
+          "exists": true
+        },
+        {
+          "name": "door-front-main",
+          "exists": true
+        },
+        {
+          "name": "door-front-secondary",
+          "exists": true
+        },
+        {
+          "name": "door-casing-front",
+          "exists": true
+        },
+        {
+          "name": "skirting-21--1-1.925",
+          "exists": true
+        },
+        {
+          "name": "retained-balcony-column",
+          "exists": true
+        },
+        {
+          "name": "lake-bar-left",
+          "exists": true
+        },
+        {
+          "name": "lake-bar-right",
+          "exists": true
+        },
+        {
+          "name": "upholstered-counter-stool-left-1",
+          "exists": true
+        },
+        {
+          "name": "balcony-care-cabinet",
+          "exists": true
+        },
+        {
+          "name": "balcony-drying-rack",
+          "exists": true
+        },
+        {
+          "name": "bar-laptop-workplace",
+          "exists": true
+        },
+        {
+          "name": "bar-tea-zone",
+          "exists": true
+        },
+        {
+          "name": "bar-service-cover",
+          "exists": true
+        },
+        {
+          "name": "bar-power-left",
+          "exists": true
+        },
+        {
+          "name": "bar-power-right",
+          "exists": true
+        },
+        {
+          "name": "bar-cable-tray-left",
+          "exists": true
+        },
+        {
+          "name": "balcony-solid-left",
+          "exists": true
+        },
+        {
+          "name": "balcony-solid-right",
+          "exists": true
+        },
+        {
+          "name": "washer-drum-interior",
+          "exists": true
+        },
+        {
+          "name": "dryer-drum-interior",
+          "exists": true
+        },
+        {
+          "name": "laundry-stacking-kit",
+          "exists": true
+        },
+        {
+          "name": "laundry-washer",
+          "exists": true
+        },
+        {
+          "name": "laundry-dryer",
+          "exists": true
+        },
+        {
+          "name": "balcony-laundry-cabinet",
+          "exists": true
+        },
+        {
+          "name": "laundry-washer",
+          "exists": true
+        },
+        {
+          "name": "balcony-solid-right",
+          "exists": true
+        },
+        {
+          "name": "balcony-care-cabinet",
+          "exists": true
+        },
+        {
+          "name": "balcony-care-sink",
+          "exists": true
+        },
+        {
+          "name": "balcony-robot-dock",
+          "exists": true
+        },
+        {
+          "name": "dock-removable-service-cassette",
+          "exists": true
+        },
+        {
+          "name": "balcony-cleaning-robot",
+          "exists": true
+        },
+        {
+          "name": "balcony-care-services",
+          "exists": true
+        },
+        {
+          "name": "balcony-folding-basin",
+          "exists": true
+        },
+        {
+          "name": "balcony-care-upper",
+          "exists": true
+        }
+      ],
+      "selectedFacility": null,
+      "selectedVisible": null,
+      "night": false,
+      "finishScheme": {
+        "name": "湖畔 · 暖调现代简约",
+        "floor": "800 × 800 浅暖灰哑光砖，同色细缝",
+        "walls": "暖白乳胶漆（干区）；淋浴湿区防水饰面另核",
+        "joinery": "暖灰柜门＋自然木色，避免全屋深色大柜",
+        "textiles": "燕麦、米灰、少量灰绿；深灰仅用于五金与电视黑边",
+        "lighting": "公共区 3000–3500 K，厨卫任务照明 4000 K；显色指数 Ra≥90 为选型目标，未实测"
+      },
+      "palette": {
+        "wall": "#eeeae2",
+        "ceiling": "#f4f1eb",
+        "floor": "#d0cdc5",
+        "grout": "#c2bfb7",
+        "cabinet": "#d6d1c7",
+        "wood": "#b5a088",
+        "sofa": "#c7c0b4",
+        "linen": "#e8e3d8",
+        "accent": "#7a8172",
+        "metal": "#414540",
+        "stone": "#e2ded4"
+      },
+      "lights": [
+        {
+          "id": "bed1-main-light",
+          "exists": true,
+          "kelvin": 3000
+        },
+        {
+          "id": "master-main-light",
+          "exists": true,
+          "kelvin": 3000
+        },
+        {
+          "id": "bed3-main-light",
+          "exists": true,
+          "kelvin": 3000
+        },
+        {
+          "id": "kitchen-main-light",
+          "exists": true,
+          "kelvin": 4000
+        }
+      ],
+      "floorRoughness": 0.94,
+      "tilePitch": 0.8,
+      "clipPlanes": 5,
+      "draws": 4,
+      "position": [
+        15.194999999999999,
+        19.3284036852685,
+        2.865999999991419
+      ],
+      "rotation": [
+        -1.5707445894653784,
+        0,
+        0
+      ],
+      "fov": 48,
+      "column": [
+        8.98,
+        0,
+        1.6
+      ],
+      "hiddenSeats": 0,
+      "roofVisible": false,
+      "wide": true
+    },
+    "busy": {
+      "hidden": true,
+      "text": "正在加载本地三维场景和湖景材质…"
+    },
+    "canvas": {
+      "x": 5,
+      "y": 56,
+      "width": 420,
+      "height": 919,
+      "top": 56,
+      "right": 425,
+      "bottom": 975,
+      "left": 5
+    },
+    "overlays": [
+      {
+        "id": "spaceGuide",
+        "hidden": false,
+        "open": false,
+        "display": "none",
+        "background": "rgb(251, 250, 246)"
+      },
+      {
+        "id": "busy",
+        "hidden": true,
+        "display": "none",
+        "background": "rgba(244, 241, 234, 0.94)"
+      },
+      {
+        "id": "position",
+        "hidden": false,
+        "display": "none",
+        "background": "rgba(251, 250, 246, 0.93)"
+      },
+      {
+        "id": "hotspots",
+        "hidden": true,
+        "display": "none",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "id": "facilityNote",
+        "hidden": true,
+        "display": "none",
+        "background": "rgba(251, 250, 246, 0.96)"
+      },
+      {
+        "id": "dressingPlanDialog",
+        "hidden": false,
+        "open": false,
+        "display": "none",
+        "background": "rgb(251, 250, 246)"
+      },
+      {
+        "id": "dryPlanDialog",
+        "hidden": false,
+        "open": false,
+        "display": "none",
+        "background": "rgb(251, 250, 246)"
+      },
+      {
+        "id": "roomTour",
+        "hidden": false,
+        "display": "none",
+        "background": "rgba(251, 250, 246, 0.937)"
+      },
+      {
+        "id": "gesture",
+        "hidden": false,
+        "display": "none",
+        "background": "rgba(251, 250, 246, 0.93)"
+      },
+      {
+        "id": "sideboardActions",
+        "hidden": true,
+        "display": "none",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "id": "fridgeActions",
+        "hidden": true,
+        "display": "none",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "id": "laundryActions",
+        "hidden": true,
+        "display": "none",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "id": "kitchenActions",
+        "hidden": true,
+        "display": "none",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "id": "publicBathActions",
+        "hidden": true,
+        "display": "none",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "id": "bedroomActions",
+        "hidden": true,
+        "display": "none",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "id": "dryStorageActions",
+        "hidden": true,
+        "display": "none",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "id": "barPowerActions",
+        "hidden": true,
+        "display": "none",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "id": "balconyCareActions",
+        "hidden": true,
+        "display": "none",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "id": "dryingActions",
+        "hidden": true,
+        "display": "none",
+        "background": "rgba(251, 250, 246, 0.867)"
+      },
+      {
+        "id": "masterBathActions",
+        "hidden": true,
+        "display": "none",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "id": "walkHud",
+        "hidden": true,
+        "display": "none",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "id": "mobileRoomName",
+        "hidden": false,
+        "display": "block",
+        "background": "rgba(251, 250, 246, 0.92)"
+      },
+      {
+        "id": "inventory",
+        "hidden": false,
+        "open": false,
+        "display": "none",
+        "background": "rgb(251, 250, 246)"
+      },
+      {
+        "id": "livingLayout",
+        "hidden": false,
+        "open": false,
+        "display": "none",
+        "background": "rgb(250, 248, 242)"
+      },
+      {
+        "id": "tilePlanDialog",
+        "hidden": false,
+        "open": false,
+        "display": "none",
+        "background": "rgb(251, 250, 246)"
+      },
+      {
+        "id": "lightingDesignDialog",
+        "hidden": false,
+        "open": false,
+        "display": "none",
+        "background": "rgb(251, 250, 246)"
+      },
+      {
+        "id": "placeSheet",
+        "hidden": false,
+        "open": false,
+        "display": "none",
+        "background": "rgb(251, 250, 246)"
+      },
+      {
+        "id": "detailRender",
+        "hidden": false,
+        "open": false,
+        "display": "none",
+        "background": "rgb(251, 250, 246)"
+      }
+    ],
+    "lights": [
+      {
+        "id": "recessed-led-downlight-1",
+        "level": 0
+      },
+      {
+        "id": "recessed-led-downlight_1-1",
+        "level": 0
+      },
+      {
+        "id": "recessed-led-downlight_2-1",
+        "level": 0
+      },
+      {
+        "id": "recessed-led-downlight_3-1",
+        "level": 0
+      },
+      {
+        "id": "recessed-led-downlight_4-1",
+        "level": 0
+      },
+      {
+        "id": "recessed-led-downlight_5-1",
+        "level": 0
+      },
+      {
+        "id": "recessed-led-downlight_6-1",
+        "level": 0
+      },
+      {
+        "id": "recessed-led-downlight_7-1",
+        "level": 0
+      },
+      {
+        "id": "recessed-led-downlight_8-1",
+        "level": 0
+      },
+      {
+        "id": "recessed-led-downlight_9-1",
+        "level": 0
+      },
+      {
+        "id": "bed1-main-light-1",
+        "level": 0
+      },
+      {
+        "id": "master-main-light-1",
+        "level": 0
+      },
+      {
+        "id": "bed3-main-light-1",
+        "level": 0
+      },
+      {
+        "id": "kitchen-main-light-1",
+        "level": 0
+      },
+      {
+        "id": "bath1-heater-light-1",
+        "level": 0
+      },
+      {
+        "id": "bath2-heater-light-1",
+        "level": 0
+      },
+      {
+        "id": "kitchen-hood-1",
+        "level": 0
+      },
+      {
+        "id": "kitchen-hood-2",
+        "level": 0
+      },
+      {
+        "id": "sideboard-recessed-task-light-1",
+        "level": 0
+      },
+      {
+        "id": "tv-console-soft-light-1",
+        "level": 0
+      },
+      {
+        "id": "bar-concealed-light-1",
+        "level": 0
+      },
+      {
+        "id": "bar-concealed-light_1-1",
+        "level": 0
+      },
+      {
+        "id": "laundry-task-strip-1",
+        "level": 0
+      },
+      {
+        "id": "flush-entry-cabinet-1",
+        "level": 0
+      },
+      {
+        "id": "flush-entry-cabinet-2",
+        "level": 0
+      },
+      {
+        "id": "balcony-care-task-light-1",
+        "level": 0
+      },
+      {
+        "id": "bath2-mirror-task-light-1",
+        "level": 0
+      },
+      {
+        "id": "bath2-mirror-task-light-2",
+        "level": 0
+      },
+      {
+        "id": "bed1-foot-light-1",
+        "level": 0
+      },
+      {
+        "id": "elder-reading-diffuser-1",
+        "level": 0
+      },
+      {
+        "id": "elder-reading-diffuser-2",
+        "level": 0
+      },
+      {
+        "id": "bed3-foot-light-1",
+        "level": 0
+      },
+      {
+        "id": "study-lamp-diffuser-1",
+        "level": 0
+      },
+      {
+        "id": "master-foot-light-1",
+        "level": 0
+      },
+      {
+        "id": "makeup-task-light-1",
+        "level": 0
+      },
+      {
+        "id": "makeup-task-light-2",
+        "level": 0
+      },
+      {
+        "id": "dry-mirror-task-strip-1",
+        "level": 0
+      },
+      {
+        "id": "island-task-pendant-1",
+        "level": 0
+      }
+    ]
+  }
+}

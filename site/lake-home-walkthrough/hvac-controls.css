@@ -1,0 +1,11 @@
+#hvacActions{position:absolute;z-index:16;right:14px;bottom:92px;width:min(360px,calc(100% - 28px));box-sizing:border-box;padding:12px;background:#fbfaf6f5;border:1px solid #d7d4ca;border-radius:12px;box-shadow:0 6px 22px #292b231a}
+#hvacActions[hidden]{display:none}
+.hvac-heading{display:flex;gap:8px;align-items:center;justify-content:space-between;margin-bottom:10px}
+.hvac-heading label{font-size:14px;display:flex;align-items:center;gap:8px;min-width:0}
+#hvacRoom{font-size:14px;min-width:0;max-width:160px;padding:8px;background:#fff;border:1px solid #d7d4ca;border-radius:6px}
+.hvac-buttons{display:grid;grid-template-columns:repeat(2,1fr);gap:6px}
+#hvacActions button{min-height:40px;font-size:14px;padding:8px;white-space:normal}
+#hvacActions button[aria-pressed=true]{background:#5c6255;color:white}
+#hvacNote{display:block;margin-top:8px;font-size:13px;line-height:1.5;color:#65675e}
+@media(max-width:800px){#hvacActions{bottom:104px;right:8px;width:min(344px,calc(100% - 16px));padding:10px}.hvac-buttons{grid-template-columns:repeat(3,1fr)}#hvacActions button{min-height:44px}}
+@media(max-height:550px){#hvacActions{top:60px;bottom:auto;max-height:calc(100% - 120px);overflow:auto;width:300px}}

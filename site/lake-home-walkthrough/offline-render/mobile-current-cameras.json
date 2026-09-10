@@ -1,0 +1,919 @@
+{
+  "targets": {
+    "entry": {
+      "name": "玄关 · 鞋柜与换鞋",
+      "position": [
+        7.1,
+        1.5,
+        5.95
+      ],
+      "look": [
+        5.1,
+        1.25,
+        6.93
+      ]
+    },
+    "living": {
+      "name": "客厅",
+      "position": [
+        8.1,
+        1.6,
+        6
+      ],
+      "look": [
+        9.85,
+        0.9,
+        3.8
+      ]
+    },
+    "dining": {
+      "name": "餐厅 · 备餐岛台",
+      "position": [
+        6.35,
+        1.6,
+        4.95
+      ],
+      "look": [
+        7.47,
+        0.65,
+        3.95
+      ]
+    },
+    "cabinet": {
+      "name": "餐边柜",
+      "position": [
+        8.35,
+        1.6,
+        3
+      ],
+      "look": [
+        9.43,
+        1.36,
+        6.9
+      ]
+    },
+    "fridge": {
+      "name": "冰箱",
+      "position": [
+        8.19,
+        1.6,
+        2.76
+      ],
+      "look": [
+        6.19,
+        1.3,
+        2.34
+      ]
+    },
+    "services": {
+      "name": "吊顶",
+      "position": [
+        8.19,
+        1.6,
+        5.05
+      ],
+      "look": [
+        8.98,
+        1.3,
+        5.9
+      ]
+    },
+    "bar": {
+      "name": "阳台长桌与吧椅",
+      "position": [
+        10.4,
+        1.6,
+        3.45
+      ],
+      "look": [
+        8.85,
+        1,
+        1.2
+      ]
+    },
+    "laundry": {
+      "name": "洗烘柜",
+      "position": [
+        8.35,
+        1.6,
+        0.7
+      ],
+      "look": [
+        11.66,
+        1.35,
+        0.69
+      ],
+      "renderAspect": 1,
+      "projection": "direct-look",
+      "lensMm": 24,
+      "sensorLongEdgeMm": 36
+    },
+    "kitchen": {
+      "name": "厨房",
+      "position": [
+        5.33,
+        1.6,
+        5.02
+      ],
+      "look": [
+        4.32,
+        1.1,
+        3.16
+      ]
+    },
+    "bed1": {
+      "name": "老人房",
+      "position": [
+        3.18,
+        1.6,
+        5.03
+      ],
+      "look": [
+        1.7,
+        0.65,
+        3.6
+      ],
+      "renderAspect": 1,
+      "projection": "direct-look",
+      "lensMm": 24,
+      "sensorLongEdgeMm": 36
+    },
+    "bath1": {
+      "name": "公卫",
+      "position": [
+        1.54,
+        1.6,
+        5.88
+      ],
+      "look": [
+        1.65,
+        0.82,
+        6.65
+      ],
+      "renderAspect": 1,
+      "projection": "direct-look",
+      "lensMm": 24,
+      "sensorLongEdgeMm": 36
+    },
+    "master": {
+      "name": "主卧套间",
+      "position": [
+        14.61,
+        1.6,
+        3.38
+      ],
+      "look": [
+        15.95,
+        0.7,
+        2.13
+      ],
+      "renderAspect": 1,
+      "projection": "direct-look",
+      "lensMm": 24,
+      "sensorLongEdgeMm": 36
+    },
+    "bath2": {
+      "name": "主卫",
+      "position": [
+        13.72,
+        1.6,
+        2.39
+      ],
+      "look": [
+        12.46,
+        1.19,
+        2.45
+      ],
+      "renderAspect": 1,
+      "projection": "direct-look",
+      "lensMm": 24,
+      "sensorLongEdgeMm": 36
+    },
+    "bed3": {
+      "name": "儿童房",
+      "position": [
+        14.35,
+        1.6,
+        6.17
+      ],
+      "look": [
+        15.9,
+        1,
+        5.76
+      ],
+      "renderAspect": 1,
+      "projection": "direct-look",
+      "lensMm": 24,
+      "sensorLongEdgeMm": 36
+    },
+    "lake": {
+      "name": "阳台回望",
+      "position": [
+        8.35,
+        1.6,
+        0.7
+      ],
+      "look": [
+        9.4,
+        1.25,
+        4.9
+      ]
+    },
+    "tvSeat": {
+      "name": "沙发坐姿观影",
+      "position": [
+        9.275,
+        1.08,
+        4.3
+      ],
+      "look": [
+        11.84,
+        1.44,
+        3.66
+      ]
+    },
+    "care": {
+      "name": "阳台洗手台与清洁柜",
+      "position": [
+        9.05,
+        1.6,
+        0.75
+      ],
+      "look": [
+        6.23,
+        1.08,
+        0.91
+      ],
+      "renderAspect": 1,
+      "projection": "direct-look",
+      "lensMm": 24,
+      "sensorLongEdgeMm": 36
+    },
+    "drying": {
+      "name": "阳台晾衣 · 升降与遮景",
+      "position": [
+        7.1,
+        1.6,
+        2.75
+      ],
+      "look": [
+        8.2,
+        1.85,
+        0.52
+      ]
+    },
+    "balconyGap": {
+      "name": "玻璃与承重柱之间",
+      "position": [
+        6.800000000000001,
+        1.55,
+        0.7000000000000001
+      ],
+      "look": [
+        11.7,
+        0.85,
+        0.7500000000000001
+      ]
+    },
+    "columnFront": {
+      "name": "柱前回望",
+      "position": [
+        8.530000000000001,
+        1.55,
+        0.7000000000000001
+      ],
+      "look": [
+        9.13,
+        1.2,
+        4.6
+      ]
+    },
+    "glassLeft": {
+      "name": "阳台左端",
+      "position": [
+        7.78,
+        1.55,
+        0.7000000000000001
+      ],
+      "look": [
+        6.4,
+        1.1,
+        1.6
+      ]
+    },
+    "glassRight": {
+      "name": "阳台洗烘侧",
+      "position": [
+        10.450000000000001,
+        1.55,
+        0.7500000000000001
+      ],
+      "look": [
+        11.7,
+        1.2,
+        0.5999999999999999
+      ]
+    }
+  },
+  "viewpoints": [
+    {
+      "id": "living-tv",
+      "room": "living",
+      "name": "电视与双侧展示柜",
+      "position": [
+        8.65,
+        1.6,
+        3.66
+      ],
+      "look": [
+        11.85,
+        1.36,
+        3.66
+      ],
+      "subjects": [
+        "85-inch-screen",
+        "tv-display-columns"
+      ],
+      "lensMm": 24,
+      "sensorLongEdgeMm": 36,
+      "projection": "direct-look"
+    },
+    {
+      "id": "master-bed",
+      "room": "master",
+      "name": "床与窗",
+      "position": [
+        14.02,
+        1.6,
+        3.32
+      ],
+      "look": [
+        16.1,
+        1.18,
+        1.9
+      ],
+      "subjects": [
+        "master-bed",
+        "master-curtain"
+      ],
+      "lensMm": 24,
+      "sensorLongEdgeMm": 36,
+      "projection": "direct-look"
+    },
+    {
+      "id": "master-bedding",
+      "room": "master",
+      "name": "床沿与被褥",
+      "position": [
+        14.64,
+        1.6,
+        2.7
+      ],
+      "look": [
+        15.28,
+        0.53,
+        2.35
+      ],
+      "subjects": [
+        "master-bed-draped-duvet"
+      ],
+      "lensMm": 24,
+      "sensorLongEdgeMm": 36,
+      "projection": "direct-look"
+    },
+    {
+      "id": "master-storage",
+      "room": "master",
+      "name": "床尾衣柜",
+      "position": [
+        17.8,
+        1.6,
+        1.6
+      ],
+      "look": [
+        15.88,
+        1.3,
+        3.652
+      ],
+      "subjects": [
+        "master-wardrobe"
+      ],
+      "lensMm": 24,
+      "sensorLongEdgeMm": 36,
+      "projection": "direct-look",
+      "renderAspect": 1
+    },
+    {
+      "id": "master-dressing",
+      "room": "master",
+      "name": "床尾回看梳妆",
+      "position": [
+        16.4,
+        1.6,
+        3.34
+      ],
+      "look": [
+        12.58,
+        1.25,
+        3.67
+      ],
+      "subjects": [
+        "master-makeup-desk"
+      ],
+      "lensMm": 24,
+      "sensorLongEdgeMm": 36,
+      "projection": "direct-look"
+    },
+    {
+      "id": "master-entry-storage",
+      "room": "master",
+      "name": "入口衣柜",
+      "position": [
+        13.45,
+        1.6,
+        3.42
+      ],
+      "look": [
+        12.55,
+        1.3,
+        4.64
+      ],
+      "subjects": [
+        "master-entry-wardrobe"
+      ],
+      "lensMm": 24,
+      "sensorLongEdgeMm": 36,
+      "projection": "direct-look"
+    },
+    {
+      "id": "elder-bed",
+      "room": "bed1",
+      "name": "双人床与窗边",
+      "position": [
+        3.2,
+        1.6,
+        5.04
+      ],
+      "look": [
+        1.74,
+        1.1,
+        3.55
+      ],
+      "subjects": [
+        "bed1-bed"
+      ],
+      "lensMm": 24,
+      "sensorLongEdgeMm": 36,
+      "projection": "direct-look"
+    },
+    {
+      "id": "elder-storage",
+      "room": "bed1",
+      "name": "衣柜与床侧",
+      "position": [
+        3.17,
+        1.6,
+        4.96
+      ],
+      "look": [
+        1.05,
+        1.23,
+        5.02
+      ],
+      "subjects": [
+        "bed1-wardrobe"
+      ],
+      "lensMm": 24,
+      "sensorLongEdgeMm": 36,
+      "projection": "direct-look"
+    },
+    {
+      "id": "elder-window",
+      "room": "bed1",
+      "name": "窗下收纳",
+      "position": [
+        3.15,
+        1.6,
+        2.85
+      ],
+      "look": [
+        1.9,
+        1.02,
+        2.45
+      ],
+      "subjects": [
+        "bed1-window-storage"
+      ],
+      "lensMm": 24,
+      "sensorLongEdgeMm": 36,
+      "projection": "direct-look"
+    },
+    {
+      "id": "child-bed",
+      "room": "bed3",
+      "name": "床与床头",
+      "position": [
+        14.44,
+        1.6,
+        6.16
+      ],
+      "look": [
+        16.4,
+        1.08,
+        5.17
+      ],
+      "subjects": [
+        "bed3-bed"
+      ],
+      "lensMm": 24,
+      "sensorLongEdgeMm": 36,
+      "projection": "direct-look"
+    },
+    {
+      "id": "child-study",
+      "room": "bed3",
+      "name": "学习桌与书籍",
+      "position": [
+        16.52,
+        1.6,
+        6.1
+      ],
+      "look": [
+        14.76,
+        1.08,
+        4.84
+      ],
+      "subjects": [
+        "bed3-desk",
+        "bed3-desk-everyday"
+      ],
+      "lensMm": 24,
+      "sensorLongEdgeMm": 36,
+      "projection": "direct-look"
+    },
+    {
+      "id": "child-storage",
+      "room": "bed3",
+      "name": "整墙衣柜",
+      "position": [
+        14.51,
+        1.6,
+        5.89
+      ],
+      "look": [
+        16.48,
+        1.36,
+        6.79
+      ],
+      "subjects": [
+        "bed3-wardrobe"
+      ],
+      "lensMm": 24,
+      "sensorLongEdgeMm": 36,
+      "projection": "direct-look"
+    },
+    {
+      "id": "public-shower",
+      "room": "bath1",
+      "name": "开放淋浴与花洒",
+      "position": [
+        2.11,
+        1.6,
+        5.92
+      ],
+      "look": [
+        1.27,
+        1.16,
+        6.72
+      ],
+      "subjects": [
+        "bath1-shower"
+      ],
+      "lensMm": 24,
+      "sensorLongEdgeMm": 36,
+      "projection": "direct-look"
+    },
+    {
+      "id": "public-squat",
+      "room": "bath1",
+      "name": "蹲便与冲水",
+      "position": [
+        1.54,
+        1.6,
+        5.88
+      ],
+      "look": [
+        2.16,
+        0.64,
+        6.77
+      ],
+      "subjects": [
+        "bath1-squat-pan"
+      ],
+      "lensMm": 24,
+      "sensorLongEdgeMm": 36,
+      "projection": "direct-look"
+    },
+    {
+      "id": "public-ceiling",
+      "room": "bath1",
+      "name": "浴霸与铝扣板",
+      "position": [
+        2.11,
+        1.6,
+        6.12
+      ],
+      "look": [
+        1.85,
+        2.55,
+        5.81
+      ],
+      "subjects": [
+        "bath1-heater",
+        "bath1-aluminum-ceiling"
+      ],
+      "lensMm": 24,
+      "sensorLongEdgeMm": 36,
+      "projection": "direct-look"
+    },
+    {
+      "id": "ensuite-basin",
+      "room": "bath2",
+      "name": "洗漱台与镜柜",
+      "position": [
+        13.72,
+        1.6,
+        2.39
+      ],
+      "look": [
+        12.46,
+        1.19,
+        2.45
+      ],
+      "subjects": [
+        "bath2-vanity"
+      ],
+      "lensMm": 24,
+      "sensorLongEdgeMm": 36,
+      "projection": "direct-look",
+      "renderAspect": 1
+    },
+    {
+      "id": "ensuite-shower",
+      "room": "bath2",
+      "name": "淋浴与地面",
+      "position": [
+        13.8,
+        1.6,
+        2.44
+      ],
+      "look": [
+        12.8,
+        1.05,
+        1.38
+      ],
+      "subjects": [
+        "bath2-shower"
+      ],
+      "lensMm": 24,
+      "sensorLongEdgeMm": 36,
+      "projection": "direct-look"
+    },
+    {
+      "id": "ensuite-toilet",
+      "room": "bath2",
+      "name": "坐便与窗",
+      "position": [
+        13.12,
+        1.6,
+        2.3
+      ],
+      "look": [
+        13.76,
+        0.87,
+        1.35
+      ],
+      "subjects": [
+        "bath2-toilet"
+      ],
+      "lensMm": 24,
+      "sensorLongEdgeMm": 36,
+      "projection": "direct-look"
+    },
+    {
+      "id": "ensuite-ceiling",
+      "room": "bath2",
+      "name": "浴霸与吊顶",
+      "position": [
+        13.15,
+        1.6,
+        2.2
+      ],
+      "look": [
+        13.61,
+        2.55,
+        2.34
+      ],
+      "subjects": [
+        "bath2-heater",
+        "bath2-aluminum-ceiling"
+      ],
+      "lensMm": 24,
+      "sensorLongEdgeMm": 36,
+      "projection": "direct-look"
+    },
+    {
+      "id": "kitchen-work",
+      "room": "kitchen",
+      "name": "洗切炒台面",
+      "position": [
+        5.24,
+        1.6,
+        4.91
+      ],
+      "look": [
+        4.36,
+        1.11,
+        2.85
+      ],
+      "subjects": [
+        "kitchen-hob",
+        "kitchen-sink"
+      ],
+      "lensMm": 24,
+      "sensorLongEdgeMm": 36,
+      "projection": "direct-look"
+    },
+    {
+      "id": "kitchen-cook",
+      "room": "kitchen",
+      "name": "灶台与烟机",
+      "position": [
+        5.3,
+        1.6,
+        4.52
+      ],
+      "look": [
+        4.01,
+        1.43,
+        3.6
+      ],
+      "subjects": [
+        "kitchen-hob",
+        "kitchen-hood"
+      ],
+      "lensMm": 24,
+      "sensorLongEdgeMm": 36,
+      "projection": "direct-look"
+    },
+    {
+      "id": "kitchen-wash",
+      "room": "kitchen",
+      "name": "水槽与窗",
+      "position": [
+        5.1,
+        1.6,
+        3.47
+      ],
+      "look": [
+        4.85,
+        1.03,
+        2.14
+      ],
+      "subjects": [
+        "kitchen-sink"
+      ],
+      "lensMm": 24,
+      "sensorLongEdgeMm": 36,
+      "projection": "direct-look"
+    },
+    {
+      "id": "dining-sideboard",
+      "room": "dining",
+      "name": "四层餐边柜",
+      "position": [
+        8.35,
+        1.6,
+        3
+      ],
+      "look": [
+        9.43,
+        1.36,
+        6.9
+      ],
+      "subjects": [
+        "flush-sideboard"
+      ],
+      "lensMm": 24,
+      "sensorLongEdgeMm": 36,
+      "projection": "direct-look"
+    },
+    {
+      "id": "balcony-care",
+      "room": "care",
+      "name": "洗手台与扫地机",
+      "position": [
+        9.05,
+        1.6,
+        0.75
+      ],
+      "look": [
+        6.23,
+        1.08,
+        0.91
+      ],
+      "subjects": [
+        "balcony-care-cabinet",
+        "balcony-robot-dock"
+      ],
+      "lensMm": 24,
+      "sensorLongEdgeMm": 36,
+      "projection": "direct-look"
+    },
+    {
+      "id": "balcony-laundry",
+      "room": "laundry",
+      "name": "洗烘与操作区",
+      "position": [
+        7.65,
+        1.55,
+        0.74
+      ],
+      "look": [
+        11.55,
+        1.38,
+        0.69
+      ],
+      "subjects": [
+        "laundry-washer",
+        "laundry-dryer"
+      ],
+      "lensMm": 24,
+      "sensorLongEdgeMm": 36,
+      "projection": "direct-look"
+    }
+  ],
+  "column": [
+    8.98,
+    0,
+    1.6
+  ],
+  "seats": [
+    {
+      "wing": "lake-bar-left",
+      "visible": true,
+      "min": [
+        7.5725,
+        0.0060000003874301905,
+        1.7746753996610642
+      ],
+      "max": [
+        7.9975000000000005,
+        0.8600000035762787,
+        2.195324600338936
+      ]
+    },
+    {
+      "wing": "lake-bar-left",
+      "visible": true,
+      "min": [
+        8.2225,
+        0.0060000003874301905,
+        1.7746753996610642
+      ],
+      "max": [
+        8.6475,
+        0.8600000035762787,
+        2.195324600338936
+      ]
+    },
+    {
+      "wing": "lake-bar-right",
+      "visible": true,
+      "min": [
+        9.3125,
+        0.0060000003874301905,
+        1.7746753996610642
+      ],
+      "max": [
+        9.7375,
+        0.8600000035762787,
+        2.195324600338936
+      ]
+    },
+    {
+      "wing": "lake-bar-right",
+      "visible": true,
+      "min": [
+        9.962499999999999,
+        0.0060000003874301905,
+        1.7746753996610642
+      ],
+      "max": [
+        10.3875,
+        0.8600000035762787,
+        2.195324600338936
+      ]
+    }
+  ]
+}

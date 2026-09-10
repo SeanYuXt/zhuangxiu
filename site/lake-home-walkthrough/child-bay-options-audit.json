@@ -1,0 +1,581 @@
+[
+  {
+    "id": "footdesk",
+    "conditionalDemolition": false,
+    "failures": [],
+    "windowSeatAudit": {
+      "intendedRect": [
+        16.3,
+        4.535,
+        16.85,
+        5.085
+      ],
+      "bedCollision": false,
+      "scope": "Edge-of-window chair. Approach-only checks; sitting, standing and turning not verified.",
+      "northWindowEdgeOffsetCM": 1,
+      "seatOperationVerified": false,
+      "comfortVerified": false,
+      "windowCentered": false,
+      "completeLayoutApproved": false
+    },
+    "doorHits": [
+      0,
+      0
+    ],
+    "doorReserve": {
+      "radius": 0.1,
+      "minClearance": 0.143082638593138,
+      "remaining": 0.04308263859313799,
+      "assumption": "附加包络为模型保留范围，不是现场门五金实测或操作舒适度认证"
+    },
+    "routes": {
+      "doorOpen": {
+        "waiting": true,
+        "chairApproach": true,
+        "wardrobes": [
+          true
+        ],
+        "windowSide": true,
+        "bedSide": true
+      },
+      "doorClosed": {
+        "waiting": true,
+        "chairApproach": true,
+        "wardrobes": [
+          true
+        ],
+        "windowSide": true,
+        "bedSide": true
+      },
+      "chairPulledAfterClosing": {
+        "waiting": true,
+        "chairApproach": true,
+        "wardrobes": [
+          true
+        ],
+        "windowSide": true,
+        "bedSide": true
+      },
+      "doorOpenChairPulled": {
+        "waiting": true,
+        "chairApproach": true,
+        "wardrobes": [
+          true
+        ],
+        "windowSide": true,
+        "bedSide": true
+      }
+    },
+    "drawerAudit": null,
+    "privacy": null,
+    "waitingSweepClearance": 0.34326183887385453,
+    "mainArea": 9.485,
+    "bayArea": 0.9821,
+    "deskCM": [
+      65,
+      267
+    ],
+    "limits": "座椅中心距窗洞北边仅1cm，是靠窗洞边缘的座位，不是窗中看湖位。电脑屏幕部分对应北侧实墙，画面如实显示，不假装完全正对玻璃。椅子前后状态的接近路径通过600mm代理检查，但入座、起身、旋转及舒适度未验证；不能把椅后接近位当作已能坐下。床尾65cm不能同时坐人和从椅后通行，床右到桌边4cm不是通道。柜宽仍105cm；仅指定取衣位可达，不代表每个柜内角落均易取。床头不在门洞正向投影内，斜看仍可能见到枕头。悬空支撑、窗扇、空调及现场净尺寸待核。"
+  },
+  {
+    "id": "fixedwindow",
+    "conditionalDemolition": false,
+    "failures": [
+      "fixedwindow primary target unreachable doorOpen",
+      "fixedwindow primary target unreachable doorOpenChairPulled",
+      "fixedwindow primary target unreachable stowedDoorOpen",
+      "window-facing intended chair overlaps bed"
+    ],
+    "windowSeatAudit": {
+      "intendedRect": [
+        16.18,
+        5.315,
+        16.78,
+        5.895
+      ],
+      "bedCollision": true,
+      "scope": "Window-facing intended seat, not the obsolete south-end chair used by historical route states."
+    },
+    "doorHits": [
+      0,
+      0
+    ],
+    "doorReserve": {
+      "radius": 0.1,
+      "minClearance": 0.143082638593138,
+      "remaining": 0.04308263859313799,
+      "assumption": "附加包络为模型保留范围，不是现场门五金实测或操作舒适度认证"
+    },
+    "routes": {
+      "doorOpen": {
+        "waiting": true,
+        "chairApproach": false,
+        "wardrobes": [
+          true
+        ],
+        "windowSide": false,
+        "bedSide": true
+      },
+      "doorClosed": {
+        "waiting": true,
+        "chairApproach": true,
+        "wardrobes": [
+          true
+        ],
+        "windowSide": true,
+        "bedSide": true
+      },
+      "chairPulledAfterClosing": {
+        "waiting": true,
+        "chairApproach": true,
+        "wardrobes": [
+          true
+        ],
+        "windowSide": false,
+        "bedSide": true
+      },
+      "doorOpenChairPulled": {
+        "waiting": true,
+        "chairApproach": false,
+        "wardrobes": [
+          true
+        ],
+        "windowSide": false,
+        "bedSide": true
+      },
+      "stowedDoorOpen": {
+        "waiting": true,
+        "chairApproach": false,
+        "wardrobes": [
+          true
+        ],
+        "windowSide": false,
+        "bedSide": true
+      },
+      "stowedDoorClosed": {
+        "waiting": true,
+        "chairApproach": true,
+        "wardrobes": [
+          true
+        ],
+        "windowSide": true,
+        "bedSide": true
+      }
+    },
+    "drawerAudit": null,
+    "privacy": null,
+    "waitingSweepClearance": 0.33810338825156305,
+    "mainArea": 9.485,
+    "bayArea": 0.9821,
+    "deskCM": [
+      65,
+      267
+    ],
+    "limits": "当前期望窗前椅位与床占地重叠60×58cm，不能入座，全房布局不通过。节点近看会暂时隐藏床柜，只看台面衔接；全房显示原床与红色坐席冲突框。不要从局部无床视图推断房间宽敞或可用。模型床尾净距63cm；这是紧凑单人绕行，椅子占用时不能当双向通道。电脑坐席约63cm宽，床侧到桌边5cm不是通道，衣柜与床左侧约62cm。不是舒适度或施工定稿。悬空桌须经厂家计算钢架、跨度、荷载及墙体锚固，不能只靠板材跨267cm；不固定到玻璃或窗框。床头浅柜仅放轻物，锚固、防脱及起身净空待核，不放重物或玻璃摆件；高处低频储物不能踩床取放。"
+  },
+  {
+    "id": "studyfirst",
+    "conditionalDemolition": false,
+    "failures": [],
+    "windowSeatAudit": null,
+    "doorHits": [
+      0,
+      0
+    ],
+    "doorReserve": {
+      "radius": 0.1,
+      "minClearance": 0.8418420297312672,
+      "remaining": 0.7418420297312672,
+      "assumption": "附加包络为模型保留范围，不是现场门五金实测或操作舒适度认证"
+    },
+    "routes": {
+      "doorOpen": {
+        "waiting": true,
+        "chairApproach": true,
+        "wardrobes": [
+          true
+        ],
+        "windowSide": true
+      },
+      "doorClosed": {
+        "waiting": true,
+        "chairApproach": true,
+        "wardrobes": [
+          true
+        ],
+        "windowSide": true
+      },
+      "chairPulledAfterClosing": {
+        "waiting": true,
+        "chairApproach": true,
+        "wardrobes": [
+          true
+        ],
+        "windowSide": true
+      },
+      "doorOpenChairPulled": {
+        "waiting": true,
+        "chairApproach": true,
+        "wardrobes": [
+          true
+        ],
+        "windowSide": true
+      },
+      "stowedDoorOpen": {
+        "waiting": true,
+        "chairApproach": true,
+        "wardrobes": [
+          true
+        ],
+        "windowSide": true
+      },
+      "stowedDoorClosed": {
+        "waiting": true,
+        "chairApproach": true,
+        "wardrobes": [
+          true
+        ],
+        "windowSide": true
+      }
+    },
+    "drawerAudit": null,
+    "privacy": null,
+    "waitingSweepClearance": 0.39402472928456655,
+    "mainArea": 9.485,
+    "bayArea": 0.9821,
+    "deskCM": [
+      70,
+      267
+    ],
+    "limits": "原窗台高度55cm为模型假设，桌面与窗台不一定齐平；窗扇开启、窗帘、插座、桌架承重与显示器支架夹位须复尺。本版的窗侧到达仅指桌侧站位，不代表能伸手操作整面玻璃或安全清洁外窗。后期150×200cm床不能直接塞进当前桌椅区，届时需移走/缩短长桌并重排；不是无改造切换。桌面分段72＋120＋75cm，连接与支撑待厂家深化。"
+  },
+  {
+    "id": "southbedwall",
+    "conditionalDemolition": false,
+    "failures": [],
+    "windowSeatAudit": null,
+    "doorHits": [
+      0,
+      0
+    ],
+    "doorReserve": {
+      "radius": 0.1,
+      "minClearance": 0.143082638593138,
+      "remaining": 0.04308263859313799,
+      "assumption": "附加包络为模型保留范围，不是现场门五金实测或操作舒适度认证"
+    },
+    "routes": {
+      "doorOpen": {
+        "waiting": true,
+        "chairApproach": true,
+        "wardrobes": [
+          false
+        ],
+        "windowSide": false,
+        "bedSide": true
+      },
+      "doorClosed": {
+        "waiting": true,
+        "chairApproach": true,
+        "wardrobes": [
+          false
+        ],
+        "windowSide": false,
+        "bedSide": true
+      },
+      "chairPulledAfterClosing": {
+        "waiting": true,
+        "chairApproach": true,
+        "wardrobes": [
+          false
+        ],
+        "windowSide": false,
+        "bedSide": true
+      },
+      "doorOpenChairPulled": {
+        "waiting": true,
+        "chairApproach": true,
+        "wardrobes": [
+          false
+        ],
+        "windowSide": false,
+        "bedSide": true
+      },
+      "stowedDoorOpen": {
+        "waiting": true,
+        "chairApproach": true,
+        "wardrobes": [
+          true
+        ],
+        "windowSide": false,
+        "bedSide": true
+      },
+      "stowedDoorClosed": {
+        "waiting": true,
+        "chairApproach": true,
+        "wardrobes": [
+          true
+        ],
+        "windowSide": false,
+        "bedSide": true
+      }
+    },
+    "drawerAudit": {
+      "bedOpenStowedDoorOpen": {
+        "waiting": true,
+        "chairApproach": true,
+        "wardrobes": [
+          true
+        ],
+        "windowSide": false,
+        "bedSide": false,
+        "drawerTargets": [
+          true,
+          true
+        ]
+      },
+      "bedOpenSeated": {
+        "waiting": true,
+        "chairApproach": true,
+        "wardrobes": [
+          false
+        ],
+        "windowSide": false,
+        "bedSide": false,
+        "drawerTargets": [
+          true,
+          true
+        ]
+      },
+      "bedOpenPulled": {
+        "waiting": true,
+        "chairApproach": true,
+        "wardrobes": [
+          false
+        ],
+        "windowSide": false,
+        "bedSide": false,
+        "drawerTargets": [
+          false,
+          true
+        ]
+      },
+      "allOpenStowed": {
+        "waiting": true,
+        "chairApproach": true,
+        "wardrobes": [
+          true
+        ],
+        "windowSide": false,
+        "bedSide": false,
+        "drawerTargets": [
+          true,
+          true
+        ]
+      },
+      "extensionCM": 45,
+      "doorLeafLocalGapCM": 65,
+      "bedFootGapCM": 8,
+      "windowFloorAccess": false
+    },
+    "privacy": null,
+    "waitingSweepClearance": 0.39402472928456655,
+    "mainArea": 9.485,
+    "bayArea": 0.9821,
+    "deskCM": [
+      120,
+      55
+    ],
+    "limits": "不加连接框体、不挖掉105cm挂衣柜本体；台面支撑及固定待深化。重要：床尾至北台面仅8cm，窗侧无可走通道，开窗清洁路径未解决。书桌右侧抽屉占位后需向左坐，取西衣柜须收椅；挂衣总柜宽仍105cm，取衣口约50cm。上方柜顶270cm为假设，不能直接下单。床侧抽屉拉出45cm后，遇全开房门局部余约65cm；后拉椅子时上方床抽屉站位受阻，需先收椅。床头南向为本次理解，待用户看图确认。"
+  },
+  {
+    "id": "lwallstudy",
+    "conditionalDemolition": false,
+    "failures": [],
+    "windowSeatAudit": null,
+    "doorHits": [
+      0,
+      0
+    ],
+    "doorReserve": {
+      "radius": 0.1,
+      "minClearance": 0.143082638593138,
+      "remaining": 0.04308263859313799,
+      "assumption": "附加包络为模型保留范围，不是现场门五金实测或操作舒适度认证"
+    },
+    "routes": {
+      "doorOpen": {
+        "waiting": true,
+        "chairApproach": true,
+        "wardrobes": [
+          true
+        ],
+        "windowSide": true,
+        "bedSide": true
+      },
+      "doorClosed": {
+        "waiting": true,
+        "chairApproach": true,
+        "wardrobes": [
+          true
+        ],
+        "windowSide": true,
+        "bedSide": true
+      },
+      "chairPulledAfterClosing": {
+        "waiting": true,
+        "chairApproach": true,
+        "wardrobes": [
+          true
+        ],
+        "windowSide": true,
+        "bedSide": true
+      },
+      "doorOpenChairPulled": {
+        "waiting": true,
+        "chairApproach": true,
+        "wardrobes": [
+          true
+        ],
+        "windowSide": true,
+        "bedSide": true
+      }
+    },
+    "drawerAudit": null,
+    "privacy": {
+      "type": "straight-ahead-only",
+      "doorBand": [
+        5.67,
+        6.57
+      ],
+      "headBand": [
+        4.62,
+        5.0200000000000005
+      ],
+      "overlap": false,
+      "diagonalVisibility": "可能可见；不作完全遮挡承诺"
+    },
+    "waitingSweepClearance": 0.4324038426843412,
+    "mainArea": 9.485,
+    "bayArea": 0.9821,
+    "deskCM": [
+      120,
+      55
+    ],
+    "limits": "挂衣柜外宽只有105cm，不是180cm。L形桌面遮住靠转角的一部分柜面，移门需从靠门端约50cm开口取衣；深角是低频区，不能把全宽算成方便取物面。上柜挂墙基层及固定待核。柜桌间预留2cm阴缝避让移门；桌端距床10cm不是通道；从桌前进入。椅后拉30cm，床尾通道63cm。门口正向不对枕区，但斜看可能可见；窗旁床侧需核窗帘、防坠和窗扇。"
+  },
+  {
+    "id": "windowdesk",
+    "conditionalDemolition": true,
+    "failures": [],
+    "windowSeatAudit": null,
+    "doorHits": [
+      0,
+      0
+    ],
+    "doorReserve": null,
+    "routes": {
+      "doorOpen": {
+        "waiting": true,
+        "chairApproach": false,
+        "wardrobes": [
+          true,
+          false
+        ],
+        "windowSide": false
+      },
+      "doorClosed": {
+        "waiting": true,
+        "chairApproach": true,
+        "wardrobes": [
+          true,
+          true
+        ],
+        "windowSide": true
+      },
+      "chairPulledAfterClosing": {
+        "waiting": true,
+        "chairApproach": true,
+        "wardrobes": [
+          true,
+          false
+        ],
+        "windowSide": true
+      },
+      "doorOpenChairPulled": {
+        "waiting": true,
+        "chairApproach": false,
+        "wardrobes": [
+          true,
+          false
+        ],
+        "windowSide": false
+      }
+    },
+    "drawerAudit": null,
+    "privacy": null,
+    "waitingSweepClearance": 0.35717938258627135,
+    "mainArea": 9.485,
+    "bayArea": 0.9821,
+    "deskCM": [
+      55,
+      150
+    ],
+    "limits": "必须确认窗台可拆且下方有可用楼板；双柜不是一组连续186cm衣柜。"
+  },
+  {
+    "id": "windowstorage",
+    "conditionalDemolition": true,
+    "failures": [],
+    "windowSeatAudit": null,
+    "doorHits": [
+      0,
+      0
+    ],
+    "doorReserve": null,
+    "routes": {
+      "doorOpen": {
+        "waiting": true,
+        "chairApproach": false,
+        "wardrobes": [
+          true
+        ],
+        "windowSide": false
+      },
+      "doorClosed": {
+        "waiting": true,
+        "chairApproach": true,
+        "wardrobes": [
+          true
+        ],
+        "windowSide": true
+      },
+      "chairPulledAfterClosing": {
+        "waiting": true,
+        "chairApproach": true,
+        "wardrobes": [
+          true
+        ],
+        "windowSide": true
+      },
+      "doorOpenChairPulled": {
+        "waiting": true,
+        "chairApproach": false,
+        "wardrobes": [
+          true
+        ],
+        "windowSide": false
+      }
+    },
+    "drawerAudit": null,
+    "privacy": null,
+    "waitingSweepClearance": 0.35717938258627135,
+    "mainArea": 9.485,
+    "bayArea": 0.9821,
+    "deskCM": [
+      96,
+      55
+    ],
+    "limits": "拆改只换来低柜收纳，不增加挂衣量；抽屉打开不能同时后拉椅子。"
+  }
+]

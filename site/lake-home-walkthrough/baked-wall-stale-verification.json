@@ -1,0 +1,9 @@
+{
+  "state": {
+    "active": false,
+    "valid": false,
+    "requested": true,
+    "reason": "Cabinet/HVAC geometry changed after this bake; regenerate full-scene source before enabling."
+  },
+  "errors": []
+}

@@ -1,0 +1,704 @@
+{
+  "status": "source_audit_not_geometry_approval",
+  "date": "2026-09-05",
+  "sources": [
+    {
+      "path": "C:\\Users\\vv-dev-work\\Desktop\\1号房.pdf",
+      "sha256": "3336AE06C8D2441A98D167A879D16EF421CD1409DD101943F879B3A87A931F13"
+    },
+    {
+      "path": "C:\\Users\\vv-dev-work\\Desktop\\AC-6-P-平面图.dwg",
+      "sha256": "35EF04BE9159FAD7063FDC33384F8DDB38B707CA2437630C9DD5FBEC5BBC89F8"
+    },
+    {
+      "path": "D:\\tep-chat\\output\\cad-evidence\\recovered-fields.json",
+      "sha256": "C023C4BBCA50054C565E8B6110B561CBF156525BB90FC256D6FEC2655D262B16"
+    },
+    {
+      "path": "D:\\tep-chat\\output\\lake-home-walkthrough\\plan.js",
+      "sha256": "332732D04BD4533FA5ED0C917D062E462143B44F6284D1EE4617A42BEB3E23CD"
+    },
+    {
+      "path": "D:\\tep-chat\\output\\lake-home-walkthrough\\plan-spec.json",
+      "sha256": "A4F79B530E47C84F5CA3E48B2FD02E51B246249948326ACCDAA563BA52ABAEBA"
+    }
+  ],
+  "pdf": {
+    "pages": 1,
+    "size_pt": [
+      595,
+      842
+    ],
+    "line_count": 2636,
+    "dimension_units": "mm",
+    "geographic_north_confirmed": false,
+    "printed_room_areas_found": false
+  },
+  "chains": [
+    {
+      "id": "top",
+      "label": "上侧横向尺寸链",
+      "axis_in_unrotated_pdf": "top",
+      "printed_total_mm": 17850,
+      "total_witness_lines": [
+        165,
+        166
+      ],
+      "vector_total_pt": 645.36,
+      "inferred_pdf_pt_per_m": 36.154621848739495,
+      "old_36pt_conversion_mm": 17926.667,
+      "segments": [
+        {
+          "printed_mm": 600,
+          "witness_line_indices": [
+            161,
+            160
+          ],
+          "witness_coords_pt": [
+            101.6,
+            123.32
+          ],
+          "vector_span_pt": 21.72,
+          "inferred_mm_at_chain_scale": 600.753,
+          "residual_mm": 0.753
+        },
+        {
+          "printed_mm": 2040,
+          "witness_line_indices": [
+            160,
+            155
+          ],
+          "witness_coords_pt": [
+            123.32,
+            197.12
+          ],
+          "vector_span_pt": 73.8,
+          "inferred_mm_at_chain_scale": 2041.233,
+          "residual_mm": 1.233
+        },
+        {
+          "printed_mm": 750,
+          "witness_line_indices": [
+            155,
+            150
+          ],
+          "witness_coords_pt": [
+            197.12,
+            224.24
+          ],
+          "vector_span_pt": 27.12,
+          "inferred_mm_at_chain_scale": 750.112,
+          "residual_mm": 0.112
+        },
+        {
+          "printed_mm": 190,
+          "witness_line_indices": [
+            150,
+            143
+          ],
+          "witness_coords_pt": [
+            224.24,
+            231.08
+          ],
+          "vector_span_pt": 6.84,
+          "inferred_mm_at_chain_scale": 189.187,
+          "residual_mm": -0.813
+        },
+        {
+          "printed_mm": 1910,
+          "witness_line_indices": [
+            143,
+            138
+          ],
+          "witness_coords_pt": [
+            231.08,
+            300.08
+          ],
+          "vector_span_pt": 69.0,
+          "inferred_mm_at_chain_scale": 1908.47,
+          "residual_mm": -1.53
+        },
+        {
+          "printed_mm": 200,
+          "witness_line_indices": [
+            138,
+            131
+          ],
+          "witness_coords_pt": [
+            300.08,
+            307.28
+          ],
+          "vector_span_pt": 7.2,
+          "inferred_mm_at_chain_scale": 199.145,
+          "residual_mm": -0.855
+        },
+        {
+          "printed_mm": 6090,
+          "witness_line_indices": [
+            131,
+            126
+          ],
+          "witness_coords_pt": [
+            307.28,
+            527.48
+          ],
+          "vector_span_pt": 220.2,
+          "inferred_mm_at_chain_scale": 6090.508,
+          "residual_mm": 0.508
+        },
+        {
+          "printed_mm": 220,
+          "witness_line_indices": [
+            126,
+            119
+          ],
+          "witness_coords_pt": [
+            527.48,
+            535.52
+          ],
+          "vector_span_pt": 8.04,
+          "inferred_mm_at_chain_scale": 222.378,
+          "residual_mm": 2.378
+        },
+        {
+          "printed_mm": 1950,
+          "witness_line_indices": [
+            119,
+            114
+          ],
+          "witness_coords_pt": [
+            535.52,
+            605.96
+          ],
+          "vector_span_pt": 70.44,
+          "inferred_mm_at_chain_scale": 1948.299,
+          "residual_mm": -1.701
+        },
+        {
+          "printed_mm": 100,
+          "witness_line_indices": [
+            114,
+            107
+          ],
+          "witness_coords_pt": [
+            605.96,
+            609.56
+          ],
+          "vector_span_pt": 3.6,
+          "inferred_mm_at_chain_scale": 99.572,
+          "residual_mm": -0.428
+        },
+        {
+          "printed_mm": 2800,
+          "witness_line_indices": [
+            107,
+            102
+          ],
+          "witness_coords_pt": [
+            609.56,
+            710.84
+          ],
+          "vector_span_pt": 101.28,
+          "inferred_mm_at_chain_scale": 2801.302,
+          "residual_mm": 1.302
+        },
+        {
+          "printed_mm": 1000,
+          "witness_line_indices": [
+            102,
+            97
+          ],
+          "witness_coords_pt": [
+            710.84,
+            746.96
+          ],
+          "vector_span_pt": 36.12,
+          "inferred_mm_at_chain_scale": 999.042,
+          "residual_mm": -0.958
+        }
+      ]
+    },
+    {
+      "id": "bottom",
+      "label": "入户侧横向尺寸链",
+      "axis_in_unrotated_pdf": "top",
+      "printed_total_mm": 17250,
+      "total_witness_lines": [
+        270,
+        271
+      ],
+      "vector_total_pt": 623.64,
+      "inferred_pdf_pt_per_m": 36.15304347826087,
+      "old_36pt_conversion_mm": 17323.333,
+      "segments": [
+        {
+          "printed_mm": 1700,
+          "witness_line_indices": [
+            266,
+            265
+          ],
+          "witness_coords_pt": [
+            123.32,
+            184.76
+          ],
+          "vector_span_pt": 61.44,
+          "inferred_mm_at_chain_scale": 1699.442,
+          "residual_mm": -0.558
+        },
+        {
+          "printed_mm": 100,
+          "witness_line_indices": [
+            265,
+            258
+          ],
+          "witness_coords_pt": [
+            184.76,
+            188.36
+          ],
+          "vector_span_pt": 3.6,
+          "inferred_mm_at_chain_scale": 99.577,
+          "residual_mm": -0.423
+        },
+        {
+          "printed_mm": 1000,
+          "witness_line_indices": [
+            258,
+            253
+          ],
+          "witness_coords_pt": [
+            188.36,
+            224.6
+          ],
+          "vector_span_pt": 36.24,
+          "inferred_mm_at_chain_scale": 1002.405,
+          "residual_mm": 2.405
+        },
+        {
+          "printed_mm": 100,
+          "witness_line_indices": [
+            253,
+            246
+          ],
+          "witness_coords_pt": [
+            224.6,
+            228.2
+          ],
+          "vector_span_pt": 3.6,
+          "inferred_mm_at_chain_scale": 99.577,
+          "residual_mm": -0.423
+        },
+        {
+          "printed_mm": 2600,
+          "witness_line_indices": [
+            246,
+            241
+          ],
+          "witness_coords_pt": [
+            228.2,
+            322.16
+          ],
+          "vector_span_pt": 93.96,
+          "inferred_mm_at_chain_scale": 2598.951,
+          "residual_mm": -1.049
+        },
+        {
+          "printed_mm": 1100,
+          "witness_line_indices": [
+            241,
+            236
+          ],
+          "witness_coords_pt": [
+            322.16,
+            361.88
+          ],
+          "vector_span_pt": 39.72,
+          "inferred_mm_at_chain_scale": 1098.663,
+          "residual_mm": -1.337
+        },
+        {
+          "printed_mm": 6440,
+          "witness_line_indices": [
+            236,
+            231
+          ],
+          "witness_coords_pt": [
+            361.88,
+            594.8
+          ],
+          "vector_span_pt": 232.92,
+          "inferred_mm_at_chain_scale": 6442.611,
+          "residual_mm": 2.611
+        },
+        {
+          "printed_mm": 110,
+          "witness_line_indices": [
+            231,
+            224
+          ],
+          "witness_coords_pt": [
+            594.8,
+            598.76
+          ],
+          "vector_span_pt": 3.96,
+          "inferred_mm_at_chain_scale": 109.534,
+          "residual_mm": -0.466
+        },
+        {
+          "printed_mm": 3500,
+          "witness_line_indices": [
+            224,
+            219
+          ],
+          "witness_coords_pt": [
+            598.76,
+            725.24
+          ],
+          "vector_span_pt": 126.48,
+          "inferred_mm_at_chain_scale": 3498.461,
+          "residual_mm": -1.539
+        },
+        {
+          "printed_mm": 600,
+          "witness_line_indices": [
+            219,
+            214
+          ],
+          "witness_coords_pt": [
+            725.24,
+            746.96
+          ],
+          "vector_span_pt": 21.72,
+          "inferred_mm_at_chain_scale": 600.779,
+          "residual_mm": 0.779
+        }
+      ]
+    },
+    {
+      "id": "left",
+      "label": "左侧纵向尺寸链（图上至图下）",
+      "axis_in_unrotated_pdf": "x0",
+      "printed_total_mm": 6930,
+      "total_witness_lines": [
+        309,
+        310
+      ],
+      "vector_total_pt": 250.56,
+      "inferred_pdf_pt_per_m": 36.155844155844164,
+      "old_36pt_conversion_mm": 6960.0,
+      "segments": [
+        {
+          "printed_mm": 1490,
+          "witness_line_indices": [
+            275,
+            276
+          ],
+          "witness_coords_pt": [
+            422.16,
+            368.28
+          ],
+          "vector_span_pt": 53.88,
+          "inferred_mm_at_chain_scale": 1490.216,
+          "residual_mm": 0.216
+        },
+        {
+          "printed_mm": 200,
+          "witness_line_indices": [
+            276,
+            287
+          ],
+          "witness_coords_pt": [
+            368.28,
+            361.08
+          ],
+          "vector_span_pt": 7.2,
+          "inferred_mm_at_chain_scale": 199.138,
+          "residual_mm": -0.862
+        },
+        {
+          "printed_mm": 570,
+          "witness_line_indices": [
+            287,
+            288
+          ],
+          "witness_coords_pt": [
+            361.08,
+            340.44
+          ],
+          "vector_span_pt": 20.64,
+          "inferred_mm_at_chain_scale": 570.862,
+          "residual_mm": 0.862
+        },
+        {
+          "printed_mm": 2900,
+          "witness_line_indices": [
+            288,
+            293
+          ],
+          "witness_coords_pt": [
+            340.44,
+            235.56
+          ],
+          "vector_span_pt": 104.88,
+          "inferred_mm_at_chain_scale": 2900.776,
+          "residual_mm": 0.776
+        },
+        {
+          "printed_mm": 120,
+          "witness_line_indices": [
+            293,
+            298
+          ],
+          "witness_coords_pt": [
+            235.56,
+            231.24
+          ],
+          "vector_span_pt": 4.32,
+          "inferred_mm_at_chain_scale": 119.483,
+          "residual_mm": -0.517
+        },
+        {
+          "printed_mm": 1650,
+          "witness_line_indices": [
+            298,
+            305
+          ],
+          "witness_coords_pt": [
+            231.24,
+            171.6
+          ],
+          "vector_span_pt": 59.64,
+          "inferred_mm_at_chain_scale": 1649.526,
+          "residual_mm": -0.474
+        }
+      ]
+    },
+    {
+      "id": "right",
+      "label": "右侧纵向尺寸链（图上至图下）",
+      "axis_in_unrotated_pdf": "x0",
+      "printed_total_mm": 6900,
+      "total_witness_lines": [
+        209,
+        210
+      ],
+      "vector_total_pt": 249.48,
+      "inferred_pdf_pt_per_m": 36.15652173913043,
+      "old_36pt_conversion_mm": 6930.0,
+      "segments": [
+        {
+          "printed_mm": 600,
+          "witness_line_indices": [
+            170,
+            171
+          ],
+          "witness_coords_pt": [
+            421.08,
+            399.36
+          ],
+          "vector_span_pt": 21.72,
+          "inferred_mm_at_chain_scale": 600.722,
+          "residual_mm": 0.722
+        },
+        {
+          "printed_mm": 2340,
+          "witness_line_indices": [
+            171,
+            176
+          ],
+          "witness_coords_pt": [
+            399.36,
+            314.76
+          ],
+          "vector_span_pt": 84.6,
+          "inferred_mm_at_chain_scale": 2339.827,
+          "residual_mm": -0.173
+        },
+        {
+          "printed_mm": 1050,
+          "witness_line_indices": [
+            176,
+            181
+          ],
+          "witness_coords_pt": [
+            314.76,
+            276.84
+          ],
+          "vector_span_pt": 37.92,
+          "inferred_mm_at_chain_scale": 1048.773,
+          "residual_mm": -1.227
+        },
+        {
+          "printed_mm": 210,
+          "witness_line_indices": [
+            181,
+            186
+          ],
+          "witness_coords_pt": [
+            276.84,
+            269.16
+          ],
+          "vector_span_pt": 7.68,
+          "inferred_mm_at_chain_scale": 212.41,
+          "residual_mm": 2.41
+        },
+        {
+          "printed_mm": 350,
+          "witness_line_indices": [
+            186,
+            193
+          ],
+          "witness_coords_pt": [
+            269.16,
+            256.56
+          ],
+          "vector_span_pt": 12.6,
+          "inferred_mm_at_chain_scale": 348.485,
+          "residual_mm": -1.515
+        },
+        {
+          "printed_mm": 1600,
+          "witness_line_indices": [
+            193,
+            200
+          ],
+          "witness_coords_pt": [
+            256.56,
+            198.72
+          ],
+          "vector_span_pt": 57.84,
+          "inferred_mm_at_chain_scale": 1599.711,
+          "residual_mm": -0.289
+        },
+        {
+          "printed_mm": 750,
+          "witness_line_indices": [
+            200,
+            205
+          ],
+          "witness_coords_pt": [
+            198.72,
+            171.6
+          ],
+          "vector_span_pt": 27.12,
+          "inferred_mm_at_chain_scale": 750.072,
+          "residual_mm": 0.072
+        }
+      ]
+    }
+  ],
+  "model_comparisons": [
+    {
+      "id": "living-width",
+      "label": "客厅主矩形横向",
+      "printed_mm": 6090,
+      "model_mm": 6110.0,
+      "difference_mm": 20.0,
+      "reference": "top[6]；plan.js living.poly 横向",
+      "scope": "对应局部墙面/多边形跨度；不是整房实测或施工验收"
+    },
+    {
+      "id": "kitchen-width",
+      "label": "厨房窗侧净宽",
+      "printed_mm": 1910,
+      "model_mm": 1920.0,
+      "difference_mm": 10.0,
+      "reference": "top[4]；plan.js kitchen.poly 前两点",
+      "scope": "对应局部墙面/多边形跨度；不是整房实测或施工验收"
+    },
+    {
+      "id": "bath1-width",
+      "label": "公卫横向净宽",
+      "printed_mm": 1700,
+      "model_mm": 1710.0,
+      "difference_mm": 10.0,
+      "reference": "bottom[0]；plan.js bath1.poly",
+      "scope": "对应局部墙面/多边形跨度；不是整房实测或施工验收"
+    },
+    {
+      "id": "bath1-depth",
+      "label": "公卫纵向净深",
+      "printed_mm": 1650,
+      "model_mm": 1660.0,
+      "difference_mm": 10.0,
+      "reference": "left[5]；plan.js bath1.poly",
+      "scope": "对应局部墙面/多边形跨度；不是整房实测或施工验收"
+    },
+    {
+      "id": "bath2-width",
+      "label": "主卫横向净宽",
+      "printed_mm": 1950,
+      "model_mm": 1950.0,
+      "difference_mm": 0.0,
+      "reference": "top[8]；plan.js bath2.poly",
+      "scope": "对应局部墙面/多边形跨度；不是整房实测或施工验收"
+    },
+    {
+      "id": "bed3-width",
+      "label": "儿童房下侧主段净宽",
+      "printed_mm": 3500,
+      "model_mm": 3500.0,
+      "difference_mm": 0.0,
+      "reference": "bottom[8]；plan.js bed3.poly 前两点",
+      "scope": "对应局部墙面/多边形跨度；不是整房实测或施工验收"
+    }
+  ],
+  "areas": [
+    {
+      "id": "living",
+      "model_m2": 50.9985,
+      "source_printed_target": null
+    },
+    {
+      "id": "kitchen",
+      "model_m2": 6.808,
+      "source_printed_target": null
+    },
+    {
+      "id": "bed1",
+      "model_m2": 10.2212,
+      "source_printed_target": null
+    },
+    {
+      "id": "bath1",
+      "model_m2": 2.8386,
+      "source_printed_target": null
+    },
+    {
+      "id": "master",
+      "model_m2": 17.7239,
+      "source_printed_target": null
+    },
+    {
+      "id": "bath2",
+      "model_m2": 3.822,
+      "source_printed_target": null
+    },
+    {
+      "id": "bed3",
+      "model_m2": 10.4671,
+      "source_printed_target": null
+    }
+  ],
+  "validation_gaps": {
+    "target_area_count": 0,
+    "expected_adjacencies_count": 0,
+    "note": "缺目标面积与预期邻接约束，原 validator PASS 不证明尺寸准确或完整拓扑正确。"
+  },
+  "cad_crosscheck": {
+    "living_clear_span_diagnostic_mm": 6100.0,
+    "pdf_printed_mm": 6090,
+    "difference_mm": 10.0,
+    "wall_handles": [
+      246088,
+      252126
+    ],
+    "source": "../cad-evidence/recovered-fields.json；诊断恢复不是完整官方T3"
+  },
+  "limits": [
+    "原图未找到房间面积标签，不反推伪造 target_area。",
+    "约36.155pt/m是由总尺寸线推导的校准比例，现场净尺寸仍未知。",
+    "小段矢量坐标有舍入；保留印刷尺寸优先，不把全屋直接等比缩放。",
+    "本报告不证明净空、门扇扫掠、层高、柱截面、设备机位或工程可行。",
+    "现有模型和早期矢量抽取均未被本脚本覆盖。"
+  ]
+}

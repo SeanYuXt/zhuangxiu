@@ -1,0 +1,814 @@
+{
+  "views": [
+    {
+      "id": "master-bed",
+      "room": "master",
+      "blockedBy": null,
+      "subjects": [
+        {
+          "name": "master-bed",
+          "exists": true,
+          "samples": 180,
+          "inFrame": 104,
+          "unobscured": 92,
+          "occluders": [
+            [
+              "mesh_51",
+              10
+            ],
+            [
+              "casing-bath2-1-jamb-1",
+              2
+            ]
+          ]
+        },
+        {
+          "name": "master-curtain",
+          "exists": true,
+          "samples": 152,
+          "inFrame": 92,
+          "unobscured": 80,
+          "occluders": [
+            [
+              "mesh_479",
+              9
+            ],
+            [
+              "master-bed-draped-duvet-turned-cuff",
+              3
+            ]
+          ]
+        }
+      ],
+      "position": [
+        14.02,
+        1.6,
+        3.32
+      ],
+      "fov": 47.52207159106674,
+      "expectedFov": 47.52207159106674,
+      "clipPlanes": 0,
+      "roofVisible": true
+    },
+    {
+      "id": "master-bedding",
+      "room": "master",
+      "blockedBy": null,
+      "subjects": [
+        {
+          "name": "master-bed-draped-duvet",
+          "exists": true,
+          "samples": 178,
+          "inFrame": 103,
+          "unobscured": 94,
+          "occluders": [
+            [
+              "master-bed-draped-duvet-turned-cuff",
+              9
+            ]
+          ]
+        }
+      ],
+      "position": [
+        14.64,
+        1.6,
+        2.7
+      ],
+      "fov": 47.52207159106674,
+      "expectedFov": 47.52207159106674,
+      "clipPlanes": 0,
+      "roofVisible": true
+    },
+    {
+      "id": "master-storage",
+      "room": "master",
+      "blockedBy": null,
+      "subjects": [
+        {
+          "name": "master-wardrobe",
+          "exists": true,
+          "samples": 168,
+          "inFrame": 113,
+          "unobscured": 106,
+          "occluders": [
+            [
+              "master-bed-draped-duvet",
+              6
+            ],
+            [
+              "mesh_26",
+              1
+            ]
+          ]
+        }
+      ],
+      "position": [
+        17.8,
+        1.6,
+        1.6
+      ],
+      "fov": 47.52207159106674,
+      "expectedFov": 47.52207159106674,
+      "clipPlanes": 0,
+      "roofVisible": true
+    },
+    {
+      "id": "master-dressing",
+      "room": "master",
+      "blockedBy": null,
+      "subjects": [
+        {
+          "name": "master-makeup-desk",
+          "exists": true,
+          "samples": 146,
+          "inFrame": 146,
+          "unobscured": 146,
+          "occluders": []
+        }
+      ],
+      "position": [
+        16.4,
+        1.6,
+        3.34
+      ],
+      "fov": 47.52207159106674,
+      "expectedFov": 47.52207159106674,
+      "clipPlanes": 0,
+      "roofVisible": true
+    },
+    {
+      "id": "master-entry-storage",
+      "room": "master",
+      "blockedBy": null,
+      "subjects": [
+        {
+          "name": "master-entry-wardrobe",
+          "exists": true,
+          "samples": 168,
+          "inFrame": 15,
+          "unobscured": 15,
+          "occluders": []
+        }
+      ],
+      "position": [
+        13.45,
+        1.6,
+        3.42
+      ],
+      "fov": 47.52207159106674,
+      "expectedFov": 47.52207159106674,
+      "clipPlanes": 0,
+      "roofVisible": true
+    },
+    {
+      "id": "elder-bed",
+      "room": "bed1",
+      "blockedBy": null,
+      "subjects": [
+        {
+          "name": "bed1-bed",
+          "exists": true,
+          "samples": 160,
+          "inFrame": 42,
+          "unobscured": 41,
+          "occluders": [
+            [
+              "bed1-wardrobe-sliding-door-1",
+              1
+            ]
+          ]
+        }
+      ],
+      "position": [
+        3.2,
+        1.6,
+        5.04
+      ],
+      "fov": 47.52207159106674,
+      "expectedFov": 47.52207159106674,
+      "clipPlanes": 0,
+      "roofVisible": true
+    },
+    {
+      "id": "elder-storage",
+      "room": "bed1",
+      "blockedBy": null,
+      "subjects": [
+        {
+          "name": "bed1-wardrobe",
+          "exists": true,
+          "samples": 168,
+          "inFrame": 87,
+          "unobscured": 87,
+          "occluders": []
+        }
+      ],
+      "position": [
+        3.17,
+        1.6,
+        4.96
+      ],
+      "fov": 47.52207159106674,
+      "expectedFov": 47.52207159106674,
+      "clipPlanes": 0,
+      "roofVisible": true
+    },
+    {
+      "id": "elder-window",
+      "room": "bed1",
+      "blockedBy": null,
+      "subjects": [
+        {
+          "name": "bed1-window-storage",
+          "exists": true,
+          "samples": 168,
+          "inFrame": 93,
+          "unobscured": 93,
+          "occluders": []
+        }
+      ],
+      "position": [
+        3.15,
+        1.6,
+        2.85
+      ],
+      "fov": 47.52207159106674,
+      "expectedFov": 47.52207159106674,
+      "clipPlanes": 0,
+      "roofVisible": true
+    },
+    {
+      "id": "child-bed",
+      "room": "bed3",
+      "blockedBy": null,
+      "subjects": [
+        {
+          "name": "bed3-bed",
+          "exists": true,
+          "samples": 148,
+          "inFrame": 83,
+          "unobscured": 81,
+          "occluders": [
+            [
+              "child-desk-top",
+              2
+            ]
+          ]
+        }
+      ],
+      "position": [
+        14.44,
+        1.6,
+        6.16
+      ],
+      "fov": 47.52207159106674,
+      "expectedFov": 47.52207159106674,
+      "clipPlanes": 0,
+      "roofVisible": true
+    },
+    {
+      "id": "child-study",
+      "room": "bed3",
+      "blockedBy": null,
+      "subjects": [
+        {
+          "name": "bed3-desk",
+          "exists": true,
+          "samples": 177,
+          "inFrame": 165,
+          "unobscured": 155,
+          "occluders": [
+            [
+              "child-chair-back",
+              10
+            ]
+          ]
+        },
+        {
+          "name": "bed3-desk-everyday",
+          "exists": true,
+          "samples": 168,
+          "inFrame": 168,
+          "unobscured": 168,
+          "occluders": []
+        }
+      ],
+      "position": [
+        16.52,
+        1.6,
+        6.1
+      ],
+      "fov": 47.52207159106674,
+      "expectedFov": 47.52207159106674,
+      "clipPlanes": 0,
+      "roofVisible": true
+    },
+    {
+      "id": "child-storage",
+      "room": "bed3",
+      "blockedBy": null,
+      "subjects": [
+        {
+          "name": "bed3-wardrobe",
+          "exists": true,
+          "samples": 276,
+          "inFrame": 181,
+          "unobscured": 181,
+          "occluders": []
+        }
+      ],
+      "position": [
+        14.51,
+        1.6,
+        5.89
+      ],
+      "fov": 47.52207159106674,
+      "expectedFov": 47.52207159106674,
+      "clipPlanes": 0,
+      "roofVisible": true
+    },
+    {
+      "id": "public-shower",
+      "room": "bath1",
+      "blockedBy": null,
+      "subjects": [
+        {
+          "name": "bath1-shower",
+          "exists": true,
+          "samples": 171,
+          "inFrame": 24,
+          "unobscured": 24,
+          "occluders": []
+        }
+      ],
+      "position": [
+        2.11,
+        1.6,
+        5.92
+      ],
+      "fov": 47.52207159106674,
+      "expectedFov": 47.52207159106674,
+      "clipPlanes": 0,
+      "roofVisible": true
+    },
+    {
+      "id": "public-squat",
+      "room": "bath1",
+      "blockedBy": null,
+      "subjects": [
+        {
+          "name": "bath1-squat-pan",
+          "exists": true,
+          "samples": 162,
+          "inFrame": 154,
+          "unobscured": 122,
+          "occluders": [
+            [
+              "mesh_1176",
+              22
+            ],
+            [
+              "bath1-fold-stile-1",
+              10
+            ]
+          ]
+        }
+      ],
+      "position": [
+        1.54,
+        1.6,
+        5.88
+      ],
+      "fov": 47.52207159106674,
+      "expectedFov": 47.52207159106674,
+      "clipPlanes": 0,
+      "roofVisible": true
+    },
+    {
+      "id": "public-ceiling",
+      "room": "bath1",
+      "blockedBy": null,
+      "subjects": [
+        {
+          "name": "bath1-heater",
+          "exists": true,
+          "samples": 126,
+          "inFrame": 126,
+          "unobscured": 125,
+          "occluders": [
+            [
+              "mesh_222",
+              1
+            ]
+          ]
+        },
+        {
+          "name": "bath1-aluminum-ceiling",
+          "exists": true,
+          "samples": 168,
+          "inFrame": 100,
+          "unobscured": 99,
+          "occluders": [
+            [
+              "bath1-cabinet-side",
+              1
+            ]
+          ]
+        }
+      ],
+      "position": [
+        2.11,
+        1.6,
+        6.12
+      ],
+      "fov": 47.52207159106674,
+      "expectedFov": 47.52207159106674,
+      "clipPlanes": 0,
+      "roofVisible": true
+    },
+    {
+      "id": "ensuite-basin",
+      "room": "bath2",
+      "blockedBy": null,
+      "subjects": [
+        {
+          "name": "bath2-vanity",
+          "exists": true,
+          "samples": 137,
+          "inFrame": 94,
+          "unobscured": 94,
+          "occluders": []
+        }
+      ],
+      "position": [
+        13.72,
+        1.6,
+        2.39
+      ],
+      "fov": 47.52207159106674,
+      "expectedFov": 47.52207159106674,
+      "clipPlanes": 0,
+      "roofVisible": true
+    },
+    {
+      "id": "ensuite-shower",
+      "room": "bath2",
+      "blockedBy": null,
+      "subjects": [
+        {
+          "name": "bath2-shower",
+          "exists": true,
+          "samples": 168,
+          "inFrame": 64,
+          "unobscured": 64,
+          "occluders": []
+        }
+      ],
+      "position": [
+        13.8,
+        1.6,
+        2.44
+      ],
+      "fov": 47.52207159106674,
+      "expectedFov": 47.52207159106674,
+      "clipPlanes": 0,
+      "roofVisible": true
+    },
+    {
+      "id": "ensuite-toilet",
+      "room": "bath2",
+      "blockedBy": null,
+      "subjects": [
+        {
+          "name": "bath2-toilet",
+          "exists": true,
+          "samples": 160,
+          "inFrame": 156,
+          "unobscured": 156,
+          "occluders": []
+        }
+      ],
+      "position": [
+        13.12,
+        1.6,
+        2.3
+      ],
+      "fov": 47.52207159106674,
+      "expectedFov": 47.52207159106674,
+      "clipPlanes": 0,
+      "roofVisible": true
+    },
+    {
+      "id": "ensuite-ceiling",
+      "room": "bath2",
+      "blockedBy": null,
+      "subjects": [
+        {
+          "name": "bath2-heater",
+          "exists": true,
+          "samples": 126,
+          "inFrame": 126,
+          "unobscured": 125,
+          "occluders": [
+            [
+              "bath2-ceiling-panel-3-2",
+              1
+            ]
+          ]
+        },
+        {
+          "name": "bath2-aluminum-ceiling",
+          "exists": true,
+          "samples": 156,
+          "inFrame": 96,
+          "unobscured": 96,
+          "occluders": []
+        }
+      ],
+      "position": [
+        13.15,
+        1.6,
+        2.2
+      ],
+      "fov": 47.52207159106674,
+      "expectedFov": 47.52207159106674,
+      "clipPlanes": 0,
+      "roofVisible": true
+    },
+    {
+      "id": "kitchen-work",
+      "room": "kitchen",
+      "blockedBy": null,
+      "subjects": [
+        {
+          "name": "kitchen-hob",
+          "exists": true,
+          "samples": 158,
+          "inFrame": 158,
+          "unobscured": 158,
+          "occluders": []
+        },
+        {
+          "name": "kitchen-sink",
+          "exists": true,
+          "samples": 126,
+          "inFrame": 126,
+          "unobscured": 69,
+          "occluders": [
+            [
+              "sink-door-panel",
+              34
+            ],
+            [
+              "kitchen-sink-counter-end",
+              16
+            ],
+            [
+              "kitchen-sink-counter-side",
+              7
+            ]
+          ]
+        }
+      ],
+      "position": [
+        5.24,
+        1.6,
+        4.91
+      ],
+      "fov": 47.52207159106674,
+      "expectedFov": 47.52207159106674,
+      "clipPlanes": 0,
+      "roofVisible": true
+    },
+    {
+      "id": "kitchen-cook",
+      "room": "kitchen",
+      "blockedBy": null,
+      "subjects": [
+        {
+          "name": "kitchen-hob",
+          "exists": true,
+          "samples": 158,
+          "inFrame": 158,
+          "unobscured": 158,
+          "occluders": []
+        },
+        {
+          "name": "kitchen-hood",
+          "exists": true,
+          "samples": 110,
+          "inFrame": 105,
+          "unobscured": 105,
+          "occluders": []
+        }
+      ],
+      "position": [
+        5.3,
+        1.6,
+        4.52
+      ],
+      "fov": 47.52207159106674,
+      "expectedFov": 47.52207159106674,
+      "clipPlanes": 0,
+      "roofVisible": true
+    },
+    {
+      "id": "kitchen-wash",
+      "room": "kitchen",
+      "blockedBy": null,
+      "subjects": [
+        {
+          "name": "kitchen-sink",
+          "exists": true,
+          "samples": 126,
+          "inFrame": 126,
+          "unobscured": 78,
+          "occluders": [
+            [
+              "kitchen-sink-counter-end",
+              44
+            ],
+            [
+              "sink-door-panel",
+              4
+            ]
+          ]
+        }
+      ],
+      "position": [
+        5.1,
+        1.6,
+        3.47
+      ],
+      "fov": 47.52207159106674,
+      "expectedFov": 47.52207159106674,
+      "clipPlanes": 0,
+      "roofVisible": true
+    },
+    {
+      "id": "dining-sideboard",
+      "room": "dining",
+      "blockedBy": null,
+      "subjects": [
+        {
+          "name": "flush-sideboard",
+          "exists": true,
+          "samples": 1178,
+          "inFrame": 1178,
+          "unobscured": 1170,
+          "occluders": [
+            [
+              "island-prep-worktop",
+              4
+            ],
+            [
+              "sofa-sewn-scatter-0-folded-cover",
+              3
+            ],
+            [
+              "mesh_837",
+              1
+            ]
+          ]
+        }
+      ],
+      "position": [
+        8.35,
+        1.6,
+        3
+      ],
+      "fov": 47.52207159106674,
+      "expectedFov": 47.52207159106674,
+      "clipPlanes": 0,
+      "roofVisible": true
+    },
+    {
+      "id": "balcony-care",
+      "room": "care",
+      "blockedBy": null,
+      "subjects": [
+        {
+          "name": "balcony-care-cabinet",
+          "exists": true,
+          "samples": 257,
+          "inFrame": 257,
+          "unobscured": 246,
+          "occluders": [
+            [
+              "living-curtain-left-cloth",
+              11
+            ]
+          ]
+        },
+        {
+          "name": "balcony-robot-dock",
+          "exists": true,
+          "samples": 96,
+          "inFrame": 96,
+          "unobscured": 91,
+          "occluders": [
+            [
+              "robot-main-body",
+              3
+            ],
+            [
+              "robot-top-cover",
+              2
+            ]
+          ]
+        }
+      ],
+      "position": [
+        9.05,
+        1.6,
+        0.75
+      ],
+      "fov": 47.52207159106674,
+      "expectedFov": 47.52207159106674,
+      "clipPlanes": 0,
+      "roofVisible": true
+    },
+    {
+      "id": "balcony-laundry",
+      "room": "laundry",
+      "blockedBy": null,
+      "subjects": [
+        {
+          "name": "laundry-washer",
+          "exists": true,
+          "samples": 168,
+          "inFrame": 168,
+          "unobscured": 147,
+          "occluders": [
+            [
+              "living-curtain-right-cloth",
+              12
+            ],
+            [
+              "dryer-lower-filter-cover",
+              4
+            ],
+            [
+              "dryer-aperture-front",
+              3
+            ]
+          ]
+        },
+        {
+          "name": "laundry-dryer",
+          "exists": true,
+          "samples": 146,
+          "inFrame": 146,
+          "unobscured": 134,
+          "occluders": [
+            [
+              "living-curtain-right-cloth",
+              12
+            ]
+          ]
+        }
+      ],
+      "position": [
+        7.65,
+        1.55,
+        0.74
+      ],
+      "fov": 47.52207159106674,
+      "expectedFov": 47.52207159106674,
+      "clipPlanes": 0,
+      "roofVisible": true
+    }
+  ],
+  "interfaces": [
+    {
+      "viewport": [
+        1440,
+        1000
+      ],
+      "angles": 24
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "angles": 24
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "angles": 24
+    }
+  ],
+  "errors": [],
+  "limits": [
+    "230mm game proxy, not installation/human-body certification",
+    "Sampled surface visibility, not complete photographic composition",
+    "Viewport simulation, not physical phone performance"
+  ],
+  "wrapperDeepLink": true,
+  "failures": [],
+  "modelSha256": "30ae975d21bd520b37f2d6e18176b24555f3bca3ee2503ff5ff75c857c3fe817"
+}

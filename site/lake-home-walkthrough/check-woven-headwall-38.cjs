@@ -1,0 +1,13 @@
+const fs=require('node:fs');
+let code=fs.readFileSync(__dirname+'/check-headwall-36.cjs','utf8').replaceAll('headwall-36','woven-headwall-38');
+code=code.replace("assert.equal(a.details.stowedRoute.ok,true);",`assert.equal(a.details.stowedRoute.ok,true);
+ assert.equal(a.s.furniture.nightstand,undefined);
+ assert.deepEqual(a.s.furniture.rightTable.r,[4.74,.08,5.14,.48]);
+ assert.equal(a.s.design.styling.head.textile.height,1.5);
+ assert.equal(await page.evaluate(()=>!!masterPlumbing.scene.getObjectByName('headwall-woven-finish')),true);
+ assert.equal(await page.evaluate(()=>masterPlumbing.scene.getObjectByName('headwall-soft-lighting').visible),false);`);
+code=code.replace("assert.deepEqual(errors,[]);console.log",`assert.equal(await page.evaluate(()=>masterPlumbing.scene.getObjectByName('headwall-soft-lighting').visible),true);
+ await page.locator('#screen-mode').selectOption('down');
+ assert.equal(await page.evaluate(()=>masterPlumbing.scene.getObjectByName('headwall-soft-lighting').visible),false);
+ assert.deepEqual(errors,[]);console.log`);
+new Function('require',code)(require);

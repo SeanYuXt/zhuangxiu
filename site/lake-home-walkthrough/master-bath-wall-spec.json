@@ -1,0 +1,714 @@
+{
+  "name": "主卧·主卫侧整柜与反向床试排",
+  "units": "m",
+  "revision": "bath-wall-wardrobe-10",
+  "tolerances": {
+    "area": 0.01,
+    "coordinate": 0.005
+  },
+  "evidence": {
+    "source": "AC-6-P-平面图.dwg / AX-6-BZC，恢复诊断几何；IMG_8173.MOV 50、56秒实拍",
+    "transform": "x=(5450-CAD全局Y)/1000; z=(34900-CAD全局X)/1000; 嵌套建筑块X补偿+100mm",
+    "precision": "恢复CAD诊断坐标，不是现场净尺寸；面积由边界计算，没有独立印刷面积可交叉验证。",
+    "orientation": "沿原图方向，地理北待核",
+    "locked": [
+      "原主卧入口",
+      "原套内卫生间入口",
+      "不外置衣帽区",
+      "保留飘窗、窗侧墙与栏杆",
+      "1.8×2m床垫",
+      "不以看湖或观景为布局目标",
+      "床头试移至原床尾实墙，不靠主卫墙"
+    ],
+    "pending": [
+      "现场净尺寸与饰面扣减",
+      "窗台高度/窗扇及窗帘活动范围",
+      "空调孔位、冷凝水坡度",
+      "柜体承载、锚固、电气深化"
+    ],
+    "height_source": "窗台55cm、窗高170cm为原图标注暂用值；顶高260cm、家具外框、柜高与安装尺寸为设计假设"
+  },
+  "ceiling": 2.6,
+  "sill": 0.55,
+  "windowTop": 2.25,
+  "spaces": [
+    {
+      "id": "master",
+      "label": "主卧（含套内入口，不含主卫）",
+      "polygons": [
+        [
+          [
+            2.15,
+            0
+          ],
+          [
+            5.35,
+            0
+          ],
+          [
+            5.35,
+            3.4
+          ],
+          [
+            1.75,
+            3.4
+          ],
+          [
+            1.75,
+            4.7
+          ],
+          [
+            0,
+            4.7
+          ],
+          [
+            0,
+            2.05
+          ],
+          [
+            2.15,
+            2.05
+          ]
+        ]
+      ],
+      "subareas": [
+        {
+          "label": "睡眠主体",
+          "area": 10.88,
+          "included_in_total": true
+        },
+        {
+          "label": "套内入口",
+          "area": 5.1775,
+          "included_in_total": true
+        }
+      ]
+    },
+    {
+      "id": "bath",
+      "label": "主卫·设施条件试排",
+      "context": true,
+      "polygons": [
+        [
+          [
+            0,
+            0
+          ],
+          [
+            2.15,
+            0
+          ],
+          [
+            2.15,
+            2.05
+          ],
+          [
+            0,
+            2.05
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "hall",
+      "label": "套外过道·截取示意",
+      "context": true,
+      "polygons": [
+        [
+          [
+            0,
+            4.7
+          ],
+          [
+            1.75,
+            4.7
+          ],
+          [
+            1.75,
+            5.35
+          ],
+          [
+            0,
+            5.35
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "bay",
+      "label": "原实心飘窗·不计通行地面",
+      "raised": true,
+      "polygons": [
+        [
+          [
+            4.95,
+            0
+          ],
+          [
+            4.95,
+            -0.6
+          ],
+          [
+            5.95,
+            -0.6
+          ],
+          [
+            5.95,
+            2.3
+          ],
+          [
+            5.35,
+            2.3
+          ],
+          [
+            5.35,
+            0
+          ]
+        ]
+      ]
+    }
+  ],
+  "walls": [
+    {
+      "id": "bath-outer",
+      "a": [
+        0,
+        0
+      ],
+      "b": [
+        2.15,
+        0
+      ],
+      "thickness": 0.1,
+      "side": -1,
+      "separates": [
+        "bath",
+        "exterior"
+      ]
+    },
+    {
+      "id": "bath-left",
+      "a": [
+        0,
+        0
+      ],
+      "b": [
+        0,
+        2.05
+      ],
+      "thickness": 0.1,
+      "side": 1,
+      "separates": [
+        "bath",
+        "exterior"
+      ]
+    },
+    {
+      "id": "head",
+      "a": [
+        2.15,
+        0
+      ],
+      "b": [
+        4.95,
+        0
+      ],
+      "thickness": 0.2,
+      "side": -1,
+      "separates": [
+        "master",
+        "exterior"
+      ]
+    },
+    {
+      "id": "bath-side",
+      "a": [
+        2.15,
+        0
+      ],
+      "b": [
+        2.15,
+        2.05
+      ],
+      "thickness": 0.1,
+      "side": 1,
+      "separates": [
+        "master",
+        "bath"
+      ]
+    },
+    {
+      "id": "bath-door-wall",
+      "a": [
+        0,
+        2.05
+      ],
+      "b": [
+        2.15,
+        2.05
+      ],
+      "thickness": 0.1,
+      "side": -1,
+      "separates": [
+        "master",
+        "bath"
+      ]
+    },
+    {
+      "id": "closet-wall",
+      "a": [
+        0,
+        2.05
+      ],
+      "b": [
+        0,
+        4.7
+      ],
+      "thickness": 0.1,
+      "side": 1,
+      "separates": [
+        "master",
+        "exterior"
+      ]
+    },
+    {
+      "id": "entry-wall",
+      "a": [
+        0,
+        4.7
+      ],
+      "b": [
+        1.75,
+        4.7
+      ],
+      "thickness": 0.1,
+      "side": 1,
+      "separates": [
+        "master",
+        "hall"
+      ]
+    },
+    {
+      "id": "entry-side",
+      "a": [
+        1.75,
+        3.4
+      ],
+      "b": [
+        1.75,
+        4.7
+      ],
+      "thickness": 0.1,
+      "side": -1,
+      "separates": [
+        "master",
+        "exterior"
+      ]
+    },
+    {
+      "id": "foot-wall",
+      "a": [
+        1.75,
+        3.4
+      ],
+      "b": [
+        5.35,
+        3.4
+      ],
+      "thickness": 0.2,
+      "side": 1,
+      "separates": [
+        "master",
+        "exterior"
+      ]
+    },
+    {
+      "id": "vanity-wall",
+      "a": [
+        5.35,
+        2.3
+      ],
+      "b": [
+        5.35,
+        3.4
+      ],
+      "thickness": 0.2,
+      "side": -1,
+      "separates": [
+        "master",
+        "exterior"
+      ]
+    },
+    {
+      "id": "bay-return-solid",
+      "a": [
+        4.95,
+        -0.6
+      ],
+      "b": [
+        4.95,
+        0
+      ],
+      "thickness": 0.1,
+      "side": 1,
+      "separates": [
+        "bay",
+        "exterior"
+      ]
+    },
+    {
+      "id": "bay-return-window",
+      "a": [
+        4.95,
+        -0.6
+      ],
+      "b": [
+        5.95,
+        -0.6
+      ],
+      "thickness": 0.1,
+      "side": -1,
+      "separates": [
+        "bay",
+        "exterior"
+      ]
+    },
+    {
+      "id": "bay-front-window",
+      "a": [
+        5.95,
+        -0.6
+      ],
+      "b": [
+        5.95,
+        2.3
+      ],
+      "thickness": 0.1,
+      "side": -1,
+      "separates": [
+        "bay",
+        "exterior"
+      ]
+    },
+    {
+      "id": "bay-end",
+      "a": [
+        5.35,
+        2.3
+      ],
+      "b": [
+        5.95,
+        2.3
+      ],
+      "thickness": 0.1,
+      "side": 1,
+      "separates": [
+        "bay",
+        "exterior"
+      ]
+    }
+  ],
+  "openings": [
+    {
+      "id": "bath-window",
+      "kind": "window",
+      "wall_id": "bath-outer",
+      "offset": 0.35,
+      "width": 0.6,
+      "sill": 0.9,
+      "top": 2.1,
+      "connects": [
+        "bath",
+        "exterior"
+      ],
+      "source": "原PDF确认此墙有窗，LD900/CH1200；宽60cm和沿墙偏移为暂估，实拍窄窗；未确认窗扇方式"
+    },
+    {
+      "id": "entry",
+      "kind": "door",
+      "wall_id": "entry-wall",
+      "offset": 0.8,
+      "width": 0.9,
+      "height": 2.12,
+      "connects": [
+        "master",
+        "hall"
+      ],
+      "swing_into": "master",
+      "hinge": [
+        1.7,
+        4.7
+      ],
+      "closedAngle": 3.141592653589793,
+      "sweep": 1,
+      "source": "原900门洞；五金净开口待复尺"
+    },
+    {
+      "id": "bath-door",
+      "kind": "door",
+      "wall_id": "bath-door-wall",
+      "offset": 1.1,
+      "width": 0.85,
+      "height": 2.1,
+      "connects": [
+        "master",
+        "bath"
+      ],
+      "swing_into": "bath",
+      "hinge": [
+        1.95,
+        2.05
+      ],
+      "closedAngle": 3.141592653589793,
+      "sweep": 1,
+      "source": "原850门洞，向主卫内开"
+    },
+    {
+      "id": "bay-front",
+      "kind": "window",
+      "wall_id": "bay-front-window",
+      "offset": 0,
+      "width": 2.9,
+      "connects": [
+        "bay",
+        "exterior"
+      ]
+    },
+    {
+      "id": "bay-return",
+      "kind": "window",
+      "wall_id": "bay-return-window",
+      "offset": 0,
+      "width": 1,
+      "connects": [
+        "bay",
+        "exterior"
+      ]
+    }
+  ],
+  "expected_adjacencies": [
+    {
+      "a": "master",
+      "b": "bath",
+      "kind": "shared_wall",
+      "wall_id": "bath-side",
+      "min_shared_length": 2.05
+    },
+    {
+      "a": "master",
+      "b": "bath",
+      "kind": "shared_wall",
+      "wall_id": "bath-door-wall",
+      "min_shared_length": 2.15
+    },
+    {
+      "a": "master",
+      "b": "hall",
+      "kind": "shared_wall",
+      "wall_id": "entry-wall",
+      "min_shared_length": 1.75
+    }
+  ],
+  "furniture": {
+    "wardrobe": {
+      "r": [
+        2.15,
+        0.025,
+        2.75,
+        2.025
+      ],
+      "height": 2.52,
+      "label": "主衣柜200×60"
+    },
+    "entryWardrobe": {
+      "r": [
+        0.02,
+        3.02,
+        0.67,
+        4.62
+      ],
+      "height": 2.52,
+      "label": "保留套内衣柜160×65",
+      "type": "两门双轨移门，外深含轨道"
+    },
+    "washstand": {
+      "r": [
+        0.02,
+        2.12,
+        0.57,
+        3.02
+      ],
+      "height": 0.85,
+      "label": "洗漱模组90×55（含收口）"
+    },
+    "bed": {
+      "r": [
+        3.35,
+        1.25,
+        5.23,
+        3.35
+      ],
+      "mattress": [
+        1.8,
+        2
+      ],
+      "height": 0.65,
+      "label": "床框188×210"
+    },
+    "vanity": {
+      "r": [
+        4.85,
+        0.08,
+        5.35,
+        1.08
+      ],
+      "height": 0.75,
+      "label": "窗前梳妆100×50"
+    },
+    "chair": {
+      "r": [
+        4.24,
+        0.34,
+        4.74,
+        0.84
+      ],
+      "pull": 0.45,
+      "height": 0.78,
+      "label": "梳妆椅50×50"
+    }
+  },
+  "design": {
+    "palette": {
+      "white": "#eee9df",
+      "cabinet": "#d1c9bf",
+      "dark": "#69665f",
+      "fabric": "#c2b7a7",
+      "floor": "#d4d2ca"
+    },
+    "bath": {
+      "status": "沿原图设施分区的条件试排，不是排水定位施工图",
+      "usable": [
+        0.1,
+        0.1,
+        2.05,
+        1.95
+      ],
+      "evidence": "恢复CAD边界约2.15×2.05m；各向内暂扣10cm后按1.95×1.85m试排。PDF有1950标注但与恢复CAD/实拍净边界对应尚待复尺；不称已确认净尺寸。38/44秒实拍有窗旁竖向凸起，管井尺寸及用途未定。",
+      "fixtures": {
+        "shower": {
+          "r": [
+            0.12,
+            0.12,
+            1.12,
+            1.02
+          ],
+          "label": "淋浴100×90",
+          "height": 2.05
+        },
+        "toilet": {
+          "r": [
+            1.42,
+            0.25,
+            1.82,
+            0.95
+          ],
+          "label": "马桶40×70暂占位",
+          "height": 0.76
+        },
+        "shaftReserve": {
+          "r": [
+            1.86,
+            0.1,
+            2.04,
+            0.4
+          ],
+          "label": "凸起待复尺",
+          "height": 2.4
+        }
+      },
+      "useZones": {
+        "toilet": {
+          "r": [
+            1.25,
+            0.95,
+            1.95,
+            1.55
+          ],
+          "label": "马桶前60cm（与开门错时）"
+        }
+      },
+      "showerEntry": {
+        "span": [
+          0.52,
+          1.12
+        ],
+        "z": 1.02,
+        "clear": 0.6,
+        "type": "三联滑动屏风设想；标60cm为几何开口，实际五金净口待厂家确认"
+      },
+      "ceilingHeight": 2.4,
+      "notes": [
+        "台盆移至套内更衣区的90cm模组；主卫原台盆位置留空作擦身、转身区，不新增高柜。",
+        "本轮先比较洗漱台外移；原淋浴玻璃暂保留，浴帘或无隔断尚未定稿，马桶与淋浴不移位。",
+        "原主卫门内开不改洞；洗脸站位在门外靠左，主卫出门从其右侧经过；如厕仍需关门。",
+        "马桶坑距、立管和地漏未从实拍确定。图中马桶、淋浴排水为选型目标，不授权移管、切楼板或拆凸起。",
+        "浴室用防滑浅米灰砖、暖白浴室柜、防潮镜柜；干区地砖色调衔接，湿区独立找坡、防水与挡水节点。",
+        "铝扣板平顶暂定2.40m，含照明、换气和可拆检修板；净高与风道待复尺。电源分区、漏保、等电位由电工深化，图中不是电气施工点位。"
+      ]
+    },
+    "knee": {
+      "r": [
+        4.89,
+        0.15,
+        5.33,
+        1.01
+      ],
+      "height": 0.705
+    },
+    "vanityTop": [
+      4.85,
+      0.08,
+      5.76,
+      1.08
+    ],
+    "routes": [
+      {
+        "r": [
+          1.25,
+          2.2,
+          3.35,
+          2.9
+        ],
+        "label": "进入床侧70cm带"
+      },
+      {
+        "r": [
+          2.75,
+          0.2,
+          3.35,
+          2.9
+        ],
+        "label": "柜前紧凑通道60cm"
+      },
+      {
+        "r": [
+          3.35,
+          0.2,
+          4.24,
+          1.2
+        ],
+        "label": "床尾起身区"
+      }
+    ],
+    "notes": [
+      "本方案保留原入口、主卫门与实心飘窗，不沿用09版入口浅隔断或床尾柜。",
+      "200cm柜沿205cm实墙安装，合计5cm收口余量为设计假设。外深60cm含门轨，内部净深取决于所选移门五金，不能按60cm挂衣深度报价。",
+      "床头靠原床尾实墙，窗侧仅12cm，不作通道；双人一侧上下床及铺床不便是本方案的主要代价。",
+      "柜前60cm为床旁局部净距，不能同时取衣和经过；不用平开柜门侵占这条窄带。",
+      "窗前台面高75cm，向室内伸出50cm。飘窗上延伸台板作为置物台，台下原实心结构保持55cm，腿只能伸入室内侧约44cm，须按真实身高试坐。",
+      "梳妆位采用桌面活动镜，避免整面镜柜遮挡原窗。窗扇、栏杆、防坠与50cm桌板实际支撑待现场复核。",
+      "保留入口160cm柜与90cm洗脸台：本轮只比较主卫侧新增整柜，不擅自改变干区及主卫设施。",
+      "左右床侧宽度按墙线计算，尚未扣饰面误差；不称双侧舒适，不是施工定稿。"
+    ]
+  }
+}

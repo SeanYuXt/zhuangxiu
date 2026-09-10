@@ -1,0 +1,30 @@
+{
+  "revision": 93,
+  "source": "PDF whole-house shell; accepted furniture unscaled",
+  "anchors": {
+    "bath": [
+      12.16,
+      0,
+      0.74
+    ],
+    "dressing": [
+      12.26,
+      0,
+      0.8
+    ],
+    "footCabinet": [
+      12.26,
+      0,
+      0.871
+    ]
+  },
+  "files": {
+    "accepted-suite-integration.js": "aa018ce10f3f6fd08cbc482edcccea8121346278b188b55e8f2b8f7bf1ac17dc",
+    "master-centered-dressing.js": "7ec89a768c797c13094f327858ba8330312e3c15b3d146f6de4b62bace5929f1",
+    "master-simple-bath.js": "e5bf9d9861fb0865942ef0c89504c7062baaac2ce9274945628ad10463f61619",
+    "master-window-ac-option-spec.json": "60063771a76c54ed6b80948ccfc453a3221dbae546d67462849b9dd5f5fc5219",
+    "accepted-foot-cabinet.json": "8ba88fff043cbefab3a70ff55c820cf7f63979f34c79eb65f31e0854e7861a6c"
+  },
+  "bedFootClearanceM": 0.59,
+  "renderCount": 16
+}

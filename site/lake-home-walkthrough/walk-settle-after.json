@@ -1,0 +1,25 @@
+{
+  "start": {
+    "p": [
+      7.1,
+      1.6,
+      5.95
+    ],
+    "draws": 3,
+    "composites": 1
+  },
+  "end": {
+    "p": [
+      7.0231544799425025,
+      1.6,
+      5.987654304828172
+    ],
+    "draws": 6,
+    "composites": 2,
+    "lastCompositeDraw": 6
+  },
+  "fullFrameAfterStop": true,
+  "errors": [],
+  "gpu": "ANGLE (NVIDIA, NVIDIA GeForce GT 730 (0x00001287) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+  "limits": "One real keyboard walking/stop cycle in desktop Chrome; not full graphics or physical-phone acceptance."
+}

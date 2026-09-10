@@ -1,0 +1,70 @@
+{
+  "state": {
+    "active": true,
+    "valid": true,
+    "requested": true,
+    "receivers": 60,
+    "atlases": 5,
+    "source": "ff101ba3a24a8eb8c99f2fbda3bdbddb84878f191834a5865615c2ffe288361d"
+  },
+  "iterations": 80,
+  "medianMs": 3.799999952316284,
+  "p95Ms": 5,
+  "meanMs": 3.926249998807907,
+  "textures": [
+    {
+      "width": 2048,
+      "height": 2048,
+      "bytes": 33554432
+    },
+    {
+      "width": 2048,
+      "height": 2048,
+      "bytes": 33554432
+    },
+    {
+      "width": 2048,
+      "height": 2048,
+      "bytes": 33554432
+    },
+    {
+      "width": 2048,
+      "height": 2048,
+      "bytes": 33554432
+    },
+    {
+      "width": 2048,
+      "height": 2048,
+      "bytes": 33554432
+    }
+  ],
+  "guard": {
+    "snapshotMeshes": 3409,
+    "checks": 93,
+    "lastVisited": 3409
+  },
+  "mutations": [
+    {
+      "name": "normal attribute replacement",
+      "rejected": true,
+      "restored": true
+    },
+    {
+      "name": "receiver visibility",
+      "rejected": true,
+      "restored": true
+    },
+    {
+      "name": "material opacity",
+      "rejected": true,
+      "restored": true
+    },
+    {
+      "name": "texture offset",
+      "rejected": true,
+      "restored": true
+    }
+  ],
+  "errors": [],
+  "limits": "Guard CPU timing in desktop headless Chrome, not frame rate or physical phone evidence."
+}

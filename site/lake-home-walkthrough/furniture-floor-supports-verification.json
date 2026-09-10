@@ -1,0 +1,284 @@
+{
+  "supports": [
+    {
+      "name": "bed1-bed-floor-support",
+      "bottom": 0.0059999999869614845,
+      "top": 0.07500000001490116,
+      "rails": 7,
+      "floorHits": 7,
+      "topHits": 7,
+      "fill": 0.06672671645909407
+    },
+    {
+      "name": "bed1-wardrobe-floor-support",
+      "bottom": 0.0059999999869614845,
+      "top": 0.08000000135600567,
+      "rails": 5,
+      "floorHits": 5,
+      "topHits": 5,
+      "fill": 0.16275533812966336
+    },
+    {
+      "name": "bed1-window-storage-floor-support",
+      "bottom": 0.0059999999869614845,
+      "top": 0.08000000135600567,
+      "rails": 6,
+      "floorHits": 6,
+      "topHits": 6,
+      "fill": 0.12840429707971257
+    },
+    {
+      "name": "bed3-bed-floor-support",
+      "bottom": 0.0059999999869614845,
+      "top": 0.07500000001490116,
+      "rails": 6,
+      "floorHits": 6,
+      "topHits": 6,
+      "fill": 0.06379235462970263
+    },
+    {
+      "name": "bed3-wardrobe-floor-support",
+      "bottom": 0.0059999999869614845,
+      "top": 0.08000000135600567,
+      "rails": 7,
+      "floorHits": 7,
+      "topHits": 7,
+      "fill": 0.10509409815748552
+    },
+    {
+      "name": "master-bed-floor-support",
+      "bottom": 0.0059999999869614845,
+      "top": 0.1000000051856041,
+      "rails": 7,
+      "floorHits": 7,
+      "topHits": 7,
+      "fill": 0.06112241044377684
+    },
+    {
+      "name": "master-bedside-floor-support-0",
+      "bottom": 0.0059999999869614845,
+      "top": 0.050000005707144746,
+      "rails": 5,
+      "floorHits": 5,
+      "topHits": 5,
+      "fill": 0.1955712281397077
+    },
+    {
+      "name": "master-bedside-floor-support-1",
+      "bottom": 0.0059999999869614845,
+      "top": 0.050000005707144746,
+      "rails": 5,
+      "floorHits": 5,
+      "topHits": 5,
+      "fill": 0.1955712281397077
+    },
+    {
+      "name": "master-entry-wardrobe-floor-support",
+      "bottom": 0.0059999999869614845,
+      "top": 0.08000000135600567,
+      "rails": 6,
+      "floorHits": 6,
+      "topHits": 6,
+      "fill": 0.10994061794980302
+    },
+    {
+      "name": "master-wardrobe-floor-support",
+      "bottom": 0.0059999999869614845,
+      "top": 0.08000000135600567,
+      "rails": 8,
+      "floorHits": 8,
+      "topHits": 8,
+      "fill": 0.09567608227698081
+    }
+  ],
+  "glides": [
+    {
+      "name": "child-desk-floor-glide-0",
+      "bottom": 0.0059999999050050976,
+      "originalTop": 0.7099999988079071,
+      "shaftFound": true
+    },
+    {
+      "name": "child-desk-floor-glide-1",
+      "bottom": 0.0059999999050050976,
+      "originalTop": 0.7099999988079071,
+      "shaftFound": true
+    },
+    {
+      "name": "child-chair-floor-glide-0",
+      "bottom": 0.0059999999050050976,
+      "originalTop": 0.4250000029802322,
+      "shaftFound": true
+    },
+    {
+      "name": "child-chair-floor-glide-1",
+      "bottom": 0.0059999999050050976,
+      "originalTop": 0.4250000029802322,
+      "shaftFound": true
+    },
+    {
+      "name": "child-chair-floor-glide-2",
+      "bottom": 0.0059999999050050976,
+      "originalTop": 0.4250000029802322,
+      "shaftFound": true
+    },
+    {
+      "name": "child-chair-floor-glide-3",
+      "bottom": 0.0059999999050050976,
+      "originalTop": 0.4250000029802322,
+      "shaftFound": true
+    },
+    {
+      "name": "makeup-desk-floor-glide-0",
+      "bottom": 0.0059999999050050976,
+      "originalTop": 0.7349999916553497,
+      "shaftFound": true
+    },
+    {
+      "name": "makeup-desk-floor-glide-1",
+      "bottom": 0.0059999999050050976,
+      "originalTop": 0.7349999916553497,
+      "shaftFound": true
+    },
+    {
+      "name": "makeup-stool-floor-glide-0",
+      "bottom": 0.0059999999050050976,
+      "originalTop": 0.42999999821186063,
+      "shaftFound": true
+    },
+    {
+      "name": "makeup-stool-floor-glide-1",
+      "bottom": 0.0059999999050050976,
+      "originalTop": 0.42999999821186063,
+      "shaftFound": true
+    },
+    {
+      "name": "makeup-stool-floor-glide-2",
+      "bottom": 0.0059999999050050976,
+      "originalTop": 0.42999999821186063,
+      "shaftFound": true
+    },
+    {
+      "name": "makeup-stool-floor-glide-3",
+      "bottom": 0.0059999999050050976,
+      "originalTop": 0.42999999821186063,
+      "shaftFound": true
+    }
+  ],
+  "fixedLiftBases": [
+    "bed1-bed-floor-support",
+    "bed3-bed-floor-support"
+  ],
+  "stoolGlideTravel": 0.45000000000000107,
+  "failures": [],
+  "views": [
+    {
+      "width": 1440,
+      "object": "master-bed-floor-support",
+      "visible": true,
+      "position": [
+        16.333074113012696,
+        0.0675173973640211,
+        3.6058698682010544
+      ]
+    },
+    {
+      "width": 1440,
+      "object": "bed1-bed-floor-support",
+      "visible": true,
+      "position": [
+        3.549980166076053,
+        0.04945440120782584,
+        3.98
+      ]
+    },
+    {
+      "width": 1440,
+      "object": "bed3-bed-floor-support",
+      "visible": true,
+      "position": [
+        16.220896367318943,
+        0.048646747392912394,
+        6.450245845901421
+      ]
+    },
+    {
+      "width": 1440,
+      "object": "child-chair-floor-glide-0",
+      "visible": true,
+      "position": [
+        14.356291997494056,
+        0.034653298097266284,
+        5.392552329496832
+      ]
+    },
+    {
+      "width": 1440,
+      "object": "makeup-stool-floor-glide-1",
+      "visible": true,
+      "position": [
+        13.377669488278794,
+        0.03822627105158069,
+        3.769118643268626
+      ]
+    },
+    {
+      "width": 390,
+      "object": "master-bed-floor-support",
+      "visible": true,
+      "position": [
+        16.333074113012696,
+        0.0675173973640211,
+        3.6058698682010544
+      ]
+    },
+    {
+      "width": 390,
+      "object": "bed1-bed-floor-support",
+      "visible": true,
+      "position": [
+        3.549980166076053,
+        0.04945440120782584,
+        3.98
+      ]
+    },
+    {
+      "width": 390,
+      "object": "bed3-bed-floor-support",
+      "visible": true,
+      "position": [
+        16.220896367318943,
+        0.048646747392912394,
+        6.450245845901421
+      ]
+    },
+    {
+      "width": 390,
+      "object": "child-chair-floor-glide-0",
+      "visible": true,
+      "position": [
+        14.356291997494056,
+        0.034653298097266284,
+        5.392552329496832
+      ]
+    },
+    {
+      "width": 390,
+      "object": "makeup-stool-floor-glide-1",
+      "visible": true,
+      "position": [
+        13.377669488278794,
+        0.03822627105158069,
+        3.769118643268626
+      ]
+    }
+  ],
+  "rebuilt": [
+    "master-bed-floor-support",
+    "master-bedside-floor-support-0",
+    "master-bedside-floor-support-1",
+    "master-entry-wardrobe-floor-support",
+    "master-wardrobe-floor-support"
+  ],
+  "errors": []
+}

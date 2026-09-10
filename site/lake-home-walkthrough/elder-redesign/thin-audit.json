@@ -1,0 +1,96 @@
+{
+  "results": {
+    "tucked": {
+      "hardCollisions": [],
+      "doorHits": [],
+      "paths": {
+        "500": {
+          "targets": {
+            "top": [
+              1.035,
+              0.45999999999999996
+            ],
+            "bottom": [
+              1.035,
+              2.5199999999999996
+            ]
+          },
+          "both": true,
+          "start": true
+        },
+        "550": {
+          "targets": {
+            "top": [
+              1.035,
+              0.43499999999999994
+            ],
+            "bottom": [
+              1.035,
+              2.5449999999999995
+            ]
+          },
+          "both": true,
+          "start": true
+        },
+        "600": {
+          "targets": {
+            "top": null,
+            "bottom": [
+              1.035,
+              2.5699999999999994
+            ]
+          },
+          "both": false,
+          "start": true
+        }
+      }
+    },
+    "occupied": {
+      "hardCollisions": [],
+      "doorHits": [],
+      "paths": {
+        "500": {
+          "targets": {
+            "top": null,
+            "bottom": [
+              1.035,
+              2.5199999999999996
+            ]
+          },
+          "both": false,
+          "start": true
+        },
+        "550": {
+          "targets": {
+            "top": null,
+            "bottom": [
+              1.035,
+              2.5449999999999995
+            ]
+          },
+          "both": false,
+          "start": true
+        },
+        "600": {
+          "targets": {
+            "top": null,
+            "bottom": [
+              1.035,
+              2.5699999999999994
+            ]
+          },
+          "both": false,
+          "start": true
+        }
+      }
+    }
+  },
+  "nominalFootClearanceMm": 600,
+  "wardrobeGrossVolumeRatioTo600Deep": 0.5833333333333334,
+  "limitations": [
+    "600mm is zero-margin nominal clearance; 20mm grid may miss its exact centerline. Do not claim comfortable or accessible clearance.",
+    "Only desktop projects over unverified sill zone; chair and human floor envelope remain in the main rectangle.",
+    "Desk support, seated knees and feet, chair back, wardrobe hanging capacity and access hardware remain unverified.",
+    "Wardrobe depth reduction is a new proposed tradeoff, not user-approved full-depth storage."
+  ]
+}

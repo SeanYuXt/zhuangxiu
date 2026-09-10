@@ -1,0 +1,15 @@
+#lightingDesignDialog{width:min(720px,calc(100vw - 24px));max-height:calc(100dvh - 36px);box-sizing:border-box;padding:22px;color:#373731;background:#fbfaf6;border:1px solid #ddd8cd;border-radius:16px;overflow:auto}
+#lightingDesignDialog::backdrop{background:#25282177}
+#lightingDesignDialog form{display:flex;align-items:center;justify-content:space-between;gap:12px}
+#lightingDesignDialog h2{margin:0;font-size:20px}
+.lighting-presets{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:18px 0}
+.lighting-presets [aria-pressed=true]{background:#5c6255;color:#fff}
+.lighting-room-label{display:flex;align-items:center;gap:12px;margin:16px 0;font-size:16px}
+#lightingRoom{flex:1;min-width:0;padding:10px;font-size:16px}
+.lighting-fixture{display:grid;grid-template-columns:1fr auto;gap:8px;padding:12px 0;border-top:1px solid #ddd8cd}
+.lighting-fixture label{display:flex;gap:10px;align-items:center;font-size:16px;min-width:0}
+.lighting-fixture input{width:20px;height:20px;accent-color:#5c6255;flex:none}
+.lighting-fixture small{grid-column:1/-1;font-size:14px;line-height:1.65;color:#65675e;overflow-wrap:anywhere}
+#lightingDesignDialog button{min-height:44px;font-size:14px}
+.lighting-limits{font-size:14px;line-height:1.7;color:#65675e}
+@media(max-width:600px){#lightingDesignDialog{padding:16px}.lighting-presets{grid-template-columns:repeat(2,1fr)}}

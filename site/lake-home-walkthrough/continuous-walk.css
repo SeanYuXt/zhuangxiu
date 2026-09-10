@@ -1,0 +1,51 @@
+#walkHud{position:absolute;inset:0;z-index:9;pointer-events:none;color:#373731}
+#walkHud[hidden]{display:none}
+#bedroomActions{position:absolute;left:14px;top:62px;z-index:7;display:flex;flex-wrap:wrap;gap:6px;max-width:350px}
+#bedroomActions[hidden],#bedroomActions button[hidden]{display:none}
+#bedroomActions button{min-height:40px;font-size:14px;background:#fbfaf6ef}
+#bedroomActions button[aria-pressed="true"]{background:#5c6255;color:#fff}
+#dryStorageActions{position:absolute;left:10px;top:62px;z-index:7;display:flex;gap:5px;flex-wrap:wrap;max-width:350px}
+#dryStorageActions[hidden]{display:none}
+#dryStorageActions button{min-height:44px;background:#fbfaf6ef;font-size:14px}
+#dryStorageActions button[aria-pressed="true"]{background:#5c6255;color:white}
+#dryingActions{position:absolute;left:10px;top:62px;z-index:7;display:flex;gap:5px;flex-wrap:wrap;max-width:min(350px,calc(100% - 20px));background:#fbfaf6dd;padding:6px;border-radius:10px}
+#dryingActions[hidden]{display:none}
+#dryingActions button,#balconyCareActions button{min-height:44px;font-size:14px}
+#dryingActions small{font-size:13px;flex-basis:100%;color:#54584e}
+#dryingActions button[aria-pressed="true"],#careMaintenance[aria-pressed="true"]{background:#5c6255;color:white}
+#balconyCareActions{display:flex;gap:5px;flex-wrap:wrap;max-width:calc(100% - 28px)}
+#balconyCareActions[hidden]{display:none}
+#masterBathActions{position:absolute;left:10px;top:62px;z-index:7;display:flex;gap:5px;flex-wrap:wrap;max-width:350px}
+#masterBathActions[hidden]{display:none}
+#masterBathActions button{min-height:44px;background:#fbfaf6ef;font-size:14px}
+#masterBathActions button[aria-pressed="true"]{background:#5c6255;color:white}
+#masterBathActions small{display:block;flex-basis:100%;font-size:13px;background:#fbfaf6e8;padding:4px 8px;border-radius:6px}
+#kitchenActions{position:absolute;left:10px;top:62px;z-index:7;display:flex;gap:5px;flex-wrap:wrap;max-width:350px}
+#kitchenActions[hidden]{display:none}
+#kitchenActions button{min-height:44px;background:#fbfaf6ef;font-size:14px}
+#laundryActions{position:absolute;left:10px;top:62px;z-index:7;display:flex;gap:5px;flex-wrap:wrap;max-width:350px}
+#laundryActions[hidden]{display:none}
+#laundryActions button{min-height:44px;background:#fbfaf6ef;font-size:14px}
+#sideboardActions,#fridgeActions{position:absolute;left:10px;top:62px;z-index:7;display:flex;gap:5px;flex-wrap:wrap;max-width:350px}
+#sideboardActions[hidden],#fridgeActions[hidden]{display:none}
+#sideboardActions button,#fridgeActions button{min-height:44px;background:#fbfaf6ef;font-size:14px}
+#publicBathActions{position:absolute;left:10px;top:62px;z-index:7;display:flex;gap:5px;flex-wrap:wrap;max-width:360px}
+#publicBathActions[hidden]{display:none}
+#publicBathActions button{min-height:44px;background:#fbfaf6ef;font-size:14px}
+#walkHud button,#walkJoystick{pointer-events:auto;touch-action:none}
+.walk-caption{position:absolute;left:16px;top:14px;display:flex;gap:12px;align-items:center;background:#fbfaf6ed;padding:10px 14px;border-radius:12px;font-size:14px}
+#walkExit{position:absolute;right:16px;top:14px}
+#walkDoor{position:absolute;bottom:100px;left:calc(50% - 60px);min-width:120px;min-height:44px}
+#walkJoystick{display:none;position:absolute;bottom:25px;left:25px;width:112px;height:112px;border:1px solid #ffffffbb;border-radius:50%;background:#fbfaf655;box-shadow:inset 0 0 0 18px #ffffff12;user-select:none}
+#walkJoystick span{position:absolute;inset:0;display:grid;place-items:center;font-size:45px;color:#ffffff75}
+#walkJoystick i{position:absolute;left:36px;top:36px;width:40px;height:40px;background:#5c6255bc;border:1px solid #fff9;border-radius:50%;box-shadow:0 2px 8px #0002}
+.is-walking #hotspots,.is-walking #facilities,.is-walking #roomTour,.is-walking #position,.is-walking #gesture,.is-walking #masterDressing,.is-walking #dryZoneStudy,.is-walking #facilityNote,.is-walking #detailNoteToggle{display:none!important}
+.is-walking #view3d{outline:none;touch-action:none}
+@media(pointer:coarse),(max-width:800px){
+ #walkJoystick{display:block;bottom:145px;left:20px}
+ #walkDoor{bottom:185px;left:auto;right:20px}
+ .walk-caption{left:10px;top:10px;padding:9px 12px}.walk-caption span{display:none}
+ #walkExit{right:10px;top:10px}
+ .is-walking #mobileRoomName{display:none}
+}
+@media(max-height:550px){#walkJoystick{bottom:15px}#walkDoor{bottom:135px}}

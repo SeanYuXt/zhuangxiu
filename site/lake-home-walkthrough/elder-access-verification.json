@@ -1,0 +1,202 @@
+{
+  "outside": [],
+  "roomDoorHits": [],
+  "cabinetDoorHits": [],
+  "routes": [
+    {
+      "use": "closed",
+      "diameterMm": 600,
+      "start": [
+        3.1,
+        5.07
+      ],
+      "startFree": true,
+      "targets": [
+        {
+          "name": "upperBedside",
+          "point": [
+            1.82,
+            2.88
+          ],
+          "free": true,
+          "connected": true
+        },
+        {
+          "name": "lowerBedside",
+          "point": [
+            1.82,
+            5.07
+          ],
+          "free": true,
+          "connected": true
+        }
+      ]
+    },
+    {
+      "use": "closed",
+      "diameterMm": 700,
+      "start": [
+        3.1,
+        5.07
+      ],
+      "startFree": false,
+      "targets": [
+        {
+          "name": "upperBedside",
+          "point": [
+            1.82,
+            2.88
+          ],
+          "free": false,
+          "connected": false
+        },
+        {
+          "name": "lowerBedside",
+          "point": [
+            1.82,
+            5.07
+          ],
+          "free": false,
+          "connected": false
+        }
+      ]
+    },
+    {
+      "use": "open",
+      "diameterMm": 600,
+      "start": [
+        3.1,
+        5.07
+      ],
+      "startFree": true,
+      "targets": [
+        {
+          "name": "upperBedside",
+          "point": [
+            1.82,
+            2.88
+          ],
+          "free": true,
+          "connected": true
+        },
+        {
+          "name": "lowerBedside",
+          "point": [
+            1.82,
+            5.07
+          ],
+          "free": false,
+          "connected": false
+        }
+      ]
+    },
+    {
+      "use": "open",
+      "diameterMm": 700,
+      "start": [
+        3.1,
+        5.07
+      ],
+      "startFree": false,
+      "targets": [
+        {
+          "name": "upperBedside",
+          "point": [
+            1.82,
+            2.88
+          ],
+          "free": false,
+          "connected": false
+        },
+        {
+          "name": "lowerBedside",
+          "point": [
+            1.82,
+            5.07
+          ],
+          "free": false,
+          "connected": false
+        }
+      ]
+    },
+    {
+      "use": "occupied",
+      "diameterMm": 600,
+      "start": [
+        3.1,
+        5.07
+      ],
+      "startFree": true,
+      "targets": [
+        {
+          "name": "upperBedside",
+          "point": [
+            1.82,
+            2.88
+          ],
+          "free": true,
+          "connected": true
+        },
+        {
+          "name": "lowerBedside",
+          "point": [
+            1.82,
+            5.07
+          ],
+          "free": false,
+          "connected": false
+        }
+      ]
+    },
+    {
+      "use": "occupied",
+      "diameterMm": 700,
+      "start": [
+        3.1,
+        5.07
+      ],
+      "startFree": false,
+      "targets": [
+        {
+          "name": "upperBedside",
+          "point": [
+            1.82,
+            2.88
+          ],
+          "free": false,
+          "connected": false
+        },
+        {
+          "name": "lowerBedside",
+          "point": [
+            1.82,
+            5.07
+          ],
+          "free": false,
+          "connected": false
+        }
+      ]
+    }
+  ],
+  "frameMm": [
+    2030,
+    260,
+    1540
+  ],
+  "mattressMm": [
+    2000,
+    230,
+    1500
+  ],
+  "headback": 0.8049999999999999,
+  "headZ": [
+    3.1999999999999993,
+    4.76
+  ],
+  "lowerGapMm": 640,
+  "footGapAtOpenDoorMm": 677,
+  "storageWidthMm": 580,
+  "restored": true,
+  "errors": [],
+  "scope": "Conditional study, not selected layout or construction approval; occupancy 650x600mm, 10mm grid and 32 circular probes; no real product, wall anchorage, night-light lux or complete source calibration"
+}

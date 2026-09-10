@@ -1,0 +1,124 @@
+{
+  "screen": [
+    1.8819999694824219,
+    1.059000015258789,
+    0
+  ],
+  "screenPosition": [
+    0,
+    1.44,
+    -0.12
+  ],
+  "outside": [],
+  "supports": [
+    {
+      "name": "tv-decor-lake-side",
+      "bottom": 0.966
+    },
+    {
+      "name": "tv-decor-dining-side",
+      "bottom": 1.4539999998137354
+    },
+    {
+      "name": "tv-display-book",
+      "bottom": 1.4540000047683717,
+      "supported": true,
+      "gap": 5.155801785505787e-9
+    },
+    {
+      "name": "tv-display-book",
+      "bottom": 1.4539999972581863,
+      "supported": true,
+      "gap": -2.354383576985697e-9
+    },
+    {
+      "name": "tv-display-book",
+      "bottom": 1.4539999971985818,
+      "supported": true,
+      "gap": -2.4139881205087477e-9
+    },
+    {
+      "name": "tv-display-book",
+      "bottom": 0.9660000047683717,
+      "supported": true,
+      "gap": 5.155801896528089e-9
+    },
+    {
+      "name": "tv-display-book",
+      "bottom": 0.9659999972581863,
+      "supported": true,
+      "gap": -2.3543834659633944e-9
+    },
+    {
+      "name": "tv-display-book",
+      "bottom": 0.9659999971985818,
+      "supported": true,
+      "gap": -2.4139880094864452e-9
+    }
+  ],
+  "lightNames": [
+    "tv-display-light-left-1",
+    "tv-display-light-left-2",
+    "tv-display-light-left-3",
+    "tv-display-light-left-4",
+    "tv-display-light-right-1",
+    "tv-display-light-right-2",
+    "tv-display-light-right-3",
+    "tv-display-light-right-4"
+  ],
+  "glass": [],
+  "doorHidden": true,
+  "remainingDoorObstacles": [],
+  "dryPosition": [
+    3.25499999673292,
+    0.9800000007860362,
+    6.97
+  ],
+  "preserved": [
+    {
+      "name": "bath1-vanity",
+      "visible": true
+    },
+    {
+      "name": "bath1-heater",
+      "visible": true
+    },
+    {
+      "name": "bath1-aluminum-ceiling",
+      "visible": true
+    }
+  ],
+  "tvStandBlockedBy": null,
+  "squatVisible": true,
+  "entryDoorVisible": true,
+  "partitionRemoved": true,
+  "tvBounds": {
+    "scheme": "双侧浅展示柜＋中间85寸电视＋下部原封闭低柜",
+    "width": 3.3,
+    "depth": 0.254,
+    "screenMoved": false,
+    "wallCut": false,
+    "fixingVerified": false,
+    "driver": "低柜内独立可检修低压驱动与走线预留；未接现场回路"
+  },
+  "ui": [
+    {
+      "width": 1440,
+      "walkPosition": [
+        1.2799999999999998,
+        1.6,
+        6.639999999999999
+      ]
+    },
+    {
+      "width": 390,
+      "walkPosition": [
+        1.2799999999999998,
+        1.6,
+        6.639999999999999
+      ]
+    }
+  ],
+  "errors": [],
+  "limits": "Local model/accessibility checks, not waterproofing, cabinet fixing or final whole-home acceptance."
+}

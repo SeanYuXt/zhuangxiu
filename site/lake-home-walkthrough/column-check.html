@@ -1,0 +1,27 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>柱位纠正 · 原推拉窗分界</title><style>
+*{box-sizing:border-box}body{margin:0;background:#f4f1ea;color:#373731;font:15px/1.7 'Microsoft YaHei',sans-serif}header{padding:20px 32px;border-bottom:1px solid #ddd8cd}h1{margin:0;font-size:24px}p{margin:8px 0}main{max-width:1200px;margin:auto;display:grid;grid-template-columns:1fr 300px;gap:20px;padding:24px}svg,aside{background:#fbfaf6;border:1px solid #ddd8cd;border-radius:16px;width:100%}aside{padding:22px}a{color:#5c6255}small{color:#77766c}.legend{margin:14px 0}b{font-weight:600}@media(max-width:760px){main{grid-template-columns:1fr}header{padding:16px}svg{min-height:460px}}
+</style></head><body><header><h1>柱位纠正：柱在原推拉窗分界处</h1><p>外侧是原阳台护栏／拟封玻璃线，中间保留约 1.5 米阳台空间。</p></header><main><svg id="plan" viewBox="570 60 780 750" role="img" aria-label="阳台柱位纠正，旧柱位靠窗，新柱位距原护栏线约1.5米"></svg><aside><b>本次依据</b><p>用户明确：柱不是贴着外侧护栏，而在原推拉窗拆除处，距离原护栏差不多 1.5 米。</p><div class="legend">橄榄色实框：纠正后的柱位<br>灰色虚框：此前错误位置<br>细虚线：随柱调整的双翼桌示意</div><p>此图使用现有户型墙线，只检查柱、护栏和阳台的关系，不另画一套房型。</p><small>1.5 米暂按护栏线至柱中心示意；柱边净距、450 mm 占位截面和左右位置仍待复尺。周边家具需重排，旧效果图不是本次柱位的有效验证。</small><p><a href="./index.html">查看先前网页（柱位尚未同步）</a></p></aside></main><script type="module">
+import {notes,columnCorrection as c} from './plan.js';
+import {designWalls as walls} from './balcony-side-infill.js';
+import {livingRevision as revision} from './design-spec.js';
+if(!new URLSearchParams(location.search).has('plan'))location.replace('./column-view.html');
+const svg=document.querySelector('#plan'),ns='http://www.w3.org/2000/svg';
+function el(tag,attrs,text){const n=document.createElementNS(ns,tag);for(const [k,v]of Object.entries(attrs))n.setAttribute(k,v);if(text)n.textContent=text;svg.append(n);return n;}
+el('rect',{x:624,y:130,width:632,height:150,fill:'#e6e9df'});
+for(const w of walls){if(Math.min(w.a[0],w.b[0])<600||Math.max(w.a[0],w.b[0])>1260)continue;el('line',{x1:w.a[0],y1:w.a[1],x2:w.b[0],y2:w.b[1],stroke:w.glass?'#98b4b8':'#74776f','stroke-width':w.glass?4:12});}
+el('text',{x:940,y:105,'text-anchor':'middle','font-size':19,fill:'#526a6f'},'原阳台护栏／拟封玻璃线');
+const [x,y]=c.point,half=revision.columnWidth*50,halfDepth=revision.columnDepth*50;
+el('rect',{x:notes.column.point[0]-half,y:notes.column.point[1]-half,width:half*2,height:half*2,fill:'none',stroke:'#a3a39c','stroke-dasharray':'6 4','stroke-width':2});
+el('text',{x:notes.column.point[0]+35,y:notes.column.point[1]+5,'font-size':15,fill:'#8a877e'},'旧位置：距护栏仅约0.29m');
+el('line',{x1:624,y1:y,x2:1256,y2:y,stroke:'#a4a894','stroke-dasharray':'8 6'});
+el('rect',{x:x-half,y:y-halfDepth,width:half*2,height:halfDepth*2,fill:'#5c6255',stroke:'#43493c','stroke-width':2});
+for(const [side,direction] of [['left',-1],['right',1]]){const length=revision.wingLengths[side]*100;el('rect',{x:direction<0?x-half-revision.columnFinish.side*100-length:x+half+revision.columnFinish.side*100,y:y+revision.barOffsetZ*100-revision.barDepth*50,width:length,height:revision.barDepth*100,fill:'none',stroke:'#777d6d','stroke-dasharray':'5 4','stroke-width':2});}
+document.querySelector('aside small').textContent='护栏线至柱中心暂按约1.5m；柱宽按400mm上限试排，450mm进深待复尺。左右桌翼各1.3m、各两席；洗烘开门操作尚未验收。';
+el('text',{x:940,y:345,'text-anchor':'middle','font-size':20,fill:'#4b5144'},'原推拉窗位置 · 保留柱');
+el('line',{x1:690,y1:130,x2:690,y2:y,stroke:'#5c6255','stroke-width':2});
+for(const yy of [130,y])el('line',{x1:680,y1:yy,x2:700,y2:yy,stroke:'#5c6255','stroke-width':2});
+el('text',{x:705,y:220,'font-size':20,fill:'#4b5144'},'约 1.5 m');
+el('text',{x:940,y:420,'text-anchor':'middle','font-size':22,fill:'#74776f'},'客餐厅一侧');
+el('text',{x:940,y:462,'text-anchor':'middle','font-size':16,fill:'#8a877e'},'先锁定柱位关系，再排家具与通道');
+window.columnCheck={oldDistance:(notes.column.point[1]-c.railingY)/100,newDistance:(y-c.railingY)/100,pendingFurniture:c.pendingFurniture};
+</script></body></html>

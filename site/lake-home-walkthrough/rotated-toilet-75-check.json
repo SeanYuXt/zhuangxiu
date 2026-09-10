@@ -1,0 +1,23 @@
+{
+  "frontClearanceNominalM": 0.29000000000000004,
+  "mirrorRay": {
+    "eye": [
+      1.25,
+      1.6,
+      1.025
+    ],
+    "object": [
+      0.55,
+      0.73,
+      1.85
+    ],
+    "hit": [
+      2.012,
+      1.3019154676258993,
+      1.3076663669064748
+    ],
+    "withinMirror": true
+  },
+  "status": "trial fails front clearance; rotation does not eliminate mirror reflection",
+  "precision": "Planar geometric reflection, not material render; no obstruction along these segments in trial."
+}

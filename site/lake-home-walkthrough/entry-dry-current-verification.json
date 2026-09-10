@@ -1,0 +1,190 @@
+{
+  "key": "integrated",
+  "spec": {
+    "label": "当前 · 镜柜移门干区",
+    "width": 0.65,
+    "depth": 0.4,
+    "shift": 0.11,
+    "benchShift": 0.04,
+    "benchBackShift": 0.06,
+    "storage": "sliding",
+    "key": "integrated",
+    "x": 3.2399999999999998,
+    "backFace": 7.17,
+    "northFace": 5.51,
+    "minX": 2.61,
+    "maxX": 3.6100000000000003,
+    "front": 6.77,
+    "cabinet": {
+      "x0": 2.9149999999999996,
+      "z0": 6.77,
+      "x1": 3.565,
+      "z1": 7.17
+    },
+    "screen": {
+      "x0": 3.565,
+      "z0": 6.77,
+      "x1": 3.5949999999999998,
+      "z1": 7.17
+    },
+    "standing": {
+      "x0": 2.94,
+      "z0": 6.17,
+      "x1": 3.5399999999999996,
+      "z1": 6.77
+    },
+    "drawer": {
+      "x0": 2.9399999999999995,
+      "z0": 6.449999999999999,
+      "x1": 3.54,
+      "z1": 6.77
+    },
+    "useAssumption": "600 × 600 mm 洗漱站位；柜门横移不占过道；非人体/无障碍认证",
+    "clearClosed": 1.2599999999999998,
+    "clearOccupied": 0.6600000000000001,
+    "widthBasis": "公卫外墙面至上方卧室/厨房分墙侧面的投影对齐范围；右侧干区没有据此新增墙。原图对应印刷段为 1000 mm，未作现场复尺",
+    "approved": false,
+    "plumbingVerified": false
+  },
+  "benchWidth": 0.9700000286102295,
+  "benchShift": 0.040000000000000036,
+  "benchBackShift": 0.05999999999999961,
+  "benchSideGap": 0.0499999860301612,
+  "shoeGap": 0.0449999856948855,
+  "benchWallGap": 0.010000001192093322,
+  "clashes": [],
+  "sliderBounds": [
+    {
+      "open": false,
+      "min": [
+        2.9149999938011164,
+        1.19209286886246e-9,
+        6.7699999970197675
+      ],
+      "max": [
+        3.594999999664724,
+        1.9600000003799796,
+        7.170000002980232
+      ],
+      "storageFrontSpan": 0.6500000123977667,
+      "mirrorFrontSpan": 0.5850000119209291
+    },
+    {
+      "open": true,
+      "min": [
+        2.9149999989569184,
+        1.19209286886246e-9,
+        6.7699999970197675
+      ],
+      "max": [
+        3.594999999664724,
+        1.9600000003799796,
+        7.170000002980232
+      ],
+      "storageFrontSpan": 0.3500000123977669,
+      "mirrorFrontSpan": 0.3220000119209292
+    }
+  ],
+  "jointUse": [
+    {
+      "washOccupied": true,
+      "benchUseDepth": 0,
+      "benchUse": null,
+      "reached": true,
+      "visited": 15313,
+      "diameter": 0.6,
+      "grid": 0.01,
+      "scope": "local approach with room doors in current open position; 850mm is a conservative forward-bend envelope, not measured occupants"
+    },
+    {
+      "washOccupied": true,
+      "benchUseDepth": 0.65,
+      "benchUse": {
+        "x0": 3.83,
+        "x1": 4.43,
+        "z0": 6.120000001192092,
+        "z1": 6.770000001192092
+      },
+      "reached": true,
+      "visited": 10027,
+      "diameter": 0.6,
+      "grid": 0.01,
+      "scope": "local approach with room doors in current open position; 850mm is a conservative forward-bend envelope, not measured occupants"
+    },
+    {
+      "washOccupied": true,
+      "benchUseDepth": 0.85,
+      "benchUse": {
+        "x0": 3.83,
+        "x1": 4.43,
+        "z0": 5.920000001192093,
+        "z1": 6.770000001192092
+      },
+      "reached": false,
+      "visited": 6734,
+      "diameter": 0.6,
+      "grid": 0.01,
+      "scope": "local approach with room doors in current open position; 850mm is a conservative forward-bend envelope, not measured occupants"
+    }
+  ],
+  "leafCount": 6,
+  "skirting": {
+    "before": 88,
+    "after": 88,
+    "rootCount": 1,
+    "cutbacks": [
+      {
+        "wallIndex": 3,
+        "side": -1,
+        "cabinet": "bed1-wardrobe",
+        "start": 1.4940000069141395,
+        "end": 2.1059999930858617
+      },
+      {
+        "wallIndex": 8,
+        "side": -1,
+        "cabinet": "balcony-care-cabinet",
+        "start": 0.13000000038743012,
+        "end": 1.4499999996125699
+      },
+      {
+        "wallIndex": 21,
+        "side": -1,
+        "cabinet": "flush-entry-cabinet",
+        "start": 3.9460000017657872,
+        "end": 5.573999998234212
+      },
+      {
+        "wallIndex": 21,
+        "side": -1,
+        "cabinet": "dry-waterproof-side",
+        "start": 2.8550000003352762,
+        "end": 2.9049999996647236
+      },
+      {
+        "wallIndex": 21,
+        "side": -1,
+        "cabinet": "flush-sideboard",
+        "start": 6.777,
+        "end": 10.690000047683716
+      },
+      {
+        "wallIndex": 24,
+        "side": -1,
+        "cabinet": "bed1-wardrobe",
+        "start": 0.125,
+        "end": 0.7135000003427265
+      },
+      {
+        "wallIndex": 28,
+        "side": 1,
+        "cabinet": "balcony-laundry-cabinet",
+        "start": 0,
+        "end": 0.41000000010430804
+      }
+    ],
+    "hits": []
+  },
+  "errors": [],
+  "scope": "91 sampled shoe-door poses; actual current slider transforms, cabinet skirting cutbacks, PC and 390px touch-sized controls. Not product, construction or ergonomic certification."
+}

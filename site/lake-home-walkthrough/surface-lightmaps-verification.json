@@ -1,0 +1,624 @@
+{
+  "state": {
+    "active": true,
+    "valid": true,
+    "requested": true,
+    "receivers": 60,
+    "atlases": 5,
+    "source": "ff101ba3a24a8eb8c99f2fbda3bdbddb84878f191834a5865615c2ffe288361d"
+  },
+  "receivers": [
+    {
+      "name": "window-bed1-0-lower-boundary",
+      "positions": 24,
+      "uv1": 24,
+      "active": true,
+      "intensity": 3.141592653589793,
+      "roughness": 0.65,
+      "originalRoughness": 0.65
+    },
+    {
+      "name": "mesh_1",
+      "positions": 24,
+      "uv1": 24,
+      "active": true,
+      "intensity": 3.141592653589793,
+      "roughness": 0.65,
+      "originalRoughness": 0.65
+    },
+    {
+      "name": "window-bed1-1-lower-boundary",
+      "positions": 24,
+      "uv1": 24,
+      "active": true,
+      "intensity": 3.141592653589793,
+      "roughness": 0.65,
+      "originalRoughness": 0.65
+    },
+    {
+      "name": "mesh_3",
+      "positions": 24,
+      "uv1": 24,
+      "active": true,
+      "intensity": 3.141592653589793,
+      "roughness": 0.65,
+      "originalRoughness": 0.65
+    },
+    {
+      "name": "mesh_4",
+      "positions": 24,
+      "uv1": 24,
+      "active": true,
+      "intensity": 3.141592653589793,
+      "roughness": 0.65,
+      "originalRoughness": 0.65
+    },
+    {
+      "name": "mesh_5",
+      "positions": 24,
+      "uv1": 24,
+      "active": true,
+      "intensity": 3.141592653589793,
+      "roughness": 0.65,
+      "originalRoughness": 0.65
+    },
+    {
+      "name": "mesh_6",
+      "positions": 24,
+      "uv1": 24,
+      "active": true,
+      "intensity": 3.141592653589793,
+      "roughness": 0.65,
+      "originalRoughness": 0.65
+    },
+    {
+      "name": "mesh_7",
+      "positions": 24,
+      "uv1": 24,
+      "active": true,
+      "intensity": 3.141592653589793,
+      "roughness": 0.65,
+      "originalRoughness": 0.65
+    },
+    {
+      "name": "mesh_8",
+      "positions": 24,
+      "uv1": 24,
+      "active": true,
+      "intensity": 3.141592653589793,
+      "roughness": 0.65,
+      "originalRoughness": 0.65
+    },
+    {
+      "name": "mesh_9",
+      "positions": 24,
+      "uv1": 24,
+      "active": true,
+      "intensity": 3.141592653589793,
+      "roughness": 0.65,
+      "originalRoughness": 0.65
+    },
+    {
+      "name": "mesh_10",
+      "positions": 24,
+      "uv1": 24,
+      "active": true,
+      "intensity": 3.141592653589793,
+      "roughness": 0.65,
+      "originalRoughness": 0.65
+    },
+    {
+      "name": "mesh_11",
+      "positions": 24,
+      "uv1": 24,
+      "active": true,
+      "intensity": 3.141592653589793,
+      "roughness": 0.65,
+      "originalRoughness": 0.65
+    },
+    {
+      "name": "mesh_12",
+      "positions": 24,
+      "uv1": 24,
+      "active": true,
+      "intensity": 3.141592653589793,
+      "roughness": 0.65,
+      "originalRoughness": 0.65
+    },
+    {
+      "name": "mesh_13",
+      "positions": 24,
+      "uv1": 24,
+      "active": true,
+      "intensity": 3.141592653589793,
+      "roughness": 0.65,
+      "originalRoughness": 0.65
+    },
+    {
+      "name": "mesh_14",
+      "positions": 24,
+      "uv1": 24,
+      "active": true,
+      "intensity": 3.141592653589793,
+      "roughness": 0.65,
+      "originalRoughness": 0.65
+    },
+    {
+      "name": "mesh_15",
+      "positions": 24,
+      "uv1": 24,
+      "active": true,
+      "intensity": 3.141592653589793,
+      "roughness": 0.65,
+      "originalRoughness": 0.65
+    },
+    {
+      "name": "mesh_16",
+      "positions": 24,
+      "uv1": 24,
+      "active": true,
+      "intensity": 3.141592653589793,
+      "roughness": 0.65,
+      "originalRoughness": 0.65
+    },
+    {
+      "name": "mesh_17",
+      "positions": 24,
+      "uv1": 24,
+      "active": true,
+      "intensity": 3.141592653589793,
+      "roughness": 0.65,
+      "originalRoughness": 0.65
+    },
+    {
+      "name": "mesh_18",
+      "positions": 24,
+      "uv1": 24,
+      "active": true,
+      "intensity": 3.141592653589793,
+      "roughness": 0.65,
+      "originalRoughness": 0.65
+    },
+    {
+      "name": "mesh_19",
+      "positions": 24,
+      "uv1": 24,
+      "active": true,
+      "intensity": 3.141592653589793,
+      "roughness": 0.65,
+      "originalRoughness": 0.65
+    },
+    {
+      "name": "mesh_20",
+      "positions": 24,
+      "uv1": 24,
+      "active": true,
+      "intensity": 3.141592653589793,
+      "roughness": 0.65,
+      "originalRoughness": 0.65
+    },
+    {
+      "name": "window-master-13-lower-boundary",
+      "positions": 24,
+      "uv1": 24,
+      "active": true,
+      "intensity": 3.141592653589793,
+      "roughness": 0.65,
+      "originalRoughness": 0.65
+    },
+    {
+      "name": "mesh_22",
+      "positions": 24,
+      "uv1": 24,
+      "active": true,
+      "intensity": 3.141592653589793,
+      "roughness": 0.65,
+      "originalRoughness": 0.65
+    },
+    {
+      "name": "window-master-14-lower-boundary",
+      "positions": 24,
+      "uv1": 24,
+      "active": true,
+      "intensity": 3.141592653589793,
+      "roughness": 0.65,
+      "originalRoughness": 0.65
+    },
+    {
+      "name": "mesh_24",
+      "positions": 24,
+      "uv1": 24,
+      "active": true,
+      "intensity": 3.141592653589793,
+      "roughness": 0.65,
+      "originalRoughness": 0.65
+    },
+    {
+      "name": "mesh_25",
+      "positions": 24,
+      "uv1": 24,
+      "active": true,
+      "intensity": 3.141592653589793,
+      "roughness": 0.65,
+      "originalRoughness": 0.65
+    },
+    {
+      "name": "mesh_26",
+      "positions": 24,
+      "uv1": 24,
+      "active": true,
+      "intensity": 3.141592653589793,
+      "roughness": 0.65,
+      "originalRoughness": 0.65
+    },
+    {
+      "name": "mesh_27",
+      "positions": 24,
+      "uv1": 24,
+      "active": true,
+      "intensity": 3.141592653589793,
+      "roughness": 0.65,
+      "originalRoughness": 0.65
+    },
+    {
+      "name": "window-bed3-18-lower-boundary",
+      "positions": 24,
+      "uv1": 24,
+      "active": true,
+      "intensity": 3.141592653589793,
+      "roughness": 0.65,
+      "originalRoughness": 0.65
+    },
+    {
+      "name": "mesh_29",
+      "positions": 24,
+      "uv1": 24,
+      "active": true,
+      "intensity": 3.141592653589793,
+      "roughness": 0.65,
+      "originalRoughness": 0.65
+    },
+    {
+      "name": "mesh_30",
+      "positions": 24,
+      "uv1": 24,
+      "active": true,
+      "intensity": 3.141592653589793,
+      "roughness": 0.65,
+      "originalRoughness": 0.65
+    },
+    {
+      "name": "mesh_31",
+      "positions": 24,
+      "uv1": 24,
+      "active": true,
+      "intensity": 3.141592653589793,
+      "roughness": 0.65,
+      "originalRoughness": 0.65
+    },
+    {
+      "name": "mesh_32",
+      "positions": 24,
+      "uv1": 24,
+      "active": true,
+      "intensity": 3.141592653589793,
+      "roughness": 0.65,
+      "originalRoughness": 0.65
+    },
+    {
+      "name": "mesh_33",
+      "positions": 24,
+      "uv1": 24,
+      "active": true,
+      "intensity": 3.141592653589793,
+      "roughness": 0.65,
+      "originalRoughness": 0.65
+    },
+    {
+      "name": "mesh_34",
+      "positions": 24,
+      "uv1": 24,
+      "active": true,
+      "intensity": 3.141592653589793,
+      "roughness": 0.65,
+      "originalRoughness": 0.65
+    },
+    {
+      "name": "mesh_35",
+      "positions": 24,
+      "uv1": 24,
+      "active": true,
+      "intensity": 3.141592653589793,
+      "roughness": 0.65,
+      "originalRoughness": 0.65
+    },
+    {
+      "name": "mesh_36",
+      "positions": 24,
+      "uv1": 24,
+      "active": true,
+      "intensity": 3.141592653589793,
+      "roughness": 0.65,
+      "originalRoughness": 0.65
+    },
+    {
+      "name": "mesh_37",
+      "positions": 24,
+      "uv1": 24,
+      "active": true,
+      "intensity": 3.141592653589793,
+      "roughness": 0.65,
+      "originalRoughness": 0.65
+    },
+    {
+      "name": "mesh_38",
+      "positions": 24,
+      "uv1": 24,
+      "active": true,
+      "intensity": 3.141592653589793,
+      "roughness": 0.65,
+      "originalRoughness": 0.65
+    },
+    {
+      "name": "mesh_39",
+      "positions": 24,
+      "uv1": 24,
+      "active": true,
+      "intensity": 3.141592653589793,
+      "roughness": 0.65,
+      "originalRoughness": 0.65
+    },
+    {
+      "name": "mesh_40",
+      "positions": 24,
+      "uv1": 24,
+      "active": true,
+      "intensity": 3.141592653589793,
+      "roughness": 0.65,
+      "originalRoughness": 0.65
+    },
+    {
+      "name": "mesh_41",
+      "positions": 24,
+      "uv1": 24,
+      "active": true,
+      "intensity": 3.141592653589793,
+      "roughness": 0.65,
+      "originalRoughness": 0.65
+    },
+    {
+      "name": "mesh_42",
+      "positions": 24,
+      "uv1": 24,
+      "active": true,
+      "intensity": 3.141592653589793,
+      "roughness": 0.65,
+      "originalRoughness": 0.65
+    },
+    {
+      "name": "mesh_43",
+      "positions": 24,
+      "uv1": 24,
+      "active": true,
+      "intensity": 3.141592653589793,
+      "roughness": 0.65,
+      "originalRoughness": 0.65
+    },
+    {
+      "name": "mesh_44",
+      "positions": 24,
+      "uv1": 24,
+      "active": true,
+      "intensity": 3.141592653589793,
+      "roughness": 0.65,
+      "originalRoughness": 0.65
+    },
+    {
+      "name": "mesh_45",
+      "positions": 24,
+      "uv1": 24,
+      "active": true,
+      "intensity": 3.141592653589793,
+      "roughness": 0.65,
+      "originalRoughness": 0.65
+    },
+    {
+      "name": "mesh_46",
+      "positions": 24,
+      "uv1": 24,
+      "active": true,
+      "intensity": 3.141592653589793,
+      "roughness": 0.65,
+      "originalRoughness": 0.65
+    },
+    {
+      "name": "mesh_47",
+      "positions": 24,
+      "uv1": 24,
+      "active": true,
+      "intensity": 3.141592653589793,
+      "roughness": 0.65,
+      "originalRoughness": 0.65
+    },
+    {
+      "name": "mesh_48",
+      "positions": 24,
+      "uv1": 24,
+      "active": true,
+      "intensity": 3.141592653589793,
+      "roughness": 0.65,
+      "originalRoughness": 0.65
+    },
+    {
+      "name": "mesh_49",
+      "positions": 24,
+      "uv1": 24,
+      "active": true,
+      "intensity": 3.141592653589793,
+      "roughness": 0.65,
+      "originalRoughness": 0.65
+    },
+    {
+      "name": "mesh_50",
+      "positions": 24,
+      "uv1": 24,
+      "active": true,
+      "intensity": 3.141592653589793,
+      "roughness": 0.65,
+      "originalRoughness": 0.65
+    },
+    {
+      "name": "mesh_51",
+      "positions": 24,
+      "uv1": 24,
+      "active": true,
+      "intensity": 3.141592653589793,
+      "roughness": 0.65,
+      "originalRoughness": 0.65
+    },
+    {
+      "name": "mesh_52",
+      "positions": 24,
+      "uv1": 24,
+      "active": true,
+      "intensity": 3.141592653589793,
+      "roughness": 0.65,
+      "originalRoughness": 0.65
+    },
+    {
+      "name": "mesh_53",
+      "positions": 24,
+      "uv1": 24,
+      "active": true,
+      "intensity": 3.141592653589793,
+      "roughness": 0.65,
+      "originalRoughness": 0.65
+    },
+    {
+      "name": "mesh_54",
+      "positions": 24,
+      "uv1": 24,
+      "active": true,
+      "intensity": 3.141592653589793,
+      "roughness": 0.65,
+      "originalRoughness": 0.65
+    },
+    {
+      "name": "mesh_55",
+      "positions": 24,
+      "uv1": 24,
+      "active": true,
+      "intensity": 3.141592653589793,
+      "roughness": 0.65,
+      "originalRoughness": 0.65
+    },
+    {
+      "name": "mesh_56",
+      "positions": 24,
+      "uv1": 24,
+      "active": true,
+      "intensity": 3.141592653589793,
+      "roughness": 0.65,
+      "originalRoughness": 0.65
+    },
+    {
+      "name": "mesh_57",
+      "positions": 24,
+      "uv1": 24,
+      "active": true,
+      "intensity": 3.141592653589793,
+      "roughness": 0.65,
+      "originalRoughness": 0.65
+    },
+    {
+      "name": "mesh_58",
+      "positions": 24,
+      "uv1": 24,
+      "active": true,
+      "intensity": 3.141592653589793,
+      "roughness": 0.65,
+      "originalRoughness": 0.65
+    },
+    {
+      "name": "800x800-cut-porcelain",
+      "positions": 3630,
+      "uv1": 3630,
+      "active": true,
+      "intensity": 3.141592653589793,
+      "roughness": 0.72,
+      "originalRoughness": 0.72
+    }
+  ],
+  "textures": [
+    {
+      "width": 2048,
+      "height": 2048,
+      "channel": 1
+    },
+    {
+      "width": 2048,
+      "height": 2048,
+      "channel": 1
+    },
+    {
+      "width": 2048,
+      "height": 2048,
+      "channel": 1
+    },
+    {
+      "width": 2048,
+      "height": 2048,
+      "channel": 1
+    },
+    {
+      "width": 2048,
+      "height": 2048,
+      "channel": 1
+    }
+  ],
+  "dynamic": {
+    "changed": {
+      "active": false,
+      "valid": false,
+      "requested": true,
+      "receivers": 60,
+      "atlases": 5,
+      "source": "ff101ba3a24a8eb8c99f2fbda3bdbddb84878f191834a5865615c2ffe288361d"
+    },
+    "fallback": true,
+    "restored": {
+      "active": true,
+      "valid": true,
+      "requested": true,
+      "receivers": 60,
+      "atlases": 5,
+      "source": "ff101ba3a24a8eb8c99f2fbda3bdbddb84878f191834a5865615c2ffe288361d"
+    }
+  },
+  "finishChange": {
+    "changed": {
+      "active": false,
+      "valid": false,
+      "requested": true,
+      "receivers": 60,
+      "atlases": 5,
+      "source": "ff101ba3a24a8eb8c99f2fbda3bdbddb84878f191834a5865615c2ffe288361d"
+    },
+    "preserved": true,
+    "restored": {
+      "active": true,
+      "valid": true,
+      "requested": true,
+      "receivers": 60,
+      "atlases": 5,
+      "source": "ff101ba3a24a8eb8c99f2fbda3bdbddb84878f191834a5865615c2ffe288361d"
+    }
+  },
+  "stale": {
+    "active": false,
+    "valid": false,
+    "reason": "Current geometry/materials differ from the baked scene"
+  },
+  "errors": [],
+  "limits": "Fixed shell only, viewport simulation; not physical phone performance, dynamic GI or full-home visual acceptance."
+}

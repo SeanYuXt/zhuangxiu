@@ -1,0 +1,206 @@
+{
+  "basin": {
+    "edges": 0,
+    "vertices": 864,
+    "down": [
+      {
+        "name": "bath2-glazed-basin-shell",
+        "local": [
+          0.1200000000000001,
+          0.7209327511693757,
+          0.015000000000000568
+        ],
+        "normal": [
+          -0.07689260422729119,
+          0.9970390692470802,
+          0.0007885493398187502
+        ]
+      }
+    ],
+    "under": [
+      {
+        "name": "bath2-glazed-basin-shell",
+        "local": [
+          0.1200000000000001,
+          0.7144833013464711,
+          0.015000000000000568
+        ],
+        "normal": [
+          0.07719807576026458,
+          -0.9970137331155235,
+          -0.002018186800071098
+        ]
+      }
+    ],
+    "drainHole": [],
+    "mouth": {
+      "opening": [
+        0.45,
+        0.28
+      ],
+      "depth": 0.147,
+      "wallThickness": 0.006,
+      "roundedCorners": true,
+      "productSelected": false
+    }
+  },
+  "supports": [
+    {
+      "name": "kitchen-oak-cutting-board",
+      "min": [
+        3.859999997615814,
+        0.9000000000596047,
+        2.8250000041723253
+      ],
+      "max": [
+        4.230000002384186,
+        0.9219999999403954,
+        3.114999995827675
+      ],
+      "points": [
+        {
+          "supported": true,
+          "gap": 5.066395081243513e-10,
+          "counter": "kitchen-west-worktop"
+        },
+        {
+          "supported": true,
+          "gap": 5.066395081243513e-10,
+          "counter": "kitchen-west-worktop"
+        },
+        {
+          "supported": true,
+          "gap": 5.066395081243513e-10,
+          "counter": "kitchen-west-worktop"
+        },
+        {
+          "supported": true,
+          "gap": 5.066395081243513e-10,
+          "counter": "kitchen-west-worktop"
+        }
+      ]
+    },
+    {
+      "name": "kitchen-wash-tray-bottom",
+      "min": [
+        5.324999994635582,
+        0.8999999998100102,
+        2.134999999701977
+      ],
+      "max": [
+        5.595000005364418,
+        0.9080000001899898,
+        2.2750000002980233
+      ],
+      "points": [
+        {
+          "supported": true,
+          "gap": 2.5704505191015414e-10,
+          "counter": "kitchen-sink-counter-side"
+        },
+        {
+          "supported": true,
+          "gap": 2.5704505191015414e-10,
+          "counter": "kitchen-sink-counter-side"
+        },
+        {
+          "supported": true,
+          "gap": 2.5704505191015414e-10,
+          "counter": "kitchen-sink-counter-side"
+        },
+        {
+          "supported": true,
+          "gap": 2.5704505191015414e-10,
+          "counter": "kitchen-sink-counter-side"
+        }
+      ]
+    },
+    {
+      "name": "bath2-toothbrush-cup",
+      "min": [
+        12.476999999135732,
+        0.867,
+        2.1529999991357327
+      ],
+      "max": [
+        12.533000000864266,
+        0.9670000014901161,
+        2.2090000008642674
+      ],
+      "points": [
+        {
+          "supported": true,
+          "gap": 0.0010000000000000009,
+          "counter": "bath2-open-worktop"
+        },
+        {
+          "supported": true,
+          "gap": 0.0010000000000000009,
+          "counter": "bath2-open-worktop"
+        },
+        {
+          "supported": true,
+          "gap": 0.0010000000000000009,
+          "counter": "bath2-open-worktop"
+        },
+        {
+          "supported": true,
+          "gap": 0.0010000000000000009,
+          "counter": "bath2-open-worktop"
+        }
+      ]
+    }
+  ],
+  "sinkObstructions": [],
+  "accessoryMeshes": 25,
+  "selectedProduct": false,
+  "squareFrame": {
+    "aspect": 1,
+    "projected": 73880,
+    "extents": {
+      "x": 0.3927689159819192,
+      "y": 0.9387702222375466
+    },
+    "outside": []
+  },
+  "ui": [
+    {
+      "width": 1440,
+      "room": "kitchen",
+      "name": "kitchen-prep-everyday",
+      "selected": true
+    },
+    {
+      "width": 1440,
+      "room": "kitchen",
+      "name": "kitchen-wash-everyday",
+      "selected": true
+    },
+    {
+      "width": 1440,
+      "room": "bath2",
+      "name": "bath2-basin",
+      "selected": true
+    },
+    {
+      "width": 390,
+      "room": "kitchen",
+      "name": "kitchen-prep-everyday",
+      "selected": true
+    },
+    {
+      "width": 390,
+      "room": "kitchen",
+      "name": "kitchen-wash-everyday",
+      "selected": true
+    },
+    {
+      "width": 390,
+      "room": "bath2",
+      "name": "bath2-basin",
+      "selected": true
+    }
+  ],
+  "wrapper": "kitchen-prep-everyday",
+  "errors": []
+}

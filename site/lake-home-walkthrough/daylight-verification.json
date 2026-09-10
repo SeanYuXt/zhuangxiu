@@ -1,0 +1,242 @@
+{
+  "baseline": {},
+  "study": {
+    "validation": {
+      "rayReport": [
+        {
+          "id": "window-bed1-0-glass@0",
+          "room": "bed1",
+          "source": [
+            1.5250000000000004,
+            1.4,
+            -0.652499918937683
+          ],
+          "target": [
+            1.5250000000000004,
+            1.4,
+            3.77
+          ],
+          "normal": [
+            0,
+            0,
+            1
+          ],
+          "found": true,
+          "blockers": []
+        },
+        {
+          "id": "window-bed1-1-glass@1",
+          "room": "bed1",
+          "source": [
+            -1.3450000405311584,
+            1.4,
+            2.525
+          ],
+          "target": [
+            2.1,
+            1.4,
+            2.525
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ],
+          "found": true,
+          "blockers": []
+        },
+        {
+          "id": "window-kitchen-7-glass@2",
+          "room": "kitchen",
+          "source": [
+            4.71,
+            1.5,
+            0.55
+          ],
+          "target": [
+            4.71,
+            1.5,
+            3.8
+          ],
+          "normal": [
+            0,
+            0,
+            1
+          ],
+          "found": true,
+          "blockers": []
+        },
+        {
+          "id": "window-living-9-glass@3",
+          "room": "living",
+          "source": [
+            8.98,
+            1.37,
+            -5.272000145912171
+          ],
+          "target": [
+            8.98,
+            1.37,
+            2.1
+          ],
+          "normal": [
+            0,
+            0,
+            1
+          ],
+          "found": true,
+          "blockers": []
+        },
+        {
+          "id": "window-bath2-11-glass@4",
+          "room": "bath2",
+          "source": [
+            12.809999999999999,
+            1.5,
+            -0.51
+          ],
+          "target": [
+            12.809999999999999,
+            1.5,
+            2.74
+          ],
+          "normal": [
+            0,
+            0,
+            1
+          ],
+          "found": true,
+          "blockers": []
+        },
+        {
+          "id": "window-master-13-glass@5",
+          "room": "master",
+          "source": [
+            17.630000000000003,
+            1.4,
+            -1.3050000405311586
+          ],
+          "target": [
+            17.630000000000003,
+            1.4,
+            2.14
+          ],
+          "normal": [
+            0,
+            0,
+            1
+          ],
+          "found": true,
+          "blockers": []
+        },
+        {
+          "id": "window-master-14-glass@6",
+          "room": "master",
+          "source": [
+            20.907500081062317,
+            1.4,
+            1.7149999999999999
+          ],
+          "target": [
+            16.23,
+            1.4,
+            1.7149999999999999
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ],
+          "found": true,
+          "blockers": []
+        },
+        {
+          "id": "window-bed3-18-glass@7",
+          "room": "bed3",
+          "source": [
+            19.759999959468843,
+            1.4,
+            5.609999999999999
+          ],
+          "target": [
+            16.23,
+            1.4,
+            5.609999999999999
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ],
+          "found": true,
+          "blockers": []
+        },
+        {
+          "id": "bath1-frosted-glass@8",
+          "room": "bath1",
+          "source": [
+            -0.534,
+            1.5,
+            6.125
+          ],
+          "target": [
+            2.716,
+            1.5,
+            6.125
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ],
+          "found": true,
+          "blockers": []
+        },
+        {
+          "id": "bath1-frosted-glass@9",
+          "room": "bath1",
+          "source": [
+            -0.564,
+            1.5,
+            6.395
+          ],
+          "target": [
+            2.686,
+            1.5,
+            6.395
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ],
+          "found": true,
+          "blockers": []
+        }
+      ],
+      "before": {
+        "enabled": true,
+        "revision": 1,
+        "shadowUpdates": 9,
+        "assignment": "window-bath2-11-glass@4|window-kitchen-7-glass@2|window-living-9-glass@3",
+        "limits": "3 nearest shadowed window proxy sources, artistic direct fill; not GI, lux or phone performance certification"
+      },
+      "stable": {
+        "enabled": true,
+        "revision": 1,
+        "shadowUpdates": 9,
+        "assignment": "window-bath2-11-glass@4|window-kitchen-7-glass@2|window-living-9-glass@3",
+        "limits": "3 nearest shadowed window proxy sources, artistic direct fill; not GI, lux or phone performance certification"
+      },
+      "changed": {
+        "enabled": true,
+        "revision": 2,
+        "shadowUpdates": 12,
+        "assignment": "window-bath2-11-glass@4|window-kitchen-7-glass@2|window-living-9-glass@3",
+        "limits": "3 nearest shadowed window proxy sources, artistic direct fill; not GI, lux or phone performance certification"
+      },
+      "pool": 3
+    }
+  },
+  "errors": []
+}

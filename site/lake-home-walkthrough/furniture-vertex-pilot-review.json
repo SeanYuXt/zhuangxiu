@@ -1,0 +1,20 @@
+{
+  "date": "2026-09-06",
+  "method": "CUA in-app browser, CDP developer injection on a separate local test tab; restored by reload",
+  "source": "offline-render/furniture-vertex-pilot.json",
+  "receivers": [
+    {"name":"child-desk-top","vertices":1764,"maxPositionError":0.0000009936690517134967,"samePositions":true},
+    {"name":"child-chair-cushion","vertices":1764,"maxPositionError":0.0000009002423913705898,"samePositions":true},
+    {"name":"child-chair-back","vertices":1764,"maxPositionError":0.0000009649188254574737,"samePositions":true},
+    {"name":"bed3-bed-draped-duvet","vertices":3321,"maxPositionError":0.000001201971518849986,"samePositions":true},
+    {"name":"bed3-bed-mattress","vertices":1764,"maxPositionError":0.0000017134661425525784,"samePositions":true}
+  ],
+  "visualReview": {
+    "child-study": "Minor tabletop shading change, not a convincing overall quality gain",
+    "child-bed-original-pilot": "Pronounced mottling on duvet; rejected",
+    "child-bed-normal-spatial-filter": "Mottling reduced with 120mm radius / 55mm sigma and normal filtering, but fabric still lacks photographic realism; not promoted"
+  },
+  "consoleErrorsObserved": [],
+  "productionImported": false,
+  "limits": "Historical lighting source predates latest TV wall. Five meshes only; no current-scene, moving furniture, night lighting or whole-home quality acceptance. No new render process launched."
+}

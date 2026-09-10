@@ -1,0 +1,1503 @@
+{
+  "geometry": {
+    "pendant": [
+      7.47,
+      2.4934999993089586,
+      4.05
+    ],
+    "report": [
+      {
+        "id": "recessed-led-downlight-1",
+        "object": "mesh_123",
+        "fixture": "recessed-led-downlight",
+        "room": "living",
+        "label": "防眩筒灯",
+        "kind": "basic",
+        "kelvin": 3000,
+        "lumens": 650,
+        "beam": 70,
+        "shape": "spot",
+        "watts": "7–9 W 选型目标",
+        "position": [
+          6.86,
+          2.752999999973923,
+          6.61
+        ],
+        "target": [
+          6.86,
+          1.7529999999739232,
+          6.61
+        ],
+        "size": [
+          0.06199999898672104,
+          0.006000000052154064,
+          0.06199999898672104
+        ],
+        "level": 0,
+        "visible": true,
+        "installed": false
+      },
+      {
+        "id": "recessed-led-downlight_1-1",
+        "object": "mesh_127",
+        "fixture": "recessed-led-downlight_1",
+        "room": "living",
+        "label": "防眩筒灯",
+        "kind": "basic",
+        "kelvin": 3000,
+        "lumens": 650,
+        "beam": 70,
+        "shape": "spot",
+        "watts": "7–9 W 选型目标",
+        "position": [
+          7.24,
+          2.752999999973923,
+          4
+        ],
+        "target": [
+          7.24,
+          1.7529999999739232,
+          4
+        ],
+        "size": [
+          0.06199999898672104,
+          0.006000000052154064,
+          0.06199999898672104
+        ],
+        "level": 0,
+        "visible": true,
+        "installed": false
+      },
+      {
+        "id": "recessed-led-downlight_2-1",
+        "object": "mesh_131",
+        "fixture": "recessed-led-downlight_2",
+        "room": "living",
+        "label": "防眩筒灯",
+        "kind": "basic",
+        "kelvin": 3000,
+        "lumens": 650,
+        "beam": 70,
+        "shape": "spot",
+        "watts": "7–9 W 选型目标",
+        "position": [
+          9.88,
+          2.752999999973923,
+          3.05
+        ],
+        "target": [
+          9.88,
+          1.7529999999739232,
+          3.05
+        ],
+        "size": [
+          0.06199999898672104,
+          0.006000000052154064,
+          0.06199999898672104
+        ],
+        "level": 0,
+        "visible": true,
+        "installed": false
+      },
+      {
+        "id": "recessed-led-downlight_3-1",
+        "object": "mesh_135",
+        "fixture": "recessed-led-downlight_3",
+        "room": "living",
+        "label": "防眩筒灯",
+        "kind": "basic",
+        "kelvin": 3000,
+        "lumens": 650,
+        "beam": 70,
+        "shape": "spot",
+        "watts": "7–9 W 选型目标",
+        "position": [
+          9.58,
+          2.752999999973923,
+          1.55
+        ],
+        "target": [
+          9.58,
+          1.7529999999739232,
+          1.55
+        ],
+        "size": [
+          0.06199999898672104,
+          0.006000000052154064,
+          0.06199999898672104
+        ],
+        "level": 0,
+        "visible": true,
+        "installed": false
+      },
+      {
+        "id": "recessed-led-downlight_4-1",
+        "object": "mesh_139",
+        "fixture": "recessed-led-downlight_4",
+        "room": "living",
+        "label": "防眩筒灯",
+        "kind": "basic",
+        "kelvin": 3000,
+        "lumens": 650,
+        "beam": 70,
+        "shape": "spot",
+        "watts": "7–9 W 选型目标",
+        "position": [
+          10.78,
+          2.752999999973923,
+          4.55
+        ],
+        "target": [
+          10.78,
+          1.7529999999739232,
+          4.55
+        ],
+        "size": [
+          0.06199999898672104,
+          0.006000000052154064,
+          0.06199999898672104
+        ],
+        "level": 0,
+        "visible": true,
+        "installed": false
+      },
+      {
+        "id": "recessed-led-downlight_5-1",
+        "object": "mesh_143",
+        "fixture": "recessed-led-downlight_5",
+        "room": "living",
+        "label": "防眩筒灯",
+        "kind": "basic",
+        "kelvin": 3000,
+        "lumens": 650,
+        "beam": 70,
+        "shape": "spot",
+        "watts": "7–9 W 选型目标",
+        "position": [
+          10.78,
+          2.752999999973923,
+          3.5
+        ],
+        "target": [
+          10.78,
+          1.7529999999739232,
+          3.5
+        ],
+        "size": [
+          0.06199999898672104,
+          0.006000000052154064,
+          0.06199999898672104
+        ],
+        "level": 0,
+        "visible": true,
+        "installed": false
+      },
+      {
+        "id": "recessed-led-downlight_6-1",
+        "object": "mesh_147",
+        "fixture": "recessed-led-downlight_6",
+        "room": "kitchen",
+        "label": "防眩筒灯",
+        "kind": "basic",
+        "kelvin": 4000,
+        "lumens": 650,
+        "beam": 70,
+        "shape": "spot",
+        "watts": "7–9 W 选型目标",
+        "position": [
+          4.45,
+          2.752999999973923,
+          2.31
+        ],
+        "target": [
+          4.45,
+          1.7529999999739232,
+          2.31
+        ],
+        "size": [
+          0.06199999898672104,
+          0.006000000052154064,
+          0.06199999898672104
+        ],
+        "level": 0,
+        "visible": true,
+        "installed": false
+      },
+      {
+        "id": "recessed-led-downlight_7-1",
+        "object": "mesh_151",
+        "fixture": "recessed-led-downlight_7",
+        "room": "kitchen",
+        "label": "防眩筒灯",
+        "kind": "basic",
+        "kelvin": 4000,
+        "lumens": 650,
+        "beam": 70,
+        "shape": "spot",
+        "watts": "7–9 W 选型目标",
+        "position": [
+          5.28,
+          2.752999999973923,
+          2.31
+        ],
+        "target": [
+          5.28,
+          1.7529999999739232,
+          2.31
+        ],
+        "size": [
+          0.06199999898672104,
+          0.006000000052154064,
+          0.06199999898672104
+        ],
+        "level": 0,
+        "visible": true,
+        "installed": false
+      },
+      {
+        "id": "recessed-led-downlight_8-1",
+        "object": "mesh_155",
+        "fixture": "recessed-led-downlight_8",
+        "room": "living",
+        "label": "防眩筒灯",
+        "kind": "basic",
+        "kelvin": 3000,
+        "lumens": 650,
+        "beam": 70,
+        "shape": "spot",
+        "watts": "7–9 W 选型目标",
+        "position": [
+          12.83,
+          2.752999999973923,
+          6.24
+        ],
+        "target": [
+          12.83,
+          1.7529999999739232,
+          6.24
+        ],
+        "size": [
+          0.06199999898672104,
+          0.006000000052154064,
+          0.06199999898672104
+        ],
+        "level": 0,
+        "visible": true,
+        "installed": false
+      },
+      {
+        "id": "recessed-led-downlight_9-1",
+        "object": "mesh_159",
+        "fixture": "recessed-led-downlight_9",
+        "room": "entry",
+        "label": "防眩筒灯",
+        "kind": "basic",
+        "kelvin": 3000,
+        "lumens": 650,
+        "beam": 70,
+        "shape": "spot",
+        "watts": "7–9 W 选型目标",
+        "position": [
+          5.15,
+          2.752999999973923,
+          6.35
+        ],
+        "target": [
+          5.15,
+          1.7529999999739232,
+          6.35
+        ],
+        "size": [
+          0.06199999898672104,
+          0.006000000052154064,
+          0.06199999898672104
+        ],
+        "level": 0,
+        "visible": true,
+        "installed": false
+      },
+      {
+        "id": "bed1-main-light-1",
+        "object": "mesh_161",
+        "fixture": "bed1-main-light",
+        "room": "bed1",
+        "label": "老人房基础灯",
+        "kind": "basic",
+        "kelvin": 3000,
+        "lumens": 2300,
+        "beam": 120,
+        "shape": "disc",
+        "watts": "24–36 W 待照度计算",
+        "position": [
+          2.03,
+          2.7039999998100104,
+          4.14
+        ],
+        "target": [
+          2.03,
+          1.7039999998100104,
+          4.14
+        ],
+        "size": [
+          0.5260000228881836,
+          0.00800000037997961,
+          0.5260000228881836
+        ],
+        "level": 0,
+        "visible": true,
+        "installed": false
+      },
+      {
+        "id": "master-main-light-1",
+        "object": "mesh_164",
+        "fixture": "master-main-light",
+        "room": "master",
+        "label": "主卧基础灯",
+        "kind": "basic",
+        "kelvin": 3000,
+        "lumens": 3000,
+        "beam": 120,
+        "shape": "disc",
+        "watts": "30–45 W 待照度计算",
+        "position": [
+          16.06,
+          2.7039999998100104,
+          2.95
+        ],
+        "target": [
+          16.06,
+          1.7039999998100104,
+          2.95
+        ],
+        "size": [
+          0.6259999871253967,
+          0.00800000037997961,
+          0.6259999871253967
+        ],
+        "level": 0,
+        "visible": true,
+        "installed": false
+      },
+      {
+        "id": "bed3-main-light-1",
+        "object": "mesh_167",
+        "fixture": "bed3-main-light",
+        "room": "bed3",
+        "label": "儿童房基础灯",
+        "kind": "basic",
+        "kelvin": 3000,
+        "lumens": 2300,
+        "beam": 120,
+        "shape": "disc",
+        "watts": "24–36 W 待照度计算",
+        "position": [
+          15.96,
+          2.7039999998100104,
+          5.89
+        ],
+        "target": [
+          15.96,
+          1.7039999998100104,
+          5.89
+        ],
+        "size": [
+          0.5260000228881836,
+          0.00800000037997961,
+          0.5260000228881836
+        ],
+        "level": 0,
+        "visible": true,
+        "installed": false
+      },
+      {
+        "id": "kitchen-main-light-1",
+        "object": "mesh_170",
+        "fixture": "kitchen-main-light",
+        "room": "kitchen",
+        "label": "厨房基础灯",
+        "kind": "basic",
+        "kelvin": 4000,
+        "lumens": 2100,
+        "beam": 120,
+        "shape": "rect",
+        "watts": "20–30 W 待照度计算",
+        "position": [
+          4.89,
+          2.7129999998100107,
+          3.06
+        ],
+        "target": [
+          4.89,
+          1.7129999998100107,
+          3.06
+        ],
+        "size": [
+          0.14499999582767487,
+          0.00800000037997961,
+          1.1549999713897705
+        ],
+        "level": 0,
+        "visible": true,
+        "installed": false
+      },
+      {
+        "id": "bath1-heater-light-1",
+        "object": "bath1-heater-light",
+        "fixture": "bath1-heater-light",
+        "room": "bath1",
+        "label": "浴霸照明模块",
+        "kind": "basic",
+        "kelvin": 4000,
+        "lumens": 1400,
+        "beam": 120,
+        "shape": "rect",
+        "watts": "照明12–18 W；不含加热功率",
+        "position": [
+          1.85,
+          2.5310000000298025,
+          5.967
+        ],
+        "target": [
+          1.85,
+          1.5310000000298025,
+          5.967
+        ],
+        "size": [
+          0.25,
+          0.010999999940395355,
+          0.21799999475479126
+        ],
+        "level": 0,
+        "visible": true,
+        "installed": false
+      },
+      {
+        "id": "bath2-heater-light-1",
+        "object": "bath2-heater-light",
+        "fixture": "bath2-heater-light",
+        "room": "bath2",
+        "label": "浴霸照明模块",
+        "kind": "basic",
+        "kelvin": 4000,
+        "lumens": 1400,
+        "beam": 120,
+        "shape": "rect",
+        "watts": "照明12–18 W；不含加热功率",
+        "position": [
+          13.61,
+          2.5310000000298025,
+          2.497
+        ],
+        "target": [
+          13.61,
+          1.5310000000298025,
+          2.497
+        ],
+        "size": [
+          0.25,
+          0.010999999940395355,
+          0.21799999475479126
+        ],
+        "level": 0,
+        "visible": true,
+        "installed": false
+      },
+      {
+        "id": "kitchen-hood-1",
+        "object": "mesh_616",
+        "fixture": "kitchen-hood",
+        "room": "kitchen",
+        "label": "烟机灶面灯",
+        "kind": "task",
+        "kelvin": 4000,
+        "lumens": 180,
+        "beam": 90,
+        "shape": "disc",
+        "watts": "随烟机选型",
+        "position": [
+          4.19,
+          1.6309999999739229,
+          3.4
+        ],
+        "target": [
+          4.19,
+          0.6309999999739229,
+          3.4
+        ],
+        "size": [
+          0.052000001072883606,
+          0.006000000052154064,
+          0.052000001072883606
+        ],
+        "level": 0,
+        "visible": true,
+        "installed": false
+      },
+      {
+        "id": "kitchen-hood-2",
+        "object": "mesh_617",
+        "fixture": "kitchen-hood",
+        "room": "kitchen",
+        "label": "烟机灶面灯",
+        "kind": "task",
+        "kelvin": 4000,
+        "lumens": 180,
+        "beam": 90,
+        "shape": "disc",
+        "watts": "随烟机选型",
+        "position": [
+          4.19,
+          1.6309999999739229,
+          3.88
+        ],
+        "target": [
+          4.19,
+          0.6309999999739229,
+          3.88
+        ],
+        "size": [
+          0.052000001072883606,
+          0.006000000052154064,
+          0.052000001072883606
+        ],
+        "level": 0,
+        "visible": true,
+        "installed": false
+      },
+      {
+        "id": "sideboard-recessed-task-light-1",
+        "object": "sideboard-recessed-task-light",
+        "fixture": "sideboard-recessed-task-light",
+        "room": "living",
+        "label": "餐边柜操作灯",
+        "kind": "task",
+        "kelvin": 3500,
+        "lumens": 1100,
+        "beam": 110,
+        "shape": "rect",
+        "watts": "按长度及所选灯带核定",
+        "position": [
+          9.754999999999999,
+          1.76499999981001,
+          6.920000000000001
+        ],
+        "target": [
+          9.754999999999999,
+          0.7649999998100101,
+          6.920000000000001
+        ],
+        "size": [
+          3.1600000858306885,
+          0.00800000037997961,
+          0.012000000104308128
+        ],
+        "level": 0,
+        "visible": true,
+        "installed": false
+      },
+      {
+        "id": "tv-console-soft-light-1",
+        "object": "tv-console-soft-light",
+        "fixture": "tv-console-soft-light",
+        "room": "living",
+        "label": "电视柜下柔光",
+        "kind": "accent",
+        "kelvin": 2700,
+        "lumens": 300,
+        "beam": 110,
+        "shape": "rect",
+        "watts": "按长度及所选灯带核定",
+        "position": [
+          11.59,
+          0.16999999997392296,
+          3.66
+        ],
+        "target": [
+          11.59,
+          -0.830000000026077,
+          3.66
+        ],
+        "size": [
+          0.02500000037252903,
+          0.006000000052154064,
+          3.119999885559082
+        ],
+        "level": 0,
+        "visible": true,
+        "installed": false
+      },
+      {
+        "id": "bar-concealed-light-1",
+        "object": "bar-concealed-light",
+        "fixture": "bar-concealed-light",
+        "room": "balcony",
+        "label": "左翼桌下灯",
+        "kind": "accent",
+        "kelvin": 2700,
+        "lumens": 160,
+        "beam": 110,
+        "shape": "rect",
+        "watts": "按长度及所选灯带核定",
+        "position": [
+          8.110000000000001,
+          0.8800000001937149,
+          1.8070000000000002
+        ],
+        "target": [
+          8.110000000000001,
+          -0.11999999980628506,
+          1.8070000000000002
+        ],
+        "size": [
+          1.213333295451271,
+          0.008999999612569809,
+          0.014000000432133675
+        ],
+        "level": 0,
+        "visible": true,
+        "installed": false
+      },
+      {
+        "id": "bar-concealed-light_1-1",
+        "object": "bar-concealed-light_1",
+        "fixture": "bar-concealed-light_1",
+        "room": "balcony",
+        "label": "右翼桌下灯",
+        "kind": "accent",
+        "kelvin": 2700,
+        "lumens": 160,
+        "beam": 110,
+        "shape": "rect",
+        "watts": "按长度及所选灯带核定",
+        "position": [
+          9.85,
+          0.8800000001937149,
+          1.8070000000000002
+        ],
+        "target": [
+          9.85,
+          -0.11999999980628506,
+          1.8070000000000002
+        ],
+        "size": [
+          1.213333295451271,
+          0.008999999612569809,
+          0.014000000432133675
+        ],
+        "level": 0,
+        "visible": true,
+        "installed": false
+      },
+      {
+        "id": "laundry-task-strip-1",
+        "object": "laundry-task-strip",
+        "fixture": "laundry-task-strip",
+        "room": "balcony",
+        "label": "洗烘操作灯",
+        "kind": "task",
+        "kelvin": 3500,
+        "lumens": 320,
+        "beam": 110,
+        "shape": "rect",
+        "watts": "按长度及所选灯带核定",
+        "position": [
+          11.277443374164841,
+          1.7898789734765534,
+          0.5800000000000001
+        ],
+        "target": [
+          11.062581591489721,
+          0.8132345067714636,
+          0.5800000000000001
+        ],
+        "size": [
+          0.014000000432133675,
+          0.008999999612569809,
+          0.6100000143051147
+        ],
+        "level": 0,
+        "visible": true,
+        "installed": false
+      },
+      {
+        "id": "flush-entry-cabinet-1",
+        "object": "mesh_1071",
+        "fixture": "flush-entry-cabinet",
+        "room": "entry",
+        "label": "随手台灯带",
+        "kind": "task",
+        "kelvin": 3000,
+        "lumens": 300,
+        "beam": 110,
+        "shape": "rect",
+        "watts": "24V灯带，驱动须可检修",
+        "position": [
+          5.06,
+          1.442000000193715,
+          6.725
+        ],
+        "target": [
+          5.06,
+          0.442000000193715,
+          6.725
+        ],
+        "size": [
+          0.7599999904632568,
+          0.008999999612569809,
+          0.019999999552965164
+        ],
+        "level": 0,
+        "visible": true,
+        "installed": false
+      },
+      {
+        "id": "flush-entry-cabinet-2",
+        "object": "mesh_1072",
+        "fixture": "flush-entry-cabinet",
+        "room": "entry",
+        "label": "鞋柜下起夜灯",
+        "kind": "night",
+        "kelvin": 3000,
+        "lumens": 60,
+        "beam": 110,
+        "shape": "rect",
+        "watts": "24V灯带，驱动须可检修",
+        "position": [
+          5.46,
+          0.1490000001937151,
+          6.739999999999999
+        ],
+        "target": [
+          5.46,
+          -0.8509999998062849,
+          6.739999999999999
+        ],
+        "size": [
+          1.5,
+          0.008999999612569809,
+          0.02500000037252903
+        ],
+        "level": 0,
+        "visible": true,
+        "installed": false
+      },
+      {
+        "id": "balcony-care-task-light-1",
+        "object": "balcony-care-task-light",
+        "fixture": "balcony-care-task-light",
+        "room": "balcony",
+        "label": "清洁盆柜台面灯",
+        "kind": "task",
+        "kelvin": 3500,
+        "lumens": 550,
+        "beam": 110,
+        "shape": "rect",
+        "watts": "按长度及所选灯带核定",
+        "position": [
+          6.05,
+          1.49099999981001,
+          0.8900000000000001
+        ],
+        "target": [
+          6.05,
+          0.4909999998100101,
+          0.8900000000000001
+        ],
+        "size": [
+          0.02199999988079071,
+          0.00800000037997961,
+          1.1200000047683716
+        ],
+        "level": 0,
+        "visible": true,
+        "installed": false
+      },
+      {
+        "id": "bath2-mirror-task-light-1",
+        "object": "bath2-mirror-task-light",
+        "fixture": "bath2-mirror-task-light",
+        "room": "bath2",
+        "label": "镜侧柔光灯",
+        "kind": "task",
+        "kelvin": 3500,
+        "lumens": 260,
+        "beam": 120,
+        "shape": "rect",
+        "watts": "单侧3–5 W 选型目标",
+        "position": [
+          12.310499999832361,
+          1.58,
+          2.7399999999999998
+        ],
+        "target": [
+          13.310499999832361,
+          1.58,
+          2.7399999999999998
+        ],
+        "size": [
+          0.014999999664723873,
+          0.8799999952316284,
+          0.012000000104308128
+        ],
+        "level": 0,
+        "visible": true,
+        "installed": false
+      },
+      {
+        "id": "bath2-mirror-task-light-2",
+        "object": "bath2-mirror-task-light",
+        "fixture": "bath2-mirror-task-light",
+        "room": "bath2",
+        "label": "镜侧柔光灯",
+        "kind": "task",
+        "kelvin": 3500,
+        "lumens": 260,
+        "beam": 120,
+        "shape": "rect",
+        "watts": "单侧3–5 W 选型目标",
+        "position": [
+          12.310499999832361,
+          1.58,
+          2.1799999999999997
+        ],
+        "target": [
+          13.310499999832361,
+          1.58,
+          2.1799999999999997
+        ],
+        "size": [
+          0.014999999664723873,
+          0.8799999952316284,
+          0.012000000104308128
+        ],
+        "level": 0,
+        "visible": true,
+        "installed": false
+      },
+      {
+        "id": "bed1-foot-light-1",
+        "object": "bed1-footlight-diffuser",
+        "fixture": "bed1-foot-light",
+        "room": "bed1",
+        "label": "床底遮光起夜灯",
+        "kind": "night",
+        "kelvin": 2700,
+        "lumens": 35,
+        "beam": 100,
+        "shape": "rect",
+        "watts": "约1 W 选型目标",
+        "position": [
+          2.9047408949120714,
+          0.1498813735615499,
+          3.9800000000000004
+        ],
+        "target": [
+          3.723972815431112,
+          -0.4235809708017784,
+          3.9800000000000004
+        ],
+        "size": [
+          0.003000000026077032,
+          0.012000000104308128,
+          0.27000001072883606
+        ],
+        "level": 0,
+        "visible": true,
+        "installed": false
+      },
+      {
+        "id": "elder-reading-diffuser-1",
+        "object": "elder-reading-diffuser",
+        "fixture": "elder-reading-diffuser",
+        "room": "bed1",
+        "label": "床头阅读灯",
+        "kind": "reading",
+        "kelvin": 3000,
+        "lumens": 160,
+        "beam": 70,
+        "shape": "spot",
+        "watts": "2–3 W 选型目标",
+        "position": [
+          0.9627426400463694,
+          1.1112573599536308,
+          3.43
+        ],
+        "target": [
+          1.6698494212329171,
+          0.40415057876708327,
+          3.43
+        ],
+        "size": [
+          0.03799999877810478,
+          0.05999999865889549,
+          0.054999999701976776
+        ],
+        "level": 0,
+        "visible": true,
+        "installed": false
+      },
+      {
+        "id": "elder-reading-diffuser-2",
+        "object": "elder-reading-diffuser",
+        "fixture": "elder-reading-diffuser",
+        "room": "bed1",
+        "label": "床头阅读灯",
+        "kind": "reading",
+        "kelvin": 3000,
+        "lumens": 160,
+        "beam": 70,
+        "shape": "spot",
+        "watts": "2–3 W 选型目标",
+        "position": [
+          0.9627426400463694,
+          1.1112573599536308,
+          4.53
+        ],
+        "target": [
+          1.6698494212329171,
+          0.40415057876708327,
+          4.53
+        ],
+        "size": [
+          0.03799999877810478,
+          0.05999999865889549,
+          0.054999999701976776
+        ],
+        "level": 0,
+        "visible": true,
+        "installed": false
+      },
+      {
+        "id": "bed3-foot-light-1",
+        "object": "bed3-footlight-diffuser",
+        "fixture": "bed3-foot-light",
+        "room": "bed3",
+        "label": "床底遮光起夜灯",
+        "kind": "night",
+        "kelvin": 2700,
+        "lumens": 35,
+        "beam": 100,
+        "shape": "rect",
+        "watts": "约1 W 选型目标",
+        "position": [
+          15.36525910508793,
+          0.1498813735615499,
+          5.15
+        ],
+        "target": [
+          14.546027184568889,
+          -0.4235809708017784,
+          5.15
+        ],
+        "size": [
+          0.003000000026077032,
+          0.012000000104308128,
+          0.27000001072883606
+        ],
+        "level": 0,
+        "visible": true,
+        "installed": false
+      },
+      {
+        "id": "study-lamp-diffuser-1",
+        "object": "study-lamp-diffuser",
+        "fixture": "study-lamp-diffuser",
+        "room": "bed3",
+        "label": "学习桌台灯",
+        "kind": "reading",
+        "kelvin": 4000,
+        "lumens": 500,
+        "beam": 110,
+        "shape": "rect",
+        "watts": "6–10 W 选型目标",
+        "position": [
+          14.950000000000001,
+          1.1220000003874302,
+          4.71
+        ],
+        "target": [
+          14.950000000000001,
+          0.1220000003874302,
+          4.71
+        ],
+        "size": [
+          0.25,
+          0.017999999225139618,
+          0.052000001072883606
+        ],
+        "level": 0,
+        "visible": true,
+        "installed": false
+      },
+      {
+        "id": "master-foot-light-1",
+        "object": "master-footlight-diffuser",
+        "fixture": "master-foot-light",
+        "room": "master",
+        "label": "床底遮光起夜灯",
+        "kind": "night",
+        "kelvin": 2700,
+        "lumens": 35,
+        "beam": 100,
+        "shape": "rect",
+        "watts": "约1 W 选型目标",
+        "position": [
+          15.920000000000002,
+          0.07988137832992152,
+          3.0057408962531755
+        ],
+        "target": [
+          15.920000000000002,
+          -0.4935809660334068,
+          3.824972816772216
+        ],
+        "size": [
+          0.27000001072883606,
+          0.012000000104308128,
+          0.003000000026077032
+        ],
+        "level": 0,
+        "visible": true,
+        "installed": false
+      },
+      {
+        "id": "makeup-task-light-1",
+        "object": "makeup-task-light",
+        "fixture": "makeup-task-light",
+        "room": "master",
+        "label": "镜侧柔光灯",
+        "kind": "task",
+        "kelvin": 3500,
+        "lumens": 260,
+        "beam": 120,
+        "shape": "rect",
+        "watts": "单侧3–5 W 选型目标",
+        "position": [
+          12.315999999776482,
+          1.43,
+          3.770000023841858
+        ],
+        "target": [
+          13.315999999776482,
+          1.43,
+          3.770000023841858
+        ],
+        "size": [
+          0.019999999552965164,
+          0.8100000023841858,
+          0.017000000923871994
+        ],
+        "level": 0,
+        "visible": true,
+        "installed": false
+      },
+      {
+        "id": "makeup-task-light-2",
+        "object": "makeup-task-light",
+        "fixture": "makeup-task-light",
+        "room": "master",
+        "label": "镜侧柔光灯",
+        "kind": "task",
+        "kelvin": 3500,
+        "lumens": 260,
+        "beam": 120,
+        "shape": "rect",
+        "watts": "单侧3–5 W 选型目标",
+        "position": [
+          12.315999999776484,
+          1.43,
+          3.090000023841858
+        ],
+        "target": [
+          13.315999999776484,
+          1.43,
+          3.090000023841858
+        ],
+        "size": [
+          0.019999999552965164,
+          0.8100000023841858,
+          0.017000000923871994
+        ],
+        "level": 0,
+        "visible": true,
+        "installed": false
+      },
+      {
+        "id": "dry-mirror-task-strip-1",
+        "object": "dry-mirror-task-strip",
+        "fixture": "dry-mirror-task-strip",
+        "room": "bath1",
+        "label": "外置干区镜柜底灯",
+        "kind": "task",
+        "kelvin": 3500,
+        "lumens": 380,
+        "beam": 110,
+        "shape": "rect",
+        "watts": "5–7 W 选型目标",
+        "position": [
+          3.2399999999999998,
+          1.1616842349047933,
+          7.083005270471438
+        ],
+        "target": [
+          3.2399999999999998,
+          0.20385794968364201,
+          6.795657384905093
+        ],
+        "size": [
+          0.5199999809265137,
+          0.006000000052154064,
+          0.03500000014901161
+        ],
+        "level": 0,
+        "visible": true,
+        "installed": false
+      },
+      {
+        "id": "island-task-pendant-1",
+        "object": "mesh_1360",
+        "fixture": "island-task-pendant",
+        "room": "living",
+        "label": "岛台线性吊灯",
+        "kind": "task",
+        "kelvin": 3000,
+        "lumens": 1500,
+        "beam": 100,
+        "shape": "rect",
+        "watts": "18–24 W 选型目标",
+        "position": [
+          7.47,
+          2.1809999998100102,
+          4.05
+        ],
+        "target": [
+          7.47,
+          1.1809999998100102,
+          4.05
+        ],
+        "size": [
+          0.01600000075995922,
+          0.00800000037997961,
+          1.4800000190734863
+        ],
+        "level": 0,
+        "visible": true,
+        "installed": false
+      }
+    ],
+    "rays": [
+      {
+        "id": "recessed-led-downlight-1",
+        "kind": "basic",
+        "first": "800x800-cut-porcelain",
+        "distance": 2.746999999921769,
+        "y": 0.006000000052154064
+      },
+      {
+        "id": "recessed-led-downlight_1-1",
+        "kind": "basic",
+        "first": "island-prep-worktop",
+        "distance": 1.8530000004209581,
+        "y": 0.8999999995529652
+      },
+      {
+        "id": "recessed-led-downlight_2-1",
+        "kind": "basic",
+        "first": "mesh_853",
+        "distance": 2.7269999995939433,
+        "y": 0.02600000037997991
+      },
+      {
+        "id": "recessed-led-downlight_3-1",
+        "kind": "basic",
+        "first": "bar-cutout-top-right",
+        "distance": 1.8029999999739235,
+        "y": 0.9499999999999997
+      },
+      {
+        "id": "recessed-led-downlight_4-1",
+        "kind": "basic",
+        "first": "mesh_853",
+        "distance": 2.726999999593944,
+        "y": 0.02600000037997955
+      },
+      {
+        "id": "recessed-led-downlight_5-1",
+        "kind": "basic",
+        "first": "mesh_853",
+        "distance": 2.7269999995939433,
+        "y": 0.0260000003799798
+      },
+      {
+        "id": "recessed-led-downlight_6-1",
+        "kind": "basic",
+        "first": "kitchen-sink-counter-side",
+        "distance": 1.8530000004209581,
+        "y": 0.8999999995529652
+      },
+      {
+        "id": "recessed-led-downlight_7-1",
+        "kind": "basic",
+        "first": "kitchen-sink-counter-side",
+        "distance": 1.8530000004209581,
+        "y": 0.8999999995529652
+      },
+      {
+        "id": "recessed-led-downlight_8-1",
+        "kind": "basic",
+        "first": "800x800-cut-porcelain",
+        "distance": 2.746999999921769,
+        "y": 0.006000000052154064
+      },
+      {
+        "id": "recessed-led-downlight_9-1",
+        "kind": "basic",
+        "first": "800x800-cut-porcelain",
+        "distance": 2.7469999999217687,
+        "y": 0.006000000052154508
+      },
+      {
+        "id": "bed1-main-light-1",
+        "kind": "basic",
+        "first": "bed1-bed-draped-duvet",
+        "distance": 2.0362110874920605,
+        "y": 0.6677889123179498
+      },
+      {
+        "id": "master-main-light-1",
+        "kind": "basic",
+        "first": "mesh_479",
+        "distance": 2.121640331516384,
+        "y": 0.5823596682936264
+      },
+      {
+        "id": "bed3-main-light-1",
+        "kind": "basic",
+        "first": "800x800-cut-porcelain",
+        "distance": 2.6979999997578563,
+        "y": 0.006000000052154064
+      },
+      {
+        "id": "kitchen-main-light-1",
+        "kind": "basic",
+        "first": "800x800-cut-porcelain",
+        "distance": 2.7069999997578567,
+        "y": 0.006000000052154064
+      },
+      {
+        "id": "bath1-heater-light-1",
+        "kind": "basic",
+        "first": "800x800-cut-porcelain",
+        "distance": 2.5249999999776485,
+        "y": 0.006000000052154064
+      },
+      {
+        "id": "bath2-heater-light-1",
+        "kind": "basic",
+        "first": "800x800-cut-porcelain",
+        "distance": 2.5249999999776485,
+        "y": 0.006000000052154064
+      },
+      {
+        "id": "kitchen-hood-1",
+        "kind": "task",
+        "first": "mesh_594",
+        "distance": 0.7149999999217688,
+        "y": 0.9160000000521541
+      },
+      {
+        "id": "kitchen-hood-2",
+        "kind": "task",
+        "first": "mesh_594",
+        "distance": 0.7149999999217688,
+        "y": 0.9160000000521541
+      },
+      {
+        "id": "sideboard-recessed-task-light-1",
+        "kind": "task",
+        "first": "sideboard-600mm-worktop",
+        "distance": 0.8599999997355043,
+        "y": 0.9050000000745058
+      },
+      {
+        "id": "tv-console-soft-light-1",
+        "kind": "accent",
+        "first": "800x800-cut-porcelain",
+        "distance": 0.1639999999217689,
+        "y": 0.006000000052154064
+      },
+      {
+        "id": "bar-concealed-light-1",
+        "kind": "accent",
+        "first": "bar-footrail",
+        "distance": 0.5893427049974128,
+        "y": 0.2906572951963021
+      },
+      {
+        "id": "bar-concealed-light_1-1",
+        "kind": "accent",
+        "first": "bar-footrail_1",
+        "distance": 0.5893427049974128,
+        "y": 0.2906572951963021
+      },
+      {
+        "id": "laundry-task-strip-1",
+        "kind": "task",
+        "first": "800x800-cut-porcelain",
+        "distance": 1.826538760253955,
+        "y": 0.006000000052153842
+      },
+      {
+        "id": "flush-entry-cabinet-1",
+        "kind": "task",
+        "first": "mesh_1070",
+        "distance": 0.5139999997615813,
+        "y": 0.9280000004321337
+      },
+      {
+        "id": "flush-entry-cabinet-2",
+        "kind": "night",
+        "first": "800x800-cut-porcelain",
+        "distance": 0.14300000014156103,
+        "y": 0.006000000052154064
+      },
+      {
+        "id": "balcony-care-task-light-1",
+        "kind": "task",
+        "first": "balcony-care-worktop",
+        "distance": 0.5909999998100101,
+        "y": 0.9
+      },
+      {
+        "id": "bath2-mirror-task-light-1",
+        "kind": "task",
+        "first": "door-bath2-single-panel",
+        "distance": 1.7510000004507607,
+        "y": 1.58
+      },
+      {
+        "id": "bath2-mirror-task-light-2",
+        "kind": "task",
+        "first": "door-bath2-single-panel",
+        "distance": 1.7510000004507607,
+        "y": 1.58
+      },
+      {
+        "id": "bed1-foot-light-1",
+        "kind": "night",
+        "first": "800x800-cut-porcelain",
+        "distance": 0.2508994268300851,
+        "y": 0.006000000052154036
+      },
+      {
+        "id": "elder-reading-diffuser-1",
+        "kind": "reading",
+        "first": "bed1-bed-sewn-pillow-1-folded-cover",
+        "distance": 0.4766915933789544,
+        "y": 0.7741855017407517
+      },
+      {
+        "id": "elder-reading-diffuser-2",
+        "kind": "reading",
+        "first": "bed1-bed-draped-duvet-turned-cuff",
+        "distance": 0.6402328593835136,
+        "y": 0.6585443635450952
+      },
+      {
+        "id": "bed3-foot-light-1",
+        "kind": "night",
+        "first": "800x800-cut-porcelain",
+        "distance": 0.2508994268300847,
+        "y": 0.006000000052154064
+      },
+      {
+        "id": "study-lamp-diffuser-1",
+        "kind": "reading",
+        "first": "child-desk-top",
+        "distance": 0.37200000083446505,
+        "y": 0.7499999995529651
+      },
+      {
+        "id": "master-foot-light-1",
+        "kind": "night",
+        "first": "800x800-cut-porcelain",
+        "distance": 0.12883387898780416,
+        "y": 0.006000000052154064
+      },
+      {
+        "id": "makeup-task-light-1",
+        "kind": "task",
+        "first": "master-wardrobe-side",
+        "distance": 2.0140000482946654,
+        "y": 1.43
+      },
+      {
+        "id": "makeup-task-light-2",
+        "kind": "task",
+        "first": null,
+        "distance": null,
+        "y": null
+      },
+      {
+        "id": "dry-mirror-task-strip-1",
+        "kind": "task",
+        "first": "dry-tap-spout",
+        "distance": 0.11973385622012826,
+        "y": 1.0470000001862645
+      },
+      {
+        "id": "island-task-pendant-1",
+        "kind": "task",
+        "first": "island-prep-worktop",
+        "distance": 1.2810000002570452,
+        "y": 0.8999999995529652
+      }
+    ],
+    "pool": 8,
+    "shadowed": true,
+    "pointLights": 0
+  },
+  "presets": [
+    {
+      "id": "evening",
+      "on": 34
+    },
+    {
+      "id": "movie",
+      "on": 7
+    },
+    {
+      "id": "study",
+      "on": 34
+    },
+    {
+      "id": "night",
+      "on": 4
+    },
+    {
+      "id": "off",
+      "on": 0
+    },
+    {
+      "id": "day",
+      "on": 0
+    }
+  ],
+  "shots": [
+    "living",
+    "kitchen",
+    "bed1",
+    "master",
+    "bed3",
+    "bath1",
+    "bath2"
+  ],
+  "mobile": true,
+  "errors": [],
+  "limits": [
+    "Design lumen/CRI/watts targets, not measured illuminance",
+    "8 nearest shadowed lamps; not full realtime GI",
+    "Chrome viewport simulation, not physical-phone FPS",
+    "No photoreal acceptance from these checks"
+  ]
+}

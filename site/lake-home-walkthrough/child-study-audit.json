@@ -1,0 +1,45 @@
+{
+  "id": "child-bay-access",
+  "scheme": "study",
+  "status": "CONDITIONAL_CLOSE_DOOR",
+  "failures": [],
+  "doorHits": 0,
+  "routes": {
+    "normal": {
+      "chairBack": false,
+      "bedSide": true,
+      "foot": false,
+      "windowApproach": false,
+      "safeDoorWaiting": true,
+      "cells": 1407
+    },
+    "pulled": {
+      "chairBack": false,
+      "bedSide": true,
+      "foot": false,
+      "windowApproach": false,
+      "safeDoorWaiting": true,
+      "cells": 1407
+    },
+    "afterClosingDoor": {
+      "chairBack": true,
+      "bedSide": true,
+      "foot": true,
+      "windowApproach": true,
+      "safeDoorWaiting": true,
+      "cells": 2789
+    },
+    "pulledAfterClosingDoor": {
+      "chairBack": true,
+      "bedSide": true,
+      "foot": true,
+      "windowApproach": true,
+      "safeDoorWaiting": true,
+      "cells": 2474
+    }
+  },
+  "footClearanceMM": 635,
+  "deskWidthCM": 96,
+  "tradeoff": "床向室内移98cm，窗台前留约100cm地面；衣柜缩至90cm、书桌96cm。房门全开会挡床尾转弯，需入房后关门再到窗边。窗台阅读坐位须通过防坠与承载复核。",
+  "additionalLimit": "600mm proxy, not ergonomic approval. C requires entering, moving outside swing and closing door before walking around bed. B is deliberately excluded. Bay seating and child fall protection remain unverified."
+}

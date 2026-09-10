@@ -1,0 +1,33 @@
+{
+  "id": "child-refined-180",
+  "scheme": "refined",
+  "status": "PASS_WITH_LIMITS",
+  "failures": [],
+  "doorHits": 0,
+  "routes": {
+    "normal": {
+      "chairBack": true,
+      "bedSide": true,
+      "wardrobeLeft": true,
+      "wardrobeRight": true,
+      "foot": false,
+      "windowApproach": false,
+      "safeDoorWaiting": true,
+      "cells": 2461
+    },
+    "pulled": {
+      "chairBack": true,
+      "bedSide": true,
+      "wardrobeLeft": true,
+      "wardrobeRight": true,
+      "foot": false,
+      "windowApproach": false,
+      "safeDoorWaiting": true,
+      "cells": 1681
+    }
+  },
+  "footClearanceMM": 635,
+  "deskWidthCM": 115,
+  "tradeoff": "原门不动；180×60cm衣柜，115×50cm书桌与床头统一木饰面。按45cm无扶手椅校核主要使用点；飘窗及床尾窄角仍非独立可走区域。",
+  "additionalLimit": "600mm proxy, not ergonomic approval. C requires entering, moving outside swing and closing door before walking around bed. B is deliberately excluded. Bay seating and child fall protection remain unverified."
+}

@@ -1,0 +1,48 @@
+{
+  "sizes": [
+    {
+      "width": 390,
+      "height": 844,
+      "overflow": false,
+      "canvasHeight": 716,
+      "canvasBottom": 839.796875,
+      "roomTourBottom": 830.796875,
+      "header": 123.796875
+    },
+    {
+      "width": 360,
+      "height": 740,
+      "overflow": false,
+      "canvasHeight": 612,
+      "canvasBottom": 735.796875,
+      "roomTourBottom": 726.796875,
+      "header": 123.796875
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "overflow": false,
+      "canvasHeight": 331,
+      "canvasBottom": 386,
+      "roomTourBottom": 377,
+      "header": 55
+    }
+  ],
+  "singleTouchRotation": true,
+  "pinch": {
+    "fovBefore": 70,
+    "fovAfter": 46.666666666666664
+  },
+  "afterCancel": true,
+  "roomSwitch": true,
+  "facilityLocate": true,
+  "menu": true,
+  "fullscreenFallback": true,
+  "desktop": true,
+  "errors": [],
+  "limits": [
+    "Chrome touch/viewport emulation, not a physical Android or iPhone test",
+    "LAN access not tested from a phone",
+    "Existing rough model quality and geometry are unchanged"
+  ]
+}

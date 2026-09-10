@@ -1,0 +1,35 @@
+{
+  "elderSource": "elder-redesign/original-3d.json",
+  "worldOffset": [
+    0.8,
+    2.47
+  ],
+  "mattressMm": [
+    1500,
+    1800
+  ],
+  "wardrobeMm": [
+    1800,
+    400
+  ],
+  "cabinetGapMm": 510,
+  "entrypoints": [
+    "column-view.html",
+    "index.html"
+  ],
+  "checks": [
+    "Module syntax checks passed",
+    "column-view elderly room rendered in browser",
+    "Old low-cabinet action absent",
+    "Sliding wardrobe action toggled in browser",
+    "index.html startup asset-readiness issue fixed and render checked",
+    "Public bath displayed with open shower and squat pan"
+  ],
+  "notVerified": [
+    "Construction dimensions",
+    "Human access adequacy",
+    "Bed lift hardware",
+    "Bathroom full-floor drainage",
+    "Location and dimensions of user-reported vanity wall"
+  ]
+}

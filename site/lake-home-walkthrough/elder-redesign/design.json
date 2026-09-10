@@ -1,0 +1,209 @@
+{
+  "main": [
+    0,
+    0,
+    2.8,
+    2.9
+  ],
+  "sourcePolygon": [
+    [
+      -0.59786,
+      -0.59589
+    ],
+    [
+      2.0427,
+      -0.59589
+    ],
+    [
+      2.0427,
+      0
+    ],
+    [
+      2.8,
+      0
+    ],
+    [
+      2.8,
+      2.9
+    ],
+    [
+      0,
+      2.9
+    ],
+    [
+      0,
+      0.70514
+    ],
+    [
+      -0.59786,
+      0.70514
+    ]
+  ],
+  "precision": "纵深2900为原图标注；横向2800为尺寸链组合推导。窗区轮廓由旧模型按主段校准，不是施工放线尺寸。",
+  "layouts": [
+    {
+      "id": "solid-head-row",
+      "title": "D · 床头靠实墙＋整排衣柜",
+      "bedOrientation": "horizontal",
+      "head": "east",
+      "mattressLabel": "1500 x 1800",
+      "frameLabel": "1540 x 1830",
+      "bed": [
+        0.95,
+        0.08,
+        2.78,
+        1.62
+      ],
+      "desk": [
+        -0.55,
+        -0.55,
+        -0.1,
+        0.25
+      ],
+      "chairTucked": [
+        -0.5,
+        -0.45,
+        0,
+        0.05
+      ],
+      "chairOccupied": [
+        -0.1,
+        -0.55,
+        0.55,
+        0.05
+      ],
+      "wardrobe": [
+        0.02,
+        2.3,
+        1.82,
+        2.9
+      ],
+      "conditionalFloor": true,
+      "note": "床头靠图右厨房共墙，避开窗；1500×1800mm床垫横放。门左下墙设1800×600mm整排移门衣柜，800×450mm书桌转向左侧窗。",
+      "tradeoff": "柜前到床侧680mm。窗侧桌椅与上侧上下床依赖转角窗区有连续地面；不默认拆窗台。此方案已取消床头朝窗。",
+      "rejected": true,
+      "rejectionReason": "User rejected headboard next to entrance."
+    },
+    {
+      "id": "solid",
+      "title": "A · 不借窗区，通行有取舍",
+      "conditionalFloor": false,
+      "bed": [
+        0.02,
+        0.53,
+        2.05,
+        2.07
+      ],
+      "desk": [
+        0.02,
+        2.09,
+        0.47,
+        2.89
+      ],
+      "chairTucked": [
+        0.28,
+        2.3,
+        0.78,
+        2.8
+      ],
+      "chairOccupied": [
+        0.47,
+        2.24,
+        1.12,
+        2.84
+      ],
+      "wardrobe": null,
+      "note": "800×450mm书桌靠进门左侧墙，面向左墙坐；床头也靠左侧实墙。家具和坐人范围均不借用窗区。",
+      "tradeoff": "窗侧仅530mm，偏窄；房内取消完整挂衣柜，衣物需另设存放位置。"
+    },
+    {
+      "id": "window",
+      "title": "B · 窗前书桌，增加窄挂衣柜",
+      "conditionalFloor": true,
+      "bed": [
+        0.02,
+        0.68,
+        2.05,
+        2.22
+      ],
+      "desk": [
+        0.02,
+        -0.45,
+        1.02,
+        0
+      ],
+      "chairTucked": [
+        0.22,
+        -0.34,
+        0.72,
+        0.16
+      ],
+      "chairOccupied": [
+        0.22,
+        0,
+        0.82,
+        0.65
+      ],
+      "wardrobe": [
+        0.02,
+        2.29,
+        0.6,
+        2.89
+      ],
+      "note": "1000×450mm桌面面向转角窗，桌后坐人深650mm；保留580×600mm窄挂衣柜，柜面朝房间右侧，采用不外摆的软帘。",
+      "tradeoff": "仅在窗前有连续地面和桌下腿部净空时成立。窄柜只补充常用衣物，不是两人完整衣柜。"
+    }
+  ],
+  "rejectedLayouts": [
+    {
+      "id": "wardrobe-row",
+      "title": "C · 1.8米床＋整排衣柜",
+      "conditionalFloor": true,
+      "bedOrientation": "vertical",
+      "mattressLabel": "1500 × 1800",
+      "frameLabel": "1540 × 1830",
+      "bed": [
+        0.02,
+        0.7,
+        1.56,
+        2.53
+      ],
+      "desk": [
+        0.02,
+        -0.45,
+        1.02,
+        0
+      ],
+      "chairTucked": [
+        0.22,
+        -0.34,
+        0.72,
+        0.16
+      ],
+      "chairOccupied": [
+        0.22,
+        0,
+        0.82,
+        0.65
+      ],
+      "wardrobe": [
+        2.2,
+        0.06,
+        2.8,
+        1.96
+      ],
+      "note": "1900×600mm整排移门衣柜沿右墙，柜前朝左；1000×450mm书桌留在窗前。1500×1800mm床垫纵向放，床头朝窗，采用独立支撑薄床头。",
+      "tradeoff": "两位主要从右侧上下床：右侧至柜前640mm，左侧仅20mm，床尾至墙370mm。不能两侧独立上下床；窗前地面及桌下腿部空间仍待核。",
+      "reason": "User rejected headboard facing window."
+    }
+  ],
+  "status": "No accepted layout. Window-head and entry-side-head layouts rejected by user.",
+  "hardConstraints": [
+    "Two residents",
+    "1500x1800 mattress study",
+    "No headboard facing window",
+    "No headboard at entrance side",
+    "Full wardrobe row",
+    "Retain desk"
+  ]
+}

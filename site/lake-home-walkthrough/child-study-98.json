@@ -1,0 +1,178 @@
+{
+  "name": "儿童房靠窗床与一体学习墙",
+  "units": "m",
+  "spaces": [
+    {
+      "id": "child",
+      "label": "儿童房主体（沿用模型）",
+      "target_area": 9.45,
+      "polygons": [
+        [
+          [
+            0,
+            0
+          ],
+          [
+            3.5,
+            0
+          ],
+          [
+            3.5,
+            2.7
+          ],
+          [
+            0,
+            2.7
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "hall",
+      "label": "门外示意（不计入儿童房）",
+      "target_area": 0.9,
+      "polygons": [
+        [
+          [
+            -1,
+            1.35
+          ],
+          [
+            0,
+            1.35
+          ],
+          [
+            0,
+            2.25
+          ],
+          [
+            -1,
+            2.25
+          ]
+        ]
+      ]
+    }
+  ],
+  "walls": [
+    {
+      "id": "west",
+      "a": [
+        0,
+        0
+      ],
+      "b": [
+        0,
+        2.7
+      ],
+      "thickness": 0.1,
+      "separates": [
+        "child",
+        "hall"
+      ]
+    },
+    {
+      "id": "east",
+      "a": [
+        3.5,
+        0
+      ],
+      "b": [
+        3.5,
+        2.7
+      ],
+      "thickness": 0.12,
+      "separates": [
+        "child",
+        "exterior"
+      ]
+    }
+  ],
+  "openings": [
+    {
+      "id": "bay-opening",
+      "kind": "window",
+      "wall_id": "east",
+      "offset": 0.34,
+      "width": 1.61,
+      "connects": [
+        "child",
+        "exterior"
+      ]
+    },
+    {
+      "id": "original-door",
+      "kind": "door",
+      "wall_id": "west",
+      "offset": 1.35,
+      "width": 0.9,
+      "connects": [
+        "child",
+        "hall"
+      ],
+      "swing_into": "child"
+    }
+  ],
+  "expected_adjacencies": [],
+  "room": [
+    0,
+    0,
+    3.5,
+    2.7
+  ],
+  "bay": [
+    3.5,
+    0.34,
+    4.11,
+    1.95
+  ],
+  "sillHeight": 0.55,
+  "door": {
+    "hinge": [
+      -0.05,
+      2.25
+    ],
+    "width": 0.9,
+    "opening": [
+      1.35,
+      2.25
+    ],
+    "angle": 90
+  },
+  "bed": [
+    1.86,
+    0.02,
+    3.4,
+    2.08
+  ],
+  "desk": [
+    0.54,
+    0.02,
+    1.84,
+    0.72
+  ],
+  "wardrobe": [
+    0,
+    0.02,
+    0.5,
+    1.22
+  ],
+  "knee": [
+    0.61,
+    0.09,
+    1.77,
+    0.7
+  ],
+  "kneeHeight": 0.7,
+  "chair": {
+    "parked": [
+      1.18,
+      0.6
+    ],
+    "seated": [
+      1.18,
+      1.08
+    ],
+    "radius": 0.325
+  },
+  "precision": "沿用已有350×270cm诊断模型，非现场完成面测量；悬空支撑与窗扇开启待核。"
+}

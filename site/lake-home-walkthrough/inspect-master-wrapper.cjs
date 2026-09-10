@@ -1,0 +1,10 @@
+const {chromium}=require('C:/Users/vv-dev-work/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+const fs=require('node:fs');
+(async()=>{const b=await chromium.launch({channel:'chrome',headless:true,args:['--enable-webgl','--no-sandbox']});try{
+ const p=await b.newPage({viewport:{width:1440,height:1000}});await p.goto('http://127.0.0.1:8768/lake-home-walkthrough/mobile-preview.html?space=master&mode=layout');const f=await(await p.locator('iframe').elementHandle()).contentFrame();await f.waitForFunction(()=>window.walkDebug&&columnViewDebug.state.ready);
+ const state=()=>f.evaluate(()=>({view:columnViewDebug.state,busy:{hidden:document.querySelector('#busy').hidden,text:document.querySelector('#busy').textContent},canvas:document.querySelector('canvas').getBoundingClientRect().toJSON(),overlays:[...document.querySelectorAll('dialog, #viewport>div')].map(e=>({id:e.id,hidden:e.hidden,open:e.open,display:getComputedStyle(e).display,background:getComputedStyle(e).backgroundColor})),lights:lightingDesignDebug.report().map(s=>({id:s.id,level:s.level}))}));
+ await f.waitForFunction(()=>columnViewDebug.state.draws>=2);const before=await state();await p.screenshot({path:__dirname+'/master-wrapper-initial.png'});
+ await f.locator('[data-mode="layout"]').first().evaluate(e=>e.click());await f.evaluate(()=>new Promise(r=>requestAnimationFrame(()=>requestAnimationFrame(r))));const reselected=await state();await p.screenshot({path:__dirname+'/master-wrapper-reselected.png'});
+ await p.setViewportSize({width:1438,height:980});await f.evaluate(()=>new Promise(r=>requestAnimationFrame(()=>requestAnimationFrame(r))));const resized=await state();await p.screenshot({path:__dirname+'/master-wrapper-resized.png'});
+ fs.writeFileSync(__dirname+'/master-wrapper-diagnostic.json',JSON.stringify({before,reselected,resized},null,2));console.log(JSON.stringify([before,reselected,resized].map(s=>({position:s.view.position,mode:s.view.mode,draws:s.view.draws,busy:s.busy,overlays:s.overlays,canvas:s.canvas}))));
+}finally{await b.close();}})().catch(e=>{console.error(e);process.exitCode=1;});

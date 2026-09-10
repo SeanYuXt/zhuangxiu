@@ -1,0 +1,170 @@
+{
+  "geometry": {
+    "holes": [
+      {
+        "x": 2.17,
+        "z": 6.79,
+        "hit": null
+      },
+      {
+        "x": 1.28,
+        "z": 7.035,
+        "hit": null
+      },
+      {
+        "x": 1.25,
+        "z": 6.7,
+        "hit": null
+      },
+      {
+        "x": 12.8,
+        "z": 1.025,
+        "hit": null
+      },
+      {
+        "x": 12.8,
+        "z": 1.6,
+        "hit": null
+      }
+    ],
+    "sourceHoles": 3,
+    "samples": [
+      {
+        "z": 0.95,
+        "y": -0.005164285606665542,
+        "expected": -0.005164285714285715,
+        "part": "bath2-cut-800-tile"
+      },
+      {
+        "z": 0.99,
+        "y": -0.005907142528822795,
+        "expected": -0.005907142857142859,
+        "part": "bath2-cut-800-tile"
+      },
+      {
+        "z": 1.06,
+        "y": -0.005926829053272353,
+        "expected": -0.005926829268292681,
+        "part": "bath2-cut-800-tile"
+      },
+      {
+        "z": 1.1,
+        "y": -0.005341463274589814,
+        "expected": -0.005341463414634144,
+        "part": "bath2-cut-800-tile"
+      },
+      {
+        "z": 1.3,
+        "y": -0.002414633855063658,
+        "expected": -0.002414634146341462,
+        "part": "bath2-cut-800-tile"
+      },
+      {
+        "z": 1.5,
+        "y": 0.0005121955016595958,
+        "expected": 0.00051219512195122,
+        "part": "bath2-cut-800-tile"
+      },
+      {
+        "z": 1.7,
+        "y": 0.0034390248583828775,
+        "expected": 0.003439024390243902,
+        "part": "bath2-cut-800-tile"
+      },
+      {
+        "z": 1.874,
+        "y": 0.005185365868623504,
+        "expected": 0.005185365853658537,
+        "part": "bath2-sloped-grout-bed"
+      },
+      {
+        "z": 1.879,
+        "y": 0.006000000052154064,
+        "expected": 0.006,
+        "part": "bath2-cut-800-tile"
+      }
+    ],
+    "bars": [
+      {
+        "x": 12.29,
+        "y": -0.005999999986961484,
+        "part": "bath2-drain-grate-bar"
+      },
+      {
+        "x": 12.49,
+        "y": -0.005999999986961484,
+        "part": "bath2-drain-grate-bar"
+      },
+      {
+        "x": 12.81,
+        "y": -0.005999999986961484,
+        "part": "bath2-drain-grate-bar"
+      },
+      {
+        "x": 13.09,
+        "y": -0.005999999986961484,
+        "part": "bath2-drain-grate-bar"
+      },
+      {
+        "x": 13.31,
+        "y": -0.005999999986961484,
+        "part": "bath2-drain-grate-bar"
+      }
+    ],
+    "slot": {
+      "part": "bath2-drain-trough-bottom",
+      "y": -0.032499999986961486
+    },
+    "tileCount": 8,
+    "invalid": [],
+    "minDoorClearance": 0.0004999997578561313,
+    "grateLift": 0.07999999999999999,
+    "removed": 13,
+    "duplicateRejected": true,
+    "spec": {
+      "scope": "饰面排水候选，不挪墙、不改淋浴占地、不凿楼板",
+      "bounds": [
+        12.280000000000001,
+        13.32,
+        0.9249999999999999,
+        1.8809999999999998
+      ],
+      "entryY": 0.006,
+      "drainY": -0.006,
+      "fall": 0.014634146341463414,
+      "run": 0.8200000000000001,
+      "drainCenter": [
+        12.8,
+        1.025
+      ],
+      "drainSize": [
+        1.04,
+        0.06
+      ],
+      "grateLift": 0.08,
+      "drainConnection": null,
+      "trap": null,
+      "waterproofingVerified": false,
+      "slabChanged": false,
+      "constructionVerified": false,
+      "selection": "同原排水示意中心改通长槽；实际槽长、存水弯、楼板/找平层深度及门底胶条随设备复核"
+    },
+    "sharedWetCount": 8
+  },
+  "ui": [
+    {
+      "width": 1440,
+      "height": 1000,
+      "locator": true,
+      "lift": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "locator": true,
+      "lift": true
+    }
+  ],
+  "errors": [],
+  "limits": "Finish geometry and door clearance only; not real drainage, waterproofing, structural depth or product installation."
+}
