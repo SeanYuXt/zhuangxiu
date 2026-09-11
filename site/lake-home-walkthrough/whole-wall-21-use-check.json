@@ -1,0 +1,124 @@
+{
+  "standing": [
+    {
+      "guests": false,
+      "pose": "fridge-open-125",
+      "point": [
+        8.33,
+        5.9
+      ],
+      "hits": []
+    },
+    {
+      "guests": false,
+      "pose": "bin-0",
+      "point": [
+        8.33,
+        5.9
+      ],
+      "hits": []
+    },
+    {
+      "guests": false,
+      "pose": "bin-1",
+      "point": [
+        8.33,
+        5.9
+      ],
+      "hits": []
+    },
+    {
+      "guests": false,
+      "pose": "bin-2",
+      "point": [
+        8.33,
+        5.9
+      ],
+      "hits": []
+    },
+    {
+      "guests": false,
+      "pose": "bin-3",
+      "point": [
+        8.33,
+        5.9
+      ],
+      "hits": []
+    },
+    {
+      "guests": false,
+      "pose": "bin-4",
+      "point": [
+        8.33,
+        5.9
+      ],
+      "hits": []
+    },
+    {
+      "guests": true,
+      "pose": "fridge-open-125",
+      "point": [
+        8.33,
+        5.9
+      ],
+      "hits": []
+    },
+    {
+      "guests": true,
+      "pose": "bin-0",
+      "point": [
+        8.33,
+        5.9
+      ],
+      "hits": []
+    },
+    {
+      "guests": true,
+      "pose": "bin-1",
+      "point": [
+        8.33,
+        5.9
+      ],
+      "hits": []
+    },
+    {
+      "guests": true,
+      "pose": "bin-2",
+      "point": [
+        8.33,
+        5.9
+      ],
+      "hits": []
+    },
+    {
+      "guests": true,
+      "pose": "bin-3",
+      "point": [
+        8.33,
+        5.9
+      ],
+      "hits": []
+    },
+    {
+      "guests": true,
+      "pose": "bin-4",
+      "point": [
+        8.33,
+        5.9
+      ],
+      "hits": []
+    }
+  ],
+  "shoeDoorHits": [],
+  "dropStanding": [],
+  "shoeRoute": {
+    "reached": true,
+    "lengthMetres": 2.075
+  },
+  "fixedUnchanged": true,
+  "limit": "600mm circular standing envelope, visible mesh boxes, 120-1800mm height; not posture or simultaneous passing validation.",
+  "sixClear": "706mm",
+  "openLabel": "当前为开门状态",
+  "kitchenPath": "5.2m",
+  "errors": []
+}

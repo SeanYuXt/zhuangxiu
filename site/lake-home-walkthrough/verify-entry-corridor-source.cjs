@@ -1,0 +1,46 @@
+const {chromium}=require('C:/Users/vv-dev-work/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+const assert=require('node:assert/strict'),fs=require('node:fs');
+(async()=>{
+ const browser=await chromium.launch({channel:'chrome',headless:true,args:['--enable-webgl','--no-sandbox']});
+ try{
+  const page=await browser.newPage({viewport:{width:1440,height:1000}}),errors=[];
+  page.on('pageerror',e=>errors.push(e.message));
+  await page.goto('http://127.0.0.1:8774/lake-home-walkthrough/entry-corridor-review.html?v=sideboard-depth-40-10');
+  await page.waitForFunction(()=>window.entryCorridorReview);
+  assert.equal(await page.locator('#beamOffset').inputValue(),'700');
+  assert.equal(await page.locator('#beamWidth').inputValue(),'');
+  assert.match(await page.locator('#beamResult').textContent(),/1160mm−梁宽/);
+  const data=await page.evaluate(()=>entryCorridorReview.data);
+  assert.equal(data.pdf.entryToTv+data.beam.nearFromTvApprox+data.beam.nearToChildCornerPdf,data.pdf.wholeWall);
+  assert.equal(data.beam.width,null);
+  assert.equal(data.cad.boxFarFromTvApprox+data.beam.boxFarToNearUserApprox,data.beam.nearFromTvApprox);
+  await page.locator('#beamWidth').fill('280');
+  assert.match(await page.locator('#beamResult').textContent(),/梁后余墙 880mm/);
+  await page.locator('#beamWidth').fill('1200');
+  assert.match(await page.locator('#beamResult').textContent(),/超出/);
+  await page.locator('#beamWidth').fill('');
+  await page.locator('#designMode').click();
+  assert.match(await page.locator('#proposalText').textContent(),/660mm/);
+  await page.screenshot({path:'entry-corridor-review-desktop.png',fullPage:true});
+  await page.locator('#measureMode').click();
+  await page.locator('#zoomToggle').click();
+  assert.equal(await page.locator('#planImage').getAttribute('viewBox'),'55 210 1650 840');
+  await page.screenshot({path:'entry-corridor-original-full.png',fullPage:true});
+  await page.locator('#zoomToggle').click();
+  await page.locator('#designMode').click();
+  await page.setViewportSize({width:390,height:844});
+  await page.screenshot({path:'entry-corridor-review-mobile.png',fullPage:true});
+  assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
+  assert.ok(await page.locator('#designPreview').evaluate(i=>i.complete&&i.naturalWidth>0));
+  assert.ok(await page.locator('#sourcePhoto').evaluate(i=>i.complete&&i.naturalWidth>0));
+  assert.deepEqual(errors,[]);
+  fs.writeFileSync('entry-corridor-review-verification.json',JSON.stringify({checkedAt:new Date().toISOString(),revision:data.id,unknownBeamWidthPreserved:true,beamExample:{input:280,remaining:880},invalidWidthRejected:true,desktopAndMobile:true,consoleErrors:errors},null,2)+'\n');
+  await page.setViewportSize({width:1440,height:1000});
+  await page.goto('http://127.0.0.1:8774/lake-home-walkthrough/column-view.html?space=passageArt&v=sideboard-depth-40-10');
+  await page.waitForFunction(()=>window.hvacDetailsDebug&&window.columnCheck,{}, {timeout:90000});
+  const alignment=await page.evaluate(async()=>{const T=await import('./vendor/three.module.js'),b=o=>{o.updateWorldMatrix(true,true);const r=new T.Box3().setFromObject(o);return {min:r.min.toArray(),max:r.max.toArray()};};return {side:b(columnViewDebug.dryStudy.model.getObjectByName('flush-sideboard')),hvac:b(hvacDetailsDebug.ducted.shell)};});
+  for(const edge of ['min','max'])assert.ok(Math.abs(alignment.side[edge][0]-alignment.hvac[edge][0])<.001);
+  console.log({alignment});
+  console.log('PASS: source chain, unknown beam width, calculator, plan toggles, desktop/mobile');
+ }finally{await browser.close();}
+})().catch(e=>{console.error(e);process.exitCode=1;});

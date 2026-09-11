@@ -19,6 +19,8 @@ export function createWalkController({model,camera,host,canvas,onChange,onExit})
  let active=false,obstacles=[],doors=[],grid=new Map(),stamp=0,nearDoor=null,lastRefresh=0;
  let collisionSnapshot=new WeakMap(),snapshotCount=0,refreshChecks=0;
  let joystick=[0,0],pointer=null,origin=null,travel=0,collisions=0,blockedStart=false;
+ let velocity=new T.Vector2(),motion=false,headOffset=0;
+ const reducedMotion=matchMedia('(prefers-reduced-motion: reduce)');
  const hud=document.createElement('div');hud.id='walkHud';
  hud.innerHTML='<div class="walk-caption"><b>自由行走</b><span id="walkHint">WASD / 方向键走动 · 拖动画面环顾 · E 开关近门</span></div><button id="walkDoor" hidden>开门</button><button id="walkExit">退出行走</button><div id="walkJoystick" role="group" aria-label="行走方向摇杆"><span aria-hidden="true">＋</span><i></i></div>';
  hud.hidden=true;host.append(hud);
@@ -74,7 +76,7 @@ export function createWalkController({model,camera,host,canvas,onChange,onExit})
   }
   return null;
  }
- function clearInput(){keys.clear();joystick=[0,0];pointer=null;origin=null;knob.style.transform='translate(0,0)';}
+ function clearInput(){keys.clear();velocity.set(0,0);joystick=[0,0];pointer=null;origin=null;knob.style.transform='translate(0,0)';}
  function enter(){
   rebuild();const p=nearest(camera.position.x,camera.position.z);
   blockedStart=!p;
@@ -83,7 +85,7 @@ export function createWalkController({model,camera,host,canvas,onChange,onExit})
   document.body.classList.add('is-walking');canvas.tabIndex=0;canvas.focus({preventScroll:true});
   hint.textContent='WASD / 方向键走动 · 拖动画面环顾 · E 开关近门';onChange();return true;
  }
- function leave(){active=false;clearInput();hud.hidden=true;document.body.classList.remove('is-walking');}
+ function leave(){if(active){camera.position.y=walkSettings.eye;headOffset=0;}active=false;clearInput();hud.hidden=true;document.body.classList.remove('is-walking');}
  function move(dx,dz){
   const count=Math.max(1,Math.ceil(Math.hypot(dx,dz)/walkSettings.maxStep));
   let changed=false;
@@ -110,17 +112,25 @@ export function createWalkController({model,camera,host,canvas,onChange,onExit})
   let forward=Number(keys.has('KeyW')||keys.has('ArrowUp'))-Number(keys.has('KeyS')||keys.has('ArrowDown'))-joystick[1];
   let side=Number(keys.has('KeyD')||keys.has('ArrowRight'))-Number(keys.has('KeyA')||keys.has('ArrowLeft'))+joystick[0];
   const length=Math.hypot(forward,side);if(length>1){forward/=length;side/=length;}
-  const a=camera.rotation.y,speed=walkSettings.speed*Math.min(dt,.05);
-  const moved=move((-Math.sin(a)*forward+Math.cos(a)*side)*speed,(-Math.cos(a)*forward-Math.sin(a)*side)*speed);
+  dt=Math.min(dt,.05);
+  const a=camera.rotation.y,speed=walkSettings.speed*(keys.has('ShiftLeft')||keys.has('ShiftRight')?1.6:1);
+  const desired=new T.Vector2((-Math.sin(a)*forward+Math.cos(a)*side)*speed,(-Math.cos(a)*forward-Math.sin(a)*side)*speed);
+  velocity.lerp(desired,1-Math.exp(-(length>0?12:20)*dt));if(length===0&&velocity.length()<.002)velocity.set(0,0);
+  const moved=move(velocity.x*dt,velocity.y*dt);
+  const targetHead=motion&&!reducedMotion.matches&&moved?Math.sin(travel*12)*.008:0;
+  const previousHead=headOffset;headOffset=T.MathUtils.lerp(headOffset,targetHead,1-Math.exp(-18*dt));
+  if(Math.abs(headOffset)<.00001&&targetHead===0)headOffset=0;
+  camera.position.y=walkSettings.eye+headOffset;
+  if(Math.abs(headOffset-previousHead)>1e-7)onChange();
   let nearestDistance=1.5;nearDoor=null;
   for(const door of doors){const p=door.getWorldPosition(new T.Vector3()),distance=Math.hypot(p.x-camera.position.x,p.z-camera.position.z);if(distance<nearestDistance){nearestDistance=distance;nearDoor=door;}}
   doorButton.hidden=!nearDoor;doorButton.textContent=nearDoor?.userData.open?'关门 · E':'开门 · E';
-  return moved;
+  return moved||Math.abs(headOffset-previousHead)>1e-7;
  }
  const inputFocused=()=>document.querySelector('dialog[open]')||/INPUT|TEXTAREA|SELECT/.test(document.activeElement?.tagName);
  window.addEventListener('keydown',e=>{
   if(!active||inputFocused())return;
-  if(['KeyW','KeyS','KeyA','KeyD','ArrowUp','ArrowDown','ArrowLeft','ArrowRight'].includes(e.code)){e.preventDefault();keys.add(e.code);}
+  if(['KeyW','KeyS','KeyA','KeyD','ArrowUp','ArrowDown','ArrowLeft','ArrowRight','ShiftLeft','ShiftRight'].includes(e.code)){e.preventDefault();keys.add(e.code);}
   if(e.code==='KeyE'&&!e.repeat)interact();if(e.code==='Escape')onExit();
  });
  window.addEventListener('keyup',e=>keys.delete(e.code));window.addEventListener('blur',clearInput);
@@ -130,5 +140,5 @@ export function createWalkController({model,camera,host,canvas,onChange,onExit})
  function updatePad(e){if(e.pointerId!==pointer)return;const dx=e.clientX-origin[0],dy=e.clientY-origin[1],length=Math.hypot(dx,dy),scale=Math.min(1,34/Math.max(length,1));joystick=[dx*scale/34,dy*scale/34];knob.style.transform=`translate(${dx*scale}px,${dy*scale}px)`;}
  pad.addEventListener('pointermove',updatePad);for(const type of ['pointerup','pointercancel','lostpointercapture'])pad.addEventListener(type,clearInput);
  const debug={rebuild,refreshCollisionState,free,reason,nearest,move,step,interact,get obstacles(){return obstacles;},get state(){return {active,radius:walkSettings.radius,eye:walkSettings.eye,travel,collisions,blockedStart,colliders:obstacles.length,stamp,refreshChecks,nearDoor:nearDoor?.name||null,position:camera.position.toArray(),keys:[...keys],joystick};}};
- return {enter,leave,step,rebuild,debug};
+ return {enter,leave,step,rebuild,debug,setMotion:value=>motion=Boolean(value)};
 }

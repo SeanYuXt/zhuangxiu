@@ -1,0 +1,252 @@
+{
+  "verifiedAt": "2026-09-10T09:33:35.039Z",
+  "revision": "sideboard-depth-40-10",
+  "entryAudit": {
+    "doors": [
+      {
+        "name": "door-front-main",
+        "turn": -1,
+        "outwardAnglesChecked": 90,
+        "intersectsEntryFurniture": false
+      },
+      {
+        "name": "door-front-secondary",
+        "turn": 1,
+        "outwardAnglesChecked": 90,
+        "intersectsEntryFurniture": false
+      }
+    ],
+    "closed": [
+      {
+        "name": "flush-entry-cabinet",
+        "depthMm": 459,
+        "min": [
+          3.80000000038743,
+          0.03999999636411666,
+          6.7111999998100105
+        ],
+        "max": [
+          5.359999999612569,
+          2.5800000476837157,
+          7.1700000003799795
+        ]
+      },
+      {
+        "name": "entry-welcome-niche",
+        "depthMm": 420,
+        "min": [
+          5.389999995231628,
+          0.059999997615814205,
+          6.750000006556511
+        ],
+        "max": [
+          6.130000004768371,
+          1.8000000238418579,
+          7.1700000003799795
+        ]
+      },
+      {
+        "name": "entry-low-cabinet",
+        "depthMm": 280,
+        "min": [
+          7.480000005364419,
+          0.7199999970197677,
+          6.889999999403954
+        ],
+        "max": [
+          7.959999994635583,
+          0.9160000003799796,
+          7.170000000596047
+        ]
+      }
+    ],
+    "entryDoorsAndDrawers": "PASS",
+    "retainedUpperControls": "PASS",
+    "removedUpperModules": [],
+    "closedExternalHits": [],
+    "swingHits": [],
+    "closedRoute": {
+      "diameterMm": 600,
+      "route": [
+        [
+          6.8,
+          6.25
+        ],
+        [
+          6.8,
+          5.85
+        ],
+        [
+          5.7,
+          5.85
+        ],
+        [
+          4.5,
+          5.85
+        ],
+        [
+          3.9,
+          5.95
+        ]
+      ],
+      "hits": []
+    },
+    "mirrorClearOfBench": true,
+    "cushion": false,
+    "storage": {
+      "size": [
+        1.56,
+        2.58,
+        0.45799999999999996
+      ],
+      "columns": 2,
+      "clearShelfWidth": 0.644,
+      "shelfDepth": 0.378,
+      "shoePairsIllustrated": 45,
+      "displayClearWidth": 0.2,
+      "description": "680mm封闭鞋柜＋200mm净宽花器竖格＋680mm镜门鞋柜；右侧底部高鞋位，面板细分缝。",
+      "capacityCertified": false
+    },
+    "limits": "Mesh boxes and sampled 600mm route; no human-motion, construction, load or full-clearance certification."
+  },
+  "detail": {
+    "artPlacement": {
+      "height": 1.1596522780475076,
+      "footprint": [
+        0.3531540526248662,
+        0.3531572575922315
+      ],
+      "childCasingGap": 0.1268713711973657,
+      "wallGap": 0.07342137120388426,
+      "galleryFloorClear": 1.6299999999478458
+    },
+    "hasNewComposition": true,
+    "hits": [],
+    "sideboard": {
+      "width": 3.9000000953674316,
+      "top": 2.4099999996125696,
+      "upperVisible": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "noAddedShelf": true,
+      "noAddedCeramics": true,
+      "stoneBack": true
+    },
+    "newWall": {
+      "min": [
+        12.065999999046326,
+        2.3841857821338408e-8,
+        6.691999994516372
+      ],
+      "max": [
+        13.9050000000475,
+        2.799999976158142,
+        7.170000000047497
+      ],
+      "sideboardGap": 0.02599999904632533,
+      "childCasingGap": 0.0754499945098539,
+      "wallPenetrations": []
+    },
+    "assetStats": [
+      {
+        "name": "entry-corner-gallery",
+        "size": [
+          0.7810000003203772,
+          0.5200000001043084,
+          0.3660000003203745
+        ],
+        "texturedMeshes": 10,
+        "base": 1.6299999999478458
+      },
+      {
+        "name": "entry-corner-floor-ceramics",
+        "size": [
+          0.3531540526248662,
+          1.1536522780475076,
+          0.3531572575922315
+        ],
+        "texturedMeshes": 1,
+        "base": 0.006
+      },
+      {
+        "name": "entry-corner-mineral-finish",
+        "size": [
+          0.8829999912260114,
+          2.799999952316284,
+          0.47800000553112465
+        ],
+        "texturedMeshes": 0,
+        "base": 2.3841857821338408e-8
+      }
+    ],
+    "route": {
+      "diameter": 0.6,
+      "points": [
+        [
+          10.8,
+          6.12
+        ],
+        [
+          12,
+          6.12
+        ],
+        [
+          13.46,
+          6.12
+        ],
+        [
+          14.2,
+          6.12
+        ]
+      ],
+      "hits": []
+    },
+    "oldDecorationRemoved": true
+  },
+  "service": {
+    "nicheContainsVase": true,
+    "noElectricalBack": true,
+    "ribAudit": [
+      {
+        "id": "lower",
+        "count": 26,
+        "attached": true,
+        "avoidsVents": true
+      },
+      {
+        "id": "upper",
+        "count": 26,
+        "attached": true,
+        "avoidsVents": true
+      }
+    ],
+    "coverProjection": 0.24999999961256947,
+    "layout": {
+      "sideboardEnd": 12.040000000000001,
+      "tvFace": 12.040000000000001,
+      "boxNear": 0.1500000001676387,
+      "boxFar": 0.5999999998323613,
+      "beamNear": 0.6999999994039534,
+      "boxToBeam": 0.09999999957159211,
+      "afterBeamModel": 0.8849999994039539,
+      "displayStart": 13.02,
+      "beamFar": 13.020000000596047
+    },
+    "hits": [],
+    "zoneHits": [],
+    "cabinetTop": 2.4000000035762787,
+    "beamMeasured": false,
+    "boxesMeasured": false,
+    "boxIdentityConfirmed": false,
+    "nicheBackRemovable": true,
+    "beamGap": 0.040000000000000036,
+    "limits": "CAD box projection and user-relative beam near edge checked in model. Box elevations, second box alignment, beam width and hinges are assumptions; not a survey."
+  },
+  "consoleErrors": [],
+  "limits": "原餐边柜保留并齐电视原墙面；验证CAD箱位投影＋用户相对梁位下的几何与开合。梁宽/梁底、第二箱同轴、箱高和右铰链为假设；现场安装未验证。600mm路线仅为饰面关闭时占位；检修会占走廊。"
+}

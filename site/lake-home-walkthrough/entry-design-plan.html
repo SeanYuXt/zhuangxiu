@@ -1,0 +1,58 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="data:,"><title>玄关收纳墙 · 鞋柜与换鞋</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f4f1ea;color:#373731;font:15px/1.7 system-ui,sans-serif}header{display:flex;justify-content:space-between;align-items:center;gap:22px;padding:24px 28px;border-bottom:1px solid #ddd8cd}h1{font:29px/1.4 Georgia,serif;margin:0}h2{font-size:17px;margin:0 0 14px}h3{font-size:15px;margin:22px 0 5px}p{margin:9px 0 17px}header p,small{color:#77766b}nav{display:flex;gap:10px;flex-wrap:wrap}a{color:#535e4d}nav a{padding:10px 14px;background:#e6e9df;border-radius:9px;text-decoration:none}main{display:grid;grid-template-columns:225px minmax(390px,1fr) 235px;gap:14px;margin:18px}aside,section{padding:20px;background:#fbfaf6;border:1px solid #ddd8cd;border-radius:18px}.tools{display:flex;gap:8px;align-items:center;justify-content:space-between;flex-wrap:wrap}button{font:inherit;background:#f4f1ea;border:1px solid #ccd0c3;border-radius:8px;padding:7px 10px;cursor:pointer}button[aria-pressed=true]{background:#5c6255;color:white}.views{display:flex;gap:6px}svg{display:block;width:100%;height:61vh;min-height:390px}svg text{font:13px system-ui;fill:#4d5247}svg .small{font-size:10px}.metric{font:32px Georgia,serif;color:#5c6255}.metric small{font:14px system-ui}.note{border-left:3px solid #687154;padding:12px;background:#e6e9df}footer{padding:0 28px 24px;color:#77766b;font-size:13px}@media(max-width:1120px){main{grid-template-columns:210px 1fr}aside:last-child{grid-column:1/-1}}@media(max-width:650px){header{display:block;padding:18px}nav{margin-top:15px}main{display:flex;flex-direction:column;margin:10px}section{order:0;padding:12px}aside:first-child{order:1}aside:last-child{order:2}svg{height:54vh;min-height:330px}h1{font-size:25px}}
+</style></head><body>
+<header><div><h1>一条花器竖格，让玄关有层次</h1><p>20cm花器竖格 · 细线面板 · 镜门与封闭收鞋</p></div><nav><a href="column-view.html?space=entry&v=entry-wall-source-5">进入实时3D →</a><a href="column-view.html?space=passageArt&v=entry-wall-source-5">看L形装饰角 →</a></nav></header>
+<main><aside><h2>先解决鞋多</h2><div class="metric">156 <small>cm 柜组总宽</small></div><p>总宽保持不变：68cm封闭柜＋20cm净宽竖向展示格＋68cm镜门柜，上部换季收纳。</p><h3>一排放，直接拿</h3><p>柜身420mm深，层板有效深度378mm。两侧层板净宽各644mm；层高可调，右侧底部留高鞋位。</p><p class="note">镜面做在其中一扇柜门上，镜前不摆坐凳。关门照镜，开门收鞋。</p><small>图中按约29cm长的示意鞋排布，实际容量需随鞋型、鞋盒和层板间距调整。</small></aside>
+<section><div class="tools"><h2 id="viewTitle">面向入户墙 · 外观</h2><div class="views"><button data-view="closed" aria-pressed="true">外观</button><button data-view="inside" aria-pressed="false">收纳分区</button><button data-view="plan" aria-pressed="false">占位</button></div></div><svg id="drawing" role="img" aria-label="玄关鞋柜、木坐面、外开入户门与随手台"></svg><small id="viewNote">与实时3D使用同一份尺寸；正面展开显示柜体关系，不改变墙体和门洞。</small></section>
+<aside><h2>把日常动作排顺</h2><h3>进门放钥匙</h3><p>对讲下方保留48cm随手台，深度收至28cm，小物抽屉独立使用。</p><h3>坐下换鞋</h3><p>74cm宽、46cm高的浅木坐面靠近入户门；圆角边缘、两端落地承托。没有坐垫和软包。</p><h3>常穿鞋直接拿</h3><p>凳下开放格放两双常穿鞋，其余收进柜。换鞋时不需要先拉开鞋抽。</p><h3>高低与材质有变化</h3><p>暖灰面板加2mm细线，中间浅木竖格配小花器。主卧门旁公共过道增加60×100cm绚彩挂画。</p></aside></main>
+<footer>当前模型：鞋柜闭合最深约458mm，坐凳420mm、随手台280mm；入户门外开和对讲位置保留。模型已检查柜门开启与600mm简化通行路径，不能代替现场复尺、承重及五金选型。旧高清效果图尚未同步本次改动。</footer>
+<script type="module">
+import {entryCompositionSpec as s} from './entry-composition-spec.js?v=entry-wall-source-5';
+import {doorLeaves} from './plan.js?v=entry-outward-niche';
+const svg=document.querySelector('#drawing'),ns='http://www.w3.org/2000/svg';let view='closed';
+const el=(tag,attrs,text)=>{const e=document.createElementNS(ns,tag);for(const[k,v]of Object.entries(attrs))e.setAttribute(k,v);if(text)e.textContent=text;svg.append(e);return e;};
+const rect=(x,y,w,h,fill,attrs={})=>el('rect',{x,y,width:w,height:h,fill,stroke:'#aaa698','stroke-width':.65,rx:1.5,...attrs});
+const text=(x,y,t,small=false)=>el('text',{x,y,'text-anchor':'middle',class:small?'small':''},t);
+const line=(x,y,u,v,attrs={})=>el('line',{x1:x,y1:y,x2:u,y2:v,stroke:'#747d67','stroke-width':.7,...attrs});
+const {tall:a,niche:n,console:c,mirror:m,display:d}=s;
+function elevation(){svg.setAttribute('viewBox','355 -8 470 335');rect(365,0,450,280,'#f0ede5',{stroke:'none'});
+ rect(a.x*100,280-a.top*100,a.width*100,(a.top-a.bottom)*100,'#dedbd3');rect(a.x*100+5,280-a.bottom*100,a.width*100-10,14,'#666a60');
+ for(let i=0;i<a.columns;i++){
+  const x=a.bays[i].x*100,w=a.bays[i].width*100;
+  rect(x+1,22,w-2,46,'#dedbd3');
+  if(view==='inside'){
+   rect(x+1,72,w-2,188,'#c7b496');
+   a.shelfLevels[i].forEach(y=>{rect(x+2,280-y*100,w-4,1.8,'#ac9474');for(let k=0;k<6;k++)rect(x+3+k*10.6,280-y*100-9,9,8,'#dfd8c9');});
+   text(x+w/2,43,'鞋盒',true);
+  }else{
+   rect(x+.4,280-a.lowerTop*100,w-.8,(a.lowerTop-a.bottom-.018)*100,'#dedbd3');
+   if(i===m.column)rect(x+(w-m.width*100)/2,280-m.top*100,m.width*100,(m.top-m.bottom)*100,'#aab3ac');
+   else {line(x+w-2.5,150,x+w-2.5,180,{stroke:'#6a6d64'});line(x+4,170,x+w-4,170,{stroke:'#8a806f'});line(x+23,82,x+23,252,{stroke:'#8a806f'});}
+  }
+ }
+ rect(d.x*100,280-d.top*100,d.width*100,(d.top-d.bottom)*100,'#bda98c');
+ for(const y of d.shelves)rect(d.x*100,280-(y+.018)*100,d.width*100,1.8,'#947c5d');
+ for(const [base,h,color] of [[.738,.27,'#ede1cb'],[1.668,.22,'#57796f']])el('ellipse',{cx:(d.x+d.width/2)*100,cy:280-(base+h/2)*100,rx:5.8,ry:h*50,fill:color});
+ text((d.x+d.width/2)*100,289,'200',true);
+ rect(n.x*100,100,n.width*100,170,'#e6e2d9',{stroke:'none'});
+ for(const x of [n.x+.024,n.x+n.width-.024])rect(x*100-2.4,237,4.8,37,'#dedbd3');
+ rect(n.x*100,280-n.seatTop*100,n.width*100,3,'#b9a488',{rx:1.4});rect(n.x*100+1.3,264.4,n.width*100-2.6,2.6,'#b9a488');
+ for(let k=0;k<4;k++)rect(n.x*100+10+k*13.8,255.5,10,8,'#dbd6cb');
+ rect((n.x+n.width-.315)*100,122,25,4.4,'#b9a488');
+ for(const x of [n.x+n.width-.265,n.x+n.width-.115])rect(x*100-1,120,2,6,'#767266');
+ rect(633,60,110,220,'#78847f');line(707.1,65,707.1,275,{stroke:'#596a5e'});text(688,174,'入户门',true);text(688,192,'向外开',true);
+ rect(c.x*100,280-c.top*100,c.width*100,17.2,'#bda98e');rect(c.x*100,280-c.top*100,c.width*100,3,'#dedbd3');rect(762,127,22,15,'#d8d9d1');rect(764.5,159.7,17,8.5,'#d8d9d1');
+ text(a.x*100+a.width*50,309,'680柜＋200竖格＋680柜',true);text(n.x*100+n.width*50,302,'740 木坐面',true);text(688,302,'1100 门洞',true);text(c.x*100+c.width*50,302,'480 随手台',true);
+ if(view==='inside')text(513,320,'底部高鞋格 ↑',true);
+}
+function footprint(){svg.setAttribute('viewBox','355 525 470 335');rect(365,535,450,182,'#f0ede5',{stroke:'none'});rect(365,727,450,110,'#e6e9df',{stroke:'none'});
+ for(const [x,d,fill]of [[a,a.depth+.038,'#b7c1ad'],[n,n.depth,'#c6b494'],[c,c.depth,'#c6b494']])rect(x.x*100,(s.wallFaceZ-d)*100,x.width*100,d*100,fill);
+ line(365,657,815,657,{'stroke-dasharray':'4 4',stroke:'#aa8063'});text(751,649,'60cm闭合占位线',true);
+ line(365,727,633,727,{'stroke-width':10});line(743,727,815,727,{'stroke-width':10});
+ const hinges=[637.5,738.5];doorLeaves.front.forEach((d,i)=>{const x=hinges[i],length=d.share*101,sign=i===0?1:-1;el('path',{d:'M'+(x+sign*length)+' 727 A'+length+' '+length+' 0 0 '+(i===0?1:0)+' '+x+' '+(727+length),fill:'none',stroke:'#7c8871','stroke-dasharray':'3 3'});line(x,727,x,727+length,{'stroke-width':3});});
+ text(469,696,'鞋柜最深约458mm',true);text(575,696,'420深',true);text(772,708,'280深',true);text(474,590,'室内走廊');text(689,836,'门外区域 · 未作现场复尺',true);
+}
+function draw(){svg.replaceChildren();(view==='plan'?footprint:elevation)();document.querySelector('#viewTitle').textContent=view==='plan'?'闭合占位与入户外开方向':view==='inside'?'两侧封闭 · 中间花器竖格':'面向入户墙 · 外观';document.querySelector('#viewNote').textContent=view==='plan'?'上方室内、下方门外；图面方向不代表地理北向。':'与实时3D使用同一份尺寸；正面展开显示柜体关系，不改变墙体和门洞。';document.querySelectorAll('[data-view]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.view===view)));}
+document.querySelectorAll('[data-view]').forEach(b=>b.onclick=()=>{view=b.dataset.view;draw();});draw();
+</script></body></html>

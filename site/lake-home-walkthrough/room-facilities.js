@@ -27,7 +27,7 @@ export const roomFacilities={
  item('抽油烟机','kitchen-hood','烟机壳体、集烟过滤面、照明与上部罩壳。罩壳不表示已确认排烟管路。',[5.20,1.6,4.5]),
  item('操作台与地柜','kitchen-cooking-cabinets','侧向操作台与地柜分扇，台面标高约 900 mm。'),
  item('水槽柜与收纳','kitchen-sink-cabinets','有柜门、拉手与踢脚；水槽下方管路空间待深化。'),
- item('厨房旁内嵌冰箱','integrated-fridge','位于厨房外侧相邻柜体，不在入户门旁；散热尺寸待选型。',[8.19,1.6,2.76])
+ item('厨房旁内嵌冰箱','integrated-fridge','厨房门右侧靠阳台；冰箱本体900×600mm，外侧柜体宽960mm，暖灰侧板与浅木顶柜。高度、散热与留缝按机型核实。',[8.19,1.6,2.76])
  ]},
  bed1:{summary:'两位入住，1500×1800mm床垫，床头朝图左。1800×400mm推拉门薄衣柜（含门轨）、床箱收纳被褥、两侧小床头柜，实体飘窗保留。柜前约510mm仍紧凑；换季收纳可由主卧补充。',items:[...bedroom('bed1',1.5,true).filter(i=>!['bed1-desk','bed1-desk-everyday'].includes(i.object)),item('实体飘窗 · 湖景保留','bed1-raised-bay','用户确认不可拆；不再设窗下矮柜。台高550mm仅为示意。'),item('床箱 · 被褥收纳','bed1-bed-storage','换季被褥放床下，上翻轨迹与支撑五金未选定，不作为操作安全认证。'),item('两侧小床头柜','bed1-nightstand-0','32×30cm与30×30cm示意，使用净距待实测。')]},
  master:{summary:'1.8 m薄床架方案、约4.5m组合高柜、900×450mm翻盖梳妆台及镜侧灯已进入当前全屋；主卫保留套内连接。床尾约652mm偏紧，不是独立衣帽间。',items:[item('梳妆台 · 镜侧灯与翻盖收纳','master-makeup-desk','900×450mm台面，翻盖浅格收纳，凳子收进桌下；侧灯为选型示意。',[13.7,1.5,3.45]),...bedroom('master',1.8)]},
@@ -49,22 +49,22 @@ export const roomFacilities={
  item('设备检修口','service-hatch','450 mm 为暂定检修开口示意；需匹配最终机型。',[8.61,1.6,5.05]),
  item('双眼皮吊顶','客厅双眼皮外层','客厅双眼皮造型；实际梁位、层高及风管吊顶需现场确认。')
  ]},
- dining:{summary:'餐边柜自上而下：一排内收吊柜、600 mm 深操作台、独立抽屉、底柜。无外露拉环、无反弹器。',items:[item('双人餐具与桌垫','dining-table-settings','补餐盘、餐巾、杯子与餐具，保留中间操作区。',[8.1,1.6,3.6]),item('岛台与两席','stone-island','1800×900×900mm干式备餐岛台，40mm薄台面；厨房面六抽、490mm深柜身；两席在东侧长边朝厨房，膝部380mm、座位中心距860mm。厨房侧静态1100mm；沙发侧1050mm用于坐席，不是有人入座后的椅后通道。不含给排水。'),item('四段餐边柜整体','flush-sideboard','上柜不再拆成两排；操作台下新增六只独立抽屉。台面深 600 mm，上柜成品深 350 mm、内收 250 mm；右侧管线机保留嵌入柜体。',[9.43,1.45,4.8]),item('上柜门板下延手扣','sideboard-upper-storage','门板下延 25 mm，底板前沿退让手指空间；手从下方拉开，不用反弹器。内收不能保证开门时不碰头。',[9.0,1.4,5.35]),item('第三段 · 餐具抽屉','sideboard-drawer-bank','台面下独立一排六抽，含抽屉盒体；面板高约 200 mm，顶部 45°斜切手扣。滑轨、承重及拉出后使用净空未验收。',[9.43,1.2,5.45]),item('第四段 · 底柜手扣','sideboard-base-bevel-2','底柜与上方抽屉独立分段；22 mm 门板顶部 45°斜切，不装外挂把手或反弹器。板材、倒钝及五金待定。',[9.75,.85,5.85])]},
- entry:{summary:'进门放钥匙、关门后在次卫侧换鞋；鞋类与餐边收纳分开；对讲及控制面板露出。次卫侧宽1.6m的高鞋柜收鞋，退离门铰链约975mm；不加正对门隔断。',items:[item('玄关整体 · 进门先取放','entry-single-side-layout','门把手侧500mm日用矮柜＋次卫侧1600mm集中鞋柜。地面同标高，设备墙保留。位置与人体使用待现场核准。',[7.0,1.6,5.35]),item('集中鞋柜','flush-entry-cabinet','1600×约420mm，四扇约400mm柜门。底部开放格放常穿鞋和拖鞋，上部放备用鞋、换季鞋；层板按鞋长调整。',[5.4,1.5,5.5]),item('进门日用柜','entry-low-cabinet','宽500、高900、含把手最深约450mm；台面放钥匙手机、浅抽收小物，封闭收小物与包，不放鞋。非全家鞋柜容量，非座位。',[7.0,1.5,5.8]),item('随手台面','entry-key-tray','位置靠门把手侧；鞋类另在次卫侧。'),item('可视对讲与控制面板','entry-intercom-control-zone','设备墙下方为日用矮柜，面板保持露出；按原底盒位置核准。')]},
+ dining:{summary:'餐边柜总深改为400mm，六段350mm深连续吊柜保留；台面、底柜、抽屉和管线机区域同步收浅。新增陈列仅位于餐边柜末端之后的余墙。',items:[item('双人餐具与桌垫','dining-table-settings','补餐盘、餐巾、杯子与餐具，保留中间操作区。',[8.1,1.6,3.6]),item('岛台与两席','stone-island','1800×900×900mm干式备餐岛台，整体向餐边柜方向平移300mm；两席与吊灯同步。40mm薄台面；厨房面六抽、490mm深柜身；两席在东侧长边朝厨房，膝部380mm、座位中心距860mm。厨房侧静态1100mm；沙发侧1050mm用于坐席，不是有人入座后的椅后通道。不含给排水。'),item('餐边柜整体','flush-sideboard','3900mm宽、400mm总深，六段350mm深吊柜；六抽盒深300mm、示意行程250mm，底柜层板深290mm；开放操作区背板试换暖白细纹石英石材质，呼应电箱柜中格。管线机及检修位保留。',[9.43,1.45,4.8]),item('上柜门板下延手扣','sideboard-upper-storage','门板下延 25 mm，底板前沿退让手指空间；手从下方拉开，不用反弹器。内收不能保证开门时不碰头。',[9.0,1.4,5.35]),item('第三段 · 餐具抽屉','sideboard-drawer-bank','台面下独立一排六抽，抽盒深300mm、示意拉出250mm，随400mm总深重排；面板高约200mm、顶部45°斜切手扣。滑轨、承重及拉出后使用净空未验收。',[9.43,1.2,5.45]),item('第四段 · 底柜手扣','sideboard-base-bevel-2','底柜与上方抽屉独立分段；22 mm 门板顶部 45°斜切，不装外挂把手或反弹器。板材、倒钝及五金待定。',[9.75,.85,5.85])]},
+ entry:{summary:'1560mm总宽内为680mm鞋柜＋200mm净宽花器竖格＋680mm镜门柜；封闭收纳集中两侧，右下高鞋位、顶部换季鞋盒。740mm木坐面靠近入户门，凳下开放放两双常穿鞋；全身镜与一扇鞋柜门结合。',items:[item('玄关收纳墙 · 整体','entry-single-side-layout','浅暖灰封闭柜、木坐面和一扇全身镜形成高低变化。没有坐垫或软包；柜体采用420mm深单排收鞋。',[7.25,1.50,5.65]),item('玄关柜 · 20cm花器竖格','flush-entry-cabinet','两侧各680mm柜体、层板净宽644mm、深378mm；中间200mm净宽展示格退到柜体线，让开镜门转动。右侧底部高鞋位；面板2mm细线与木色收口。图中鞋型仅示意，不能直接当作实际容量保证。',[5.58,1.55,5.80]),item('74cm木面换鞋凳','entry-welcome-niche','坐高460mm、深420mm，圆角浅木坐面，两端落地承托；凳下开放格拿常穿鞋，不需拉鞋抽。靠门一端设两个小挂钩。',[6.7,1.5,5.85]),item('鞋柜镜门','entry-dressing-mirror','镜面从约250mm到2035mm，前方不设坐凳；镜门打开后仍是封闭鞋格。防坠和铰链承重须按成品核定。',[5.14,1.6,5.80]),item('浅随手台','entry-low-cabinet','宽480mm、深280mm、台面高900mm；小物抽屉拉出200mm。对讲与控制面板保持原位，下方不放鞋。',[7.05,1.5,5.7]),item('随手托盘','entry-key-tray','钥匙手机进门落位，鞋类集中在另一侧。'),item('可视对讲与控制面板','entry-intercom-control-zone','保留原模型设备位置，未迁移电气底盒。'),item('外开入户门','door-front-main','保留向室外开启和原子母门比例；门外公共区域及安装条件仍待现场核实。',[6.8,1.6,5.1])]},
  bar:{summary:'双翼等长四席试排：左右各1.3m，每侧两席、中心距650mm，柱宽按400mm上限。洗烘侧静态桌端净距约800mm，不代表机门打开后能舒适取衣。',items:[item('承重柱与包饰','retained-balcony-column','不可拆；柱宽按400mm上限试排，进深450mm待复尺。护栏线至柱中心约1.5m，不是柱边净距。'),item('左翼 · 1.3m / 两席','lake-bar-left','与右翼同长、同高、同材质；每侧两张原尺寸吧椅，中心距650mm；外端支撑收至靠玻璃侧，支撑承重未验证。'),item('右翼 · 1.3m / 两席','lake-bar-right','按用户要求改为等长；到洗烘柜静态间距约800mm。机门开启、弯腰取衣和安装余量待验证，不能据静态宽度下单。')]},
  laundry:{summary:'洗烘柜沿右墙朝正面玻璃方向前移55cm；机门中心与桌后沿错开约75.4cm，正面玻璃线到柜侧约14cm。此为模型试排，给排水、开启角度及安装检修未定。',items:[item('洗衣机','laundry-washer','下层洗衣机，给排水、插座和减振待核实。'),item('烘干机','laundry-dryer','上层烘干机，须与原厂叠放套件匹配。'),item('整体洗烘柜','balcony-laundry-cabinet','含上柜、清洁柜及任务灯；散热检修待机型确认。')]}
 };
-export const facilityRoom=id=>({tvSeat:'living',lake:'bar',drying:'bar',balconyGap:'bar',columnFront:'bar',glassLeft:'bar',glassRight:'laundry',cabinet:'dining',fridge:'kitchen',services:'living'}[id]||id);
+export const facilityRoom=id=>({passageArt:'entry',tvSeat:'living',balconyDesign:'laundry',lake:'bar',drying:'bar',balconyGap:'bar',columnFront:'bar',glassLeft:'bar',glassRight:'laundry',cabinet:'dining',fridge:'kitchen',services:'living'}[id]||id);
 
 for(const [i,label] of ['餐具','茶工具','茶杯','桌布餐巾','茶叶盒','保鲜用品'].entries()){
  const x=9.43-[-1.625,-.975,-.325,.325,.975,1.625][i];
  roomFacilities.dining.items.push({...item('抽屉 · '+label,'sideboard-drawer-'+i,'面板与盒体共同拉出420mm，45°手扣保持；五金及实际承重待选。',[x,1.45,5.8]),action:'sideboard',band:'drawer',index:i});
  for(const [band,y,label2] of [['upper',1.8,'上柜'],['base',1.15,'底柜']])roomFacilities.dining.items.push({...item(label2+' · 第'+(i+1)+'格','sideboard-'+band+'-door-'+i,band==='upper'?'关闭深350mm、门板下延25mm，90°平开，无拉环/反弹器。上柜顶2.41m，取消最高一层、保留两层杯具储物；容量减少换柜墙一体顶线，不冒充原容量。铰链及安装承重待核。':'保留斜切手扣，分层杯碟/备用物收纳；铰链为尺寸示意。',[x,y,5.8]),action:'sideboard',band,index:i});
 }
-roomFacilities.dining.items.push({...item('管线机 · 隐藏水电检修','dispenser-service-pier','设备面板保持齐平不移动。左侧原120mm装饰边改窄检修柜，净宽96mm；下部截止阀、上部电源预留，隔板分开并预留漏水感应。柜内管线未接建筑水电，实际防护和拆机方式仍需设备核定。',[8.08,1.45,5.9]),action:'sideboard',band:'service'});
-roomFacilities.kitchen.items.push({...item('冰箱 · 四门与内仓','fridge-cold-interior','保留厨房旁柜位，四门开启125°再抽篮；门封凹座与铰轴避让已建模。必须匹配实际零嵌机型、开门角和散热要求，未确认有效容积。',[8.8,1.6,2.65]),action:'fridge'});
-roomFacilities.kitchen.items.push({...item('冰箱顶柜 · 换季轻物','fridge-upper-storage','两层、四只396×240×430mm收纳盒；柜门向厨房侧平开90°。高位只放低频轻物，配稳固踏凳取放，不踩餐椅或岛台；固定及五金承重待选。此柜不充当冰箱散热风道。',[8.6,1.6,2.80]),action:'fridge',upper:true});
-for(let i=0;i<5;i++)roomFacilities.kitchen.items.push({...item(i===4?'冰箱 · 果蔬抽屉':'冰箱 · 冷冻抽篮 '+(i+1),i===4?'fridge-crisper':'fridge-freezer-bin-'+i,'先开门，再拉出300mm取物。内腔尺寸是设计包络，不等于厂家有效容量。',[7.4,1.20,2.4]),action:'fridge',bin:i});
+roomFacilities.dining.items.push({...item('管线机 · 隐藏水电检修','dispenser-service-pier','设备面板随400mm柜深重新定位并保持齐平，设备本体未缩放。左侧120mm窄检修柜，净宽96mm；下部截止阀、上部电源预留，隔板分开并预留漏水感应。柜内管线未接建筑水电，实际防护和拆机方式仍需设备核定。',[8.08,1.45,5.9]),action:'sideboard',band:'service'});
+roomFacilities.kitchen.items.push({...item('冰箱 · 四门与内仓','fridge-cold-interior','900×600mm外形方案；四门与内部格局为开合示意，不对应已选机型。实际开门角、抽篮和散热要求按产品核实。',[8.8,1.6,2.65]),action:'fridge'});
+roomFacilities.kitchen.items.push({...item('冰箱顶柜 · 换季轻物','fridge-upper-storage','柜体宽960mm、顶高2580mm，两层浅木内衬收纳。高位只放低频轻物；固定及五金待选，不把顶柜当散热风道。',[8.6,1.6,2.80]),action:'fridge',upper:true});
+for(let i=0;i<5;i++)roomFacilities.kitchen.items.push({...item(i===4?'冰箱 · 果蔬抽屉':'冰箱 · 冷冻抽篮 '+(i+1),i===4?'fridge-crisper':'fridge-freezer-bin-'+i,'内部抽篮及300mm拉出动作仅为示意；实际产品结构、有效容量和所需开门角均未选定。',[7.4,1.20,2.4]),action:'fridge',bin:i});
 
 roomFacilities.laundry.items.unshift(
  {...item('洗衣机 · 开门看内筒','washer-drum-interior','右铰链向远离玻璃/窗帘侧展开，110°为当前检查角；必须选右铰链成品，不能把普通洗衣机随意换向。',[10.55,1.12,.66]),action:'laundry-door',kind:'washer'},
@@ -192,3 +192,42 @@ roomFacilities.bed3.summary='已确认原门方案：150×200cm床垫、120×50c
 for(const i of roomFacilities.bed3.items){if(i.object==='bed3-bed')i.note='150×200cm床垫、154×206cm床框，不是储物床。';if(i.object==='bed3-wardrobe')i.note='120×50cm衣柜，柜门与原方案一致；收纳尺寸需现场复核。';if(i.object==='bed3-desk')i.note='80×60cm侧向采光学习位，转角台面延伸到飘窗；保留原门窗。';}
 
 roomFacilities.bed3.items=roomFacilities.bed3.items.filter(i=>i.object!=='bed3-bed-storage');
+
+roomFacilities.dining.summary='保留原600mm深下柜与设备，吊柜收短为1300mm两格；其余上方改为1720mm开放木层板、浮雕和墙面留白。减少四格封闭吊柜，空间更轻。';
+roomFacilities.dining.items.push(item('餐边柜旁余墙 · 陈列与检修','family-display-wall','原餐边柜末端之后的独立2400mm高方案；上下设备饰面独立开启，中段暖木色花器格。梁和箱体坐标、尺寸待复尺；箱前没有收纳层板或共用台面。',[11.85,1.60,5.88]));
+
+// Current right-side utility zone; historical left-side cleaning installation is removed.
+roomFacilities.laundry.summary='左侧休闲娱乐，右侧集中卫生生活：550mm盆柜（下放上下水基站）＋660mm洗烘＋180mm抽拉长物柜，共1390mm。柜深统一720mm，上柜统一顶底线。柜后管线与具体机型待核。';
+roomFacilities.laundry.items=roomFacilities.laundry.items.filter(i=>i.object!=='balcony-solid-right');
+for(const i of roomFacilities.laundry.items){if(i.kind){i.note='600×840×630mm机身占位，含门深约708mm；右铰链预览90°，必须匹配实际取衣开启角及原厂叠放套件。';i.position=[10.5,1.4,1.03];}if(i.object==='balcony-laundry-cabinet')i.note='660mm柜宽，600mm机器两侧各12mm模型余量；720mm深。散热、振动和安装间隙须按实机核定。';}
+roomFacilities.laundry.items.push(
+ item('洗衣盆＋上下水扫地机','balcony-wet-hamper','550×720mm盆柜，台面900mm，盆口460×360mm、深210mm。后置下水与基站背部服务区分开；前方18L日常小件篮，不再承诺45L脏衣容量。',[9.5,1.5,.75]),
+ item('整高抽拉挂架 · 拖把与撑衣杆','balcony-tool-cabinet','180mm宽窄长物柜，前抽500mm。薄拖把头侧放，示意长杆1600–1900mm；桶形拖把、大圆头及五金承重需另核。',[9.5,1.5,.75]),
+ item('上柜 · 日用品收纳','balcony-wet-upper','盆柜与洗烘上柜统一350mm深、1830mm底线、2770mm顶线。阳台原顶面仍保留。',[9.5,1.5,.75]),
+ item('电视旁 · 独立展示柜','tv-display-lake','800mm模块、390mm深；独立底座，电视低柜截短至2750mm，在展示侧板处结束。细框玻璃门、木背板与灯带。',[9.35,1.55,1.1]),
+ item('中柱与原窗上横梁保留','retained-balcony-beam-envelope','用户指定栏杆内侧到柱外侧1450mm试排；梁仅在原窗洞上方，阳台顶面仍按现模型2800mm。梁底2400mm/宽400mm为未复尺包络。',[9.35,1.55,1.1])
+);
+roomFacilities.care={summary:roomFacilities.laundry.summary,items:[
+ item('右侧卫生生活区','balcony-care-cabinet','全部位于阳台右侧，左侧清洁柜整组撤掉。上下水基站、长物挂架与盆柜共用右侧生活区。',[9.65,1.45,.85]),
+ item('上下水基站 · 前维护候选','balcony-robot-dock','420×550×540mm概念包络，盆下有隔水顶板。机型必须支持前维护；当前不适合只能向上开盖的基站。现场接水、排水及电源未确认。',[10.5,.80,.50]),
+ item('前维护 · 耗材盒','dock-removable-service-cassette','先将前板翻到75°检修位，再前抽200mm耗材盒；不是把带水基站拖出。模型动作不代表任意产品都支持。',[10.5,.80,.50]),
+ item('扫地机 · 出入示意','balcony-cleaning-robot','350mm直径、145mm高机器人占位，前方260mm高开口供出入；700mm直线演示不是实机对接验收。',[10.5,.7,.5]),
+ item('拖把、扫把、撑衣杆 · 抽拉挂架','balcony-care-dry-storage','180mm模块内整高挂架，夹挂1600–1900mm长物。薄工具头侧向收纳，底部接水盘；潮湿工具先沥水，通风、滑轨与防倾倒待定。',[9.65,1.45,.85])
+]};
+roomFacilities.bar.summary='左侧休闲娱乐、右侧洗护叠衣。柱梁保留，净进深按1450mm设计值校正；原双翼桌与座椅保留，右桌面改叠衣用途。';
+for(const room of Object.values(roomFacilities))for(const i of room.items){
+ if(i.object==='balcony-care-cabinet'){i.label='右侧卫生生活区';i.note=roomFacilities.care.summary;i.position=[9.65,1.45,.85];}
+ if(i.object==='bar-tea-zone'){i.label='左侧 · 休闲茶席';i.note='茶盘移到左侧休闲区，右侧桌面用于洗护叠衣；湖景玻璃与柱梁保留。';i.position=[7.8,1.5,2.6];}
+ if(i.object==='balcony-drying-rack'){i.note='2m双杆，杆距440mm；升至2480mm、降至1750mm，12件遮景示意。左侧留景，固定点和承重须选型。';i.position=[7.15,1.6,.72];}
+ if(i.object==='tv-display-lake'){i.label='阳台侧 · 独立玻璃展示柜';i.note='800mm展示柜独立底座；2750mm电视低柜到展示侧板结束，两者不共用占地。';i.position=[9.35,1.55,1.1];}
+ if(i.object==='recessed-tv-black-side-reveals')i.note='原85寸电视保留；阳台侧增加独立玻璃展示柜，电视低柜缩到2750mm，侧板清楚分界。';
+}
+roomFacilities.bar.items.push(item('右侧 · 洗护叠衣台','balcony-folding-worktop','原右侧桌面保留，茶具移到左侧，作为折叠衣物的操作面。',[10.6,1.5,2.8]));
+for(let i=0;i<pendingDesign.length;i++){
+ if(pendingDesign[i].startsWith('阳台洗手台及盆收纳：'))pendingDesign[i]='阳台洗衣盆与收纳：右侧550mm盆柜、上柜和180mm抽拉长物架已建模；实机适配、排水接点及五金待核。';
+ if(pendingDesign[i].startsWith('电动晾衣架：'))pendingDesign[i]='电动晾衣架：2m双杆与12件遮景示意；承重、安装高度和吊点待实机核定。';
+ if(pendingDesign[i].startsWith('上下水扫地机：'))pendingDesign[i]='上下水扫地机：已集中右侧盆下；前维护是选型条件，管线接点和具体机型尚未确认。';
+ if(pendingDesign[i].startsWith('横厅：'))pendingDesign[i]='横厅：柱位按1450mm净进深校正，四把吧椅同步；历史起身检查不作为当前新柱位的验收。';
+}
+
+roomFacilities.entry.items.push(item('20cm竖向花器格','entry-vertical-display-niche','净宽200mm、层板深420mm，前沿退到柜体线以让开柜门；两只直径约120mm的小花瓶靠前摆放，浅木背板与隐藏灯带。',[5.6,1.50,5.9]),item('检修浅柜 · 陶罐与影像','family-display-wall','梁前250mm深检修柜，上下独立柜门，原箱前无固定背板或层板；中格石材背板与陶器陈列。餐边柜背板试换暖白细纹石英石。梁后两幅示意影像与浅色陶罐疏枝，无储物柜。产品、箱高、固定和灯位待深化。',[12.00,1.60,5.99]));

@@ -1,0 +1,41 @@
+{
+  "shoes": {
+    "open": true,
+    "angles": [
+      1.5707963267948966,
+      1.5707963267948966,
+      1.5707963267948966,
+      1.5707963267948966
+    ],
+    "spec": {
+      "widthMm": 1200,
+      "overallDepthMm": 400,
+      "illustratedPairs": 28,
+      "capacityCertified": false
+    }
+  },
+  "service": {
+    "state": {
+      "guests": false,
+      "storage": false,
+      "shoes": false,
+      "service": true,
+      "fridge": false
+    },
+    "objects": [
+      {
+        "id": "upper",
+        "originalAngle": -1.5707963267948966,
+        "coverAngle": -1.5707963267948966,
+        "openEndpointOverlap": false
+      },
+      {
+        "id": "lower",
+        "originalAngle": -1.5707963267948966,
+        "coverAngle": -1.5707963267948966,
+        "openEndpointOverlap": false
+      }
+    ]
+  },
+  "errors": []
+}

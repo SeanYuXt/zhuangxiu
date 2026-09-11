@@ -1,0 +1,81 @@
+{
+  "model": "entry-whole-wall-24",
+  "zones": {
+    "widthMm": 2000,
+    "overallDepthMm": 600,
+    "utilityWidthMm": 400,
+    "prepWidthMm": 800,
+    "shoeWidthMm": 800,
+    "illustratedPairs": 21,
+    "capacityCertified": false
+  },
+  "prep": {
+    "name": "entry-prep-worktop",
+    "x1": 4.199999994039535,
+    "x2": 5.000000005960464,
+    "z1": 6.569999988079071,
+    "z2": 7.170000011920929,
+    "y1": 0.8559999998956919,
+    "y2": 0.8800000001043081
+  },
+  "side": {
+    "alongWallMm": 300,
+    "wallProjectionMm": 600,
+    "sideOuterWidthMm": 600,
+    "nicheClearWidthMm": 564,
+    "nicheClearDepthMm": 284,
+    "nicheClearHeightMm": 760,
+    "slipperClearMm": 230,
+    "opening": "towards-entry-positive-x",
+    "seat": false
+  },
+  "wholeRunMm": 2445,
+  "cabinetRunMm": 2330,
+  "vanityGapMm": 115,
+  "doorClosedCorridorMm": 1070,
+  "closedHits": [],
+  "motionHits": [],
+  "drawerCaseHits": [],
+  "fromWash": true,
+  "routes": [
+    {
+      "name": "餐区操作台",
+      "point": [
+        9.61,
+        6.409999997019767
+      ],
+      "reached": true,
+      "lengthMetres": 1.175
+    },
+    {
+      "name": "冰箱取物位",
+      "point": [
+        8.33,
+        6.16
+      ],
+      "reached": true,
+      "lengthMetres": 0.275
+    },
+    {
+      "name": "厨房入口内",
+      "point": [
+        5.3,
+        3.95
+      ],
+      "reached": true,
+      "lengthMetres": 5.5
+    },
+    {
+      "name": "入户通道",
+      "point": [
+        6.88,
+        6.64
+      ],
+      "reached": true,
+      "lengthMetres": 2.1750000000000003
+    }
+  ],
+  "fixedUnchanged": true,
+  "mobileOverflow": false,
+  "errors": []
+}

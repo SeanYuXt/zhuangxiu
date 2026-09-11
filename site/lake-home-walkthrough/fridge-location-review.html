@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="data:,"><title>冰箱位置与取舍</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f4f1ea;color:#393b34;font:14px/1.75 system-ui,'Microsoft YaHei',sans-serif}header{padding:22px 26px;border-bottom:1px solid #ddd7cb;display:flex;align-items:center;justify-content:space-between;gap:20px}h1{margin:0;font-size:25px;font-weight:600}h2{margin:0 0 12px;font-size:17px}p{margin:10px 0}small,.muted{color:#75786b}main{display:grid;grid-template-columns:220px minmax(0,1fr) 300px;gap:16px;padding:16px}aside,section{background:#fcfaf5;border:1px solid #ded8cb;border-radius:16px;overflow:hidden}aside{padding:20px}button{display:block;width:100%;text-align:left;padding:14px;margin:0 0 10px;border:1px solid #d6d1c4;border-radius:10px;background:#fcfaf5;color:inherit;font:inherit;cursor:pointer}button b{display:block}button[aria-pressed=true]{color:#fff;background:#63705c;border-color:#63705c}button small{color:inherit;opacity:.82}.bar{padding:13px 18px;border-bottom:1px solid #ded8cb}svg{display:block;width:100%;height:calc(100vh - 252px);min-height:500px;background:#eeebe2}svg text{font-family:system-ui,'Microsoft YaHei',sans-serif;paint-order:stroke;stroke:#eeebe2;stroke-width:.035}footer{padding:12px 18px;font-size:12px;color:#75786b}a{color:#5b7051}hr{border:0;border-top:1px solid #ded8cb;margin:23px 0}.measure{padding:10px 0;border-bottom:1px solid #e3ded1}.measure b{display:block;font-size:24px}.cost{padding:14px;background:#ede4d7;border-radius:9px}.note{font-size:12px}.legend span{display:inline-block;margin-right:16px}.swatch{display:inline-block;width:12px;height:12px;background:#a8b8a0;margin-right:6px}.warn{color:#885d40}@media(max-width:1150px){main{grid-template-columns:190px minmax(0,1fr)}aside:last-child{grid-column:1/-1;display:grid;grid-template-columns:1fr 1fr;gap:22px}}@media(max-width:700px){header{align-items:flex-start;flex-direction:column}main{display:flex;flex-direction:column;padding:8px}section{order:-1}svg{height:530px;min-height:0}aside:last-child{display:block}}
+</style></head><body>
+<header><div><h1>冰箱位置，先看真实取舍</h1><small>厨房原墙保留 · 90×60cm机身 · 三处沿用同一模型</small></div><a href="entry-whole-wall-review.html?focus=ensemble&v=panel-ready-27">返回整墙设计</a></header>
+<main><aside><h2>比较位置</h2><button data-site="entry" aria-pressed="true"><b>A · 入户餐边墙</b><small>当前模型的位置</small></button><button data-site="kitchen" aria-pressed="false"><b>B · 厨房门靠阳台</b><small>靠近厨房，柜体凸出</small></button><button data-site="bath" aria-pressed="false"><b>C · 公卫通道一侧</b><small>占用现有鞋柜区域</small></button><hr><h2>已经确定的限制</h2><p>厨房内部已试过影响使用；不再把它列为推荐位置。厨房墙体不能拆。</p><p>冰箱机身按90cm宽、60cm深。图中的安装外框按当前模型100×65cm试排，尚无选定机型的安装图。</p><hr><h2>如何看这张图</h2><p>绿色为选中的冰箱外框，虚线为另外两处。柜体、厨房门、餐桌与沙发来自当前模型。</p><p>本页比较位置，主方案的家具位置没有被修改。</p></aside>
+<section><div class="bar"><b id="viewTitle">正在读取模型比较…</b><div class="legend muted"><span><i class="swatch"></i>选中冰箱位</span><span>虚线：另外两处</span><span>上方朝阳台</span></div></div><svg id="plan" aria-label="冰箱候选位置与原墙、餐桌、沙发的同尺度平面"></svg><footer>保留原墙、门洞、承重柱与固定洗漱台。家具外框与碰撞结果来自当前加载的模型；尺寸仍需现场复尺。</footer></section>
+<aside><div><h2 id="siteName"></h2><p id="purpose"></p><div class="cost"><b>这处的代价</b><p id="cost"></p></div><div class="measure"><small id="metricLabel"></small><b id="metric"></b></div><div class="measure"><small>冰箱外框至桌边最近点 · 直线</small><b id="tableGap"></b></div><p class="note">此数值不是走路距离，也不表示坐着伸手可取。</p><hr><h2>当前模型核查</h2><p id="fit"></p><p id="motion"></p><p id="replacement" class="note warn"></p></div><div><hr><h2>已选方向：门板一体内嵌</h2><p>你已确认冰箱还没买，可以考虑安装定制门板的内嵌款。下一版按这个品类做柜面意向，具体型号、外框尺寸和门板条件仍待选型。</p><p>只给普通冰箱封侧板，不能得到参考图里完整柜面的效果。机型未定时，不能把门板兼容、散热或尺寸说成已解决。</p><hr><h2>玄关参考图的纠正</h2><p>参考图的悬浮台沿入户墙正面横向展开。现方案把它放在60cm宽的鞋柜侧面，朝向和比例都不同，这一版不宜据此定稿。</p></div></aside></main>
+<script type="module">
+import {P,walls} from './plan.js';
+const [source,audit]=await Promise.all([fetch('./fridge-current-26-readonly.json').then(r=>r.json()),fetch('./fridge-sites-26-assessment.json').then(r=>r.json())]);
+const svg=document.getElementById('plan'),ns='http://www.w3.org/2000/svg',s=source.snapshot;
+const copy={
+ entry:{title:'A · 入户餐边墙（当前）',purpose:'冷饮和餐具在餐区同一侧，公卫通道可以保留完整收纳。',cost:'进门容易看到冰箱的高大电器面；65cm安装外框接40cm餐边柜，有25cm深度差。去厨房取食材还要绕过餐区。',metric:'25cm',metricLabel:'与40cm餐边柜的深度差'},
+ kitchen:{title:'B · 厨房门外，靠阳台墙段',purpose:'取食材靠近厨房入口，冰箱也能退出入户柜的主立面。',cost:'不能凿墙内嵌。1.06m墙段放1m外框，仅余6cm；冰箱向客餐厅凸出约65.5cm。若采用这里，厨房端的整体外观还要重做。',metric:'65.5cm',metricLabel:'相对厨房原墙面凸出'},
+ bath:{title:'C · 入户门靠公卫的墙边',purpose:'冰箱移到厨房背墙对面的走廊，离厨房比A更靠近。',cost:'约1m柜长被冰箱占用，当前靠门鞋柜与随手台必须重排；冰箱还会出现在公卫走廊。',metric:'102cm',metricLabel:'闭合外框至厨房背墙 · 模型净距'}
+};
+const add=(tag,attrs={},text)=>{const n=document.createElementNS(ns,tag);for(const[k,v]of Object.entries(attrs))n.setAttribute(k,v);if(text!==undefined)n.textContent=text;svg.append(n);return n;};
+const txt=(x,y,t,size=.13)=>add('text',{x,y,'font-size':size,'text-anchor':'middle',fill:'#434b3b'},t);
+const rect=(b,color,stroke='#989e8c',dash)=>add('rect',{x:b.x1,y:b.z1,width:b.x2-b.x1,height:b.z2-b.z1,fill:color,stroke,'stroke-width':.017,...(dash?{'stroke-dasharray':'.055 .035'}:{})});
+function draw(id){
+ const item=audit.cases.find(c=>c.id===id),c=copy[id];svg.replaceChildren();svg.setAttribute('viewBox','2.55 1.40 9.90 6.53');
+ rect({x1:2.62,x2:12.30,z1:1.48,z2:7.35},'#f7f4ec','none');
+ for(const w of walls){if(w.glass)continue;const a=P(w.a),b=P(w.b),len=Math.hypot(b[0]-a[0],b[1]-a[1]),ux=(b[0]-a[0])/len,uz=(b[1]-a[1])/len;let end=0;for(const o of[...(w.open||[]).map(o=>({at:o.at/100,w:o.w/100})),{at:len,w:0}].sort((a,b)=>a.at-b.at)){if(o.at>end)add('line',{x1:a[0]+ux*end,y1:a[1]+uz*end,x2:a[0]+ux*o.at,y2:a[1]+uz*o.at,stroke:'#969d8c','stroke-width':(w.t||20)/100});end=o.at+o.w;}}
+ const named={'bath1-vanity':'固定洗漱台','flush-entry-cabinet':'现有收纳','whole-wall-drinks':'餐边柜40cm','linen-sofa':'沙发','tv-low-console':'电视柜'};
+ for(const b of s.fixed){if(b.name==='integrated-fridge'||b.name==='whole-wall-controls'||b.name.startsWith('entry-service'))continue;const removal=id==='bath'&&['flush-entry-cabinet','entry-daily-drop'].includes(b.name);rect(b,removal?'#e9d7c1':'#ddd8cb',removal?'#b2875b':'#aaa99d',removal);if(named[b.name])txt((b.x1+b.x2)/2,(b.z1+b.z2)/2+.035,named[b.name],.10);}
+ for(const b of s.chairs)rect(b,'#d3cbbb');rect(s.table,'#e6decb');txt((s.table.x1+s.table.x2)/2,(s.table.z1+s.table.z2)/2,'160×85cm餐桌',.12);
+ for(const b of s.leaves)rect(b,'#b5c0b0');
+ for(const site of audit.cases.filter(q=>q.id!==id)){rect(site.envelope,'none','#a1a58f',true);txt((site.envelope.x1+site.envelope.x2)/2,(site.envelope.z1+site.envelope.z2)/2+.05,site.id==='entry'?'A':site.id==='kitchen'?'B':'C',.20);}
+ rect(item.envelope,'#a4b89b','#536a49');txt((item.envelope.x1+item.envelope.x2)/2,(item.envelope.z1+item.envelope.z2)/2+.04,id==='entry'?'A 冰箱':id==='kitchen'?'B 冰箱':'C 冰箱',.13);
+ txt(4.9,3.52,'厨房',.22);txt(9.36,6.04,'客餐厅',.20);txt(6.88,7.62,'入户门 · 向外开',.13);txt(8.1,1.57,'↑ 阳台方向',.14);
+ if(id==='kitchen'){const e=item.envelope;add('line',{x1:5.92,y1:2.62,x2:e.x2,y2:2.62,stroke:'#657850','stroke-width':.02});txt(6.38,2.94,'凸出65.5cm',.12);}
+ document.getElementById('viewTitle').textContent=c.title;document.getElementById('siteName').textContent=c.title;for(const k of['purpose','cost','metric','metricLabel'])document.getElementById(k).textContent=c[k];
+ document.getElementById('tableGap').textContent=(item.tableEdgeStraightMm/1000).toFixed(2)+'m';
+ const hits=item.doorSweep.length+item.upperSweep.length+item.bins.reduce((n,b)=>n+b.externalHits.length,0);
+ document.getElementById('fit').textContent=item.closedHits.length?'闭合状态发现碰撞，需调整。':'闭合外框未检出保留物件碰撞。';
+ document.getElementById('motion').textContent=hits?'开门或取物检出碰撞，尚未解决。':'当前示意门扇和抽屉运动未检出外部碰撞；真实机型的铰链与安装条件仍待确认。';
+ document.getElementById('replacement').textContent=id==='bath'?'这一项核查先隐藏原鞋柜和端头，需重排对应收纳。':'模型未核定人体取物、端盘与错身舒适度。';
+ document.querySelectorAll('[data-site]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.site===id)));window.fridgeLocationReview={selected:id,item,audit};
+}
+document.querySelectorAll('[data-site]').forEach(b=>b.onclick=()=>draw(b.dataset.site));draw(new URLSearchParams(location.search).get('site') in copy?new URLSearchParams(location.search).get('site'):'entry');
+</script></body></html>

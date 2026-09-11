@@ -1,0 +1,201 @@
+{
+  "revision": "sideboard-depth-40-10",
+  "verifiedAt": "2026-09-10T09:29:20.734Z",
+  "result": {
+    "counterDepth": 0.4000000059604645,
+    "totalDepth": 0.4000000059604645,
+    "width": 3.9000000953674316,
+    "upperDepth": 0.3499999962002045,
+    "setback": 0.049999991282819956,
+    "wallBack": 7.17,
+    "groupScale": [
+      1,
+      1,
+      1
+    ],
+    "espresso": {
+      "size": [
+        0.35700000643730156,
+        0.3400000035762787,
+        0.2940742224454881
+      ],
+      "backGap": 0.01350000433996354,
+      "frontGap": 0.04392576444149027,
+      "angle": 1.5707963267948966
+    },
+    "dispenserSize": [
+      0.3799999952316284,
+      0.4399999976158142,
+      0.2800000011920929
+    ],
+    "trays": [
+      [
+        0.5880000001043086,
+        0.14199999766796823,
+        0.30000001192092896
+      ],
+      [
+        0.5880000001043086,
+        0.14199999766796823,
+        0.30000001192092984
+      ],
+      [
+        0.5880000001043069,
+        0.14199999766796823,
+        0.30000001192092896
+      ],
+      [
+        0.5880000001043069,
+        0.14199999766796823,
+        0.30000001192092896
+      ],
+      [
+        0.5880000001043086,
+        0.14199999766796823,
+        0.30000001192092984
+      ],
+      [
+        0.5880000001043086,
+        0.14199999766796823,
+        0.30000001192092896
+      ]
+    ],
+    "travel": [
+      [
+        [
+          0,
+          0,
+          -0.25
+        ],
+        [
+          0,
+          0,
+          -0.25
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          -0.25
+        ],
+        [
+          0,
+          0,
+          -0.25
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          -0.25
+        ],
+        [
+          0,
+          0,
+          -0.25
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          -0.25
+        ],
+        [
+          0,
+          0,
+          -0.25
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          -0.25
+        ],
+        [
+          0,
+          0,
+          -0.25
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          -0.25
+        ],
+        [
+          0,
+          0,
+          -0.25
+        ]
+      ]
+    ],
+    "serviceRays": [
+      "dispenser-water-valve-lever",
+      "dispenser-power-splash-cover"
+    ],
+    "hits": [],
+    "quartz": [
+      3.24399995803833,
+      0.8399999737739563,
+      0.014999999664723873
+    ],
+    "upperCount": 6,
+    "baseBevels": [
+      {
+        "name": "sideboard-base-bevel-0",
+        "bevelDegrees": 45,
+        "panelThickness": 0.022,
+        "backTop": 0.602,
+        "frontTop": 0.58,
+        "gripBackClearance": 0.029
+      },
+      {
+        "name": "sideboard-base-bevel-1",
+        "bevelDegrees": 45,
+        "panelThickness": 0.022,
+        "backTop": 0.602,
+        "frontTop": 0.58,
+        "gripBackClearance": 0.029
+      },
+      {
+        "name": "sideboard-base-bevel-2",
+        "bevelDegrees": 45,
+        "panelThickness": 0.022,
+        "backTop": 0.602,
+        "frontTop": 0.58,
+        "gripBackClearance": 0.029
+      },
+      {
+        "name": "sideboard-base-bevel-3",
+        "bevelDegrees": 45,
+        "panelThickness": 0.022,
+        "backTop": 0.602,
+        "frontTop": 0.58,
+        "gripBackClearance": 0.029
+      },
+      {
+        "name": "sideboard-base-bevel-4",
+        "bevelDegrees": 45,
+        "panelThickness": 0.022,
+        "backTop": 0.602,
+        "frontTop": 0.58,
+        "gripBackClearance": 0.029
+      },
+      {
+        "name": "sideboard-base-bevel-5",
+        "bevelDegrees": 45,
+        "panelThickness": 0.022,
+        "backTop": 0.602,
+        "frontTop": 0.58,
+        "gripBackClearance": 0.029
+      }
+    ],
+    "limits": "Current model sizes and sampled motions only; product ventilation, hardware and installation not surveyed."
+  },
+  "errors": []
+}

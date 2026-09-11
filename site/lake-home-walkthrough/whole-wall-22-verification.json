@@ -1,0 +1,60 @@
+{
+  "model": "entry-whole-wall-22",
+  "dimensions": {
+    "alongWallMm": 300,
+    "wallProjectionMm": 600,
+    "sideOuterWidthMm": 600,
+    "nicheClearWidthMm": 564,
+    "nicheClearDepthMm": 284,
+    "nicheClearHeightMm": 735,
+    "slipperClearMm": 230,
+    "opening": "towards-entry-positive-x",
+    "seat": false
+  },
+  "openingFacesEntrance": true,
+  "firstSurface": "drop-inner-back",
+  "bagFits": true,
+  "closedHits": [],
+  "doorHits": [],
+  "routes": [
+    {
+      "name": "餐区操作台",
+      "point": [
+        9.61,
+        6.409999997019767
+      ],
+      "reached": true,
+      "lengthMetres": 3.575
+    },
+    {
+      "name": "冰箱取物位",
+      "point": [
+        8.33,
+        6.16
+      ],
+      "reached": true,
+      "lengthMetres": 2.125
+    },
+    {
+      "name": "厨房入口内",
+      "point": [
+        5.3,
+        3.95
+      ],
+      "reached": true,
+      "lengthMetres": 4.2
+    },
+    {
+      "name": "入户通道",
+      "point": [
+        6.88,
+        6.64
+      ],
+      "reached": true,
+      "lengthMetres": 0.2
+    }
+  ],
+  "fixedUnchanged": true,
+  "mobileOverflow": false,
+  "errors": []
+}

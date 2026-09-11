@@ -1,0 +1,63 @@
+{
+  "model": "entry-whole-wall-26",
+  "side": {
+    "alongWallMm": 300,
+    "wallProjectionMm": 600,
+    "sideOuterWidthMm": 600,
+    "nicheClearWidthMm": 600,
+    "nicheClearDepthMm": 284,
+    "nicheClearHeightMm": 1520,
+    "slipperClearMm": 560,
+    "opening": "towards-entry-positive-x",
+    "seat": false,
+    "style": "continuous-taupe-panel-floating-drawers",
+    "upperCupboard": false,
+    "drawerCount": 2,
+    "drawerTravelMm": 220,
+    "sideShoeStorage": false,
+    "mountingVerified": false
+  },
+  "sideTop": {
+    "name": "drop-floating-worktop",
+    "x1": 5.845999995350837,
+    "x2": 6.130000004649162,
+    "z1": 6.569999988079071,
+    "z2": 7.170000011920929,
+    "y1": 0.8679999999478459,
+    "y2": 0.8800000000521541,
+    "owner": "entry-daily-drop",
+    "color": "#82766d"
+  },
+  "prep": {
+    "name": "entry-prep-worktop",
+    "x1": 3.7999999761581424,
+    "x2": 5.000000023841858,
+    "z1": 6.569999988079071,
+    "z2": 7.170000011920929,
+    "y1": 0.8559999998956919,
+    "y2": 0.8800000001043081
+  },
+  "fixedUnchanged": true,
+  "oldSideDoors": 0,
+  "closedHits": [],
+  "motionHits": [],
+  "drawerCaseHits": [],
+  "sideOfEntry": {
+    "view": "inside-facing-entry",
+    "cabinet": "right",
+    "doorX": [
+      6.33,
+      7.43
+    ],
+    "cabinetEndX": 6.13,
+    "fridgeStartX": 7.83
+  },
+  "openPulls": [
+    -0.22,
+    -0.22
+  ],
+  "mobileOverflow": false,
+  "errors": [],
+  "casingSideGapMm": 16,
+  "samples": 21
+}

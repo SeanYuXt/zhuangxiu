@@ -1,0 +1,81 @@
+{
+  "four": [
+    {
+      "name": "餐区饮水位",
+      "point": [
+        9.32,
+        6.18
+      ],
+      "reached": true,
+      "lengthMetres": 0.65
+    },
+    {
+      "name": "餐区冰箱前",
+      "point": [
+        8.18,
+        6.21
+      ],
+      "reached": true,
+      "lengthMetres": 0.45
+    },
+    {
+      "name": "厨房入口内",
+      "point": [
+        5.3,
+        3.95
+      ],
+      "reached": true,
+      "lengthMetres": 5.5
+    },
+    {
+      "name": "入户通道",
+      "point": [
+        6.88,
+        6.64
+      ],
+      "reached": true,
+      "lengthMetres": 2.1750000000000003
+    }
+  ],
+  "six": [
+    {
+      "name": "餐区饮水位",
+      "point": [
+        9.32,
+        6.18
+      ],
+      "reached": true,
+      "lengthMetres": 0.65
+    },
+    {
+      "name": "餐区冰箱前",
+      "point": [
+        8.18,
+        6.21
+      ],
+      "reached": true,
+      "lengthMetres": 0.45
+    },
+    {
+      "name": "厨房入口内",
+      "point": [
+        5.3,
+        3.95
+      ],
+      "reached": true,
+      "lengthMetres": 5.5
+    },
+    {
+      "name": "入户通道",
+      "point": [
+        6.88,
+        6.64
+      ],
+      "reached": true,
+      "lengthMetres": 2.1750000000000003
+    }
+  ],
+  "simultaneous": [],
+  "errors": [],
+  "mobileOverflow": false
+}

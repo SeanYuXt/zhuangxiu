@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>厨房门旁 · 冰箱与餐边布局</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f4f1ea;color:#373731;font:15px/1.7 system-ui,sans-serif}header{padding:22px 28px;display:flex;justify-content:space-between;align-items:center;gap:20px;border-bottom:1px solid #ddd8cd}h1{font:28px/1.35 Georgia,serif;margin:0}header p{margin:5px 0 0;color:#79786d}nav{display:flex;gap:8px;flex-wrap:wrap}a{color:inherit}nav a,button{font:inherit;text-decoration:none;border:1px solid #d3d3c8;border-radius:9px;background:#fbfaf6;padding:9px 13px;cursor:pointer}main{display:grid;grid-template-columns:235px minmax(360px,1fr) 250px;gap:14px;margin:18px}aside,section{padding:20px;border:1px solid #ddd8cd;border-radius:18px;background:#fbfaf6}h2{font-size:17px;margin:0 0 12px}h3{font-size:15px;margin:22px 0 5px}p{margin:8px 0 16px}.muted,small{color:#79786d}.tag{font-size:12px;letter-spacing:.12em;color:#687154}.number{font:30px/1.3 Georgia,serif;color:#5c6255}.number small{font:14px system-ui}.controls{display:flex;justify-content:space-between;align-items:center;gap:14px;flex-wrap:wrap}.controls h2{margin:0}button[aria-pressed=true]{background:#5c6255;color:#fff}.tabs{display:flex;gap:6px}svg{display:block;width:100%;height:65vh;min-height:440px}svg text{font:14px system-ui;fill:#4c4e44}svg .small{font-size:12px}svg .dim{font-size:12px;fill:#536348}.note{padding:12px;background:#e6e9df;border-left:3px solid #687154}.legend{display:flex;gap:16px;font-size:12px;color:#79786d}.legend span:before{content:'';display:inline-block;width:12px;height:10px;margin-right:5px;background:#d5c9b6}.legend span:first-child:before{background:#aebba0}footer{padding:0 28px 22px;font-size:13px;color:#79786d}@media(max-width:1100px){main{grid-template-columns:210px 1fr}aside:last-child{grid-column:1/-1;display:grid;grid-template-columns:1fr 1fr;gap:20px}}@media(max-width:650px){header{padding:18px;display:block}nav{margin-top:16px}main{display:flex;flex-direction:column;margin:10px}section{order:0;padding:12px}aside:first-child{order:1}aside:last-child{order:2;display:block}svg{height:58vh;min-height:350px}h1{font-size:24px}}
+</style></head><body>
+<header><div><h1>冰箱收在门旁，餐边墙留出层次</h1><p>厨房门右侧靠阳台 · 已同步实时 3D</p></div><nav><a href="column-view.html?space=fridge&v=fridge-layout-3">看冰箱与厨房 3D →</a><a href="column-view.html?space=cabinet&v=fridge-layout-3">看餐边柜 →</a></nav></header>
+<main><aside><div class="tag">当前摆位</div><h2>离厨房近一点</h2><p>高柜落在厨房门右侧的短墙前。拿取食材后就能进厨房，厨房里的操作台和内部使用空间保留。</p><div class="number">90 × 60 <small>cm 本体</small></div><h3>柜体总宽 96cm</h3><p>900mm冰箱＋两块18mm侧板＋两侧各12mm方案留缝。</p><h3>顶高 258cm</h3><p>暖灰侧板与顶柜，浅木内衬。上部两层放换季轻物，底部保留设备散热位置。</p><small>冰箱高暂按200cm；柜体留缝及散热位置是设计假设，需匹配实际机型。</small></aside>
+<section><div class="controls"><h2 id="viewTitle">厨房与餐边关系</h2><div class="tabs" aria-label="视图切换"><button data-view="plan" aria-pressed="true">关系平面</button><button data-view="elevation" aria-pressed="false">柜体立面</button></div></div><svg id="plan" role="img" aria-label="冰箱、厨房开口、岛台与餐边柜的当前布局"></svg><div class="legend"><span>冰箱柜</span><span>现有家具</span></div><small id="viewNote">实线：当前家具；虚线：岛台原位置。图面方向沿用当前户型，上方朝阳台。</small></section>
+<aside><div><h2>岛台只平移 30cm</h2><p>向餐边柜方向移动，留出冰箱前方的转身位置。岛台仍为180×90cm，两席、餐具和吊灯同步移动。</p><p class="note">模型静态余量<br>岛台至厨房墙：<strong>110cm</strong><br>岛台至沙发：<strong>105cm</strong><br>岛台后端至餐边柜前沿：<strong>约135cm</strong></p></div><div><h2>高低有变化</h2><p>餐边柜延续<strong>130cm短吊柜＋172cm浅木层板＋浮雕留白</strong>。冰箱高柜与餐边柜隔着厨房入口和活动区呼应，避免排成一整面高柜。</p><h3>106cm墙段内落位</h3><p>96cm柜体两端各余5cm。当前模型柜体未占厨房开口、未穿墙，也未碰到上方吊顶。</p><small>这些尺寸来自现有模型，未作现场施工复尺。开门及内部收纳在3D中是通用示意，实际机型尚未确定。</small></div></aside></main>
+<footer>实时3D已更新冰箱和岛台；此前高清效果图尚未同步本次摆位。 <a href="entry-design-plan.html">返回入户与餐边设计</a></footer>
+<script type="module">
+import {P,walls} from './plan.js?v=entry-outward-niche';
+import {fridgeLayout as f,livingRevision as living} from './design-spec.js?v=fridge-layout-2';
+const svg=document.querySelector('#plan'),ns='http://www.w3.org/2000/svg';let view='plan';
+const el=(tag,attrs,text)=>{const e=document.createElementNS(ns,tag);for(const[k,v]of Object.entries(attrs))e.setAttribute(k,v);if(text)e.textContent=text;svg.append(e);return e;};
+const rect=(x,z,w,d,fill,attrs={})=>el('rect',{x:x*100,y:z*100,width:w*100,height:d*100,fill,stroke:'#96998a','stroke-width':1,rx:2,...attrs});
+const line=(x,z,u,v,attrs={})=>el('line',{x1:x*100,y1:z*100,x2:u*100,y2:v*100,stroke:'#687154','stroke-width':1,...attrs});
+const label=(x,z,text,cls='')=>el('text',{x:x*100,y:z*100,'text-anchor':'middle',class:cls},text);
+const dimension=(x,z,u,v,text)=>{line(x,z,u,v);for(const[a,b]of [[x,z],[u,v]])line(a-.04,b-.04,a+.04,b+.04);label((x+u)/2,(z+v)/2-.07,text,'dim');};
+function plan(){svg.setAttribute('viewBox','345 105 890 655');rect(3.7,1.25,8.4,5.97,'#eeece4');
+ for(const w of walls){if(w.glass)continue;const length=Math.hypot(w.b[0]-w.a[0],w.b[1]-w.a[1]);let from=0;const draw=(a,b)=>{const pos=s=>P([w.a[0]+(w.b[0]-w.a[0])*s/length,w.a[1]+(w.b[1]-w.a[1])*s/length]),p=pos(a),q=pos(b);line(p[0],p[1],q[0],q[1],{stroke:'#858a7c','stroke-width':w.t||20,'stroke-linecap':'butt'});};for(const o of [...(w.open||[])].sort((a,b)=>a.at-b.at)){draw(from,o.at);from=o.at+o.w;}draw(from,length);}
+ // 910mm sofa depth and fixed cabinet bounds read from the displayed meshes.
+ for(const [x,z,w,d,n]of [[3.725,2.503,.61,2.367,''],[3.81,1.905,1.9,.595,'水槽台面'],[8.03,6.595,3.9,.60,'餐边柜 · 短吊柜＋层板留白'],[living.sofa.position[0]-.455,living.sofa.position[2]-living.sofa.length/2,.91,living.sofa.length,'沙发'],[7.46,1.33,1.30,.56,'阳台桌']]){rect(x,z,w,d,'#d5c9b6');if(n)label(x+w/2,z+d/2+.05,n,'small');}
+ const a=living.island,[ix,,iz]=a.position,oldZ=iz-f.islandShiftZ;
+ rect(ix-a.width/2,oldZ-a.length/2,a.width,a.length,'none',{'stroke-dasharray':'5 4',stroke:'#9e9181'});
+ rect(ix-a.width/2,iz-a.length/2,a.width,a.length,'#e2d8c9');label(ix,iz-.1,'岛台','small');label(ix,iz+.12,'180 × 90','small');
+ living.diningSeats.forEach(([x,,z])=>rect(x-.21,z-.2125,.42,.425,'#c4b7a4'));
+ const [fx,,fz]=f.position;rect(fx-f.depth/2-.01,fz-f.cabinetWidth/2,f.depth+.01,f.cabinetWidth,'#aebba0');
+ line(6.57,2.30,7.08,2.25);label(7.84,2.25,'冰箱本体 90 × 60cm','dim');label(7.84,2.45,'外柜总宽 96cm','small');
+ label(4.98,3.55,'厨房');label(4.98,3.78,'内部操作空间保留','small');label(6.38,3.9,'入口','small');
+ line(5.77,1.80,5.77,2.86);line(5.73,1.80,5.81,1.80);line(5.73,2.86,5.81,2.86);label(5.43,2.73,'墙段106cm','dim');dimension(5.92,4.7,ix-a.width/2,4.7,'110cm');
+ line(7.47,5.25,7.47,6.595);line(7.43,5.25,7.51,5.25);line(7.43,6.595,8.03,6.595,{'stroke-dasharray':'3 3'});label(8.09,5.97,'约135cm','dim');
+ label(7.47,3.26,'向餐边柜移30cm','dim');label(10.9,7.43,'餐厅 / 入户方向','small');label(10.9,1.14,'阳台方向 ↑','small');
+}
+function elevation(){svg.setAttribute('viewBox','-48 -38 200 328');
+ const w=f.cabinetWidth,h=f.top,p=f.panel,bodyY=h-f.height;rect(-.16,0,w+.32,h,'#eeece4',{stroke:'none'});
+ rect(0,0,w,h,'#d6d1c7');rect(p,.018,w-2*p,.53,'#b5a088');rect(p+.015,.035,w-2*p-.03,.50,'#d6d1c7');
+ const x=(w-f.width)/2;rect(x,bodyY,f.width,f.height,'#89908a');line(w/2,bodyY,w/2,h-.065,{stroke:'#424b45'});line(x,h-.835,x+f.width,h-.835,{stroke:'#424b45'});
+ rect(x+.035,h-.075,f.width-.07,.05,'#424b45',{stroke:'none'});dimension(0,-.18,w,-.18,'柜体总宽 960mm');
+ label(.48,.35,'暖灰顶柜','small');label(.48,1.49,'900 × 600mm','small');label(.48,1.67,'冰箱本体','small');
+ line(1.10,0,1.10,h);line(1.06,0,1.14,0);line(1.06,h,1.14,h);el('text',{x:125,y:129,'text-anchor':'middle',transform:'rotate(90 125 129)',class:'small'},'顶高2580mm · 本体高暂按2000mm');
+}
+function draw(){svg.replaceChildren();(view==='plan'?plan:elevation)();document.querySelector('#viewTitle').textContent=view==='plan'?'厨房与餐边关系':'暖灰侧板 · 浅木内衬顶柜';document.querySelector('#viewNote').textContent=view==='plan'?'实线：当前家具；虚线：岛台原位置。上方朝阳台。':'立面与3D使用同一尺寸；内部结构、五金及散热以最终机型为准。';document.querySelectorAll('[data-view]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.view===view)));}
+document.querySelectorAll('[data-view]').forEach(b=>b.onclick=()=>{view=b.dataset.view;draw();});draw();
+</script></body></html>

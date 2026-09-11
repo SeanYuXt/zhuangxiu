@@ -1,0 +1,138 @@
+{
+  "model": "entry-whole-wall-27",
+  "panelReadyIntent": true,
+  "productSelected": false,
+  "applianceFaces": [
+    {
+      "name": "fridge-appliance-door",
+      "color": "#d9d6ce"
+    },
+    {
+      "name": "fridge-appliance-door_1",
+      "color": "#d9d6ce"
+    },
+    {
+      "name": "fridge-appliance-door_2",
+      "color": "#d9d6ce"
+    },
+    {
+      "name": "fridge-appliance-door_3",
+      "color": "#d9d6ce"
+    }
+  ],
+  "cabinetColor": "#d9d6ce",
+  "displayVisible": false,
+  "counterMm": [
+    2000,
+    400
+  ],
+  "frame": {
+    "x1": 10.86000000038743,
+    "x2": 10.87799999961257,
+    "y1": 0.08999997234344481,
+    "y2": 2.382000027656555,
+    "z1": 6.520000011920929,
+    "z2": 7.169999988079071
+  },
+  "topReturn": {
+    "x1": 8.829999951362609,
+    "x2": 10.87800004863739,
+    "y1": 2.38200000038743,
+    "y2": 2.39999999961257,
+    "z1": 6.520000011920929,
+    "z2": 7.169999988079071
+  },
+  "footprint": [
+    {
+      "name": "whole-wall-drinks",
+      "x1": 8.86,
+      "x2": 10.86,
+      "z1": 6.7650000000558785,
+      "z2": 7.170000002980232,
+      "y1": 0.019999999850988395,
+      "y2": 2.0399999952316286
+    },
+    {
+      "name": "drink-unified-end-return",
+      "x1": 10.86000000038743,
+      "x2": 10.87799999961257,
+      "z1": 6.520000011920929,
+      "z2": 7.169999988079071,
+      "y1": 0.08999997234344481,
+      "y2": 2.382000027656555
+    }
+  ],
+  "fixedUnchanged": true,
+  "fridgeClosedHits": [],
+  "fridgeDoorSweep": [],
+  "fridgeUpperSweep": [],
+  "bins": [
+    {
+      "index": 0,
+      "externalHits": [],
+      "internalHits": []
+    },
+    {
+      "index": 1,
+      "externalHits": [],
+      "internalHits": []
+    },
+    {
+      "index": 2,
+      "externalHits": [],
+      "internalHits": []
+    },
+    {
+      "index": 3,
+      "externalHits": [],
+      "internalHits": []
+    },
+    {
+      "index": 4,
+      "externalHits": [],
+      "internalHits": []
+    }
+  ],
+  "frameHits": [],
+  "upperCaseHits": [],
+  "routes": [
+    {
+      "name": "餐区操作台",
+      "point": [
+        9.61,
+        6.409999997019767
+      ],
+      "reached": true,
+      "lengthMetres": 1.175
+    },
+    {
+      "name": "冰箱取物位",
+      "point": [
+        8.33,
+        6.16
+      ],
+      "reached": true,
+      "lengthMetres": 0.275
+    },
+    {
+      "name": "厨房入口内",
+      "point": [
+        5.3,
+        3.95
+      ],
+      "reached": true,
+      "lengthMetres": 5.5
+    },
+    {
+      "name": "入户通道",
+      "point": [
+        6.88,
+        6.64
+      ],
+      "reached": true,
+      "lengthMetres": 2.1750000000000003
+    }
+  ],
+  "mobileOverflow": false,
+  "errors": []
+}

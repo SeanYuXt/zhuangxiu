@@ -19,3 +19,7 @@ source-video/
 !/site/lake-home-walkthrough/offline-render/home-facilities-packed.glb
 !/site/lake-home-walkthrough/offline-render/current-design-v2.glb
 !/site/lake-home-walkthrough/offline-render/mobile-current.glb
+
+# Local edit backups and extracted-bundle verification
+/site/lake-home-walkthrough/design-backups/
+/preview-verification.json

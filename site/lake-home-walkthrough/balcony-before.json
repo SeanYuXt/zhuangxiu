@@ -1,0 +1,719 @@
+{
+  "objects": [
+    {
+      "name": "retained-balcony-column",
+      "parent": "",
+      "position": [
+        8.98,
+        0,
+        1.6
+      ],
+      "min": [
+        8.780000005298191,
+        2.3841857821338408e-8,
+        1.3750000059604646
+      ],
+      "max": [
+        9.17999999470181,
+        2.799999976158142,
+        1.8249999940395356
+      ],
+      "size": [
+        0.3999999894036179,
+        2.799999952316284,
+        0.44999998807907104
+      ],
+      "data": {
+        "name": "retained-balcony-column",
+        "width": 0.4,
+        "depth": 0.45,
+        "dimensionStatus": "用户给出结构柱宽不超过400mm；进深450mm仍待复尺，饰面另计",
+        "removalAllowed": false
+      }
+    },
+    {
+      "name": "balcony-laundry-cabinet",
+      "parent": "",
+      "position": [
+        11.66,
+        0,
+        0.69
+      ],
+      "min": [
+        11.268499998509885,
+        0.020000000447034837,
+        0.23999999989569173
+      ],
+      "max": [
+        12.020000014305115,
+        2.7700000095367434,
+        1.140000000104308
+      ],
+      "size": [
+        0.7515000157952301,
+        2.7500000090897085,
+        0.9000000002086163
+      ],
+      "data": {
+        "name": "balcony-laundry-cabinet",
+        "width": 0.9,
+        "depth": 0.72,
+        "height": 2.77,
+        "location": "east short solid wall before TV lining",
+        "applianceNominal": [
+          0.6,
+          0.84,
+          0.63
+        ],
+        "waterSupply": null,
+        "waste": null,
+        "power": null,
+        "installationStatus": "设计试排：向正面玻璃方向前移550mm；管路与安装未确认",
+        "designMoveTowardGlass": 0.55
+      }
+    },
+    {
+      "name": "laundry-washer",
+      "parent": "balcony-laundry-cabinet",
+      "position": [
+        11.685,
+        0.065,
+        0.576
+      ],
+      "min": [
+        11.292000000223519,
+        0.06500000011175872,
+        0.2760000001117586
+      ],
+      "max": [
+        11.999999999888242,
+        0.9049999998882412,
+        0.8759999998882414
+      ],
+      "size": [
+        0.7079999996647235,
+        0.8399999997764824,
+        0.5999999997764828
+      ],
+      "data": {
+        "name": "laundry-washer",
+        "type": "washer",
+        "nominalWidthMm": 600,
+        "nominalHeightMm": 840,
+        "modelSelected": false,
+        "nominalDepthMm": 630,
+        "hingeSide": "local-right / away from glass",
+        "maxPreviewAngle": 110,
+        "installationStatus": "Selection envelope only; requires right-hinged product, not field-reversing an arbitrary washer"
+      }
+    },
+    {
+      "name": "washer-panel-shell",
+      "parent": "laundry-washer",
+      "position": [
+        11.685,
+        0.065,
+        0.576
+      ],
+      "min": [
+        11.370000000223518,
+        0.06500000011175872,
+        0.2760000001117586
+      ],
+      "max": [
+        11.999999999888242,
+        0.9049999998882412,
+        0.8759999998882414
+      ],
+      "size": [
+        0.6299999996647241,
+        0.8399999997764824,
+        0.5999999997764828
+      ],
+      "data": {}
+    },
+    {
+      "name": "laundry-dryer",
+      "parent": "balcony-laundry-cabinet",
+      "position": [
+        11.685,
+        0.935,
+        0.576
+      ],
+      "min": [
+        11.292000000223519,
+        0.9350000001117588,
+        0.2760000001117586
+      ],
+      "max": [
+        11.999999999888242,
+        1.7749999998882413,
+        0.8759999998882414
+      ],
+      "size": [
+        0.7079999996647235,
+        0.8399999997764825,
+        0.5999999997764828
+      ],
+      "data": {
+        "name": "laundry-dryer",
+        "type": "dryer",
+        "nominalWidthMm": 600,
+        "nominalHeightMm": 840,
+        "modelSelected": false,
+        "nominalDepthMm": 630,
+        "hingeSide": "local-right / away from glass",
+        "maxPreviewAngle": 110,
+        "installationStatus": "Selection envelope only; requires right-hinged product, not field-reversing an arbitrary washer"
+      }
+    },
+    {
+      "name": "lake-bar-left",
+      "parent": "",
+      "position": [
+        8.110000000000001,
+        0,
+        1.61
+      ],
+      "min": [
+        7.460000023841859,
+        0.0060000003874301905,
+        1.3299999988079072
+      ],
+      "max": [
+        8.759999976158143,
+        0.9500000000000001,
+        2.195324600338936
+      ],
+      "size": [
+        1.2999999523162842,
+        0.9439999996125699,
+        0.865324601531029
+      ],
+      "data": {
+        "name": "lake-bar-left",
+        "length": 1.3,
+        "seats": 2,
+        "seatPitch": 0.65
+      }
+    },
+    {
+      "name": "lake-bar-right",
+      "parent": "",
+      "position": [
+        9.85,
+        0,
+        1.61
+      ],
+      "min": [
+        9.200000023841858,
+        0.0060000003874301905,
+        1.3299999988079072
+      ],
+      "max": [
+        10.499999976158142,
+        0.9500000000000001,
+        2.195324600338936
+      ],
+      "size": [
+        1.2999999523162842,
+        0.9439999996125699,
+        0.865324601531029
+      ],
+      "data": {
+        "name": "lake-bar-right",
+        "length": 1.3,
+        "seats": 2,
+        "seatPitch": 0.65
+      }
+    },
+    {
+      "name": "tv-low-console",
+      "parent": "recessed-tv-black-side-reveals",
+      "position": [
+        11.72,
+        0,
+        3.66
+      ],
+      "min": [
+        11.480000000387431,
+        0.17599999997392296,
+        2.010000023841858
+      ],
+      "max": [
+        11.869999997615816,
+        0.47799999961256984,
+        5.309999976158142
+      ],
+      "size": [
+        0.38999999722838474,
+        0.3019999996386469,
+        3.299999952316284
+      ],
+      "data": {
+        "name": "tv-low-console"
+      }
+    },
+    {
+      "name": "recessed-tv-black-side-reveals",
+      "parent": "",
+      "position": [
+        11.72,
+        0,
+        3.66
+      ],
+      "min": [
+        11.480000000387431,
+        0.020000004768371493,
+        1.7600000000000002
+      ],
+      "max": [
+        11.962500000186266,
+        2.7799999952316283,
+        5.5600000000000005
+      ],
+      "size": [
+        0.4824999997988346,
+        2.759999990463257,
+        3.8000000000000003
+      ],
+      "data": {
+        "name": "recessed-tv-black-side-reveals",
+        "scheme": "horizontal-display-band",
+        "liningDepth": 0.22,
+        "consoleWidth": 3.3,
+        "consoleDepth": 0.38,
+        "structuralCut": false,
+        "productInstallationVerified": false,
+        "displayDepth": 0.1975
+      }
+    },
+    {
+      "name": "tv-display-lake",
+      "parent": "tv-display-columns",
+      "position": [
+        11.72,
+        0,
+        3.66
+      ],
+      "min": [
+        11.739999999463558,
+        0.839999976158142,
+        2.0100000003874303
+      ],
+      "max": [
+        11.93749999961257,
+        2.040000023841858,
+        2.55999999961257
+      ],
+      "size": [
+        0.19750000014901126,
+        1.2000000476837158,
+        0.5499999992251396
+      ],
+      "data": {
+        "width": 0.55,
+        "depth": 0.1975,
+        "clearShelfWidth": 0.514,
+        "shelves": 2,
+        "bottom": 0.84,
+        "top": 2.04,
+        "selectedHardware": false
+      }
+    },
+    {
+      "name": "85-inch-screen",
+      "parent": "recessed-tv-black-side-reveals",
+      "position": [
+        11.74,
+        1.44,
+        3.66
+      ],
+      "min": [
+        11.74,
+        0.9104999923706054,
+        2.719000015258789
+      ],
+      "max": [
+        11.74,
+        1.9695000076293945,
+        4.600999984741211
+      ],
+      "size": [
+        0,
+        1.059000015258789,
+        1.8819999694824219
+      ],
+      "data": {
+        "name": "85-inch-screen"
+      }
+    },
+    {
+      "name": "balcony-solid-left",
+      "parent": "",
+      "position": [
+        5.82,
+        1.4,
+        0.9500000000000001
+      ],
+      "min": [
+        5.760000001341105,
+        2.3841857821338408e-8,
+        0.09999997615814216
+      ],
+      "max": [
+        5.879999998658896,
+        2.799999976158142,
+        1.800000023841858
+      ],
+      "size": [
+        0.11999999731779099,
+        2.799999952316284,
+        1.7000000476837158
+      ],
+      "data": {
+        "designOnly": true,
+        "sourceOpeningRetained": true,
+        "thicknessStatus": "120mm设计占位，含饰面；不是结构或砌体规格",
+        "constructionApproval": false,
+        "note": "用户允许侧面实体封闭；墙材、重量、原窗洞和外立面条件待核"
+      }
+    },
+    {
+      "name": "balcony-solid-right",
+      "parent": "",
+      "position": [
+        12.14,
+        1.4,
+        0.42
+      ],
+      "min": [
+        12.080000001341105,
+        2.3841857821338408e-8,
+        0.10000000715255736
+      ],
+      "max": [
+        12.199999998658896,
+        2.799999976158142,
+        0.7399999928474426
+      ],
+      "size": [
+        0.11999999731779099,
+        2.799999952316284,
+        0.6399999856948853
+      ],
+      "data": {
+        "designOnly": true,
+        "sourceOpeningRetained": true,
+        "thicknessStatus": "120mm设计占位，含饰面；不是结构或砌体规格",
+        "constructionApproval": false,
+        "note": "用户允许侧面实体封闭；墙材、重量、原窗洞和外立面条件待核"
+      }
+    },
+    {
+      "name": "balcony-care-cabinet",
+      "parent": "",
+      "position": [
+        6.2,
+        0,
+        0.89
+      ],
+      "min": [
+        5.899999988079071,
+        6.437301636186277e-9,
+        0.24000000038743013
+      ],
+      "max": [
+        6.50499999961257,
+        2.1900000083446503,
+        1.53999999961257
+      ],
+      "size": [
+        0.605000011533499,
+        2.1900000019073484,
+        1.2999999992251399
+      ],
+      "data": {
+        "position": [
+          6.2,
+          0,
+          0.89
+        ],
+        "rotation": 1.5707963267948966,
+        "width": 1.3,
+        "depth": 0.6,
+        "top": 0.9,
+        "robotTravel": 0.82,
+        "plumbingConfirmed": false,
+        "proposal": true,
+        "wetDrySeparated": true,
+        "robotBayClear": [
+          0.623,
+          0.839,
+          0.56
+        ],
+        "supply": null,
+        "waste": null,
+        "power": null
+      }
+    },
+    {
+      "name": "balcony-drying-rack",
+      "parent": "",
+      "position": [
+        8.2,
+        0,
+        0.52
+      ],
+      "min": [
+        7.349999976158141,
+        2.5314999997615812,
+        0.42999999642372133
+      ],
+      "max": [
+        9.050000023841857,
+        2.7175000001862646,
+        0.6100000035762787
+      ],
+      "size": [
+        1.7000000476837158,
+        0.18600000042468334,
+        0.18000000715255737
+      ],
+      "data": {
+        "position": [
+          8.2,
+          0,
+          0.52
+        ],
+        "length": 1.6,
+        "bodyY": 2.66,
+        "raisedY": 2.55,
+        "loweredY": 1.8,
+        "garmentWidth": 0.43,
+        "garmentDrop": 0.74,
+        "garmentDepth": 0.16,
+        "capacity": 3,
+        "selectedProduct": false,
+        "proposal": true,
+        "orientation": "衣架转向，衣物正面平行湖景玻璃；非整桶衣物容量"
+      }
+    }
+  ],
+  "overhead": [
+    {
+      "name": "mesh_114",
+      "parent": "",
+      "position": [
+        0,
+        2.8,
+        0
+      ],
+      "min": [
+        0.10000000149011612,
+        2.799999999999998,
+        0.10000000149011612
+      ],
+      "max": [
+        18.229999542236328,
+        2.8,
+        7.269999980926514
+      ],
+      "size": [
+        18.129999540746212,
+        1.7763568394002505e-15,
+        7.1699999794363976
+      ],
+      "data": {}
+    },
+    {
+      "name": "客厅双眼皮外层",
+      "parent": "",
+      "position": [
+        0,
+        2.62,
+        0
+      ],
+      "min": [
+        5.920000076293945,
+        2.6199999999999983,
+        0.20000000298023224
+      ],
+      "max": [
+        12.029999732971191,
+        2.8000000071525575,
+        7.170000076293945
+      ],
+      "size": [
+        6.109999656677246,
+        0.18000000715255915,
+        6.970000073313713
+      ],
+      "data": {
+        "name": "客厅双眼皮外层"
+      }
+    },
+    {
+      "name": "客厅双眼皮内层",
+      "parent": "",
+      "position": [
+        0,
+        2.67,
+        0
+      ],
+      "min": [
+        6.019999980926514,
+        2.669999999999998,
+        0.30000001192092896
+      ],
+      "max": [
+        11.930000305175781,
+        2.7999999952316283,
+        7.070000171661377
+      ],
+      "size": [
+        5.910000324249268,
+        0.1299999952316302,
+        6.770000159740448
+      ],
+      "data": {
+        "name": "客厅双眼皮内层"
+      }
+    },
+    {
+      "name": "mesh_132",
+      "parent": "recessed-led-downlight_3",
+      "position": [
+        9.58,
+        2.7835,
+        1.55
+      ],
+      "min": [
+        9.525000000298023,
+        2.769999999649823,
+        1.4950000002980233
+      ],
+      "max": [
+        9.634999999701977,
+        2.7970000003501774,
+        1.6049999997019768
+      ],
+      "size": [
+        0.10999999940395355,
+        0.027000000700354576,
+        0.10999999940395355
+      ],
+      "data": {}
+    },
+    {
+      "name": "mesh_133",
+      "parent": "recessed-led-downlight_3",
+      "position": [
+        9.58,
+        2.7704999999999997,
+        1.55
+      ],
+      "min": [
+        9.536000000238419,
+        2.763000000167638,
+        1.5060000002384186
+      ],
+      "max": [
+        9.623999999761581,
+        2.7779999998323617,
+        1.5939999997615815
+      ],
+      "size": [
+        0.08799999952316284,
+        0.014999999664723873,
+        0.08799999952316284
+      ],
+      "data": {}
+    },
+    {
+      "name": "mesh_134",
+      "parent": "recessed-led-downlight_3",
+      "position": [
+        9.58,
+        2.768,
+        1.55
+      ],
+      "min": [
+        9.525999998599291,
+        2.7630000001117585,
+        1.495999998599291
+      ],
+      "max": [
+        9.63400000140071,
+        2.772999999888241,
+        1.6040000014007092
+      ],
+      "size": [
+        0.1080000028014183,
+        0.009999999776482582,
+        0.1080000028014183
+      ],
+      "data": {}
+    },
+    {
+      "name": "mesh_135",
+      "parent": "recessed-led-downlight_3",
+      "position": [
+        9.58,
+        2.762,
+        1.55
+      ],
+      "min": [
+        9.54900000050664,
+        2.758999999973923,
+        1.5190000005066395
+      ],
+      "max": [
+        9.61099999949336,
+        2.765000000026077,
+        1.5809999994933606
+      ],
+      "size": [
+        0.06199999898672104,
+        0.006000000052154064,
+        0.06199999898672104
+      ],
+      "data": {
+        "lightingMaterialIsolated": true,
+        "lightingRole": "emitter",
+        "lightingId": "recessed-led-downlight_3-1",
+        "lightingRoom": "living",
+        "lightingLabel": "防眩筒灯",
+        "lightingKind": "basic",
+        "lightingKelvin": 3000,
+        "lightingLumens": 650,
+        "lightingBeamDeg": 70,
+        "lightingShape": "spot",
+        "lightingPosition": [
+          9.58,
+          2.752999999973923,
+          1.55
+        ],
+        "lightingTarget": [
+          9.58,
+          1.7529999999739232,
+          1.55
+        ],
+        "lightingSize": [
+          0.06199999898672104,
+          0.006000000052154064,
+          0.06199999898672104
+        ],
+        "lightingCRI": "Ra>=90 selection target; unmeasured",
+        "lightingWatts": "7–9 W 选型目标",
+        "lightingInstalled": false
+      }
+    }
+  ],
+  "debugKeys": [
+    "balconyCareDebug",
+    "laundryDetailsDebug",
+    "balconyDryingDebug"
+  ],
+  "errors": []
+}

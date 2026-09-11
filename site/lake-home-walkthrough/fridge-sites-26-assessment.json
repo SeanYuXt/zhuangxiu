@@ -1,0 +1,162 @@
+{
+  "cases": [
+    {
+      "id": "entry",
+      "name": "入户门 · 餐边柜这一侧",
+      "position": [
+        8.33,
+        0,
+        6.82
+      ],
+      "rotation": 3.141592653589793,
+      "envelope": {
+        "x1": 7.830000000387431,
+        "x2": 8.82999999961257,
+        "z1": 6.519999999905005,
+        "z2": 7.1700000003799795,
+        "y1": -4.768371586472142e-8,
+        "y2": 2.400000047683716
+      },
+      "tableEdgeStraightMm": 1170,
+      "closedHits": [],
+      "doorSweep": [],
+      "upperSweep": [],
+      "bins": [
+        {
+          "index": 0,
+          "externalHits": []
+        },
+        {
+          "index": 1,
+          "externalHits": []
+        },
+        {
+          "index": 2,
+          "externalHits": []
+        },
+        {
+          "index": 3,
+          "externalHits": []
+        },
+        {
+          "index": 4,
+          "externalHits": []
+        }
+      ],
+      "replacedCabinets": [],
+      "clearanceMm": {
+        "sideboardStep": 250
+      }
+    },
+    {
+      "id": "kitchen",
+      "name": "厨房门外 · 靠阳台墙段",
+      "position": [
+        6.275,
+        0,
+        2.33
+      ],
+      "rotation": 1.5707963267948966,
+      "envelope": {
+        "x1": 5.924999999620021,
+        "x2": 6.575000000094995,
+        "z1": 1.8300000003874302,
+        "z2": 2.82999999961257,
+        "y1": -4.768371586472142e-8,
+        "y2": 2.400000047683716
+      },
+      "tableEdgeStraightMm": 1088,
+      "closedHits": [],
+      "doorSweep": [],
+      "upperSweep": [],
+      "bins": [
+        {
+          "index": 0,
+          "externalHits": []
+        },
+        {
+          "index": 1,
+          "externalHits": []
+        },
+        {
+          "index": 2,
+          "externalHits": []
+        },
+        {
+          "index": 3,
+          "externalHits": []
+        },
+        {
+          "index": 4,
+          "externalHits": []
+        }
+      ],
+      "replacedCabinets": [],
+      "clearanceMm": {
+        "wallRun": 1060,
+        "caseWidth": 1000,
+        "endMarginEach": 30,
+        "projection": 655
+      }
+    },
+    {
+      "id": "bath",
+      "name": "入户门 · 公卫鞋柜这一侧",
+      "position": [
+        5.63,
+        0,
+        6.82
+      ],
+      "rotation": 3.141592653589793,
+      "envelope": {
+        "x1": 5.13000000038743,
+        "x2": 6.129999999612569,
+        "z1": 6.519999999905005,
+        "z2": 7.1700000003799795,
+        "y1": -4.768371586472142e-8,
+        "y2": 2.400000047683716
+      },
+      "tableEdgeStraightMm": 1555,
+      "closedHits": [],
+      "doorSweep": [],
+      "upperSweep": [],
+      "bins": [
+        {
+          "index": 0,
+          "externalHits": []
+        },
+        {
+          "index": 1,
+          "externalHits": []
+        },
+        {
+          "index": 2,
+          "externalHits": []
+        },
+        {
+          "index": 3,
+          "externalHits": []
+        },
+        {
+          "index": 4,
+          "externalHits": []
+        }
+      ],
+      "replacedCabinets": [
+        "现有鞋柜靠门段与侧面随手台"
+      ],
+      "clearanceMm": {
+        "corridorClosed": 1020
+      }
+    }
+  ],
+  "fixedUnchanged": true,
+  "restored": true,
+  "limits": [
+    "900×600mm机身沿用用户尺寸；1000×650mm外框为当前模型设计值",
+    "仅检查当前模型碰撞，不代表选定冰箱的开门、散热或现场安装验收",
+    "公卫侧测试先隐藏原鞋柜与端头；不能把结果理解成原收纳和冰箱可以同时放下",
+    "桌边间距是最近边缘的平面直线，不是走路距离或伸手可达距离"
+  ],
+  "errors": []
+}

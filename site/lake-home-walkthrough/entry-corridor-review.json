@@ -1,0 +1,138 @@
+{
+  "id": "sideboard-depth-40-10",
+  "status": "source_dimensions_and_conditional_layout_not_construction_approval",
+  "units": "mm",
+  "pdf": {
+    "file": "C:/Users/vv-dev-work/Desktop/1号房.pdf",
+    "wholeWall": 6440,
+    "entryRightFromCommonOrigin": 7200,
+    "tvFaceFromCommonOrigin": 11780,
+    "entryToTv": 4580,
+    "tvToChildCorner": 1860,
+    "formulaEntry": "600 + 1700 + 100 + 1000 + 100 + 2600 + 1100 = 7200",
+    "formulaTv": "600 + 2040 + 750 + 190 + 1910 + 200 + 6090 = 11780",
+    "formulaSplit": "11780 - 7200 = 4580; 6440 - 4580 = 1860",
+    "corridorClearApprox": 1550,
+    "corridorMethod": "PDF wall faces x=227.64 and x=171.60 pt; 56.04/(623.64/17.25)*1000 = 1550.077 mm. Scaled vector measurement, not a printed inner dimension.",
+    "sourceImage": "reference/entry-original-full.png",
+    "sourceImageSize": [
+      1755,
+      1240
+    ],
+    "imagePoints": {
+      "A": [
+        753.917,
+        882.5
+      ],
+      "B": [
+        1098.917,
+        882.5
+      ],
+      "C": [
+        1239.167,
+        882.5
+      ]
+    }
+  },
+  "cad": {
+    "dwg": "C:/Users/vv-dev-work/Desktop/AC-6-P-平面图.dwg",
+    "floor": "AX-6-BZC · 标准层平面图二（含13F）",
+    "readableCopy": "D:/tep-chat/output/cad-evidence/oda-output/building.dxf",
+    "boxInsert": "401F1",
+    "boxOutline": "401ED",
+    "boxPath": [
+      "AX-6-BZC",
+      "AX-06-COMP-BZC",
+      "AX-6-COMP-DIM-BZC",
+      "AX-6-COMP-DIM-BZC$0$DD"
+    ],
+    "boxKind": "DD matches weak-current box legend; only this planar box symbol reliably matched",
+    "boxWidth": 450,
+    "boxPlanDepth": 120,
+    "boxPlanYBounds": [
+      4950.001682,
+      5400.001682
+    ],
+    "tvLivingFaceY": 5550,
+    "childCorridorFaceY": 3700,
+    "boxNearFromTvApprox": 150,
+    "boxFarFromTvApprox": 600,
+    "boxFarToCornerApprox": 1250,
+    "tvToCorner": 1850,
+    "corridorClear": 1500,
+    "corridorFacesX": [
+      28600,
+      30100
+    ],
+    "wallSourceHandles": [
+      "3D8DE",
+      "3C172",
+      "3C08B"
+    ],
+    "wallSourceNote": "Use recovered-fields.json numeric handles 252126 (TV), 246130 (child), 245899 (master corridor) plus 100mm architectural insertion offset; structural face from native 5DDA1. Native box transform was cross-checked against building.json.",
+    "beamMatched": false
+  },
+  "proposal": {
+    "doorTransition": 680,
+    "sideboardWidth": 3900,
+    "sideboardEnd": 4580,
+    "equipmentWidth": 660,
+    "equipmentDepth": 250,
+    "remainingWall": null,
+    "minimumHeight": 2400,
+    "isMeasured": false,
+    "condition": "Sideboard: retain width 3900mm and six 350mm-deep upper cabinets; reduce complete lower/worktop depth to 400mm, drawer boxes to 300mm and travel to 250mm. Retain warm-white quartz backsplash; appliances unscaled, espresso turned along counter. Preserve 250mm electrical cabinet, beam and bedroom wall design. Site installation and selected appliances unverified.",
+    "equipmentStartFromTv": 20,
+    "equipmentEndFromTv": 680,
+    "jointToBeam": 20,
+    "afterBeamFormula": "1160 - beam width",
+    "displayDepth": 50,
+    "design": {
+      "name": "检修浅柜 · 石材背板 · 陶罐疏枝",
+      "service": "250mm深检修柜，上下独立门，中间开放格；石材背板配原比例陶器",
+      "afterBeam": "两幅示意影像、500mm高浅色陶罐配疏枝；撤去红色雕塑和石柱",
+      "return": "原短墙不加柜，浅木相框呼应暖白与石材",
+      "height": 2400,
+      "depth": 50,
+      "floorDecor": {
+        "vaseHeight": 500,
+        "vaseDiameterApprox": 353,
+        "overallHeightApprox": 1150,
+        "selectedProduct": false
+      },
+      "palette": {
+        "warmWhite": "#e7e0d4",
+        "sand": "#d9cfbf",
+        "oak": "#c9ad86",
+        "stone": "#f4f0e7"
+      },
+      "noCabinetsAfterBeam": true,
+      "lightingWiringConfirmed": false,
+      "sampleImages": "Generated travel imagery; not family photos",
+      "decorSource": "Poly Haven ceramic_vase_02 and ceramic_vase_03, CC0; assets/decor-polyhaven/sources.json"
+    },
+    "sideboardDepth": 400,
+    "sideboardUpperDepth": 350
+  },
+  "unknowns": [
+    "Beam exists in user photo and its near edge is located by user-relative distance (100mm beyond box). Width and underside remain unmeasured; no native dimension annotation identified.",
+    "Second box exact planar/elevation location, both box heights, top/bottom identity and hinge directions are not confirmed.",
+    "PDF versus CAD: TV-to-corner differs by 10mm; corridor width differs by about 50mm. Keep the difference; no silent geometry scaling."
+  ],
+  "beam": {
+    "nearFromTvApprox": 700,
+    "boxFarToNearUserApprox": 100,
+    "nearToChildCornerPdf": 1160,
+    "nearToChildCornerCad": 1150,
+    "width": null,
+    "undersideHeight": null,
+    "locationBasis": "CAD DD far edge 600mm after TV face + user says beam is about 100mm farther toward the children room. Interpret as living-side/near edge.",
+    "sourcePhoto": "reference/entry-beam-user-angle.jpg",
+    "visualizationOnly": {
+      "width": 280,
+      "undersideHeight": 2440,
+      "afterBeamPdf": 880,
+      "afterBeamModel": 885
+    }
+  }
+}

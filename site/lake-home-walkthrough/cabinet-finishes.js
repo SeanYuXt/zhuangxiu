@@ -11,6 +11,26 @@ for(const kind of ['color','normal','rough']){
 }
 export const cabinetFinishesReady=Promise.all(jobs);
 
+// Shared warm-white fine-veined quartz study for the sideboard and inspection niche.
+// Only appearance is shared; these panels retain their existing geometry.
+const quartzPixels=new Uint8Array(512*512*4);let quartzSeed=827;
+for(let y=0;y<512;y++)for(let x=0;x<512;x++){
+ quartzSeed=(quartzSeed*1664525+1013904223)>>>0;
+ const grain=((quartzSeed>>>27)-15)*.13;
+ const line1=Math.abs(y-(x*.40+66+15*Math.sin(x*.015)+4*Math.sin(x*.065)));
+ const line2=Math.abs(y-(-x*.24+441+20*Math.sin(x*.009)));
+ const vein=12*Math.exp(-line1*line1/10)+8*Math.exp(-line2*line2/4),i=(y*512+x)*4;
+ quartzPixels[i]=244+grain-vein;quartzPixels[i+1]=240+grain-vein;quartzPixels[i+2]=231+grain-vein;quartzPixels[i+3]=255;
+}
+const quartzMap=new T.DataTexture(quartzPixels,512,512);quartzMap.colorSpace=T.SRGBColorSpace;quartzMap.wrapS=quartzMap.wrapT=T.RepeatWrapping;quartzMap.repeat.set(1/1.5,1/1.5);quartzMap.needsUpdate=true;
+export const quartzMaterial=new T.MeshStandardMaterial({name:'warm-white-fine-veined-quartz-study',map:quartzMap,color:'#ffffff',roughness:.42,metalness:0,envMapIntensity:.35});
+quartzMaterial.userData={finish:'暖白细纹石英石意向',selectedProduct:false,fixingVerified:false};
+export function finishQuartzPanel(mesh){
+ mesh.material=quartzMaterial;
+ mesh.userData.quartzFinish={appearanceOnly:true,geometryPositionsUnchanged:true,selectedProduct:false};
+ return mesh;
+}
+
 export function finishWoodPanel(mesh,{interior=mesh.userData.woodFinish?.interior??false,refresh=false}={}){
  if(mesh.userData.woodFinish&&!refresh)return mesh;
  if(!mesh.isMesh||Array.isArray(mesh.material))throw Error('Wood finish requires one panel material');

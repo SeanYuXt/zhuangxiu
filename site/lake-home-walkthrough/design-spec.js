@@ -2,21 +2,24 @@
 export const barSeating={left:[.395],right:[-.005,.595],storedZ:.32,pullOut:.45};
 // Current revision applied to the retained baseline mesh. Sizes are design candidates.
 export const livingRevision={
- id:'six-seat-long-side-20260906',columnWidth:.40,columnDepth:.45,columnWidthStatus:'用户给出结构柱宽不超过400mm；进深450mm仍待复尺，饰面另计',
+ id:'kitchen-fridge-island-20260910',columnWidth:.40,columnDepth:.45,columnWidthStatus:'用户给出结构柱宽不超过400mm；进深450mm仍待复尺，饰面另计',
  wingLengths:{left:1.30,right:1.30},barSeatLocalX:{left:[-.325,.325],right:[-.325,.325]},
  columnFinish:{side:.020,back:.015,front:.035},
  barDepth:.56,barOffsetZ:.01,barSeatStoredZ:.375,
  laundryOffsetZ:-.55,
  sofa:{length:2.60,position:[9.425,0,4.30]},
- island:{width:.90,length:1.80,height:.90,position:[7.47,0,4.05],drawerTravel:.40,carcassDepth:.49,kneeRecess:.38,seatPitch:.86},
- diningSeats:[[8.02,0,3.62],[8.02,0,4.48]],diningSeatRotation:Math.PI/2,seatPull:.45,seatWorkingPull:.05,
+ island:{width:.90,length:1.80,height:.90,position:[7.47,0,4.35],drawerTravel:.40,carcassDepth:.49,kneeRecess:.38,seatPitch:.86},
+ diningSeats:[[8.02,0,3.92],[8.02,0,4.78]],diningSeatRotation:Math.PI/2,seatPull:.45,seatWorkingPull:.05,
  coffee:{position:[10.55,0,4.30]},
  rug:{width:2.20,length:3.20,position:[10.25,0,4.30]},
  viewing:{eye:[9.275,1.08,4.30],note:'坐姿眼位为估算；85寸4K按约39°水平视角试排，个人舒适度与坐垫深度待体验'},
  masterAC:{position:[14.41,0,2.23],rotation:Math.PI/2,status:'改在主卧/主卫隔墙卧室侧，侧向送风；穿墙孔、冷凝水、型号和检修未确认'}
 };
-export const balconyCare={position:[6.20,0,.89],rotation:Math.PI/2,width:1.30,depth:.60,top:.90,robotTravel:.82,plumbingConfirmed:false};
-export const balconyDrying={position:[8.20,0,.52],length:1.60,bodyY:2.66,raisedY:2.55,loweredY:1.80,garmentWidth:.43,garmentDrop:.74,garmentDepth:.16,capacity:3,selectedProduct:false};
+// User's appliance envelope; height, cabinet details and rear allowance remain design assumptions.
+export const fridgeLayout={id:'fridge-900-600-kitchen',width:.90,depth:.60,height:2.0,
+ position:[6.24,0,2.33],rotation:Math.PI/2,cabinetWidth:.96,panel:.018,top:2.58,
+ wallFaceX:5.92,rearReserve:.02,sideGap:.012,islandShiftZ:.30};
+// Current balcony utility and drying dimensions live in balcony-layout-spec.js.
 // Design infill only: retain the source window schedule and the apartment outline.
 export const balconySideInfill=[
  {id:'balcony-solid-left',window:'window-living-8',wallIndex:8,a:[624,130],b:[624,300],thickness:.12},

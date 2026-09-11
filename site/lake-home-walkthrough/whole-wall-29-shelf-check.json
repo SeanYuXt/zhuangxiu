@@ -1,0 +1,49 @@
+{
+  "revision": "entry-whole-wall-29",
+  "shelf": {
+    "name": "drink-open-shelf",
+    "x1": 9.830000021457671,
+    "x2": 11.249999978542327,
+    "z1": 6.931000000596047,
+    "z2": 7.150999999403954,
+    "y1": 1.519999999895692,
+    "y2": 1.5440000001043082,
+    "widthMm": 1420,
+    "depthMm": 220,
+    "clearBelowMm": 615,
+    "clearAboveMm": 406,
+    "mountingVerified": false
+  },
+  "counter": {
+    "name": "whole-wall-drinks-worktop",
+    "x1": 9.27,
+    "x2": 11.27,
+    "z1": 6.619999994039535,
+    "z2": 7.170000005960464,
+    "y1": 0.8809999998956919,
+    "y2": 0.9050000001043081
+  },
+  "coffee": {
+    "name": "espresso-machine",
+    "x1": 9.28,
+    "x2": 9.460000007152557,
+    "z1": 6.665,
+    "z2": 6.984999998271465,
+    "y1": 0.905,
+    "y2": 1.2239999998025597
+  },
+  "dispenser": {
+    "name": "whole-wall-dispenser",
+    "x1": 9.459999994039535,
+    "x2": 9.760000005960464,
+    "z1": 6.90199999910593,
+    "z2": 7.132000000298023,
+    "y1": 1.0700000003874302,
+    "y2": 1.699999993443489
+  },
+  "shelfHits": [],
+  "applianceHorizontalGapMm": 70,
+  "fixedUnchanged": true,
+  "clearCounterHeightMm": 615,
+  "errors": []
+}

@@ -125,6 +125,33 @@ export function reviseHVAC(model){
  const roof=model.getObjectByName('客厅双眼皮外层')?.parent;if(!roof)throw Error('Missing ceiling assembly');
  for(const name of ['ducted-indoor-bulkhead','supply-grille','supply-grille_1','return-grille','service-hatch'])hide(model.getObjectByName(name));
  const ducted=makeDucted(roof),splits=Object.fromEntries(['bed1','master','bed3'].map(id=>[id,makeSplit(model,id)]));
+ // Move the design-only header as one assembly, keeping all service openings matched.
+ model.updateMatrixWorld(true);
+ const sideboard=model.getObjectByName('flush-sideboard');
+ if(sideboard){
+  const sideBounds=new T.Box3().setFromObject(sideboard),headerBounds=new T.Box3().setFromObject(ducted.shell);
+  ducted.root.position.x+=sideBounds.max.x-headerBounds.max.x;
+  ducted.root.userData.wallAlignment='Aligned with sideboard at original TV wall face; design position only';
+  model.updateMatrixWorld(true);
+  // The cabinet now meets the east ceiling trim. Notch only the plaster header
+  // against the existing 100/90mm trim steps; retain the original ceiling geometry.
+  const outer=new T.Box3().setFromObject(model.getObjectByName('客厅双眼皮外层'));
+  const inner=new T.Box3().setFromObject(model.getObjectByName('客厅双眼皮内层'));
+  const steps=[[inner.max.x-.09,outer.max.x-.10,inner.min.y],[outer.max.x-.10,Infinity,outer.min.y]];
+  for(const part of [...ducted.shell.children]){
+   if(!part.isMesh)continue;
+   const bounds=new T.Box3().setFromObject(part);
+   if(!steps.some(([x0,x1,y])=>bounds.max.x>x0&&bounds.min.x<x1&&bounds.max.y>y))continue;
+   const cuts=[bounds.min.x,...steps.map(s=>s[0]).filter(x=>x>bounds.min.x&&x<bounds.max.x),bounds.max.x];
+   for(let i=1;i<cuts.length;i++){
+    const x0=cuts[i-1],x1=cuts[i],step=steps.find(s=>(x0+x1)/2>=s[0]&&(x0+x1)/2<s[1]);
+    const y1=Math.min(bounds.max.y,step?.[2]??Infinity);if(y1<=bounds.min.y)continue;
+    const center=ducted.shell.worldToLocal(new T.Vector3((x0+x1)/2,(bounds.min.y+y1)/2,(bounds.min.z+bounds.max.z)/2));
+    box(ducted.shell,part.name+'-ceiling-joint-'+i,...center.toArray(),x1-x0,y1-bounds.min.y,bounds.max.z-bounds.min.z,part.material);
+   }
+   part.removeFromParent();part.geometry.dispose();
+  }
+ }
  const reset=()=>{ducted.reset();Object.values(splits).forEach(s=>s.reset());model.updateMatrixWorld(true);};reset();
  return {ducted,splits,design:hvacDesign,reset};
 }

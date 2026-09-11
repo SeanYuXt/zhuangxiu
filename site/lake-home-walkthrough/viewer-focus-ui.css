@@ -1,7 +1,10 @@
 /* Quiet inspection surface; room geometry and camera positions stay unchanged. */
 #viewerDetailToggle{position:absolute;top:10px;right:10px;z-index:8;min-height:44px;background:#fbfaf6ed;font-size:14px}
 #viewerDetailToggle[hidden]{display:none}
-body:not(.viewer-details-open) :is(#bedroomActions,#dryStorageActions,#dryingActions,#masterBathActions,#kitchenActions,#laundryActions,#sideboardActions,#fridgeActions,#publicBathActions){display:none!important}
+/* The room controls must clear the persistent image-settings button. */
+#laundryActions,#dryingActions,#balconyCareActions{top:106px;max-width:min(350px,calc(100% - 20px))}
+#balconyCareActions[hidden]{display:none!important}
+body:not(.viewer-details-open) :is(#bedroomActions,#dryStorageActions,#dryingActions,#masterBathActions,#kitchenActions,#laundryActions,#balconyCareActions,#sideboardActions,#fridgeActions,#publicBathActions){display:none!important}
 body.is-walking #viewerDetailToggle{display:none!important}
 #viewerHelp{width:min(560px,calc(100vw - 24px));max-height:85dvh;overflow:auto;border:1px solid #ddd8cd;border-radius:14px;padding:22px;background:#fbfaf6;color:#373731;font-size:16px}
 #viewerHelp form{display:flex;align-items:center;justify-content:space-between;gap:12px}

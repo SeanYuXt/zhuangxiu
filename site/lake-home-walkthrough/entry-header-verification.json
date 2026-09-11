@@ -1,0 +1,48 @@
+{
+  "sweeps": [
+    "duct-return",
+    "duct-filter",
+    "duct-hatch"
+  ],
+  "posesPerSweep": 91,
+  "hits": [],
+  "shellHits": [],
+  "staticShellContacts": [],
+  "passages": [
+    {
+      "id": "direct-supply-centre",
+      "hit": null
+    },
+    {
+      "id": "direct-supply-left",
+      "hit": null
+    },
+    {
+      "id": "direct-supply-right",
+      "hit": null
+    },
+    {
+      "id": "return",
+      "hit": null
+    },
+    {
+      "id": "hatch",
+      "hit": null
+    }
+  ],
+  "invalid": [],
+  "splitBounds": {},
+  "caseSize": [
+    1.2000000476837158,
+    0.22000000007823095,
+    0.6000000238418579
+  ],
+  "lowPlanArea": 3.6660000000000017,
+  "previousLowArea": 3.9199999999999995,
+  "limits": [
+    "OBB sample tests are geometry, not manufacturer installation/airflow certification",
+    "2.8m height and equipment selection provisional",
+    "No verified outdoor, refrigerant or condensate route"
+  ],
+  "errors": []
+}

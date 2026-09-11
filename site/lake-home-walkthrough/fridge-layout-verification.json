@@ -1,0 +1,66 @@
+{
+  "checkedAt": "2026-09-10T03:49:37.803Z",
+  "page": "http://127.0.0.1:8774/lake-home-walkthrough/column-view.html?space=fridge&v=fridge-layout-3",
+  "source": "Current loaded model, verifyFridgeLayout(), actual mesh geometry boxes, 1mm tolerance and 1-degree opening samples",
+  "revision": "kitchen-fridge-island-20260910",
+  "applianceMm": {"width": 900, "depth": 600, "height": 2000},
+  "surroundMm": {"width": 960, "depth": 610, "height": 2580, "panel": 18, "sideGap": 12},
+  "fridgeWorldBoundsMetres": {"min": [5.93, 0, 1.85], "max": [6.54, 2.58, 2.81]},
+  "clearancesMm": {
+    "applianceBehind": 20,
+    "cabinetBehind": 10,
+    "cabinetToWallSegmentEnds": [50, 50],
+    "islandToKitchenWall": 1100,
+    "islandToSofa": 1050,
+    "islandToSideboardAlongZ": 1345
+  },
+  "island": {
+    "positionMetres": [7.47, 0, 4.35],
+    "footprintMm": [900, 1800],
+    "shiftTowardsSideboardMm": 300,
+    "seatsMetres": [[8.02, 0, 3.92], [8.02, 0, 4.78]],
+    "seatFootprintsMm": [[420, 425], [420, 425]],
+    "pendantWorldCenterXZ": [7.47, 4.35],
+    "pendantParts": ["mesh_1359", "mesh_1360", "mesh_1361", "mesh_1362", "island-pendant-ceiling-canopy"],
+    "tableSettingsBoundsXZ": [7.44, 3.61, 7.82, 5.09]
+  },
+  "actualMeshChecks": {
+    "closedExternalHits": [],
+    "doorSweep0To125Hits": [],
+    "upperSweep0To90Hits": [],
+    "internalClosedHits": [],
+    "bins": [
+      {"index": 0, "travelMm": 300, "externalHits": [], "internalHits": []},
+      {"index": 1, "travelMm": 300, "externalHits": [], "internalHits": []},
+      {"index": 2, "travelMm": 300, "externalHits": [], "internalHits": []},
+      {"index": 3, "travelMm": 300, "externalHits": [], "internalHits": []},
+      {"index": 4, "travelMm": 300, "externalHits": [], "internalHits": []}
+    ]
+  },
+  "separateProxyCheck": {
+    "source": "auditFridgeFit(), kitchen-door outside location; simplified rectangles, not selected product geometry",
+    "closedRouteDiameterMm": 500,
+    "closedRouteHits": [],
+    "routeAt90DegreesWith300mmDrawerHits": [],
+    "operator600mmAt90And125DegreesHits": [],
+    "routeAt125Degrees": "not checked"
+  },
+  "uiChecks": {
+    "openFridgeButton": "four hinges at ±125 degrees",
+    "binButton": "first bin travels 300mm",
+    "upperButton": "upper door at -90 degrees; appliance doors closed",
+    "resetButton": "doors false, bin -1, upper false",
+    "layoutPlanAndElevationButtons": "rendered both views",
+    "fridgeAt319px": "no horizontal overflow",
+    "layoutAt390px": "74 SVG elements rendered; no horizontal overflow",
+    "moduleLoading": "ready true after versioning shared design-spec and consumers; no later console errors",
+    "javascriptSyntax": "PASS for changed modules and inline layout module",
+    "floorplanValidator": "PASS"
+  },
+  "limitations": [
+    "900mm width and 600mm depth follow user input. Height, side gaps, top cabinet and internal organization are design assumptions.",
+    "No actual refrigerator selected; ventilation, hinge mechanism, electrical connection and installation requirements remain unverified.",
+    "Projected mesh boxes conservatively check modeled geometry; they do not certify construction, human motion or comfort.",
+    "Existing offline high-resolution images have not been regenerated for this layout."
+  ]
+}

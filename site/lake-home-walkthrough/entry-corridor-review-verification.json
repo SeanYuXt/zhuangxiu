@@ -1,0 +1,12 @@
+{
+  "checkedAt": "2026-09-10T08:59:31.459Z",
+  "revision": "entry-stone-service-9",
+  "unknownBeamWidthPreserved": true,
+  "beamExample": {
+    "input": 280,
+    "remaining": 880
+  },
+  "invalidWidthRejected": true,
+  "desktopAndMobile": true,
+  "consoleErrors": []
+}

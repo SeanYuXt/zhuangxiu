@@ -1,9 +1,9 @@
 import * as T from './vendor/three.module.js';
-import {livingRevision as spec} from './design-spec.js';
+import {livingRevision as spec} from './design-spec.js?v=fridge-layout-2';
 import {makeDryIsland} from './dry-island.js';
 import {addBarWorkPower} from './bar-work-power.js';
 import {applyBalconySideInfill} from './balcony-side-infill.js';
-import {addBalconyCare} from './balcony-care.js';
+import {addBalconyCare} from './balcony-care.js?v=balcony-right-utility-3';
 import {refineSofa} from './textile-details.js?v=matte-fabric-2';
 import {refineBarSeats} from './bar-swivel-seats.js?v=matte-fabric-2';
 

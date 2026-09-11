@@ -28,11 +28,11 @@ function box(parent,name,x,y,z,w,h,d,material){
  const geometry=name.includes('-glider-')?new T.BoxGeometry(w,h,d):new RoundedBoxGeometry(w,h,d,2,Math.min(.002,w/5,h/5,d/5));
  const o=new T.Mesh(geometry,material);o.name=name;o.position.set(x,y,z);o.castShadow=true;o.receiveShadow=true;parent.add(o);return o;
 }
-function leaf(root,spec,sign){
+function leaf(root,spec,sign,fullWidth=false){
  // Pleat pitch is measured along the hung curtain, not the un-gathered cloth.
  // Keep the 1.85 fullness and stack width: fewer pleats necessarily use more
  // fore/aft space. The clearance verifier must accept that actual envelope.
- const closedSpan=spec.width/2+.025,length=closedSpan*1.85,folds=spec.id==='bed1'?Math.ceil(length/.19):Math.ceil(closedSpan/.20),nx=folds*20,ny=32;
+ const closedSpan=fullWidth?spec.width:spec.width/2+.025,length=closedSpan*1.85,folds=spec.id==='bed1'?Math.ceil(length/.19):Math.ceil(closedSpan/.20),nx=folds*20,ny=32;
  const g=new T.Group();g.name=spec.id+'-curtain-'+(sign<0?'left':'right');g.position.z=sign*.0025;root.add(g);
  const height=spec.top-spec.bottom,material=wovenFabricMaterial('#cbc7bd',length,height).clone();material.side=T.DoubleSide;material.sheen=1;material.sheenColor.set('#cbc7bd').multiplyScalar(.18);material.sheenRoughness=1;material.userData.sheenStrength=.18;material.name=spec.id+'-curtain-woven';
  const cloth=new T.Mesh(grid(nx,ny),material);cloth.name=g.name+'-cloth';cloth.castShadow=true;cloth.receiveShadow=true;cloth.userData={detailRole:'continuous-curtain-cloth',clothLength:length,height,folds,fullness:1.85};g.add(cloth);
@@ -68,12 +68,15 @@ function leaf(root,spec,sign){
 export function refineCurtains(model){
  if(model.getObjectByName('living-curtain')?.userData.continuousCloth)throw Error('Curtain refinement must be applied once');
  model.updateMatrixWorld(true);
- const bound=n=>new T.Box3().setFromObject(model.getObjectByName(n)),care=bound('balcony-care-cabinet'),laundry=bound('balcony-laundry-cabinet');
- const livingEnds=[care.max.x+.025,laundry.min.x-.025],controllers={};
+ const bound=n=>new T.Box3().setFromObject(model.getObjectByName(n)),leftWall=bound('balcony-solid-left'),laundry=bound('balcony-laundry-cabinet');
+ // Left utility furniture was removed; the curtain now terminates at the actual left wall.
+ // Keep floor-length fabric out of the wet/service aisle, even with the basin front in its maintenance position.
+ const foldingTable=new T.Box3().setFromObject(model.getObjectByName('lake-bar-right').children[0]);
+ const livingEnds=[leftWall.max.x+.025,Math.min(laundry.min.x-.025,foldingTable.max.x)],controllers={};
  for(const id of ['living','bed1','master','bed3']){
   const old=model.getObjectByName(id+'-curtain');if(!old||old.children.filter(c=>c.children.length===14).length!==2)throw Error('Unreviewed curtain baseline '+id);
   const root=new T.Group();root.name=id+'-curtain';root.position.copy(old.position);root.quaternion.copy(old.quaternion);root.scale.copy(old.scale);old.parent.add(root);old.name+='-baseline';old.visible=false;
-  const spec={id,width:id==='living'?livingEnds[1]-livingEnds[0]:id==='bed1'?2.5:id==='master'?2.8:1.58,stack:id==='living'?.32:.28,bottom:tileLayout.surfaceY+.015,top:id==='living'?2.575:2.60};
+  const spec={id,width:id==='living'?livingEnds[1]-livingEnds[0]:id==='bed1'?2.5:id==='master'?2.8:1.58,stack:id==='living'?.64:.28,bottom:tileLayout.surfaceY+.015,top:id==='living'?2.575:2.60};
   if(id==='living'){root.position.x=(livingEnds[0]+livingEnds[1])/2;root.position.z-=.06;}
   // The elder's cabinet starts 10mm behind the old curtain line: move only the
   // rail/cloth 50mm towards the window, within the measured model's 120mm gap.
@@ -84,11 +87,12 @@ export function refineCurtains(model){
   const railMat=new T.MeshStandardMaterial({color:'#cac8bf',roughness:.46,metalness:.25});
   for(const z of [-.008,.008])box(root,id+'-curtain-track',0,spec.top+.031,z,spec.width+.004,.016,.005,railMat);
   for(const x of [-spec.width/2,spec.width/2])box(root,id+'-curtain-track-end',x,spec.top+.031,0,.005,.018,.023,railMat);
-  const leaves=[leaf(root,spec,-1),leaf(root,spec,1)];
+  // Single draw to the left keeps the right basin, robot exit and service door clear.
+  const leaves=id==='living'?[leaf(root,spec,-1,true)]:[leaf(root,spec,-1),leaf(root,spec,1)];
   const motorZ=id==='bed1'?.055:id==='living'?.095:-.075;
   box(root,id+'-curtain-motor',-spec.width/2+.065,spec.top-.065,motorZ,.032,.19,.029,railMat);
   box(root,id+'-curtain-drive-link',-spec.width/2+.065,spec.top+.033,motorZ/2,.028,.012,Math.abs(motorZ)+.012,railMat);
-  root.userData={continuousCloth:true,detailRole:'curtain-system',width:spec.width,bottom:spec.bottom,top:spec.top,room:id,selectedProduct:false,electricalConnected:false,installationVerified:false,designNote:id==='living'?'Wide pleats; track 60mm glassward to clear washer door sweep':id==='bed1'?'Compact pleats in 120mm sill/cabinet gap; rail 50mm windowward':'Wide pleats; track 30mm roomward from baseline, sill unchanged'};
+  root.userData={continuousCloth:true,detailRole:'curtain-system',width:spec.width,bottom:spec.bottom,top:spec.top,room:id,selectedProduct:false,electricalConnected:false,installationVerified:false,designNote:id==='living'?'Single left draw, ending at folding-table edge to exclude the right wet/service aisle':id==='bed1'?'Compact pleats in 120mm sill/cabinet gap; rail 50mm windowward':'Wide pleats; track 30mm roomward from baseline, sill unchanged'};
   const set=f=>{leaves.forEach(l=>l.pose(f));root.updateMatrixWorld(true);};controllers[id]={root,spec,leaves,set,get fraction(){return leaves[0].fraction;}};
  }
  model.updateMatrixWorld(true);return {rooms:controllers,set:(room,f)=>controllers[room].set(f),reset:()=>Object.values(controllers).forEach(c=>c.set(0))};

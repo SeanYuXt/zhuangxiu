@@ -2,12 +2,12 @@
 // The positive z axis points toward the entry, not geographic north.
 // Latest user correction supersedes the earlier near-glass column placeholder.
 // Kept separate until furniture clearances around the revised column have been resolved.
-export const columnCorrection={point:[940,280],railingY:130,approxDistance:1.5,reference:'原推拉窗拆除处；护栏线至柱中心暂按约1.5m示意，非柱边净距复尺',source:'用户最新纠正',pendingFurniture:true};
+export const columnCorrection={point:[940,307.5],railingY:130,approxDistance:1.775,clearDepth:1.45,railingInnerY:140,reference:'用户本轮按1450mm试排：栏杆内侧至柱外侧；柱深450mm暂定，推导柱中心，不是现场复尺',source:'用户2026-09-10：按照1450mm算阳台宽度',pendingFurniture:false};
 export const P=([x,y])=>[(x-42)/100,(y-120)/100];
 // Hinge ends refer to walls[].open's a -> b direction, not geographic bearings.
 // Source: source-opening-schedule.json. Keep widths on the existing wall schedule.
 export const doorLeaves={
- front:[{key:'main',hinge:'b',turn:1,share:24.72/35.88,sourceRect:50},{key:'secondary',hinge:'a',turn:-1,share:11.16/35.88,sourceRect:49}],
+ front:[{key:'main',hinge:'a',turn:-1,share:24.72/35.88,sourceRect:50,swing_into:'exterior'},{key:'secondary',hinge:'b',turn:1,share:11.16/35.88,sourceRect:49,swing_into:'exterior'}],
  bed1:[{key:'single',hinge:'b',turn:-1,share:1,sourceRect:33}],
  bath1:[{key:'single',hinge:'a',turn:-1,share:1,sourceRect:31}],
  master:[{key:'single',hinge:'b',turn:-1,share:1,sourceRect:63}],

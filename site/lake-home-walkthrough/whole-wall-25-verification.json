@@ -1,0 +1,52 @@
+{
+  "model": "entry-whole-wall-25",
+  "zones": {
+    "widthMm": 2000,
+    "overallDepthMm": 600,
+    "utilityWidthMm": 400,
+    "prepWidthMm": 1200,
+    "drawerWidthMm": 800,
+    "shoeWidthMm": 800,
+    "illustratedPairs": 21,
+    "capacityCertified": false
+  },
+  "prep": {
+    "name": "entry-prep-worktop",
+    "x1": 3.7999999761581424,
+    "x2": 5.000000023841858,
+    "z1": 6.569999988079071,
+    "z2": 7.170000011920929,
+    "y1": 0.8559999998956919,
+    "y2": 0.8800000001043081
+  },
+  "side": {
+    "alongWallMm": 300,
+    "wallProjectionMm": 600,
+    "sideOuterWidthMm": 600,
+    "nicheClearWidthMm": 564,
+    "nicheClearDepthMm": 284,
+    "nicheClearHeightMm": 760,
+    "slipperClearMm": 230,
+    "opening": "towards-entry-positive-x",
+    "seat": false
+  },
+  "shoeBayX": [
+    4.999999994039536,
+    5.800000005960465
+  ],
+  "cabinetRunMm": 2330,
+  "doorClosedCorridorMm": 1070,
+  "fixedUnchanged": true,
+  "upperDoorWidths": [
+    394,
+    394,
+    394
+  ],
+  "drawerCount": 3,
+  "apertureHits": [],
+  "closedHits": [],
+  "motionHits": [],
+  "drawerCaseHits": [],
+  "mobileOverflow": false,
+  "errors": []
+}

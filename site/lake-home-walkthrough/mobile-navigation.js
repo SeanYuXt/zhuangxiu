@@ -2,7 +2,7 @@
 import {wireRenderGallery} from './render-gallery.js';
 import {roomViewsFor} from './room-viewpoints.js';
 export const mobileRooms=[['master','主卧'],['bed1','老人房'],['bed3','儿童房'],['bath1','公卫'],['bath2','主卫']];
-export const publicSpaces=[['entry','玄关'],['living','客厅'],['tvSeat','沙发坐姿观影'],['dining','餐厅'],['cabinet','餐边柜'],['fridge','冰箱区'],['kitchen','厨房'],['bar','阳台吧台'],['balconyGap','玻璃与柱之间'],['columnFront','柱前回望'],['glassLeft','阳台左端'],['glassRight','阳台洗烘侧'],['laundry','洗烘柜 · 向外错位'],['care','洗手台与扫地机'],['drying','升降晾衣架']];
+export const publicSpaces=[['entry','玄关'],['passageArt','儿童房门旁余墙'],['living','客厅'],['tvSeat','沙发坐姿观影'],['dining','餐厅'],['cabinet','餐边柜'],['fridge','冰箱区'],['kitchen','厨房'],['bar','阳台吧台'],['balconyGap','玻璃与柱之间'],['columnFront','柱前回望'],['glassLeft','阳台左端'],['glassRight','阳台洗烘侧'],['balconyDesign','阳台与电视柜'],['laundry','洗烘与手洗盆'],['care','右侧生活区 · 工具与扫地机'],['drying','升降晾衣架']];
 
 export function wireMobileNavigation({visit,focus,state,facilities,roomOf,model,walk,selectRoomView}){
  const host=document.querySelector('#viewport');

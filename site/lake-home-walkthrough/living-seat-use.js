@@ -1,5 +1,5 @@
 import * as T from './vendor/three.module.js';
-import {livingRevision as spec} from './design-spec.js';
+import {livingRevision as spec} from './design-spec.js?v=fridge-layout-2';
 import {auditSeatEgress} from './seat-egress.js';
 import {P,rooms} from './plan.js';
 
@@ -44,7 +44,7 @@ export function wireSeatUse(model,dialog,svg,onChange){
  function checkEgress(index){
   model.updateMatrixWorld(true);
   const rect=(object,name=object.name)=>{const b=new T.Box3().setFromObject(object);return {name,x1:b.min.x,x2:b.max.x,z1:b.min.z,z2:b.max.z};};
-  const names=['retained-balcony-column','bar-service-cover','linen-sofa','stone-island','slim-coffee-table','balcony-laundry-cabinet','balcony-care-cabinet','tv-low-console','flush-sideboard','integrated-fridge'];
+  const names=['retained-balcony-column','bar-service-cover','linen-sofa','stone-island','slim-coffee-table','balcony-laundry-cabinet','balcony-wet-hamper','balcony-care-cabinet','tv-low-console','tv-console-lake-extension','flush-sideboard','integrated-fridge'];
   const obstacles=names.map(n=>rect(model.getObjectByName(n)));
   for(const side of ['left','right']){const bar=model.getObjectByName('lake-bar-'+side);obstacles.push(rect(bar.children[0],'lake-bar-'+side));}
   const points=rooms.filter(r=>r.id==='living'||r.id==='dining').flatMap(r=>r.poly.map(P)),xs=points.map(p=>p[0]),zs=points.map(p=>p[1]);

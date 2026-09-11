@@ -1,5 +1,5 @@
 import * as T from './vendor/three.module.js';
-import {ceilingFixtures,livingRevision} from './design-spec.js';
+import {ceilingFixtures,livingRevision} from './design-spec.js?v=fridge-layout-2';
 
 // All values below are design/selection targets, not measured lux or installed products.
 export const lightingPresets={day:'日间',evening:'晚间',movie:'观影',study:'阅读办公',night:'起夜',off:'全部关灯'};
@@ -77,6 +77,8 @@ function classify(mesh){
  if(/footlight-diffuser$/.test(mesh.name))return {fixture:mesh.parent.name,room:mesh.name.split('-')[0],label:'床底遮光起夜灯',kind:'night',kelvin:2700,lumens:35,beam:100,shape:'rect',watts:'约1 W 选型目标'};
  if(path.includes('kitchen-hood'))return {fixture:'kitchen-hood',room:'kitchen',label:'烟机灶面灯',kind:'task',kelvin:4000,lumens:180,beam:90,shape:'disc',watts:'随烟机选型'};
  const map={
+  'entry-niche-warm-light':['entry','换鞋壁龛柔光','accent',160,3000],
+  'entry-display-light':['living','开放层板柔光','accent',140,3000],
   'sideboard-recessed-task-light':['living','餐边柜操作灯','task',1100,3500],
   'tv-console-soft-light':['living','电视柜下柔光','accent',300,2700],
   'bar-concealed-light':['balcony','左翼桌下灯','accent',160,2700],

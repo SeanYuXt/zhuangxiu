@@ -1,0 +1,149 @@
+[
+  {
+    "id": "potted_plant_02",
+    "name": "Potted Plant 02",
+    "authors": {
+      "Rico Cilliers": "All"
+    },
+    "source": "https://polyhaven.com/a/potted_plant_02",
+    "license": "CC0",
+    "licenseUrl": "https://polyhaven.com/license",
+    "textureResolution": "1k",
+    "files": [
+      {
+        "file": "potted_plant_02.gltf",
+        "bytes": 6653,
+        "md5": "9999d7e6c51018a85551840e1bdae656",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/potted_plant_02/potted_plant_02_1k.gltf"
+      },
+      {
+        "file": "textures/potted_plant_02_leaves_diff_1k.jpg",
+        "bytes": 167700,
+        "md5": "e8a026bd7bfa6497729d855c59da03ce",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/potted_plant_02/potted_plant_02_leaves_diff_1k.jpg"
+      },
+      {
+        "file": "potted_plant_02.bin",
+        "bytes": 1852244,
+        "md5": "cdbd4619b2596c9c469ad34676085fa8",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/potted_plant_02/potted_plant_02.bin"
+      },
+      {
+        "file": "textures/potted_plant_02_pot_rough_1k.jpg",
+        "bytes": 114886,
+        "md5": "68ed80fa32791fb0e81df61a75de40b4",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/potted_plant_02/potted_plant_02_pot_rough_1k.jpg"
+      },
+      {
+        "file": "textures/potted_plant_02_leaves_rough_1k.jpg",
+        "bytes": 102396,
+        "md5": "ba934a78cc6496d934c014eb8a33af37",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/potted_plant_02/potted_plant_02_leaves_rough_1k.jpg"
+      },
+      {
+        "file": "textures/potted_plant_02_pot_diff_1k.jpg",
+        "bytes": 155244,
+        "md5": "97e149c93eb0d962e491d4c82d3ce477",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/potted_plant_02/potted_plant_02_pot_diff_1k.jpg"
+      },
+      {
+        "file": "textures/potted_plant_02_leaves_nor_gl_1k.jpg",
+        "bytes": 127232,
+        "md5": "2420d5c0ab87426f5318a5e91d1ea3bb",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/potted_plant_02/potted_plant_02_leaves_nor_gl_1k.jpg"
+      },
+      {
+        "file": "textures/potted_plant_02_pot_nor_gl_1k.jpg",
+        "bytes": 108343,
+        "md5": "fbb44ccc1c6564b2837b79a11ed45d58",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/potted_plant_02/potted_plant_02_pot_nor_gl_1k.jpg"
+      }
+    ]
+  },
+  {
+    "id": "ceramic_vase_02",
+    "name": "Ceramic Vase 02",
+    "authors": {
+      "James Ray Cock": "All"
+    },
+    "source": "https://polyhaven.com/a/ceramic_vase_02",
+    "license": "CC0",
+    "licenseUrl": "https://polyhaven.com/license",
+    "textureResolution": "1k",
+    "files": [
+      {
+        "file": "ceramic_vase_02.gltf",
+        "bytes": 2716,
+        "md5": "2f49a3853a20857a2f0169a764689aa9",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/ceramic_vase_02/ceramic_vase_02_1k.gltf"
+      },
+      {
+        "file": "textures/ceramic_vase_02_nor_gl_1k.jpg",
+        "bytes": 164130,
+        "md5": "05e671a686f54f3add772305cf531045",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/ceramic_vase_02/ceramic_vase_02_nor_gl_1k.jpg"
+      },
+      {
+        "file": "textures/ceramic_vase_02_diff_1k.jpg",
+        "bytes": 98894,
+        "md5": "767b3412c76a91ddc807d69b5b34df96",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/ceramic_vase_02/ceramic_vase_02_diff_1k.jpg"
+      },
+      {
+        "file": "ceramic_vase_02.bin",
+        "bytes": 293776,
+        "md5": "39b375411e2dd303ac86c17cb1ded216",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/ceramic_vase_02/ceramic_vase_02.bin"
+      },
+      {
+        "file": "textures/ceramic_vase_02_rough_1k.jpg",
+        "bytes": 190645,
+        "md5": "cc2ad94640549ada75e9363d4ce8da5c",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/ceramic_vase_02/ceramic_vase_02_rough_1k.jpg"
+      }
+    ]
+  },
+  {
+    "id": "ceramic_vase_03",
+    "name": "Ceramic Vase 03",
+    "authors": {
+      "James Ray Cock": "All"
+    },
+    "source": "https://polyhaven.com/a/ceramic_vase_03",
+    "license": "CC0",
+    "licenseUrl": "https://polyhaven.com/license",
+    "textureResolution": "1k",
+    "files": [
+      {
+        "file": "ceramic_vase_03.gltf",
+        "bytes": 2690,
+        "md5": "5c5ad889be3b7464bc87d29f0d85cd73",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/ceramic_vase_03/ceramic_vase_03_1k.gltf"
+      },
+      {
+        "file": "textures/ceramic_vase_03_rough_1k.jpg",
+        "bytes": 154214,
+        "md5": "f7b93888bf3bb21f280f38635f2fb401",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/ceramic_vase_03/ceramic_vase_03_rough_1k.jpg"
+      },
+      {
+        "file": "textures/ceramic_vase_03_nor_gl_1k.jpg",
+        "bytes": 181966,
+        "md5": "e8ea6ff7afcb3b2dd57bc5a9b7d61d6d",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/ceramic_vase_03/ceramic_vase_03_nor_gl_1k.jpg"
+      },
+      {
+        "file": "ceramic_vase_03.bin",
+        "bytes": 299232,
+        "md5": "4ad56bfebd58d98eb20f13a5e4fb6476",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/ceramic_vase_03/ceramic_vase_03.bin"
+      },
+      {
+        "file": "textures/ceramic_vase_03_diff_1k.jpg",
+        "bytes": 127057,
+        "md5": "f5688bd3b1835b5dd94f701704d5dc5d",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/ceramic_vase_03/ceramic_vase_03_diff_1k.jpg"
+      }
+    ]
+  }
+]

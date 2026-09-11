@@ -46,7 +46,7 @@ function refineUnit(unit,kind,drumMaterial){
  box(door,kind+'-door-grip',[-.199,-.007,.033],[.024,.092,.02],dark);
  for(const y of [-.045,.045])box(unit,kind+'-hinge-fixed',[.241,.391+y,.325],[.039,.024,.022],steel);
  box(hinge,kind+'-hinge-arm',[-.025,0,-.008],[.05,.10,.016],steel);
- unit.userData={...unit.userData,nominalDepthMm:630,hingeSide:'local-right / away from glass',maxPreviewAngle:110,modelSelected:false,installationStatus:'Selection envelope only; requires right-hinged product, not field-reversing an arbitrary washer'};
+ unit.userData={...unit.userData,nominalDepthMm:630,hingeSide:'local-right / away from glass',maxPreviewAngle:90,modelSelected:false,installationStatus:'700mm柜宽只预览90度；需选可在90度取衣的右铰链产品，不能将任意洗衣机现场换向'};
  return {unit,hinge,door,body,drum};
 }
 
@@ -64,7 +64,7 @@ export function refineLaundry(model){
  for(const x of [-.36,.13])for(const z of [-.25,.24])box(cabinet,'washer-leveling-pad',[x,.0625,z],[.052,.005,.055],rubber);
  kit.userData={manufacturerKitSelected:false,loadRating:null,warning:'示意承接关系；不可按此自行制作叠放件'};
  const state={washer:0,dryer:0};
- function set(kind,degrees){if(!units[kind]||!Number.isFinite(degrees))throw Error('Invalid laundry action');const angle=T.MathUtils.clamp(degrees,0,110);state[kind]=angle;units[kind].hinge.rotation.y=angle*Math.PI/180;model.updateMatrixWorld(true);}
+ function set(kind,degrees){if(!units[kind]||!Number.isFinite(degrees))throw Error('Invalid laundry action');const angle=T.MathUtils.clamp(degrees,0,90);state[kind]=angle;units[kind].hinge.rotation.y=angle*Math.PI/180;model.updateMatrixWorld(true);}
  function reset(){set('washer',0);set('dryer',0);}
  return {cabinet,units,kit,state,set,reset};
 }

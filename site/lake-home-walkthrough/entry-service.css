@@ -1,0 +1,9 @@
+#entryServiceActions{position:absolute;z-index:6;left:14px;top:108px;width:248px;background:#fbfaf6ee;border:1px solid #ddd8cd;border-radius:10px;padding:10px 12px;color:#534c40;font:13px/1.55 system-ui}
+#entryServiceActions[hidden]{display:none}
+#entryServiceActions>span{font-weight:600}
+#entryServiceActions summary{cursor:pointer;min-height:34px;padding-top:6px}
+#entryServiceActions .service-buttons{display:grid;grid-template-columns:1fr 1fr;gap:5px}
+#entryServiceActions button{min-height:40px;padding:5px;font-size:12px}
+#entryServiceActions p{margin:8px 0;font-size:12px}
+#entryServiceActions a{color:#655c46}
+@media(max-width:800px){#entryServiceActions{left:10px;top:104px;width:212px;padding:7px 10px;font-size:12px}}

@@ -1,0 +1,115 @@
+{
+  "checkedAt": "2026-09-10T03:18:54.140Z",
+  "source": "Browser auditFridgeFit(columnViewDebug.dryStudy.model)",
+  "applianceMm": {
+    "width": 900,
+    "depth": 600,
+    "assumedHeight": 2000
+  },
+  "assumedInstallationMm": {
+    "width": 1000,
+    "rearReserve": 20
+  },
+  "inside": {
+    "centerMetres": [
+      5.2,
+      4.98
+    ],
+    "closedApplianceHits": [],
+    "installationReserveHits": [],
+    "doorSweep": [
+      {
+        "door": 0,
+        "firstAngle": 112,
+        "obstacle": "mesh_43",
+        "description": "Kitchen east wall south of the entrance"
+      }
+    ],
+    "drawerAt90": {
+      "static": [],
+      "doors": []
+    },
+    "operatorAt90": {
+      "static": [],
+      "door": [],
+      "drawer": false
+    },
+    "operatorSquareMm": 600,
+    "approachWithClosedDoors": {
+      "diameterMm": 500,
+      "stepMm": 25,
+      "hits": []
+    },
+    "routeWith90DoorsAndDrawer": {
+      "diameterMm": 500,
+      "stepMm": 25,
+      "hits": []
+    },
+    "frontToNorthWorktopMm": 2180,
+    "sideToWestWorktopMm": 415
+  },
+  "outside": {
+    "centerMetres": [
+      6.24,
+      2.33
+    ],
+    "closedApplianceHits": [],
+    "installationReserveHits": [],
+    "doorSweep": [],
+    "drawerAt90": {
+      "static": [],
+      "doors": []
+    },
+    "operatorAt90": {
+      "static": [],
+      "door": [],
+      "drawer": false
+    },
+    "approachWithClosedDoors": {
+      "diameterMm": 500,
+      "stepMm": 25,
+      "hits": []
+    },
+    "routeWith90DoorsAndDrawer": {
+      "diameterMm": 500,
+      "stepMm": 25,
+      "hits": [
+        "冰箱门0",
+        "已拉出冰箱抽屉"
+      ]
+    }
+  },
+  "limits": [
+    "Latest user correction: 900mm width and 600mm depth. Height and installation allowances remain study assumptions",
+    "Simple front-corner hinges with 45mm door panels, 300mm drawer travel; actual 90-degree extraction must be checked against the selected product",
+    "Conservative mesh bounding boxes with vertical filtering; no manufacturer installation, ventilation or site certification",
+    "Old refrigerator excluded from relocation checks; surrounding furniture retained",
+    "One explicit walking route was sampled per location, not a complete search of every possible route",
+    "Study and diagram only; the main 3D refrigerator has not been rebuilt or relocated"
+  ],
+  "floorplanValidator": "PASS",
+  "studyPageConsoleErrors": [],
+  "kitchenUseReview": {
+    "source": "Browser check of kitchen-pots-drawer-0 and kitchen-pots-drawer-1, full 400mm travel",
+    "kitchenAreaM2": 6.808,
+    "applianceAreaM2": 0.54,
+    "originalWorkAisleMm": 1385,
+    "fridgeSideGapAtWorktopTailMm": 415,
+    "fullyOpenPotsDrawerSideGapMm": 20,
+    "normalPotRetrievalStandingSquareMm": 600,
+    "normalPotRetrievalStandingSquareIntersectsFridge": true,
+    "recommendation": "Do not recommend the inside placement; outside near the kitchen remains a candidate requiring island-side turning coordination"
+  },
+  "cabinetWidthClarification": {
+    "wallSegmentMm": 1060,
+    "applianceWidthMm": 900,
+    "sidePanelsMm": [
+      18,
+      18
+    ],
+    "appliancePlusPanelsMm": 936,
+    "remainingBeforeProductGapsMm": 124,
+    "studyEnvelopeMm": 1000,
+    "studyEnvelopeIsMandatory": false
+  }
+}

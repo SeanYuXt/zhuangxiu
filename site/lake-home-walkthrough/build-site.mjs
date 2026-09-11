@@ -18,8 +18,8 @@ const compiled=await build({absWorkingDir:root,entryPoints:['column-view.js','ch
 for(const p of Object.keys(compiled.metafile.inputs)){
  assert.ok(!p.startsWith('node_modules/'),'Runtime must use the existing self-contained vendor modules');add(p.split(/[?#]/)[0]);
 }
-for(const name of ['column-view.html','mobile-preview.html','column-check.html','children-layouts.html','source-window-check.svg'])add(name);
-for(const name of ['column-view.css','mobile-view.css','continuous-walk.css','lighting-controls.css','children-layouts.css','curtain-controls.css','hvac-controls.css','tile-controls.css','viewer-focus-ui.css'])add(name);
+for(const name of ['column-view.html','mobile-preview.html','column-check.html','children-layouts.html','source-window-check.svg','entry-design-plan.html','fridge-fit.html','fridge-fit-audit.js'])add(name);
+for(const name of ['column-view.css','mobile-view.css','continuous-walk.css','lighting-controls.css','children-layouts.css','curtain-controls.css','hvac-controls.css','tile-controls.css','viewer-focus-ui.css','immersive-preview.css'])add(name);
 for(const name of ['source-dimension-audit.json','source-opening-schedule.json','child-current-layout-audit.json'])add(name);
 function directory(dir){for(const item of fs.readdirSync(path.join(root,dir),{withFileTypes:true})){assert.ok(!item.isSymbolicLink(),'Asset symlinks are not followed');const p=dir+'/'+item.name;if(item.isDirectory())directory(p);else if(item.isFile()&&!p.endsWith('.exr')&&!p.endsWith('-raw.hdr'))add(p);}}
 directory('assets');

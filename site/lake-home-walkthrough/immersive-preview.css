@@ -1,0 +1,13 @@
+#immersiveToggle{position:absolute;left:14px;top:54px;z-index:8;background:#fbfaf6ed;min-height:40px;font-size:13px}
+#immersiveSettings{width:min(440px,calc(100vw - 28px));max-height:85dvh;overflow:auto;padding:24px;border:1px solid #ddd8cd;border-radius:18px;background:#fbfaf6;color:#373731}
+#immersiveSettings::backdrop{background:#272c2855;backdrop-filter:blur(4px)}
+#immersiveSettings form{display:flex;justify-content:space-between;align-items:center;gap:10px}
+#immersiveSettings h2{font-size:20px;margin:0}#immersiveSettings label{display:flex;align-items:center;justify-content:space-between;gap:16px;margin:22px 0;font-size:15px}
+#immersiveSettings select{min-height:40px;max-width:200px;background:#f4f1ea;border:1px solid #ddd8cd;border-radius:8px;padding:6px;color:inherit}
+#immersiveSettings input[type=range]{width:160px}#immersiveSettings p{font-size:13px;line-height:1.7;color:#706e64}
+#immersiveSettings button{min-height:40px}#immersiveSettings .immersive-actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
+body.hide-room-markers #hotspots{visibility:hidden}
+body.immersive-locked #view3d{cursor:none}
+#walkReticle{position:absolute;left:50%;top:50%;width:5px;height:5px;border-radius:50%;background:#fff9;box-shadow:0 0 0 1px #37373180;pointer-events:none;z-index:2;display:none}
+body.immersive-locked #walkReticle{display:block}
+@media(max-width:800px){#immersiveToggle{left:10px;top:52px;min-height:38px;font-size:12px}}
